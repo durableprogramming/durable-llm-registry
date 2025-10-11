@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groq - Durable LLM Registry</title>
+   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-screen text-white">
+  <div class="container mx-auto px-4 py-8">
+    <header class="mb-8">
+      <a href="../index.html" class="inline-flex items-center text-cyan-400 hover:text-cyan-300 mb-4 transition-colors">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Back to Registry
+      </a>
+      <h1 class="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
+        Groq API Catalog
+      </h1>
+      <p class="text-slate-300 text-lg">
+        Comprehensive overview of all groq models available through the LLM Kit
+      </p>
+    </header>
+
+    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 mb-8">
+      <h2 class="text-2xl font-semibold text-cyan-400 mb-4">Overview</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Provider</div>
+          <div class="text-lg font-semibold text-white capitalize">groq</div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Total Models</div>
+          <div class="text-lg font-semibold text-white">15</div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Last Updated</div>
+          <div class="text-lg font-semibold text-white">2025-10-11</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">GPT-OSS 120B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">openai/gpt-oss-120b</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">gpt-oss-120b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">65,536 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Reasoning
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.75</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">GPT-OSS 20B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">openai/gpt-oss-20b</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">gpt-oss-20b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">65,536 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Reasoning
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.5</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Groq Compound</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">groq/compound</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">groq-compound</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Web search
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code execution
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Tool use
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Groq Compound Mini</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">groq/compound-mini</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">groq-compound-mini</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Web search
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code execution
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Tool use
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Kimi K2 0905</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">moonshotai/kimi-k2-instruct-0905</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">kimi-k2-0905</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">262,144 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">16,384 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$1.0</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$3.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Llama 3.1 8B Instant</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">llama-3.1-8b-instant</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">llama-3.1-8b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">131,072 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.05</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.08</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Llama 3.3 70B Versatile</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">llama-3.3-70b-versatile</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">llama-3.3-70b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">32,768 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.59</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.79</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Llama 4 Maverick (17Bx128E)</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">meta-llama/llama-4-maverick-17b-128e-instruct</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">llama-4-maverick</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Llama 4 Scout (17Bx16E)</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">meta-llama/llama-4-scout-17b-16e-instruct</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">llama-4-scout</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.11</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.34</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Llama Guard 4 12B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">meta-llama/llama-guard-4-12b</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">llama-guard-4-12b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">1,024 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">PlayAI TTS</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">playai-tts</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">playai-tts</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">8,192 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">audio</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Text to speech
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">PlayAI TTS Arabic</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">playai-tts-arabic</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">playai-tts-arabic</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">8,192 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">audio</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Text to speech
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Qwen3 32B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">qwen/qwen3-32b</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">qwen3-32b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">131,072 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">40,960 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.29</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.59</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Whisper Large v3</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">whisper-large-v3</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">whisper-large-v3</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium"> tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">audio</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Speech to text
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Whisper Large v3 Turbo</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">whisper-large-v3-turbo</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">whisper-large-v3-turbo</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium"> tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">audio</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Speech to text
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+    </div>
+
+    <footer class="text-center mt-16 text-slate-500">
+      <p>Last updated: 2025-10-11 17:27 UTC</p>
+    </footer>
+  </div>
+</body>
+</html>

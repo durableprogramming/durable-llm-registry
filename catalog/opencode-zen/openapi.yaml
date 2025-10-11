@@ -1,0 +1,137 @@
+openapi: 3.0.0
+info:
+  title: OpenCode Zen API
+  description: OpenCode Zen provides access to curated AI models through a unified API gateway.
+  version: 1.0.0
+  contact:
+    name: OpenCode Support
+    url: https://opencode.ai
+servers:
+  - url: https://opencode.ai/zen/v1
+    description: OpenCode Zen API Gateway
+paths:
+  /chat/completions:
+    post:
+      summary: Create a chat completion
+      operationId: createChatCompletion
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatCompletionRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatCompletionResponse'
+  /messages:
+    post:
+      summary: Create a message completion (Anthropic compatible)
+      operationId: createMessage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MessageRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MessageResponse'
+  /responses:
+    post:
+      summary: Create a response (OpenAI compatible)
+      operationId: createResponse
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResponseRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseResponse'
+components:
+  schemas:
+    ChatCompletionRequest:
+      type: object
+      properties:
+        model:
+          type: string
+          description: The model to use for completion
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatMessage'
+    ChatCompletionResponse:
+      type: object
+      properties:
+        choices:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatChoice'
+    MessageRequest:
+      type: object
+      properties:
+        model:
+          type: string
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/Message'
+    MessageResponse:
+      type: object
+      properties:
+        content:
+          type: array
+          items:
+            $ref: '#/components/schemas/ContentBlock'
+    ResponseRequest:
+      type: object
+      properties:
+        model:
+          type: string
+        input:
+          type: string
+    ResponseResponse:
+      type: object
+      properties:
+        output:
+          type: string
+    ChatMessage:
+      type: object
+      properties:
+        role:
+          type: string
+          enum: [system, user, assistant]
+        content:
+          type: string
+    ChatChoice:
+      type: object
+      properties:
+        message:
+          $ref: '#/components/schemas/ChatMessage'
+    Message:
+      type: object
+      properties:
+        role:
+          type: string
+        content:
+          type: string
+    ContentBlock:
+      type: object
+      properties:
+        type:
+          type: string
+        text:
+          type: string

@@ -1,0 +1,278 @@
+openapi: 3.0.0
+info:
+  title: Perplexity API
+  description: The Perplexity REST API for Sonar models
+  version: 1.0.0
+servers:
+  - url: https://api.perplexity.ai
+paths:
+  /chat/completions:
+    post:
+      summary: Creates a model response for the given chat conversation.
+      operationId: createChatCompletion
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateChatCompletionRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateChatCompletionResponse'
+  /async/chat/completions:
+    post:
+      summary: Creates an asynchronous chat completion.
+      operationId: createAsyncChatCompletion
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateChatCompletionRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AsyncChatCompletionResponse'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    CreateChatCompletionRequest:
+      type: object
+      required:
+        - model
+        - messages
+      properties:
+        model:
+          type: string
+          enum: [sonar, sonar-pro, sonar-reasoning, sonar-reasoning-pro, sonar-deep-research]
+          description: ID of the model to use.
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatCompletionRequestMessage'
+          description: A list of messages comprising the conversation so far.
+        search_mode:
+          type: string
+          enum: [academic, sec, web]
+          default: web
+          description: Controls search mode.
+        reasoning_effort:
+          type: string
+          enum: [low, medium, high]
+          description: Controls computational effort for deep research models.
+        max_tokens:
+          type: integer
+          description: The maximum number of completion tokens.
+        temperature:
+          type: number
+          minimum: 0
+          maximum: 2
+          default: 0.2
+          description: The amount of randomness in the response.
+        top_p:
+          type: number
+          minimum: 0
+          maximum: 1
+          default: 0.9
+          description: The nucleus sampling threshold.
+        language_preference:
+          type: string
+          description: The language preference for the response content.
+        search_domain_filter:
+          type: array
+          items:
+            type: string
+          description: A list of domains to limit search results to.
+        return_images:
+          type: boolean
+          default: false
+          description: Determines whether search results should include images.
+        return_related_questions:
+          type: boolean
+          default: false
+          description: Determines whether related questions should be returned.
+        search_recency_filter:
+          type: string
+          description: Filters search results based on time.
+        search_after_date_filter:
+          type: string
+          description: Filters search results to only include content published after this date.
+        search_before_date_filter:
+          type: string
+          description: Filters search results to only include content published before this date.
+        last_updated_after_filter:
+          type: string
+          description: Filters search results to only include content last updated after this date.
+        last_updated_before_filter:
+          type: string
+          description: Filters search results to only include content last updated before this date.
+        top_k:
+          type: number
+          default: 0
+          description: The number of tokens to keep for top-k filtering.
+        stream:
+          type: boolean
+          default: false
+          description: Determines whether to stream the response incrementally.
+        presence_penalty:
+          type: number
+          default: 0
+          description: Positive values increase the likelihood of discussing new topics.
+        frequency_penalty:
+          type: number
+          default: 0
+          description: Decreases likelihood of repetition based on prior frequency.
+        response_format:
+          type: object
+          description: Enables structured JSON output formatting.
+        disable_search:
+          type: boolean
+          default: false
+          description: When set to true, disables web search completely.
+        enable_search_classifier:
+          type: boolean
+          default: false
+          description: Enables a classifier that decides if web search is needed.
+        web_search_options:
+          type: object
+          properties:
+            search_context_size:
+              type: string
+              enum: [low, medium, high]
+          description: Configuration for using web search in model responses.
+        media_response:
+          type: object
+          properties:
+            overrides:
+              type: object
+              properties:
+                return_videos:
+                  type: boolean
+                return_images:
+                  type: boolean
+          description: Configuration for controlling media content in responses.
+    CreateChatCompletionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: A unique identifier for the chat completion.
+        model:
+          type: string
+          description: The model that generated the response.
+        created:
+          type: integer
+          description: The Unix timestamp of when the chat completion was created.
+        usage:
+          type: object
+          properties:
+            prompt_tokens:
+              type: integer
+            completion_tokens:
+              type: integer
+            total_tokens:
+              type: integer
+            search_context_size:
+              type: string
+            citation_tokens:
+              type: integer
+            num_search_queries:
+              type: integer
+            reasoning_tokens:
+              type: integer
+          description: Usage statistics for the request.
+        object:
+          type: string
+          default: chat.completion
+          description: The type of object.
+        choices:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatCompletionResponseChoice'
+          description: A list of chat completion choices.
+        search_results:
+          type: array
+          items:
+            $ref: '#/components/schemas/SearchResult'
+          description: A list of search results related to the response.
+        videos:
+          type: array
+          items:
+            $ref: '#/components/schemas/VideoResult'
+          description: A list of video results.
+    AsyncChatCompletionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: A unique identifier for the async chat completion.
+        status:
+          type: string
+          description: The status of the async request.
+    ChatCompletionRequestMessage:
+      type: object
+      properties:
+        role:
+          type: string
+          enum: [system, user, assistant]
+          description: The role of the message author.
+        content:
+          type: string
+          description: The content of the message.
+    ChatCompletionResponseChoice:
+      type: object
+      properties:
+        index:
+          type: integer
+          description: The index of the choice.
+        finish_reason:
+          type: string
+          description: The reason the model stopped generating tokens.
+        message:
+          $ref: '#/components/schemas/ChatCompletionRequestMessage'
+          description: The message generated by the model.
+    SearchResult:
+      type: object
+      properties:
+        title:
+          type: string
+          description: The title of the search result.
+        url:
+          type: string
+          description: The URL of the search result.
+        date:
+          type: string
+          format: date
+          description: The date of the search result.
+    VideoResult:
+      type: object
+      properties:
+        url:
+          type: string
+          description: The URL of the video.
+        thumbnail_url:
+          type: string
+          description: The URL of the video thumbnail.
+        thumbnail_width:
+          type: integer
+          description: The width of the thumbnail.
+        thumbnail_height:
+          type: integer
+          description: The height of the thumbnail.
+        duration:
+          type: integer
+          description: The duration of the video in seconds.

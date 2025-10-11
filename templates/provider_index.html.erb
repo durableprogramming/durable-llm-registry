@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= provider.capitalize %> - Durable LLM Registry</title>
+   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-screen text-white">
+  <div class="container mx-auto px-4 py-8">
+    <header class="mb-8">
+      <a href="../index.html" class="inline-flex items-center text-cyan-400 hover:text-cyan-300 mb-4 transition-colors">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Back to Registry
+      </a>
+      <h1 class="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
+        <%= provider.capitalize %> API Catalog
+      </h1>
+      <p class="text-slate-300 text-lg">
+        Comprehensive overview of all <%= provider %> models available through the LLM Kit
+      </p>
+    </header>
+
+    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 mb-8">
+      <h2 class="text-2xl font-semibold text-cyan-400 mb-4">Overview</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Provider</div>
+          <div class="text-lg font-semibold text-white capitalize"><%= provider %></div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Total Models</div>
+          <div class="text-lg font-semibold text-white"><%= models.size %></div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Last Updated</div>
+          <div class="text-lg font-semibold text-white"><%= Time.now.strftime('%Y-%m-%d') %></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      <% models.each do |model| %>
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4"><%= model['name'] %></h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm"><%= model['id'] %></code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium"><%= model['family'] %></div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium"><%= model['context_window'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %> tokens</span>
+                </div>
+                <% if model['max_output_tokens'] %>
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium"><%= model['max_output_tokens'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %> tokens</span>
+                  </div>
+                <% end %>
+              </div>
+            </div>
+          </div>
+
+          <% if model['modalities'] %>
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <% if model['modalities']['input'] %>
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white"><%= model['modalities']['input'].join(', ') %></div>
+                  </div>
+                <% end %>
+                <% if model['modalities']['output'] %>
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white"><%= model['modalities']['output'].join(', ') %></div>
+                  </div>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+
+          <% if model['capabilities'] && !model['capabilities'].empty? %>
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                <% model['capabilities'].each do |cap| %>
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    <%= cap.gsub('_', ' ').capitalize %>
+                  </span>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+
+          <% if model['pricing'] %>
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              <% if model['pricing']['text_tokens'] %>
+                <div class="space-y-4">
+                  <% if model['pricing']['text_tokens']['standard'] %>
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <% if model['pricing']['text_tokens']['standard']['input_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['standard']['input_per_million'] %></div>
+                          </div>
+                        <% end %>
+                        <% if model['pricing']['text_tokens']['standard']['output_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['standard']['output_per_million'] %></div>
+                          </div>
+                        <% end %>
+                      </div>
+                    </div>
+                  <% end %>
+                  <% if model['pricing']['text_tokens']['cached'] %>
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Cached</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <% if model['pricing']['text_tokens']['cached']['input_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['cached']['input_per_million'] %></div>
+                          </div>
+                        <% end %>
+                        <% if model['pricing']['text_tokens']['cached']['output_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['cached']['output_per_million'] %></div>
+                          </div>
+                        <% end %>
+                      </div>
+                    </div>
+                  <% end %>
+                  <% if model['pricing']['text_tokens']['batch'] %>
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Batch</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <% if model['pricing']['text_tokens']['batch']['input_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['batch']['input_per_million'] %></div>
+                          </div>
+                        <% end %>
+                        <% if model['pricing']['text_tokens']['batch']['output_per_million'] %>
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$<%= model['pricing']['text_tokens']['batch']['output_per_million'] %></div>
+                          </div>
+                        <% end %>
+                      </div>
+                    </div>
+                  <% end %>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+
+    <footer class="text-center mt-16 text-slate-500">
+      <p>Last updated: <%= Time.now.strftime('%Y-%m-%d %H:%M UTC') %></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+openapi: 3.0.0
+info:
+  title: Google AI API
+  description: The Google AI REST API
+  version: 1.0.0
+servers:
+  - url: https://generativelanguage.googleapis.com
+paths:
+  /v1beta/models/{model}/generateContent:
+    post:
+      summary: Generates a response from the model.
+      operationId: generateContent
+      parameters:
+        - name: model
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateContentRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerateContentResponse'
+components:
+  schemas:
+    GenerateContentRequest:
+      type: object
+      properties:
+        contents:
+          type: array
+          items:
+            $ref: '#/components/schemas/Content'
+    GenerateContentResponse:
+      type: object
+      properties:
+        candidates:
+          type: array
+          items:
+            $ref: '#/components/schemas/Candidate'
+    Content:
+      type: object
+      properties:
+        parts:
+          type: array
+          items:
+            type: object
+            properties:
+              text:
+                type: string
+    Candidate:
+      type: object
+      properties:
+        content:
+          $ref: '#/components/schemas/Content'

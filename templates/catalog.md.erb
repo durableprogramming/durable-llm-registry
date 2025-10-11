@@ -1,0 +1,75 @@
+# <%= provider.capitalize %> API Catalog
+
+This catalog provides a comprehensive overview of all <%= provider %> models available through the LLM Kit.
+
+## Overview
+
+- **Provider**: <%= provider %>
+- **Total Models**: <%= models.size %>
+- **Last Updated**: <%= Time.now.strftime('%Y-%m-%d') %>
+
+## Models
+
+<% models.each do |model| %>
+### <%= model['name'] %>
+
+**Model ID**: `<%= model['id'] %>`  
+**Family**: <%= model['family'] %>
+#### Specifications
+
+- **Context Window**: <%= model['context_window'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %> tokens
+
+<% if model['max_output_tokens'] %>
+- **Max Output Tokens**: <%= model['max_output_tokens'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %> tokens
+<% end %>
+
+#### Modalities
+<% if model['modalities'] %>
+<% if model['modalities']['input'] %>
+- **Input**: <%= model['modalities']['input'].join(', ') %>
+<% end %>
+<% if model['modalities']['output'] %>
+- **Output**: <%= model['modalities']['output'].join(', ') %>
+<% end %>
+<% end %>
+#### Capabilities
+<% if model['capabilities'] && !model['capabilities'].empty? %>
+<% model['capabilities'].each do |cap| %>
+- <%= cap.gsub('_', ' ').capitalize %>
+<% end %>
+<% end %>
+
+#### Pricing (per million tokens)
+<% if model['pricing'] %>
+<% if model['pricing']['text_tokens'] %>
+##### Text Tokens
+<% if model['pricing']['text_tokens']['standard'] %>
+<% if model['pricing']['text_tokens']['standard']['input_per_million'] %>
+- **Standard Input**: $<%= model['pricing']['text_tokens']['standard']['input_per_million'] %>
+<% end %>
+<% if model['pricing']['text_tokens']['standard']['output_per_million'] %>
+- **Standard Output**: $<%= model['pricing']['text_tokens']['standard']['output_per_million'] %>
+<% end %>
+<% end %>
+<% if model['pricing']['text_tokens']['cached'] %>
+<% if model['pricing']['text_tokens']['cached']['input_per_million'] %>
+- **Cached Input**: $<%= model['pricing']['text_tokens']['cached']['input_per_million'] %>
+<% end %>
+<% if model['pricing']['text_tokens']['cached']['output_per_million'] %>
+- **Cached Output**: $<%= model['pricing']['text_tokens']['cached']['output_per_million'] %>
+<% end %>
+<% end %>
+<% if model['pricing']['text_tokens']['batch'] %>
+<% if model['pricing']['text_tokens']['batch']['input_per_million'] %>
+- **Batch Input**: $<%= model['pricing']['text_tokens']['batch']['input_per_million'] %>
+<% end %>
+<% if model['pricing']['text_tokens']['batch']['output_per_million'] %>
+- **Batch Output**: $<%= model['pricing']['text_tokens']['batch']['output_per_million'] %>
+<% end %>
+<% end %>
+<% end %>
+<% end %>
+
+---
+
+<% end %>

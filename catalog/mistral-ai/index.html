@@ -1,0 +1,2428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mistral-ai - Durable LLM Registry</title>
+   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-screen text-white">
+  <div class="container mx-auto px-4 py-8">
+    <header class="mb-8">
+      <a href="../index.html" class="inline-flex items-center text-cyan-400 hover:text-cyan-300 mb-4 transition-colors">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Back to Registry
+      </a>
+      <h1 class="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
+        Mistral-ai API Catalog
+      </h1>
+      <p class="text-slate-300 text-lg">
+        Comprehensive overview of all mistral-ai models available through the LLM Kit
+      </p>
+    </header>
+
+    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 mb-8">
+      <h2 class="text-2xl font-semibold text-cyan-400 mb-4">Overview</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Provider</div>
+          <div class="text-lg font-semibold text-white capitalize">mistral-ai</div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Total Models</div>
+          <div class="text-lg font-semibold text-white">25</div>
+        </div>
+        <div class="bg-white/5 rounded-lg p-4">
+          <div class="text-sm text-slate-400 uppercase tracking-wide">Last Updated</div>
+          <div class="text-lg font-semibold text-white">2025-10-11</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Codestral 2501</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">codestral-2501</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">codestral</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">256,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code generation
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Fill in the middle
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Codestral 2508</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">codestral-2508</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">codestral</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">256,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">8,192 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code generation
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Fill in the middle
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Codestral Embed</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">codestral-embed</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">codestral-embed</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">8,000 tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">embedding</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Embeddings
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Devstral Medium</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">devstral-medium-2507</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">devstral-medium</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code generation
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Tool use
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$2.5</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$7.5</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Devstral Small 1.1</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">devstral-small-2507</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">devstral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Code generation
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Tool use
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Magistral Medium 1.2</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">magistral-medium-2509</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">magistral-medium</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Reasoning
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$3.0</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$9.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Magistral Small 1.2</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">magistral-small-2509</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">magistral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Reasoning
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.8</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Ministral 3B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">ministral-3b-2410</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">ministral-3b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.04</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.04</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Ministral 8B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">ministral-8b-2410</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">ministral-8b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Embed</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-embed</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-embed</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">8,000 tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">embedding</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Embeddings
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Large 2.1</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-large-2411</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-large</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Reasoning
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$4.0</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$12.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Medium 3</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-medium-2505</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-medium</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$2.5</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$7.5</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Medium 3.1</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-medium-2508</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-medium</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$2.5</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$7.5</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Moderation</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-moderation-2411</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-moderation</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">8,000 tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Moderation
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Nemo 12B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">open-mistral-nemo</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-nemo</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral OCR 2505</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-ocr-2505</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-ocr</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium"> tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Ocr
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Small 2</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-small-2407</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">32,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Small 3</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-small-2501</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">32,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Small 3.1</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-small-2503</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Mistral Small 3.2</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">mistral-small-2506</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">mistral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Pixtral 12B</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">pixtral-12b-2409</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">pixtral-12b</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.15</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.6</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Pixtral Large</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">pixtral-large-2411</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">pixtral-large</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">128,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, image</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Vision
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$2.0</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$6.0</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Voxtral Mini</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">voxtral-mini-2507</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">voxtral-mini</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">32,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, audio</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Speech to text
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.1</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.4</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Voxtral Mini Transcribe</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">voxtral-mini-2507</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">voxtral-mini</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium"> tokens</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">audio</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Speech to text
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+        </div>
+      
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-4">Voxtral Small</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Model ID</span>
+                <code class="block bg-slate-800 text-cyan-300 px-3 py-2 rounded mt-1 font-mono text-sm">voxtral-small-2507</code>
+              </div>
+              <div class="mb-4">
+                <span class="text-sm text-slate-400 uppercase tracking-wide">Family</span>
+                <div class="text-white font-medium">voxtral-small</div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-white mb-3">Specifications</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-300">Context Window:</span>
+                  <span class="text-white font-medium">32,000 tokens</span>
+                </div>
+                
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">4,096 tokens</span>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Modalities</h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
+                    <div class="text-white">text, audio</div>
+                  </div>
+                
+                
+                  <div class="bg-slate-800/50 rounded-lg p-4">
+                    <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Output</div>
+                    <div class="text-white">text</div>
+                  </div>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Speech to text
+                  </span>
+                
+              </div>
+            </div>
+          
+
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Pricing (per million tokens)</h4>
+              
+                <div class="space-y-4">
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Standard</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Input</div>
+                            <div class="text-white font-medium">$0.2</div>
+                          </div>
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.8</div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+    </div>
+
+    <footer class="text-center mt-16 text-slate-500">
+      <p>Last updated: 2025-10-11 17:27 UTC</p>
+    </footer>
+  </div>
+</body>
+</html>
