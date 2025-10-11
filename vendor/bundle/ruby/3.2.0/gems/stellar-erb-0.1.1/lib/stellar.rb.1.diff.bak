@@ -1,0 +1,15 @@
+5,8d4
+<   
+<   # Autoload the Erb module when it's first referenced
+<   # This avoids loading the code until it's needed, improving performance
+<   # and reducing memory usage for applications that don't use Erb functionality
+10,18d5
+<   
+<   # Additional Stellar components can be autoloaded here as the library grows
+<   # For example:
+<   # autoload :Json, "stellar/json"
+<   # autoload :Yaml, "stellar/yaml"
+<   # autoload :Markdown, "stellar/markdown"
+<   
+<   # This module can also include utility methods that are used throughout
+<   # the Stellar framework components

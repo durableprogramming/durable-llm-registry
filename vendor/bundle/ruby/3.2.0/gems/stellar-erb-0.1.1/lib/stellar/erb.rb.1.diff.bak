@@ -1,0 +1,16 @@
+0a1,2
+> # frozen_string_literal: true
+> 
+2,5d3
+< require_relative "erb/binding"
+< require_relative "erb/error"
+< require_relative "erb/view"
+< require "erb"
+10,14c8
+<     
+<     # Shortcut method for rendering templates
+<     def self.render(template_path, locals = {})
+<       View.render(template_path, locals)
+<     end
+---
+>     # Your code goes here...

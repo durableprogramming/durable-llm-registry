@@ -1,0 +1,13 @@
+module OpenURI
+  module OpenRead
+    def open: () -> (IO | nil)
+    def path: () -> String
+    def scheme: () -> String
+  end
+end
+
+
+module Psych
+  def self.safe_load: (untyped content, untyped parmitted_classes) -> Hash[bot, bot]
+end
+

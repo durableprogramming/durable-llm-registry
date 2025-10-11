@@ -1,0 +1,65 @@
+4,6c4,6
+<       attr_reader :template_path, :template_content, :locals
+<       
+<       def initialize(template_path, locals = {})
+---
+>       attr_reader :template_path, :template, :context
+> 
+>       def initialize(template_path, context = {})
+8,9c8,9
+<         @template_content = File.read(template_path)
+<         @locals = locals
+---
+>         @context = context
+>         @template = File.read(template_path)
+11,17c11,16
+<       
+<       def render(additional_locals = {})
+<         all_locals = locals.merge(additional_locals)
+<         binding_obj = Binding.new(all_locals)
+<         erb = ::ERB.new(template_content)
+<         erb.result(binding_obj.get_binding)
+<       rescue StandardError => e
+---
+> 
+>       def render(locals = {})
+>         b = binding_with_context(locals)
+>         result = ::ERB.new(template, trim_mode: '-').result(b)
+>         result
+>       rescue => e
+20,24c19
+<       
+<       def self.render(template_path, locals = {})
+<         new(template_path, locals).render
+<       end
+<       
+---
+> 
+26c21,29
+<       
+---
+> 
+>       def binding_with_context(locals = {})
+>         context_binding = binding
+>         context.merge(locals).each do |key, value|
+>           context_binding.local_variable_set(key.to_sym, value)
+>         end
+>         context_binding
+>       end
+> 
+28,29c31,32
+<         if error.is_a?(SyntaxError)
+<           raise Error, "Syntax error in template #{template_path}: #{error.message}"
+---
+>         if error.backtrace.any? { |line| line.include?(template_path) }
+>           raise error
+31,35c34,36
+<           backtrace = error.backtrace.select { |line| line.include?(template_path) }
+<           message = "Error rendering template #{template_path}: #{error.message}"
+<           error_with_context = Error.new(message)
+<           error_with_context.set_backtrace(backtrace.empty? ? error.backtrace : backtrace)
+<           raise error_with_context
+---
+>           new_error = error.class.new("#{error.message} (in template: #{template_path})")
+>           new_error.set_backtrace(error.backtrace)
+>           raise new_error
