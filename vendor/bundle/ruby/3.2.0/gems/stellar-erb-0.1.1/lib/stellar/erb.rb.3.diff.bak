@@ -1,0 +1,30 @@
+0a1,7
+> # frozen_string_literal: true
+> 
+> require_relative "erb/version"
+> require_relative "erb/error"
+> require_relative "erb/view"
+> require "erb"
+> 
+3,6d9
+<     # :nodoc:
+<     # This module provides a lightweight ERB template rendering system
+<     # with error handling capabilities.
+< 
+28,43d30
+< 
+<     # Renders an ERB template from a string instead of a file
+<     # This is useful for template strings that are generated dynamically
+<     # or stored in a database rather than in files.
+<     #
+<     # @param str [String] The ERB template string to render
+<     # @param locals [Hash] A hash of local variables to be made available in the template
+<     # @return [String] The rendered template result
+<     #
+<     # @example Render a string template with variables
+<     #   Stellar::Erb.render_string("<p>Hello, <%= name %></p>", name: "World")
+<     #
+<     # @example Render a string template without variables
+<     #   Stellar::Erb.render_string("<p>Static content</p>")
+<     #
+<     # @raise [Stellar::Erb::Error] if an error occurs during template rendering

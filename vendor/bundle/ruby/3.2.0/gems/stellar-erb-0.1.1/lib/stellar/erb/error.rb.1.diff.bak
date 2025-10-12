@@ -1,0 +1,17 @@
+45,60d44
+<       
+<       def context_lines(number_of_lines = 5)
+<         return [] unless template_path && line_number && File.exist?(template_path)
+<         
+<         lines = File.readlines(template_path)
+<         start_line = [line_number - number_of_lines - 1, 0].max
+<         end_line = [line_number + number_of_lines - 1, lines.length - 1].min
+<         
+<         context = []
+<         (start_line..end_line).each do |i|
+<           prefix = i + 1 == line_number ? "=>" : "  "
+<           context << "#{prefix} #{i + 1}: #{lines[i].chomp}"
+<         end
+<         
+<         context
+<       end

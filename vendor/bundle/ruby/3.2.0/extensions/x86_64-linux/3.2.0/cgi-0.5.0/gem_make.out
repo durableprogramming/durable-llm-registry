@@ -1,0 +1,18 @@
+current directory: /home/runner/work/durable-llm-registry/durable-llm-registry/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.0/ext/cgi/escape
+/opt/hostedtoolcache/Ruby/3.2.9/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/durable-llm-registry/durable-llm-registry/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20251011-2098-cm9dbp sitelibdir\=./.gem.20251011-2098-cm9dbp clean
+
+current directory: /home/runner/work/durable-llm-registry/durable-llm-registry/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20251011-2098-cm9dbp sitelibdir\=./.gem.20251011-2098-cm9dbp
+compiling escape.c
+linking shared-object cgi/escape.so
+
+current directory: /home/runner/work/durable-llm-registry/durable-llm-registry/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20251011-2098-cm9dbp sitelibdir\=./.gem.20251011-2098-cm9dbp install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20251011-2098-cm9dbp/cgi
+
+current directory: /home/runner/work/durable-llm-registry/durable-llm-registry/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.0/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20251011-2098-cm9dbp sitelibdir\=./.gem.20251011-2098-cm9dbp clean

@@ -1,0 +1,37 @@
+# frozen_string_literal: true
+
+require_relative "erb/version"
+require_relative "erb/error"
+require_relative "erb/view"
+require "erb"
+
+module Stellar
+  module Erb
+    class Error < StandardError; end
+
+    # Shortcut method for rendering templates
+    # This method provides a convenient interface to render ERB templates
+    # directly from the Stellar::Erb module without instantiating a View.
+    #
+    # @param template_path [String] The path to the ERB template file
+    # @param locals [Hash] A hash of local variables to be made available in the template
+    # @return [String] The rendered template result
+    # 
+    # @example Render a template with variables
+    #   Stellar::Erb.render("path/to/template.erb", name: "World")
+    #
+    # @example Render a template without variables
+    #   Stellar::Erb.render("path/to/simple.erb")
+    #
+    # @raise [Stellar::Erb::Error] if an error occurs during template rendering
+    # @raise [Errno::ENOENT] if the template file doesn't exist
+    def self.render(template_path, locals = {})
+      View.render(template_path, locals)
+    end
+    def self.render_string(str, locals = {})
+      v = View.new(nil, locals)
+      v.template_content = str
+      v.render()
+    end
+  end
+end

@@ -1,0 +1,47 @@
+module Stellar
+  module Erb
+    class Error < StandardError
+      attr_reader :template_path, :original_error, :line_number
+
+      def initialize(message = nil, template_path: nil, original_error: nil, line_number: nil)
+        @template_path = template_path
+        @original_error = original_error
+        @line_number = line_number
+        super(message)
+      end
+
+      def to_s
+        message = super
+        if template_path && line_number
+          "#{message} in '#{template_path}' on line #{line_number}"
+        elsif template_path
+          "#{message} in '#{template_path}'"
+        else
+          message
+        end
+      end
+
+      def self.wrap(error, template_path: nil)
+        return error if error.is_a?(self)
+        
+        line_number = extract_line_number(error, template_path)
+        message = error.message
+        
+        new(message, 
+            template_path: template_path, 
+            original_error: error, 
+            line_number: line_number)
+      end
+
+      def self.extract_line_number(error, template_path)
+        return nil unless template_path && error.backtrace
+        
+        backtrace_line = error.backtrace.find { |line| line.include?(template_path) }
+        return nil unless backtrace_line
+        
+        match = backtrace_line.match(/:(\d+):/)
+        match ? match[1].to_i : nil
+      end
+    end
+  end
+end
