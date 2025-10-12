@@ -1,12 +1,14 @@
 # Deepseek API Catalog
 
+
+
 This catalog provides a comprehensive overview of all deepseek models available through the LLM Kit.
 
 ## Overview
 
 - **Provider**: deepseek
 - **Total Models**: 3
-- **Last Updated**: 2025-10-11
+- **Last Updated**: 2025-10-12
 
 ## Models
 

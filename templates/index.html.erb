@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Durable LLM Registry</title>
-   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+  <link href="https://fonts.bunny.net/css?family=lato:400,700|spectral-sc:400,700&display=swap" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    <style>
+      body { font-family: 'Lato', sans-serif; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Spectral SC', serif; }
+      [un-cloak] { display: none; }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
-  <div class="container mx-auto px-4 py-16">
+<body un-cloak class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
+   <div class="container mx-auto px-4 py-16 max-w-7xl">
     <header class="text-center mb-16">
       <h1 class="text-6xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent mb-4">
         Durable LLM Registry
@@ -22,22 +25,25 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <% providers.each do |provider| %>
-        <a href="<%= provider %>/index.html" class="group">
-          <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20">
-            <h2 class="text-2xl font-semibold text-cyan-400 group-hover:text-cyan-300 mb-2 capitalize">
-              <%= provider %>
-            </h2>
-            <p class="text-slate-400 group-hover:text-slate-300">
-              Explore <%= provider %> models and capabilities
-            </p>
-            <div class="mt-4 flex items-center text-cyan-400 group-hover:text-cyan-300">
-              <span class="text-sm font-medium">View Catalog</span>
-              <svg class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </div>
-          </div>
-        </a>
+          <a href="<%= provider %>/index.html" class="group">
+             <div class="bg-white/10 backdrop-blur-lg rounded-2xl pl-6 pb-6 pr-6 pt-3 border border-white/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20 flex items-start">
+               <% if File.exist?("catalog/#{provider}/logo.svg") %><img src="<%= provider %>/logo.svg" alt="<%= provider %> logo" class="w-12 h-12 mr-4 mt-4 flex-shrink-0"><% end %>
+               <div class="flex flex-col">
+                 <h2 class="text-2xl font-semibold text-cyan-400 group-hover:text-cyan-300 mb-2 capitalize">
+                   <%= provider %>
+                 </h2>
+                 <p class="text-slate-400 group-hover:text-slate-300">
+                   Explore <%= provider %> models and capabilities
+                 </p>
+                 <div class="mt-4 flex items-center text-cyan-400 group-hover:text-cyan-300">
+                   <span class="text-sm font-medium">View Catalog</span>
+                   <svg class="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                   </svg>
+                 </div>
+               </div>
+             </div>
+         </a>
       <% end %>
     </div>
 

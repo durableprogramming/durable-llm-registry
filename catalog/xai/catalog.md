@@ -1,12 +1,14 @@
 # Xai API Catalog
 
+
+
 This catalog provides a comprehensive overview of all xai models available through the LLM Kit.
 
 ## Overview
 
 - **Provider**: xai
 - **Total Models**: 6
-- **Last Updated**: 2025-10-11
+- **Last Updated**: 2025-10-12
 
 ## Models
 

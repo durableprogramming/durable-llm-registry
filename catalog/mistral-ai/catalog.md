@@ -1,12 +1,14 @@
 # Mistral-ai API Catalog
 
+
+
 This catalog provides a comprehensive overview of all mistral-ai models available through the LLM Kit.
 
 ## Overview
 
 - **Provider**: mistral-ai
 - **Total Models**: 25
-- **Last Updated**: 2025-10-11
+- **Last Updated**: 2025-10-12
 
 ## Models
 

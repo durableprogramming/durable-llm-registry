@@ -1,12 +1,14 @@
 # Perplexity API Catalog
 
+
+
 This catalog provides a comprehensive overview of all perplexity models available through the LLM Kit.
 
 ## Overview
 
 - **Provider**: perplexity
 - **Total Models**: 5
-- **Last Updated**: 2025-10-11
+- **Last Updated**: 2025-10-12
 
 ## Models
 

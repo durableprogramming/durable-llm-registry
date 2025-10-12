@@ -1,12 +1,14 @@
 # Fireworks-ai API Catalog
 
+
+
 This catalog provides a comprehensive overview of all fireworks-ai models available through the LLM Kit.
 
 ## Overview
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-10-11
+- **Last Updated**: 2025-10-12
 
 ## Models
 
