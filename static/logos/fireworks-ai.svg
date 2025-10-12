@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   viewBox="0 0 47.057598 23.242861"
+   height="23.242861"
+   width="47.057598"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="fireworks-ai.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.7767442"
+     inkscape:cx="-71.073515"
+     inkscape:cy="11.514119"
+     inkscape:window-width="1276"
+     inkscape:window-height="2089"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <path
+     fill="#6720ff"
+     d="M 29.0182,0 23.5262,13.16056 18.0291,0 h -3.5264 l 6.0251,14.38676 c 0.4998,1.2004 1.6718,1.9757 2.9778,1.9757 1.306,0 2.4755,-0.7753 2.9778,-1.9706 L 32.5447,0 Z M 31.3649,20.05126 41.4111,9.89426 40.0407,6.66143 29.0671,17.77666 c -0.917,0.93 -1.1798,2.3004 -0.6723,3.5008 0.5049,1.1901 1.6718,1.9603 2.9727,1.9603 l 0.0051,0.0051 15.685,-0.0386 -1.3704,-3.2328 -14.3197,0.0798 z M 5.6465,9.88656 7.01691,6.6537 17.9905,17.76896 c 0.917,0.9274 1.1824,2.3029 0.6723,3.5007 -0.5049,1.1927 -1.6769,1.9603 -2.9726,1.9603 L 0.00515192,23.19396 0,23.19906 l 1.37041,-3.2328 14.31979,0.0799 z"
+     clip-rule="evenodd"
+     fill-rule="evenodd"
+     id="path1" />
+</svg>
