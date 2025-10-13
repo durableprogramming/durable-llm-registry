@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 330
-- **Last Updated**: 2025-10-12
+- **Total Models**: 331
+- **Last Updated**: 2025-10-13
 
 ## Models
 
@@ -1137,10 +1137,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.048
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.15
 
 
 
@@ -14005,6 +14005,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling-1T
+
+**Model ID**: `inclusionai/ling-1t`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $3.0
 
 
 
