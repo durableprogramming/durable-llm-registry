@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 331
-- **Last Updated**: 2025-10-13
+- **Last Updated**: 2025-10-14
 
 ## Models
 
@@ -8199,7 +8199,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nousresearch
 #### Specifications
 
-- **Context Window**: 65,000 tokens
+- **Context Window**: 65,536 tokens
 
 
 
@@ -11081,8 +11081,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 32,768 tokens
 
+
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -12379,10 +12381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12403,7 +12405,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.45
 
 
 - **Standard Output**: $3.5
@@ -12447,7 +12449,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.29
 
 
 - **Standard Output**: $1.0
@@ -12491,7 +12493,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.29
 
 
 - **Standard Output**: $1.0
