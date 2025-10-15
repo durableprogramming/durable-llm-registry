@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 331
-- **Last Updated**: 2025-10-14
+- **Total Models**: 334
+- **Last Updated**: 2025-10-15
 
 ## Models
 
@@ -10035,6 +10035,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: o3 Deep Research
+
+**Model ID**: `openai/o3-deep-research`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 100,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $40.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: o3 Mini
 
 **Model ID**: `openai/o3-mini`  
@@ -10211,6 +10255,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: o4 Mini Deep Research
+
+**Model ID**: `openai/o4-mini-deep-research`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 100,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $8.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: o4 Mini High
 
 **Model ID**: `openai/o4-mini-high`  
@@ -10289,48 +10377,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.26
-
-
-
-
-
-
-
----
-
-
-### Perplexity: R1 1776
-
-**Model ID**: `perplexity/r1-1776`  
-**Family**: perplexity
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $8.0
 
 
 
@@ -12428,8 +12474,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -12452,7 +12496,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.29
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.99
 
 
 
@@ -12497,6 +12541,92 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 VL 8B Instruct
+
+**Model ID**: `qwen/qwen3-vl-8b-instruct`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.18
+
+
+- **Standard Output**: $0.69
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 VL 8B Thinking
+
+**Model ID**: `qwen/qwen3-vl-8b-thinking`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.18
+
+
+- **Standard Output**: $2.1
 
 
 
