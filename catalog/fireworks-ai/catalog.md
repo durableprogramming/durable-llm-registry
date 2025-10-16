@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-10-15
+- **Last Updated**: 2025-10-16
 
 ## Models
 
@@ -327,50 +327,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - Vision
 
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### GLM-4.6
-
-**Model ID**: `accounts/fireworks/models/glm-4p6`  
-**Family**: glm-4p5v
-#### Specifications
-
-- **Context Window**: 4,619 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
 
 
 #### Pricing (per million tokens)
@@ -773,6 +729,54 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.88
+
+
+
+
+
+
+
+---
+
+
+### Qwen3 Coder 480B A35B Instruct
+
+**Model ID**: `accounts/fireworks/models/qwen3-coder-480b-a35b-instruct`  
+**Family**: qwen3-coder
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Fine tuning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.45
+
+
+- **Standard Output**: $1.8
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 334
-- **Last Updated**: 2025-10-15
+- **Total Models**: 336
+- **Last Updated**: 2025-10-16
 
 ## Models
 
@@ -923,6 +923,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Haiku 4.5
+
+**Model ID**: `anthropic/claude-haiku-4.5`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
 
 
 
@@ -5032,7 +5076,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 120,000 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -5056,7 +5100,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.39
+- **Standard Output**: $0.38
 
 
 
@@ -9553,6 +9597,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5 Image
+
+**Model ID**: `openai/gpt-5-image`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, file
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5 Mini
 
 **Model ID**: `openai/gpt-5-mini`  
@@ -10907,10 +10995,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 7,500 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 1,500 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -14153,10 +14241,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: inclusionai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 0 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14177,10 +14263,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.0
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $0.0
 
 
 
