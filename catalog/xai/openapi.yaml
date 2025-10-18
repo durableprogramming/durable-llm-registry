@@ -3202,6 +3202,12 @@ components:
           content:
             "$ref": "#/components/schemas/ModelInputContent"
             description: Text, image or audio input.
+          name:
+            type:
+            - string
+            - 'null'
+            description: A unique identifier representing your end-user, which can
+              help xAI to monitor and detect abuse. Only supported for `user` messages.
           role:
             type: string
             description: The role of the message. Possible values are `user`, `assistant`,

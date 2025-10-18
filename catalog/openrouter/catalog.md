@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2025-10-17
+- **Total Models**: 340
+- **Last Updated**: 2025-10-18
 
 ## Models
 
@@ -2023,7 +2023,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 ### Deep Cogito: Cogito V2 Preview Llama 405B
 
-**Model ID**: `deepcogito/cogito-v2-preview-llama-405B`  
+**Model ID**: `deepcogito/cogito-v2-preview-llama-405b`  
 **Family**: deepcogito
 #### Specifications
 
@@ -6225,7 +6225,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 32,768 tokens
 
 
 
@@ -6437,7 +6437,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 32,768 tokens
 
 
 - **Max Output Tokens**: 40,000 tokens
@@ -6869,7 +6869,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 32,768 tokens
 
 
 
@@ -7319,10 +7319,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9
+- **Standard Input**: $2.0
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $6.0
 
 
 
@@ -7425,7 +7425,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 32,768 tokens
 
 
 
@@ -14366,6 +14366,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### inclusionAI: Ling-1T
 
 **Model ID**: `inclusionai/ling-1t`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ring 1T
+
+**Model ID**: `inclusionai/ring-1t`  
 **Family**: inclusionai
 #### Specifications
 
