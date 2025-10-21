@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2025-10-20
+- **Total Models**: 338
+- **Last Updated**: 2025-10-21
 
 ## Models
 
@@ -351,50 +351,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Molmo 7B D
-
-**Model ID**: `allenai/molmo-7b-d`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 4,096 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.2
 
 
 
@@ -4369,90 +4325,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Liquid: LFM 3B
-
-**Model ID**: `liquid/lfm-3b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.02
-
-
-- **Standard Output**: $0.02
-
-
-
-
-
-
-
----
-
-
-### Liquid: LFM 7B
-
-**Model ID**: `liquid/lfm-7b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.01
-
-
-- **Standard Output**: $0.01
-
-
-
-
-
-
-
----
-
-
 ### Llama Guard 3 8B
 
 **Model ID**: `meta-llama/llama-guard-3-8b`  
@@ -7879,10 +7751,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.09
+- **Standard Output**: $0.06
 
 
 
@@ -14221,7 +14093,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.35
 
 
 - **Standard Output**: $1.5
