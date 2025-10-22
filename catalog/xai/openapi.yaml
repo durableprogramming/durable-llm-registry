@@ -1738,6 +1738,7 @@ components:
       - cache_write_input_bytes
       - lb_address
       - sampler_tag
+      - sampler_checkpoint_mount
       properties:
         attempts:
           type: integer
@@ -1785,6 +1786,10 @@ components:
           items:
             type: string
           description: The response(s) received from the model.
+        sampler_checkpoint_mount:
+          type: string
+          description: The underlying checkpoint mount path for the sampler that served
+            this request.
         sampler_tag:
           type: string
           description: The tag of the actual engines sitting behind the GTP address.
@@ -3796,11 +3801,11 @@ components:
               "$ref": "#/components/schemas/Annotation"
             description: Citations.
           logprobs:
-            oneOf:
-            - type: 'null'
-            - "$ref": "#/components/schemas/LogProbs"
-              description: The log probabilities of each output token returned in
-                the content of message.
+            type: array
+            items:
+              "$ref": "#/components/schemas/TokenLogProb"
+            description: The log probabilities of each output token returned in the
+              content of message.
           text:
             type: string
             description: The text output from the model.
