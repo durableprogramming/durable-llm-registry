@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2025-10-22
+- **Total Models**: 344
+- **Last Updated**: 2025-10-23
 
 ## Models
 
@@ -2483,6 +2483,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.9
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V3.1 Terminus (exacto)
+
+**Model ID**: `deepseek/deepseek-v3.1-terminus:exacto`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.27
+
+
+- **Standard Output**: $1.0
 
 
 
@@ -7679,6 +7723,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### MoonshotAI: Kimi K2 0905 (exacto)
+
+**Model ID**: `moonshotai/kimi-k2-0905:exacto`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
 ### Morph: Morph V3 Fast
 
 **Model ID**: `morph/morph-v3-fast`  
@@ -9937,6 +10023,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: gpt-oss-120b (exacto)
+
+**Model ID**: `openai/gpt-oss-120b:exacto`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.05
+
+
+- **Standard Output**: $0.24
 
 
 
@@ -12293,6 +12421,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3 Coder 480B A35B (exacto)
+
+**Model ID**: `qwen/qwen3-coder:exacto`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.38
+
+
+- **Standard Output**: $1.53
+
+
+
+
+
+
+
+---
+
+
 ### Qwen: Qwen3 Coder 480B A35B (free)
 
 **Model ID**: `qwen/qwen3-coder:free`  
@@ -14319,6 +14491,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
+
+
+
+
+
+
+
+---
+
+
+### Z.AI: GLM 4.6 (exacto)
+
+**Model ID**: `z-ai/glm-4.6:exacto`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 202,752 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $1.9
 
 
 
