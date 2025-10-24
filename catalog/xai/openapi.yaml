@@ -2194,7 +2194,9 @@ components:
           description: Status of the item. One of `completed`, `in_progress` or `incomplete`.
         type:
           type: string
-          description: The type of the function tool call, which is always `function_call`.
+          description: |-
+            The type of the function tool call, which can be `"function_call"` for client-side tool calls,
+            and `"web_search_call"` or `"x_search_call"` or `"code_interpreter_call"` for server-side tool calls.
     FunctionToolCallOutput:
       type: object
       description: The output of a function tool call.
@@ -3742,6 +3744,8 @@ components:
       - output_tokens
       - output_tokens_details
       - total_tokens
+      - num_sources_used
+      - num_server_side_tools_used
       properties:
         input_tokens:
           type: integer
@@ -3750,6 +3754,14 @@ components:
         input_tokens_details:
           "$ref": "#/components/schemas/InputTokensDetails"
           description: Breakdown of the input tokens.
+        num_server_side_tools_used:
+          type: integer
+          format: int32
+          description: Number of server side tools used.
+        num_sources_used:
+          type: integer
+          format: int32
+          description: Number of sources used (for live search).
         output_tokens:
           type: integer
           format: int32
@@ -3779,7 +3791,8 @@ components:
           description: The unique ID of the output message.
         role:
           type: string
-          description: The role of the output message, which is always `assistant`.
+          description: The role of the output message, which can be `assistant` or
+            `tool`.
         status:
           type: string
           description: Status of the item. One of `completed`, `in_progress` or `incomplete`.
@@ -4638,7 +4651,8 @@ components:
           type:
           - string
           - 'null'
-          description: Type of tool call, should always be `"function"`
+          description: Type of tool call, should be `"function"` or `"web_search_call"`
+            or `"x_search_call"` or `"code_interpreter_call"`
     ToolChoice:
       oneOf:
       - type: string
