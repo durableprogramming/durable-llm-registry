@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 347
-- **Last Updated**: 2025-10-24
+- **Last Updated**: 2025-10-25
 
 ## Models
 
@@ -3510,7 +3510,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: image, file, text
+- **Input**: image, file, text, audio
 
 
 - **Output**: text
@@ -3939,10 +3939,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 96,000 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -5999,6 +5997,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.2
+
+
+
+
+
+
+
+---
+
+
+### MiniMax: MiniMax M2 (free)
+
+**Model ID**: `minimax/minimax-m2:free`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 204,800 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -12977,50 +13019,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen3 VL 32B Instruct
-
-**Model ID**: `qwen/qwen3-vl-32b-instruct`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 262,144 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.35
-
-
-- **Standard Output**: $1.1
 
 
 

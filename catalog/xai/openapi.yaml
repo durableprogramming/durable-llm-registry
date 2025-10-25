@@ -2196,7 +2196,7 @@ components:
           type: string
           description: |-
             The type of the function tool call, which can be `"function_call"` for client-side tool calls,
-            and `"web_search_call"` or `"x_search_call"` or `"code_interpreter_call"` for server-side tool calls.
+            and `"web_search_call"` or `"x_search_call"` or `"code_interpreter_call"` or `"mcp_call"` for server-side tool calls.
     FunctionToolCallOutput:
       type: object
       description: The output of a function tool call.
@@ -3727,6 +3727,32 @@ components:
             enum:
             - x_search
       - type: object
+        description: Search the knowledge bases.
+        required:
+        - vector_store_ids
+        - type
+        properties:
+          max_num_results:
+            type:
+            - integer
+            - 'null'
+            format: int32
+            example: 10
+            minimum: 1
+          type:
+            type: string
+            enum:
+            - file_search
+          vector_store_ids:
+            type: array
+            items:
+              type: string
+            description: List of vector store IDs to search within.
+            example:
+            - collection_id_1
+            - collection_id_2
+            maxItems: 10
+      - type: object
         description: Execute code.
         required:
         - type
@@ -4652,7 +4678,7 @@ components:
           - string
           - 'null'
           description: Type of tool call, should be `"function"` or `"web_search_call"`
-            or `"x_search_call"` or `"code_interpreter_call"`
+            or `"x_search_call"` or `"code_interpreter_call"` or `"mcp_call"`
     ToolChoice:
       oneOf:
       - type: string
