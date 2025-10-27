@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2025-10-26
+- **Total Models**: 348
+- **Last Updated**: 2025-10-27
 
 ## Models
 
@@ -12857,10 +12857,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 0 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 4,000 tokens
 
 
 #### Modalities
@@ -12881,10 +12881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.22
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.88
 
 
 
@@ -12945,10 +12945,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 0 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 4,000 tokens
 
 
 #### Modalities
@@ -12969,10 +12969,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.7
+- **Standard Output**: $0.6
 
 
 
@@ -13017,6 +13017,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 VL 32B Instruct
+
+**Model ID**: `qwen/qwen3-vl-32b-instruct`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $1.1
 
 
 
@@ -14611,10 +14655,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $1.75
+- **Standard Output**: $2.1
 
 
 
