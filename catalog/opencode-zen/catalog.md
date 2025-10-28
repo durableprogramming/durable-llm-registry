@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 10
-- **Last Updated**: 2025-10-27
+- **Total Models**: 11
+- **Last Updated**: 2025-10-28
 
 ## Models
 
@@ -249,6 +249,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GLM 4.6
+
+**Model ID**: `glm-4.6`  
+**Family**: glm
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
 
 
 - **Output**: text

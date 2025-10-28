@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2025-10-27
+- **Total Models**: 346
+- **Last Updated**: 2025-10-28
 
 ## Models
 
@@ -10329,94 +10329,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### OpenAI: o1-mini
-
-**Model ID**: `openai/o1-mini`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.1
-
-
-- **Standard Output**: $4.4
-
-
-
-
-
-
-
----
-
-
-### OpenAI: o1-mini (2024-09-12)
-
-**Model ID**: `openai/o1-mini-2024-09-12`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.1
-
-
-- **Standard Output**: $4.4
-
-
-
-
-
-
-
----
-
-
 ### OpenAI: o1-pro
 
 **Model ID**: `openai/o1-pro`  
@@ -12945,10 +12857,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 0 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 4,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12969,10 +12881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.7
 
 
 
@@ -14655,10 +14567,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $2.1
+- **Standard Output**: $1.75
 
 
 

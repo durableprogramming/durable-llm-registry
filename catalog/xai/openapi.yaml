@@ -3761,6 +3761,51 @@ components:
             type: string
             enum:
             - code_interpreter
+      - type: object
+        description: A remote MCP server to use.
+        required:
+        - server_label
+        - server_url
+        - type
+        properties:
+          allowed_tools:
+            type:
+            - array
+            - 'null'
+            items:
+              type: string
+          authorization:
+            type:
+            - string
+            - 'null'
+          connector_id:
+            type:
+            - string
+            - 'null'
+          headers:
+            type:
+            - object
+            - 'null'
+            additionalProperties:
+              type: string
+            propertyNames:
+              type: string
+          require_approval:
+            type:
+            - string
+            - 'null'
+          server_description:
+            type:
+            - string
+            - 'null'
+          server_label:
+            type: string
+          server_url:
+            type: string
+          type:
+            type: string
+            enum:
+            - mcp
       description: Definition of one tool that the model can call.
     ModelUsage:
       type: object
