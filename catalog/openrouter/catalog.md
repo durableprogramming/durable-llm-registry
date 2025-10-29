@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 346
-- **Last Updated**: 2025-10-28
+- **Last Updated**: 2025-10-29
 
 ## Models
 
@@ -527,50 +527,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.2
-
-
-
-
-
-
-
----
-
-
-### Andromeda Alpha
-
-**Model ID**: `openrouter/andromeda-alpha`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -2369,10 +2325,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -2393,10 +2349,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.8
 
 
 
@@ -2588,8 +2544,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 163,840 tokens
-
 
 #### Modalities
 
@@ -2609,10 +2563,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $1.2
 
 
 
@@ -6005,6 +5959,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### MiniMax: MiniMax M2
+
+**Model ID**: `minimax/minimax-m2`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 196,608 tokens
+
+
+- **Max Output Tokens**: 196,608 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
 ### MiniMax: MiniMax M2 (free)
 
 **Model ID**: `minimax/minimax-m2:free`  
@@ -8139,6 +8137,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron Nano 12B 2 VL (free)
+
+**Model ID**: `nvidia/nemotron-nano-12b-v2-vl:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -12857,10 +12899,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 0 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 4,000 tokens
 
 
 #### Modalities
@@ -12881,10 +12923,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.7
+- **Standard Output**: $0.6
 
 
 
@@ -13851,50 +13893,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: tencent
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.03
-
-
-- **Standard Output**: $0.03
-
-
-
-
-
-
-
----
-
-
-### Tencent: Hunyuan A13B Instruct (free)
-
-**Model ID**: `tencent/hunyuan-a13b-instruct:free`  
-**Family**: tencent
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -13915,10 +13917,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.57
 
 
 

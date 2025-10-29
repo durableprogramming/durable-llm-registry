@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-10-28
+- **Last Updated**: 2025-10-29
 
 ## Models
 
@@ -349,6 +349,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
+### GLM-4.6
+
+**Model ID**: `accounts/fireworks/models/glm-4p6`  
+**Family**: glm-4p5v
+#### Specifications
+
+- **Context Window**: 198,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.55
+
+
+- **Standard Output**: $2.19
+
+
+
+
+
+
+
+---
+
+
 ### Kimi K2 Instruct
 
 **Model ID**: `accounts/fireworks/models/kimi-k2-instruct`  
@@ -485,6 +529,54 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.88
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA Nemotron Nano 2 VL
+
+**Model ID**: `accounts/fireworks/models/nemotron-nano-v2-12b-vl`  
+**Family**: nemotron-nano
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Vision
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
 
 
 
@@ -641,56 +733,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Qwen2.5-VL 7B Instruct
-
-**Model ID**: `accounts/fireworks/models/qwen2p5-vl-7b-instruct`  
-**Family**: qwen2p5-vl
-#### Specifications
-
-- **Context Window**: 125,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-- Vision
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
 ### Qwen3 235B A22B Instruct 2507
 
 **Model ID**: `accounts/fireworks/models/qwen3-235b-a22b-instruct-2507`  
@@ -729,54 +771,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.88
-
-
-
-
-
-
-
----
-
-
-### Qwen3 Coder 480B A35B Instruct
-
-**Model ID**: `accounts/fireworks/models/qwen3-coder-480b-a35b-instruct`  
-**Family**: qwen3-coder
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.45
-
-
-- **Standard Output**: $1.8
 
 
 
