@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2025-10-29
+- **Total Models**: 349
+- **Last Updated**: 2025-10-30
 
 ## Models
 
@@ -2843,7 +2843,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2865,10 +2865,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.29
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $0.29
+- **Standard Output**: $0.27
 
 
 
@@ -5989,10 +5989,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.45
 
 
 
@@ -7629,6 +7629,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Voxtral Small 24B 2507
+
+**Model ID**: `mistralai/voxtral-small-24b-2507`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
 ### MoonshotAI: Kimi Dev 72B
 
 **Model ID**: `moonshotai/kimi-dev-72b`  
@@ -8137,6 +8179,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron Nano 12B 2 VL
+
+**Model ID**: `nvidia/nemotron-nano-12b-v2-vl`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -10317,6 +10401,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: gpt-oss-safeguard-20b
+
+**Model ID**: `openai/gpt-oss-safeguard-20b`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.3
 
 
 
@@ -12811,7 +12939,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 0 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 4,000 tokens
