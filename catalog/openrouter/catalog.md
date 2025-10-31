@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2025-10-30
+- **Total Models**: 348
+- **Last Updated**: 2025-10-31
 
 ## Models
 
@@ -2879,50 +2879,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Dolphin3.0 Mistral 24B
-
-**Model ID**: `cognitivecomputations/dolphin3.0-mistral-24b`  
-**Family**: cognitivecomputations
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.04
-
-
-- **Standard Output**: $0.17
-
-
-
-
-
-
-
----
-
-
 ### Dolphin3.0 Mistral 24B (free)
 
 **Model ID**: `cognitivecomputations/dolphin3.0-mistral-24b:free`  
@@ -3676,8 +3632,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 8,192 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
-
 
 #### Modalities
 
@@ -3697,10 +3651,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.01
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.03
+- **Standard Output**: $0.09
 
 
 
@@ -6475,10 +6429,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 128,000 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -6499,10 +6451,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $0.12
 
 
 
@@ -8443,50 +8395,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Nous: DeepHermes 3 Llama 3 8B Preview
-
-**Model ID**: `nousresearch/deephermes-3-llama-3-8b-preview`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.03
-
-
-- **Standard Output**: $0.11
-
-
-
-
-
-
-
----
-
-
 ### Nous: DeepHermes 3 Llama 3 8B Preview (free)
 
 **Model ID**: `nousresearch/deephermes-3-llama-3-8b-preview:free`  
@@ -10239,6 +10147,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: Text Embedding 3 Large
+
+**Model ID**: `openai/text-embedding-3-large`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text, embeddings
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.13
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -11026,6 +10976,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Perplexity: Sonar Pro
 
 **Model ID**: `perplexity/sonar-pro`  
+**Family**: perplexity
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 8,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### Perplexity: Sonar Pro Search
+
+**Model ID**: `perplexity/sonar-pro-search`  
 **Family**: perplexity
 #### Specifications
 
@@ -12328,7 +12322,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -12349,10 +12343,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.29
+- **Standard Output**: $0.3
 
 
 
@@ -13799,50 +13793,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### THUDM: GLM Z1 32B
-
-**Model ID**: `thudm/glm-z1-32b`  
-**Family**: thudm
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.05
-
-
-- **Standard Output**: $0.22
-
-
-
-
-
-
-
----
-
-
 ### TNG: DeepSeek R1T Chimera
 
 **Model ID**: `tngtech/deepseek-r1t-chimera`  
@@ -14219,10 +14169,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $0.33
+- **Standard Output**: $0.8
 
 
 
@@ -14739,7 +14689,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $0.45
 
 
 - **Standard Output**: $1.9
