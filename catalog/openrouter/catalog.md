@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2025-10-31
+- **Total Models**: 343
+- **Last Updated**: 2025-11-01
 
 ## Models
 
@@ -483,6 +483,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.14
+
+
+
+
+
+
+
+---
+
+
+### Amazon: Nova Premier 1.0
+
+**Model ID**: `amazon/nova-premier-v1`  
+**Family**: amazon
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $12.5
 
 
 
@@ -2879,48 +2923,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Dolphin3.0 Mistral 24B (free)
-
-**Model ID**: `cognitivecomputations/dolphin3.0-mistral-24b:free`  
-**Family**: cognitivecomputations
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### EleutherAI: Llemma 7b
 
 **Model ID**: `eleutherai/llemma_7b`  
@@ -3655,50 +3657,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.09
-
-
-
-
-
-
-
----
-
-
-### Google: Gemma 2 9B (free)
-
-**Model ID**: `google/gemma-2-9b-it:free`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -6465,48 +6423,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Devstral Small 2505 (free)
-
-**Model ID**: `mistralai/devstral-small-2505:free`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Magistral Medium 2506
 
 **Model ID**: `mistralai/magistral-medium-2506`  
@@ -7667,48 +7583,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### MoonshotAI: Kimi Dev 72B (free)
-
-**Model ID**: `moonshotai/kimi-dev-72b:free`  
-**Family**: moonshotai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### MoonshotAI: Kimi K2 0711
 
 **Model ID**: `moonshotai/kimi-k2`  
@@ -8385,48 +8259,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
-
-
-
-
-
-
-
----
-
-
-### Nous: DeepHermes 3 Llama 3 8B Preview (free)
-
-**Model ID**: `nousresearch/deephermes-3-llama-3-8b-preview:free`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -12477,50 +12309,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.138
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen3 8B (free)
-
-**Model ID**: `qwen/qwen3-8b:free`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 40,960 tokens
-
-
-- **Max Output Tokens**: 40,960 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 

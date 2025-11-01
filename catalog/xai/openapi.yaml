@@ -4380,7 +4380,7 @@ components:
           - 'null'
           description: |-
             The ranking metric to use for the search ('RANKING_METRIC_COSINE_SIMILARITY', 'RANKING_METRIC_L2_DISTANCE').
-            Defaults to `RANKING_METRIC_L2_DISTANCE`.
+            Defaults to `RANKING_METRIC_COSINE_SIMILARITY`.
         source:
           "$ref": "#/components/schemas/DocumentsSource"
           description: The source to query.
