@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2025-11-03
+- **Total Models**: 341
+- **Last Updated**: 2025-11-04
 
 ## Models
 
@@ -4391,48 +4391,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.06
-
-
-
-
-
-
-
----
-
-
-### Magnum v2 72B
-
-**Model ID**: `anthracite-org/magnum-v2-72b`  
-**Family**: anthracite-org
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $3.0
 
 
 
@@ -9979,48 +9937,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### OpenAI: Text Embedding 3 Large
-
-**Model ID**: `openai/text-embedding-3-large`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text, embeddings
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.13
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -12721,10 +12637,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 4,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12809,10 +12725,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 0 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 4,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
