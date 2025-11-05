@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2025-11-04
+- **Total Models**: 339
+- **Last Updated**: 2025-11-05
 
 ## Models
 
@@ -5879,10 +5879,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 204,800 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 118,000 tokens
 
 
 #### Modalities
@@ -6519,7 +6519,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -13229,92 +13229,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.48
-
-
-
-
-
-
-
----
-
-
-### Shisa AI: Shisa V2 Llama 3.3 70B 
-
-**Model ID**: `shisa-ai/shisa-v2-llama3.3-70b`  
-**Family**: shisa-ai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.05
-
-
-- **Standard Output**: $0.22
-
-
-
-
-
-
-
----
-
-
-### Shisa AI: Shisa V2 Llama 3.3 70B  (free)
-
-**Model ID**: `shisa-ai/shisa-v2-llama3.3-70b:free`  
-**Family**: shisa-ai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
