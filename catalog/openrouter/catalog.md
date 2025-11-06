@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2025-11-05
+- **Total Models**: 338
+- **Last Updated**: 2025-11-06
 
 ## Models
 
@@ -2177,10 +2177,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.11
+- **Standard Output**: $0.1
 
 
 
@@ -3196,7 +3196,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -3240,7 +3240,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -5879,7 +5879,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 196,608 tokens
 
 
 - **Max Output Tokens**: 118,000 tokens
@@ -7809,8 +7809,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 4,096 tokens
 
-
-- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -12797,50 +12795,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen3 VL 32B Instruct
-
-**Model ID**: `qwen/qwen3-vl-32b-instruct`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 262,144 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.35
-
-
-- **Standard Output**: $1.1
 
 
 
