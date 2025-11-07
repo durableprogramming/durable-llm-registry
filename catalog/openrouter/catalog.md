@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 338
-- **Last Updated**: 2025-11-06
+- **Total Models**: 340
+- **Last Updated**: 2025-11-07
 
 ## Models
 
@@ -4801,7 +4801,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -4933,7 +4933,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -7679,6 +7679,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 262,144 tokens
 
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2 Thinking
+
+**Model ID**: `moonshotai/kimi-k2-thinking`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -10881,6 +10925,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $8.0
+
+
+
+
+
+
+
+---
+
+
+### Polaris Alpha
+
+**Model ID**: `openrouter/polaris-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
