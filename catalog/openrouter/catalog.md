@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 340
-- **Last Updated**: 2025-11-07
+- **Total Models**: 341
+- **Last Updated**: 2025-11-08
 
 ## Models
 
@@ -2266,7 +2266,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.85
+- **Standard Output**: $1.2
 
 
 
@@ -3158,7 +3158,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: file, image, text, audio
+- **Input**: file, image, text, audio, video
 
 
 - **Output**: text
@@ -3290,7 +3290,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: file, image, text, audio
+- **Input**: text, image, file, audio, video
 
 
 - **Output**: text
@@ -3378,7 +3378,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: file, image, text, audio
+- **Input**: text, image, file, audio, video
 
 
 - **Output**: text
@@ -3422,7 +3422,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: image, file, text, audio
+- **Input**: image, file, text, audio, video
 
 
 - **Output**: text
@@ -3466,7 +3466,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: file, image, text, audio
+- **Input**: text, image, file, audio, video
 
 
 - **Output**: text
@@ -3510,7 +3510,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image, file, audio
+- **Input**: text, image, file, audio, video
 
 
 - **Output**: text
@@ -7547,10 +7547,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 63,000 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 63,000 tokens
 
 
 #### Modalities
@@ -7571,10 +7569,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.49
+- **Standard Output**: $2.4
 
 
 
@@ -7747,6 +7745,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi Linear 48B A3B Instruct
+
+**Model ID**: `moonshotai/kimi-linear-48b-a3b-instruct`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 1,048,576 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $0.6
 
 
 
