@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2025-11-09
+- **Total Models**: 342
+- **Last Updated**: 2025-11-10
 
 ## Models
 
@@ -4275,6 +4275,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Kwaipilot: Kat Coder (free)
+
+**Model ID**: `kwaipilot/kat-coder-pro:free`  
+**Family**: kwaipilot
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### LiquidAI/LFM2-2.6B
 
 **Model ID**: `liquid/lfm-2.2-6b`  
@@ -7077,8 +7121,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
+
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -7102,7 +7148,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.22
 
 
 
