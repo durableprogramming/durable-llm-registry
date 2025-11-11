@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 342
-- **Last Updated**: 2025-11-10
+- **Last Updated**: 2025-11-11
 
 ## Models
 
@@ -4759,10 +4759,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 130,815 tokens
 
-
-- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -4783,10 +4781,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $3.5
 
 
-- **Standard Output**: $0.8
+- **Standard Output**: $3.5
 
 
 
@@ -4933,10 +4931,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 60,000 tokens
 
-
-- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -4957,10 +4953,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.005
+- **Standard Input**: $0.027
 
 
-- **Standard Output**: $0.01
+- **Standard Output**: $0.2
 
 
 
@@ -5923,10 +5919,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 118,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -6822,7 +6818,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -6843,10 +6839,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.028
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.054
+- **Standard Output**: $0.2
 
 
 

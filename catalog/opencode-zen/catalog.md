@@ -7,10 +7,58 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 11
-- **Last Updated**: 2025-11-10
+- **Total Models**: 12
+- **Last Updated**: 2025-11-11
 
 ## Models
+
+
+### Big Pickle
+
+**Model ID**: `big-pickle`  
+**Family**: big
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
 
 
 ### Claude Haiku 3.5
