@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2025-11-15
+- **Total Models**: 342
+- **Last Updated**: 2025-11-16
 
 ## Models
 
@@ -760,50 +760,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Anthropic: Claude 3.5 Sonnet
 
 **Model ID**: `anthropic/claude-3.5-sonnet`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude 3.5 Sonnet (2024-06-20)
-
-**Model ID**: `anthropic/claude-3.5-sonnet-20240620`  
 **Family**: anthropic
 #### Specifications
 
@@ -5183,50 +5139,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: Llama 3.3 8B Instruct (free)
-
-**Model ID**: `meta-llama/llama-3.3-8b-instruct:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,028 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Meta: Llama 4 Maverick
 
 **Model ID**: `meta-llama/llama-4-maverick`  
@@ -5271,50 +5183,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: Llama 4 Maverick (free)
-
-**Model ID**: `meta-llama/llama-4-maverick:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,028 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Meta: Llama 4 Scout
 
 **Model ID**: `meta-llama/llama-4-scout`  
@@ -5349,50 +5217,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.3
-
-
-
-
-
-
-
----
-
-
-### Meta: Llama 4 Scout (free)
-
-**Model ID**: `meta-llama/llama-4-scout:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,028 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -7957,10 +7781,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $1.2
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $1.2
 
 
 
@@ -13441,6 +13265,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.48
+
+
+
+
+
+
+
+---
+
+
+### Sherlock Dash Alpha
+
+**Model ID**: `openrouter/sherlock-dash-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 1,840,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Sherlock Think Alpha
+
+**Model ID**: `openrouter/sherlock-think-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 1,840,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
