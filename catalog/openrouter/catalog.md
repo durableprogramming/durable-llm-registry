@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2025-11-17
+- **Total Models**: 338
+- **Last Updated**: 2025-11-18
 
 ## Models
 
@@ -91,90 +91,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
-### Agentica: Deepcoder 14B Preview
-
-**Model ID**: `agentica-org/deepcoder-14b-preview`  
-**Family**: agentica-org
-#### Specifications
-
-- **Context Window**: 96,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.015
-
-
-- **Standard Output**: $0.015
-
-
-
-
-
-
-
----
-
-
-### Agentica: Deepcoder 14B Preview (free)
-
-**Model ID**: `agentica-org/deepcoder-14b-preview:free`  
-**Family**: agentica-org
-#### Specifications
-
-- **Context Window**: 96,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -2649,10 +2565,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $1.75
+- **Standard Output**: $4.5
 
 
 
@@ -3720,7 +3636,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -3741,10 +3657,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.16
+- **Standard Output**: $0.5
 
 
 
@@ -7542,7 +7458,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -7563,10 +7479,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.55
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.25
+- **Standard Output**: $2.5
 
 
 
@@ -7607,7 +7523,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.5
 
 
 - **Standard Output**: $0.6
@@ -12721,8 +12637,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 131,072 tokens
 
+
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12743,10 +12661,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.22
+- **Standard Input**: $0.21
 
 
-- **Standard Output**: $0.88
+- **Standard Output**: $1.9
 
 
 
@@ -14435,94 +14353,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.9
-
-
-
-
-
-
-
----
-
-
-### inclusionAI: Ling-1T
-
-**Model ID**: `inclusionai/ling-1t`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.57
-
-
-- **Standard Output**: $2.28
-
-
-
-
-
-
-
----
-
-
-### inclusionAI: Ring 1T
-
-**Model ID**: `inclusionai/ring-1t`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.57
-
-
-- **Standard Output**: $2.28
 
 
 
