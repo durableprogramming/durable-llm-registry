@@ -1567,6 +1567,9 @@ components:
       - type
       - outputs
       properties:
+        code:
+          type: string
+          description: The code of the code interpreter tool call.
         id:
           type: string
           description: The unique ID of the code interpreter tool call.
@@ -2206,11 +2209,17 @@ components:
       description: The output of a web search tool call.
       required:
       - type
+      - queries
       - results
       properties:
         id:
           type: string
           description: The unique ID of the file search tool call.
+        queries:
+          type: array
+          items:
+            type: string
+          description: The queries used to search for files.
         results:
           type: array
           items:
@@ -2665,6 +2674,7 @@ components:
       - name
       - server_label
       - arguments
+      - output
       properties:
         arguments:
           type: string
@@ -2678,6 +2688,9 @@ components:
         name:
           type: string
           description: The name of the tool that was run.
+        output:
+          type: string
+          description: The output of the MCP tool call.
         server_label:
           type: string
           description: The label of the MCP server running the tool.
@@ -4059,6 +4072,12 @@ components:
       - num_sources_used
       - num_server_side_tools_used
       properties:
+        cost_in_nano_usd:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Cost in nano US dollars for this request.
         input_tokens:
           type: integer
           format: int32
@@ -4081,6 +4100,11 @@ components:
         output_tokens_details:
           "$ref": "#/components/schemas/OutputTokensDetails"
           description: Breakdown of the output tokens.
+        server_side_tool_usage_details:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServerSideToolUsageDetails"
+            description: Details about the server side tool usage.
         total_tokens:
           type: integer
           format: int32
@@ -4880,6 +4904,40 @@ components:
       - SEARCH_TYPE_SEMANTIC
       - SEARCH_TYPE_KEYWORD
       - SEARCH_TYPE_HYBRID
+    ServerSideToolUsageDetails:
+      type: object
+      required:
+      - web_search_calls
+      - x_search_calls
+      - code_interpreter_calls
+      - file_search_calls
+      - mcp_calls
+      - document_search_calls
+      properties:
+        code_interpreter_calls:
+          type: integer
+          format: int32
+          description: Number of code interpreter calls.
+        document_search_calls:
+          type: integer
+          format: int32
+          description: Number of document search calls.
+        file_search_calls:
+          type: integer
+          format: int32
+          description: Number of file search calls.
+        mcp_calls:
+          type: integer
+          format: int32
+          description: Number of MCP calls.
+        web_search_calls:
+          type: integer
+          format: int32
+          description: Number of web search calls.
+        x_search_calls:
+          type: integer
+          format: int32
+          description: Number of X search calls.
     StartDeferredChatResponse:
       type: object
       required:
@@ -5147,16 +5205,16 @@ components:
       - type: object
         description: Action type "open_page" - Opens a specific URL from search results.
         required:
-        - source
+        - url
         - type
         properties:
-          source:
-            "$ref": "#/components/schemas/WebSearchSource"
-            description: The source of the page to open.
           type:
             type: string
             enum:
             - open_page
+          url:
+            type: string
+            description: The URL of the page to open.
       - type: object
         description: 'Action type "find": Searches for a pattern within a loaded page.'
         required:

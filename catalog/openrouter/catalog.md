@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 338
-- **Last Updated**: 2025-11-18
+- **Total Models**: 337
+- **Last Updated**: 2025-11-19
 
 ## Models
 
@@ -2279,48 +2279,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### DeepSeek: DeepSeek V3.1 (free)
-
-**Model ID**: `deepseek/deepseek-chat-v3.1:free`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 163,800 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### DeepSeek: DeepSeek V3.1 Terminus
 
 **Model ID**: `deepseek/deepseek-v3.1-terminus`  
@@ -3191,50 +3149,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemini 2.5 Flash Lite Preview 06-17
-
-**Model ID**: `google/gemini-2.5-flash-lite-preview-06-17`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,535 tokens
-
-
-#### Modalities
-
-
-- **Input**: file, image, text, audio
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemini 2.5 Flash Lite Preview 09-2025
 
 **Model ID**: `google/gemini-2.5-flash-lite-preview-09-2025`  
@@ -3445,6 +3359,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemini 3 Pro Preview
+
+**Model ID**: `google/gemini-3-pro-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
 
 
 
@@ -7458,7 +7416,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -7479,10 +7437,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $2.35
 
 
 
@@ -12067,10 +12025,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 32,768 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -12091,10 +12047,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.051
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.34
 
 
 
