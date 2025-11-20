@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 15
-- **Last Updated**: 2025-11-19
+- **Total Models**: 16
+- **Last Updated**: 2025-11-20
 
 ## Models
 
@@ -608,6 +608,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `gpt-5.1-codex`  
 **Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Gemini 3 Pro
+
+**Model ID**: `gemini-3-pro`  
+**Family**: gemini
 #### Specifications
 
 - **Context Window**: 128,000 tokens

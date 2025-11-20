@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 337
-- **Last Updated**: 2025-11-19
+- **Last Updated**: 2025-11-20
 
 ## Models
 
@@ -1967,6 +1967,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.88
+
+
+
+
+
+
+
+---
+
+
+### Deep Cogito: Cogito v2.1 671B
+
+**Model ID**: `deepcogito/cogito-v2.1-671b`  
+**Family**: deepcogito
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $1.25
 
 
 
@@ -13149,94 +13191,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Sherlock Dash Alpha
-
-**Model ID**: `openrouter/sherlock-dash-alpha`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 1,840,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Sherlock Think Alpha
-
-**Model ID**: `openrouter/sherlock-think-alpha`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 1,840,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### SorcererLM 8x22B
 
 **Model ID**: `raifle/sorcererlm-8x22b`  
@@ -14563,6 +14517,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok 4.1 Fast
+
+**Model ID**: `x-ai/grok-4.1-fast`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+- **Max Output Tokens**: 30,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
