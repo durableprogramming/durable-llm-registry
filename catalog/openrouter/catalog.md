@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 337
-- **Last Updated**: 2025-11-20
+- **Total Models**: 339
+- **Last Updated**: 2025-11-21
 
 ## Models
 
@@ -3929,6 +3929,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Nano Banana Pro (Gemini 3 Pro Image Preview)
+
+**Model ID**: `google/gemini-3-pro-image-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
 ### IBM: Granite 4.0 Micro
 
 **Model ID**: `ibm-granite/granite-4.0-h-micro`  
@@ -6837,10 +6881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $0.11
 
 
 
@@ -14530,6 +14574,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### xAI: Grok 4.1 Fast
 
 **Model ID**: `x-ai/grok-4.1-fast`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+- **Max Output Tokens**: 30,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok 4.1 Fast (free)
+
+**Model ID**: `x-ai/grok-4.1-fast:free`  
 **Family**: x-ai
 #### Specifications
 
