@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-11-22
+- **Last Updated**: 2025-11-23
 
 ## Models
 
@@ -50,7 +50,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.56
 
 
-- **Standard Output**: $1.68
+- **Standard Output**: $0.56
 
 
 
@@ -98,7 +98,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.56
 
 
-- **Standard Output**: $1.68
+- **Standard Output**: $0.56
 
 
 
@@ -386,7 +386,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.55
 
 
-- **Standard Output**: $2.19
+- **Standard Output**: $0.55
 
 
 
@@ -482,7 +482,51 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $0.6
+
+
+
+
+
+
+
+---
+
+
+### Kimi K2 Thinking
+
+**Model ID**: `accounts/fireworks/models/kimi-k2-thinking`  
+**Family**: kimi-k2
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -628,7 +672,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.15
 
 
 
@@ -676,7 +720,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.07
 
 
 
@@ -727,54 +771,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.9
-
-
-
-
-
-
-
----
-
-
-### Qwen3 235B A22B Instruct 2507
-
-**Model ID**: `accounts/fireworks/models/qwen3-235b-a22b-instruct-2507`  
-**Family**: qwen3
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.22
-
-
-- **Standard Output**: $0.88
 
 
 
