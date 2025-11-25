@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-11-24
+- **Last Updated**: 2025-11-25
 
 ## Models
 
@@ -50,7 +50,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.56
 
 
-- **Standard Output**: $0.56
+- **Standard Output**: $1.68
 
 
 
@@ -98,7 +98,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.56
 
 
-- **Standard Output**: $0.56
+- **Standard Output**: $1.68
 
 
 
@@ -386,7 +386,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.55
 
 
-- **Standard Output**: $0.55
+- **Standard Output**: $2.19
 
 
 
@@ -482,7 +482,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.6
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $2.5
 
 
 
@@ -526,7 +526,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.6
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $2.5
 
 
 
@@ -672,7 +672,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.15
+- **Standard Output**: $0.6
 
 
 
@@ -720,7 +720,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 - **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.07
+- **Standard Output**: $0.3
 
 
 
