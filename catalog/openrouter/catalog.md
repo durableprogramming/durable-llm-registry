@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2025-11-25
+- **Total Models**: 342
+- **Last Updated**: 2025-11-26
 
 ## Models
 
@@ -4380,7 +4380,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -8305,10 +8305,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.59
+- **Standard Output**: $0.2
 
 
 
@@ -11237,10 +11237,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.16
+- **Standard Output**: $0.11
 
 
 
@@ -12558,7 +12558,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12579,10 +12579,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.38
 
 
-- **Standard Output**: $4.0
+- **Standard Output**: $1.53
 
 
 
@@ -14745,50 +14745,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.1 Fast
-
-**Model ID**: `x-ai/grok-4.1-fast`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 2,000,000 tokens
-
-
-- **Max Output Tokens**: 30,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
