@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 331
-- **Last Updated**: 2025-11-27
+- **Total Models**: 330
+- **Last Updated**: 2025-11-28
 
 ## Models
 
@@ -283,10 +283,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: allenai
 #### Specifications
 
-- **Context Window**: 4,096 tokens
+- **Context Window**: 128,000 tokens
 
-
-- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -307,10 +305,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.35
+- **Standard Output**: $0.2
 
 
 
@@ -1078,7 +1076,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 200,000 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 64,000 tokens
 
 
 #### Modalities
@@ -2621,50 +2619,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.13
-
-
-
-
-
-
-
----
-
-
-### DeepSeek: R1 Distill Llama 70B (free)
-
-**Model ID**: `deepseek/deepseek-r1-distill-llama-70b:free`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -13810,7 +13764,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.35
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $1.55
 
 
 
@@ -14003,8 +13957,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 204,800 tokens
 
+
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14025,10 +13981,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.44
 
 
-- **Standard Output**: $1.9
+- **Standard Output**: $1.76
 
 
 
