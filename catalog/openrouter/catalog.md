@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 330
-- **Last Updated**: 2025-11-30
+- **Last Updated**: 2025-12-01
 
 ## Models
 
