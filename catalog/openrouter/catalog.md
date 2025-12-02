@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 330
-- **Last Updated**: 2025-12-01
+- **Total Models**: 333
+- **Last Updated**: 2025-12-02
 
 ## Models
 
@@ -833,10 +833,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $6.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $30.0
 
 
 
@@ -1319,6 +1319,90 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.18
+
+
+
+
+
+
+
+---
+
+
+### Arcee AI: Trinity Mini
+
+**Model ID**: `arcee-ai/trinity-mini`  
+**Family**: arcee-ai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.045
+
+
+- **Standard Output**: $0.15
+
+
+
+
+
+
+
+---
+
+
+### Arcee AI: Trinity Mini (free)
+
+**Model ID**: `arcee-ai/trinity-mini:free`  
+**Family**: arcee-ai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -2373,10 +2457,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 163,840 tokens
 
-
-- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -2397,10 +2479,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.216
+- **Standard Input**: $0.21
 
 
-- **Standard Output**: $0.8
+- **Standard Output**: $0.79
 
 
 
@@ -2455,9 +2537,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### DeepSeek: DeepSeek V3.2 Exp
+### DeepSeek: DeepSeek V3.2
 
-**Model ID**: `deepseek/deepseek-v3.2-exp`  
+**Model ID**: `deepseek/deepseek-v3.2`  
 **Family**: deepseek
 #### Specifications
 
@@ -2485,10 +2567,96 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.216
+- **Standard Input**: $0.28
 
 
-- **Standard Output**: $0.328
+- **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V3.2 Exp
+
+**Model ID**: `deepseek/deepseek-v3.2-exp`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 163,840 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.21
+
+
+- **Standard Output**: $0.32
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V3.2 Speciale
+
+**Model ID**: `deepseek/deepseek-v3.2-speciale`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 163,840 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.28
+
+
+- **Standard Output**: $0.4
 
 
 
@@ -2619,50 +2787,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.13
-
-
-
-
-
-
-
----
-
-
-### DeepSeek: R1 Distill Qwen 14B
-
-**Model ID**: `deepseek/deepseek-r1-distill-qwen-14b`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.12
-
-
-- **Standard Output**: $0.12
 
 
 
