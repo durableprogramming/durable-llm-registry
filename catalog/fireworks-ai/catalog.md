@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-12-02
+- **Last Updated**: 2025-12-03
 
 ## Models
 
@@ -99,6 +99,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $1.68
+
+
+
+
+
+
+
+---
+
+
+### Deepseek v3.2
+
+**Model ID**: `accounts/fireworks/models/deepseek-v3p2`  
+**Family**: deepseek-v3
+#### Specifications
+
+- **Context Window**: 160,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.2
+
+
+- **Standard Output**: $1.2
 
 
 
@@ -387,54 +431,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $2.19
-
-
-
-
-
-
-
----
-
-
-### Kimi K2 Instruct
-
-**Model ID**: `accounts/fireworks/models/kimi-k2-instruct`  
-**Family**: kimi-k2
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
 
 
 
