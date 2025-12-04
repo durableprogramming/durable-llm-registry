@@ -2464,7 +2464,7 @@ components:
             type:
               type: string
               enum:
-              - reciprocal_rank_fusion
+              - rrf
         description: Use RRF to perform the reranking.
       description: Reranker configuration for hybrid retrieval.
     HybridRetrieval:

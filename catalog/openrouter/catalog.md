@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 335
-- **Last Updated**: 2025-12-03
+- **Total Models**: 336
+- **Last Updated**: 2025-12-04
 
 ## Models
 
@@ -460,6 +460,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 65,535 tokens
+
 
 #### Modalities
 
@@ -501,6 +503,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -2413,8 +2417,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 163,840 tokens
+- **Context Window**: 8,192 tokens
 
+
+- **Max Output Tokens**: 7,168 tokens
 
 
 #### Modalities
@@ -2435,10 +2441,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.88
+- **Standard Output**: $0.7
 
 
 
@@ -2670,7 +2676,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -2691,10 +2697,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.28
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.41
 
 
 
@@ -2825,6 +2831,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.13
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: R1 Distill Qwen 14B
+
+**Model ID**: `deepseek/deepseek-r1-distill-qwen-14b`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.12
+
+
+- **Standard Output**: $0.12
 
 
 
@@ -10625,10 +10675,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.26
+- **Standard Output**: $0.6
 
 
 
@@ -14447,9 +14497,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### xAI: Grok 4.1 Fast (free)
+### xAI: Grok 4.1 Fast
 
-**Model ID**: `x-ai/grok-4.1-fast:free`  
+**Model ID**: `x-ai/grok-4.1-fast`  
 **Family**: x-ai
 #### Specifications
 
@@ -14477,10 +14527,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.5
 
 
 
