@@ -1070,6 +1070,23 @@ components:
       - type
       - url
       properties:
+        end_index:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: The end index of the annotation.
+        start_index:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: The summary of the annotation.
+        title:
+          type:
+          - string
+          - 'null'
+          description: The title of the annotation.
         type:
           type: string
           description: The type of the annotation. Only supported type currently is
@@ -1136,6 +1153,20 @@ components:
       type: object
       description: The chat request body for `/v1/chat/completions` endpoint.
       properties:
+        bootstrap_host:
+          type:
+          - string
+          - 'null'
+          description: "(Internal) Bootstrap host address for disaggregated prefill/decode.
+            Used for PD disaggregation."
+        bootstrap_room:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: "(Internal) Bootstrap room ID for disaggregated prefill/decode.
+            Used for PD disaggregation."
+          minimum: 0
         deferred:
           type:
           - boolean

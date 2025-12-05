@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 336
-- **Last Updated**: 2025-12-04
+- **Last Updated**: 2025-12-05
 
 ## Models
 
@@ -466,7 +466,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, file
 
 
 - **Output**: text
@@ -510,7 +510,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, file
 
 
 - **Output**: text
@@ -1841,6 +1841,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
+### Body Builder
+
+**Model ID**: `openrouter/bodybuilder`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $-1000000.0
+
+
+- **Standard Output**: $-1000000.0
 
 
 
@@ -5959,48 +6001,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral Small
-
-**Model ID**: `mistralai/mistral-small`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
 ### Mistral Tiny
 
 **Model ID**: `mistralai/mistral-tiny`  
@@ -6033,48 +6033,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.25
-
-
-
-
-
-
-
----
-
-
-### Mistral: Codestral 2501
-
-**Model ID**: `mistralai/codestral-2501`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $0.9
 
 
 
@@ -6253,50 +6211,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Magistral Medium 2506
-
-**Model ID**: `mistralai/magistral-medium-2506`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 40,960 tokens
-
-
-- **Max Output Tokens**: 40,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Magistral Medium 2506 (thinking)
 
 **Model ID**: `mistralai/magistral-medium-2506:thinking`  
@@ -6341,22 +6255,20 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Magistral Small 2506
+### Mistral: Ministral 3 14B 2512
 
-**Model ID**: `mistralai/magistral-small-2506`  
+**Model ID**: `mistralai/ministral-14b-2512`  
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 40,000 tokens
+- **Context Window**: 262,144 tokens
 
-
-- **Max Output Tokens**: 40,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -6371,10 +6283,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $0.2
+
+
+
+
+
+
+
+---
+
+
+### Mistral: Ministral 3 3B 2512
+
+**Model ID**: `mistralai/ministral-3b-2512`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.1
+
+
+
+
+
+
+
+---
+
+
+### Mistral: Ministral 3 8B 2512
+
+**Model ID**: `mistralai/ministral-8b-2512`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.15
 
 
 
@@ -9996,8 +9992,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
-
 
 #### Modalities
 
@@ -10017,10 +10011,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04
+- **Standard Input**: $0.039
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.19
 
 
 
@@ -10040,8 +10034,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
-
 
 #### Modalities
 
@@ -10061,10 +10053,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04
+- **Standard Input**: $0.039
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.19
 
 
 
