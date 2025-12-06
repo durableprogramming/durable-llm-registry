@@ -508,6 +508,42 @@ paths:
           description: Model not found
       security:
       - bearerAuth: []
+  "/v1/images/edits":
+    post:
+      tags:
+      - v1
+      summary: Edit an image based on a prompt. This is the endpoint for making edit
+        requests to image generation models.
+      operationId: handle_edit_image_request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/EditImageRequest"
+            example:
+              prompt: Add a hat to this cat.
+              image:
+                url: "..."
+              model: grok-2-image
+        required: true
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/GeneratedImageResponse"
+              example:
+                data:
+                - url: "..."
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '422':
+          description: Unprocessable Entity. There are missing fields in the request
+            body.
+      security:
+      - bearerAuth: []
   "/v1/images/generations":
     post:
       tags:

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 336
-- **Last Updated**: 2025-12-05
+- **Total Models**: 338
+- **Last Updated**: 2025-12-06
 
 ## Models
 
@@ -1164,7 +1164,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 200,000 tokens
 
 
-- **Max Output Tokens**: 64,000 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
@@ -6860,7 +6860,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -6881,10 +6881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.08
+- **Standard Output**: $0.11
 
 
 
@@ -9939,6 +9939,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5.1-Codex-Max
+
+**Model ID**: `openai/gpt-5.1-codex-max`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5.1-Codex-Mini
 
 **Model ID**: `openai/gpt-5.1-codex-mini`  
@@ -10057,6 +10101,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.19
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: gpt-oss-120b (free)
+
+**Model ID**: `openai/gpt-oss-120b:free`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
