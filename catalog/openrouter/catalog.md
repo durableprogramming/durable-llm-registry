@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 338
-- **Last Updated**: 2025-12-06
+- **Total Models**: 335
+- **Last Updated**: 2025-12-07
 
 ## Models
 
@@ -1851,48 +1851,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Body Builder
-
-**Model ID**: `openrouter/bodybuilder`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $-1000000.0
-
-
-- **Standard Output**: $-1000000.0
-
-
-
-
-
-
-
----
-
-
 ### ByteDance: UI-TARS 7B 
 
 **Model ID**: `bytedance/ui-tars-1.5-7b`  
@@ -2145,48 +2103,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
-### Deep Cogito: Cogito V2 Preview Deepseek 671B
-
-**Model ID**: `deepcogito/cogito-v2-preview-deepseek-671b`  
-**Family**: deepcogito
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $1.25
 
 
 
@@ -2718,7 +2634,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -2825,10 +2741,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.35
 
 
-- **Standard Output**: $4.5
+- **Standard Output**: $3.0
 
 
 
@@ -3812,7 +3728,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -3833,10 +3749,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.16
 
 
 
@@ -6201,50 +6117,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.12
-
-
-
-
-
-
-
----
-
-
-### Mistral: Magistral Medium 2506 (thinking)
-
-**Model ID**: `mistralai/magistral-medium-2506:thinking`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 40,960 tokens
-
-
-- **Max Output Tokens**: 40,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $5.0
 
 
 

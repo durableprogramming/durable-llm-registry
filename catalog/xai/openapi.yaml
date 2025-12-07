@@ -2031,6 +2031,11 @@ components:
         prompt:
           type: string
           description: Prompt for image editing.
+        quality:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageQuality"
+            description: Quality of the output image. Can be `low`, `medium`, or `high`.
         response_format:
           type:
           - string
@@ -2424,7 +2429,6 @@ components:
           description: The type of the function tool call, which is always `function_call_output`.
     GenerateImageRequest:
       type: object
-      description: Request to generate image for `/v1/image/generations` endpoint
       properties:
         model:
           type:
@@ -2445,10 +2449,10 @@ components:
           type: string
           description: Prompt for image generation.
         quality:
-          type:
-          - string
-          - 'null'
-          description: "(Not supported) Quality of the image."
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageQuality"
+            description: Quality of the output image. Can be `low`, `medium`, or `high`.
         response_format:
           type:
           - string
@@ -2609,6 +2613,15 @@ components:
         version:
           type: string
           description: Version of the model.
+    ImageQuality:
+      type: string
+      description: |-
+        Request to generate image for `/v1/image/generations` endpoint
+        Quality level for image generation
+      enum:
+      - low
+      - medium
+      - high
     ImageUrl:
       type: object
       description: Image URL object of Image prompt
