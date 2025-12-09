@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-12-08
+- **Last Updated**: 2025-12-09
 
 ## Models
 
@@ -47,10 +47,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.56
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $1.68
+- **Standard Output**: $1.5
 
 
 
@@ -95,10 +95,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.56
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $1.68
+- **Standard Output**: $1.5
 
 
 
@@ -139,10 +139,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.56
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $1.68
+- **Standard Output**: $1.5
 
 
 
@@ -427,10 +427,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.55
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.19
+- **Standard Output**: $1.5
 
 
 
@@ -475,10 +475,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $1.5
 
 
 
@@ -519,10 +519,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $1.5
 
 
 
@@ -665,10 +665,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $1.5
 
 
 
@@ -713,10 +713,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $1.5
 
 
 
@@ -763,10 +763,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $1.5
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - **Provider**: groq
 - **Total Models**: 15
-- **Last Updated**: 2025-12-08
+- **Last Updated**: 2025-12-09
 
 ## Models
 

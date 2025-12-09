@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 335
-- **Last Updated**: 2025-12-08
+- **Total Models**: 339
+- **Last Updated**: 2025-12-09
 
 ## Models
 
@@ -1851,6 +1851,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Body Builder
+
+**Model ID**: `openrouter/bodybuilder`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $-1000000.0
+
+
+- **Standard Output**: $-1000000.0
+
+
+
+
+
+
+
+---
+
+
 ### ByteDance: UI-TARS 7B 
 
 **Model ID**: `bytedance/ui-tars-1.5-7b`  
@@ -2375,10 +2417,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 8,192 tokens
+- **Context Window**: 163,840 tokens
 
-
-- **Max Output Tokens**: 7,168 tokens
 
 
 #### Modalities
@@ -2399,10 +2439,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.7
+- **Standard Output**: $0.88
 
 
 
@@ -2923,6 +2963,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### EssentialAI: Rnj 1 Instruct
+
+**Model ID**: `essentialai/rnj-1-instruct`  
+**Family**: essentialai
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.15
 
 
 
@@ -3727,10 +3809,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 96,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 96,000 tokens
 
 
 #### Modalities
@@ -3751,10 +3833,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.45
+- **Standard Output**: $0.22
 
 
 
@@ -10078,7 +10160,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -12813,6 +12895,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Relace: Relace Search
+
+**Model ID**: `relace/relace-search`  
+**Family**: relace
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
 ### Sao10K: Llama 3 8B Lunaris
 
 **Model ID**: `sao10k/l3-lunaris-8b`  
@@ -14187,6 +14313,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
+
+
+
+
+
+
+
+---
+
+
+### Z.AI: GLM 4.6V
+
+**Model ID**: `z-ai/glm-4.6v`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 24,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $0.9
 
 
 
