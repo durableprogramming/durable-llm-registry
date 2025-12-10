@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 5
-- **Last Updated**: 2025-12-09
+- **Last Updated**: 2025-12-10
 
 ## Models
 
@@ -47,10 +47,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $5.0
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $8.0
 
 
 
@@ -143,10 +143,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $6.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $10.0
 
 
 
@@ -191,10 +191,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $5.0
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $8.0
 
 
 
@@ -239,10 +239,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $6.0
 
 
-- **Standard Output**: $8.0
+- **Standard Output**: $10.0
 
 
 

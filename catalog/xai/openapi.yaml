@@ -4754,6 +4754,7 @@ components:
       - chunk_content
       - score
       - collection_ids
+      - fields
       properties:
         chunk_content:
           type: string
@@ -4766,6 +4767,13 @@ components:
           items:
             type: string
           description: The collection ID(s).
+        fields:
+          type: object
+          description: Metadata fields belonging to the document of this chunk.
+          additionalProperties:
+            type: string
+          propertyNames:
+            type: string
         file_id:
           type: string
           description: The document ID.
