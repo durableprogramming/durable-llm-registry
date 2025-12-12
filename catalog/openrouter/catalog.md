@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2025-12-11
+- **Total Models**: 345
+- **Last Updated**: 2025-12-12
 
 ## Models
 
@@ -2592,7 +2592,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -2613,10 +2613,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $0.39
+- **Standard Output**: $0.38
 
 
 
@@ -10113,6 +10113,138 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5.2
+
+**Model ID**: `openai/gpt-5.2`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.2 Chat
+
+**Model ID**: `openai/gpt-5.2-chat`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.2 Pro
+
+**Model ID**: `openai/gpt-5.2-pro`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $21.0
+
+
+- **Standard Output**: $168.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -12378,7 +12510,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -12399,10 +12531,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.38
+- **Standard Input**: $0.22
 
 
-- **Standard Output**: $1.53
+- **Standard Output**: $1.8
 
 
 
@@ -14415,8 +14547,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 204,800 tokens
 
+
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14437,10 +14571,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.43
+- **Standard Input**: $0.44
 
 
-- **Standard Output**: $1.75
+- **Standard Output**: $1.76
 
 
 
