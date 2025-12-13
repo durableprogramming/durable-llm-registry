@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 345
-- **Last Updated**: 2025-12-12
+- **Total Models**: 342
+- **Last Updated**: 2025-12-13
 
 ## Models
 
@@ -4671,50 +4671,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meituan: LongCat Flash Chat (free)
-
-**Model ID**: `meituan/longcat-flash-chat:free`  
-**Family**: meituan
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Meta: Llama 3 70B Instruct
 
 **Model ID**: `meta-llama/llama-3-70b-instruct`  
@@ -5407,6 +5363,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Meta: Llama Guard 4 12B (free)
+
+**Model ID**: `meta-llama/llama-guard-4-12b:free`  
+**Family**: meta-llama
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Meta: LlamaGuard 2 8B
 
 **Model ID**: `meta-llama/llama-guard-2-8b`  
@@ -5439,50 +5437,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
-### Microsoft: MAI DS R1
-
-**Model ID**: `microsoft/mai-ds-r1`  
-**Family**: microsoft
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 163,840 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $1.2
 
 
 
@@ -7571,50 +7525,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.35
-
-
-
-
-
-
-
----
-
-
-### MoonshotAI: Kimi Linear 48B A3B Instruct
-
-**Model ID**: `moonshotai/kimi-linear-48b-a3b-instruct`  
-**Family**: moonshotai
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 1,048,576 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.7
-
-
-- **Standard Output**: $0.9
 
 
 
@@ -12899,10 +12809,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -12923,10 +12831,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.6
 
 
 
@@ -13879,50 +13787,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.57
-
-
-
-
-
-
-
----
-
-
-### TheDrummer: Anubis 70B V1.1
-
-**Model ID**: `thedrummer/anubis-70b-v1.1`  
-**Family**: thedrummer
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.75
-
-
-- **Standard Output**: $1.0
 
 
 
