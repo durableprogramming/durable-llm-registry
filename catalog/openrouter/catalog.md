@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2025-12-13
+- **Total Models**: 341
+- **Last Updated**: 2025-12-14
 
 ## Models
 
@@ -5353,48 +5353,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.18
-
-
-
-
-
-
-
----
-
-
-### Meta: Llama Guard 4 12B (free)
-
-**Model ID**: `meta-llama/llama-guard-4-12b:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
