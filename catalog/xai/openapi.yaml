@@ -1519,7 +1519,8 @@ components:
             description: Debug output. Only available to trusted testers.
         id:
           type: string
-          description: A unique ID for the chat response chunk.
+          description: A unique ID for the chat completion. Each chunk in a streaming
+            response has the same ID.
         model:
           type: string
           description: The model ID used to create chat completion.

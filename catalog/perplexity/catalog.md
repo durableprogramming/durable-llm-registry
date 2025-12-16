@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 5
-- **Last Updated**: 2025-12-15
+- **Total Models**: 4
+- **Last Updated**: 2025-12-16
 
 ## Models
 
@@ -147,54 +147,6 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Standard Output**: $10.0
-
-
-
-
-
-
-
----
-
-
-### Sonar Reasoning
-
-**Model ID**: `sonar-reasoning`  
-**Family**: sonar-reasoning
-#### Specifications
-
-- **Context Window**: 127,072 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Search grounding
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $8.0
 
 
 

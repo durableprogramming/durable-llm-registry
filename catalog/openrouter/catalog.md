@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2025-12-15
+- **Total Models**: 342
+- **Last Updated**: 2025-12-16
 
 ## Models
 
@@ -1853,7 +1853,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Body Builder
+### Body Builder (beta)
 
 **Model ID**: `openrouter/bodybuilder`  
 **Family**: openrouter
@@ -2635,6 +2635,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 163,840 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -7743,6 +7745,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3 Nano 30B A3B (free)
+
+**Model ID**: `nvidia/nemotron-3-nano-30b-a3b:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -14327,10 +14371,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 202,752 tokens
+- **Max Output Tokens**: 204,800 tokens
 
 
 #### Modalities
@@ -14351,10 +14395,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.39
 
 
-- **Standard Output**: $1.75
+- **Standard Output**: $1.9
 
 
 
