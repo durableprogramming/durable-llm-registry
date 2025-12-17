@@ -2037,6 +2037,15 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ImageQuality"
             description: Quality of the output image. Can be `low`, `medium`, or `high`.
+              Currently a no-op, reserved for future use.
+        resolution:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageResolution"
+            description: |-
+              Resolution of the generated image. Defaults to `1k`.
+              Aspect ratio is automatically detected from the input image.
+              Only supported by grok-imagine models.
         response_format:
           type:
           - string
@@ -2431,6 +2440,13 @@ components:
     GenerateImageRequest:
       type: object
       properties:
+        aspect_ratio:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageAspectRatio"
+            description: |-
+              Aspect ratio of the generated image. Can be `1:1`, `3:4`, `4:3`, `9:16`, or `16:9`. Defaults to `1:1`.
+              Only supported by grok-imagine models.
         model:
           type:
           - string
@@ -2454,6 +2470,14 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ImageQuality"
             description: Quality of the output image. Can be `low`, `medium`, or `high`.
+              Currently a no-op, reserved for future use.
+        resolution:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageResolution"
+            description: |-
+              Resolution of the generated image. Defaults to `1k`.
+              Only supported by grok-imagine models.
         response_format:
           type:
           - string
@@ -2556,6 +2580,17 @@ components:
           description: |-
             Additional multiplier to requested search limit.
             Valid range is [1, 100]. Defaults to 1 when unset.
+    ImageAspectRatio:
+      type: string
+      description: |-
+        Aspect ratio for image generation.
+        Only supported by grok-imagine models.
+      enum:
+      - '1:1'
+      - '3:4'
+      - '4:3'
+      - '9:16'
+      - '16:9'
     ImageGenerationModel:
       type: object
       description: Details of an image generation model
@@ -2618,11 +2653,19 @@ components:
       type: string
       description: |-
         Request to generate image for `/v1/image/generations` endpoint
-        Quality level for image generation
+        Quality level for image generation.
+        Note: Currently a no-op, reserved for future use.
       enum:
       - low
       - medium
       - high
+    ImageResolution:
+      type: string
+      description: |-
+        Resolution for image generation.
+        Only supported by grok-imagine models.
+      enum:
+      - 1k
     ImageUrl:
       type: object
       description: Image URL object of Image prompt
