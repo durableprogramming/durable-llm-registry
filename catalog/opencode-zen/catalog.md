@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 20
-- **Last Updated**: 2025-12-17
+- **Total Models**: 21
+- **Last Updated**: 2025-12-18
 
 ## Models
 
@@ -815,6 +815,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Gemini 3 Flash
+
+**Model ID**: `gemini-3-flash`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $3.0
+
+
+
+
+- **Cached Input**: $0.625
+
+
+- **Cached Output**: $0.05
 
 
 

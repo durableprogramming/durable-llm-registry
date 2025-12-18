@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 349
-- **Last Updated**: 2025-12-17
+- **Last Updated**: 2025-12-18
 
 ## Models
 
@@ -529,50 +529,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
-### Amazon: Nova 2 Lite (free)
-
-**Model ID**: `amazon/nova-2-lite-v1:free`  
-**Family**: amazon
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 65,535 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -2638,7 +2594,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 163,840 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -2659,7 +2615,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.24
+- **Standard Input**: $0.26
 
 
 - **Standard Output**: $0.38
@@ -3669,6 +3625,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemini 3 Flash Preview
+
+**Model ID**: `google/gemini-3-flash-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,535 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $3.0
 
 
 
