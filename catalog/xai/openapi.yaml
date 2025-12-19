@@ -282,6 +282,7 @@ paths:
               source:
                 collection_ids:
                 - collection_80100614-300c-4609-959b-a138fa90f542
+              filter: document_type = "financial_report" AND year > 2020
         required: true
       responses:
         '200':
@@ -4888,6 +4889,17 @@ components:
       - query
       - source
       properties:
+        filter:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Optional metadata filter string to apply to search results.
+            Uses AIP-160 filter syntax for querying document metadata.
+            Supports comparison operators: `=`, `!=`, `>`, `>=`, `<`, `<=`
+            Supports logical operators: `AND`, `OR`
+            Supports range syntax: `field:10..20` (inclusive)
+            Examples: `author = "John"` or `year > 2020 AND category = "finance"`
         instructions:
           type:
           - string

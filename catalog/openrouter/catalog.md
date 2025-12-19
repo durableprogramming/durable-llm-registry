@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2025-12-18
+- **Total Models**: 350
+- **Last Updated**: 2025-12-19
 
 ## Models
 
@@ -2419,10 +2419,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 8,192 tokens
+- **Context Window**: 163,840 tokens
 
-
-- **Max Output Tokens**: 7,168 tokens
 
 
 #### Modalities
@@ -2443,10 +2441,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $0.88
 
 
 
@@ -2594,7 +2592,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -2615,7 +2613,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.24
 
 
 - **Standard Output**: $0.38
@@ -7927,6 +7925,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### NVIDIA: Nemotron 3 Nano 30B A3B
+
+**Model ID**: `nvidia/nemotron-3-nano-30b-a3b`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.24
+
+
+
+
+
+
+
+---
+
+
 ### NVIDIA: Nemotron 3 Nano 30B A3B (free)
 
 **Model ID**: `nvidia/nemotron-3-nano-30b-a3b:free`  
@@ -8297,10 +8337,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.1
 
 
 
