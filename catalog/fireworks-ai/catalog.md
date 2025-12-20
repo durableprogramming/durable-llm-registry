@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 20
-- **Last Updated**: 2025-12-19
+- **Last Updated**: 2025-12-20
 
 ## Models
 
@@ -727,13 +727,13 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Qwen2.5-VL 32B Instruct
+### Qwen3 Omni 30B A3B Instruct
 
-**Model ID**: `accounts/fireworks/models/qwen2p5-vl-32b-instruct`  
-**Family**: qwen2p5-vl
+**Model ID**: `accounts/fireworks/models/qwen3-omni-30b-a3b-instruct`  
+**Family**: qwen3
 #### Specifications
 
-- **Context Window**: 125,000 tokens
+- **Context Window**: 64,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -750,8 +750,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 #### Capabilities
 
-
-- Fine tuning
 
 - Vision
 

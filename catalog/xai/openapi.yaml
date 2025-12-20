@@ -4052,9 +4052,12 @@ components:
                 search. Available values are `low`, `medium`, or `high`.
                 For OpenAI API compatibility ONLY. Request will be rejected if this field is set.
             user_location:
-              description: |-
-                The user location to use for the search.
-                For OpenAI API compatibility ONLY. Request will be rejected if this field is set.
+              oneOf:
+              - type: 'null'
+              - "$ref": "#/components/schemas/WebSearchUserLocation"
+                description: |-
+                  The user location to use for the search.
+                  For OpenAI API compatibility ONLY. Request will be rejected if this field is set.
         - type: object
           description: Search the web.
           required:
@@ -5520,6 +5523,35 @@ components:
         url:
           type: string
           description: The URL of the source.
+    WebSearchUserLocation:
+      type: object
+      required:
+      - type
+      properties:
+        city:
+          type:
+          - string
+          - 'null'
+          description: City of the user's location.
+        country:
+          type:
+          - string
+          - 'null'
+          description: Two-letter ISO 3166-1 alpha-2 country code, like US, GB, etc.
+        region:
+          type:
+          - string
+          - 'null'
+          description: Region of the user's location.
+        timezone:
+          type:
+          - string
+          - 'null'
+          description: Timezone of the user's location, IANA timezone like America/Chicago,
+            Europe/London, etc.
+        type:
+          type: string
+          description: Type is always `"approximate"`.
   securitySchemes:
     bearerAuth:
       type: http
