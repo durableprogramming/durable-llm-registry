@@ -7,106 +7,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 20
-- **Last Updated**: 2025-12-22
+- **Total Models**: 18
+- **Last Updated**: 2025-12-23
 
 ## Models
-
-
-### DeepSeek V3.1
-
-**Model ID**: `accounts/fireworks/models/deepseek-v3p1`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 160,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### DeepSeek V3.1 Terminus
-
-**Model ID**: `accounts/fireworks/models/deepseek-v3p1-terminus`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 160,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
 
 
 ### Deepseek v3.2
@@ -345,13 +249,13 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### GLM-4.5V
+### GLM-4.6
 
-**Model ID**: `accounts/fireworks/models/glm-4p5v`  
+**Model ID**: `accounts/fireworks/models/glm-4p6`  
 **Family**: glm-4p5v
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 198,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -360,7 +264,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: text
@@ -369,7 +273,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 #### Capabilities
 
 
-- Vision
+- Fine tuning
 
 
 
@@ -393,9 +297,9 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### GLM-4.6
+### GLM-4.7
 
-**Model ID**: `accounts/fireworks/models/glm-4p6`  
+**Model ID**: `accounts/fireworks/models/glm-4p7`  
 **Family**: glm-4p5v
 #### Specifications
 
@@ -533,104 +437,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Llama 4 Maverick Instruct (Basic)
-
-**Model ID**: `accounts/fireworks/models/llama4-maverick-instruct-basic`  
-**Family**: llama4-maverick
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
-- Vision
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### NVIDIA Nemotron Nano 2 VL
-
-**Model ID**: `accounts/fireworks/models/nemotron-nano-v2-12b-vl`  
-**Family**: nemotron-nano
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Vision
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
 ### OpenAI gpt-oss-120b
 
 **Model ID**: `accounts/fireworks/models/gpt-oss-120b`  
@@ -679,13 +485,13 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### OpenAI gpt-oss-20b
+### Qwen3 VL 235B A22B Instruct
 
-**Model ID**: `accounts/fireworks/models/gpt-oss-20b`  
-**Family**: gpt-oss
+**Model ID**: `accounts/fireworks/models/qwen3-vl-235b-a22b-instruct`  
+**Family**: qwen3
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -694,7 +500,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -704,6 +510,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - Fine tuning
+
+- Vision
 
 
 
@@ -727,13 +535,13 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Qwen3 Omni 30B A3B Instruct
+### Qwen3 VL 235B A22B Thinking
 
-**Model ID**: `accounts/fireworks/models/qwen3-omni-30b-a3b-instruct`  
+**Model ID**: `accounts/fireworks/models/qwen3-vl-235b-a22b-thinking`  
 **Family**: qwen3
 #### Specifications
 
-- **Context Window**: 64,000 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -750,6 +558,108 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 #### Capabilities
 
+
+- Fine tuning
+
+- Vision
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Qwen3 VL 30B A3B Instruct
+
+**Model ID**: `accounts/fireworks/models/qwen3-vl-30b-a3b-instruct`  
+**Family**: qwen3
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Fine tuning
+
+- Vision
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Qwen3 VL 30B A3B Thinking
+
+**Model ID**: `accounts/fireworks/models/qwen3-vl-30b-a3b-thinking`  
+**Family**: qwen3
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Fine tuning
 
 - Vision
 
