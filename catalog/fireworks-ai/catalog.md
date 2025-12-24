@@ -8,9 +8,57 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 18
-- **Last Updated**: 2025-12-23
+- **Last Updated**: 2025-12-24
 
 ## Models
+
+
+### DeepSeek V3.1
+
+**Model ID**: `accounts/fireworks/models/deepseek-v3p1`  
+**Family**: deepseek-v3
+#### Specifications
+
+- **Context Window**: 160,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Fine tuning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
 
 
 ### Deepseek v3.2
@@ -415,54 +463,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 #### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### OpenAI gpt-oss-120b
-
-**Model ID**: `accounts/fireworks/models/gpt-oss-120b`  
-**Family**: gpt-oss
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Fine tuning
-
 
 
 #### Pricing (per million tokens)

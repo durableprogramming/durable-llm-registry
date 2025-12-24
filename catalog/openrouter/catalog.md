@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 351
-- **Last Updated**: 2025-12-23
+- **Total Models**: 353
+- **Last Updated**: 2025-12-24
 
 ## Models
 
@@ -1893,6 +1893,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### ByteDance Seed: Seed 1.6
+
+**Model ID**: `bytedance-seed/seed-1.6`  
+**Family**: bytedance-seed
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### ByteDance Seed: Seed 1.6 Flash
+
+**Model ID**: `bytedance-seed/seed-1.6-flash`  
+**Family**: bytedance-seed
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
 ### ByteDance: UI-TARS 7B 
 
 **Model ID**: `bytedance/ui-tars-1.5-7b`  
@@ -2459,7 +2547,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 8,192 tokens
+- **Context Window**: 32,768 tokens
 
 
 - **Max Output Tokens**: 7,168 tokens
@@ -4893,7 +4981,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 130,815 tokens
+- **Context Window**: 10,000 tokens
 
 
 
