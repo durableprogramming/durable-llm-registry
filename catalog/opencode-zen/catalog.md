@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 22
-- **Last Updated**: 2025-12-25
+- **Last Updated**: 2025-12-26
 
 ## Models
 
