@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 18
-- **Last Updated**: 2025-12-29
+- **Last Updated**: 2025-12-30
 
 ## Models
 
@@ -443,7 +443,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 **Family**: minimax-m2p1
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 200,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
