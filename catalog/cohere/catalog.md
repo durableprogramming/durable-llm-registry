@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 - **Provider**: cohere
 - **Total Models**: 19
-- **Last Updated**: 2026-01-03
+- **Last Updated**: 2026-01-04
 
 ## Models
 
