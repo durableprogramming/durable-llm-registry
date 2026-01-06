@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 351
-- **Last Updated**: 2026-01-05
+- **Total Models**: 350
+- **Last Updated**: 2026-01-06
 
 ## Models
 
@@ -319,9 +319,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### AllenAI: Olmo 3 32B Think (free)
+### AllenAI: Olmo 3 32B Think
 
-**Model ID**: `allenai/olmo-3-32b-think:free`  
+**Model ID**: `allenai/olmo-3-32b-think`  
 **Family**: allenai
 #### Specifications
 
@@ -349,10 +349,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.5
 
 
 
@@ -451,9 +451,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### AllenAI: Olmo 3.1 32B Think (free)
+### AllenAI: Olmo 3.1 32B Think
 
-**Model ID**: `allenai/olmo-3.1-32b-think:free`  
+**Model ID**: `allenai/olmo-3.1-32b-think`  
 **Family**: allenai
 #### Specifications
 
@@ -481,10 +481,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.5
 
 
 
@@ -749,50 +749,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.25
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude 3 Opus
-
-**Model ID**: `anthropic/claude-3-opus`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $15.0
-
-
-- **Standard Output**: $75.0
 
 
 
@@ -4552,7 +4508,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -5109,7 +5065,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 16,384 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -5136,7 +5092,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.03
+- **Standard Output**: $0.05
 
 
 
@@ -11405,48 +11361,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Perplexity: Sonar Reasoning
-
-**Model ID**: `perplexity/sonar-reasoning`  
-**Family**: perplexity
-#### Specifications
-
-- **Context Window**: 127,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-
-
-
----
-
-
 ### Perplexity: Sonar Reasoning Pro
 
 **Model ID**: `perplexity/sonar-reasoning-pro`  
@@ -14079,6 +13993,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.85
+
+
+
+
+
+
+
+---
+
+
+### TNG: R1T Chimera (free)
+
+**Model ID**: `tngtech/tng-r1t-chimera:free`  
+**Family**: tngtech
+#### Specifications
+
+- **Context Window**: 163,840 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
