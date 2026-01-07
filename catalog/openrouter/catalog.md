@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 350
-- **Last Updated**: 2026-01-06
+- **Total Models**: 347
+- **Last Updated**: 2026-01-07
 
 ## Models
 
@@ -5693,132 +5693,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.35
-
-
-
-
-
-
-
----
-
-
-### Microsoft: Phi-3 Medium 128K Instruct
-
-**Model ID**: `microsoft/phi-3-medium-128k-instruct`  
-**Family**: microsoft
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Microsoft: Phi-3 Mini 128K Instruct
-
-**Model ID**: `microsoft/phi-3-mini-128k-instruct`  
-**Family**: microsoft
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.1
-
-
-
-
-
-
-
----
-
-
-### Microsoft: Phi-3.5 Mini 128K Instruct
-
-**Model ID**: `microsoft/phi-3.5-mini-128k-instruct`  
-**Family**: microsoft
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.1
 
 
 
@@ -14752,7 +14626,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 24,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
