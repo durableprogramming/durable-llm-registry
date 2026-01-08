@@ -2010,6 +2010,12 @@ components:
           - 'null'
           description: Model to be used.
           example: grok-2-image
+        moderation:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ModerationLevel"
+            description: Moderation level for content filtering. Can be `low`, `auto`,
+              or `high`. Defaults to `auto`.
         "n":
           type:
           - integer
@@ -2440,6 +2446,12 @@ components:
           - 'null'
           description: Model to be used.
           example: grok-2-image
+        moderation:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ModerationLevel"
+            description: Moderation level for content filtering. Can be `low`, `auto`,
+              or `high`. Defaults to `auto`.
         "n":
           type:
           - integer
@@ -4296,6 +4308,15 @@ components:
           type: integer
           format: int32
           description: Total tokens used.
+    ModerationLevel:
+      type: string
+      description: |-
+        Moderation level for image and video generation.
+        Controls the strictness of content moderation for generated content.
+      enum:
+      - low
+      - auto
+      - high
     OutputMessage:
       type: object
       description: An output message from the model.
