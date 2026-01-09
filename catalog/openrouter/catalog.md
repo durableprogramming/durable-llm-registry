@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2026-01-08
+- **Total Models**: 348
+- **Last Updated**: 2026-01-09
 
 ## Models
 
@@ -441,6 +441,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.2
+
+
+
+
+
+
+
+---
+
+
+### AllenAI: Olmo 3.1 32B Instruct
+
+**Model ID**: `allenai/olmo-3.1-32b-instruct`  
+**Family**: allenai
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -4573,10 +4615,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.01
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.02
 
 
 
@@ -4615,10 +4657,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.01
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.02
 
 
 
