@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2026-01-09
+- **Total Models**: 349
+- **Last Updated**: 2026-01-10
 
 ## Models
 
@@ -267,6 +267,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### AllenAI: Molmo2 8B (free)
+
+**Model ID**: `allenai/molmo-2-8b:free`  
+**Family**: allenai
+#### Specifications
+
+- **Context Window**: 36,864 tokens
+
+
+- **Max Output Tokens**: 36,864 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -8223,9 +8267,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Nex AGI: DeepSeek V3.1 Nex N1 (free)
+### Nex AGI: DeepSeek V3.1 Nex N1
 
-**Model ID**: `nex-agi/deepseek-v3.1-nex-n1:free`  
+**Model ID**: `nex-agi/deepseek-v3.1-nex-n1`  
 **Family**: nex-agi
 #### Specifications
 
@@ -8253,10 +8297,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $1.0
 
 
 
