@@ -5396,6 +5396,7 @@ components:
       - prompt_tokens_details
       - completion_tokens_details
       - num_sources_used
+      - cost_in_usd_ticks
       properties:
         completion_tokens:
           type: integer
@@ -5404,6 +5405,13 @@ components:
         completion_tokens_details:
           "$ref": "#/components/schemas/CompletionUsageDetail"
           description: Breakdown of completion token usage of different types.
+        cost_in_usd_ticks:
+          type: integer
+          format: int64
+          description: |-
+            Accurate cost of this request in USD ticks, where "tick" is defined as follows:
+            TICKS_IN_USD_CENT: i64 = 100_000_000
+            which means there is 10'000'000'000 ticks in one *dollar*.
         num_sources_used:
           type: integer
           format: int32
