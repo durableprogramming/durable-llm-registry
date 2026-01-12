@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2026-01-11
+- **Total Models**: 348
+- **Last Updated**: 2026-01-12
 
 ## Models
 
@@ -4577,50 +4577,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.828
-
-
-
-
-
-
-
----
-
-
-### Kwaipilot: KAT-Coder-Pro V1 (free)
-
-**Model ID**: `kwaipilot/kat-coder-pro:free`  
-**Family**: kwaipilot
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
