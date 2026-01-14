@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2026-01-13
+- **Total Models**: 347
+- **Last Updated**: 2026-01-14
 
 ## Models
 
@@ -13659,50 +13659,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.4
-
-
-
-
-
-
-
----
-
-
-### THUDM: GLM 4.1V 9B Thinking
-
-**Model ID**: `thudm/glm-4.1v-9b-thinking`  
-**Family**: thudm
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 8,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.035
-
-
-- **Standard Output**: $0.138
 
 
 
