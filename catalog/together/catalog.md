@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Provider**: together
 - **Total Models**: 38
-- **Last Updated**: 2026-01-15
+- **Last Updated**: 2026-01-16
 
 ## Models
 
