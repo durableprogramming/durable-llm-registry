@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 339
-- **Last Updated**: 2026-01-17
+- **Last Updated**: 2026-01-18
 
 ## Models
 
@@ -2723,10 +2723,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -2747,10 +2747,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $2.15
+- **Standard Output**: $1.75
 
 
 
