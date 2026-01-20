@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2026-01-19
+- **Total Models**: 342
+- **Last Updated**: 2026-01-20
 
 ## Models
 
@@ -8225,6 +8225,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT Audio
+
+**Model ID**: `openai/gpt-audio`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT Audio Mini
+
+**Model ID**: `openai/gpt-audio-mini`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-3.5 Turbo
 
 **Model ID**: `openai/gpt-3.5-turbo`  
@@ -8991,7 +9079,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Input**: audio, text
 
 
-- **Output**: text
+- **Output**: text, audio
 
 
 #### Capabilities
@@ -12547,10 +12635,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12571,10 +12659,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.98
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $3.95
+- **Standard Output**: $3.5
 
 
 
@@ -14349,6 +14437,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Z.AI: GLM 4.7 Flash
+
+**Model ID**: `z-ai/glm-4.7-flash`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.07
+
+
+- **Standard Output**: $0.4
 
 
 

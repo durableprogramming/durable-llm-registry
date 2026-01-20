@@ -2744,14 +2744,32 @@ components:
           type: string
           description: URL of the image.
     IncompleteDetails:
-      type: object
+      oneOf:
+      - type: object
+        required:
+        - reason
+        properties:
+          reason:
+            type: string
+            enum:
+            - max_output_tokens
+      - type: object
+        required:
+        - reason
+        properties:
+          reason:
+            type: string
+            enum:
+            - max_prompt_tokens
+      - type: object
+        required:
+        - reason
+        properties:
+          reason:
+            type: string
+            enum:
+            - max_time_limit
       description: Details about why a response is incomplete.
-      required:
-      - reason
-      properties:
-        reason:
-          type: string
-          description: The reason why the response is incomplete.
     InputTokensDetails:
       type: object
       required:
