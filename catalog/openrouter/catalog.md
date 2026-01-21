@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-01-20
+- **Total Models**: 344
+- **Last Updated**: 2026-01-21
 
 ## Models
 
@@ -3292,7 +3292,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -4371,7 +4371,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### LiquidAI/LFM2-2.6B
+### LiquidAI: LFM2-2.6B
 
 **Model ID**: `liquid/lfm-2.2-6b`  
 **Family**: liquid
@@ -4413,7 +4413,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### LiquidAI/LFM2-8B-A1B
+### LiquidAI: LFM2-8B-A1B
 
 **Model ID**: `liquid/lfm2-8b-a1b`  
 **Family**: liquid
@@ -4445,6 +4445,90 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.02
+
+
+
+
+
+
+
+---
+
+
+### LiquidAI: LFM2.5-1.2B-Instruct (free)
+
+**Model ID**: `liquid/lfm-2.5-1.2b-instruct:free`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### LiquidAI: LFM2.5-1.2B-Thinking (free)
+
+**Model ID**: `liquid/lfm-2.5-1.2b-thinking:free`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -6474,7 +6558,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -8146,7 +8230,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 8,192 tokens
 
 
-- **Max Output Tokens**: 2,048 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -8167,10 +8251,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.025
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.08
+- **Standard Output**: $0.14
 
 
 

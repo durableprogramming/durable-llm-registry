@@ -3878,13 +3878,27 @@ components:
       - status
       - store
       - metadata
+      - background
+      - service_tier
+      - truncation
+      - top_logprobs
+      - presence_penalty
+      - frequency_penalty
       properties:
         background:
-          type:
-          - boolean
-          - 'null'
-          description: Whether to process the response asynchronously in the background.
+          type: boolean
+          description: |-
+            OpenResponses compatibility fields.
+            Not used at the moment. Just for OpenResponses compatibility.
+            Whether to process the response asynchronously in the background.
           default: false
+        completed_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: The Unix timestamp (in seconds) for the response completion
+            time. Only set when the response is completed.
         created_at:
           type: integer
           format: int64
@@ -3894,6 +3908,15 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/DebugOutput"
             description: Debug output. Only available to trusted testers.
+        error:
+          description: An error object returned when the model fails to generate a
+            response.
+        frequency_penalty:
+          type: number
+          format: float
+          description: "(NOT SUPPORTED in Responses API) Positive values penalize
+            new tokens based on their existing frequency in the text so far, decreasing
+            the model's likelihood to repeat the same line verbatim."
         id:
           type: string
           description: Unique ID of the response.
@@ -3902,6 +3925,11 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/IncompleteDetails"
             description: Details about why the response is incomplete.
+        instructions:
+          type:
+          - string
+          - 'null'
+          description: A system (or developer) message inserted into the model's context.
         max_output_tokens:
           type:
           - integer
@@ -3909,6 +3937,12 @@ components:
           format: int32
           description: Max number of tokens that can be generated in a response. This
             includes both output and reasoning tokens.
+        max_tool_calls:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: The maximum number of tool calls allowed for this response.
         metadata:
           description: Only included for compatibility.
         model:
@@ -3925,16 +3959,38 @@ components:
         parallel_tool_calls:
           type: boolean
           description: Whether to allow the model to run parallel tool calls.
+        presence_penalty:
+          type: number
+          format: float
+          description: "(NOT SUPPORTED in Responses API) Positive values penalize
+            new tokens based on whether they appear in the text so far, increasing
+            the model's likelihood to talk about new topics."
         previous_response_id:
           type:
           - string
           - 'null'
           description: The ID of the previous response from the model.
+        prompt_cache_key:
+          type:
+          - string
+          - 'null'
+          description: The cache key used for the prompt for routing to the correct
+            engine.
         reasoning:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/ReasoningConfiguration"
             description: Reasoning configuration. Only for reasoning models.
+        safety_identifier:
+          type:
+          - string
+          - 'null'
+          description: A stable identifier used to help detect users of your application
+            that may be violating xAI's usage policies.
+        service_tier:
+          type: string
+          description: Specifies the processing tier used for serving the request.
+          default: default
         status:
           type: string
           description: Status of the response. One of `completed`, `in_progress` or
@@ -3974,6 +4030,11 @@ components:
             only functions and web search are supported as tools. A max of 128 tools
             are supported.
           maxItems: 128
+        top_logprobs:
+          type: integer
+          format: int32
+          description: An integer between 0 and 8 specifying the number of most likely
+            tokens to return at each token position.
         top_p:
           type:
           - number
@@ -3987,6 +4048,10 @@ components:
           default: 1
           maximum: 1
           exclusiveMinimum: 0
+        truncation:
+          type: string
+          description: The truncation strategy to use for the model response.
+          default: disabled
         usage:
           oneOf:
           - type: 'null'
