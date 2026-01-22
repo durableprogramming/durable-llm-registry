@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2026-01-21
+- **Total Models**: 345
+- **Last Updated**: 2026-01-22
 
 ## Models
 
@@ -1902,7 +1902,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -14041,6 +14041,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.48
+
+
+
+
+
+
+
+---
+
+
+### Writer: Palmyra X5
+
+**Model ID**: `writer/palmyra-x5`  
+**Family**: writer
+#### Specifications
+
+- **Context Window**: 1,040,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $6.0
 
 
 
