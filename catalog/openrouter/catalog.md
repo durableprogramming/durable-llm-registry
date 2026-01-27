@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-01-26
+- **Total Models**: 347
+- **Last Updated**: 2026-01-27
 
 ## Models
 
@@ -5579,7 +5579,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 65,536 tokens
 
 
 - **Max Output Tokens**: 2,048 tokens
@@ -7355,6 +7355,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2.5
+
+**Model ID**: `moonshotai/kimi-k2.5`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $3.0
 
 
 
@@ -14009,6 +14051,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Upstage: Solar Pro 3 (free)
+
+**Model ID**: `upstage/solar-pro-3:free`  
+**Family**: upstage
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Venice: Uncensored (free)
 
 **Model ID**: `cognitivecomputations/dolphin-mistral-24b-venice-edition:free`  
@@ -14171,50 +14255,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.29
-
-
-
-
-
-
-
----
-
-
-### Xiaomi: MiMo-V2-Flash (free)
-
-**Model ID**: `xiaomi/mimo-v2-flash:free`  
-**Family**: xiaomi
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
