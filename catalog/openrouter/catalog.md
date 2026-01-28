@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 347
-- **Last Updated**: 2026-01-27
+- **Last Updated**: 2026-01-28
 
 ## Models
 
@@ -1405,6 +1405,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.18
+
+
+
+
+
+
+
+---
+
+
+### Arcee AI: Trinity Large Preview (free)
+
+**Model ID**: `arcee-ai/trinity-large-preview:free`  
+**Family**: arcee-ai
+#### Specifications
+
+- **Context Window**: 131,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -3336,7 +3378,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -4722,6 +4764,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 8,192 tokens
 
 
+- **Max Output Tokens**: 8,000 tokens
+
 
 #### Modalities
 
@@ -4741,10 +4785,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.51
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.74
 
 
 
@@ -5949,48 +5993,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.22
-
-
-
-
-
-
-
----
-
-
-### Mistral: Devstral 2 2512 (free)
-
-**Model ID**: `mistralai/devstral-2512:free`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -7373,6 +7375,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
