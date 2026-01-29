@@ -454,7 +454,7 @@ paths:
                 "$ref": "#/components/schemas/ListImageGenerationModelsResponse"
               example:
                 models:
-                - id: grok-2-image
+                - id: grok-imagine-image
                   fingerprint: fp_ca78641a52
                   max_prompt_length: 1024
                   created: 1738961600
@@ -491,7 +491,7 @@ paths:
               schema:
                 "$ref": "#/components/schemas/ImageGenerationModel"
               example:
-                id: grok-2-image
+                id: grok-imagine-image
                 fingerprint: fp_ca78641a52
                 max_prompt_length: 1024
                 created: 1737961600
@@ -525,7 +525,7 @@ paths:
               prompt: Add a hat to this cat.
               image:
                 url: "..."
-              model: grok-2-image
+              model: grok-imagine-image
         required: true
       responses:
         '200':
@@ -559,7 +559,7 @@ paths:
               "$ref": "#/components/schemas/GenerateImageRequest"
             example:
               prompt: A cat in a tree
-              model: grok-2-image
+              model: grok-imagine-image
               response_format: url
               "n": 2
         required: true
@@ -1099,6 +1099,108 @@ paths:
             provided.
       security:
       - bearerAuth: []
+  "/v1/videos/edits":
+    post:
+      tags:
+      - v1
+      summary: |-
+        Edit a video based on a prompt.
+        This is an asynchronous operation that returns a request_id for polling.
+      operationId: handle_edit_video_request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/EditVideoRequest"
+            example:
+              prompt: Add snow to the scene
+              video:
+                url: https://example.com/video.mp4
+              model: grok-imagine-video
+        required: true
+      responses:
+        '200':
+          description: Video editing started successfully
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/StartDeferredResponse"
+              example:
+                request_id: a3d1008e-4544-40d4-d075-11527e794e4a
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '422':
+          description: Unprocessable Entity. There are missing fields in the request
+            body.
+      security:
+      - bearerAuth: []
+  "/v1/videos/generations":
+    post:
+      tags:
+      - v1
+      summary: |-
+        Generate a video from a text prompt and optionally an image.
+        This is an asynchronous operation that returns a request_id for polling.
+      operationId: handle_generate_video_request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/GenerateVideoRequest"
+            example:
+              prompt: A cat playing with a ball
+              model: grok-imagine-video
+              duration: 6
+        required: true
+      responses:
+        '200':
+          description: Video generation started successfully
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/StartDeferredResponse"
+              example:
+                request_id: a3d1008e-4544-40d4-d075-11527e794e4a
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '422':
+          description: Unprocessable Entity. There are missing fields in the request
+            body.
+      security:
+      - bearerAuth: []
+  "/v1/videos/{request_id}":
+    get:
+      tags:
+      - v1
+      summary: Get the result of a deferred video generation request.
+      operationId: handle_get_deferred_video_request
+      parameters:
+      - name: request_id
+        in: path
+        description: The deferred request id returned by a previous video generation
+          request.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Video generation completed
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/GetDeferredVideoResponse"
+        '202':
+          description: Video generation still in progress
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '404':
+          description: Not found. No deferred video could be found with the given
+            request_id.
+      security:
+      - bearerAuth: []
 components:
   schemas:
     Annotation:
@@ -1465,11 +1567,6 @@ components:
           type: integer
           format: int64
           description: The chat completion creation time in Unix timestamp.
-        debug_output:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/DebugOutput"
-            description: Debug output. Only available to trusted testers.
         id:
           type: string
           description: A unique ID for the chat response.
@@ -1518,11 +1615,6 @@ components:
           type: integer
           format: int64
           description: The chat completion creation time in Unix timestamp.
-        debug_output:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/DebugOutput"
-            description: Debug output. Only available to trusted testers.
         id:
           type: string
           description: A unique ID for the chat completion. Each chunk in a streaming
@@ -2028,13 +2120,7 @@ components:
           - string
           - 'null'
           description: Model to be used.
-          example: grok-2-image
-        moderation:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ModerationLevel"
-            description: Moderation level for content filtering. Can be `low`, `auto`,
-              or `high`. Defaults to `auto`.
+          example: grok-imagine-image
         "n":
           type:
           - integer
@@ -2082,6 +2168,35 @@ components:
           - 'null'
           description: A unique identifier representing your end-user, which can help
             xAI to monitor and detect abuse.
+    EditVideoRequest:
+      type: object
+      description: Request for editing video for `/v1/videos/edits` endpoint
+      required:
+      - prompt
+      - video
+      properties:
+        model:
+          type:
+          - string
+          - 'null'
+          description: Model to be used.
+          example: grok-imagine-video
+        output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoOutput"
+            description: Optional output destination for generated video.
+        prompt:
+          type: string
+          description: Prompt for video editing.
+        user:
+          type:
+          - string
+          - 'null'
+          description: A unique identifier representing your end-user.
+        video:
+          "$ref": "#/components/schemas/VideoUrl"
+          description: Input video to perform edit on.
     Embedding:
       type: object
       required:
@@ -2464,13 +2579,7 @@ components:
           - string
           - 'null'
           description: Model to be used.
-          example: grok-2-image
-        moderation:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ModerationLevel"
-            description: Moderation level for content filtering. Can be `low`, `auto`,
-              or `high`. Defaults to `auto`.
+          example: grok-imagine-image
         "n":
           type:
           - integer
@@ -2520,6 +2629,64 @@ components:
           - 'null'
           description: A unique identifier representing your end-user, which can help
             xAI to monitor and detect abuse.
+    GenerateVideoRequest:
+      type: object
+      description: Request to generate video for `/v1/videos/generations` endpoint
+      required:
+      - prompt
+      properties:
+        aspect_ratio:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoAspectRatio"
+            description: Aspect ratio of the generated video.
+        duration:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: 'Video duration in seconds. Range: [1, 15]. Default: 6.'
+          default: 6
+          maximum: 15
+          minimum: 1
+        image:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ImageUrl"
+            description: |-
+              Optional input image for image-to-video generation.
+              If provided, generates video with this image as the first frame.
+        model:
+          type:
+          - string
+          - 'null'
+          description: Model to be used.
+          example: grok-imagine-video
+        output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoOutput"
+            description: Optional output destination for generated video.
+        prompt:
+          type: string
+          description: Prompt for video generation.
+        resolution:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoResolution"
+            description: Resolution of the generated video.
+        size:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoSize"
+            description: |-
+              The size of the generated video. DEPRECATED: Use aspect_ratio and resolution instead.
+              Defaults to "848x480" (16:9) if not specified.
+        user:
+          type:
+          - string
+          - 'null'
+          description: A unique identifier representing your end-user.
     GeneratedImage:
       type: object
       description: Generated images
@@ -2533,12 +2700,6 @@ components:
           description: A base64-encoded string representation of the generated image
             in `jpeg` encoding, if `b64_json` is specified as `response_format` in
             the request.
-        debug_output:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/GeneratedImageDebugOutput"
-            description: Debug output for the image generation. Only available to
-              trusted testers.
         revised_prompt:
           type: string
           description: The revised prompt generated by a chat model from the original
@@ -2589,6 +2750,42 @@ components:
           items:
             "$ref": "#/components/schemas/GeneratedImage"
           description: A list of generated image objects.
+    GeneratedVideo:
+      type: object
+      description: Generated video.
+      required:
+      - duration
+      - respect_moderation
+      properties:
+        duration:
+          type: integer
+          format: int32
+          description: Duration of the generated video in seconds.
+        respect_moderation:
+          type: boolean
+          description: |-
+            Whether the video generated by the model respects moderation rules.
+            The field will be true if the video respects moderation rules. Otherwise
+            the field will be false and the video url field will be empty.
+        url:
+          type:
+          - string
+          - 'null'
+          description: A url to the generated video.
+    GetDeferredVideoResponse:
+      type: object
+      description: Response for getting deferred video result.
+      required:
+      - status
+      properties:
+        response:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoResponse"
+            description: The generated video response. Only present if status is "done".
+        status:
+          type: string
+          description: 'Status of the deferred request: "pending" or "done".'
     HybridReranker:
       oneOf:
       - allOf:
@@ -3931,11 +4128,6 @@ components:
           type: integer
           format: int64
           description: The Unix timestamp (in seconds) for the response creation time.
-        debug_output:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/DebugOutput"
-            description: Debug output. Only available to trusted testers.
         error:
           description: An error object returned when the model fails to generate a
             response.
@@ -5348,6 +5540,15 @@ components:
         request_id:
           type: string
           description: A unique request ID for the chat response.
+    StartDeferredResponse:
+      type: object
+      description: Response for starting a deferred operation.
+      required:
+      - request_id
+      properties:
+        request_id:
+          type: string
+          description: A unique request ID to poll for the result.
     StreamOptions:
       type: object
       description: Options available when using streaming response.
@@ -5592,6 +5793,73 @@ components:
           format: int32
           description: Total token used, the sum of prompt token and completion token
             amount.
+    VideoAspectRatio:
+      type: string
+      description: Aspect ratio for video generation.
+      enum:
+      - '1:1'
+      - '16:9'
+      - '9:16'
+      - '4:3'
+      - '3:4'
+      - '3:2'
+      - '2:3'
+    VideoDebugOutput:
+      type: object
+      description: Debug output for video generation. Only available to trusted testers.
+      required:
+      - upsampled_prompt
+      properties:
+        upsampled_prompt:
+          type: string
+          description: The upsampled prompt used to generate the video.
+    VideoOutput:
+      type: object
+      description: Output destination for generated video.
+      required:
+      - upload_url
+      properties:
+        upload_url:
+          type: string
+          description: Signed URL to upload the generated video via HTTP PUT.
+    VideoResolution:
+      type: string
+      description: Resolution for video generation.
+      enum:
+      - 480p
+      - 720p
+    VideoResponse:
+      type: object
+      description: Video generation response.
+      required:
+      - video
+      - model
+      properties:
+        model:
+          type: string
+          description: The model used to generate the video.
+        video:
+          "$ref": "#/components/schemas/GeneratedVideo"
+          description: The generated video data.
+    VideoSize:
+      type: string
+      description: |-
+        Supported video sizes for video generation.
+        Defaults to 848x480 (16:9) if not specified.
+      enum:
+      - 848x480
+      - 1696x960
+      - 1280x720
+      - 1920x1080
+    VideoUrl:
+      type: object
+      description: Video URL for video editing input
+      required:
+      - url
+      properties:
+        url:
+          type: string
+          description: URL of the video (public URL or base64-encoded data URL).
     WebSearchAction:
       oneOf:
       - type: object
