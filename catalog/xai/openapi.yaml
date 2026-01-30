@@ -1191,6 +1191,11 @@ paths:
             application/json:
               schema:
                 "$ref": "#/components/schemas/GetDeferredVideoResponse"
+              example:
+                video:
+                  url: https://vidgen.x.ai/xai-vidgen-bucket/xai-video-f532feb6-49a9-4f9a-9a37-6e64ef725e8f.mp4
+                  duration: 6
+                model: grok-imagine-video
         '202':
           description: Video generation still in progress
         '400':
@@ -2605,6 +2610,7 @@ components:
             description: |-
               Resolution of the generated image. Defaults to `1k`.
               Only supported by grok-imagine models.
+              Currently, only `1k` is supported. Support for `2k` will be available shortly.
         response_format:
           type:
           - string
@@ -2772,6 +2778,15 @@ components:
           - string
           - 'null'
           description: A url to the generated video.
+    GetDeferredVideoRequest:
+      type: object
+      description: Request to get deferred video result with a request ID.
+      required:
+      - request_id
+      properties:
+        request_id:
+          type: string
+          description: The request ID returned by a previous video generation request.
     GetDeferredVideoResponse:
       type: object
       description: Response for getting deferred video result.
@@ -3982,6 +3997,12 @@ components:
           - string
           - 'null'
           description: The ID of the previous response from the model.
+        prompt_cache_key:
+          type:
+          - string
+          - 'null'
+          description: Plumbed to x-grok-conv-id for Open Responses compatibility,
+            used for routing.
         reasoning:
           oneOf:
           - type: 'null'

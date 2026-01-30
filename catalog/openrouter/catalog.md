@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2026-01-29
+- **Total Models**: 346
+- **Last Updated**: 2026-01-30
 
 ## Models
 
@@ -3095,50 +3095,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
-### Google: Gemini 2.0 Flash Experimental (free)
-
-**Model ID**: `google/gemini-2.0-flash-exp:free`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -7376,8 +7332,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -7400,7 +7354,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $2.8
 
 
 
