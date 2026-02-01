@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google models available th
 
 - **Provider**: google
 - **Total Models**: 28
-- **Last Updated**: 2026-01-31
+- **Last Updated**: 2026-02-01
 
 ## Models
 
