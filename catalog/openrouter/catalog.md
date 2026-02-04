@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2026-02-03
+- **Total Models**: 346
+- **Last Updated**: 2026-02-04
 
 ## Models
 
@@ -3860,6 +3860,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
+- **Max Output Tokens**: 8,192 tokens
+
 
 #### Modalities
 
@@ -4834,7 +4836,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.06
+- **Standard Output**: $0.04
 
 
 
@@ -4921,48 +4923,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.5
-
-
-
-
-
-
-
----
-
-
-### Meta: Llama 3.1 405B Instruct (free)
-
-**Model ID**: `meta-llama/llama-3.1-405b-instruct:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -5281,8 +5241,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -7338,6 +7300,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
+- **Max Output Tokens**: 65,535 tokens
+
 
 #### Modalities
 
@@ -7357,10 +7321,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $2.8
+- **Standard Output**: $2.5
 
 
 
@@ -11825,48 +11789,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen2.5-VL 7B Instruct (free)
-
-**Model ID**: `qwen/qwen-2.5-vl-7b-instruct:free`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Qwen: Qwen3 14B
 
 **Model ID**: `qwen/qwen3-14b`  
@@ -12506,6 +12428,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 Coder Next
+
+**Model ID**: `qwen/qwen3-coder-next`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
 
 
 - **Standard Output**: $1.5
