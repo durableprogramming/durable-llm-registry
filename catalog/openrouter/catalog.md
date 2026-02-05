@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-02-04
+- **Total Models**: 343
+- **Last Updated**: 2026-02-05
 
 ## Models
 
@@ -277,9 +277,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### AllenAI: Molmo2 8B (free)
+### AllenAI: Molmo2 8B
 
-**Model ID**: `allenai/molmo-2-8b:free`  
+**Model ID**: `allenai/molmo-2-8b`  
 **Family**: allenai
 #### Specifications
 
@@ -307,10 +307,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.2
 
 
 
@@ -2023,48 +2023,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Cogito V2 Preview Llama 109B
-
-**Model ID**: `deepcogito/cogito-v2-preview-llama-109b-moe`  
-**Family**: deepcogito
-#### Specifications
-
-- **Context Window**: 32,767 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.18
-
-
-- **Standard Output**: $0.59
-
-
-
-
-
-
-
----
-
-
 ### Cohere: Command A
 
 **Model ID**: `cohere/command-a`  
@@ -2231,90 +2189,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
-### Deep Cogito: Cogito V2 Preview Llama 405B
-
-**Model ID**: `deepcogito/cogito-v2-preview-llama-405b`  
-**Family**: deepcogito
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.5
-
-
-- **Standard Output**: $3.5
-
-
-
-
-
-
-
----
-
-
-### Deep Cogito: Cogito V2 Preview Llama 70B
-
-**Model ID**: `deepcogito/cogito-v2-preview-llama-70b`  
-**Family**: deepcogito
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.88
-
-
-- **Standard Output**: $0.88
 
 
 
@@ -3813,10 +3687,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 96,000 tokens
+- **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 96,000 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -5636,8 +5510,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 196,608 tokens
-
 
 #### Modalities
 
@@ -5660,7 +5532,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.27
 
 
-- **Standard Output**: $1.1
+- **Standard Output**: $0.95
 
 
 
@@ -11906,7 +11778,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.071
 
 
-- **Standard Output**: $0.463
+- **Standard Output**: $0.1
 
 
 
@@ -12471,10 +12343,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.07
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $0.3
 
 
 
@@ -12730,7 +12602,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.2
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.88
 
 
 
