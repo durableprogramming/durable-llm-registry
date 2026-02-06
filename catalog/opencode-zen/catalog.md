@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 28
-- **Last Updated**: 2026-02-05
+- **Total Models**: 29
+- **Last Updated**: 2026-02-06
 
 ## Models
 
@@ -229,6 +229,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Claude Opus 4.5
 
 **Model ID**: `claude-opus-4-5`  
+**Family**: claude-opus-4
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Claude Opus 4.6
+
+**Model ID**: `claude-opus-4-6`  
 **Family**: claude-opus-4
 #### Specifications
 

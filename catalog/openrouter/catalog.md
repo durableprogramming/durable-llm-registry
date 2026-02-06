@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2026-02-05
+- **Total Models**: 344
+- **Last Updated**: 2026-02-06
 
 ## Models
 
@@ -1169,6 +1169,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Opus 4.6
+
+**Model ID**: `anthropic/claude-opus-4.6`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
 
 
 - **Output**: text
@@ -4771,7 +4815,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 10,000 tokens
+- **Context Window**: 131,000 tokens
 
 
 
@@ -4793,10 +4837,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $3.5
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $4.0
 
 
 
@@ -13906,7 +13950,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.45
 
 
 
