@@ -1923,11 +1923,6 @@ components:
       required:
       - type
       properties:
-        detail:
-          type:
-          - string
-          - 'null'
-          description: Specifies the detail level of the image.
         file:
           oneOf:
           - type: 'null'
@@ -2577,7 +2572,8 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ImageAspectRatio"
             description: |-
-              Aspect ratio of the generated image. Can be `1:1`, `3:4`, `4:3`, `9:16`, or `16:9`. Defaults to `1:1`.
+              Aspect ratio of the generated image. Can be `1:1`, `3:4`, `4:3`, `9:16`, `16:9`, or `auto`.
+              Defaults to `auto` when a thinking upsampler is configured, otherwise `1:1`.
               Only supported by grok-imagine models.
         model:
           type:
@@ -2651,8 +2647,8 @@ components:
           - integer
           - 'null'
           format: int32
-          description: 'Video duration in seconds. Range: [1, 15]. Default: 6.'
-          default: 6
+          description: 'Video duration in seconds. Range: [1, 15]. Default: 8.'
+          default: 8
           maximum: 15
           minimum: 1
         image:
@@ -2947,11 +2943,6 @@ components:
       required:
       - url
       properties:
-        detail:
-          type:
-          - string
-          - 'null'
-          description: Specifies the detail level of the image.
         url:
           type: string
           description: URL of the image.
@@ -3820,12 +3811,6 @@ components:
         - image_url
         - type
         properties:
-          detail:
-            type:
-            - string
-            - 'null'
-            description: Specifies the detail level of the image. One of `high`, `low`
-              or `auto`. Defaults to `auto`.
           file_id:
             type:
             - string
@@ -4794,7 +4779,7 @@ components:
         text_tokens:
           type: integer
           format: int32
-          description: Text prompt token used.
+          description: Total text prompt token used (cached + non-cached text tokens).
     RankingMetric:
       type: string
       description: 'Deprecated: Metric now comes from collection creation.'
@@ -4808,7 +4793,13 @@ components:
       required:
       - summary
       - type
+      - content
       properties:
+        content:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ReasoningText"
+          description: The reasoning text contents.
         encrypted_content:
           type:
           - string
@@ -4824,8 +4815,8 @@ components:
         summary:
           type: array
           items:
-            "$ref": "#/components/schemas/ReasoningText"
-          description: The reasoning text contents.
+            "$ref": "#/components/schemas/SummaryText"
+          description: The summarized reasoning text contents.
         type:
           type: string
           description: The type of the object, which is always `reasoning`.
@@ -4863,7 +4854,7 @@ components:
           description: Reasoning done by the model.
         type:
           type: string
-          description: The type of the object, which is always `summary_text`.
+          description: The type of the object, which is always `reasoning_text`.
     ReciprocalRankFusion:
       type: object
       description: Configuration for reciprocal rank fusion (RRF) reranking.
@@ -5580,6 +5571,18 @@ components:
           type: boolean
           description: 'Set an additional chunk to be streamed before the `data: [DONE]`
             message. The other chunks will return `null` in `usage` field.'
+    SummaryText:
+      type: object
+      required:
+      - text
+      - type
+      properties:
+        text:
+          type: string
+          description: Summary of the reasoning done by the model.
+        type:
+          type: string
+          description: The type of the object, which is always `summary_text`.
     SystemMessageContent:
       oneOf:
       - type: string
