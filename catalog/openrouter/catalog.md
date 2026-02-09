@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 345
-- **Last Updated**: 2026-02-08
+- **Total Models**: 342
+- **Last Updated**: 2026-02-09
 
 ## Models
 
@@ -47,50 +47,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $8.0
-
-
-
-
-
-
-
----
-
-
-### AI21: Jamba Mini 1.7
-
-**Model ID**: `ai21/jamba-mini-1.7`  
-**Family**: ai21
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.4
 
 
 
@@ -2729,6 +2685,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 163,840 tokens
 
+
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -6991,50 +6949,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### MoonshotAI: Kimi Dev 72B
-
-**Model ID**: `moonshotai/kimi-dev-72b`  
-**Family**: moonshotai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.29
-
-
-- **Standard Output**: $1.15
-
-
-
-
-
-
-
----
-
-
 ### MoonshotAI: Kimi K2 0711
 
 **Model ID**: `moonshotai/kimi-k2`  
@@ -7235,10 +7149,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $2.25
 
 
 
@@ -13379,50 +13293,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### StepFun: Step3
-
-**Model ID**: `stepfun-ai/step3`  
-**Family**: stepfun-ai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.57
-
-
-- **Standard Output**: $1.42
 
 
 
