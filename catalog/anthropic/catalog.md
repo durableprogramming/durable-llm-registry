@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 11
-- **Last Updated**: 2026-02-09
+- **Last Updated**: 2026-02-10
 
 ## Models
 

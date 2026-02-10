@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-02-09
+- **Total Models**: 344
+- **Last Updated**: 2026-02-10
 
 ## Models
 
@@ -1577,6 +1577,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### Aurora Alpha
+
+**Model ID**: `openrouter/aurora-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 50,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -11214,7 +11258,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.4
 
 
-- **Standard Output**: $4.0
+- **Standard Output**: $1.2
 
 
 
@@ -11234,7 +11278,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -11275,10 +11319,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 7,500 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 1,500 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -11363,10 +11407,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -11407,7 +11451,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -12271,7 +12315,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -12359,7 +12403,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -12403,7 +12447,51 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.2
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 Max Thinking
+
+**Model ID**: `qwen/qwen3-max-thinking`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -12831,7 +12919,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
