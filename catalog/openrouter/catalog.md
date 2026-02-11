@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2026-02-10
+- **Total Models**: 345
+- **Last Updated**: 2026-02-11
 
 ## Models
 
@@ -11753,7 +11753,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -11775,10 +11775,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.22
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.88
 
 
 
@@ -13337,6 +13337,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.5
+
+
+
+
+
+
+
+---
+
+
+### StepFun: Step 3.5 Flash
+
+**Model ID**: `stepfun/step-3.5-flash`  
+**Family**: stepfun
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 256,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.3
 
 
 
