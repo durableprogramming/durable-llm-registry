@@ -2592,7 +2592,6 @@ components:
             description: |-
               Resolution of the generated image. Defaults to `1k`.
               Only supported by grok-imagine models.
-              Currently, only `1k` is supported. Support for `2k` will be available shortly.
         response_format:
           type:
           - string
