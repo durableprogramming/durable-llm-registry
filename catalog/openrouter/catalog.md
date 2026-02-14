@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-02-13
+- **Total Models**: 340
+- **Last Updated**: 2026-02-14
 
 ## Models
 
@@ -11671,10 +11671,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -11695,10 +11693,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.11
+- **Standard Input**: $0.0
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.0
 
 
 
@@ -11873,6 +11871,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.24
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3 4B
+
+**Model ID**: `qwen/qwen3-4b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0715
+
+
+- **Standard Output**: $0.273
 
 
 
@@ -13359,48 +13401,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### TNG: DeepSeek R1T Chimera (free)
-
-**Model ID**: `tngtech/deepseek-r1t-chimera:free`  
-**Family**: tngtech
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### TNG: DeepSeek R1T2 Chimera
 
 **Model ID**: `tngtech/deepseek-r1t2-chimera`  
@@ -13445,48 +13445,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### TNG: DeepSeek R1T2 Chimera (free)
-
-**Model ID**: `tngtech/deepseek-r1t2-chimera:free`  
-**Family**: tngtech
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### TNG: R1T Chimera
 
 **Model ID**: `tngtech/tng-r1t-chimera`  
@@ -13521,50 +13479,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.85
-
-
-
-
-
-
-
----
-
-
-### TNG: R1T Chimera (free)
-
-**Model ID**: `tngtech/tng-r1t-chimera:free`  
-**Family**: tngtech
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
