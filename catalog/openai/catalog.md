@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openai models available th
 
 - **Provider**: openai
 - **Total Models**: 0
-- **Last Updated**: 2026-02-14
+- **Last Updated**: 2026-02-15
 
 ## Models
 
