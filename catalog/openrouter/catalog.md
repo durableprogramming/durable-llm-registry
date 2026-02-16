@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 340
-- **Last Updated**: 2026-02-15
+- **Total Models**: 342
+- **Last Updated**: 2026-02-16
 
 ## Models
 
@@ -5595,10 +5595,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 204,800 tokens
+- **Context Window**: 196,608 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -6917,10 +6915,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -6941,10 +6937,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $1.9
+- **Standard Output**: $2.0
 
 
 
@@ -7050,7 +7046,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -7071,10 +7067,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.23
 
 
-- **Standard Output**: $0.44
+- **Standard Output**: $3.0
 
 
 
@@ -12839,6 +12835,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.5 397B A17B
+
+**Model ID**: `qwen/qwen3.5-397b-a17b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $3.6
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.5 Plus 2026-02-15
+
+**Model ID**: `qwen/qwen3.5-plus-02-15`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
 ### ReMM SLERP 13B
 
 **Model ID**: `undi95/remm-slerp-l2-13b`  
@@ -14435,7 +14519,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.3
 
 
 - **Standard Output**: $2.55
