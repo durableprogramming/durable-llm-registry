@@ -2097,6 +2097,14 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ImageUrl"
             description: Input image to perform edit on. Mutually exclusive with `images`.
+        images:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ImageUrl"
+          description: |-
+            List of input images for multi-reference editing.
+            Mutually exclusive with `image`. When multiple images are provided,
+            refer to them as \<IMAGE_0\>, \<IMAGE_1\>, etc. in the prompt.
         mask:
           oneOf:
           - type: 'null'
