@@ -4664,6 +4664,27 @@ components:
           type: integer
           format: int32
           description: Total tokens used.
+    ModerationCategoryScore:
+      type: object
+      description: |-
+        Score and threshold for a single moderation category.
+        Internal use only — populated when moderation-debug ACL is enabled.
+      required:
+      - name
+      - score
+      - threshold
+      properties:
+        name:
+          type: string
+          description: Name of the category (e.g. "nudity", "violence", "self_harm").
+        score:
+          type: number
+          format: double
+          description: The score assigned to the content for this category.
+        threshold:
+          type: number
+          format: double
+          description: The threshold configured for this category.
     ModerationLevel:
       type: string
       description: |-

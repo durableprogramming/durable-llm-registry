@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 31
-- **Last Updated**: 2026-02-17
+- **Total Models**: 32
+- **Last Updated**: 2026-02-18
 
 ## Models
 
@@ -407,6 +407,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Claude Sonnet 4.6
+
+**Model ID**: `claude-sonnet-4-6`  
+**Family**: claude-sonnet-4
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
 
 
 - **Output**: text

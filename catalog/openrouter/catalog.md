@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-02-17
+- **Total Models**: 339
+- **Last Updated**: 2026-02-18
 
 ## Models
 
@@ -1257,6 +1257,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Sonnet 4.6
+
+**Model ID**: `anthropic/claude-sonnet-4.6`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
 
 
 - **Output**: text
@@ -2617,10 +2661,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $0.41
+- **Standard Output**: $1.2
 
 
 
@@ -2772,7 +2816,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -2793,10 +2837,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.7
 
 
-- **Standard Output**: $0.11
+- **Standard Output**: $0.8
 
 
 
@@ -3287,50 +3331,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemini 2.5 Flash Preview 09-2025
-
-**Model ID**: `google/gemini-2.5-flash-preview-09-2025`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, file, text, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemini 2.5 Pro
 
 **Model ID**: `google/gemini-2.5-pro`  
@@ -3646,8 +3646,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -3667,10 +3665,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.04
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.13
 
 
 
@@ -5596,6 +5594,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
+- **Max Output Tokens**: 65,536 tokens
+
 
 #### Modalities
 
@@ -5618,7 +5618,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.1
 
 
 
@@ -5850,8 +5850,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
-
 
 #### Modalities
 
@@ -5871,10 +5869,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $2.0
 
 
 
@@ -6487,10 +6485,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 128,000 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -6511,10 +6507,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.35
 
 
-- **Standard Output**: $0.11
+- **Standard Output**: $0.56
 
 
 
@@ -7725,50 +7721,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Nous: DeepHermes 3 Mistral 24B Preview
-
-**Model ID**: `nousresearch/deephermes-3-mistral-24b-preview`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.02
-
-
-- **Standard Output**: $0.1
-
-
-
-
-
-
-
----
-
-
 ### Nous: Hermes 3 405B Instruct
 
 **Model ID**: `nousresearch/hermes-3-llama-3.1-405b`  
@@ -7950,8 +7902,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -7971,10 +7921,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.11
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.4
 
 
 
@@ -8019,50 +7969,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.14
-
-
-
-
-
-
-
----
-
-
-### OpenAI: ChatGPT-4o
-
-**Model ID**: `openai/chatgpt-4o-latest`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $15.0
 
 
 
@@ -10930,7 +10836,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -10951,10 +10857,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.11
+- **Standard Output**: $0.2
 
 
 
@@ -11407,10 +11313,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 128,000 tokens
 
-
-- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -11431,10 +11335,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $0.6
 
 
 
@@ -11561,10 +11465,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $0.24
 
 
 
@@ -11581,10 +11485,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 40,960 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -11605,10 +11509,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.455
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.82
 
 
 
@@ -11733,10 +11637,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.06
+- **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.22
+- **Standard Output**: $0.28
 
 
 
@@ -11777,10 +11681,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.33
+- **Standard Output**: $0.3
 
 
 
@@ -12863,10 +12767,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $3.6
+- **Standard Output**: $1.0
 
 
 
@@ -13529,50 +13433,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### TNG: R1T Chimera
-
-**Model ID**: `tngtech/tng-r1t-chimera`  
-**Family**: tngtech
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.25
-
-
-- **Standard Output**: $0.85
-
-
-
-
-
-
-
----
-
-
 ### Tencent: Hunyuan A13B Instruct
 
 **Model ID**: `tencent/hunyuan-a13b-instruct`  
@@ -14099,10 +13959,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 131,000 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 131,000 tokens
 
 
 #### Modalities
@@ -14123,10 +13983,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.35
+- **Standard Input**: $0.55
 
 
-- **Standard Output**: $1.55
+- **Standard Output**: $2.0
 
 
 
@@ -14278,7 +14138,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14299,10 +14159,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.34
+- **Standard Input**: $0.35
 
 
-- **Standard Output**: $1.7
+- **Standard Output**: $1.71
 
 
 
