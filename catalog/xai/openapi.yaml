@@ -1084,6 +1084,79 @@ paths:
             provided.
       security:
       - bearerAuth: []
+  "/v1/video-generation-models":
+    get:
+      tags:
+      - v1
+      summary: List all video generation models available to the authenticating API
+        key with full information.
+      operationId: handle_video_generation_models_list_request
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/ListVideoGenerationModelsResponse"
+              example:
+                models:
+                - id: grok-imagine-video
+                  fingerprint: fp_898ae9f31c
+                  created: 1743724800
+                  object: model
+                  owned_by: xai
+                  version: 1.0.0
+                  input_modalities:
+                  - text
+                  - image
+                  output_modalities:
+                  - video
+                  aliases: []
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+      security:
+      - bearerAuth: []
+  "/v1/video-generation-models/{model_id}":
+    get:
+      tags:
+      - v1
+      summary: Get full information about a video generation model with its model_id.
+      operationId: handle_video_generation_model_get_request
+      parameters:
+      - name: model_id
+        in: path
+        description: ID of the model to get.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/VideoGenerationModel"
+              example:
+                id: grok-imagine-video
+                fingerprint: fp_898ae9f31c
+                created: 1743724800
+                object: model
+                owned_by: xai
+                version: '1.0'
+                input_modalities:
+                - text
+                - image
+                output_modalities:
+                - video
+                aliases: []
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '404':
+          description: Model not found
+      security:
+      - bearerAuth: []
   "/v1/videos/edits":
     post:
       tags:
@@ -3111,6 +3184,16 @@ components:
         object:
           type: string
           description: The object type of `data` field, which is always `"list"`.
+    ListVideoGenerationModelsResponse:
+      type: object
+      required:
+      - models
+      properties:
+        models:
+          type: array
+          items:
+            "$ref": "#/components/schemas/VideoGenerationModel"
+          description: Array of available video generation models.
     LogProbs:
       type: object
       properties:
@@ -5850,6 +5933,55 @@ components:
         upsampled_prompt:
           type: string
           description: The upsampled prompt used to generate the video.
+    VideoGenerationModel:
+      type: object
+      description: Details of a video generation model
+      required:
+      - id
+      - fingerprint
+      - created
+      - object
+      - owned_by
+      - version
+      - input_modalities
+      - output_modalities
+      - aliases
+      properties:
+        aliases:
+          type: array
+          items:
+            type: string
+          description: Alias ID(s) of the model that user can use in a request's model
+            field.
+        created:
+          type: integer
+          format: int64
+          description: Model creation time in Unix timestamp.
+        fingerprint:
+          type: string
+          description: Fingerprint of the xAI system configuration hosting the model.
+        id:
+          type: string
+          description: Model ID.
+        input_modalities:
+          type: array
+          items:
+            type: string
+          description: The input modalities supported by the model (e.g. "text", "image").
+        object:
+          type: string
+          description: The object type, which is always `"model"`.
+        output_modalities:
+          type: array
+          items:
+            type: string
+          description: The output modalities supported by the model (e.g. "video").
+        owned_by:
+          type: string
+          description: Owner of the model.
+        version:
+          type: string
+          description: Version of the model.
     VideoOutput:
       type: object
       description: Output destination for generated video.
@@ -5896,7 +6028,9 @@ components:
       properties:
         url:
           type: string
-          description: URL of the video (public URL or base64-encoded data URL).
+          description: |-
+            URL of the video (public URL or base64-encoded data URL).
+            The video must have the `.mp4` file extension and be encoded with `.mp4` supported codecs such as H.265, H.264, AV1, etc.
     WebSearchAction:
       oneOf:
       - type: object

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 337
-- **Last Updated**: 2026-02-19
+- **Last Updated**: 2026-02-20
 
 ## Models
 
@@ -1621,50 +1621,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### Aurora Alpha
-
-**Model ID**: `openrouter/aurora-alpha`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 50,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -3523,6 +3479,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text, image, file, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemini 3.1 Pro Preview
+
+**Model ID**: `google/gemini-3.1-pro-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio, file, image, text, video
 
 
 - **Output**: text
@@ -13785,6 +13785,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
