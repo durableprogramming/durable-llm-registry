@@ -2818,6 +2818,11 @@ components:
           items:
             "$ref": "#/components/schemas/GeneratedImage"
           description: A list of generated image objects.
+        usage:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/MediaUsage"
+            description: Usage information for the image generation request.
     GeneratedVideo:
       type: object
       description: Generated video.
@@ -3238,6 +3243,19 @@ components:
         type:
           type: string
           description: The type of the MCP tool call. Always `mcp_call`.
+    MediaUsage:
+      type: object
+      description: Usage information for media generation requests (image and video).
+      required:
+      - cost_in_usd_ticks
+      properties:
+        cost_in_usd_ticks:
+          type: integer
+          format: int64
+          description: |-
+            Accurate cost of this request in USD ticks, where "tick" is defined as follows:
+            TICKS_IN_USD_CENT: i64 = 100_000_000
+            which means there are 10_000_000_000 ticks in one *dollar*.
     Message:
       oneOf:
       - type: object
@@ -6007,6 +6025,11 @@ components:
         model:
           type: string
           description: The model used to generate the video.
+        usage:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/MediaUsage"
+            description: Usage information for the video generation request.
         video:
           "$ref": "#/components/schemas/GeneratedVideo"
           description: The generated video data.
