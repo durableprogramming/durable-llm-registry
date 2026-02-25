@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 33
-- **Last Updated**: 2026-02-24
+- **Total Models**: 32
+- **Last Updated**: 2026-02-25
 
 ## Models
 
@@ -666,54 +666,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### GLM 5 Free
-
-**Model ID**: `glm-5-free`  
-**Family**: glm
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### GPT 5
 
 **Model ID**: `gpt-5`  
@@ -1202,6 +1154,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### GPT 5.3 Codex
+
+**Model ID**: `gpt-5.3-codex`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Gemini 3 Flash
 
 **Model ID**: `gemini-3-flash`  
@@ -1480,61 +1487,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Kimi K2.5
 
 **Model ID**: `kimi-k2.5`  
-**Family**: kimi
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Kimi K2.5 Free
-
-**Model ID**: `kimi-k2.5-free`  
 **Family**: kimi
 #### Specifications
 

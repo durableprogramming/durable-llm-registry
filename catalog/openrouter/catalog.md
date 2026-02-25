@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 337
-- **Last Updated**: 2026-02-24
+- **Last Updated**: 2026-02-25
 
 ## Models
 
@@ -135,6 +135,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.4
+
+
+
+
+
+
+
+---
+
+
+### AionLabs: Aion-2.0
+
+**Model ID**: `aion-labs/aion-2.0`  
+**Family**: aion-labs
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.8
+
+
+- **Standard Output**: $1.6
 
 
 
@@ -2510,6 +2554,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
+- **Max Output Tokens**: 163,840 tokens
+
 
 #### Modalities
 
@@ -2529,10 +2575,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.4
 
 
 
@@ -2709,50 +2755,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.75
-
-
-
-
-
-
-
----
-
-
-### DeepSeek: R1 0528 (free)
-
-**Model ID**: `deepseek/deepseek-r1-0528:free`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 163,840 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -7249,48 +7251,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### NVIDIA: Llama 3.1 Nemotron Ultra 253B v1
-
-**Model ID**: `nvidia/llama-3.1-nemotron-ultra-253b-v1`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.6
-
-
-- **Standard Output**: $1.8
-
-
-
-
-
-
-
----
-
-
 ### NVIDIA: Llama 3.3 Nemotron Super 49B V1.5
 
 **Model ID**: `nvidia/llama-3.3-nemotron-super-49b-v1.5`  
@@ -9740,6 +9700,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### OpenAI: GPT-5.2-Codex
 
 **Model ID**: `openai/gpt-5.2-codex`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.3-Codex
+
+**Model ID**: `openai/gpt-5.3-codex`  
 **Family**: openai
 #### Specifications
 
@@ -14182,8 +14186,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
-
 
 #### Modalities
 
@@ -14203,10 +14205,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.38
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.7
+- **Standard Output**: $1.4
 
 
 
