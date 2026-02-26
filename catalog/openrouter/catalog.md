@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 337
-- **Last Updated**: 2026-02-25
+- **Total Models**: 342
+- **Last Updated**: 2026-02-26
 
 ## Models
 
@@ -3553,6 +3553,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Gemini 3.1 Pro Preview Custom Tools
+
+**Model ID**: `google/gemini-3.1-pro-preview-customtools`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
 ### Google: Gemma 2 27B
 
 **Model ID**: `google/gemma-2-27b-it`  
@@ -4367,6 +4411,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.02
+
+
+
+
+
+
+
+---
+
+
+### LiquidAI: LFM2-24B-A2B
+
+**Model ID**: `liquid/lfm-2-24b-a2b`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.03
+
+
+- **Standard Output**: $0.12
 
 
 
@@ -6181,48 +6267,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Mistral 7B Instruct v0.2
-
-**Model ID**: `mistralai/mistral-7b-instruct-v0.2`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Mistral 7B Instruct v0.3
 
 **Model ID**: `mistralai/mistral-7b-instruct-v0.3`  
@@ -6869,7 +6913,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 131,000 tokens
 
 
 
@@ -6891,10 +6935,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.55
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $2.2
 
 
 
@@ -12773,6 +12817,182 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.5-122B-A10B
+
+**Model ID**: `qwen/qwen3.5-122b-a10b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $3.2
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.5-27B
+
+**Model ID**: `qwen/qwen3.5-27b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.5-35B-A3B
+
+**Model ID**: `qwen/qwen3.5-35b-a3b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.5-Flash
+
+**Model ID**: `qwen/qwen3.5-flash-02-23`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.4
 
 
 
