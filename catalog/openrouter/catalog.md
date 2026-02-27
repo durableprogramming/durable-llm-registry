@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-02-26
+- **Total Models**: 344
+- **Last Updated**: 2026-02-27
 
 ## Models
 
@@ -2067,6 +2067,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### ByteDance Seed: Seed-2.0-Mini
+
+**Model ID**: `bytedance-seed/seed-2.0-mini`  
+**Family**: bytedance-seed
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
 ### ByteDance: UI-TARS 7B 
 
 **Model ID**: `bytedance/ui-tars-1.5-7b`  
@@ -3157,50 +3201,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemini 2.5 Flash Image (Nano Banana)
-
-**Model ID**: `google/gemini-2.5-flash-image`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: image, text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemini 2.5 Flash Lite
 
 **Model ID**: `google/gemini-2.5-flash-lite`  
@@ -4063,6 +4063,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Nano Banana (Gemini 2.5 Flash Image)
+
+**Model ID**: `google/gemini-2.5-flash-image`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)
+
+**Model ID**: `google/gemini-3.1-flash-image-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $1.5
 
 
 
@@ -7449,10 +7537,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.6
 
 
 
@@ -11875,7 +11963,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,000 tokens
+- **Context Window**: 40,960 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
