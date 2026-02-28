@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2026-02-27
+- **Total Models**: 343
+- **Last Updated**: 2026-02-28
 
 ## Models
 
@@ -527,50 +527,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 3.1 32B Think
-
-**Model ID**: `allenai/olmo-3.1-32b-think`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.5
 
 
 
@@ -2426,8 +2382,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
-
 
 #### Modalities
 
@@ -2447,10 +2401,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19
+- **Standard Input**: $0.2
 
 
-- **Standard Output**: $0.87
+- **Standard Output**: $0.77
 
 
 
@@ -2795,10 +2749,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $1.75
+- **Standard Output**: $2.15
 
 
 
@@ -5770,7 +5724,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 196,608 tokens
 
 
 #### Modalities
@@ -5791,10 +5745,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.295
 
 
-- **Standard Output**: $1.1
+- **Standard Output**: $1.2
 
 
 
