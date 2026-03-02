@@ -1248,8 +1248,9 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/GetDeferredVideoResponse"
+                "$ref": "#/components/schemas/VideoResponse"
               example:
+                status: done
                 video:
                   url: https://vidgen.x.ai/xai-vidgen-bucket/xai-video-f532feb6-49a9-4f9a-9a37-6e64ef725e8f.mp4
                   duration: 6
@@ -2772,8 +2773,14 @@ components:
           - string
           - 'null'
           description: A base64-encoded string representation of the generated image
-            in `jpeg` encoding, if `b64_json` is specified as `response_format` in
-            the request.
+            (without the data-URI prefix), if `b64_json` is specified as `response_format`
+            in the request.
+        mime_type:
+          type:
+          - string
+          - 'null'
+          description: The MIME type of the generated image (e.g. `image/png`, `image/jpeg`,
+            `image/webp`).
         revised_prompt:
           type: string
           description: "(Deprecated: Always return empty string) The revised prompt
@@ -5096,6 +5103,35 @@ components:
               - keyword
         description: Keyword search using sparse embeddings.
       description: Retrieval mode configuration for document search.
+    SafetyCategory:
+      type: string
+      description: Categories of content that can be independently configured for
+        safety filtering.
+      enum:
+      - SEXUALLY_EXPLICIT
+      - DANGEROUS_CONTENT
+    SafetySetting:
+      type: object
+      description: Per-category safety setting that pairs a content category with
+        a blocking threshold.
+      required:
+      - category
+      - threshold
+      properties:
+        category:
+          "$ref": "#/components/schemas/SafetyCategory"
+          description: The category this setting applies to.
+        threshold:
+          "$ref": "#/components/schemas/SafetyThreshold"
+          description: The blocking threshold for the category.
+    SafetyThreshold:
+      type: string
+      description: Threshold levels that control how aggressively content is blocked
+        for a given safety category.
+      enum:
+      - BLOCK_UNSET
+      - BLOCK_LOW_THRESHOLD
+      - BLOCK_HIGH_THRESHOLD
     SampleChoice:
       type: object
       required:
@@ -6034,6 +6070,7 @@ components:
       type: object
       description: Video generation response.
       required:
+      - status
       - video
       - model
       properties:
@@ -6047,6 +6084,9 @@ components:
         model:
           type: string
           description: The model used to generate the video.
+        status:
+          type: string
+          description: 'Status of the video generation: "done" when the video is ready.'
         usage:
           oneOf:
           - type: 'null'
