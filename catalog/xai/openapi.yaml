@@ -2832,9 +2832,8 @@ components:
           type:
           - string
           - 'null'
-          description: |-
-            If the request was blocked by input moderation, contains the block reason.
-            Only populated when the media-usage team flag is enabled.
+          description: If the request was blocked by moderation, contains the block
+            reason.
         data:
           type: array
           items:
@@ -2844,7 +2843,7 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/MediaUsage"
-            description: Usage information for the image generation request.
+            description: Billing and cost information for this request.
     GeneratedVideo:
       type: object
       description: Generated video.
@@ -3267,7 +3266,8 @@ components:
           description: The type of the MCP tool call. Always `mcp_call`.
     MediaUsage:
       type: object
-      description: Usage information for media generation requests (image and video).
+      description: Billing and cost information for media generation requests (image
+        and video).
       required:
       - cost_in_usd_ticks
       properties:
@@ -3275,9 +3275,9 @@ components:
           type: integer
           format: int64
           description: |-
-            Accurate cost of this request in USD ticks, where "tick" is defined as follows:
-            TICKS_IN_USD_CENT: i64 = 100_000_000
-            which means there are 10_000_000_000 ticks in one *dollar*.
+            The cost of this request expressed in USD ticks.
+            One USD cent equals 100,000,000 ticks, so one US dollar equals
+            10,000,000,000 ticks.
     Message:
       oneOf:
       - type: object
@@ -6078,9 +6078,8 @@ components:
           type:
           - string
           - 'null'
-          description: |-
-            If the request was blocked by input moderation, contains the block reason.
-            Only populated when the media-usage team flag is enabled.
+          description: If the request was blocked by moderation, contains the block
+            reason.
         model:
           type: string
           description: The model used to generate the video.
@@ -6091,7 +6090,7 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/MediaUsage"
-            description: Usage information for the video generation request.
+            description: Billing and cost information for this request.
         video:
           "$ref": "#/components/schemas/GeneratedVideo"
           description: The generated video data.
