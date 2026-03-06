@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2026-03-05
+- **Total Models**: 346
+- **Last Updated**: 2026-03-06
 
 ## Models
 
@@ -1247,7 +1247,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: anthropic
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 200,000 tokens
 
 
 - **Max Output Tokens**: 64,000 tokens
@@ -2425,6 +2425,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 163,840 tokens
 
+
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -4298,7 +4300,51 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $0.75
+
+
+
+
+
+
+
+---
+
+
+### Inception: Mercury 2
+
+**Model ID**: `inception/mercury-2`  
+**Family**: inception
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 50,000 tokens
 
 
 #### Modalities
@@ -4342,7 +4388,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
@@ -9913,6 +9959,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5.4
+
+**Model ID**: `openai/gpt-5.4`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.4 Pro
+
+**Model ID**: `openai/gpt-5.4-pro`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $180.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -14465,10 +14599,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.38
 
 
-- **Standard Output**: $1.4
+- **Standard Output**: $1.98
 
 
 
