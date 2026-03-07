@@ -1666,6 +1666,15 @@ components:
         object:
           type: string
           description: The object type, which is always `"chat.completion"`.
+        output_files:
+          type:
+          - array
+          - 'null'
+          items:
+            "$ref": "#/components/schemas/OutputFile"
+          description: |-
+            Files generated during the response (e.g., by the code execution tool).
+            Only populated when `code_execution_files_output` is included.
         system_fingerprint:
           type:
           - string
@@ -1715,6 +1724,15 @@ components:
         object:
           type: string
           description: The object type, which is always `"chat.completion.chunk"`.
+        output_files:
+          type:
+          - array
+          - 'null'
+          items:
+            "$ref": "#/components/schemas/OutputFile"
+          description: |-
+            Files generated during the response (e.g., by the code execution tool).
+            Only populated for the final chunk when `code_execution_files_output` is included.
         system_fingerprint:
           type:
           - string
@@ -4844,6 +4862,20 @@ components:
       - low
       - auto
       - high
+    OutputFile:
+      type: object
+      description: A file generated during the model's response (e.g., by the code
+        execution tool).
+      required:
+      - file_id
+      - name
+      properties:
+        file_id:
+          type: string
+          description: The file ID from the Files API. Use this to download the file.
+        name:
+          type: string
+          description: The display name of the file.
     OutputMessage:
       type: object
       description: An output message from the model.
