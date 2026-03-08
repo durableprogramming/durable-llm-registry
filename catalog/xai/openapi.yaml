@@ -2203,6 +2203,11 @@ components:
           items:
             type: string
           description: The collection IDs to search in.
+        rag_pipeline:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/RagPipeline"
+            description: Which RAG pipeline to use. Defaults to `chroma_db` when unset.
     EditImageRequest:
       type: object
       description: Request for editing image
@@ -4976,6 +4981,11 @@ components:
           type: integer
           format: int32
           description: Total text prompt token used (cached + non-cached text tokens).
+    RagPipeline:
+      type: string
+      enum:
+      - chroma_db
+      - es
     RankingMetric:
       type: string
       description: 'Deprecated: Metric now comes from collection creation.'
