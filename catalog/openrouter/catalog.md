@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-03-10
+- **Total Models**: 339
+- **Last Updated**: 2026-03-11
 
 ## Models
 
@@ -2067,6 +2067,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### ByteDance Seed: Seed-2.0-Lite
+
+**Model ID**: `bytedance-seed/seed-2.0-lite`  
+**Family**: bytedance-seed
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
 ### ByteDance Seed: Seed-2.0-Mini
 
 **Model ID**: `bytedance-seed/seed-2.0-mini`  
@@ -2426,8 +2470,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 163,840 tokens
-
 
 #### Modalities
 
@@ -2508,48 +2550,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### DeepSeek: DeepSeek V3.1 Terminus
 
 **Model ID**: `deepseek/deepseek-v3.1-terminus`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.21
-
-
-- **Standard Output**: $0.79
-
-
-
-
-
-
-
----
-
-
-### DeepSeek: DeepSeek V3.1 Terminus (exacto)
-
-**Model ID**: `deepseek/deepseek-v3.1-terminus:exacto`  
 **Family**: deepseek
 #### Specifications
 
@@ -5587,48 +5587,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: LlamaGuard 2 8B
-
-**Model ID**: `meta-llama/llama-guard-2-8b`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
 ### Microsoft: Phi 4
 
 **Model ID**: `microsoft/phi-4`  
@@ -7075,48 +7033,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### MoonshotAI: Kimi K2 0905 (exacto)
-
-**Model ID**: `moonshotai/kimi-k2-0905:exacto`  
-**Family**: moonshotai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.6
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
 ### MoonshotAI: Kimi K2 Thinking
 
 **Model ID**: `moonshotai/kimi-k2-thinking`  
@@ -7675,50 +7591,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### NeverSleep: Lumimaid v0.2 8B
-
-**Model ID**: `neversleep/llama-3.1-lumimaid-8b`  
-**Family**: neversleep
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.09
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
 ### Nex AGI: DeepSeek V3.1 Nex N1
 
 **Model ID**: `nex-agi/deepseek-v3.1-nex-n1`  
@@ -7753,50 +7625,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Noromaid 20B
-
-**Model ID**: `neversleep/noromaid-20b`  
-**Family**: neversleep
-#### Specifications
-
-- **Context Window**: 4,096 tokens
-
-
-- **Max Output Tokens**: 2,048 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $1.75
 
 
 
@@ -7899,10 +7727,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nousresearch
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -10087,48 +9913,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### OpenAI: gpt-oss-120b (exacto)
-
-**Model ID**: `openai/gpt-oss-120b:exacto`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.039
-
-
-- **Standard Output**: $0.19
-
-
-
-
-
-
-
----
-
-
 ### OpenAI: gpt-oss-120b (free)
 
 **Model ID**: `openai/gpt-oss-120b:free`  
@@ -12173,50 +11957,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen3 Coder 480B A35B (exacto)
-
-**Model ID**: `qwen/qwen3-coder:exacto`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.22
-
-
-- **Standard Output**: $1.8
-
-
-
-
-
-
-
----
-
-
 ### Qwen: Qwen3 Coder 480B A35B (free)
 
 **Model ID**: `qwen/qwen3-coder:free`  
@@ -13133,6 +12873,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.5-9B
+
+**Model ID**: `qwen/qwen3.5-9b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.15
+
+
+
+
+
+
+
+---
+
+
 ### Qwen: Qwen3.5-Flash
 
 **Model ID**: `qwen/qwen3.5-flash-02-23`  
@@ -13399,10 +13181,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: sao10k
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -13423,10 +13205,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.65
+- **Standard Input**: $0.85
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $0.85
 
 
 
@@ -13515,48 +13297,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.48
-
-
-
-
-
-
-
----
-
-
-### SorcererLM 8x22B
-
-**Model ID**: `raifle/sorcererlm-8x22b`  
-**Family**: raifle
-#### Specifications
-
-- **Context Window**: 16,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $4.5
-
-
-- **Standard Output**: $4.5
 
 
 
@@ -14483,50 +14223,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Z.ai: GLM 4.6 (exacto)
-
-**Model ID**: `z-ai/glm-4.6:exacto`  
-**Family**: z-ai
-#### Specifications
-
-- **Context Window**: 204,800 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.44
-
-
-- **Standard Output**: $1.76
-
-
-
-
-
-
-
----
-
-
 ### Z.ai: GLM 4.6V
 
 **Model ID**: `z-ai/glm-4.6v`  
@@ -14664,6 +14360,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -14683,10 +14381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $0.72
 
 
-- **Standard Output**: $2.56
+- **Standard Output**: $2.3
 
 
 
