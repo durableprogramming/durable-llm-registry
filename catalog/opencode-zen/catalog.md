@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 35
-- **Last Updated**: 2026-03-11
+- **Total Models**: 37
+- **Last Updated**: 2026-03-12
 
 ## Models
 
@@ -1704,6 +1704,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### MiMo V2 Flash Free
+
+**Model ID**: `mimo-v2-flash-free`  
+**Family**: mimo
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### MiniMax M2.1
 
 **Model ID**: `minimax-m2.1`  
@@ -1860,6 +1908,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Nemotron 3 Super Free
+
+**Model ID**: `nemotron-3-super-free`  
+**Family**: nemotron
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
 
 
 

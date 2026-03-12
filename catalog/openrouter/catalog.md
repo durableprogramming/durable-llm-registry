@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2026-03-11
+- **Total Models**: 342
+- **Last Updated**: 2026-03-12
 
 ## Models
 
@@ -2598,8 +2598,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
-
 
 #### Modalities
 
@@ -2619,10 +2617,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.38
 
 
 
@@ -4239,6 +4237,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
+### Healer Alpha
+
+**Model ID**: `openrouter/healer-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Hunter Alpha
+
+**Model ID**: `openrouter/hunter-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -7387,6 +7473,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 256,000 tokens
 
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3 Super (free)
+
+**Model ID**: `nvidia/nemotron-3-super-120b-a12b:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12311,8 +12441,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
+
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12333,10 +12465,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.0975
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.78
 
 
 
@@ -12419,10 +12551,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $2.6
 
 
 
@@ -12507,10 +12639,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $1.56
 
 
 
