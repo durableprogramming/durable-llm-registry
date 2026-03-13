@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-03-12
+- **Total Models**: 344
+- **Last Updated**: 2026-03-13
 
 ## Models
 
@@ -14815,6 +14815,90 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok 4.20 Beta
+
+**Model ID**: `x-ai/grok-4.20-beta`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok 4.20 Multi-Agent Beta
+
+**Model ID**: `x-ai/grok-4.20-multi-agent-beta`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
 
 
 
