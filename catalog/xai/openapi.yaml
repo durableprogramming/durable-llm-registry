@@ -1258,28 +1258,13 @@ paths:
             application/json:
               schema:
                 "$ref": "#/components/schemas/VideoResponse"
-              examples:
-                done:
-                  summary: Video generation completed successfully
-                  value:
-                    status: done
-                    video:
-                      url: https://vidgen.x.ai/xai-vidgen-bucket/xai-video-f532feb6-49a9-4f9a-9a37-6e64ef725e8f.mp4
-                      duration: 6
-                      respect_moderation: true
-                    model: grok-imagine-video
-                failed:
-                  summary: Video generation failed
-                  value:
-                    status: failed
-                    video:
-                      duration: 0
-                      respect_moderation: true
-                    model: ''
-                    error:
-                      code: internal_error
-                      message: Video generation failed due to an internal error. Please
-                        try again.
+              example:
+                status: done
+                video:
+                  url: https://vidgen.x.ai/xai-vidgen-bucket/xai-video-{request_id}.mp4
+                  duration: 6
+                  respect_moderation: true
+                model: grok-imagine-video
         '202':
           description: Video generation still in progress
         '400':
@@ -2876,12 +2861,6 @@ components:
       required:
       - data
       properties:
-        block_reason:
-          type:
-          - string
-          - 'null'
-          description: If the request was blocked by moderation, contains the block
-            reason.
         data:
           type: array
           items:
@@ -6156,12 +6135,6 @@ components:
       - video
       - model
       properties:
-        block_reason:
-          type:
-          - string
-          - 'null'
-          description: If the request was blocked by moderation, contains the block
-            reason.
         error:
           oneOf:
           - type: 'null'
