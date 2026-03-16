@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2026-03-15
+- **Total Models**: 345
+- **Last Updated**: 2026-03-16
 
 ## Models
 
@@ -4306,7 +4306,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -5157,48 +5157,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: Llama 3.1 405B Instruct
-
-**Model ID**: `meta-llama/llama-3.1-405b-instruct`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 131,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $4.0
-
-
-- **Standard Output**: $4.0
-
-
-
-
-
-
-
----
-
-
 ### Meta: Llama 3.1 70B Instruct
 
 **Model ID**: `meta-llama/llama-3.1-70b-instruct`  
@@ -5925,6 +5883,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### MiniMax: MiniMax M2.5 (free)
+
+**Model ID**: `minimax/minimax-m2.5:free`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 196,608 tokens
+
+
+- **Max Output Tokens**: 196,608 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -10970,8 +10972,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
-
 
 #### Modalities
 
@@ -10991,10 +10991,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.66
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $1.0
 
 
 
@@ -14519,6 +14519,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.3
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM 5 Turbo
+
+**Model ID**: `z-ai/glm-5-turbo`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 202,752 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.96
+
+
+- **Standard Output**: $3.2
 
 
 
