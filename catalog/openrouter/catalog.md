@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 345
-- **Last Updated**: 2026-03-16
+- **Total Models**: 346
+- **Last Updated**: 2026-03-17
 
 ## Models
 
@@ -6785,6 +6785,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Mistral Small 4
+
+**Model ID**: `mistralai/mistral-small-2603`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+
+
+---
+
+
 ### Mistral: Mistral Small Creative
 
 **Model ID**: `mistralai/mistral-small-creative`  
@@ -9888,7 +9930,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -11167,10 +11209,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $0.52
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $2.08
 
 
 
@@ -11299,10 +11341,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.78
 
 
 
@@ -12295,10 +12337,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.2
+- **Standard Input**: $0.78
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $3.9
 
 
 
@@ -13079,10 +13121,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.065
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.26
 
 
 
