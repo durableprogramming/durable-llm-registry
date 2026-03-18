@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 37
-- **Last Updated**: 2026-03-17
+- **Total Models**: 32
+- **Last Updated**: 2026-03-18
 
 ## Models
 
@@ -450,116 +450,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `claude-sonnet-4-6`  
 **Family**: claude-sonnet-4
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### GLM 4.6
-
-**Model ID**: `glm-4.6`  
-**Family**: glm
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### GLM 4.7
-
-**Model ID**: `glm-4.7`  
-**Family**: glm
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -1319,6 +1209,116 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### GPT 5.4 Mini
+
+**Model ID**: `gpt-5.4-mini`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GPT 5.4 Nano
+
+**Model ID**: `gpt-5.4-nano`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### GPT 5.4 Pro
 
 **Model ID**: `gpt-5.4-pro`  
@@ -1429,61 +1429,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Gemini 3 Pro
-
-**Model ID**: `gemini-3-pro`  
-**Family**: gemini
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### Gemini 3.1 Pro
 
 **Model ID**: `gemini-3.1-pro`  
@@ -1530,116 +1475,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Kimi K2
-
-**Model ID**: `kimi-k2`  
-**Family**: kimi
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.4
-
-
-- **Standard Output**: $2.5
-
-
-
-
-- **Cached Input**: $0.5
-
-
-- **Cached Output**: $0.25
-
-
-
-
-
-
----
-
-
-### Kimi K2 Thinking
-
-**Model ID**: `kimi-k2-thinking`  
-**Family**: kimi
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.4
-
-
-- **Standard Output**: $2.5
-
-
-
-
-- **Cached Input**: $0.5
-
-
-- **Cached Output**: $0.25
 
 
 
@@ -1743,61 +1578,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Standard Output**: $0.0
 
-
-
-
-
-
-
----
-
-
-### MiniMax M2.1
-
-**Model ID**: `minimax-m2.1`  
-**Family**: minimax
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
 
 
 
@@ -1956,61 +1736,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Standard Output**: $0.0
 
-
-
-
-
-
-
----
-
-
-### Qwen3 Coder 480B
-
-**Model ID**: `qwen3-coder`  
-**Family**: qwen3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.45
-
-
-- **Standard Output**: $1.5
-
-
-
-
-- **Cached Input**: $0.5625
-
-
-- **Cached Output**: $0.15000000000000002
 
 
 
