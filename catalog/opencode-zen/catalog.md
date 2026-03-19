@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 32
-- **Last Updated**: 2026-03-18
+- **Total Models**: 33
+- **Last Updated**: 2026-03-19
 
 ## Models
 
@@ -1539,9 +1539,57 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### MiMo V2 Flash Free
+### MiMo V2 Omni Free
 
-**Model ID**: `mimo-v2-flash-free`  
+**Model ID**: `mimo-v2-omni-free`  
+**Family**: mimo
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### MiMo V2 Pro Free
+
+**Model ID**: `mimo-v2-pro-free`  
 **Family**: mimo
 #### Specifications
 
