@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 350
-- **Last Updated**: 2026-03-21
+- **Total Models**: 352
+- **Last Updated**: 2026-03-22
 
 ## Models
 
@@ -6911,6 +6911,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Pixtral 12B
+
+**Model ID**: `mistralai/pixtral-12b`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.1
+
+
+
+
+
+
+
+---
+
+
 ### Mistral: Pixtral Large 2411
 
 **Model ID**: `mistralai/pixtral-large-2411`  
@@ -7373,6 +7415,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Llama 3.1 Nemotron Ultra 253B v1
+
+**Model ID**: `nvidia/llama-3.1-nemotron-ultra-253b-v1`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $1.8
 
 
 

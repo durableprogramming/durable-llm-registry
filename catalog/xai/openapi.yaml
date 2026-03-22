@@ -2557,7 +2557,6 @@ components:
       required:
       - file_id
       - filename
-      - score
       - text
       properties:
         file_id:
@@ -2569,7 +2568,9 @@ components:
         score:
           type: number
           format: double
-          description: The score of the file search result.
+          description: |-
+            The score of the file search result.
+            Proto3 omits float fields with value 0.0; default to 0.0 when absent.
         text:
           type: string
           description: The text of the file search result.
@@ -2923,6 +2924,70 @@ components:
         status:
           type: string
           description: 'Status of the deferred request: "pending", "done", or "failed".'
+    GroupBy:
+      type: object
+      description: Group search results by metadata key(s) and keep top-k per group.
+      required:
+      - keys
+      properties:
+        aggregate:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/GroupByAggregate"
+            description: Aggregation function per group. Defaults to MinK(k=1, keys=["#score"]).
+        keys:
+          type: array
+          items:
+            type: string
+          description: |-
+            Metadata key(s) to group results by (e.g. "category", "department").
+            At least one key is required.
+    GroupByAggregate:
+      oneOf:
+      - type: object
+        description: Keep the k records with the smallest values (best scores).
+        required:
+        - min_k
+        properties:
+          min_k:
+            type: object
+            description: Keep the k records with the smallest values (best scores).
+            required:
+            - keys
+            - k
+            properties:
+              k:
+                type: integer
+                format: int32
+                description: Number of records to keep per group. Must be >= 1.
+              keys:
+                type: array
+                items:
+                  type: string
+                description: Key(s) to sort by within each group. Use "#score" for
+                  relevance score.
+      - type: object
+        description: Keep the k records with the largest values.
+        required:
+        - max_k
+        properties:
+          max_k:
+            type: object
+            description: Keep the k records with the largest values.
+            required:
+            - keys
+            - k
+            properties:
+              k:
+                type: integer
+                format: int32
+                description: Number of records to keep per group. Must be >= 1.
+              keys:
+                type: array
+                items:
+                  type: string
+                description: Key(s) to sort by within each group.
+      description: Aggregation function to apply within each group.
     HybridReranker:
       oneOf:
       - allOf:
@@ -5539,6 +5604,16 @@ components:
             Supports logical operators: `AND`, `OR`
             Supports range syntax: `field:10..20` (inclusive)
             Examples: `author = "John"` or `year > 2020 AND category = "finance"`
+        group_by:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/GroupBy"
+            description: |-
+              Optional group_by to diversify search results by metadata key(s).
+              When set, results are grouped by the specified key(s) and only the
+              top-k records per group are returned. Applied after ranking and filtering.
+              Documents missing a group_by key are placed in a shared null group.
+              Grouping is applied per-collection, not across the combined result set.
         instructions:
           type:
           - string
