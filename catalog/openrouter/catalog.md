@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 352
-- **Last Updated**: 2026-03-22
+- **Total Models**: 349
+- **Last Updated**: 2026-03-23
 
 ## Models
 
@@ -277,50 +277,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### AllenAI: Molmo2 8B
-
-**Model ID**: `allenai/molmo-2-8b`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 36,864 tokens
-
-
-- **Max Output Tokens**: 36,864 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
 ### AllenAI: Olmo 2 32B Instruct
 
 **Model ID**: `allenai/olmo-2-0325-32b-instruct`  
@@ -397,94 +353,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 3 7B Instruct
-
-**Model ID**: `allenai/olmo-3-7b-instruct`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 3 7B Think
-
-**Model ID**: `allenai/olmo-3-7b-think`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.12
-
-
-- **Standard Output**: $0.2
 
 
 
@@ -2556,8 +2424,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
-
 
 #### Modalities
 
@@ -2580,7 +2446,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.21
 
 
-- **Standard Output**: $0.78
+- **Standard Output**: $0.79
 
 
 
@@ -13815,10 +13681,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.85
+- **Standard Output**: $1.1
 
 
 
@@ -14863,10 +14729,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.96
+- **Standard Input**: $1.2
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $4.0
 
 
 
