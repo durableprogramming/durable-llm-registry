@@ -1193,6 +1193,43 @@ paths:
             body.
       security:
       - bearerAuth: []
+  "/v1/videos/extensions":
+    post:
+      tags:
+      - v1
+      summary: |-
+        Extend a video by generating continuation content.
+        This is an asynchronous operation that returns a request_id for polling.
+      operationId: handle_extend_video_request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/ExtendVideoRequest"
+            example:
+              prompt: The camera slowly zooms out to reveal the city skyline
+              video:
+                url: https://example.com/video.mp4
+              model: grok-imagine-video
+              duration: 6
+        required: true
+      responses:
+        '200':
+          description: Video extension started successfully
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/StartDeferredResponse"
+              example:
+                request_id: a3d1008e-4544-40d4-d075-11527e794e4a
+        '400':
+          description: Bad request. The request is invalid or an invalid API key is
+            provided.
+        '422':
+          description: Unprocessable Entity. There are missing fields in the request
+            body.
+      security:
+      - bearerAuth: []
   "/v1/videos/generations":
     post:
       tags:
@@ -2512,6 +2549,40 @@ components:
           type: integer
           format: int32
           description: Total token used.
+    ExtendVideoRequest:
+      type: object
+      description: Request for extending a video for `/v1/videos/extensions` endpoint
+      required:
+      - prompt
+      - video
+      properties:
+        duration:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: |-
+            Duration of the extension segment to generate in seconds (1-10).
+            Defaults to 6 seconds if not specified.
+        model:
+          type:
+          - string
+          - 'null'
+          description: Model to be used.
+          example: grok-imagine-video
+        output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/VideoOutput"
+            description: Optional output destination for generated video.
+        prompt:
+          type: string
+          description: Prompt describing what should happen next in the video.
+        video:
+          "$ref": "#/components/schemas/VideoUrl"
+          description: |-
+            Input video to extend. The extension continues from the end of this video.
+            Input video must be between 2 and 30 seconds long.
     FileRef:
       type: object
       required:
@@ -2759,7 +2830,10 @@ components:
           - integer
           - 'null'
           format: int32
-          description: 'Video duration in seconds. Range: [1, 15]. Default: 8.'
+          description: |-
+            Video duration in seconds. Range: [1, 15]. Default: 8.
+            Also accepts `seconds` for OpenAI API compatibility.
+            Accepts both number (8) and string ("8") values.
           default: 8
           maximum: 15
           minimum: 1
@@ -2770,6 +2844,7 @@ components:
             description: |-
               Optional input image for image-to-video generation.
               If provided, generates video with this image as the first frame.
+              Also accepts `input_reference` for compatibility (same semantics — first frame).
         model:
           type:
           - string
@@ -2784,6 +2859,14 @@ components:
         prompt:
           type: string
           description: Prompt for video generation.
+        reference_images:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ImageUrl"
+          description: |-
+            Optional reference images for reference-to-video (R2V) generation.
+            When provided generates video using these images
+            as style/content references.
         resolution:
           oneOf:
           - type: 'null'
@@ -3136,7 +3219,7 @@ components:
       properties:
         url:
           type: string
-          description: URL of the image.
+          description: URL of the image. Also accepts `image_url` for compatibility.
     IncompleteDetails:
       oneOf:
       - type: object
