@@ -1489,8 +1489,8 @@ components:
           type: array
           items:
             "$ref": "#/components/schemas/Message"
-          description: A list of messages that make up the the chat conversation.
-            Different models support different message types, such as image and text.
+          description: A list of messages that make up the chat conversation. Different
+            models support different message types, such as image and text.
         model:
           type: string
           description: Model name for the model to use. Obtainable from <https://console.x.ai/team/default/models>
@@ -2069,7 +2069,8 @@ components:
           description: File path to a text file to be used as prompt.
         type:
           type: string
-          description: The type of the content part.
+          description: The type of the content part. Can be `text`, `image_url`, `text_file`
+            or `file`.
     CustomToolCall:
       type: object
       description: The output of a custom tool call.
@@ -4172,12 +4173,6 @@ components:
             type: string
             enum:
             - input_file
-    ModelInputItem:
-      oneOf:
-      - allOf:
-        - "$ref": "#/components/schemas/ModelOutput"
-      - allOf:
-        - "$ref": "#/components/schemas/FunctionToolCallOutput"
     ModelInputPart:
       oneOf:
       - type: object
@@ -4205,8 +4200,11 @@ components:
             - 'null'
             description: The type of the message, which is always `message`.
       - allOf:
-        - "$ref": "#/components/schemas/ModelInputItem"
-        description: Previous responses of the model and tool call outputs.
+        - "$ref": "#/components/schemas/ModelOutput"
+        description: The model output from previous responses.
+      - allOf:
+        - "$ref": "#/components/schemas/FunctionToolCallOutput"
+        description: The output of a function call.
     ModelOutput:
       oneOf:
       - allOf:
