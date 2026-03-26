@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 346
-- **Last Updated**: 2026-03-25
+- **Last Updated**: 2026-03-26
 
 ## Models
 
@@ -3321,50 +3321,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.0
-
-
-
-
-
-
-
----
-
-
-### Google: Gemini 3 Pro Preview
-
-**Model ID**: `google/gemini-3-pro-preview`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $12.0
 
 
 
@@ -13095,6 +13051,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Reka Edge
+
+**Model ID**: `reka/reka-edge`  
+**Family**: reka
+#### Specifications
+
+- **Context Window**: 16,384 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.2
+
+
+
+
+
+
+
+---
+
+
 ### Relace: Relace Apply 3
 
 **Model ID**: `relace/relace-apply-3`  
@@ -13405,10 +13405,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: stepfun
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
 
-
-- **Max Output Tokens**: 256,000 tokens
 
 
 #### Modalities
