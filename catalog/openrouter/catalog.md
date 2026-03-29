@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2026-03-28
+- **Total Models**: 345
+- **Last Updated**: 2026-03-29
 
 ## Models
 
@@ -6479,48 +6479,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Mistral Small 3.1 24B (free)
-
-**Model ID**: `mistralai/mistral-small-3.1-24b-instruct:free`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Mistral Small 3.2 24B
 
 **Model ID**: `mistralai/mistral-small-3.2-24b-instruct`  
@@ -11863,48 +11821,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.24
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen3 4B (free)
-
-**Model ID**: `qwen/qwen3-4b:free`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 40,960 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
