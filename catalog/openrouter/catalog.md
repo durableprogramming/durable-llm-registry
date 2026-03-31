@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 345
-- **Last Updated**: 2026-03-30
+- **Total Models**: 348
+- **Last Updated**: 2026-03-31
 
 ## Models
 
@@ -3939,6 +3939,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Lyria 3 Clip Preview
+
+**Model ID**: `google/lyria-3-clip-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Lyria 3 Pro Preview
+
+**Model ID**: `google/lyria-3-pro-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Google: Nano Banana (Gemini 2.5 Flash Image)
 
 **Model ID**: `google/gemini-2.5-flash-image`  
@@ -4323,50 +4411,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
-
-
-
-
-
-
-
----
-
-
-### Kwaipilot: KAT-Coder-Pro V1
-
-**Model ID**: `kwaipilot/kat-coder-pro`  
-**Family**: kwaipilot
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.207
-
-
-- **Standard Output**: $0.828
 
 
 
@@ -5592,7 +5636,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 196,608 tokens
 
 
 #### Modalities
@@ -5613,10 +5657,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19
+- **Standard Input**: $0.18
 
 
-- **Standard Output**: $1.15
+- **Standard Output**: $1.1
 
 
 
@@ -12967,6 +13011,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.6 Plus Preview (free)
+
+**Model ID**: `qwen/qwen3.6-plus-preview:free`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### ReMM SLERP 13B
 
 **Model ID**: `undi95/remm-slerp-l2-13b`  
@@ -13045,6 +13133,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.1
+
+
+
+
+
+
+
+---
+
+
+### Reka: Flash 3
+
+**Model ID**: `rekaai/reka-flash-3`  
+**Family**: rekaai
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.2
 
 
 
