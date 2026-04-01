@@ -4231,6 +4231,13 @@ components:
           description: "(Unsupported) Whether to process the response asynchronously
             in the background."
           default: false
+        context_management:
+          type:
+          - array
+          - 'null'
+          items: {}
+          description: Optional context-management directives (e.g. compaction). Parsed
+            but not yet executed.
         include:
           type:
           - array

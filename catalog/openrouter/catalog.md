@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 348
-- **Last Updated**: 2026-03-31
+- **Last Updated**: 2026-04-01
 
 ## Models
 
@@ -5636,7 +5636,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 196,608 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -5657,10 +5657,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.18
+- **Standard Input**: $0.12
 
 
-- **Standard Output**: $1.1
+- **Standard Output**: $1.0
 
 
 
@@ -12932,7 +12932,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -13020,7 +13020,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
@@ -13101,8 +13101,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 ### Reka Edge
 
-**Model ID**: `reka/reka-edge`  
-**Family**: reka
+**Model ID**: `rekaai/reka-edge`  
+**Family**: rekaai
 #### Specifications
 
 - **Context Window**: 16,384 tokens
@@ -13143,7 +13143,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Reka: Flash 3
+### Reka Flash 3
 
 **Model ID**: `rekaai/reka-flash-3`  
 **Family**: rekaai
@@ -13499,6 +13499,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -14892,7 +14894,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: image, text
+- **Input**: image, text, file
 
 
 - **Output**: text
@@ -14936,7 +14938,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -14980,7 +14982,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -15009,9 +15011,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### xAI: Grok 4.20 Beta
+### xAI: Grok 4.20
 
-**Model ID**: `x-ai/grok-4.20-beta`  
+**Model ID**: `x-ai/grok-4.20`  
 **Family**: x-ai
 #### Specifications
 
@@ -15051,9 +15053,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### xAI: Grok 4.20 Multi-Agent Beta
+### xAI: Grok 4.20 Multi-Agent
 
-**Model ID**: `x-ai/grok-4.20-multi-agent-beta`  
+**Model ID**: `x-ai/grok-4.20-multi-agent`  
 **Family**: x-ai
 #### Specifications
 
@@ -15064,7 +15066,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
