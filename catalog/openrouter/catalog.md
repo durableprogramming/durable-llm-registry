@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2026-04-01
+- **Total Models**: 351
+- **Last Updated**: 2026-04-02
 
 ## Models
 
@@ -1403,6 +1403,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Arcee AI: Trinity Large Thinking
+
+**Model ID**: `arcee-ai/trinity-large-thinking`  
+**Family**: arcee-ai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $0.85
 
 
 
@@ -3120,7 +3164,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -5633,10 +5677,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 196,600 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 196,600 tokens
 
 
 #### Modalities
@@ -5657,10 +5701,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.118
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $1.25
 
 
 
@@ -6998,7 +7042,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -7019,10 +7063,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.42
+- **Standard Input**: $0.3827
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $1.9092
 
 
 
@@ -13011,6 +13055,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.6 Plus (free)
+
+**Model ID**: `qwen/qwen3.6-plus:free`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Qwen: Qwen3.6 Plus Preview (free)
 
 **Model ID**: `qwen/qwen3.6-plus-preview:free`  
@@ -14685,6 +14773,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.2
+
+
+- **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM 5V Turbo
+
+**Model ID**: `z-ai/glm-5v-turbo`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 202,752 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
 
 
 - **Output**: text
