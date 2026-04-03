@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 351
-- **Last Updated**: 2026-04-02
+- **Total Models**: 349
+- **Last Updated**: 2026-04-03
 
 ## Models
 
@@ -3983,6 +3983,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Gemma 4 31B
+
+**Model ID**: `google/gemma-4-31b-it`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
 ### Google: Lyria 3 Clip Preview
 
 **Model ID**: `google/lyria-3-clip-preview`  
@@ -4509,48 +4553,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### LiquidAI: LFM2-2.6B
-
-**Model ID**: `liquid/lfm-2.2-6b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.01
-
-
-- **Standard Output**: $0.02
-
-
-
-
-
-
-
----
-
-
 ### LiquidAI: LFM2-24B-A2B
 
 **Model ID**: `liquid/lfm-2-24b-a2b`  
@@ -4583,48 +4585,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.12
-
-
-
-
-
-
-
----
-
-
-### LiquidAI: LFM2-8B-A1B
-
-**Model ID**: `liquid/lfm2-8b-a1b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.01
-
-
-- **Standard Output**: $0.02
 
 
 
@@ -5677,10 +5637,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,600 tokens
+- **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 196,600 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -5704,7 +5664,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.118
 
 
-- **Standard Output**: $1.25
+- **Standard Output**: $0.99
 
 
 
@@ -7066,7 +7026,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.3827
 
 
-- **Standard Output**: $1.9092
+- **Standard Output**: $1.72
 
 
 
@@ -13071,50 +13031,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text, image, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen3.6 Plus Preview (free)
-
-**Model ID**: `qwen/qwen3.6-plus-preview:free`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
 
 
 - **Output**: text
