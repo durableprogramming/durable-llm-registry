@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2026-04-03
+- **Total Models**: 350
+- **Last Updated**: 2026-04-04
 
 ## Models
 
@@ -3973,6 +3973,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemma 4 26B A4B 
+
+**Model ID**: `google/gemma-4-26b-a4b-it`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.13
+
+
+- **Standard Output**: $0.4
 
 
 
