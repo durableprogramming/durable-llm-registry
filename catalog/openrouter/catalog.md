@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 350
-- **Last Updated**: 2026-04-04
+- **Total Models**: 349
+- **Last Updated**: 2026-04-05
 
 ## Models
 
@@ -747,50 +747,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.0
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude 3.5 Sonnet
-
-**Model ID**: `anthropic/claude-3.5-sonnet`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $6.0
-
-
-- **Standard Output**: $30.0
 
 
 
