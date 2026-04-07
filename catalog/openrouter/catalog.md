@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 348
-- **Last Updated**: 2026-04-06
+- **Last Updated**: 2026-04-07
 
 ## Models
 
@@ -15028,7 +15028,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
