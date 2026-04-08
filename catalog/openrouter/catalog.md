@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 348
-- **Last Updated**: 2026-04-07
+- **Total Models**: 352
+- **Last Updated**: 2026-04-08
 
 ## Models
 
@@ -1011,6 +1011,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Opus 4.6 (Fast)
+
+**Model ID**: `anthropic/claude-opus-4.6-fast`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $150.0
 
 
 
@@ -3939,6 +3983,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Gemma 4 26B A4B  (free)
+
+**Model ID**: `google/gemma-4-26b-a4b-it:free`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Google: Gemma 4 31B
 
 **Model ID**: `google/gemma-4-31b-it`  
@@ -3973,6 +4061,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemma 4 31B (free)
+
+**Model ID**: `google/gemma-4-31b-it:free`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -6871,8 +7003,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -6913,7 +7047,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
 
@@ -6935,10 +7069,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.47
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $2.5
 
 
 
@@ -6958,7 +7092,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -12971,9 +13105,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen3.6 Plus (free)
+### Qwen: Qwen3.6 Plus
 
-**Model ID**: `qwen/qwen3.6-plus:free`  
+**Model ID**: `qwen/qwen3.6-plus`  
 **Family**: qwen
 #### Specifications
 
@@ -13001,10 +13135,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.325
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $1.95
 
 
 
@@ -14663,6 +14797,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM 5.1
+
+**Model ID**: `z-ai/glm-5.1`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 202,752 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.26
+
+
+- **Standard Output**: $3.96
 
 
 

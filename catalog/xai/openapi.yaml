@@ -2486,11 +2486,11 @@ components:
             Input video must be between 2 and 30 seconds long.
     FileRef:
       type: object
-      required:
-      - file_id
       properties:
         file_id:
-          type: string
+          type:
+          - string
+          - 'null'
           description: The file ID from the Files API.
         url:
           type:
