@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 352
-- **Last Updated**: 2026-04-08
+- **Total Models**: 351
+- **Last Updated**: 2026-04-09
 
 ## Models
 
@@ -5686,6 +5686,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
+- **Max Output Tokens**: 196,608 tokens
+
 
 #### Modalities
 
@@ -5705,7 +5707,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.29
 
 
 - **Standard Output**: $0.95
@@ -13629,50 +13631,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### StepFun: Step 3.5 Flash (free)
-
-**Model ID**: `stepfun/step-3.5-flash:free`  
-**Family**: stepfun
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 256,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Switchpoint Router
 
 **Model ID**: `switchpoint/router`  
@@ -14816,6 +14774,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -14835,10 +14795,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.26
+- **Standard Input**: $1.395
 
 
-- **Standard Output**: $3.96
+- **Standard Output**: $4.4
 
 
 
