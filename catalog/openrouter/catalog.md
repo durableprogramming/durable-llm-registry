@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 351
-- **Last Updated**: 2026-04-09
+- **Total Models**: 350
+- **Last Updated**: 2026-04-10
 
 ## Models
 
@@ -1447,48 +1447,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
-### Arcee AI: Trinity Mini (free)
-
-**Model ID**: `arcee-ai/trinity-mini:free`  
-**Family**: arcee-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -14774,8 +14732,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -14795,10 +14751,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.395
+- **Standard Input**: $1.26
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $3.96
 
 
 
