@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 350
-- **Last Updated**: 2026-04-12
+- **Total Models**: 349
+- **Last Updated**: 2026-04-13
 
 ## Models
 
@@ -2709,50 +2709,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.29
-
-
-
-
-
-
-
----
-
-
-### EleutherAI: Llemma 7b
-
-**Model ID**: `eleutherai/llemma_7b`  
-**Family**: eleutherai
-#### Specifications
-
-- **Context Window**: 4,096 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.8
-
-
-- **Standard Output**: $1.2
 
 
 
@@ -5771,10 +5727,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 204,800 tokens
+- **Context Window**: 196,608 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
