@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2026-04-13
+- **Total Models**: 346
+- **Last Updated**: 2026-04-14
 
 ## Models
 
@@ -2719,6 +2719,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Elephant
+
+**Model ID**: `openrouter/elephant-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### EssentialAI: Rnj 1 Instruct
 
 **Model ID**: `essentialai/rnj-1-instruct`  
@@ -3419,48 +3463,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemma 2 9B
-
-**Model ID**: `google/gemma-2-9b-it`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.03
-
-
-- **Standard Output**: $0.09
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemma 3 12B
 
 **Model ID**: `google/gemma-3-12b-it`  
@@ -3860,8 +3862,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -3881,10 +3881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.35
 
 
 
@@ -3948,8 +3948,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -3969,10 +3967,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.38
 
 
 
@@ -4707,10 +4705,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.48
 
 
-- **Standard Output**: $0.06
+- **Standard Output**: $0.03
 
 
 
@@ -4799,50 +4797,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Meituan: LongCat Flash Chat
-
-**Model ID**: `meituan/longcat-flash-chat`  
-**Family**: meituan
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.8
 
 
 
@@ -6960,6 +6914,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
+- **Max Output Tokens**: 262,144 tokens
+
 
 #### Modalities
 
@@ -7203,48 +7159,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Llama 3.1 Nemotron Ultra 253B v1
-
-**Model ID**: `nvidia/llama-3.1-nemotron-ultra-253b-v1`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.6
-
-
-- **Standard Output**: $1.8
 
 
 
@@ -11387,48 +11301,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.1
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen2.5 Coder 7B Instruct
-
-**Model ID**: `qwen/qwen2.5-coder-7b-instruct`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.03
-
-
-- **Standard Output**: $0.09
 
 
 
