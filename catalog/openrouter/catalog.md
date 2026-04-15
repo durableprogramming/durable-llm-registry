@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-04-14
+- **Total Models**: 344
+- **Last Updated**: 2026-04-15
 
 ## Models
 
@@ -4287,50 +4287,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Inception: Mercury
-
-**Model ID**: `inception/mercury`  
-**Family**: inception
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.25
-
-
-- **Standard Output**: $0.75
-
-
-
-
-
-
-
----
-
-
 ### Inception: Mercury 2
 
 **Model ID**: `inception/mercury-2`  
@@ -4341,50 +4297,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Max Output Tokens**: 50,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.25
-
-
-- **Standard Output**: $0.75
-
-
-
-
-
-
-
----
-
-
-### Inception: Mercury Coder
-
-**Model ID**: `inception/mercury-coder`  
-**Family**: inception
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
