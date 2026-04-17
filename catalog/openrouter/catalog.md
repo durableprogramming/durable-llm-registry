@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-04-16
+- **Total Models**: 345
+- **Last Updated**: 2026-04-17
 
 ## Models
 
@@ -267,48 +267,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 2 32B Instruct
-
-**Model ID**: `allenai/olmo-2-0325-32b-instruct`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.05
-
-
-- **Standard Output**: $0.2
 
 
 
@@ -3906,8 +3864,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -3927,10 +3883,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.35
 
 
 
@@ -7325,10 +7281,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.45
 
 
 
@@ -11361,10 +11317,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 32,000 tokens
 
-
-- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -11385,10 +11339,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $0.8
+- **Standard Output**: $0.75
 
 
 
@@ -11535,8 +11489,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -11557,10 +11513,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1495
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $1.495
+- **Standard Output**: $0.6
 
 
 
