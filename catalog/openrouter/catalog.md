@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 345
-- **Last Updated**: 2026-04-17
+- **Total Models**: 343
+- **Last Updated**: 2026-04-18
 
 ## Models
 
@@ -2426,6 +2426,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
+- **Max Output Tokens**: 163,840 tokens
+
 
 #### Modalities
 
@@ -2445,10 +2447,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.259
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.42
 
 
 
@@ -2899,7 +2901,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -5281,50 +5283,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: Llama Guard 4 12B (free)
-
-**Model ID**: `meta-llama/llama-guard-4-12b:free`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 65,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Microsoft: Phi 4
 
 **Model ID**: `microsoft/phi-4`  
@@ -6913,10 +6871,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 256,000 tokens
 
-
-- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -6937,10 +6893,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3827
+- **Standard Input**: $0.0
 
 
-- **Standard Output**: $1.72
+- **Standard Output**: $0.0
 
 
 
@@ -11269,48 +11225,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen2.5 VL 32B Instruct
-
-**Model ID**: `qwen/qwen2.5-vl-32b-instruct`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
 ### Qwen: Qwen2.5 VL 72B Instruct
 
 **Model ID**: `qwen/qwen2.5-vl-72b-instruct`  
@@ -12757,10 +12671,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
 
-
-- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12781,7 +12693,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $0.15
