@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2026-04-18
+- **Total Models**: 342
+- **Last Updated**: 2026-04-19
 
 ## Models
 
@@ -5076,7 +5076,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -5097,10 +5097,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.32
+- **Standard Output**: $0.38
 
 
 
@@ -6871,8 +6871,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
 
+
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -6893,10 +6895,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.3827
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $1.72
 
 
 
@@ -8545,50 +8547,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
-
-
-
-
-
-
-
----
-
-
-### OpenAI: GPT-4o (extended)
-
-**Model ID**: `openai/gpt-4o:extended`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $6.0
-
-
-- **Standard Output**: $18.0
 
 
 
