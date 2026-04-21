@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 35
-- **Last Updated**: 2026-04-20
+- **Total Models**: 37
+- **Last Updated**: 2026-04-21
 
 ## Models
 
@@ -1649,6 +1649,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Kimi K2.6
+
+**Model ID**: `kimi-k2.6`  
+**Family**: kimi
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### MiniMax M2.5
 
 **Model ID**: `minimax-m2.5`  
@@ -1707,6 +1762,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### MiniMax M2.5 Free
 
 **Model ID**: `minimax-m2.5-free`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### MiniMax M2.7
+
+**Model ID**: `minimax-m2.7`  
 **Family**: minimax
 #### Specifications
 
