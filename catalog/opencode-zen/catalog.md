@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 37
-- **Last Updated**: 2026-04-21
+- **Total Models**: 38
+- **Last Updated**: 2026-04-22
 
 ## Models
 
@@ -1653,6 +1653,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `kimi-k2.6`  
 **Family**: kimi
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Ling 2.6 Flash
+
+**Model ID**: `ling-2.6-flash`  
+**Family**: ling
 #### Specifications
 
 - **Context Window**: 128,000 tokens

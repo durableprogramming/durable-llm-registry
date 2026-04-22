@@ -1883,6 +1883,29 @@ components:
           url:
             type: string
             description: The error of the code interpreter tool call.
+    CompactionOutputItem:
+      type: object
+      description: |-
+        A compaction item from a previous `/v1/responses/compact` call.
+
+        Accepted as input in `/v1/responses` calls. Clients must treat
+        `encrypted_content` as opaque — do not parse or depend on its
+        internal structure.
+      required:
+      - type
+      - encrypted_content
+      properties:
+        encrypted_content:
+          type: string
+          description: The encrypted content of the compacted conversation.
+        id:
+          type:
+          - string
+          - 'null'
+          description: The unique ID of the compaction item (e.g. `cmp_<uuid>`).
+        type:
+          type: string
+          description: The type of the item. Always `"compaction"`.
     CompleteRequest:
       type: object
       description: "(Legacy) Anthropic compatible complete request on `/v1/complete`
@@ -3983,6 +4006,18 @@ components:
             enum:
             - input_text
       - type: object
+        description: Text output (used in compact response output items).
+        required:
+        - text
+        - type
+        properties:
+          text:
+            type: string
+          type:
+            type: string
+            enum:
+            - output_text
+      - type: object
         description: 'Image input. Note: Storing and fetching images is not fully
           supported at the moment.'
         required:
@@ -4084,6 +4119,9 @@ components:
       - allOf:
         - "$ref": "#/components/schemas/FunctionToolCallOutput"
         description: The output of a function call.
+      - allOf:
+        - "$ref": "#/components/schemas/CompactionOutputItem"
+        description: A compaction item from a previous `/v1/responses/compact` call.
     ModelOutput:
       oneOf:
       - allOf:
