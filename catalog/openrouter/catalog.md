@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-04-22
+- **Total Models**: 349
+- **Last Updated**: 2026-04-23
 
 ## Models
 
@@ -1373,9 +1373,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Arcee AI: Trinity Large Preview (free)
+### Arcee AI: Trinity Large Preview
 
-**Model ID**: `arcee-ai/trinity-large-preview:free`  
+**Model ID**: `arcee-ai/trinity-large-preview`  
 **Family**: arcee-ai
 #### Specifications
 
@@ -1401,10 +1401,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.45
 
 
 
@@ -1799,6 +1799,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.25
+
+
+
+
+
+
+
+---
+
+
+### Baidu: Qianfan-OCR-Fast (free)
+
+**Model ID**: `baidu/qianfan-ocr-fast:free`  
+**Family**: baidu
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 28,672 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -2247,48 +2291,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Deep Cogito: Cogito v2.1 671B
-
-**Model ID**: `deepcogito/cogito-v2.1-671b`  
-**Family**: deepcogito
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $1.25
-
-
-
-
-
-
-
----
-
-
 ### DeepSeek: DeepSeek V3
 
 **Model ID**: `deepseek/deepseek-chat`  
@@ -2470,7 +2472,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -3866,8 +3868,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -3887,10 +3887,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.35
+- **Standard Output**: $0.33
 
 
 
@@ -6276,8 +6276,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
-
 
 #### Modalities
 
@@ -6297,10 +6295,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.01
 
 
-- **Standard Output**: $0.04
+- **Standard Output**: $0.03
 
 
 
@@ -6917,10 +6915,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -6941,7 +6939,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $0.56
 
 
 - **Standard Output**: $3.5
@@ -11493,10 +11491,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -11517,10 +11513,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.13
+- **Standard Input**: $0.1495
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $1.495
 
 
 
@@ -13495,6 +13491,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Tencent: Hy3 preview (free)
+
+**Model ID**: `tencent/hy3-preview:free`  
+**Family**: tencent
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### TheDrummer: Cydonia 24B V4.1
 
 **Model ID**: `thedrummer/cydonia-24b-v4.1`  
@@ -13978,6 +14018,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Xiaomi: MiMo-V2-Pro
 
 **Model ID**: `xiaomi/mimo-v2-pro`  
+**Family**: xiaomi
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
+### Xiaomi: MiMo-V2.5
+
+**Model ID**: `xiaomi/mimo-v2.5`  
+**Family**: xiaomi
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### Xiaomi: MiMo-V2.5-Pro
+
+**Model ID**: `xiaomi/mimo-v2.5-pro`  
 **Family**: xiaomi
 #### Specifications
 
