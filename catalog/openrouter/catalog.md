@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 349
-- **Last Updated**: 2026-04-23
+- **Total Models**: 353
+- **Last Updated**: 2026-04-24
 
 ## Models
 
@@ -2291,6 +2291,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Deep Cogito: Cogito v2.1 671B
+
+**Model ID**: `deepcogito/cogito-v2.1-671b`  
+**Family**: deepcogito
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $1.25
+
+
+
+
+
+
+
+---
+
+
 ### DeepSeek: DeepSeek V3
 
 **Model ID**: `deepseek/deepseek-chat`  
@@ -2585,6 +2627,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V4 Flash
+
+**Model ID**: `deepseek/deepseek-v4-flash`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.28
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V4 Pro
+
+**Model ID**: `deepseek/deepseek-v4-pro`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.74
+
+
+- **Standard Output**: $3.48
 
 
 
@@ -5514,8 +5644,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
-
 
 #### Modalities
 
@@ -5538,7 +5666,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.15
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.15
 
 
 
@@ -6939,10 +7067,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.56
+- **Standard Input**: $0.7448
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $4.655
 
 
 
@@ -14565,7 +14693,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.65
+- **Standard Input**: $0.6
 
 
 - **Standard Output**: $2.08
@@ -14701,6 +14829,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling-2.6-1T (free)
+
+**Model ID**: `inclusionai/ling-2.6-1t:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
