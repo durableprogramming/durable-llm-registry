@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 355
-- **Last Updated**: 2026-04-26
+- **Total Models**: 360
+- **Last Updated**: 2026-04-27
 
 ## Models
 
@@ -3041,7 +3041,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -6424,6 +6424,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
+- **Max Output Tokens**: 16,384 tokens
+
 
 #### Modalities
 
@@ -6443,10 +6445,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.01
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.03
+- **Standard Output**: $0.04
 
 
 
@@ -12879,6 +12881,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.5 Plus 2026-04-20
+
+**Model ID**: `qwen/qwen3.5-plus-20260420`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
 ### Qwen: Qwen3.5-122B-A10B
 
 **Model ID**: `qwen/qwen3.5-122b-a10b`  
@@ -13087,6 +13133,182 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.26
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.6 27B
+
+**Model ID**: `qwen/qwen3.6-27b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.195
+
+
+- **Standard Output**: $1.56
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.6 35B A3B
+
+**Model ID**: `qwen/qwen3.6-35b-a3b`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1612
+
+
+- **Standard Output**: $0.96525
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.6 Flash
+
+**Model ID**: `qwen/qwen3.6-flash`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Qwen: Qwen3.6 Max Preview
+
+**Model ID**: `qwen/qwen3.6-max-preview`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.3
+
+
+- **Standard Output**: $7.8
 
 
 

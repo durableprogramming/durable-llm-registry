@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 41
-- **Last Updated**: 2026-04-26
+- **Last Updated**: 2026-04-27
 
 ## Models
 
@@ -95,18 +95,18 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.8
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $4.0
+- **Standard Output**: $5.0
 
 
 
 
-- **Cached Input**: $1.0
+- **Cached Input**: $1.25
 
 
-- **Cached Output**: $0.08
+- **Cached Output**: $0.5
 
 
 
