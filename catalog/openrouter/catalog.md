@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 360
-- **Last Updated**: 2026-04-27
+- **Total Models**: 369
+- **Last Updated**: 2026-04-29
 
 ## Models
 
@@ -575,6 +575,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.2
+
+
+
+
+
+
+
+---
+
+
+### Anthropic Claude Haiku Latest
+
+**Model ID**: `~anthropic/claude-haiku-latest`  
+**Family**: ~anthropic
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic Claude Sonnet Latest
+
+**Model ID**: `~anthropic/claude-sonnet-latest`  
+**Family**: ~anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
 
 
 
@@ -3025,6 +3113,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $7.5
+
+
+
+
+
+
+
+---
+
+
+### Google Gemini Flash Latest
+
+**Model ID**: `~google/gemini-flash-latest`  
+**Family**: ~google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
+### Google Gemini Pro Latest
+
+**Model ID**: `~google/gemini-pro-latest`  
+**Family**: ~google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio, file, image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
 
 
 
@@ -6424,8 +6600,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
-
 
 #### Modalities
 
@@ -6448,7 +6622,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.04
+- **Standard Output**: $0.03
 
 
 
@@ -6875,6 +7049,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI Kimi Latest
+
+**Model ID**: `~moonshotai/kimi-latest`  
+**Family**: ~moonshotai
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.7448
+
+
+- **Standard Output**: $4.655
 
 
 
@@ -7383,6 +7601,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3 Nano Omni (free)
+
+**Model ID**: `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video
 
 
 - **Output**: text
@@ -7963,6 +8225,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.14
+
+
+
+
+
+
+
+---
+
+
+### OpenAI GPT Latest
+
+**Model ID**: `~openai/gpt-latest`  
+**Family**: ~openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI GPT Mini Latest
+
+**Model ID**: `~openai/gpt-mini-latest`  
+**Family**: ~openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
 
 
 
@@ -11041,6 +11391,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Poolside: Laguna M.1 (free)
+
+**Model ID**: `poolside/laguna-m.1:free`  
+**Family**: poolside
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Poolside: Laguna XS.2 (free)
+
+**Model ID**: `poolside/laguna-xs.2:free`  
+**Family**: poolside
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Prime Intellect: INTELLECT-3
 
 **Model ID**: `prime-intellect/intellect-3`  
@@ -11161,50 +11599,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Qwen: QwQ 32B
-
-**Model ID**: `qwen/qwq-32b`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.58
 
 
 
@@ -13149,7 +13543,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -13173,10 +13567,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.195
+- **Standard Input**: $0.325
 
 
-- **Standard Output**: $1.56
+- **Standard Output**: $3.25
 
 
 
@@ -13305,10 +13699,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.3
+- **Standard Input**: $1.04
 
 
-- **Standard Output**: $7.8
+- **Standard Output**: $6.24
 
 
 
@@ -15243,9 +15637,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### inclusionAI: Ling-2.6-flash (free)
+### inclusionAI: Ling-2.6-flash
 
-**Model ID**: `inclusionai/ling-2.6-flash:free`  
+**Model ID**: `inclusionai/ling-2.6-flash`  
 **Family**: inclusionai
 #### Specifications
 
@@ -15273,10 +15667,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.24
 
 
 
