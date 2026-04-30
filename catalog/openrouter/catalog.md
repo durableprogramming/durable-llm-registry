@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 369
-- **Last Updated**: 2026-04-29
+- **Last Updated**: 2026-04-30
 
 ## Models
 
@@ -3217,7 +3217,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -6805,48 +6805,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Mistral Small Creative
-
-**Model ID**: `mistralai/mistral-small-creative`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.3
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Mixtral 8x22B Instruct
 
 **Model ID**: `mistralai/mixtral-8x22b-instruct`  
@@ -7065,10 +7023,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~moonshotai
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,142 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -7089,10 +7047,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.7448
+- **Standard Input**: $0.74
 
 
-- **Standard Output**: $4.655
+- **Standard Output**: $3.49
 
 
 
@@ -7285,10 +7243,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,142 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -7309,10 +7267,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.7448
+- **Standard Input**: $0.74
 
 
-- **Standard Output**: $4.655
+- **Standard Output**: $3.49
 
 
 
@@ -11125,6 +11083,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.4
+
+
+
+
+
+
+
+---
+
+
+### Owl Alpha
+
+**Model ID**: `openrouter/owl-alpha`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 1,048,756 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 

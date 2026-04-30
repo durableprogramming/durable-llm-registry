@@ -437,6 +437,195 @@ paths:
             body.
       security:
       - bearerAuth: []
+  "/v1/files":
+    get:
+      tags:
+      - v1
+      summary: |-
+        List files owned by the authenticated team, paginated. The response
+        always returns a `pagination_token`; pass it back as a query parameter
+        to fetch the next page. The end of the list is reached when the
+        returned `data` array is shorter than `limit`.
+      operationId: handle_list_files_request
+      parameters:
+      - name: limit
+        in: query
+        description: The maximum number of objects to be returned in a single response.
+        required: false
+        schema:
+          type: integer
+          format: int32
+      - name: order
+        in: query
+        description: The ordering to sort the returned files. Use `asc` for ascending
+          and `desc` for descending order.
+        required: false
+        schema:
+          type: string
+      - name: sort_by
+        in: query
+        description: 'The field to sort by. Valid options: `created_at`, `filename`,
+          `size`. Defaults to `created_at`.'
+        required: false
+        schema:
+          type: string
+      - name: pagination_token
+        in: query
+        description: The pagination token returned by the previous list files request.
+        required: false
+        schema:
+          type: string
+      - name: after
+        in: query
+        description: Only included for compatibility. Use `pagination_token` instead.
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/ListFilesResponse"
+              example:
+                data:
+                - id: file_a128090d-f0c9-4873-bd84-e499777e7417
+                  object: file
+                  bytes: 12345
+                  created_at: 1762345678
+                  expires_at:
+                  filename: document.pdf
+                  purpose: ''
+                pagination_token: file_a128090d-f0c9-4873-bd84-e499777e7417
+      security:
+      - bearerAuth: []
+    post:
+      tags:
+      - v1
+      summary: |-
+        Upload a file to xAI's storage. Returns the file's metadata. Files can
+        be referenced by ID anywhere a `file_id` is accepted (e.g. chat
+        attachments). Maximum file size: 50 MB. Files are kept until you
+        delete them, or until `expires_after` elapses if set at upload time.
+      operationId: handle_upload_file_request
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              "$ref": "#/components/schemas/UploadFileMultipartRequest"
+        required: true
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/File"
+              example:
+                id: file_a128090d-f0c9-4873-bd84-e499777e7417
+                object: file
+                bytes: 12345
+                created_at: 1762345678
+                expires_at: 1762432078
+                filename: document.pdf
+                purpose: ''
+        '400':
+          description: 'Bad request. Common causes: `expires_after` outside [3600,
+            2592000], `expires_after` field appearing after `file` in the multipart
+            body, missing or unnamed `file` part, invalid filename.'
+        '413':
+          description: Payload too large -- file exceeds 50 MB.
+      security:
+      - bearerAuth: []
+  "/v1/files/{file_id}":
+    get:
+      tags:
+      - v1
+      summary: |-
+        Retrieve metadata for a single file by ID. Errors with 404 if the file
+        doesn't exist, has been deleted, or has passed its `expires_at`.
+      operationId: handle_retrieve_file_request
+      parameters:
+      - name: file_id
+        in: path
+        description: The file's `id` returned by upload or list.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/File"
+        '404':
+          description: File not found, deleted, or expired.
+      security:
+      - bearerAuth: []
+    delete:
+      tags:
+      - v1
+      summary: |-
+        Delete a file by ID. After this returns, the file no longer appears in
+        `GET /v1/files`, content download returns 404, and the ID can no longer
+        be referenced in chat attachments.
+      operationId: handle_delete_file_request
+      parameters:
+      - name: file_id
+        in: path
+        description: The file's `id` to delete.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/DeleteFileResponse"
+              example:
+                id: file_a128090d-f0c9-4873-bd84-e499777e7417
+                deleted: true
+        '404':
+          description: File not found or already deleted.
+      security:
+      - bearerAuth: []
+  "/v1/files/{file_id}/content":
+    get:
+      tags:
+      - v1
+      summary: |-
+        Download the contents of a file as a stream of raw bytes. The response
+        `Content-Type` is `application/octet-stream`. Use this for the binary
+        payload; use `GET /v1/files/{file_id}` for metadata only.
+      operationId: handle_download_file_content_request
+      parameters:
+      - name: file_id
+        in: path
+        description: The file's `id` to download.
+        required: true
+        schema:
+          type: string
+      - name: format
+        in: query
+        description: Format of the downloaded content.
+        required: false
+        schema:
+          "$ref": "#/components/schemas/ContentFormat"
+      responses:
+        '200':
+          description: Success -- raw file bytes streamed in chunks.
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+        '404':
+          description: File not found, deleted, or expired.
+      security:
+      - bearerAuth: []
   "/v1/image-generation-models":
     get:
       tags:
@@ -2041,6 +2230,12 @@ components:
         description: An array of content parts of different types, such as image,
           text or text file.
       description: Content of each chat message.
+    ContentFormat:
+      type: string
+      description: Format of the downloaded file content.
+      enum:
+      - original
+      - text
     ContentPart:
       type: object
       required:
@@ -2093,6 +2288,23 @@ components:
         type:
           type: string
           description: The input for the custom tool call generated by the model.
+    DeleteFileResponse:
+      type: object
+      required:
+      - id
+      - deleted
+      - object
+      properties:
+        deleted:
+          type: boolean
+          description: Whether the file was deleted.
+        id:
+          type: string
+          description: The ID of the file.
+        object:
+          type: string
+          description: The object type, which is always "file". Only included for
+            compatibility.
     DeleteStoredCompletionResponse:
       type: object
       description: Response to delete a stored completion.
@@ -2154,6 +2366,15 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/RagPipeline"
             description: Which RAG pipeline to use. Defaults to `chroma_db` when unset.
+    DownloadFileContentParams:
+      type: object
+      description: Query parameters for downloading file content.
+      properties:
+        format:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ContentFormat"
+            description: Format of the downloaded content.
     EditImageRequest:
       type: object
       description: Request for editing image
@@ -2507,6 +2728,45 @@ components:
           description: |-
             Input video to extend. The extension continues from the end of this video.
             Input video must be between 2 and 30 seconds long.
+    File:
+      type: object
+      description: An uploaded file.
+      required:
+      - bytes
+      - created_at
+      - filename
+      - id
+      - object
+      properties:
+        bytes:
+          type: integer
+          format: int64
+          description: The size of the file, in bytes.
+        created_at:
+          type: integer
+          format: int64
+          description: The Unix timestamp (in seconds) for file creation time.
+        expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: The Unix timestamp (in seconds) for file expiry time. null
+            if file does not expire.
+        filename:
+          type: string
+          description: The name of the file.
+        id:
+          type: string
+          description: The file identifier, which can be used in other API requests.
+        object:
+          type: string
+          description: The object type, which is always `file`. Only included for
+            compatability.
+        purpose:
+          type: string
+          description: The intended purpose of the uploaded file. Only included for
+            OAI compatability.
     FileRef:
       type: object
       properties:
@@ -3254,6 +3514,59 @@ components:
           items:
             "$ref": "#/components/schemas/EmbeddingModel"
           description: Array of available embedding models.
+    ListFilesParams:
+      type: object
+      description: Parameters to control listing of files.
+      properties:
+        after:
+          type:
+          - string
+          - 'null'
+          description: Only included for compatibility. Use `pagination_token` instead.
+        limit:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: The maximum number of objects to be returned in a single response.
+          default: 100
+          example: 100
+          maximum: 100
+          minimum: 1
+        order:
+          type:
+          - string
+          - 'null'
+          description: The ordering to sort the returned files. Use `asc` for ascending
+            and `desc` for descending order.
+          default: desc
+        pagination_token:
+          type:
+          - string
+          - 'null'
+          description: The pagination token returned by the previous list files request.
+        sort_by:
+          type:
+          - string
+          - 'null'
+          description: 'The field to sort by. Valid options: `created_at`, `filename`,
+            `size`. Defaults to `created_at`.'
+          default: created_at
+    ListFilesResponse:
+      type: object
+      required:
+      - data
+      properties:
+        data:
+          type: array
+          items:
+            "$ref": "#/components/schemas/File"
+          description: List of files.
+        pagination_token:
+          type:
+          - string
+          - 'null'
+          description: Pagination token to use with next request.
     ListImageGenerationModelsResponse:
       type: object
       required:
@@ -3298,6 +3611,24 @@ components:
           items:
             "$ref": "#/components/schemas/VideoGenerationModel"
           description: Array of available video generation models.
+    LocalShellSkill:
+      type: object
+      description: A skill available in the local shell environment.
+      required:
+      - name
+      - description
+      - path
+      properties:
+        description:
+          type: string
+          description: A description of what the skill does.
+        name:
+          type: string
+          description: The name of the skill.
+        path:
+          type: string
+          description: The path to the directory containing the skill (with a SKILL.md
+            file).
     LogProbs:
       type: object
       properties:
@@ -4120,6 +4451,9 @@ components:
         - "$ref": "#/components/schemas/FunctionToolCallOutput"
         description: The output of a function call.
       - allOf:
+        - "$ref": "#/components/schemas/ShellCallOutput"
+        description: The output of a shell call.
+      - allOf:
         - "$ref": "#/components/schemas/CompactionOutputItem"
         description: A compaction item from a previous `/v1/responses/compact` call.
     ModelOutput:
@@ -4140,6 +4474,8 @@ components:
         - "$ref": "#/components/schemas/McpCall"
       - allOf:
         - "$ref": "#/components/schemas/CustomToolCall"
+      - allOf:
+        - "$ref": "#/components/schemas/ShellCall"
     ModelRequest:
       type: object
       description: The request body for `/v1/responses` endpoint.
@@ -4834,6 +5170,19 @@ components:
             type: string
             enum:
             - mcp
+      - type: object
+        description: A local shell execution tool.
+        required:
+        - environment
+        - type
+        properties:
+          environment:
+            "$ref": "#/components/schemas/ShellEnvironment"
+            description: The environment configuration for the shell tool.
+          type:
+            type: string
+            enum:
+            - shell
       description: Definition of one tool that the model can call.
     ModelToolChoice:
       oneOf:
@@ -5807,6 +6156,147 @@ components:
           type: integer
           format: int32
           description: Number of X search calls.
+    ShellCall:
+      type: object
+      description: A shell command call emitted by the model for local execution.
+      required:
+      - action
+      - call_id
+      - type
+      properties:
+        action:
+          "$ref": "#/components/schemas/ShellCallAction"
+          description: The shell commands and limits that describe how to run the
+            tool call.
+        call_id:
+          type: string
+          description: The unique ID of the shell tool call generated by the model.
+        environment:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ShellEnvironment"
+            description: The environment for the shell tool call.
+        id:
+          type: string
+          description: The unique ID of the shell call item.
+        status:
+          type: string
+          description: Status of the item. One of `completed`, `in_progress` or `incomplete`.
+        type:
+          type: string
+          description: The type of the output item, which is always `shell_call`.
+    ShellCallAction:
+      type: object
+      description: The shell commands and limits that describe how to run the tool
+        call.
+      required:
+      - commands
+      properties:
+        commands:
+          type: array
+          items:
+            type: string
+          description: The commands to run.
+        max_output_length:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: Optional maximum number of characters to return from each command.
+        timeout_ms:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Optional timeout in milliseconds for the commands.
+        type:
+          type:
+          - string
+          - 'null'
+          description: The type of the action, which is always `exec`.
+    ShellCallOutcome:
+      oneOf:
+      - type: object
+        description: The command exited normally.
+        required:
+        - exit_code
+        - type
+        properties:
+          exit_code:
+            type: integer
+            format: int32
+            description: The exit code of the command.
+          type:
+            type: string
+            enum:
+            - exit
+      - type: object
+        description: The command timed out.
+        required:
+        - type
+        properties:
+          type:
+            type: string
+            enum:
+            - timeout
+      description: The outcome of a shell command execution.
+    ShellCallOutput:
+      type: object
+      description: The output of a shell tool call, sent by the client after local
+        execution.
+      required:
+      - call_id
+      - output
+      - type
+      properties:
+        call_id:
+          type: string
+          description: The unique ID of the shell tool call generated by the model.
+        max_output_length:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: |-
+            The maximum length of the shell command output. Generated by the model
+            and should be passed back with the raw output.
+        output:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ShellCallOutputResult"
+          description: An array of shell call output contents.
+        type:
+          type: string
+          description: The type of the output item, which is always `shell_call_output`.
+    ShellCallOutputResult:
+      type: object
+      description: The content of a shell tool call output that was emitted.
+      required:
+      - outcome
+      properties:
+        outcome:
+          "$ref": "#/components/schemas/ShellCallOutcome"
+          description: The outcome of the command execution.
+        stderr:
+          type: string
+          description: The standard error output that was captured.
+        stdout:
+          type: string
+          description: The standard output that was captured.
+    ShellEnvironment:
+      type: object
+      description: The environment configuration for a shell tool.
+      required:
+      - type
+      properties:
+        skills:
+          type: array
+          items:
+            "$ref": "#/components/schemas/LocalShellSkill"
+          description: An optional list of skills available in the local environment.
+        type:
+          type: string
+          description: The type of the environment. Currently only `local` is supported.
     StartDeferredChatResponse:
       type: object
       required:
@@ -6079,6 +6569,44 @@ components:
         token:
           type: string
           description: The token.
+    UploadFileMultipartRequest:
+      type: object
+      description: |-
+        Multipart form fields accepted by `POST /v1/files`. The `expires_after`
+        field MUST appear before `file` in the multipart body when both are
+        present (the upload handler streams `file` straight to gRPC and cannot
+        rewind to read metadata after).
+      required:
+      - file
+      properties:
+        expires_after:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Optional TTL in seconds (measured from upload time). Must be between
+            3600 (1 hour) and 2592000 (30 days). If unset the file does not expire.
+
+            Accepts either a plain integer or the OpenAI SDK deepObject form
+            (`expires_after[anchor]=created_at` + `expires_after[seconds]=N`)
+            as separate multipart fields. The anchor+seconds form must arrive
+            before the `file` part.
+        file:
+          type: string
+          format: binary
+          description: |-
+            The file to upload. The filename from the multipart
+            `Content-Disposition: filename=` header is recorded as the file's
+            `filename`.
+        purpose:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Optional purpose label, accepted for OpenAI SDK compatibility. xAI
+            does not enforce or interpret this field. Setting `"assistants"`
+            is the conventional choice.
     Usage:
       type: object
       required:
