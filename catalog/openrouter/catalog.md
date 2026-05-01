@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 369
-- **Last Updated**: 2026-04-30
+- **Total Models**: 371
+- **Last Updated**: 2026-05-01
 
 ## Models
 
@@ -4603,6 +4603,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.11
+
+
+
+
+
+
+
+---
+
+
+### IBM: Granite 4.1 8B
+
+**Model ID**: `ibm-granite/granite-4.1-8b`  
+**Family**: ibm-granite
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.05
+
+
+- **Standard Output**: $0.1
 
 
 
@@ -10442,8 +10486,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -10466,7 +10508,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.039
 
 
-- **Standard Output**: $0.19
+- **Standard Output**: $0.18
 
 
 
@@ -12605,7 +12647,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.12
 
 
 - **Standard Output**: $0.8
@@ -16009,10 +16051,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.25
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $2.5
 
 
 
@@ -16055,6 +16097,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok 4.3
+
+**Model ID**: `x-ai/grok-4.3`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
 
 
 
