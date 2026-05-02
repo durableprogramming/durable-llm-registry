@@ -4957,6 +4957,13 @@ components:
               example:
               - wikipedia.com
               maxItems: 5
+            enable_image_search:
+              type:
+              - boolean
+              - 'null'
+              description: |-
+                When true, activates the image search server-side tool, enabling
+                the model to search for images alongside the standard web search.
             enable_image_understanding:
               type:
               - boolean
