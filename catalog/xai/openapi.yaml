@@ -60,7 +60,7 @@ paths:
                   help with tasks.
               - role: user
                 content: What is 101*3?
-              model: grok-4-0709
+              model: latest
         required: true
       responses:
         '200':
@@ -73,7 +73,7 @@ paths:
                 id: a3d1008e-4544-40d4-d075-11527e794e4a
                 object: chat.completion
                 created: 1752854522
-                model: grok-4-0709
+                model: latest
                 choices:
                 - index: 0
                   message:
@@ -132,7 +132,7 @@ paths:
                 id: 335b92e4-afa5-48e7-b99c-b9a4eabc1c8e
                 object: chat.completion
                 created: 1743770624
-                model: grok-4-0709
+                model: latest
                 choices:
                 - index: 0
                   message:
@@ -868,7 +868,7 @@ paths:
               schema:
                 "$ref": "#/components/schemas/LanguageModel"
               example:
-                id: grok-4-0709
+                id: latest
                 fingerprint: fp_156d35dcaa
                 created: 1743724800
                 object: model
@@ -905,7 +905,7 @@ paths:
             schema:
               "$ref": "#/components/schemas/MessageRequest"
             example:
-              model: grok-4-0709
+              model: latest
               max_tokens: 32
               messages:
               - role: user
@@ -927,7 +927,7 @@ paths:
                   text: Hello there! "Hello, world" is a classic, isn't it? Whether
                     you're just saying hi or channeling your inner coder, I'm happy
                     to greet you back
-                model: grok-4-0709
+                model: latest
                 stop_reason: max_tokens
                 stop_sequence:
                 usage:
@@ -1010,7 +1010,7 @@ paths:
               schema:
                 "$ref": "#/components/schemas/Model"
               example:
-                id: grok-4-0709
+                id: latest
                 created: 1743724800
                 object: model
                 owned_by: xai
@@ -1042,7 +1042,7 @@ paths:
                   help with tasks.
               - role: user
                 content: What is 101*3?
-              model: grok-4-0709
+              model: latest
         required: true
       responses:
         '200':
@@ -1055,7 +1055,7 @@ paths:
                 created_at: 1754475266
                 id: ad5663da-63e6-86c6-e0be-ff15effa8357
                 max_output_tokens:
-                model: grok-4-0709
+                model: latest
                 object: response
                 output:
                 - content:
@@ -1123,7 +1123,7 @@ paths:
                 created_at: 1754475266
                 id: ad5663da-63e6-86c6-e0be-ff15effa8357
                 max_output_tokens:
-                model: grok-4-0709
+                model: latest
                 object: response
                 output:
                 - content:
@@ -1231,7 +1231,7 @@ paths:
               "$ref": "#/components/schemas/TokenizeRequest"
             example:
               text: Hello world!
-              model: grok-4-0709
+              model: latest
         required: true
       responses:
         '200':
@@ -1660,7 +1660,7 @@ components:
           type: string
           description: Model name for the model to use. Obtainable from <https://console.x.ai/team/default/models>
             or <https://docs.x.ai/docs/models>.
-          example: grok-4-0709
+          example: latest
         "n":
           type:
           - integer
@@ -1849,7 +1849,7 @@ components:
         model:
           type: string
           description: Model ID used to create chat completion.
-          example: grok-4-0709
+          example: latest
         object:
           type: string
           description: The object type, which is always `"chat.completion"`.
@@ -1907,7 +1907,7 @@ components:
         model:
           type: string
           description: The model ID used to create chat completion.
-          example: grok-4-0709
+          example: latest
         object:
           type: string
           description: The object type, which is always `"chat.completion.chunk"`.
@@ -3996,7 +3996,7 @@ components:
         model:
           type: string
           description: Model name for the model to use.
-          example: grok-4-0709
+          example: latest
         stop_sequences:
           type:
           - array
@@ -4094,7 +4094,7 @@ components:
         model:
           type: string
           description: Model name that handled the request.
-          example: grok-4-0709
+          example: latest
         role:
           type: string
           description: Role of the generated message. Always `"assistant"`
@@ -4545,7 +4545,7 @@ components:
           type: string
           description: Model name for the model to use. Obtainable from <https://console.x.ai/team/default/models>
             or <https://docs.x.ai/docs/models>.
-          example: grok-4-0709
+          example: latest
         parallel_tool_calls:
           type:
           - boolean
@@ -5776,7 +5776,7 @@ components:
         model:
           type: string
           description: Model to be used.
-          example: grok-4-0709
+          example: latest
         object:
           type: string
           description: Object type of the response. This is always `"text_completion"`.
