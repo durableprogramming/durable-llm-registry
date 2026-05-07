@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 370
-- **Last Updated**: 2026-05-06
+- **Total Models**: 368
+- **Last Updated**: 2026-05-07
 
 ## Models
 
@@ -311,50 +311,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 3.1 32B Instruct
-
-**Model ID**: `allenai/olmo-3.1-32b-instruct`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.6
 
 
 
@@ -2761,10 +2717,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.287
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.431
 
 
 
@@ -4966,7 +4922,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 8,192 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -4987,7 +4943,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.04
 
 
 - **Standard Output**: $0.04
@@ -7661,50 +7617,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Nemotron Nano 12B 2 VL
-
-**Model ID**: `nvidia/nemotron-nano-12b-v2-vl`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.6
 
 
 
@@ -13414,7 +13326,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 81,920 tokens
 
 
 #### Modalities
@@ -13435,7 +13347,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.14
 
 
 - **Standard Output**: $1.0
@@ -13458,6 +13370,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
+- **Max Output Tokens**: 81,920 tokens
+
 
 #### Modalities
 
@@ -13477,7 +13391,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.04
 
 
 - **Standard Output**: $0.15
@@ -15589,9 +15503,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### inclusionAI: Ling-2.6-1T (free)
+### inclusionAI: Ling-2.6-1T
 
-**Model ID**: `inclusionai/ling-2.6-1t:free`  
+**Model ID**: `inclusionai/ling-2.6-1t`  
 **Family**: inclusionai
 #### Specifications
 
@@ -15619,10 +15533,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $2.5
 
 
 
