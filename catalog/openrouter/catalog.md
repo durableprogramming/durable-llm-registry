@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 368
-- **Last Updated**: 2026-05-07
+- **Total Models**: 367
+- **Last Updated**: 2026-05-08
 
 ## Models
 
@@ -3607,6 +3607,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Gemini 3.1 Flash Lite
+
+**Model ID**: `google/gemini-3.1-flash-lite`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, file, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
 ### Google: Gemini 3.1 Flash Lite Preview
 
 **Model ID**: `google/gemini-3.1-flash-lite-preview`  
@@ -6757,50 +6801,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Mixtral 8x7B Instruct
-
-**Model ID**: `mistralai/mixtral-8x7b-instruct`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.54
-
-
-- **Standard Output**: $0.54
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Pixtral Large 2411
 
 **Model ID**: `mistralai/pixtral-large-2411`  
@@ -7313,50 +7313,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.06
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Llama 3.1 Nemotron 70B Instruct
-
-**Model ID**: `nvidia/llama-3.1-nemotron-70b-instruct`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.2
-
-
-- **Standard Output**: $1.2
 
 
 
@@ -15252,6 +15208,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -15271,10 +15229,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.38
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $1.74
+- **Standard Output**: $1.75
 
 
 
