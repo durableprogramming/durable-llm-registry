@@ -2429,6 +2429,14 @@ components:
             If `b64_json` is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              image(s) are stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -2456,6 +2464,14 @@ components:
         prompt:
           type: string
           description: Prompt for video editing.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -2701,6 +2717,14 @@ components:
         prompt:
           type: string
           description: Prompt describing what should happen next in the video.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         video:
           "$ref": "#/components/schemas/VideoUrl"
           description: |-
@@ -2745,6 +2769,27 @@ components:
           type: string
           description: The intended purpose of the uploaded file. Only included for
             OAI compatability.
+    FileOutput:
+      type: object
+      description: Information about a generated file stored in the Files API.
+      required:
+      - file_id
+      - filename
+      properties:
+        expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Unix timestamp (seconds) when the stored file expires and will be
+            automatically deleted. Only present when the file has an expiration.
+        file_id:
+          type: string
+          description: Files API file_id of the stored file.
+        filename:
+          type: string
+          description: Filename of the stored file.
     FileRef:
       type: object
       properties:
@@ -2954,6 +2999,14 @@ components:
             If b64_json is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              image(s) are stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -3019,6 +3072,14 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/VideoResolution"
             description: Resolution of the generated video.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -3035,12 +3096,26 @@ components:
           description: A base64-encoded string representation of the generated image
             (without the data-URI prefix), if `b64_json` is specified as `response_format`
             in the request.
+        file_output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/FileOutput"
+            description: |-
+              Storage info for the generated image. Only present when the request
+              included a `storage_options` configuration and the upload succeeded.
         mime_type:
           type:
           - string
           - 'null'
           description: The MIME type of the generated image (e.g. `image/png`, `image/jpeg`,
             `image/webp`).
+        storage_error:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Human-readable error when `storage_options` was set but the upload
+            failed. Absent on success or when storage was not requested.
         url:
           type:
           - string
@@ -3074,12 +3149,26 @@ components:
           type: integer
           format: int32
           description: Duration of the generated video in seconds.
+        file_output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/FileOutput"
+            description: |-
+              Storage info for the generated video. Only present when the request
+              included a `storage_options` configuration and the upload succeeded.
         respect_moderation:
           type: boolean
           description: |-
             Whether the video generated by the model respects moderation rules.
             The field will be true if the video respects moderation rules. Otherwise
             the field will be false and the video url field will be empty.
+        storage_error:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Human-readable error when `storage_options` was set but the upload
+            failed. Absent on success or when storage was not requested.
         url:
           type:
           - string
@@ -6268,6 +6357,26 @@ components:
         request_id:
           type: string
           description: A unique request ID to poll for the result.
+    StorageOptions:
+      type: object
+      description: |-
+        Configuration for storing generation output in the Files API.
+        When provided in a generation request, the output is stored as a
+        permanent file and a `file_output` reference is included in the response.
+      properties:
+        expires_after:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Seconds from now until the file auto-expires. Maximum 2592000 (30 days).
+            If omitted, the file does not expire.
+        filename:
+          type:
+          - string
+          - 'null'
+          description: Filename for the stored file. Defaults to `generated-{uuid}.{ext}`.
     StreamOptions:
       type: object
       description: Options available when using streaming response.

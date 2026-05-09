@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 367
-- **Last Updated**: 2026-05-08
+- **Last Updated**: 2026-05-09
 
 ## Models
 
@@ -3217,7 +3217,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -5750,7 +5750,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 196,608 tokens
 
 
 #### Modalities
@@ -5838,6 +5838,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -5857,7 +5859,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.299
 
 
 - **Standard Output**: $1.2
@@ -11007,7 +11009,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: openrouter
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 2,000,000 tokens
 
 
 
@@ -12184,7 +12186,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 40,960 tokens
 
 
-- **Max Output Tokens**: 40,960 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -12208,7 +12210,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.24
+- **Standard Output**: $0.28
 
 
 
@@ -14149,50 +14151,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### TNG: DeepSeek R1T2 Chimera
-
-**Model ID**: `tngtech/deepseek-r1t2-chimera`  
-**Family**: tngtech
-#### Specifications
-
-- **Context Window**: 163,840 tokens
-
-
-- **Max Output Tokens**: 163,840 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $1.1
-
-
-
-
-
-
-
----
-
-
 ### Tencent: Hunyuan A13B Instruct
 
 **Model ID**: `tencent/hunyuan-a13b-instruct`  
@@ -14237,9 +14195,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Tencent: Hy3 preview (free)
+### Tencent: Hy3 preview
 
-**Model ID**: `tencent/hy3-preview:free`  
+**Model ID**: `tencent/hy3-preview`  
 **Family**: tencent
 #### Specifications
 
@@ -14267,10 +14225,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.066
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.26
 
 
 
@@ -14703,10 +14661,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.29
+- **Standard Output**: $0.3
 
 
 
@@ -14858,7 +14816,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -15539,6 +15497,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.24
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ring-2.6-1T (free)
+
+**Model ID**: `inclusionai/ring-2.6-1t:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
