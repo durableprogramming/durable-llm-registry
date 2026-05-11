@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 40
-- **Last Updated**: 2026-05-10
+- **Total Models**: 41
+- **Last Updated**: 2026-05-11
 
 ## Models
 
@@ -547,6 +547,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4 Flash Free
+
+**Model ID**: `deepseek-v4-flash-free`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
 
 
 

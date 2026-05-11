@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 367
-- **Last Updated**: 2026-05-10
+- **Total Models**: 366
+- **Last Updated**: 2026-05-11
 
 ## Models
 
@@ -717,94 +717,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Anthropic: Claude 3.7 Sonnet
-
-**Model ID**: `anthropic/claude-3.7-sonnet`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude 3.7 Sonnet (thinking)
-
-**Model ID**: `anthropic/claude-3.7-sonnet:thinking`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
 ### Anthropic: Claude Haiku 4.5
 
 **Model ID**: `anthropic/claude-haiku-4.5`  
@@ -1495,6 +1407,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.85
+
+
+
+
+
+
+
+---
+
+
+### Arcee AI: Trinity Large Thinking (free)
+
+**Model ID**: `arcee-ai/trinity-large-thinking:free`  
+**Family**: arcee-ai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 80,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -7114,7 +7070,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -7135,10 +7091,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.44
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $1.98
 
 
 
