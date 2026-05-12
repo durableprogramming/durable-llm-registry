@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 366
-- **Last Updated**: 2026-05-11
+- **Last Updated**: 2026-05-12
 
 ## Models
 
@@ -556,7 +556,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: image, text
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -600,7 +600,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -732,7 +732,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: image, text
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -908,7 +908,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -952,7 +952,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -996,7 +996,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -1040,7 +1040,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -1172,7 +1172,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -2473,10 +2473,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 7,168 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -2497,10 +2497,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.21
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $0.79
 
 
 
@@ -3035,50 +3035,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Goliath 120B
-
-**Model ID**: `alpindale/goliath-120b`  
-**Family**: alpindale
-#### Specifications
-
-- **Context Window**: 6,144 tokens
-
-
-- **Max Output Tokens**: 1,024 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.75
-
-
-- **Standard Output**: $7.5
-
-
-
-
-
-
-
----
-
-
 ### Google Gemini Flash Latest
 
 **Model ID**: `~google/gemini-flash-latest`  
@@ -3173,7 +3129,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -4073,10 +4029,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.13
+- **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.37
 
 
 
@@ -5794,8 +5750,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -5815,7 +5769,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.299
+- **Standard Input**: $0.28
 
 
 - **Standard Output**: $1.2
@@ -6891,10 +6845,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -6915,7 +6869,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.74
 
 
 - **Standard Output**: $3.5
@@ -7111,10 +7065,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -7135,7 +7089,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.74
 
 
 - **Standard Output**: $3.5
@@ -10991,6 +10945,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $-1000000.0
+
+
+
+
+
+
+
+---
+
+
+### Perceptron: Perceptron Mk1
+
+**Model ID**: `perceptron/perceptron-mk1`  
+**Family**: perceptron
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $1.5
 
 
 
@@ -15296,8 +15294,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
-
 
 #### Modalities
 
@@ -15317,10 +15313,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.05
+- **Standard Input**: $0.98
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $3.08
 
 
 
