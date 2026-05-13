@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 366
-- **Last Updated**: 2026-05-12
+- **Total Models**: 363
+- **Last Updated**: 2026-05-13
 
 ## Models
 
@@ -1015,6 +1015,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Opus 4.7 (Fast)
+
+**Model ID**: `anthropic/claude-opus-4.7-fast`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $150.0
 
 
 
@@ -6845,10 +6889,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~moonshotai
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 262,142 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -7048,7 +7092,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.4
 
 
-- **Standard Output**: $1.98
+- **Standard Output**: $1.9
 
 
 
@@ -7065,10 +7109,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 262,142 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -11519,138 +11563,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen VL Max
-
-**Model ID**: `qwen/qwen-vl-max`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.52
-
-
-- **Standard Output**: $2.08
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen VL Plus
-
-**Model ID**: `qwen/qwen-vl-plus`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1365
-
-
-- **Standard Output**: $0.4095
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen-Max 
-
-**Model ID**: `qwen/qwen-max`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.04
-
-
-- **Standard Output**: $4.16
-
-
-
-
-
-
-
----
-
-
 ### Qwen: Qwen-Plus
 
 **Model ID**: `qwen/qwen-plus`  
@@ -11685,50 +11597,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.78
-
-
-
-
-
-
-
----
-
-
-### Qwen: Qwen-Turbo
-
-**Model ID**: `qwen/qwen-turbo`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0325
-
-
-- **Standard Output**: $0.13
 
 
 
@@ -15294,6 +15162,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
+- **Max Output Tokens**: 65,535 tokens
+
 
 #### Modalities
 
@@ -15313,10 +15183,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.98
+- **Standard Input**: $1.05
 
 
-- **Standard Output**: $3.08
+- **Standard Output**: $3.5
 
 
 
