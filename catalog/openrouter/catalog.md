@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 364
-- **Last Updated**: 2026-05-14
+- **Last Updated**: 2026-05-15
 
 ## Models
 
@@ -2781,10 +2781,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 256,000 tokens
+- **Max Output Tokens**: 384,000 tokens
 
 
 #### Modalities
@@ -5838,6 +5838,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 196,608 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -5857,7 +5859,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.279
 
 
 - **Standard Output**: $1.2
@@ -5928,7 +5930,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -5970,7 +5972,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6012,7 +6014,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6054,7 +6056,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6096,7 +6098,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6138,7 +6140,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6180,7 +6182,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6390,7 +6392,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -6432,7 +6434,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -6474,7 +6476,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -6516,7 +6518,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -6772,7 +6774,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6814,7 +6816,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
@@ -6856,7 +6858,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, file
 
 
 - **Output**: text
@@ -6898,7 +6900,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, audio
+- **Input**: text, audio, file
 
 
 - **Output**: text
@@ -6957,10 +6959,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.74
+- **Standard Input**: $0.73
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $3.49
 
 
 
@@ -7177,10 +7179,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.74
+- **Standard Input**: $0.73
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $3.49
 
 
 
@@ -11767,7 +11769,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.06
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $0.24
@@ -13039,10 +13041,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $1.8
 
 
 
@@ -13391,10 +13393,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.1875
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $1.125
 
 
 
@@ -15206,8 +15208,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -15359,10 +15359,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.01
 
 
-- **Standard Output**: $0.24
+- **Standard Output**: $0.03
 
 
 
