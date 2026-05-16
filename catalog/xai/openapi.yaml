@@ -1704,7 +1704,8 @@ components:
           - 'null'
           description: Whether to return log probabilities of the output tokens or
             not. If true, returns the log probabilities of each output token returned
-            in the content of message.
+            in the content of message. Not supported by models `grok-4.20` and newer;
+            the field will be silently ignored if set.
           default: false
         max_completion_tokens:
           type:
@@ -1862,7 +1863,9 @@ components:
           format: int32
           description: An integer between 0 and 8 specifying the number of most likely
             tokens to return at each token position, each with an associated log probability.
-            logprobs must be set to true if this parameter is used.
+            logprobs must be set to true if this parameter is used. Not supported
+            by models `grok-4.20` and newer; the field will be silently ignored if
+            set.
           maximum: 8
           minimum: 0
         top_p:
@@ -4739,7 +4742,8 @@ components:
           - 'null'
           description: Whether to return log probabilities of the output tokens or
             not. If true, returns the log probabilities of each output token returned
-            in the content of message.
+            in the content of message. Not supported by models `grok-4.20` and newer;
+            the field will be silently ignored if set.
           default: false
         max_output_tokens:
           type:
@@ -4859,7 +4863,9 @@ components:
           format: int32
           description: An integer between 0 and 8 specifying the number of most likely
             tokens to return at each token position, each with an associated log probability.
-            logprobs must be set to true if this parameter is used.
+            logprobs must be set to true if this parameter is used. Not supported
+            by models `grok-4.20` and newer; the field will be silently ignored if
+            set.
           maximum: 8
           minimum: 0
         top_p:
@@ -5868,7 +5874,8 @@ components:
             output tokens, as well the chosen tokens. For example, if `logprobs` is
             5, the API will return a list of the 5 most likely tokens. The API will
             always return the logprob of the sampled token, so there may be up to
-            `logprobs+1` elements in the response.
+            `logprobs+1` elements in the response. Not supported by models `grok-4.20`
+            and newer; the field will be silently ignored if set.
         max_tokens:
           type:
           - integer

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 364
-- **Last Updated**: 2026-05-15
+- **Total Models**: 356
+- **Last Updated**: 2026-05-16
 
 ## Models
 
@@ -1685,7 +1685,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: baidu
 #### Specifications
 
-- **Context Window**: 120,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 8,000 tokens
@@ -1773,7 +1773,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: baidu
 #### Specifications
 
-- **Context Window**: 123,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 12,000 tokens
@@ -1817,7 +1817,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: baidu
 #### Specifications
 
-- **Context Window**: 30,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 8,000 tokens
@@ -1861,7 +1861,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: baidu
 #### Specifications
 
-- **Context Window**: 123,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,000 tokens
@@ -2740,8 +2740,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -2761,10 +2759,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.126
+- **Standard Input**: $0.112
 
 
-- **Standard Output**: $0.252
+- **Standard Output**: $0.224
 
 
 
@@ -2869,7 +2867,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 64,000 tokens
+- **Context Window**: 163,840 tokens
 
 
 - **Max Output Tokens**: 16,000 tokens
@@ -3001,7 +2999,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -3745,7 +3743,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,048,756 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -4313,7 +4311,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: google
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -4426,7 +4424,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.017
 
 
-- **Standard Output**: $0.11
+- **Standard Output**: $0.112
 
 
 
@@ -4663,7 +4661,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: liquid
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4811,7 +4809,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.48
+- **Standard Input**: $0.484
 
 
 - **Standard Output**: $0.03
@@ -4831,7 +4829,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: anthracite-org
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 32,768 tokens
 
 
 - **Max Output Tokens**: 2,048 tokens
@@ -5051,7 +5049,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -5139,7 +5137,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 60,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5164,7 +5162,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.027
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.201
 
 
 
@@ -5181,7 +5179,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 80,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5203,10 +5201,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.051
+- **Standard Input**: $0.0509
 
 
-- **Standard Output**: $0.34
+- **Standard Output**: $0.335
 
 
 
@@ -5309,7 +5307,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5395,7 +5393,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: meta-llama
 #### Specifications
 
-- **Context Window**: 327,680 tokens
+- **Context Window**: 10,000,000 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -5527,7 +5525,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: microsoft
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -5615,7 +5613,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
 - **Max Output Tokens**: 196,608 tokens
@@ -5703,7 +5701,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
 - **Max Output Tokens**: 196,608 tokens
@@ -5747,7 +5745,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
 - **Max Output Tokens**: 196,608 tokens
@@ -5791,7 +5789,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -5835,7 +5833,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 196,608 tokens
+- **Context Window**: 204,800 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -6343,7 +6341,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: mistralai
 #### Specifications
 
-- **Context Window**: 2,824 tokens
+- **Context Window**: 4,096 tokens
 
 
 
@@ -6661,10 +6659,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.35
+- **Standard Input**: $0.351
 
 
-- **Standard Output**: $0.56
+- **Standard Output**: $0.555
 
 
 
@@ -6935,7 +6933,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~moonshotai
 #### Specifications
 
-- **Context Window**: 262,142 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 262,142 tokens
@@ -7155,7 +7153,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: moonshotai
 #### Specifications
 
-- **Context Window**: 262,142 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 262,142 tokens
@@ -7505,7 +7503,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nvidia
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -7547,7 +7545,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nvidia
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 262,144 tokens
@@ -11441,7 +11439,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -11485,7 +11483,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11659,7 +11657,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -11703,7 +11701,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 32,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -11745,7 +11743,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,702 tokens
 
 
 - **Max Output Tokens**: 40,960 tokens
@@ -11877,7 +11875,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
 
@@ -11919,7 +11917,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 20,000 tokens
@@ -12051,7 +12049,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -12095,7 +12093,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 40,960 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -12183,7 +12181,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -12227,7 +12225,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 262,000 tokens
@@ -12577,7 +12575,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -12709,7 +12707,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -12797,7 +12795,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -12841,7 +12839,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -12885,7 +12883,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 32,768 tokens
@@ -14417,7 +14415,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: microsoft
 #### Specifications
 
-- **Context Window**: 65,535 tokens
+- **Context Window**: 65,536 tokens
 
 
 - **Max Output Tokens**: 8,000 tokens
@@ -15373,9 +15371,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### inclusionAI: Ring-2.6-1T (free)
+### inclusionAI: Ring-2.6-1T
 
-**Model ID**: `inclusionai/ring-2.6-1t:free`  
+**Model ID**: `inclusionai/ring-2.6-1t`  
 **Family**: inclusionai
 #### Specifications
 
@@ -15403,308 +15401,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 3
-
-**Model ID**: `x-ai/grok-3`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 3 Beta
-
-**Model ID**: `x-ai/grok-3-beta`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 3 Mini
-
-**Model ID**: `x-ai/grok-3-mini`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 3 Mini Beta
-
-**Model ID**: `x-ai/grok-3-mini-beta`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4
-
-**Model ID**: `x-ai/grok-4`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: image, text, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4 Fast
-
-**Model ID**: `x-ai/grok-4-fast`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 2,000,000 tokens
-
-
-- **Max Output Tokens**: 30,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.1 Fast
-
-**Model ID**: `x-ai/grok-4.1-fast`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 2,000,000 tokens
-
-
-- **Max Output Tokens**: 30,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.5
+- **Standard Output**: $0.625
 
 
 
@@ -15831,50 +15531,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok Code Fast 1
-
-**Model ID**: `x-ai/grok-code-fast-1`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 10,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $1.5
 
 
 
