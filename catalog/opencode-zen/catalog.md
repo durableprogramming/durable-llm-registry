@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 40
-- **Last Updated**: 2026-05-20
+- **Total Models**: 41
+- **Last Updated**: 2026-05-21
 
 ## Models
 
@@ -1759,6 +1759,116 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Gemini 3.5 Flash
+
+**Model ID**: `gemini-3.5-flash`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Grok Build 0.1
+
+**Model ID**: `grok-build-0.1`  
+**Family**: grok
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Kimi K2.5
 
 **Model ID**: `kimi-k2.5`  
@@ -1872,61 +1982,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### MiniMax M2.5
 
 **Model ID**: `minimax-m2.5`  
-**Family**: minimax
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### MiniMax M2.5 Free
-
-**Model ID**: `minimax-m2.5-free`  
 **Family**: minimax
 #### Specifications
 
