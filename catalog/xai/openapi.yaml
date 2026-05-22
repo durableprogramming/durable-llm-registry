@@ -7063,22 +7063,27 @@ components:
             type: string
             description: The URL of the page to open.
       - type: object
-        description: 'Action type "find": Searches for a pattern within a loaded page.'
+        description: |-
+          Action type "find_in_page": Searches for a pattern within a loaded
+          page. Wire shape mirrors OpenAI's `ActionFind` so the OpenAI Python
+          SDK's typed `web_search_call.action` parses correctly — note the
+          `find_in_page` tag (not `find`) and the flat `url` (not nested
+          under a `source` field).
         required:
-        - source
+        - url
         - pattern
         - type
         properties:
           pattern:
             type: string
             description: The pattern or text to search for within the page.
-          source:
-            "$ref": "#/components/schemas/WebSearchSource"
-            description: The source of the page to search in.
           type:
             type: string
             enum:
-            - find
+            - find_in_page
+          url:
+            type: string
+            description: The URL of the page being searched within.
     WebSearchCall:
       type: object
       description: The output of a web search tool call.
