@@ -325,7 +325,7 @@ paths:
       - v1
       summary: List all embedding models available to the authenticating API key with
         full information. Additional information compared to /v1/models includes modalities,
-        pricing, fingerprint and alias(es).
+        fingerprint and alias(es).
       operationId: handle_embedding_models_list_request
       responses:
         '200':
@@ -662,7 +662,7 @@ paths:
       - v1
       summary: List all image generation models available to the authenticating API
         key with full information. Additional information compared to /v1/models includes
-        modalities, pricing, fingerprint and alias(es).
+        modalities, fingerprint and alias(es).
       operationId: handle_image_generation_models_list_request
       responses:
         '200':
@@ -807,7 +807,7 @@ paths:
       - v1
       summary: List all chat and image understanding models available to the authenticating
         API key with full information. Additional information compared to /v1/models
-        includes modalities, pricing, fingerprint and alias(es).
+        includes modalities, fingerprint and alias(es).
       operationId: handle_language_models_list_request
       responses:
         '200':
@@ -818,56 +818,48 @@ paths:
                 "$ref": "#/components/schemas/ListLanguageModelsResponse"
               example:
                 models:
-                - id: grok-3
-                  fingerprint: fp_898ae9f31c
-                  created: 1743724800
+                - id: latest
+                  fingerprint: fp_777a9f8466
+                  created: 1776556800
                   object: model
                   owned_by: xai
                   version: '1.0'
-                  input_modalities:
-                  - text
-                  output_modalities:
-                  - text
-                  prompt_text_token_price: 30000
-                  cached_prompt_text_token_price: 7500
-                  prompt_image_token_price: 0
-                  completion_text_token_price: 150000
-                  search_price: 250000000
-                  aliases:
-                  - grok-3-latest
-                  - grok-3-beta
-                - id: grok-3-mini
-                  fingerprint: fp_6a09108ff5
-                  created: 1743724800
-                  object: model
-                  owned_by: xai
-                  version: '1.0'
-                  input_modalities:
-                  - text
-                  output_modalities:
-                  - text
-                  prompt_text_token_price: 3000
-                  cached_prompt_text_token_price: 750
-                  prompt_image_token_price: 0
-                  completion_text_token_price: 5000
-                  search_price: 250000000
-                  aliases:
-                  - grok-3-mini-latest
-                  - grok-3-mini-beta
-                - id: grok-2-vision-1212
-                  fingerprint: fp_daba7546e5
-                  created: 1733961600
-                  object: model
-                  owned_by: xai
-                  version: 0.1.0
                   input_modalities:
                   - text
                   - image
                   output_modalities:
                   - text
+                  prompt_text_token_price: 12500
+                  cached_prompt_text_token_price: 2000
+                  prompt_image_token_price: 12500
+                  completion_text_token_price: 25000
+                  search_price: 0
+                  prompt_text_token_price_long_context: 0
+                  cached_prompt_text_token_price_long_context: 0
+                  completion_text_token_price_long_context: 0
+                  long_context_threshold: 0
+                  aliases:
+                  - grok-4.3-latest
+                  - grok-latest
+                - id: grok-420-reasoning
+                  fingerprint: fp_5319828d69
+                  created: 1768003200
+                  object: model
+                  owned_by: xai
+                  version: '1.0'
+                  input_modalities:
+                  - text
+                  output_modalities:
+                  - text
                   prompt_text_token_price: 20000
-                  prompt_image_token_price: 20000
-                  completion_text_token_price: 100000
+                  cached_prompt_text_token_price: 2000
+                  prompt_image_token_price: 0
+                  completion_text_token_price: 80000
+                  search_price: 250000000
+                  prompt_text_token_price_long_context: 40000
+                  cached_prompt_text_token_price_long_context: 0
+                  completion_text_token_price_long_context: 160000
+                  long_context_threshold: 128000
                   aliases: []
         '400':
           description: Bad request. The request is invalid or an invalid API key is
@@ -1004,8 +996,8 @@ paths:
     get:
       tags:
       - v1
-      summary: List all models available to the authenticating API key with minimalized
-        information, including model names (ID), creation times, etc.
+      summary: List all models available to the authenticating API key, including
+        model names (ID), creation times, and pricing.
       operationId: handle_models_list_request
       responses:
         '200':
@@ -1016,30 +1008,30 @@ paths:
                 "$ref": "#/components/schemas/ListModelsResponse"
               example:
                 data:
-                - id: grok-4-0709
-                  created: 1752019200
+                - id: latest
+                  created: 1776556800
                   object: model
                   owned_by: xai
-                - id: grok-code-fast-1
-                  created: 1755993600
+                  prompt_text_token_price: 12500
+                  cached_prompt_text_token_price: 2000
+                  prompt_image_token_price: 12500
+                  completion_text_token_price: 25000
+                - id: grok-420-reasoning
+                  created: 1768003200
                   object: model
                   owned_by: xai
-                - id: grok-3
-                  created: 1743724800
+                  prompt_text_token_price: 20000
+                  cached_prompt_text_token_price: 2000
+                  prompt_image_token_price: 0
+                  completion_text_token_price: 80000
+                  prompt_text_token_price_long_context: 40000
+                  completion_text_token_price_long_context: 160000
+                  long_context_threshold: 128000
+                - id: grok-imagine-image
+                  created: 1769472000
                   object: model
                   owned_by: xai
-                - id: grok-3-mini
-                  created: 1743724800
-                  object: model
-                  owned_by: xai
-                - id: grok-2-image-1212
-                  created: 1736726400
-                  object: model
-                  owned_by: xai
-                - id: grok-2-vision-1212
-                  created: 1733961600
-                  object: model
-                  owned_by: xai
+                  image_price: 200000000
                 object: list
         '400':
           description: Bad request. The request is invalid or an invalid API key is
@@ -1050,7 +1042,7 @@ paths:
     get:
       tags:
       - v1
-      summary: Get minimalized information about a model with its model_id.
+      summary: Get information about a model with its model_id, including pricing.
       operationId: handle_model_get_request
       parameters:
       - name: model_id
@@ -1068,9 +1060,13 @@ paths:
                 "$ref": "#/components/schemas/Model"
               example:
                 id: latest
-                created: 1743724800
+                created: 1776556800
                 object: model
                 owned_by: xai
+                prompt_text_token_price: 12500
+                cached_prompt_text_token_price: 2000
+                prompt_image_token_price: 12500
+                completion_text_token_price: 25000
         '400':
           description: Bad request. The request is invalid or an invalid API key is
             provided.
@@ -1321,6 +1317,132 @@ paths:
           description: Bad request.
         '404':
           description: Not found. No responses could be found with the given response_id.
+      security:
+      - bearerAuth: []
+  "/v1/skills":
+    get:
+      tags:
+      - v1
+      operationId: handle_list_skills_request
+      parameters:
+      - name: limit
+        in: query
+        description: The maximum number of objects to be returned in a single response.
+        required: false
+        schema:
+          type: integer
+          format: int32
+      - name: after
+        in: query
+        description: Identifier for the last item from the previous pagination request.
+        required: false
+        schema:
+          type: string
+      - name: order
+        in: query
+        description: Sort order. Use `asc` for ascending and `desc` for descending
+          order.
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/SkillList"
+      security:
+      - bearerAuth: []
+    post:
+      tags:
+      - v1
+      operationId: handle_upload_skill_request
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              "$ref": "#/components/schemas/UploadSkillMultipartRequest"
+        required: true
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Skill"
+        '400':
+          description: Invalid skill upload.
+        '413':
+          description: Payload too large.
+      security:
+      - bearerAuth: []
+  "/v1/skills/{skill_id}":
+    get:
+      tags:
+      - v1
+      operationId: handle_retrieve_skill_request
+      parameters:
+      - name: skill_id
+        in: path
+        description: The skill ID.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Skill"
+        '404':
+          description: Skill not found.
+      security:
+      - bearerAuth: []
+    delete:
+      tags:
+      - v1
+      operationId: handle_delete_skill_request
+      parameters:
+      - name: skill_id
+        in: path
+        description: The skill ID.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/DeletedSkill"
+        '404':
+          description: Skill not found.
+      security:
+      - bearerAuth: []
+  "/v1/skills/{skill_id}/content":
+    get:
+      tags:
+      - v1
+      operationId: handle_download_skill_content_request
+      parameters:
+      - name: skill_id
+        in: path
+        description: The skill ID.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success -- raw skill zip bytes streamed in chunks.
+          content:
+            application/zip:
+              schema:
+                type: string
+        '404':
+          description: Skill not found.
       security:
       - bearerAuth: []
   "/v1/tokenize-text":
@@ -2430,6 +2552,23 @@ components:
         object:
           type: string
           description: The deleted object type, which is always `response`.
+    DeletedSkill:
+      type: object
+      description: Response for deleting a hosted skill.
+      required:
+      - id
+      - deleted
+      - object
+      properties:
+        deleted:
+          type: boolean
+          description: Whether the skill was deleted.
+        id:
+          type: string
+          description: The ID of the skill.
+        object:
+          type: string
+          description: The object type, which is always `"skill.deleted"`.
     Delta:
       type: object
       properties:
@@ -3545,6 +3684,10 @@ components:
       - prompt_image_token_price
       - completion_text_token_price
       - search_price
+      - prompt_text_token_price_long_context
+      - cached_prompt_text_token_price_long_context
+      - completion_text_token_price_long_context
+      - long_context_threshold
       - aliases
       properties:
         aliases:
@@ -3558,11 +3701,23 @@ components:
           format: int64
           description: Price of a prompt text token (in USD cents per 100 million
             tokens) that was cached previously.
+        cached_prompt_text_token_price_long_context:
+          type: integer
+          format: int64
+          description: |-
+            Price of the cached prompt text token for long context requests (USD cents per 100 million tokens).
+            When 0, falls back to cached_prompt_text_token_price.
         completion_text_token_price:
           type: integer
           format: int64
           description: Price of the completion text token in USD cents per 100 million
             token.
+        completion_text_token_price_long_context:
+          type: integer
+          format: int64
+          description: |-
+            Price of the completion text token for long context requests (USD cents per 100 million tokens).
+            When 0, the standard completion_text_token_price applies.
         created:
           type: integer
           format: int64
@@ -3580,6 +3735,12 @@ components:
             type: string
           description: The input modalities supported by the model, e.g. `"text"`,
             `"image"`.
+        long_context_threshold:
+          type: integer
+          format: int64
+          description: |-
+            Token count at or above which the long context prices apply.
+            When 0, the model has no long context pricing tier.
         object:
           type: string
           description: The object type, which is always `"model"`.
@@ -3602,6 +3763,12 @@ components:
           format: int64
           description: Price of the prompt text token in USD cents per 100 million
             token.
+        prompt_text_token_price_long_context:
+          type: integer
+          format: int64
+          description: |-
+            Price of the prompt text token for long context requests (USD cents per 100 million tokens).
+            When 0, the standard prompt_text_token_price applies at all context lengths.
         search_price:
           type: integer
           format: int64
@@ -3765,6 +3932,32 @@ components:
         object:
           type: string
           description: The object type of `data` field, which is always `"list"`.
+    ListSkillsParams:
+      type: object
+      description: Parameters to control listing of skills.
+      properties:
+        after:
+          type:
+          - string
+          - 'null'
+          description: Identifier for the last item from the previous pagination request.
+        limit:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: The maximum number of objects to be returned in a single response.
+          default: 100
+          example: 100
+          maximum: 100
+          minimum: 1
+        order:
+          type:
+          - string
+          - 'null'
+          description: Sort order. Use `asc` for ascending and `desc` for descending
+            order.
+          default: desc
     ListVideoGenerationModelsResponse:
       type: object
       required:
@@ -4477,13 +4670,43 @@ components:
           description: Number of output tokens used
     Model:
       type: object
-      description: Same as `LanguageModel` but fully compliant with the OpenAI API.
+      description: |-
+        OpenAI-compatible model response returned by `/v1/models`.
+        Includes optional pricing fields populated based on the model type.
       required:
       - id
       - created
       - object
       - owned_by
       properties:
+        cached_prompt_text_token_price:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of a prompt text token (in USD cents per 100 million
+            tokens) that was cached previously.
+        cached_prompt_text_token_price_long_context:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the cached prompt text token for long context requests
+            (USD cents per 100 million tokens).
+        completion_text_token_price:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the completion text token in USD cents per 100 million
+            tokens.
+        completion_text_token_price_long_context:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the completion text token for long context requests
+            (USD cents per 100 million tokens).
         created:
           type: integer
           format: int64
@@ -4492,12 +4715,45 @@ components:
           type: string
           description: Model ID. Obtainable from <https://console.x.ai/team/default/models>
             or <https://docs.x.ai/docs/models>.
+        image_price:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price per image in USD cents (image generation models).
+        long_context_threshold:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Token count at or above which the long context prices apply.
         object:
           type: string
           description: The object type, which is always `"model"`.
         owned_by:
           type: string
           description: Owner of the model.
+        prompt_image_token_price:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the prompt image token in USD cents per 100 million
+            tokens.
+        prompt_text_token_price:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the prompt text token in USD cents per 100 million
+            tokens.
+        prompt_text_token_price_long_context:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: Price of the prompt text token for long context requests (USD
+            cents per 100 million tokens).
     ModelInput:
       oneOf:
       - type: string
@@ -6502,6 +6758,67 @@ components:
         type:
           type: string
           description: The type of the environment. Currently only `local` is supported.
+    Skill:
+      type: object
+      description: A hosted skill.
+      required:
+      - id
+      - created_at
+      - default_version
+      - description
+      - latest_version
+      - name
+      - object
+      properties:
+        created_at:
+          type: integer
+          format: int64
+          description: Unix timestamp (seconds) for when the skill was created.
+        default_version:
+          type: string
+          description: Default version for the skill. Currently always `"1"`.
+        description:
+          type: string
+          description: Description extracted from `SKILL.md` frontmatter.
+        id:
+          type: string
+          description: Unique identifier for the skill.
+        latest_version:
+          type: string
+          description: Latest version for the skill. Currently always `"1"`.
+        name:
+          type: string
+          description: Skill name extracted from `SKILL.md` frontmatter.
+        object:
+          type: string
+          description: The object type, which is always `"skill"`.
+    SkillList:
+      type: object
+      description: A list of hosted skills.
+      required:
+      - data
+      - first_id
+      - has_more
+      - last_id
+      - object
+      properties:
+        data:
+          type: array
+          items:
+            "$ref": "#/components/schemas/Skill"
+          description: A list of skills.
+        first_id:
+          type: string
+          description: The ID of the first item in the list.
+        has_more:
+          type: boolean
+          description: Whether there are more items available.
+        last_id:
+          type: string
+          description: The ID of the last item in the list.
+        object:
+          type: string
+          description: The object type, which is always `"list"`.
     SortOrder:
       type: string
       description: Sort order for paginated listings.
@@ -6818,6 +7135,20 @@ components:
             Optional purpose label, accepted for OpenAI SDK compatibility. xAI
             does not enforce or interpret this field. Setting `"assistants"`
             is the conventional choice.
+    UploadSkillMultipartRequest:
+      type: object
+      description: Multipart form fields accepted by `POST /v1/skills`.
+      required:
+      - files
+      properties:
+        files:
+          type: array
+          items:
+            type: string
+            format: binary
+          description: |-
+            Skill zip file or one file from a directory upload. Clients may send
+            this field once with a zip file, or repeatedly with directory files.
     Usage:
       type: object
       required:
