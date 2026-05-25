@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 358
-- **Last Updated**: 2026-05-24
+- **Total Models**: 357
+- **Last Updated**: 2026-05-25
 
 ## Models
 
@@ -2387,10 +2387,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 163,840 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 16,000 tokens
 
 
 #### Modalities
@@ -2411,10 +2411,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.32
+- **Standard Input**: $0.2288
 
 
-- **Standard Output**: $0.89
+- **Standard Output**: $0.9144
 
 
 
@@ -14331,50 +14331,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
-### Tongyi DeepResearch 30B A3B
-
-**Model ID**: `alibaba/tongyi-deepresearch-30b-a3b`  
-**Family**: alibaba
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.09
-
-
-- **Standard Output**: $0.45
 
 
 
