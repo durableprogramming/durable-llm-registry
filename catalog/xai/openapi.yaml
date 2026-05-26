@@ -2490,6 +2490,32 @@ components:
           type: string
           description: The type of the content part. Can be `text`, `image_url`, `text_file`
             or `file`.
+    ContextDetails:
+      type: object
+      description: |-
+        Token counts for the latest context window seen by the model.
+
+        In the non-agentic path these mirror `input_tokens` / `output_tokens`.
+        In the agentic path (multi-agents) these are reset on every step and
+        reflect the most recent step's prompt and output sizes — useful for
+        understanding how the live context window evolves across tool calls.
+        Informational only; not used for billing.
+      required:
+      - input_tokens
+      - output_tokens
+      properties:
+        input_tokens:
+          type: integer
+          format: int32
+          description: |-
+            Prompt tokens in the latest context (sourced from
+            `SamplingUsage.context_prompt_tokens`).
+        output_tokens:
+          type: integer
+          format: int32
+          description: |-
+            Completion + reasoning tokens in the latest context (sourced from
+            `SamplingUsage.context_output_tokens`).
     CustomToolCall:
       type: object
       description: The output of a custom tool call.
@@ -5673,6 +5699,15 @@ components:
       - num_sources_used
       - num_server_side_tools_used
       properties:
+        context_details:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ContextDetails"
+            description: |-
+              Token counts for the **latest context** sent to / produced by the
+              model. For agentic responses this reflects the most recent step
+              rather than the cumulative total. Informational only — not used
+              for billing.
         cost_in_nano_usd:
           type:
           - integer
@@ -7222,9 +7257,10 @@ components:
         Machine-readable error codes for video generation failures.
 
         These are the codes that can appear in `VideoError.code` when polling a
-        deferred video generation result. Authentication errors, model-not-found
-        errors, and rate-limit errors are returned synchronously as HTTP errors
-        and never appear in `VideoError`.
+        deferred video generation result. Authentication, model-not-found, and
+        synchronous rate-limit errors are returned as HTTP errors and never
+        appear in `VideoError`. Engine overload encountered mid-generation
+        surfaces here as `service_unavailable` (HTTP 503).
 
         Serializes to/from snake_case strings (e.g. `"invalid_argument"`,
         `"internal_error"`) for JSON compatibility.
@@ -7232,6 +7268,7 @@ components:
       - invalid_argument
       - permission_denied
       - failed_precondition
+      - service_unavailable
       - internal_error
     VideoGenerationModel:
       type: object

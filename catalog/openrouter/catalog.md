@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 357
-- **Last Updated**: 2026-05-25
+- **Last Updated**: 2026-05-26
 
 ## Models
 
@@ -11323,10 +11323,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: poolside
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -13298,7 +13298,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -13322,7 +13322,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.3
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $2.0
 
 
 
@@ -14675,10 +14675,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $0.28
 
 
 
@@ -14698,7 +14698,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14719,10 +14719,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.435
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $0.87
 
 
 
