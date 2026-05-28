@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 41
-- **Last Updated**: 2026-05-27
+- **Total Models**: 42
+- **Last Updated**: 2026-05-28
 
 ## Models
 
@@ -1928,6 +1928,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `kimi-k2.6`  
 **Family**: kimi
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### MiMo-V2.5 Free
+
+**Model ID**: `mimo-v2.5-free`  
+**Family**: mimo
 #### Specifications
 
 - **Context Window**: 128,000 tokens

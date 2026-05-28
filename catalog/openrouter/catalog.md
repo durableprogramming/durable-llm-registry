@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 355
-- **Last Updated**: 2026-05-27
+- **Last Updated**: 2026-05-28
 
 ## Models
 
@@ -1759,50 +1759,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.25
-
-
-
-
-
-
-
----
-
-
-### Baidu: Qianfan-OCR-Fast
-
-**Model ID**: `baidu/qianfan-ocr-fast`  
-**Family**: baidu
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 28,672 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.68
-
-
-- **Standard Output**: $2.81
 
 
 
@@ -5713,7 +5669,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 204,800 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -7109,6 +7065,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.49
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2.6 (free)
+
+**Model ID**: `moonshotai/kimi-k2.6:free`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -14042,8 +14040,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -14063,10 +14059,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.066
+- **Standard Input**: $0.063
 
 
-- **Standard Output**: $0.26
+- **Standard Output**: $0.21
 
 
 
@@ -14764,7 +14760,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.125
 
 
-- **Standard Output**: $0.84
+- **Standard Output**: $0.85
 
 
 

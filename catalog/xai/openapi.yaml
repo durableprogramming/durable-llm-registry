@@ -1924,9 +1924,9 @@ components:
           - string
           - 'null'
           description: Constrains how hard a reasoning model thinks before responding.
-            Not supported by `grok-4` and will result in error if used with `grok-4`.
-            Possible values are `low` (uses fewer reasoning tokens) and `high` (uses
-            more reasoning tokens).
+            Only supported by `grok-4.3`. Possible values are `none` (disables reasoning
+            completely), `low` (this is the default if not specified), `medium` and
+            `high` (uses the most reasoning tokens).
         response_format:
           oneOf:
           - type: 'null'
@@ -5920,9 +5920,10 @@ components:
           - string
           - 'null'
           description: Constrains how hard a reasoning model thinks before responding.
-            Possible values are `low` (uses fewer reasoning tokens), `medium` and
-            `high` (uses more reasoning tokens).
-          default: medium
+            Only supported by `grok-4.3`. Possible values are `none` (disables reasoning
+            completely), `low` (this is the default if not specified), `medium` and
+            `high` (uses the most reasoning tokens).
+          default: low
         generate_summary:
           type:
           - string
