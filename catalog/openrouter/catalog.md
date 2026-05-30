@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 357
-- **Last Updated**: 2026-05-29
+- **Total Models**: 355
+- **Last Updated**: 2026-05-30
 
 ## Models
 
@@ -5760,8 +5760,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -5781,7 +5779,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.279
+- **Standard Input**: $0.26
 
 
 - **Standard Output**: $1.2
@@ -6249,50 +6247,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
-### Mistral: Mistral 7B Instruct v0.1
-
-**Model ID**: `mistralai/mistral-7b-instruct-v0.1`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 4,096 tokens
-
-
-- **Max Output Tokens**: 2,824 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.11
-
-
-- **Standard Output**: $0.19
 
 
 
@@ -8907,50 +8861,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### OpenAI: GPT-4o Audio
-
-**Model ID**: `openai/gpt-4o-audio-preview`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: audio, text
-
-
-- **Output**: text, audio
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.5
-
-
-- **Standard Output**: $10.0
-
-
-
-
-
-
-
----
-
-
 ### OpenAI: GPT-4o Search Preview
 
 **Model ID**: `openai/gpt-4o-search-preview`  
@@ -10364,8 +10274,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -10385,7 +10293,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.029
 
 
 - **Standard Output**: $0.14
@@ -13122,6 +13030,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
+- **Max Output Tokens**: 262,144 tokens
+
 
 #### Modalities
 
@@ -13141,7 +13051,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.139
+- **Standard Input**: $0.14
 
 
 - **Standard Output**: $1.0
