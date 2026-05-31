@@ -1152,6 +1152,56 @@ paths:
             body.
       security:
       - bearerAuth: []
+  "/v1/responses/compact":
+    post:
+      tags:
+      - v1
+      summary: Compacts a full Responses API input window into a shorter canonical
+        window.
+      description: |-
+        The client sends its current input (the same items that would be passed
+        to `POST /v1/responses`) and receives a compacted output window.
+        The output should be used **verbatim** as the `input` of the next
+        `/v1/responses` call (appending only the new user turn).
+
+        This generalizes the compaction approach used by the coding-agent
+        harness (`generate_session_compact` in xai-grok-shell):
+
+        1. Strip tool-result noise from the history.
+        2. Ask the model to produce a structured `<summary>` of the conversation.
+        3. Rebuild a compact window:  system message → summary → last user query.
+        4. Return that window to the client.
+      operationId: handle_compact_request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/CompactRequest"
+            example:
+              model: latest
+              input:
+              - role: system
+                content: You are a helpful assistant.
+              - role: user
+                content: Tell me about Rust.
+              - role: assistant
+                content: Rust is a systems programming language...
+              - role: user
+                content: How does ownership work?
+              - role: assistant
+                content: Ownership in Rust is...
+        required: true
+      responses:
+        '200':
+          description: Success – compacted window returned.
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/CompactResponse"
+        '400':
+          description: Bad request.
+      security:
+      - bearerAuth: []
   "/v1/responses/{response_id}":
     get:
       tags:
@@ -2302,6 +2352,128 @@ components:
           url:
             type: string
             description: The error of the code interpreter tool call.
+    CompactRequest:
+      type: object
+      description: |-
+        The request body for `POST /v1/responses/compact`.
+
+        Clients send the full current input window (the same items they would
+        pass to `/v1/responses`) and receive back a compacted window suitable
+        for use as the `input` of the next `/v1/responses` call.
+      required:
+      - input
+      - model
+      properties:
+        input:
+          "$ref": "#/components/schemas/ModelInput"
+          description: The full input window to compact.
+        model:
+          type: string
+          description: Model to use for compaction summarization (required).
+    CompactResponse:
+      type: object
+      description: |-
+        The response body for `POST /v1/responses/compact`.
+
+        The `output` list contains a single compaction item wrapping the entire
+        compacted conversation in an encrypted blob. Clients should spread
+        `output` into their next `/v1/responses` input:
+
+        ```python
+        next_input = [*compacted.output, new_user_msg]
+        ```
+      required:
+      - object
+      - id
+      - created_at
+      - model
+      - output
+      properties:
+        created_at:
+          type: integer
+          format: int64
+          description: Unix timestamp (in seconds) when the compacted conversation
+            was created.
+        id:
+          type: string
+          description: Unique ID for this compaction (e.g. `cmp_<uuid>`).
+        model:
+          type: string
+          description: Model used for the compaction summary.
+        object:
+          type: string
+          description: Always `"response.compaction"`.
+        output:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ModelInputPart"
+          description: |-
+            Compacted output containing a single compaction item.
+            Pass this verbatim as input to the next `/v1/responses` call.
+        usage:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/CompactUsage"
+            description: Token usage information for the compaction call.
+    CompactUsage:
+      type: object
+      description: |-
+        Token usage details for a compaction call.
+
+        Mirrors OpenAI's `ResponseUsage` shape (`input_tokens`,
+        `input_tokens_details.cached_tokens`, `output_tokens`,
+        `output_tokens_details.reasoning_tokens`, `total_tokens`) and adds
+        `dropped_message_count` as an xAI-specific extension.
+      required:
+      - input_tokens
+      - input_tokens_details
+      - output_tokens
+      - output_tokens_details
+      - total_tokens
+      - dropped_message_count
+      properties:
+        dropped_message_count:
+          type: integer
+          format: int32
+          description: Number of messages dropped/summarized during compaction.
+        input_tokens:
+          type: integer
+          format: int32
+          description: Number of tokens in the original (pre-compaction) input.
+        input_tokens_details:
+          "$ref": "#/components/schemas/CompactUsageInputTokensDetails"
+          description: Detailed breakdown of input tokens.
+        output_tokens:
+          type: integer
+          format: int32
+          description: Number of tokens in the compacted output.
+        output_tokens_details:
+          "$ref": "#/components/schemas/CompactUsageOutputTokensDetails"
+          description: Detailed breakdown of output tokens.
+        total_tokens:
+          type: integer
+          format: int32
+          description: Total number of tokens used (input + output, including reasoning).
+    CompactUsageInputTokensDetails:
+      type: object
+      description: Breakdown of input tokens for a compaction call.
+      required:
+      - cached_tokens
+      properties:
+        cached_tokens:
+          type: integer
+          format: int32
+          description: Number of input tokens that were served from the prompt cache.
+    CompactUsageOutputTokensDetails:
+      type: object
+      description: Breakdown of output tokens for a compaction call.
+      required:
+      - reasoning_tokens
+      properties:
+        reasoning_tokens:
+          type: integer
+          format: int32
+          description: Number of reasoning tokens generated during compaction.
     CompactionOutputItem:
       type: object
       description: |-
