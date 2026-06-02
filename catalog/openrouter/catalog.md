@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2026-06-01
+- **Total Models**: 342
+- **Last Updated**: 2026-06-02
 
 ## Models
 
@@ -1583,50 +1583,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $-1000000.0
-
-
-
-
-
-
-
----
-
-
-### Baidu: ERNIE 4.5 300B A47B 
-
-**Model ID**: `baidu/ernie-4.5-300b-a47b`  
-**Family**: baidu
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 12,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.28
-
-
-- **Standard Output**: $1.1
 
 
 
@@ -13610,8 +13566,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
-
 
 #### Modalities
 
@@ -13631,10 +13585,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.066
+- **Standard Input**: $0.063
 
 
-- **Standard Output**: $0.26
+- **Standard Output**: $0.21
 
 
 
@@ -14813,10 +14767,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $0.625
 
 
 
