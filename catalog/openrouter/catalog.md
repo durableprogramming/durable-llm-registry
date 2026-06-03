@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-06-02
+- **Total Models**: 344
+- **Last Updated**: 2026-06-03
 
 ## Models
 
@@ -10361,6 +10361,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenRouter: Fusion
+
+**Model ID**: `openrouter/fusion`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $-1000000.0
+
+
+- **Standard Output**: $-1000000.0
+
+
+
+
+
+
+
+---
+
+
 ### Owl Alpha
 
 **Model ID**: `openrouter/owl-alpha`  
@@ -12945,6 +12987,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.7 Plus
+
+**Model ID**: `qwen/qwen3.7-plus`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.4
+
+
+- **Standard Output**: $1.6
+
+
+
+
+
+
+
+---
+
+
 ### ReMM SLERP 13B
 
 **Model ID**: `undi95/remm-slerp-l2-13b`  
@@ -14482,8 +14568,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 202,752 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
-
 
 #### Modalities
 
@@ -14506,7 +14590,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.08
+- **Standard Output**: $1.92
 
 
 
@@ -14569,8 +14653,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 202,752 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities

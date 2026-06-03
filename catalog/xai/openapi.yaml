@@ -2001,6 +2001,13 @@ components:
             parameters should return the same result. Determinism is not guaranteed,
             and you should refer to the `system_fingerprint` response parameter to
             monitor changes in the backend.
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: |-
+              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
+              priority at a higher token price. Valid values: `"auto"` (default), `"priority"`.
         stop:
           type:
           - array
@@ -2105,6 +2112,7 @@ components:
       - created
       - model
       - choices
+      - service_tier
       properties:
         choices:
           type: array
@@ -2142,6 +2150,9 @@ components:
           description: |-
             Files generated during the response (e.g., by the code execution tool).
             Only populated when `code_execution_files_output` is included.
+        service_tier:
+          "$ref": "#/components/schemas/ServiceTier"
+          description: The processing tier used for this request.
         system_fingerprint:
           type:
           - string
@@ -2161,6 +2172,7 @@ components:
       - created
       - model
       - choices
+      - service_tier
       properties:
         choices:
           type: array
@@ -2200,6 +2212,9 @@ components:
           description: |-
             Files generated during the response (e.g., by the code execution tool).
             Only populated for the final chunk when `code_execution_files_output` is included.
+        service_tier:
+          "$ref": "#/components/schemas/ServiceTier"
+          description: The processing tier used for this request.
         system_fingerprint:
           type:
           - string
@@ -2876,6 +2891,13 @@ components:
             If `b64_json` is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: |-
+              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
+              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
@@ -2903,6 +2925,11 @@ components:
         prompt:
           type: string
           description: Prompt for video editing.
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: Specifies the processing tier for this request.
         user:
           type:
           - string
@@ -3148,6 +3175,11 @@ components:
         prompt:
           type: string
           description: Prompt describing what should happen next in the video.
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: Specifies the processing tier for this request.
         video:
           "$ref": "#/components/schemas/VideoUrl"
           description: |-
@@ -3403,6 +3435,13 @@ components:
             If b64_json is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: |-
+              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
+              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
@@ -3468,6 +3507,13 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/VideoResolution"
             description: Resolution of the generated video.
+        service_tier:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: |-
+              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
+              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
@@ -3590,7 +3636,7 @@ components:
           type: string
           description: User ID associated with the credentials.
         zdr_status:
-          type: string
+          "$ref": "#/components/schemas/ZdrStatus"
           description: 'Zero Data Retention status: `"no_zdr"`, `"zdr"`, or `"pii_scrubbing"`.'
     GroupBy:
       type: object
@@ -5224,10 +5270,12 @@ components:
             description: Set the parameters to be used for searched data. Takes precedence
               over `web_search_preview` tool if specified in the tools.
         service_tier:
-          type:
-          - string
-          - 'null'
-          description: Not supported. Only maintained for compatibility reasons.
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: |-
+              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
+              priority at a higher token price. Valid values: `"auto"` (default), `"priority"`.
         store:
           type:
           - boolean
@@ -5440,8 +5488,9 @@ components:
           description: A stable identifier used to help detect users of your application
             that may be violating xAI's usage policies.
         service_tier:
-          type: string
-          description: Specifies the processing tier used for serving the request.
+          oneOf:
+          - "$ref": "#/components/schemas/ServiceTier"
+            description: Specifies the processing tier used for serving the request.
           default: default
         status:
           type: string
@@ -6825,6 +6874,13 @@ components:
           type: integer
           format: int32
           description: Number of X search calls.
+    ServiceTier:
+      type: string
+      description: Processing tier for a request. Determines scheduling priority and
+        billing.
+      enum:
+      - default
+      - priority
     ShellCall:
       type: object
       description: A shell command call emitted by the model for local execution.
@@ -7734,6 +7790,13 @@ components:
         type:
           type: string
           description: Type is always `"approximate"`.
+    ZdrStatus:
+      type: string
+      description: Zero Data Retention status for a team.
+      enum:
+      - no_zdr
+      - zdr
+      - pii_scrubbing
   securitySchemes:
     bearerAuth:
       type: http
