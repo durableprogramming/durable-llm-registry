@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 46
-- **Last Updated**: 2026-06-03
+- **Last Updated**: 2026-06-04
 
 ## Models
 
@@ -2254,9 +2254,9 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Nemotron 3 Super Free
+### Nemotron 3 Ultra Free
 
-**Model ID**: `nemotron-3-super-free`  
+**Model ID**: `nemotron-3-ultra-free`  
 **Family**: nemotron
 #### Specifications
 

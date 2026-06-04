@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 344
-- **Last Updated**: 2026-06-03
+- **Total Models**: 346
+- **Last Updated**: 2026-06-04
 
 ## Models
 
@@ -7033,6 +7033,138 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### NVIDIA: Nemotron 3 Ultra
+
+**Model ID**: `nvidia/nemotron-3-ultra-550b-a55b`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3 Ultra (free)
+
+**Model ID**: `nvidia/nemotron-3-ultra-550b-a55b:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3.5 Content Safety (free)
+
+**Model ID**: `nvidia/nemotron-3.5-content-safety:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### NVIDIA: Nemotron Nano 12B 2 VL (free)
 
 **Model ID**: `nvidia/nemotron-nano-12b-v2-vl:free`  
@@ -7864,50 +7996,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### OpenAI: GPT-4
 
 **Model ID**: `openai/gpt-4`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 8,191 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $30.0
-
-
-- **Standard Output**: $60.0
-
-
-
-
-
-
-
----
-
-
-### OpenAI: GPT-4 (older v0314)
-
-**Model ID**: `openai/gpt-4-0314`  
 **Family**: openai
 #### Specifications
 
@@ -11435,10 +11523,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0428
+- **Standard Input**: $0.04815
 
 
-- **Standard Output**: $0.1716
+- **Standard Output**: $0.19305
 
 
 
