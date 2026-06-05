@@ -6089,6 +6089,25 @@ components:
           type: integer
           format: int32
           description: Total text prompt token used (cached + non-cached text tokens).
+    PublicUrlInput:
+      oneOf:
+      - type: boolean
+        description: |-
+          `true` = create public URL with default options (no independent expiry).
+          `false` = no public URL (equivalent to omitting the field).
+      - "$ref": "#/components/schemas/PublicUrlOptions"
+        description: Full configuration object.
+      description: |-
+        Accepts either `true` (create public URL with defaults) or a configuration
+        object with explicit options.
+
+        **Variant order matters for `#[serde(untagged)]`:** `Flag` must come before
+        `Options` so that JSON `true`/`false` match `Flag` rather than falling
+        through to the object variant.
+
+        **Serialization note:** Proto→REST readback always constructs
+        `Options(...)`, never `Flag`, so responses always emit the object form.
+        `Flag` only appears on the deserialization (request) path.
     RagPipeline:
       type: string
       enum:

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 346
-- **Last Updated**: 2026-06-04
+- **Total Models**: 344
+- **Last Updated**: 2026-06-05
 
 ## Models
 
@@ -4688,7 +4688,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.05
+- **Standard Output**: $0.03
 
 
 
@@ -7543,50 +7543,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
-### NousResearch: Hermes 2 Pro - Llama-3 8B
-
-**Model ID**: `nousresearch/hermes-2-pro-llama-3-8b`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.14
-
-
-- **Standard Output**: $0.14
 
 
 
@@ -11458,7 +11414,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 20,000 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -13503,50 +13459,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.75
-
-
-
-
-
-
-
----
-
-
-### Sao10k: Llama 3 Euryale 70B v2.1
-
-**Model ID**: `sao10k/l3-euryale-70b`  
-**Family**: sao10k
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.48
-
-
-- **Standard Output**: $1.48
 
 
 
