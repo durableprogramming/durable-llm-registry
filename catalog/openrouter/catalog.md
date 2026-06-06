@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 344
-- **Last Updated**: 2026-06-05
+- **Last Updated**: 2026-06-06
 
 ## Models
 
@@ -3702,7 +3702,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -3726,7 +3726,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.37
+- **Standard Output**: $0.36
 
 
 
@@ -5408,7 +5408,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 196,608 tokens
 
 
 #### Modalities
