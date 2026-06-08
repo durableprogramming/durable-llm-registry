@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2026-06-07
+- **Total Models**: 340
+- **Last Updated**: 2026-06-08
 
 ## Models
 
@@ -6254,7 +6254,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -6275,10 +6275,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.684
+- **Standard Input**: $0.68
 
 
-- **Standard Output**: $3.42
+- **Standard Output**: $3.41
 
 
 
@@ -6474,7 +6474,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 262,142 tokens
 
 
 #### Modalities
@@ -6495,10 +6495,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.684
+- **Standard Input**: $0.68
 
 
-- **Standard Output**: $3.42
+- **Standard Output**: $3.41
 
 
 
@@ -7195,50 +7195,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Nex AGI: DeepSeek V3.1 Nex N1
-
-**Model ID**: `nex-agi/deepseek-v3.1-nex-n1`  
-**Family**: nex-agi
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 163,840 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.135
-
-
-- **Standard Output**: $0.5
 
 
 
