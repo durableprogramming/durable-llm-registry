@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 340
-- **Last Updated**: 2026-06-08
+- **Last Updated**: 2026-06-09
 
 ## Models
 
@@ -1321,50 +1321,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.8
-
-
-
-
-
-
-
----
-
-
-### Arcee AI: Maestro Reasoning
-
-**Model ID**: `arcee-ai/maestro-reasoning`  
-**Family**: arcee-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.9
-
-
-- **Standard Output**: $3.3
 
 
 
@@ -5298,7 +5254,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.15
 
 
-- **Standard Output**: $1.15
+- **Standard Output**: $0.9
 
 
 
@@ -5318,7 +5274,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 196,608 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -5339,10 +5295,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.279
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.08
 
 
 
@@ -7177,6 +7133,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Nex AGI: Nex-N2-Pro (free)
+
+**Model ID**: `nex-agi/nex-n2-pro:free`  
+**Family**: nex-agi
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
 
 
 - **Output**: text
