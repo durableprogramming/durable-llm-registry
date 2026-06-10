@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 46
-- **Last Updated**: 2026-06-09
+- **Total Models**: 49
+- **Last Updated**: 2026-06-10
 
 ## Models
 
@@ -52,6 +52,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### Claude Fable 5
+
+**Model ID**: `claude-fable-5`  
+**Family**: claude-fable-5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
 
 
 
@@ -656,7 +711,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 - **Cached Input**: $0.17500000000000002
 
 
-- **Cached Output**: $0.03
+- **Cached Output**: $0.028
 
 
 
@@ -705,6 +760,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4 Pro
+
+**Model ID**: `deepseek-v4-pro`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.74
+
+
+- **Standard Output**: $3.48
+
+
+
+
+- **Cached Input**: $2.175
+
+
+- **Cached Output**: $0.145
 
 
 
@@ -2258,6 +2368,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `nemotron-3-ultra-free`  
 **Family**: nemotron
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### North Mini Code Free
+
+**Model ID**: `north-mini-code-free`  
+**Family**: north
 #### Specifications
 
 - **Context Window**: 128,000 tokens

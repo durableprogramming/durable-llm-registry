@@ -1969,6 +1969,14 @@ components:
           default: 0
           maximum: 2
           minimum: -2
+        prompt_cache_key:
+          type:
+          - string
+          - 'null'
+          description: |-
+            A stable cache key for best-effort sticky routing / prompt-cache hits
+            across requests sharing a prompt prefix. Plumbed to `x-grok-conv-id`,
+            same as on `/v1/responses`.
         reasoning_effort:
           type:
           - string
@@ -2891,13 +2899,6 @@ components:
             If `b64_json` is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
-        service_tier:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ServiceTier"
-            description: |-
-              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
-              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
@@ -2925,11 +2926,6 @@ components:
         prompt:
           type: string
           description: Prompt for video editing.
-        service_tier:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ServiceTier"
-            description: Specifies the processing tier for this request.
         user:
           type:
           - string
@@ -3175,11 +3171,6 @@ components:
         prompt:
           type: string
           description: Prompt describing what should happen next in the video.
-        service_tier:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ServiceTier"
-            description: Specifies the processing tier for this request.
         video:
           "$ref": "#/components/schemas/VideoUrl"
           description: |-
@@ -3435,13 +3426,6 @@ components:
             If b64_json is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
-        service_tier:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ServiceTier"
-            description: |-
-              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
-              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
@@ -3507,13 +3491,6 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/VideoResolution"
             description: Resolution of the generated video.
-        service_tier:
-          oneOf:
-          - type: 'null'
-          - "$ref": "#/components/schemas/ServiceTier"
-            description: |-
-              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
-              priority at a higher price. Valid values: `"auto"` (default), `"priority"`.
         user:
           type:
           - string
