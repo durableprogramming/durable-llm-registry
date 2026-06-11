@@ -656,6 +656,81 @@ paths:
           description: File not found, deleted, or expired.
       security:
       - bearerAuth: []
+  "/v1/files/{file_id}/public-url":
+    post:
+      tags:
+      - v1
+      summary: |-
+        Create a permanent, unauthenticated public URL for an existing file. The
+        underlying file is unaffected and can still be fetched through the
+        authenticated content endpoint. Use this when you want to share a stored
+        asset (image, video, PDF) outside your API-keyed environment. Public URLs
+        can be revoked at any time via `POST /v1/files/{file_id}/public-url/revoke`.
+      operationId: handle_create_public_url_request
+      parameters:
+      - name: file_id
+        in: path
+        description: The file's `id`.
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/CreatePublicUrlRequest"
+        required: true
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/CreatePublicUrlResponse"
+              example:
+                public_url: https://files-cdn.x.ai/ZsqeMtdcSYWPPHTQdxXDKQ/file_a128090d-f0c9-4873-bd84-e499777e7417.png
+                expires_at: 1755600000
+        '400':
+          description: 'Bad request. Common causes: `expires_after` outside [3600,
+            2592000], `expires_after` greater than the file''s remaining lifetime,
+            unsupported content type, file is empty or larger than 50 MiB.'
+        '404':
+          description: File not found, deleted, or belongs to another team.
+        '429':
+          description: Per-team active-URL quota exhausted (1000 max) or rate limit
+            exceeded.
+      security:
+      - bearerAuth: []
+  "/v1/files/{file_id}/public-url/revoke":
+    post:
+      tags:
+      - v1
+      summary: |-
+        Revoke the active public URL for a file. The underlying file remains
+        available through the authenticated content endpoint. Revoke is idempotent
+        — calling it on a file without an active public URL returns
+        `revoked: false` without an error.
+      operationId: handle_revoke_public_url_request
+      parameters:
+      - name: file_id
+        in: path
+        description: The file's `id`.
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/RevokePublicUrlResponse"
+              example:
+                id: file_a128090d-f0c9-4873-bd84-e499777e7417
+                revoked: true
+                public_url: https://files-cdn.x.ai/ZsqeMtdcSYWPPHTQdxXDKQ/file_a128090d-f0c9-4873-bd84-e499777e7417.png
+      security:
+      - bearerAuth: []
   "/v1/image-generation-models":
     get:
       tags:
@@ -2711,6 +2786,38 @@ components:
           description: |-
             Completion + reasoning tokens in the latest context (sourced from
             `SamplingUsage.context_output_tokens`).
+    CreatePublicUrlRequest:
+      type: object
+      description: Request body for `POST /v1/files/{file_id}/public-url`.
+      properties:
+        expires_after:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Seconds from now until the public URL expires. Must be between `3600` (1
+            hour) and `2592000` (30 days). Omit to inherit the file's expiry (if it
+            has one) or to make the URL valid indefinitely.
+    CreatePublicUrlResponse:
+      type: object
+      description: Response for creating a public URL for a file.
+      required:
+      - public_url
+      properties:
+        expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Unix timestamp (seconds) when the public URL expires. Present when
+            the public URL has an expiry, either from an explicit `expires_after`
+            in the request or inherited from the file's TTL. Absent when the
+            public URL is valid indefinitely.
+        public_url:
+          type: string
+          description: The full public URL.
     CustomToolCall:
       type: object
       description: The output of a custom tool call.
@@ -2899,6 +3006,14 @@ components:
             If `b64_json` is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              image(s) are stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -2926,6 +3041,14 @@ components:
         prompt:
           type: string
           description: Prompt for video editing.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -3171,6 +3294,14 @@ components:
         prompt:
           type: string
           description: Prompt describing what should happen next in the video.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         video:
           "$ref": "#/components/schemas/VideoUrl"
           description: |-
@@ -3211,10 +3342,68 @@ components:
           type: string
           description: The object type, which is always `file`. Only included for
             compatability.
+        public_url:
+          type:
+          - string
+          - 'null'
+          description: Public URL for the file. Only present when the file has an
+            active public URL.
+        public_url_expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Unix timestamp (seconds) when the public URL expires. Only present when
+            the public URL has an independent expiry.
         purpose:
           type: string
           description: The intended purpose of the uploaded file. Only included for
             OAI compatability.
+    FileOutput:
+      type: object
+      description: Information about a generated file stored in the Files API.
+      required:
+      - file_id
+      - filename
+      properties:
+        expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Unix timestamp (seconds) when the stored file expires and will be
+            automatically deleted. Only present when the file has an expiration.
+        file_id:
+          type: string
+          description: Files API file_id of the stored file.
+        filename:
+          type: string
+          description: Filename of the stored file.
+        public_url:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Public URL for the stored file. Only present when the request included
+            `storage_options.public_url` and creation succeeded.
+        public_url_error:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Human-readable error when `storage_options.public_url` was set but
+            public URL creation failed. The file was stored successfully.
+        public_url_expires_at:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Unix timestamp (seconds) when the public URL expires. Present when
+            the public URL has an expiry, either from an explicit `expires_after`
+            in the request or inherited from the file's TTL.
     FileRef:
       type: object
       properties:
@@ -3426,6 +3615,14 @@ components:
             If b64_json is specified, the image will be returned as a base64-encoded
             string instead of a url to the generated image file.
           default: url
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              image(s) are stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -3491,6 +3688,14 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/VideoResolution"
             description: Resolution of the generated video.
+        storage_options:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/StorageOptions"
+            description: |-
+              Optional output storage configuration. When present, the generated
+              video is stored in the Files API and a `file_output` reference is
+              returned in the response alongside the ephemeral URL.
         user:
           type:
           - string
@@ -3507,12 +3712,26 @@ components:
           description: A base64-encoded string representation of the generated image
             (without the data-URI prefix), if `b64_json` is specified as `response_format`
             in the request.
+        file_output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/FileOutput"
+            description: |-
+              Storage info for the generated image. Only present when the request
+              included a `storage_options` configuration and the upload succeeded.
         mime_type:
           type:
           - string
           - 'null'
           description: The MIME type of the generated image (e.g. `image/png`, `image/jpeg`,
             `image/webp`).
+        storage_error:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Human-readable error when `storage_options` was set but the upload
+            failed. Absent on success or when storage was not requested.
         url:
           type:
           - string
@@ -3546,12 +3765,26 @@ components:
           type: integer
           format: int32
           description: Duration of the generated video in seconds.
+        file_output:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/FileOutput"
+            description: |-
+              Storage info for the generated video. Only present when the request
+              included a `storage_options` configuration and the upload succeeded.
         respect_moderation:
           type: boolean
           description: |-
             Whether the video generated by the model respects moderation rules.
             The field will be true if the video respects moderation rules. Otherwise
             the field will be false and the video url field will be empty.
+        storage_error:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Human-readable error when `storage_options` was set but the upload
+            failed. Absent on success or when storage was not requested.
         url:
           type:
           - string
@@ -6085,6 +6318,24 @@ components:
         **Serialization note:** Proto→REST readback always constructs
         `Options(...)`, never `Flag`, so responses always emit the object form.
         `Flag` only appears on the deserialization (request) path.
+    PublicUrlOptions:
+      type: object
+      description: Configuration for creating a public URL alongside file storage.
+      properties:
+        expires_after:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Seconds from now until the public URL expires. Must be between
+            3600 (1 hour) and 2592000 (30 days).
+
+            If omitted and the file has a TTL (`expires_after` on the file),
+            the public URL inherits the file's expiry. If omitted and the file
+            has no TTL, the public URL remains valid indefinitely until the
+            file is deleted or the URL is explicitly revoked via
+            `POST /v1/files/{file_id}/public-url/revoke`.
     RagPipeline:
       type: string
       enum:
@@ -6277,6 +6528,27 @@ components:
               - keyword
         description: Keyword search using sparse embeddings.
       description: Retrieval mode configuration for document search.
+    RevokePublicUrlResponse:
+      type: object
+      description: Response for revoking a public URL for a file.
+      required:
+      - id
+      - revoked
+      properties:
+        id:
+          type: string
+          description: The file ID whose public URL was revoked.
+        public_url:
+          type:
+          - string
+          - 'null'
+          description: The full public URL that was revoked. Only present when `revoked`
+            is `true`.
+        revoked:
+          type: boolean
+          description: |-
+            Whether a public URL was actually revoked. `false` if the file had no
+            active public URL (no-op).
     SampleChoice:
       type: object
       required:
@@ -7102,6 +7374,34 @@ components:
         request_id:
           type: string
           description: A unique request ID to poll for the result.
+    StorageOptions:
+      type: object
+      description: |-
+        Configuration for storing generation output in the Files API.
+        When provided in a generation request, the output is stored as a
+        permanent file and a `file_output` reference is included in the response.
+      required:
+      - filename
+      properties:
+        expires_after:
+          type:
+          - integer
+          - 'null'
+          format: int64
+          description: |-
+            Seconds from now until the file auto-expires. Maximum 2592000 (30 days).
+            If omitted, the file does not expire.
+        filename:
+          type: string
+          description: Filename for the stored file.
+        public_url:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/PublicUrlInput"
+            description: |-
+              `true` = create public URL with default options (no independent expiry).
+              Object = create public URL with explicit configuration.
+              Omit = no public URL (file stored privately).
     StreamOptions:
       type: object
       description: Options available when using streaming response.

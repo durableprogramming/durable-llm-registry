@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2026-06-10
+- **Total Models**: 337
+- **Last Updated**: 2026-06-11
 
 ## Models
 
@@ -2563,10 +2563,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -2587,7 +2587,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.7
+- **Standard Input**: $0.8
 
 
 - **Standard Output**: $0.8
@@ -3658,7 +3658,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -3682,7 +3682,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.36
+- **Standard Output**: $0.35
 
 
 
@@ -6553,48 +6553,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### MoonshotAI: Kimi K2.6 (free)
-
-**Model ID**: `moonshotai/kimi-k2.6:free`  
-**Family**: moonshotai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Morph: Morph V3 Fast
 
 **Model ID**: `morph/morph-v3-fast`  
@@ -7153,50 +7111,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Nemotron Nano 9B V2
-
-**Model ID**: `nvidia/nemotron-nano-9b-v2`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.04
-
-
-- **Standard Output**: $0.16
 
 
 
@@ -12730,7 +12644,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,140 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12751,7 +12665,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.15
 
 
 - **Standard Output**: $1.0
@@ -12971,10 +12885,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.32
 
 
-- **Standard Output**: $1.6
+- **Standard Output**: $1.28
 
 
 
