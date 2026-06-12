@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 337
-- **Last Updated**: 2026-06-11
+- **Last Updated**: 2026-06-12
 
 ## Models
 
@@ -2167,7 +2167,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: deepseek
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 163,840 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -2390,8 +2390,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -2411,10 +2409,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0983
+- **Standard Input**: $0.098
 
 
-- **Standard Output**: $0.1966
+- **Standard Output**: $0.196
 
 
 
@@ -4347,50 +4345,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Llama Guard 3 8B
-
-**Model ID**: `meta-llama/llama-guard-3-8b`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.484
-
-
-- **Standard Output**: $0.03
-
-
-
-
-
-
-
----
-
-
 ### Magnum v4 72B
 
 **Model ID**: `anthracite-org/magnum-v4-72b`  
@@ -5383,10 +5337,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $1.08
+- **Standard Output**: $1.0
 
 
 
@@ -6543,6 +6497,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.41
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2.7 Code
+
+**Model ID**: `moonshotai/kimi-k2.7-code`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.95
+
+
+- **Standard Output**: $4.0
 
 
 
@@ -11020,6 +11016,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
+- **Max Output Tokens**: 128,000 tokens
+
 
 #### Modalities
 
@@ -11039,10 +11037,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.8
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $1.0
 
 
 
@@ -12600,7 +12598,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 262,140 tokens
 
 
 #### Modalities
@@ -12621,10 +12619,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.289
+- **Standard Input**: $0.2885
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $3.17
 
 
 
