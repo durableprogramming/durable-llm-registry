@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 337
-- **Last Updated**: 2026-06-16
+- **Total Models**: 336
+- **Last Updated**: 2026-06-17
 
 ## Models
 
@@ -2390,6 +2390,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 65,536 tokens
+
 
 #### Modalities
 
@@ -2409,10 +2411,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.098
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.196
+- **Standard Output**: $0.18
 
 
 
@@ -6470,7 +6472,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -6491,7 +6493,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.74
 
 
 - **Standard Output**: $3.5
@@ -6930,7 +6932,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $2.2
 
 
 
@@ -13811,50 +13813,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Xiaomi: MiMo-V2-Flash
-
-**Model ID**: `xiaomi/mimo-v2-flash`  
-**Family**: xiaomi
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.3
-
-
-
-
-
-
-
----
-
-
 ### Xiaomi: MiMo-V2.5
 
 **Model ID**: `xiaomi/mimo-v2.5`  
@@ -14388,7 +14346,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
