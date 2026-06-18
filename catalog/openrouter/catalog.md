@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 336
-- **Last Updated**: 2026-06-17
+- **Total Models**: 341
+- **Last Updated**: 2026-06-18
 
 ## Models
 
@@ -2075,6 +2075,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Cohere: North Mini Code (free)
+
+**Model ID**: `cohere/north-mini-code:free`  
+**Family**: cohere
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Deep Cogito: Cogito v2.1 671B
 
 **Model ID**: `deepcogito/cogito-v2.1-671b`  
@@ -3046,7 +3090,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
@@ -3658,7 +3702,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -3790,7 +3834,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -3869,9 +3913,97 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Google: Nano Banana 2 (Gemini 3.1 Flash Image)
+
+**Model ID**: `google/gemini-3.1-flash-image`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
 ### Google: Nano Banana Pro (Gemini 3 Pro Image Preview)
 
 **Model ID**: `google/gemini-3-pro-image-preview`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text
+
+
+- **Output**: image, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
+### Google: Nano Banana Pro (Gemini 3 Pro Image)
+
+**Model ID**: `google/gemini-3-pro-image`  
 **Family**: google
 #### Specifications
 
@@ -9664,7 +9796,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -10569,6 +10701,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Poolside: Laguna M.1
+
+**Model ID**: `poolside/laguna-m.1`  
+**Family**: poolside
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
 ### Poolside: Laguna M.1 (free)
 
 **Model ID**: `poolside/laguna-m.1:free`  
@@ -10603,6 +10779,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Poolside: Laguna XS.2
+
+**Model ID**: `poolside/laguna-xs.2`  
+**Family**: poolside
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.2
 
 
 
@@ -12422,7 +12642,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 81,920 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -12619,7 +12839,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.14
 
 
 - **Standard Output**: $1.0
@@ -14346,7 +14566,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 524,288 tokens
 
 
 #### Modalities
