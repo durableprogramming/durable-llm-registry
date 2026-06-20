@@ -65,13 +65,18 @@ module Providers
 
         pricing = build_pricing(model)
 
+        # Prefer the values parsed from the models page; fall back to the
+        # static spec map only when the page didn't carry them.
+        context_window = model[:context_window] || specs[:context_window]
+        max_output_tokens = model[:max_output_tokens] || specs[:max_output_tokens]
+
         {
           'name' => model[:name] || api_name,
           'family' => family,
           'provider' => 'anthropic',
           'id' => api_name,
-          'context_window' => specs[:context_window],
-          'max_output_tokens' => specs[:max_output_tokens],
+          'context_window' => context_window,
+          'max_output_tokens' => max_output_tokens,
           'modalities' => {
             'input' => ['text', 'image'],
             'output' => ['text']

@@ -302,6 +302,22 @@ class TestAnthropic < Minitest::Test
     end
   end
 
+  def test_process_models_prefers_fetched_specs
+    # When the fetcher supplies context_window/max_output_tokens (as the
+    # markdown parser now does), those win over the static spec map.
+    mock_fetched_data = [
+      { name: 'Claude Opus 4.8', api_name: 'claude-opus-4-8', input_price: 5.0, output_price: 25.0,
+        context_window: 1_000_000, max_output_tokens: 128_000 }
+    ]
+
+    Fetchers::Anthropic.stub :fetch, mock_fetched_data do
+      result = @provider.send(:process_models)
+      model = result.first
+      assert_equal 1_000_000, model['context_window']
+      assert_equal 128_000, model['max_output_tokens']
+    end
+  end
+
   def test_process_models_uses_default_name_when_nil
     mock_fetched_data = [
       { name: nil, api_name: 'claude-test', input_price: 1.0, output_price: 2.0 }
@@ -681,451 +697,265 @@ class TestFetchersAnthropic < Minitest::Test
     mock_instance.verify
   end
 
-  def test_fetch_combines_models_and_pricing_successfully
-    models_data = [
-      { name: 'Claude Opus', api_name: 'claude-opus-4' },
-      { name: 'Claude Sonnet', api_name: 'claude-sonnet-4' }
-    ]
-    pricing_data = {
-      'claude-opus-4' => { input_price: 15.0, output_price: 75.0 },
-      'claude-sonnet-4' => { input_price: 3.0, output_price: 15.0 }
-    }
-    expected = [
-      { name: 'Claude Opus', api_name: 'claude-opus-4', input_price: 15.0, output_price: 75.0 },
-      { name: 'Claude Sonnet', api_name: 'claude-sonnet-4', input_price: 3.0, output_price: 15.0 }
-    ]
+  # A trimmed sample of the Markdown served at MODELS_URL. The tables are
+  # transposed: feature labels run down the first column, models across the top.
+  MODELS_MARKDOWN = <<~MD
+    # Models overview
 
-    @fetcher.stub(:fetch_models, models_data) do
-      @fetcher.stub(:fetch_pricing, pricing_data) do
-        result = @fetcher.fetch
-        assert_equal expected, result
-      end
-    end
+    ### Claude Fable 5 and Claude Mythos 5
+
+    | Feature | Claude Fable 5 | Claude Mythos 5 |
+    |:--------|:-------------|:-------------|
+    | **Claude API ID** | `claude-fable-5` | `claude-mythos-5` |
+    | **AWS Bedrock ID** | anthropic.claude-fable-5 | Limited availability |
+    | **Vertex AI ID** | claude-fable-5 | Limited availability |
+    | **Context window** | <Tooltip tooltipContent="x">1M tokens</Tooltip> | <Tooltip tooltipContent="x">1M tokens</Tooltip> |
+    | **Max output** | 128k tokens | 128k tokens |
+    | **Pricing** | $10 / $50 per MTok (input / output) | $10 / $50 per MTok (input / output) |
+
+    ### Latest models comparison
+
+    | Feature | Claude Opus 4.8 | Claude Sonnet 4.6 | Claude Haiku 4.5 |
+    |:--------|:-------------|:------------------|:-----------------|
+    | **Claude API ID** | claude-opus-4-8 | claude-sonnet-4-6 | claude-haiku-4-5-20251001 |
+    | **Claude API alias** | claude-opus-4-8 | claude-sonnet-4-6 | claude-haiku-4-5 |
+    | **AWS Bedrock ID** | anthropic.claude-opus-4-8<sup>3</sup> | anthropic.claude-sonnet-4-6 | anthropic.claude-haiku-4-5-20251001-v1:0 |
+    | **Vertex AI ID** | claude-opus-4-8 | claude-sonnet-4-6 | claude-haiku-4-5@20251001 |
+    | **Pricing**<sup>1</sup> | \\$5 / input MTok<br/>\\$25 / output MTok | \\$3 / input MTok<br/>\\$15 / output MTok | \\$1 / input MTok<br/>\\$5 / output MTok |
+    | **Context window** | <Tooltip tooltipContent="x">1M tokens</Tooltip><sup>4</sup> | <Tooltip tooltipContent="x">1M tokens</Tooltip> | <Tooltip tooltipContent="x">200k tokens</Tooltip> |
+    | **Max output** | 128k tokens | 64k tokens | 64k tokens |
+
+    <section title="Legacy models">
+
+    | Feature | Claude Opus 4.5 | Claude Opus 4.1 (deprecated) |
+    |:--------|:----------------|:----------------|
+    | **Claude API ID** | claude-opus-4-5-20251101 | claude-opus-4-1-20250805 |
+    | **AWS Bedrock ID** | anthropic.claude-opus-4-5-20251101-v1:0 | anthropic.claude-opus-4-1-20250805-v1:0 |
+    | **Vertex AI ID** | claude-opus-4-5@20251101 | claude-opus-4-1@20250805 |
+    | **Pricing** | \\$5 / input MTok<br/>\\$25 / output MTok | \\$15 / input MTok<br/>\\$75 / output MTok |
+    | **Context window** | <Tooltip tooltipContent="x">200k tokens</Tooltip> | <Tooltip tooltipContent="x">200k tokens</Tooltip> |
+    | **Max output** | 64k tokens | 32k tokens |
+
+    </section>
+  MD
+
+  def parsed
+    @fetcher.send(:parse_models, MODELS_MARKDOWN)
   end
 
-  def test_fetch_returns_empty_array_when_models_empty
-    @fetcher.stub(:fetch_models, []) do
-      @fetcher.stub(:fetch_pricing, {}) do
-        result = @fetcher.fetch
-        assert_empty result
-      end
-    end
+  def model(api_name)
+    parsed.find { |m| m[:api_name] == api_name }
   end
 
-  def test_fetch_filters_out_models_without_api_name
-    models_data = [
-      { name: 'Valid Model', api_name: 'claude-valid' },
-      { name: 'Invalid Model', api_name: nil },
-      { name: 'Another Valid', api_name: 'claude-another' }
-    ]
-    pricing_data = {
-      'claude-valid' => { input_price: 1.0 },
-      'claude-another' => { input_price: 2.0 }
-    }
-
-    @fetcher.stub(:fetch_models, models_data) do
-      @fetcher.stub(:fetch_pricing, pricing_data) do
-        result = @fetcher.fetch
-        assert_equal 2, result.size
-        api_names = result.map { |m| m[:api_name] }
-        assert_includes api_names, 'claude-valid'
-        assert_includes api_names, 'claude-another'
-      end
+  def test_fetch_returns_parsed_models
+    @fetcher.stub(:fetch_text, MODELS_MARKDOWN) do
+      result = @fetcher.fetch
+      api_names = result.map { |m| m[:api_name] }
+      assert_includes api_names, 'claude-opus-4-8'
+      assert_includes api_names, 'claude-fable-5'
+      assert_includes api_names, 'claude-opus-4-1-20250805'
     end
   end
 
   def test_fetch_logs_successful_fetch_count
-    models_data = [{ name: 'Test Model', api_name: 'claude-test' }]
-    pricing_data = {}
-
-    @fetcher.stub(:fetch_models, models_data) do
-      @fetcher.stub(:fetch_pricing, pricing_data) do
-        @fetcher.fetch
-        output = @output.string
-        assert_match %r{Successfully fetched 1 models}, output
-      end
+    @fetcher.stub(:fetch_text, MODELS_MARKDOWN) do
+      @fetcher.fetch
+      assert_match %r{Successfully fetched \d+ models}, @output.string
     end
   end
 
-  def test_fetch_handles_fetch_models_error
-    @fetcher.stub(:fetch_pricing, {}) do
-      @fetcher.stub(:fetch_models, -> { raise StandardError.new('Models fetch failed') }) do
-        result = @fetcher.fetch
-        assert_empty result
-        output = @output.string
-        assert_match %r{Failed to fetch Anthropic data: StandardError - Models fetch failed}, output
-      end
+  def test_fetch_returns_empty_array_when_markdown_blank
+    @fetcher.stub(:fetch_text, '') do
+      assert_empty @fetcher.fetch
     end
   end
 
-  def test_fetch_handles_fetch_pricing_error
-    models_data = [{ name: 'Test Model', api_name: 'claude-test' }]
-
-    @fetcher.stub(:fetch_models, models_data) do
-      @fetcher.stub(:fetch_pricing, -> { raise StandardError.new('Pricing fetch failed') }) do
-        result = @fetcher.fetch
-        assert_empty result
-        output = @output.string
-        assert_match %r{Failed to fetch Anthropic data: StandardError - Pricing fetch failed}, output
-      end
+  def test_fetch_returns_empty_array_when_fetch_text_nil
+    @fetcher.stub(:fetch_text, nil) do
+      assert_empty @fetcher.fetch
     end
   end
 
   def test_fetch_handles_unexpected_error
-    @fetcher.stub(:fetch_pricing, {}) do
-      @fetcher.stub(:fetch_models, -> { raise RuntimeError.new('Unexpected error') }) do
-        result = @fetcher.fetch
-        assert_empty result
-        output = @output.string
-        assert_match %r{Failed to fetch Anthropic data: RuntimeError - Unexpected error}, output
-      end
-    end
-  end
-
-  def test_fetch_returns_empty_array_on_any_error
-    @fetcher.stub(:fetch_pricing, {}) do
-      @fetcher.stub(:fetch_models, -> { raise 'Some error' }) do
-        result = @fetcher.fetch
-        assert_equal [], result
-      end
-    end
-  end
-
-  def test_fetch_models_parses_table_rows_successfully
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td><td>us-east-1</td><td>us-east1</td></tr>
-            <tr><td>Claude Sonnet 4</td><td>claude-sonnet-4-20250514</td><td>us-west-2</td><td>us-west2</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_equal 2, result.size
-      assert_equal 'Claude Opus 4', result[0][:name]
-      assert_equal 'claude-opus-4-20250514', result[0][:api_name]
-      assert_equal 'us-east-1', result[0][:bedrock_name]
-      assert_equal 'us-east1', result[0][:vertex_name]
-    end
-  end
-
-  def test_fetch_models_skips_header_rows
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Model</td><td>API Name</td></tr>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_equal 1, result.size
-      assert_equal 'Claude Opus 4', result[0][:name]
-    end
-  end
-
-  def test_fetch_models_skips_empty_or_invalid_rows
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td></td><td></td></tr>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-            <tr><td>Invalid Model</td><td>invalid-name</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_equal 1, result.size
-      assert_equal 'Claude Opus 4', result[0][:name]
-    end
-  end
-
-  def test_fetch_models_falls_back_to_headings
-    html = <<-HTML
-      <html>
-        <body>
-          <h2>Claude Opus 4</h2>
-          <p>Some description</p>
-          <code>claude-opus-4-20250514</code>
-          <h3>Claude Sonnet 4</h3>
-          <code>claude-sonnet-4-20250514</code>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_equal 2, result.size
-      names = result.map { |m| m[:name] }
-      assert_includes names, 'Claude Opus 4'
-      assert_includes names, 'Claude Sonnet 4'
-    end
-  end
-
-  def test_fetch_models_deduplicates_by_api_name
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-            <tr><td>Claude Opus 4 (Duplicate)</td><td>claude-opus-4-20250514</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_equal 1, result.size
-      assert_equal 'Claude Opus 4', result[0][:name]
-    end
-  end
-
-  def test_fetch_models_logs_extracted_count
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      @fetcher.send(:fetch_models)
-      output = @output.string
-      assert_match %r{Extracted 1 unique models}, output
-    end
-  end
-
-  def test_fetch_models_returns_empty_array_when_fetch_html_fails
-    @fetcher.stub(:fetch_html, nil) do
-      result = @fetcher.send(:fetch_models)
+    @fetcher.stub(:fetch_text, ->(*) { raise RuntimeError.new('boom') }) do
+      result = @fetcher.fetch
       assert_empty result
+      assert_match %r{Failed to fetch Anthropic data: RuntimeError - boom}, @output.string
     end
   end
 
-  def test_fetch_models_handles_table_parsing_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    # Mock css to raise an error
-    doc.stub(:css, ->(*args) { raise StandardError.new('CSS parsing failed') }) do
-      @fetcher.stub(:fetch_html, doc) do
-        result = @fetcher.send(:fetch_models)
-        assert_empty result
-        output = @output.string
-        assert_match %r{Error in fetch_models: StandardError - CSS parsing failed}, output
-      end
-    end
+  def test_parse_models_extracts_all_models
+    # 2 (Fable/Mythos) + 3 (latest) + 2 (legacy) = 7
+    assert_equal 7, parsed.size
   end
 
-  def test_fetch_models_handles_row_parsing_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>claude-opus-4-20250514</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    # Mock row to raise an error
-    mock_row = mock('row')
-    mock_row.stubs(:css).raises(StandardError.new('Row parsing failed'))
-    mock_row.stubs(:text).returns('dummy')
-    doc.stubs(:css).returns([mock_row])
-    @fetcher.stubs(:fetch_html).returns(doc)
-    result = @fetcher.send(:fetch_models)
-    # Should continue processing despite error
-    assert_empty result
-    output = @output.string
-    assert_match %r{Error parsing model row: Row parsing failed}, output
+  def test_parse_models_prefers_id_row_over_alias
+    # Haiku's id row carries the dated id; the alias row carries the dateless
+    # one. We key on the id row.
+    assert model('claude-haiku-4-5-20251001')
+    refute model('claude-haiku-4-5')
   end
 
-  def test_fetch_models_handles_heading_parsing_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <h2>Claude Opus 4</h2>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    # Mock heading to raise an error
-    mock_heading = mock('heading')
-    mock_heading.stubs(:text).raises(StandardError.new('Heading parsing failed'))
-    mock_heading.stubs(:css).returns([])
-    doc.stubs(:css).returns([mock_heading])
-    @fetcher.stubs(:fetch_html).returns(doc)
-    result = @fetcher.send(:fetch_models)
-    assert_empty result
-    output = @output.string
-    assert_match %r{Error extracting text: Heading parsing failed}, output
+  def test_parse_models_extracts_dateless_ids
+    m = model('claude-opus-4-8')
+    assert_equal 'Claude Opus 4.8', m[:name]
   end
 
-  def test_fetch_models_returns_empty_array_on_unexpected_error
-    @fetcher.stubs(:fetch_html).raises(RuntimeError.new('Unexpected fetch error'))
-    result = @fetcher.send(:fetch_models)
-    assert_empty result
-    output = @output.string
-    assert_match %r{Error in fetch_models: RuntimeError - Unexpected fetch error}, output
+  def test_parse_models_strips_deprecated_suffix_from_name
+    m = model('claude-opus-4-1-20250805')
+    assert_equal 'Claude Opus 4.1', m[:name]
   end
 
-  def test_fetch_models_handles_empty_table
-    html = <<-HTML
-      <html>
-        <body>
-          <table></table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_empty result
-    end
+  def test_parse_models_extracts_bedrock_and_vertex_ids
+    m = model('claude-haiku-4-5-20251001')
+    assert_equal 'anthropic.claude-haiku-4-5-20251001-v1:0', m[:bedrock_name]
+    assert_equal 'claude-haiku-4-5@20251001', m[:vertex_name]
   end
 
-  def test_fetch_models_handles_table_without_rows
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <thead><tr><th>Header</th></tr></thead>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_models)
-      assert_empty result
-    end
+  def test_parse_models_strips_sup_footnotes_from_bedrock_id
+    m = model('claude-opus-4-8')
+    assert_equal 'anthropic.claude-opus-4-8', m[:bedrock_name]
   end
 
-  # Sample of the Markdown pricing table served at PRICING_URL. Columns:
-  # Model | Base Input Tokens | 5m Cache Writes | 1h Cache Writes |
-  # Cache Hits & Refreshes | Output Tokens
-  PRICING_MARKDOWN = <<~MD
-    # Pricing
-
-    ## Model pricing
-
-    | Model | Base Input Tokens | 5m Cache Writes | 1h Cache Writes | Cache Hits & Refreshes | Output Tokens |
-    |-------|-------------------|-----------------|-----------------|------------------------|---------------|
-    | Claude Opus 4.8 | $5 / MTok | $6.25 / MTok | $10 / MTok | $0.50 / MTok | $25 / MTok |
-    | Claude Sonnet 4.6 | $3 / MTok | $3.75 / MTok | $6 / MTok | $0.30 / MTok | $15 / MTok |
-    | Claude Opus 4.1 ([deprecated](/docs/en/about-claude/model-deprecations)) | $15 / MTok | $18.75 / MTok | $30 / MTok | $1.50 / MTok | $75 / MTok |
-
-    ## Feature-specific pricing
-  MD
-
-  def test_fetch_pricing_parses_markdown_table_successfully
-    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_equal 3, result.size
-      assert_equal 5.0, result['claude-opus-4-8'][:input_price]
-      assert_equal 25.0, result['claude-opus-4-8'][:output_price]
-      assert_equal 6.25, result['claude-opus-4-8'][:cache_write_price]
-      assert_equal 0.5, result['claude-opus-4-8'][:cache_hit_price]
-      assert_equal 3.0, result['claude-sonnet-4-6'][:input_price]
-      assert_equal 15.0, result['claude-sonnet-4-6'][:output_price]
-    end
+  def test_parse_models_extracts_split_pricing
+    m = model('claude-opus-4-8')
+    assert_equal 5.0, m[:input_price]
+    assert_equal 25.0, m[:output_price]
   end
 
-  def test_fetch_pricing_handles_deprecated_link_suffix
-    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
-      result = @fetcher.send(:fetch_pricing)
-      # The "([deprecated](.../model-deprecations))" suffix must not prevent the
-      # row from being parsed (the URL contains the word "model").
-      assert result.key?('claude-opus-4-1')
-      assert_equal 15.0, result['claude-opus-4-1'][:input_price]
-    end
+  def test_parse_models_extracts_combined_pricing
+    m = model('claude-fable-5')
+    assert_equal 10.0, m[:input_price]
+    assert_equal 50.0, m[:output_price]
   end
 
-  def test_fetch_pricing_logs_extracted_count
-    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
-      @fetcher.send(:fetch_pricing)
-      output = @output.string
-      assert_match %r{Extracted pricing for 3 models}, output
-    end
+  def test_parse_models_extracts_context_window
+    assert_equal 1_000_000, model('claude-opus-4-8')[:context_window]
+    assert_equal 200_000, model('claude-haiku-4-5-20251001')[:context_window]
   end
 
-  def test_fetch_pricing_returns_empty_hash_when_fetch_text_fails
-    @fetcher.stub(:fetch_text, nil) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_empty result
-    end
+  def test_parse_models_extracts_max_output
+    assert_equal 128_000, model('claude-opus-4-8')[:max_output_tokens]
+    assert_equal 64_000, model('claude-sonnet-4-6')[:max_output_tokens]
+    assert_equal 32_000, model('claude-opus-4-1-20250805')[:max_output_tokens]
   end
 
-  def test_fetch_pricing_returns_empty_hash_for_blank_markdown
-    @fetcher.stub(:fetch_text, '') do
-      result = @fetcher.send(:fetch_pricing)
-      assert_empty result
-    end
+  def test_parse_models_strips_sup_from_context_window
+    # Opus 4.8's context cell carries a "<sup>4</sup>" footnote marker.
+    assert_equal 1_000_000, model('claude-opus-4-8')[:context_window]
   end
 
-  def test_fetch_pricing_returns_empty_hash_when_no_pricing_table
-    markdown = "# Pricing\n\nNo tables here.\n"
-    @fetcher.stub(:fetch_text, markdown) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_empty result
-    end
+  def test_parse_models_deduplicates_by_api_name
+    md = MODELS_MARKDOWN + <<~MD
+
+      | Feature | Claude Opus 4.8 |
+      |:--------|:----------------|
+      | **Claude API ID** | claude-opus-4-8 |
+    MD
+    result = @fetcher.send(:parse_models, md)
+    assert_equal 1, result.count { |m| m[:api_name] == 'claude-opus-4-8' }
   end
 
-  def test_parse_pricing_handles_nil
-    result = @fetcher.send(:parse_pricing, nil)
-    assert_empty result
+  def test_parse_models_ignores_tables_without_id_row
+    md = <<~MD
+      | Feature | Foo | Bar |
+      |:--------|:----|:----|
+      | **Latency** | Fast | Slow |
+    MD
+    assert_empty @fetcher.send(:parse_models, md)
   end
 
-  def test_fetch_html_successful_request
-    html_content = '<html><body><h1>Test</h1></body></html>'
+  def test_parse_models_handles_markdown_without_tables
+    assert_empty @fetcher.send(:parse_models, "# Heading\n\nNo tables here.\n")
+  end
+
+  def test_parse_token_count_handles_m_and_k
+    assert_equal 1_000_000, @fetcher.send(:parse_token_count, '1M tokens')
+    assert_equal 200_000, @fetcher.send(:parse_token_count, '200k tokens')
+    assert_equal 128_000, @fetcher.send(:parse_token_count, '128k tokens')
+  end
+
+  def test_parse_token_count_strips_tags
+    assert_equal 1_000_000, @fetcher.send(:parse_token_count, '<Tooltip x>1M tokens</Tooltip>')
+  end
+
+  def test_parse_token_count_returns_nil_for_blank
+    assert_nil @fetcher.send(:parse_token_count, nil)
+    assert_nil @fetcher.send(:parse_token_count, '')
+    assert_nil @fetcher.send(:parse_token_count, 'unknown')
+  end
+
+  def test_parse_pricing_cell_split_form
+    input, output = @fetcher.send(:parse_pricing_cell, '\\$5 / input MTok<br/>\\$25 / output MTok')
+    assert_equal 5.0, input
+    assert_equal 25.0, output
+  end
+
+  def test_parse_pricing_cell_combined_form
+    input, output = @fetcher.send(:parse_pricing_cell, '$10 / $50 per MTok (input / output)')
+    assert_equal 10.0, input
+    assert_equal 50.0, output
+  end
+
+  def test_parse_pricing_cell_handles_blank
+    assert_equal [nil, nil], @fetcher.send(:parse_pricing_cell, nil)
+    assert_equal [nil, nil], @fetcher.send(:parse_pricing_cell, '')
+  end
+
+  def test_clean_id_strips_markers
+    assert_equal 'claude-opus-4-8', @fetcher.send(:clean_id, '`claude-opus-4-8`')
+    assert_equal 'anthropic.claude-opus-4-8', @fetcher.send(:clean_id, 'anthropic.claude-opus-4-8<sup>3</sup>')
+    assert_equal '', @fetcher.send(:clean_id, nil)
+  end
+
+  def test_clean_model_name_strips_deprecated_and_markers
+    assert_equal 'Claude Opus 4.1', @fetcher.send(:clean_model_name, 'Claude Opus 4.1 (deprecated)')
+    assert_equal 'Claude Opus 4.8', @fetcher.send(:clean_model_name, '**Claude Opus 4.8**')
+  end
+
+  def test_normalize_label_strips_bold_and_footnotes
+    assert_equal 'claude api id', @fetcher.send(:normalize_label, '**Claude API ID**')
+    assert_equal 'pricing', @fetcher.send(:normalize_label, '**Pricing**<sup>1</sup>')
+  end
+
+  def test_normalize_label_strips_markdown_links
+    label = '**[Extended thinking](/docs/en/build-with-claude/extended-thinking)**'
+    assert_equal 'extended thinking', @fetcher.send(:normalize_label, label)
+  end
+
+  def test_valid_api_name_accepts_valid_names
+    assert @fetcher.send(:valid_api_name?, 'claude-opus-4-8')
+    assert @fetcher.send(:valid_api_name?, 'claude-haiku-4-5-20251001')
+  end
+
+  def test_valid_api_name_rejects_invalid
+    refute @fetcher.send(:valid_api_name?, nil)
+    refute @fetcher.send(:valid_api_name?, '')
+    refute @fetcher.send(:valid_api_name?, 'gpt-4')
+    refute @fetcher.send(:valid_api_name?, 'claude opus 4')
+  end
+
+  def test_connection_returns_http_cache_instance
+    assert_kind_of HttpCache, @fetcher.send(:connection)
+  end
+
+  def test_connection_memoizes_instance
+    assert_same @fetcher.send(:connection), @fetcher.send(:connection)
+  end
+
+  def test_fetch_text_successful_request
     mock_response = mock('response')
     mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns(html_content)
+    mock_response.expects(:body).returns('hello').at_least_once
     mock_connection = mock('connection')
     mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
 
     @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    assert_kind_of Nokogiri::HTML::Document, result
-    assert_equal 'Test', result.css('h1').text
+    result = @fetcher.send(:fetch_text, Fetchers::Anthropic::MODELS_URL, 'test page')
+    assert_equal 'hello', result
   end
 
-  def test_fetch_html_handles_http_error
+  def test_fetch_text_handles_http_error
     mock_response = mock('response')
     mock_response.expects(:success?).returns(false)
     mock_response.expects(:status).returns(404)
@@ -1133,485 +963,42 @@ class TestFetchersAnthropic < Minitest::Test
     mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
 
     @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
+    result = @fetcher.send(:fetch_text, Fetchers::Anthropic::MODELS_URL, 'test page')
     assert_nil result
-    output = @output.string
-    assert_match %r{Failed to fetch test page: HTTP 404 for test page}, output
+    assert_match %r{Failed to fetch test page: HTTP 404 for test page}, @output.string
   end
 
-  def test_fetch_html_handles_empty_response_body
+  def test_fetch_text_handles_empty_body
     mock_response = mock('response')
     mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns('')
+    mock_response.expects(:body).returns('').at_least_once
     mock_connection = mock('connection')
     mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
 
     @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
+    result = @fetcher.send(:fetch_text, Fetchers::Anthropic::MODELS_URL, 'test page')
     assert_nil result
-    output = @output.string
-    assert_match %r{Failed to fetch test page: Empty response body for test page}, output
+    assert_match %r{Empty response body for test page}, @output.string
   end
 
-  def test_fetch_html_handles_nil_response_body
-    mock_response = mock('response')
-    mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns(nil)
-    mock_connection = mock('connection')
-    mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
-
-    @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    assert_nil result
-  end
-
-  def test_fetch_html_handles_invalid_html
-    invalid_html = '<html><body><unclosed>'
-    mock_response = mock('response')
-    mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns(invalid_html)
-    mock_connection = mock('connection')
-    mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
-
-    @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    assert_nil result
-    output = @output.string
-    assert_match %r{Failed to fetch test page: Failed to parse HTML for test page}, output
-  end
-
-  def test_fetch_html_handles_timeout_with_retry
+  def test_fetch_text_handles_timeout_with_retry
     mock_connection = mock('connection')
     mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).times(4).raises(Faraday::TimeoutError.new('Timeout'))
 
     @fetcher.stubs(:connection).returns(mock_connection)
     @fetcher.stubs(:sleep).returns(nil)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
+    result = @fetcher.send(:fetch_text, Fetchers::Anthropic::MODELS_URL, 'test page')
     assert_nil result
-    output = @output.string
-    assert_match %r{Max retries reached for test page}, output
+    assert_match %r{Max retries reached for test page}, @output.string
   end
 
-  def test_fetch_html_handles_timeout_success_after_retry
-    html_content = '<html><body>Success</body></html>'
-    mock_response = mock('response')
-    mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns(html_content)
-    mock_connection = mock('connection')
-    mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
-
-    @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    assert_kind_of Nokogiri::HTML::Document, result
-  end
-
-  def test_fetch_html_handles_faraday_error
+  def test_fetch_text_handles_faraday_error
     mock_connection = mock('connection')
     mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).raises(Faraday::Error.new('Connection failed'))
 
     @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
+    result = @fetcher.send(:fetch_text, Fetchers::Anthropic::MODELS_URL, 'test page')
     assert_nil result
-    output = @output.string
-    assert_match %r{Failed to fetch test page: Connection failed}, output
-  end
-
-  def test_fetch_html_handles_unexpected_error
-    mock_connection = mock('connection')
-    mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).raises(RuntimeError.new('Unexpected error'))
-
-    @fetcher.stubs(:connection).returns(mock_connection)
-    result = @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    assert_nil result
-    output = @output.string
-    assert_match %r{Unexpected error fetching test page: RuntimeError - Unexpected error}, output
-  end
-
-  def test_fetch_html_logs_debug_message
-    html_content = '<html><body>Test</body></html>'
-    mock_response = mock('response')
-    mock_response.expects(:success?).returns(true)
-    mock_response.expects(:body).returns(html_content)
-    mock_connection = mock('connection')
-    mock_connection.expects(:get).with(Fetchers::Anthropic::MODELS_URL).returns(mock_response)
-
-    @fetcher.stubs(:connection).returns(mock_connection)
-    @fetcher.send(:fetch_html, Fetchers::Anthropic::MODELS_URL, 'test page')
-    output = @output.string
-    assert_match %r{Fetching test page from}, output
-  end
-
-  def test_connection_returns_http_cache_instance
-    connection = @fetcher.send(:connection)
-    assert_kind_of HttpCache, connection
-  end
-
-  def test_connection_memoizes_instance
-    conn1 = @fetcher.send(:connection)
-    conn2 = @fetcher.send(:connection)
-    assert_same conn1, conn2
-  end
-
-  def test_extract_pricing_info_with_input_output_headers
-    # Create real Nokogiri elements for testing
-    doc = Nokogiri::HTML('<table><tr><td>Claude Opus 4</td><td>$15</td><td>$75</td></tr></table>')
-    cells = doc.css('td')
-    headers = ['', 'Input', 'Output']
-    result = @fetcher.send(:extract_pricing_info, cells, headers)
-    expected = { input_price: 15.0, output_price: 75.0 }
-    assert_equal expected, result
-  end
-
-  def test_extract_pricing_info_with_position_based_fallback
-    doc = Nokogiri::HTML('<table><tr><td>Claude Opus 4</td><td>$10</td><td>$20</td><td>$30</td></tr></table>')
-    cells = doc.css('td')
-    headers = ['', 'Price1', 'Price2', 'Price3']
-    result = @fetcher.send(:extract_pricing_info, cells, headers)
-    expected = { input_price: 10.0, cache_write_price: 20.0, output_price: 30.0 }
-    assert_equal expected, result
-  end
-
-  def test_extract_pricing_info_handles_invalid_prices
-    doc = Nokogiri::HTML('<table><tr><td>Claude Opus 4</td><td>invalid</td><td>$75</td></tr></table>')
-    cells = doc.css('td')
-    headers = ['', 'Input', 'Output']
-    result = @fetcher.send(:extract_pricing_info, cells, headers)
-    expected = { output_price: 75.0 }
-    assert_equal expected, result
-  end
-
-  def test_determine_price_key_with_input_headers
-    assert_equal :input_price, @fetcher.send(:determine_price_key, 'input', 1, 3)
-    assert_equal :input_price, @fetcher.send(:determine_price_key, 'base input', 1, 3)
-  end
-
-  def test_determine_price_key_with_output_headers
-    assert_equal :output_price, @fetcher.send(:determine_price_key, 'output', 2, 3)
-  end
-
-  def test_determine_price_key_with_cache_write_headers
-    assert_equal :cache_write_price, @fetcher.send(:determine_price_key, 'cache write', 2, 4)
-    assert_equal :cache_write_price, @fetcher.send(:determine_price_key, 'write cache', 2, 4)
-  end
-
-  def test_determine_price_key_with_cache_hit_headers
-    assert_equal :cache_hit_price, @fetcher.send(:determine_price_key, 'cache hit', 3, 4)
-    assert_equal :cache_hit_price, @fetcher.send(:determine_price_key, 'refresh', 3, 4)
-  end
-
-  def test_determine_price_key_with_position_fallback
-    # First data column (index 1) -> input_price
-    assert_equal :input_price, @fetcher.send(:determine_price_key, 'unknown', 1, 3)
-    # Second data column (index 2) -> cache_write_price
-    assert_equal :cache_write_price, @fetcher.send(:determine_price_key, 'unknown', 2, 4)
-    # Last column -> output_price
-    assert_equal :output_price, @fetcher.send(:determine_price_key, 'unknown', 3, 4)
-    # Second to last column -> cache_hit_price
-    assert_equal :cache_hit_price, @fetcher.send(:determine_price_key, 'unknown', 3, 5)
-  end
-
-  def test_determine_price_key_returns_nil_for_unknown
-    assert_nil @fetcher.send(:determine_price_key, 'unknown', 3, 6)
-  end
-
-  def test_safe_text_with_valid_element
-    doc = Nokogiri::HTML('<div>  Test Text  </div>')
-    element = doc.css('div').first
-    result = @fetcher.send(:safe_text, element)
-    assert_equal 'Test Text', result
-  end
-
-  def test_safe_text_with_nil_element
-    result = @fetcher.send(:safe_text, nil)
-    assert_equal '', result
-  end
-
-  def test_safe_text_normalizes_whitespace
-    doc = Nokogiri::HTML('<div>Test
-
-Text		With  Spaces</div>')
-    element = doc.css('div').first
-    result = @fetcher.send(:safe_text, element)
-    assert_equal 'Test Text With Spaces', result
-  end
-
-  def test_header_row_detects_model_headers
-    assert @fetcher.send(:header_row?, 'Model')
-    assert @fetcher.send(:header_row?, 'model')
-    assert @fetcher.send(:header_row?, 'MODEL')
-  end
-
-  def test_header_row_detects_name_headers
-    assert @fetcher.send(:header_row?, 'Name')
-    assert @fetcher.send(:header_row?, 'name')
-  end
-
-  def test_header_row_detects_api_headers
-    assert @fetcher.send(:header_row?, 'API')
-    assert @fetcher.send(:header_row?, 'api')
-  end
-
-  def test_header_row_detects_feature_headers
-    assert @fetcher.send(:header_row?, 'Feature')
-    assert @fetcher.send(:header_row?, 'feature')
-  end
-
-  def test_header_row_returns_false_for_regular_content
-    refute @fetcher.send(:header_row?, 'Claude Opus 4')
-    refute @fetcher.send(:header_row?, 'claude-opus-4-20250514')
-    refute @fetcher.send(:header_row?, 'Some other text')
-  end
-
-  def test_header_row_handles_case_insensitive_matching
-    assert @fetcher.send(:header_row?, 'MODEL NAME')
-    assert @fetcher.send(:header_row?, 'Api Name')
-  end
-
-  def test_valid_api_name_accepts_valid_names
-    assert @fetcher.send(:valid_api_name?, 'claude-opus-4-20250514')
-    assert @fetcher.send(:valid_api_name?, 'claude-sonnet-4-20250514')
-    assert @fetcher.send(:valid_api_name?, 'claude-3-5-haiku-20241022')
-  end
-
-  def test_valid_api_name_rejects_nil
-    refute @fetcher.send(:valid_api_name?, nil)
-  end
-
-  def test_valid_api_name_rejects_empty_string
-    refute @fetcher.send(:valid_api_name?, '')
-  end
-
-  def test_valid_api_name_rejects_non_claude_prefix
-    refute @fetcher.send(:valid_api_name?, 'gpt-4')
-    refute @fetcher.send(:valid_api_name?, 'some-other-model')
-  end
-
-  def test_valid_api_name_rejects_names_with_spaces
-    refute @fetcher.send(:valid_api_name?, 'claude opus 4')
-    refute @fetcher.send(:valid_api_name?, 'claude-opus 4')
-  end
-
-  def test_valid_api_name_rejects_short_names
-    refute @fetcher.send(:valid_api_name?, 'claude')
-    refute @fetcher.send(:valid_api_name?, 'claude-')
-  end
-
-  def test_extract_price_with_dollar_sign
-    assert_equal 15.0, @fetcher.send(:extract_price, '$15')
-    assert_equal 3.5, @fetcher.send(:extract_price, '$3.50')
-  end
-
-  def test_extract_price_without_dollar_sign
-    assert_equal 15.0, @fetcher.send(:extract_price, '15')
-    assert_equal 3.5, @fetcher.send(:extract_price, '3.50')
-  end
-
-  def test_extract_price_with_per_unit_text
-    assert_equal 15.0, @fetcher.send(:extract_price, '$15 / MTok')
-    assert_equal 3.0, @fetcher.send(:extract_price, '3.00 per million tokens')
-  end
-
-  def test_extract_price_with_commas_and_spaces
-    assert_equal 1500.0, @fetcher.send(:extract_price, '$1,500')
-    assert_equal 15.0, @fetcher.send(:extract_price, '$ 15 ')
-  end
-
-  def test_extract_price_returns_nil_for_zero
-    assert_nil @fetcher.send(:extract_price, '$0')
-    assert_nil @fetcher.send(:extract_price, '0.0')
-  end
-
-  def test_extract_price_returns_nil_for_negative
-    assert_nil @fetcher.send(:extract_price, '$-5')
-    assert_nil @fetcher.send(:extract_price, '-10')
-  end
-
-  def test_extract_price_returns_nil_for_no_numbers
-    assert_nil @fetcher.send(:extract_price, 'no price')
-    assert_nil @fetcher.send(:extract_price, 'free')
-  end
-
-  def test_extract_price_returns_nil_for_nil_input
-    assert_nil @fetcher.send(:extract_price, nil)
-  end
-
-  def test_extract_price_returns_nil_for_empty_string
-    assert_nil @fetcher.send(:extract_price, '')
-  end
-
-  def test_extract_price_handles_regex_error
-    bad_text = '$15'.dup
-    bad_text.define_singleton_method(:gsub) { |*args| raise StandardError.new('Regex failed') }
-    result = @fetcher.send(:extract_price, bad_text)
-    assert_nil result
-    output = @output.string
-    assert_match %r{Error extracting price from '\$15': Regex failed}, output
-  end
-
-  def test_extract_api_name_from_text_with_valid_api_name
-    assert_equal 'claude-opus-4-20250514', @fetcher.send(:extract_api_name_from_text, 'claude-opus-4-20250514')
-  end
-
-  def test_extract_api_name_from_text_opus_4
-    assert_equal 'claude-opus-4', @fetcher.send(:extract_api_name_from_text, 'Claude Opus 4')
-    assert_equal 'claude-opus-4', @fetcher.send(:extract_api_name_from_text, 'OPUS 4.0 model')
-  end
-
-  def test_extract_api_name_from_text_sonnet_4
-    assert_equal 'claude-sonnet-4', @fetcher.send(:extract_api_name_from_text, 'Claude Sonnet 4')
-    assert_equal 'claude-sonnet-4', @fetcher.send(:extract_api_name_from_text, 'SONNET 4.0')
-  end
-
-  def test_extract_api_name_from_text_haiku_35
-    assert_equal 'claude-3-5-haiku', @fetcher.send(:extract_api_name_from_text, 'Claude 3.5 Haiku')
-    assert_equal 'claude-3-5-haiku', @fetcher.send(:extract_api_name_from_text, 'HAIKU 3.5')
-  end
-
-  def test_extract_api_name_from_text_haiku_3
-    assert_equal 'claude-3-haiku', @fetcher.send(:extract_api_name_from_text, 'Claude 3 Haiku')
-    assert_equal 'claude-3-haiku', @fetcher.send(:extract_api_name_from_text, 'HAIKU 3.0')
-  end
-
-  def test_extract_api_name_from_text_sonnet_37
-    assert_equal 'claude-3-7-sonnet', @fetcher.send(:extract_api_name_from_text, 'Claude 3.7 Sonnet')
-  end
-
-  def test_extract_api_name_from_text_returns_nil_for_invalid_version
-    assert_nil @fetcher.send(:extract_api_name_from_text, 'Claude Opus 0')
-    assert_nil @fetcher.send(:extract_api_name_from_text, 'Invalid 4')
-  end
-
-  def test_extract_api_name_from_text_returns_nil_for_no_match
-    assert_nil @fetcher.send(:extract_api_name_from_text, 'Some random text')
-    assert_nil @fetcher.send(:extract_api_name_from_text, 'GPT-4')
-  end
-
-  def test_extract_api_name_from_text_returns_nil_for_nil_input
-    assert_nil @fetcher.send(:extract_api_name_from_text, nil)
-  end
-
-  def test_extract_api_name_from_text_returns_nil_for_empty_string
-    assert_nil @fetcher.send(:extract_api_name_from_text, '')
-  end
-
-  def test_extract_api_name_from_text_handles_error
-    bad_text = 'Claude Opus 4'.dup
-    def bad_text.match(*args)
-      raise StandardError.new('Regex failed')
-    end
-    result = @fetcher.send(:extract_api_name_from_text, bad_text)
-    assert_equal 'claude-opus-4', result
-    # The method handles the error internally and returns the expected result
-  end
-
-  def test_extract_api_name_with_code_block_sibling
-    heading = mock_element('Claude Opus 4')
-    code_element = mock_element('claude-opus-4-20250514')
-    code_element.define_singleton_method(:name) { 'code' }
-    code_element.define_singleton_method(:css) { |selector| selector == 'code' ? [code_element] : [] }
-    heading.define_singleton_method(:next_element) { code_element }
-    code_element.define_singleton_method(:next_element) { nil }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_equal 'claude-opus-4-20250514', result
-  end
-
-  def test_extract_api_name_with_nested_code_in_sibling
-    heading = mock_element('Claude Opus 4')
-    sibling = mock_element('')
-    code_element = mock_element('claude-opus-4-20250514')
-    sibling.define_singleton_method(:name) { 'p' }
-    sibling.define_singleton_method(:css) { |selector| selector == 'code' ? [code_element] : [] }
-    heading.define_singleton_method(:next_element) { sibling }
-    sibling.define_singleton_method(:next_element) { nil }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_equal 'claude-opus-4-20250514', result
-  end
-
-  def test_extract_api_name_stops_at_next_heading
-    heading = mock_element('Claude Opus 4')
-    sibling = mock_element('')
-    sibling.define_singleton_method(:name) { 'h3' }
-    heading.define_singleton_method(:next_element) { sibling }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_nil result
-  end
-
-  def test_extract_api_name_skips_invalid_api_names
-    heading = mock_element('Claude Opus 4')
-    code_element = mock_element('invalid-name')
-    code_element.define_singleton_method(:name) { 'code' }
-    code_element.define_singleton_method(:css) { |selector| selector == 'code' ? [code_element] : [] }
-    heading.define_singleton_method(:next_element) { code_element }
-    code_element.define_singleton_method(:next_element) { nil }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_nil result
-  end
-
-  def test_extract_api_name_returns_nil_when_no_code_found
-    heading = mock_element('Claude Opus 4')
-    sibling = mock_element('Some text')
-    sibling.define_singleton_method(:name) { 'p' }
-    sibling.define_singleton_method(:css) { |selector| selector == 'code' ? [] : [] }
-    heading.define_singleton_method(:next_element) { sibling }
-    sibling.define_singleton_method(:next_element) { nil }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_nil result
-  end
-
-  def test_extract_api_name_returns_nil_for_nil_element
-    result = @fetcher.send(:extract_api_name, nil)
-    assert_nil result
-  end
-
-  def test_extract_api_name_handles_traversal_error
-    heading = mock_element('Claude Opus 4')
-    heading.define_singleton_method(:next_element) { raise StandardError.new('Traversal failed') }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_nil result
-    output = @output.string
-    assert_match %r{Error extracting API name from element: Traversal failed}, output
-  end
-
-  def test_extract_api_name_limits_depth
-    heading = mock_element('Claude Opus 4')
-    # Create a chain of siblings that exceeds max_depth (10)
-    siblings = []
-    12.times do |i|
-      sibling = mock_element('')
-      sibling.define_singleton_method(:name) { 'p' }
-      sibling.define_singleton_method(:css) { |selector| selector == 'code' ? [] : [] }
-      siblings << sibling
-    end
-
-    # Chain them together
-    siblings.each_with_index do |sibling, i|
-      if i < 11
-        sibling.define_singleton_method(:next_element) { siblings[i + 1] }
-      else
-        sibling.define_singleton_method(:next_element) { nil }
-      end
-    end
-
-    heading.define_singleton_method(:next_element) { siblings[0] }
-
-    result = @fetcher.send(:extract_api_name, heading)
-    assert_nil result
-  end
-
-  private
-
-  def mock_element(text)
-    element = Object.new
-    element.define_singleton_method(:text) { text }
-    element.define_singleton_method(:name) { 'div' }
-    element.define_singleton_method(:css) { |*args| [] }
-    element.define_singleton_method(:next_element) { nil }
-    element
+    assert_match %r{Failed to fetch test page: Connection failed}, @output.string
   end
 end
