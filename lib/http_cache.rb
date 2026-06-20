@@ -1,4 +1,5 @@
  require 'faraday'
+ require 'faraday/follow_redirects'
  require 'json'
  require 'fileutils'
  require 'digest/md5'
@@ -72,6 +73,7 @@ class HttpCache
       @faraday_options.each do |key, value|
         conn.options.send("#{key}=", value)
       end
+      conn.response :follow_redirects
       conn.adapter Faraday.default_adapter
     end
   end

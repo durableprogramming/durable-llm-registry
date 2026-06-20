@@ -83,7 +83,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_equal 2, models.size
       assert_equal 'Llama 3.1 8B Instruct', models[0][:name]
       assert_equal 'llama-3-1-8b-instruct', models[0][:api_name]
@@ -105,7 +105,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_empty models
     end
   end
@@ -120,7 +120,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_empty models
     end
   end
@@ -138,7 +138,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_equal 1, models.size
       assert_equal 'Test Model 1', models[0][:name]
     end
@@ -154,7 +154,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      @fetcher.send(:fetch_models)
+      @fetcher.send(:fetch_models_from_html)
       assert_match %r{Extracted 1 unique models}, @output.string
     end
   end
@@ -170,7 +170,7 @@ class TestFireworks < Minitest::Test
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
       @fetcher.stub :extract_model_info, ->(*_) { raise StandardError.new('Parse error') } do
-        models = @fetcher.send(:fetch_models)
+        models = @fetcher.send(:fetch_models_from_html)
         assert_empty models
         assert_match %r{Error parsing model card}, @output.string
       end
@@ -179,14 +179,14 @@ class TestFireworks < Minitest::Test
 
   def test_fetch_models_returns_empty_on_fetch_html_failure
     @fetcher.stub :fetch_html, nil do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_empty models
     end
   end
 
   def test_fetch_models_handles_exceptions_and_returns_empty
     @fetcher.stub :fetch_html, -> { raise StandardError.new('Fetch error') } do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_empty models
       assert_match %r{Error in fetch_models}, @output.string
     end
@@ -963,7 +963,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_equal 2, models.size
       assert_equal 'Llama 3 8B', models[0][:name]
       assert_equal 'Mistral 7B', models[1][:name]
@@ -986,7 +986,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_equal 1, models.size
       assert_equal 'Valid Model', models[0][:name]
     end
@@ -1007,7 +1007,7 @@ class TestFireworks < Minitest::Test
     HTML
 
     @fetcher.stub :fetch_html, Nokogiri::HTML(html) do
-      models = @fetcher.send(:fetch_models)
+      models = @fetcher.send(:fetch_models_from_html)
       assert_equal 1, models.size
       assert_equal 'First Model', models[0][:name]
       assert_equal 0.10, models[0][:pricing][:input_price]
@@ -1044,5 +1044,69 @@ class TestFireworks < Minitest::Test
       assert_empty result
       assert_match %r{Failed to fetch Fireworks data: NoMethodError - undefined method}, @output.string
     end
+  end
+
+  # --- Markdown pricing-page parsing -------------------------------------
+
+  # Sample of the serverless pricing Markdown. Standard column is
+  # "input / cached input / output"; "—" means a path is unavailable.
+  PRICING_MARKDOWN = <<~MD
+    # Serverless Pricing
+
+    ## Text and vision models
+
+    | Model | Standard | Priority |
+    | ----- | -------- | -------- |
+    | [Kimi K2.7 Code](https://app.fireworks.ai/models/fireworks/kimi-k2p7-code) | \\$0.95 / \\$0.19 / \\$4.00 | \\$1.425 / \\$0.285 / \\$6.00 |
+    | [DeepSeek V4 Flash](https://app.fireworks.ai/models/fireworks/deepseek-v4-flash) | \\$0.14 / \\$0.028 / \\$0.28 | — |
+
+    ## Embeddings
+  MD
+
+  def test_fetch_models_parses_pricing_markdown
+    @fetcher.stub :fetch_text, PRICING_MARKDOWN do
+      models = @fetcher.send(:fetch_models)
+      assert_equal 2, models.size
+
+      kimi = models.find { |m| m[:api_name] == 'kimi-k2p7-code' }
+      assert_equal 'Kimi K2.7 Code', kimi[:name]
+      assert_equal 0.95, kimi[:pricing][:input_price]
+      assert_equal 0.19, kimi[:pricing][:cache_hit_price]
+      assert_equal 4.0, kimi[:pricing][:output_price]
+    end
+  end
+
+  def test_fetch_models_falls_back_to_html_when_markdown_empty
+    @fetcher.stub :fetch_text, '' do
+      @fetcher.stub :fetch_models_from_html, [{ name: 'HTML Model', api_name: 'html-model' }] do
+        models = @fetcher.send(:fetch_models)
+        assert_equal 1, models.size
+        assert_equal 'html-model', models[0][:api_name]
+      end
+    end
+  end
+
+  def test_parse_standard_pricing_handles_unavailable
+    assert_empty @fetcher.send(:parse_standard_pricing, '—')
+    assert_empty @fetcher.send(:parse_standard_pricing, nil)
+  end
+
+  def test_parse_standard_pricing_extracts_three_prices
+    pricing = @fetcher.send(:parse_standard_pricing, '\\$0.95 / \\$0.19 / \\$4.00')
+    assert_equal 0.95, pricing[:input_price]
+    assert_equal 0.19, pricing[:cache_hit_price]
+    assert_equal 4.0, pricing[:output_price]
+  end
+
+  def test_parse_model_cell_extracts_name_and_slug
+    name, slug = @fetcher.send(:parse_model_cell,
+      '[Kimi K2.7 Code](https://app.fireworks.ai/models/fireworks/kimi-k2p7-code)')
+    assert_equal 'Kimi K2.7 Code', name
+    assert_equal 'kimi-k2p7-code', slug
+  end
+
+  def test_parse_pricing_markdown_returns_empty_for_blank
+    assert_empty @fetcher.send(:parse_pricing_markdown, nil)
+    assert_empty @fetcher.send(:parse_pricing_markdown, '')
   end
 end

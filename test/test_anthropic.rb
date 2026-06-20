@@ -748,11 +748,13 @@ class TestFetchersAnthropic < Minitest::Test
   end
 
   def test_fetch_handles_fetch_models_error
-    @fetcher.stub(:fetch_models, -> { raise StandardError.new('Models fetch failed') }) do
-      result = @fetcher.fetch
-      assert_empty result
-      output = @output.string
-      assert_match %r{Failed to fetch Anthropic data: StandardError - Models fetch failed}, output
+    @fetcher.stub(:fetch_pricing, {}) do
+      @fetcher.stub(:fetch_models, -> { raise StandardError.new('Models fetch failed') }) do
+        result = @fetcher.fetch
+        assert_empty result
+        output = @output.string
+        assert_match %r{Failed to fetch Anthropic data: StandardError - Models fetch failed}, output
+      end
     end
   end
 
@@ -770,18 +772,22 @@ class TestFetchersAnthropic < Minitest::Test
   end
 
   def test_fetch_handles_unexpected_error
-    @fetcher.stub(:fetch_models, -> { raise RuntimeError.new('Unexpected error') }) do
-      result = @fetcher.fetch
-      assert_empty result
-      output = @output.string
-      assert_match %r{Failed to fetch Anthropic data: RuntimeError - Unexpected error}, output
+    @fetcher.stub(:fetch_pricing, {}) do
+      @fetcher.stub(:fetch_models, -> { raise RuntimeError.new('Unexpected error') }) do
+        result = @fetcher.fetch
+        assert_empty result
+        output = @output.string
+        assert_match %r{Failed to fetch Anthropic data: RuntimeError - Unexpected error}, output
+      end
     end
   end
 
   def test_fetch_returns_empty_array_on_any_error
-    @fetcher.stub(:fetch_models, -> { raise 'Some error' }) do
-      result = @fetcher.fetch
-      assert_equal [], result
+    @fetcher.stub(:fetch_pricing, {}) do
+      @fetcher.stub(:fetch_models, -> { raise 'Some error' }) do
+        result = @fetcher.fetch
+        assert_equal [], result
+      end
     end
   end
 
@@ -1030,233 +1036,79 @@ class TestFetchersAnthropic < Minitest::Test
     end
   end
 
-  def test_fetch_pricing_parses_pricing_table_successfully
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th><th>Output</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15 / MTok</td><td>$75 / MTok</td></tr>
-            <tr><td>Claude Sonnet 4</td><td>$3 / MTok</td><td>$15 / MTok</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
+  # Sample of the Markdown pricing table served at PRICING_URL. Columns:
+  # Model | Base Input Tokens | 5m Cache Writes | 1h Cache Writes |
+  # Cache Hits & Refreshes | Output Tokens
+  PRICING_MARKDOWN = <<~MD
+    # Pricing
 
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
+    ## Model pricing
+
+    | Model | Base Input Tokens | 5m Cache Writes | 1h Cache Writes | Cache Hits & Refreshes | Output Tokens |
+    |-------|-------------------|-----------------|-----------------|------------------------|---------------|
+    | Claude Opus 4.8 | $5 / MTok | $6.25 / MTok | $10 / MTok | $0.50 / MTok | $25 / MTok |
+    | Claude Sonnet 4.6 | $3 / MTok | $3.75 / MTok | $6 / MTok | $0.30 / MTok | $15 / MTok |
+    | Claude Opus 4.1 ([deprecated](/docs/en/about-claude/model-deprecations)) | $15 / MTok | $18.75 / MTok | $30 / MTok | $1.50 / MTok | $75 / MTok |
+
+    ## Feature-specific pricing
+  MD
+
+  def test_fetch_pricing_parses_markdown_table_successfully
+    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
       result = @fetcher.send(:fetch_pricing)
-      assert_equal 2, result.size
-      assert_equal 15.0, result['claude-opus-4'][:input_price]
-      assert_equal 75.0, result['claude-opus-4'][:output_price]
-      assert_equal 3.0, result['claude-sonnet-4'][:input_price]
-      assert_equal 15.0, result['claude-sonnet-4'][:output_price]
+      assert_equal 3, result.size
+      assert_equal 5.0, result['claude-opus-4-8'][:input_price]
+      assert_equal 25.0, result['claude-opus-4-8'][:output_price]
+      assert_equal 6.25, result['claude-opus-4-8'][:cache_write_price]
+      assert_equal 0.5, result['claude-opus-4-8'][:cache_hit_price]
+      assert_equal 3.0, result['claude-sonnet-4-6'][:input_price]
+      assert_equal 15.0, result['claude-sonnet-4-6'][:output_price]
     end
   end
 
-  def test_fetch_pricing_skips_non_pricing_tables
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Feature</th><th>Description</th></tr>
-            <tr><td>Some Feature</td><td>Description</td></tr>
-          </table>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
+  def test_fetch_pricing_handles_deprecated_link_suffix
+    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
       result = @fetcher.send(:fetch_pricing)
-      assert_equal 1, result.size
-      assert_equal 15.0, result['claude-opus-4'][:input_price]
-    end
-  end
-
-  def test_fetch_pricing_skips_header_rows_in_data
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Model</td><td>Price</td></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_equal 1, result.size
-    end
-  end
-
-  def test_fetch_pricing_handles_multiple_tables
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-          <table>
-            <tr><th>Model</th><th>Output</th></tr>
-            <tr><td>Claude Sonnet 4</td><td>$75</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_equal 2, result.size
+      # The "([deprecated](.../model-deprecations))" suffix must not prevent the
+      # row from being parsed (the URL contains the word "model").
+      assert result.key?('claude-opus-4-1')
+      assert_equal 15.0, result['claude-opus-4-1'][:input_price]
     end
   end
 
   def test_fetch_pricing_logs_extracted_count
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
+    @fetcher.stub(:fetch_text, PRICING_MARKDOWN) do
       @fetcher.send(:fetch_pricing)
       output = @output.string
-      assert_match %r{Extracted pricing for 1 models}, output
+      assert_match %r{Extracted pricing for 3 models}, output
     end
   end
 
-  def test_fetch_pricing_returns_empty_hash_when_fetch_html_fails
-    @fetcher.stub(:fetch_html, nil) do
+  def test_fetch_pricing_returns_empty_hash_when_fetch_text_fails
+    @fetcher.stub(:fetch_text, nil) do
       result = @fetcher.send(:fetch_pricing)
       assert_empty result
     end
   end
 
-  def test_fetch_pricing_handles_table_parsing_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    doc.stub(:css, ->(*args) { raise StandardError.new('Table parsing failed') }) do
-      @fetcher.stub(:fetch_html, doc) do
-        result = @fetcher.send(:fetch_pricing)
-        assert_empty result
-        output = @output.string
-        assert_match %r{Error in fetch_pricing: StandardError - Table parsing failed}, output
-      end
+  def test_fetch_pricing_returns_empty_hash_for_blank_markdown
+    @fetcher.stub(:fetch_text, '') do
+      result = @fetcher.send(:fetch_pricing)
+      assert_empty result
     end
   end
 
-  def test_fetch_pricing_handles_row_parsing_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
+  def test_fetch_pricing_returns_empty_hash_when_no_pricing_table
+    markdown = "# Pricing\n\nNo tables here.\n"
+    @fetcher.stub(:fetch_text, markdown) do
+      result = @fetcher.send(:fetch_pricing)
+      assert_empty result
+    end
+  end
 
-    doc = Nokogiri::HTML(html)
-    mock_table = mock('table')
-    mock_table.stubs(:css).raises(StandardError.new('Row parsing failed'))
-    doc.stubs(:css).returns([mock_table])
-    @fetcher.stubs(:fetch_html).returns(doc)
-    result = @fetcher.send(:fetch_pricing)
+  def test_parse_pricing_handles_nil
+    result = @fetcher.send(:parse_pricing, nil)
     assert_empty result
-    output = @output.string
-    assert_match %r{Error parsing pricing table: Row parsing failed}, output
-  end
-
-  def test_fetch_pricing_handles_pricing_extraction_errors
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><th>Model</th><th>Input</th></tr>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:extract_api_name_from_text, ->(*args) { raise StandardError.new('API name extraction failed') }) do
-      @fetcher.stub(:fetch_html, doc) do
-        result = @fetcher.send(:fetch_pricing)
-        assert_empty result
-        output = @output.string
-        assert_match %r{Error parsing pricing row: API name extraction failed}, output
-      end
-    end
-  end
-
-  def test_fetch_pricing_returns_empty_hash_on_unexpected_error
-    @fetcher.stubs(:fetch_html).raises(RuntimeError.new('Unexpected pricing error'))
-    result = @fetcher.send(:fetch_pricing)
-    assert_empty result
-    output = @output.string
-    assert_match %r{Error in fetch_pricing: RuntimeError - Unexpected pricing error}, output
-  end
-
-  def test_fetch_pricing_handles_empty_tables
-    html = <<-HTML
-      <html>
-        <body>
-          <table></table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_empty result
-    end
-  end
-
-  def test_fetch_pricing_handles_tables_without_headers
-    html = <<-HTML
-      <html>
-        <body>
-          <table>
-            <tr><td>Claude Opus 4</td><td>$15</td></tr>
-          </table>
-        </body>
-      </html>
-    HTML
-
-    doc = Nokogiri::HTML(html)
-    @fetcher.stub(:fetch_html, doc) do
-      result = @fetcher.send(:fetch_pricing)
-      assert_empty result
-    end
   end
 
   def test_fetch_html_successful_request

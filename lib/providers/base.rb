@@ -17,10 +17,22 @@ module Providers
 
     private
 
+    MAX_REDIRECTS = 10
+
     def download_openapi_spec(url)
       uri = URI(url)
-      response = Net::HTTP.get(uri)
-      response
+      MAX_REDIRECTS.times do
+        response = Net::HTTP.get_response(uri)
+        case response
+        when Net::HTTPRedirection
+          location = response['location']
+          break response.body if location.nil? || location.empty?
+          uri = URI.join(uri.to_s, location)
+        else
+          return response.body
+        end
+      end
+      raise "Too many redirects for #{url}"
     end
 
     def validate_spec(spec_content)

@@ -6,7 +6,7 @@ require_relative '../http_cache'
 module Fetchers
   class Anthropic
     MODELS_URL = 'https://docs.claude.com/en/docs/about-claude/models/overview'
-    PRICING_URL = 'https://docs.claude.com/en/docs/about-claude/pricing'
+    PRICING_URL = 'https://platform.claude.com/docs/en/about-claude/pricing.md'
 
     TIMEOUT = 30
     MAX_RETRIES = 3
@@ -26,15 +26,28 @@ module Fetchers
     end
 
     def fetch
-      models = fetch_models
       pricing = fetch_pricing
+
+      # The models page is a client-rendered app with no scrapable table, so the
+      # pricing Markdown is the canonical model list. If the HTML models page is
+      # ever scrapable again it supplies extra metadata (Bedrock/Vertex names);
+      # otherwise we synthesize the list from the pricing table.
+      models = fetch_models
+      if models.empty?
+        logger.info("Models page not scrapable; deriving models from pricing table")
+        models = models_from_pricing(pricing)
+      end
 
       return [] if models.empty?
 
-      # Combine models and pricing data
+      # Combine models and pricing data. Model api_names may carry a date suffix
+      # (claude-opus-4-8-20251101) while pricing keys are the undated
+      # family+version (claude-opus-4-8), so match exactly first and fall back to
+      # a prefix match against the pricing keys.
       combined = models.map do |model|
         next unless model[:api_name]
-        model.merge(pricing[model[:api_name]] || {})
+        prices = pricing_for(pricing, model[:api_name])
+        model.merge(prices || {})
       end.compact
 
       logger.info("Successfully fetched #{combined.size} models")
@@ -45,6 +58,32 @@ module Fetchers
     end
 
     private
+
+    # Synthesize the model list from the pricing keys when the HTML models page
+    # is unavailable. The pricing api_name doubles as the model id.
+    def models_from_pricing(pricing)
+      names = @pricing_names || {}
+      pricing.keys.map do |api_name|
+        { name: names[api_name] || display_name_for(api_name), api_name: api_name }
+      end
+    end
+
+    # Best-effort human label for a synthesized api_name, e.g. "claude-opus-4-8"
+    # => "Claude Opus 4 8". Used only if the pricing table did not record a name.
+    def display_name_for(api_name)
+      api_name.split('-').map(&:capitalize).join(' ')
+    end
+
+    # Find the pricing entry for a model api_name. Tries an exact key match,
+    # then the longest pricing key that the api_name starts with (to bridge the
+    # dated id -> undated pricing-key gap).
+    def pricing_for(pricing, api_name)
+      return pricing[api_name] if pricing.key?(api_name)
+
+      candidates = pricing.keys.select { |key| api_name.start_with?("#{key}-") }
+      best = candidates.max_by(&:length)
+      best ? pricing[best] : nil
+    end
 
     def fetch_models
       doc = fetch_html(MODELS_URL, "models page")
@@ -106,45 +145,38 @@ module Fetchers
     end
 
     def fetch_pricing
-      doc = fetch_html(PRICING_URL, "pricing page")
-      return {} unless doc
+      markdown = fetch_text(PRICING_URL, "pricing page")
+      parse_pricing(markdown)
+    end
+
+    # Parse the Anthropic pricing Markdown into a hash of api_name => price hash.
+    def parse_pricing(markdown)
+      return {} if markdown.nil? || markdown.strip.empty?
 
       pricing_data = {}
+      # Remember the display name for each api_name so models synthesized from
+      # pricing keep their proper "Claude Opus 4.8" labels.
+      @pricing_names = {}
 
-      # Parse pricing table
-      doc.css('table').each do |table|
+      # The pricing page is served as Markdown. Find the model pricing table by
+      # its header row, then parse each model row from it.
+      table_rows = pricing_table_rows(markdown)
+
+      table_rows.each do |cells|
         begin
-          rows = table.css('tr')
-          next if rows.empty?
+          model_name = clean_model_name(cells[0])
+          next if model_name.nil? || model_name.empty? || header_row?(model_name)
 
-          # Get header to determine column positions
-          headers = rows.first.css('th, td').map { |h| safe_text(h).downcase }
-          next if headers.empty?
+          api_name = extract_api_name_from_text(model_name)
+          next unless api_name && valid_api_name?(api_name)
 
-          # Skip tables that don't look like pricing tables
-          next unless headers.any? { |h| h.match?(/model|price|token/i) }
+          pricing_info = extract_markdown_pricing(cells)
+          next if pricing_info.empty?
 
-          rows[1..-1]&.each do |row|
-            begin
-              cells = row.css('td')
-              next if cells.empty?
-
-              model_name = safe_text(cells[0])
-              next if model_name.empty? || header_row?(model_name)
-
-              # Extract API name from model name
-              api_name = extract_api_name_from_text(model_name)
-              next unless api_name && valid_api_name?(api_name)
-
-              pricing_info = extract_pricing_info(cells, headers)
-              pricing_data[api_name] = pricing_info unless pricing_info.empty?
-            rescue => e
-              logger.warn("Error parsing pricing row: #{e.message}")
-              next
-            end
-          end
+          pricing_data[api_name] = pricing_info
+          @pricing_names[api_name] = model_name
         rescue => e
-          logger.warn("Error parsing pricing table: #{e.message}")
+          logger.warn("Error parsing pricing row: #{e.message}")
           next
         end
       end
@@ -153,6 +185,78 @@ module Fetchers
       pricing_data
     rescue => e
       logger.error("Error in fetch_pricing: #{e.class} - #{e.message}")
+      {}
+    end
+
+    # Locate the model pricing table in the markdown document and return its
+    # data rows as arrays of cleaned cell strings. The table has the columns:
+    # Model | Base Input Tokens | 5m Cache Writes | 1h Cache Writes |
+    # Cache Hits & Refreshes | Output Tokens
+    def pricing_table_rows(markdown)
+      lines = markdown.lines.map(&:rstrip)
+
+      header_index = lines.index do |line|
+        line.match?(/\|/) &&
+          line.match?(/base input/i) &&
+          line.match?(/output/i)
+      end
+      return [] unless header_index
+
+      rows = []
+      # Skip the header line and its separator (|---|---|) line.
+      lines[(header_index + 1)..-1].to_a.each do |line|
+        break unless line.include?('|')
+        next if separator_row?(line)
+
+        cells = split_markdown_row(line)
+        next if cells.empty?
+        rows << cells
+      end
+
+      rows
+    end
+
+    # Strip trailing annotations from a model name cell. The pricing table
+    # appends markdown links like "([deprecated](/docs/.../model-deprecations))"
+    # whose URLs would otherwise trip up name matching.
+    def clean_model_name(text)
+      return '' if text.nil?
+      text.sub(/\s*\(\[.*\]\(.*\)\).*$/, '').strip
+    end
+
+    def separator_row?(line)
+      stripped = line.gsub(/[\s|:-]/, '')
+      stripped.empty?
+    end
+
+    # Split a markdown table row into cells, dropping the leading/trailing
+    # empty cells produced by the surrounding pipes and normalizing whitespace.
+    def split_markdown_row(line)
+      parts = line.split('|')
+      parts.shift if parts.first.to_s.strip.empty?
+      parts.pop if parts.last.to_s.strip.empty?
+      parts.map { |c| c.strip.gsub(/\s+/, ' ') }
+    end
+
+    # Extract input/cache/output prices from a markdown pricing row.
+    # Cell layout: [name, base_input, 5m_cache_write, 1h_cache_write,
+    #               cache_hit, output]
+    def extract_markdown_pricing(cells)
+      pricing = {}
+
+      input_price = extract_price(cells[1])
+      cache_write_price = extract_price(cells[2])
+      cache_hit_price = extract_price(cells[4])
+      output_price = extract_price(cells[-1])
+
+      pricing[:input_price] = input_price if input_price
+      pricing[:cache_write_price] = cache_write_price if cache_write_price
+      pricing[:cache_hit_price] = cache_hit_price if cache_hit_price
+      pricing[:output_price] = output_price if output_price
+
+      pricing.compact
+    rescue => e
+      logger.warn("Error extracting markdown pricing: #{e.message}")
       {}
     end
 
@@ -180,6 +284,44 @@ module Fetchers
         end
 
         doc
+      rescue Faraday::TimeoutError => e
+        retries += 1
+        if retries <= MAX_RETRIES
+          logger.warn("Timeout fetching #{description}, retry #{retries}/#{MAX_RETRIES}")
+          sleep(RETRY_DELAY * retries)
+          retry
+        end
+        logger.error("Max retries reached for #{description}")
+        nil
+      rescue Faraday::Error, FetchError => e
+        logger.error("Failed to fetch #{description}: #{e.message}")
+        nil
+      rescue => e
+        logger.error("Unexpected error fetching #{description}: #{e.class} - #{e.message}")
+        nil
+      end
+    end
+
+    # Fetch a URL and return the raw response body as a string, with retry on
+    # timeout. Used for endpoints served as plain text / Markdown rather than HTML.
+    def fetch_text(url, description)
+      retries = 0
+
+      begin
+        logger.debug("Fetching #{description} from #{url}")
+
+        response = connection.get(url)
+
+        unless response.success?
+          raise FetchError, "HTTP #{response.status} for #{description}"
+        end
+
+        body = response.body
+        if body.nil? || body.strip.empty?
+          raise FetchError, "Empty response body for #{description}"
+        end
+
+        body
       rescue Faraday::TimeoutError => e
         retries += 1
         if retries <= MAX_RETRIES
@@ -287,12 +429,15 @@ module Fetchers
        return text.strip if valid_api_name?(text.strip)
 
 
-       # Extract model family and version dynamically
-        # Match pattern: either (opus|sonnet|haiku) followed by version number, or version followed by (opus|sonnet|haiku)
-        match = text_lower.match(/(opus|sonnet|haiku).*\d+(?:\.\d+)?/) || text_lower.match(/\d+(?:\.\d+)?\s*(opus|sonnet|haiku)/)
+       # Extract model family and version dynamically. Match either the family
+       # name followed by a version (e.g. "Opus 4.8", "Fable 5") or a version
+       # followed by the family name (e.g. "3.5 Haiku").
+        families = '(opus|sonnet|haiku|fable|mythos)'
+        match = text_lower.match(/#{families}\s*\d+(?:\.\d+)?/) ||
+                text_lower.match(/\d+(?:\.\d+)?\s*#{families}/)
         return nil unless match
 
-        family = match[1] || match[3]  # family could be in either capture group
+        family = match[1]  # families regex has a single capture group
         version_match = text_lower.match(/\d+(?:\.\d+)?/)
         return nil unless version_match
         version = version_match[0]
@@ -305,8 +450,10 @@ module Fetchers
 
       # Determine naming convention based on version
       if version_num >= 4.0
-        # New format: claude-{family}-{version}
-        version_clean = version.sub(/\.0$/, '')
+        # New format: claude-{family}-{major}-{minor}, e.g. "Claude Opus 4.8"
+        # becomes "claude-opus-4-8" to match the dated API ids on the models
+        # page (claude-opus-4-8-YYYYMMDD). A bare major like "4" stays as "4".
+        version_clean = version.sub(/\.0$/, '').tr('.', '-')
         "claude-#{family}-#{version_clean}"
       else
         # Old format: claude-3-{family} or claude-3-5-{family} or claude-3-7-{family} style

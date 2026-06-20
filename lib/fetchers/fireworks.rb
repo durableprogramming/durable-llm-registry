@@ -5,6 +5,10 @@ require_relative '../http_cache'
 
 module Fetchers
   class Fireworks
+    # The serverless pricing page, served as Markdown, lists each headline model
+    # with its API slug (in the link) and per-token pricing.
+    PRICING_URL = 'https://docs.fireworks.ai/serverless/pricing.md'
+    # Kept for the legacy HTML card scraper used as a fallback.
     MODELS_URL = 'https://app.fireworks.ai/models'
 
     TIMEOUT = 30
@@ -38,6 +42,120 @@ module Fetchers
     private
 
     def fetch_models
+      markdown = fetch_text(PRICING_URL, "pricing page")
+      models = parse_pricing_markdown(markdown)
+      return models unless models.empty?
+
+      logger.info("Pricing page yielded no models; falling back to HTML cards")
+      fetch_models_from_html
+    end
+
+    # Parse the serverless pricing Markdown. The "Text and vision models" table
+    # has rows of: | [Name](.../models/fireworks/<slug>) | Standard | Priority |
+    # where Standard is "$input / $cached / $output" (USD per 1M tokens).
+    def parse_pricing_markdown(markdown)
+      return [] if markdown.nil? || markdown.strip.empty?
+
+      models = []
+
+      pricing_table_rows(markdown).each do |cells|
+        begin
+          name, api_name = parse_model_cell(cells[0])
+          next unless api_name && valid_api_name?(api_name)
+
+          pricing = parse_standard_pricing(cells[1])
+          next if pricing.empty?
+
+          models << {
+            name: name,
+            api_name: api_name,
+            pricing: pricing,
+            capabilities: extract_capabilities_from_text(name),
+            modalities: extract_modalities_from_text(name, api_name)
+          }.compact
+        rescue => e
+          logger.warn("Error parsing pricing row: #{e.message}")
+          next
+        end
+      end
+
+      deduplicated = models.uniq { |m| m[:api_name] }
+      logger.info("Extracted #{deduplicated.size} unique models")
+      deduplicated
+    rescue => e
+      logger.error("Error in parse_pricing_markdown: #{e.class} - #{e.message}")
+      []
+    end
+
+    # Locate the "Text and vision models" pricing table and return its data rows
+    # as arrays of cleaned cell strings.
+    def pricing_table_rows(markdown)
+      lines = markdown.lines.map(&:rstrip)
+
+      header_index = lines.index do |line|
+        line.include?('|') &&
+          line.match?(/standard/i) &&
+          line.match?(/priority/i)
+      end
+      return [] unless header_index
+
+      rows = []
+      lines[(header_index + 1)..-1].to_a.each do |line|
+        break unless line.include?('|')
+        next if markdown_separator_row?(line)
+
+        cells = split_markdown_row(line)
+        next if cells.empty?
+        rows << cells
+      end
+
+      rows
+    end
+
+    def markdown_separator_row?(line)
+      line.gsub(/[\s|:-]/, '').empty?
+    end
+
+    def split_markdown_row(line)
+      parts = line.split('|')
+      parts.shift if parts.first.to_s.strip.empty?
+      parts.pop if parts.last.to_s.strip.empty?
+      parts.map { |c| c.strip.gsub(/\s+/, ' ') }
+    end
+
+    # Extract [name, api_name] from a "[Display Name](.../models/fireworks/slug)"
+    # markdown link cell. The slug is the API name.
+    def parse_model_cell(cell)
+      return [nil, nil] if cell.nil?
+
+      link = cell.match(/\[(.+?)\]\((.+?)\)/)
+      if link
+        name = link[1].strip
+        href = link[2].strip
+        slug = href[%r{/models/fireworks/([^/)\s]+)}, 1]
+        return [name, slug]
+      end
+
+      # Plain text fallback (no link)
+      [cell.strip, nil]
+    end
+
+    # Parse a "Standard" pricing cell of the form "$0.95 / $0.19 / $4.00"
+    # (input / cached input / output). A bare "—" means unavailable.
+    def parse_standard_pricing(cell)
+      return {} if cell.nil? || cell.strip == '—' || cell.strip.empty?
+
+      prices = cell.scan(/\$?\\?\$?([\d.]+)/).flatten.map(&:to_f)
+      return {} if prices.empty?
+
+      pricing = {}
+      pricing[:input_price] = prices[0]
+      pricing[:cache_hit_price] = prices[1] if prices[1]
+      pricing[:output_price] = prices[2] || prices[0]
+      pricing
+    end
+
+    def fetch_models_from_html
       doc = fetch_html(MODELS_URL, "models page")
       return [] unless doc
 
@@ -235,6 +353,72 @@ module Fetchers
       end
 
       { input: input_modalities.uniq, output: output_modalities.uniq }
+    end
+
+    # Detect capabilities from a model's display name (markdown path; the HTML
+    # path uses extract_capabilities on the full card text).
+    def extract_capabilities_from_text(text)
+      t = text.to_s.downcase
+      caps = []
+      caps << 'function_calling' if t.include?('function') || t.include?('tool')
+      caps << 'vision' if t.include?('vision') || t.include?('vl')
+      caps << 'image_generation' if t.include?('flux')
+      caps << 'speech_to_text' if t.include?('asr') || t.include?('whisper') || t.include?('audio')
+      caps.uniq
+    end
+
+    # Detect input/output modalities from a model's display name and api_name.
+    def extract_modalities_from_text(text, api_name)
+      t = "#{text} #{api_name}".downcase
+      input = ['text']
+      output = ['text']
+
+      input << 'image' if t.include?('vision') || t.include?('vl')
+      output << 'image' if t.include?('flux') || t.include?('image generation')
+      if t.include?('asr') || t.include?('whisper') || t.include?('audio')
+        input = ['audio']
+        output = ['text']
+      end
+
+      { input: input.uniq, output: output.uniq }
+    end
+
+    # Fetch a URL and return the raw response body as a string, retrying on
+    # timeout. Used for endpoints served as plain text / Markdown.
+    def fetch_text(url, description)
+      retries = 0
+
+      begin
+        logger.debug("Fetching #{description} from #{url}")
+
+        response = connection.get(url)
+
+        unless response.success?
+          raise FetchError, "HTTP #{response.status} for #{description}"
+        end
+
+        body = response.body
+        if body.nil? || body.strip.empty?
+          raise FetchError, "Empty response body for #{description}"
+        end
+
+        body
+      rescue Faraday::TimeoutError => e
+        retries += 1
+        if retries <= MAX_RETRIES
+          logger.warn("Timeout fetching #{description}, retry #{retries}/#{MAX_RETRIES}")
+          sleep(RETRY_DELAY * retries)
+          retry
+        end
+        logger.error("Max retries reached for #{description}")
+        nil
+      rescue Faraday::Error, FetchError => e
+        logger.error("Failed to fetch #{description}: #{e.message}")
+        nil
+      rescue => e
+        logger.error("Unexpected error fetching #{description}: #{e.class} - #{e.message}")
+        nil
+      end
     end
 
     def fetch_html(url, description)

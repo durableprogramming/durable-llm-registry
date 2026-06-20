@@ -3702,7 +3702,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -3878,7 +3878,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -3922,7 +3922,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -4271,10 +4271,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: kwaipilot
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 80,000 tokens
+- **Max Output Tokens**: 144,000 tokens
 
 
 #### Modalities
@@ -5405,8 +5405,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 1,048,576 tokens
 
-
-- **Max Output Tokens**: 512,000 tokens
 
 
 #### Modalities
@@ -8042,8 +8040,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,047,576 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
-
 
 #### Modalities
 
@@ -8702,8 +8698,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 400,000 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
-
 
 #### Modalities
 
@@ -8876,7 +8870,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -9096,7 +9090,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
@@ -12598,7 +12592,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 81,920 tokens
 
 
 #### Modalities
@@ -12639,10 +12633,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -14477,8 +14471,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 202,752 tokens
 
-
-- **Max Output Tokens**: 65,535 tokens
 
 
 #### Modalities
