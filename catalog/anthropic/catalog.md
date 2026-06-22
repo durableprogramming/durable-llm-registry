@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 10
-- **Last Updated**: 2026-06-21
+- **Last Updated**: 2026-06-22
 
 ## Models
 
@@ -517,7 +517,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 64,000 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
