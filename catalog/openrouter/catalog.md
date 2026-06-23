@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2026-06-22
+- **Total Models**: 338
+- **Last Updated**: 2026-06-23
 
 ## Models
 
@@ -2601,48 +2601,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### EssentialAI: Rnj 1 Instruct
-
-**Model ID**: `essentialai/rnj-1-instruct`  
-**Family**: essentialai
-#### Specifications
-
-- **Context Window**: 32,768 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
 ### Free Models Router
 
 **Model ID**: `openrouter/free`  
@@ -5031,7 +4989,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.065
+- **Standard Input**: $0.07
 
 
 - **Standard Output**: $0.14
@@ -6537,10 +6495,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.612
+- **Standard Input**: $0.68
 
 
-- **Standard Output**: $3.069
+- **Standard Output**: $3.41
 
 
 
@@ -7191,10 +7149,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $1.0
 
 
 
@@ -10789,50 +10747,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Prime Intellect: INTELLECT-3
-
-**Model ID**: `prime-intellect/intellect-3`  
-**Family**: prime-intellect
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $1.1
-
-
-
-
-
-
-
----
-
-
 ### Qwen2.5 72B Instruct
 
 **Model ID**: `qwen/qwen-2.5-72b-instruct`  
@@ -13648,8 +13562,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 32,768 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
-
 
 #### Modalities
 
@@ -13669,10 +13581,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.17
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $0.43
+- **Standard Output**: $0.5
 
 
 
@@ -14501,6 +14413,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.08
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM 5V Turbo
+
+**Model ID**: `z-ai/glm-5v-turbo`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 202,752 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.2
+
+
+- **Standard Output**: $4.0
 
 
 
