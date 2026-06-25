@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepseek models available 
 
 - **Provider**: deepseek
 - **Total Models**: 3
-- **Last Updated**: 2026-06-24
+- **Last Updated**: 2026-06-25
 
 ## Models
 
