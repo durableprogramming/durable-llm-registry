@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 339
-- **Last Updated**: 2026-06-25
+- **Last Updated**: 2026-06-26
 
 ## Models
 
@@ -5253,10 +5253,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $0.48
 
 
 
@@ -5297,10 +5297,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.24
+- **Standard Input**: $0.18
 
 
-- **Standard Output**: $0.96
+- **Standard Output**: $0.72
 
 
 
@@ -6824,6 +6824,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 16,384 tokens
+
 
 #### Modalities
 
@@ -6843,10 +6845,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.085
 
 
-- **Standard Output**: $0.45
+- **Standard Output**: $0.4
 
 
 
@@ -9538,6 +9540,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -9557,10 +9561,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.039
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.18
+- **Standard Output**: $0.15
 
 
 
@@ -12624,7 +12628,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.2885
 
 
-- **Standard Output**: $3.17
+- **Standard Output**: $2.65
 
 
 
@@ -14738,7 +14742,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
