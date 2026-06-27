@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 10
-- **Last Updated**: 2026-06-26
+- **Last Updated**: 2026-06-27
 
 ## Models
 
@@ -102,18 +102,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $15.0
 
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $3.75
 
 
-- **Cached Output**: $5.0
+- **Cached Output**: $15.0
 
 
 
@@ -215,7 +215,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Standard Input**: $15.0
 
 
-- **Standard Output**: $75.0
+- **Standard Output**: $15.0
 
 
 
@@ -223,7 +223,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Cached Input**: $18.75
 
 
-- **Cached Output**: $75.0
+- **Cached Output**: $15.0
 
 
 
@@ -270,7 +270,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Standard Input**: $5.0
 
 
-- **Standard Output**: $25.0
+- **Standard Output**: $5.0
 
 
 
@@ -278,7 +278,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Cached Input**: $6.25
 
 
-- **Cached Output**: $25.0
+- **Cached Output**: $5.0
 
 
 
@@ -325,7 +325,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Standard Input**: $5.0
 
 
-- **Standard Output**: $25.0
+- **Standard Output**: $5.0
 
 
 
@@ -333,7 +333,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Cached Input**: $6.25
 
 
-- **Cached Output**: $25.0
+- **Cached Output**: $5.0
 
 
 
@@ -380,7 +380,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Standard Input**: $5.0
 
 
-- **Standard Output**: $25.0
+- **Standard Output**: $5.0
 
 
 
@@ -388,7 +388,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Cached Input**: $6.25
 
 
-- **Cached Output**: $25.0
+- **Cached Output**: $5.0
 
 
 
@@ -432,18 +432,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $25.0
+- **Standard Output**: $15.0
 
 
 
 
-- **Cached Input**: $6.25
+- **Cached Input**: $3.75
 
 
-- **Cached Output**: $25.0
+- **Cached Output**: $15.0
 
 
 
@@ -490,7 +490,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Standard Input**: $3.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $3.0
 
 
 
@@ -498,7 +498,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 - **Cached Input**: $3.75
 
 
-- **Cached Output**: $15.0
+- **Cached Output**: $3.0
 
 
 
