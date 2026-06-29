@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 339
-- **Last Updated**: 2026-06-28
+- **Total Models**: 338
+- **Last Updated**: 2026-06-29
 
 ## Models
 
@@ -927,50 +927,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $25.0
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude Opus 4.6 (Fast)
-
-**Model ID**: `anthropic/claude-opus-4.6-fast`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $30.0
-
-
-- **Standard Output**: $150.0
 
 
 
@@ -6233,10 +6189,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $0.55
 
 
-- **Standard Output**: $3.41
+- **Standard Output**: $3.2
 
 
 
@@ -6256,7 +6212,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 100,352 tokens
 
 
 #### Modalities
@@ -6300,7 +6256,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 100,352 tokens
 
 
 #### Modalities
@@ -6451,10 +6407,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $0.55
 
 
-- **Standard Output**: $3.41
+- **Standard Output**: $3.2
 
 
 
@@ -13350,7 +13306,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -13371,7 +13327,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $0.3

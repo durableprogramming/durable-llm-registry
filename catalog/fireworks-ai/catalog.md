@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 15
-- **Last Updated**: 2026-06-28
+- **Total Models**: 12
+- **Last Updated**: 2026-06-29
 
 ## Models
 
@@ -189,50 +189,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Kimi K2.5
-
-**Model ID**: `accounts/fireworks/models/kimi-k2p5`  
-**Family**: kimi-k2
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.6
-
-
-- **Standard Output**: $3.0
-
-
-
-
-
-
-
----
-
-
 ### Kimi K2.6
 
 **Model ID**: `accounts/fireworks/models/kimi-k2p6`  
@@ -321,51 +277,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### MiniMax 2.5
-
-**Model ID**: `accounts/fireworks/models/minimax-m2p5`  
-**Family**: minimax-m2p5
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### MiniMax 2.7
+### MiniMax M2.7
 
 **Model ID**: `accounts/fireworks/models/minimax-m2p7`  
 **Family**: minimax-m2p7
@@ -575,50 +487,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.3
-
-
-
-
-
-
-
----
-
-
-### Qwen 3.6 Plus
-
-**Model ID**: `accounts/fireworks/models/qwen3p6-plus`  
-**Family**: qwen3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $3.0
 
 
 

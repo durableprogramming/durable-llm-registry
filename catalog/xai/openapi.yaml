@@ -930,7 +930,7 @@ paths:
                   cached_prompt_text_token_price: 2000
                   prompt_image_token_price: 0
                   completion_text_token_price: 80000
-                  search_price: 250000000
+                  search_price: 0
                   prompt_text_token_price_long_context: 40000
                   cached_prompt_text_token_price_long_context: 0
                   completion_text_token_price_long_context: 160000
