@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 338
-- **Last Updated**: 2026-06-29
+- **Total Models**: 337
+- **Last Updated**: 2026-06-30
 
 ## Models
 
@@ -10187,50 +10187,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Owl Alpha
-
-**Model ID**: `openrouter/owl-alpha`  
-**Family**: openrouter
-#### Specifications
-
-- **Context Window**: 1,048,756 tokens
-
-
-- **Max Output Tokens**: 262,144 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Pareto Code Router
 
 **Model ID**: `openrouter/pareto-code`  
@@ -12581,10 +12537,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2596
+- **Standard Input**: $0.285
 
 
-- **Standard Output**: $2.385
+- **Standard Output**: $2.4
 
 
 
@@ -14367,10 +14323,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.98
+- **Standard Input**: $0.975
 
 
-- **Standard Output**: $3.08
+- **Standard Output**: $4.3
 
 
 
@@ -14389,8 +14345,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 1,048,576 tokens
 
-
-- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -14411,7 +14365,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.95
+- **Standard Input**: $0.94
 
 
 - **Standard Output**: $3.0
