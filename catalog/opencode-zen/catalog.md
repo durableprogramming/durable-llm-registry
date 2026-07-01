@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 50
-- **Last Updated**: 2026-06-30
+- **Last Updated**: 2026-07-01
 
 ## Models
 
@@ -116,61 +116,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Claude Haiku 3.5
-
-**Model ID**: `claude-3-5-haiku`  
-**Family**: claude-3-5
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### Claude Haiku 4.5
 
 **Model ID**: `claude-haiku-4-5`  
@@ -217,61 +162,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.1
-
-**Model ID**: `claude-opus-4-1`  
-**Family**: claude-opus-4
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $15.0
-
-
-- **Standard Output**: $75.0
-
-
-
-
-- **Cached Input**: $18.75
-
-
-- **Cached Output**: $1.5
 
 
 
@@ -501,61 +391,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Claude Sonnet 4
-
-**Model ID**: `claude-sonnet-4`  
-**Family**: claude-sonnet-4
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### Claude Sonnet 4.5
 
 **Model ID**: `claude-sonnet-4-5`  
@@ -657,6 +492,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Claude Sonnet 5
+
+**Model ID**: `claude-sonnet-5`  
+**Family**: claude-sonnet-5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.2
 
 
 
@@ -2254,6 +2144,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Kimi K2.7 Code
+
+**Model ID**: `kimi-k2.7-code`  
+**Family**: kimi
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### MiMo-V2.5 Free
 
 **Model ID**: `mimo-v2.5-free`  
@@ -2410,6 +2355,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### MiniMax M3
+
+**Model ID**: `minimax-m3`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+- **Cached Input**: $0.375
+
+
+- **Cached Output**: $0.06
 
 
 
