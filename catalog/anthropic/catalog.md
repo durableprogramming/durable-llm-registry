@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 11
-- **Last Updated**: 2026-07-01
+- **Total Models**: 10
+- **Last Updated**: 2026-07-02
 
 ## Models
 
@@ -47,18 +47,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $10.0
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $50.0
+- **Standard Output**: $15.0
 
 
 
 
-- **Cached Input**: $12.5
+- **Cached Input**: $3.75
 
 
-- **Cached Output**: $50.0
+- **Cached Output**: $15.0
 
 
 
@@ -114,61 +114,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 
 - **Cached Output**: $15.0
-
-
-
-
-
-
----
-
-
-### Claude Mythos 5
-
-**Model ID**: `claude-mythos-5`  
-**Family**: claude-mythos
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $10.0
-
-
-- **Standard Output**: $50.0
-
-
-
-
-- **Cached Input**: $12.5
-
-
-- **Cached Output**: $50.0
 
 
 
