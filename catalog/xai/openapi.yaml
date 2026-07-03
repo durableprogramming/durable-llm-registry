@@ -3284,7 +3284,7 @@ components:
           - 'null'
           format: int32
           description: |-
-            Duration of the extension segment to generate in seconds (1-10).
+            Duration of the extension segment to generate in seconds (2-10).
             Defaults to 6 seconds if not specified.
         model:
           type:
@@ -3312,7 +3312,7 @@ components:
           "$ref": "#/components/schemas/VideoUrl"
           description: |-
             Input video to extend. The extension continues from the end of this video.
-            Input video must be between 2 and 30 seconds long.
+            Input video must be between 2 and 15 seconds long.
     File:
       type: object
       description: An uploaded file.
