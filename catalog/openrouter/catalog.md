@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 340
-- **Last Updated**: 2026-07-05
+- **Total Models**: 342
+- **Last Updated**: 2026-07-06
 
 ## Models
 
@@ -13555,6 +13555,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Tencent: Hy3
+
+**Model ID**: `tencent/hy3`  
+**Family**: tencent
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.58
+
+
+
+
+
+
+
+---
+
+
+### Tencent: Hy3 (free)
+
+**Model ID**: `tencent/hy3:free`  
+**Family**: tencent
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Tencent: Hy3 preview
 
 **Model ID**: `tencent/hy3-preview`  
@@ -14497,10 +14585,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.574
+- **Standard Input**: $0.9086
 
 
-- **Standard Output**: $1.804
+- **Standard Output**: $2.8556
 
 
 
