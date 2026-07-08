@@ -5465,6 +5465,16 @@ components:
             This parameter will be ignored for any non-agentic requests.
         metadata:
           description: Not supported. Only maintained for compatibility reasons.
+        min_p:
+          type:
+          - number
+          - 'null'
+          format: float
+          description: 'Min-p sampling: tokens whose probability is below `min_p`
+            times the probability of the most likely token are excluded from sampling.
+            Disabled when unset.'
+          maximum: 1
+          minimum: 0
         model:
           type: string
           description: Model name for the model to use. Obtainable from <https://console.x.ai/team/default/models>
@@ -5560,6 +5570,14 @@ components:
             are supported.`web_search_preview` tool, if specified, will be overridden
             by `search_parameters`.
           maxItems: 128
+        top_k:
+          type:
+          - integer
+          - 'null'
+          format: int32
+          description: 'Top-k sampling: only the `top_k` most probable tokens are
+            considered at each sampling step. Disabled when unset.'
+          minimum: 1
         top_logprobs:
           type:
           - integer

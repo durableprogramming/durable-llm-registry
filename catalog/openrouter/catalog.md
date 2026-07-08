@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 341
-- **Last Updated**: 2026-07-07
+- **Total Models**: 343
+- **Last Updated**: 2026-07-08
 
 ## Models
 
@@ -91,6 +91,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.6
+
+
+
+
+
+
+
+---
+
+
+### AionLabs: Aion-3.0
+
+**Model ID**: `aion-labs/aion-3.0`  
+**Family**: aion-labs
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### AionLabs: Aion-3.0-Mini
+
+**Model ID**: `aion-labs/aion-3.0-mini`  
+**Family**: aion-labs
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.7
+
+
+- **Standard Output**: $1.4
 
 
 
@@ -2302,7 +2390,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -6145,7 +6233,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $0.65
 
 
 - **Standard Output**: $3.41
@@ -6363,7 +6451,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $0.65
 
 
 - **Standard Output**: $3.41
@@ -13691,8 +13779,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: thedrummer
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 65,536 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -14520,7 +14610,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 1,048,576 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -14541,10 +14631,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9
+- **Standard Input**: $0.93
 
 
-- **Standard Output**: $2.86
+- **Standard Output**: $3.0
 
 
 
@@ -14870,7 +14960,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, file
 
 
 - **Output**: text
