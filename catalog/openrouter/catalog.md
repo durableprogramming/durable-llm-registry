@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 343
-- **Last Updated**: 2026-07-08
+- **Total Models**: 340
+- **Last Updated**: 2026-07-09
 
 ## Models
 
@@ -2819,50 +2819,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemini 2.5 Flash Lite Preview 09-2025
-
-**Model ID**: `google/gemini-2.5-flash-lite-preview-09-2025`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,535 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemini 2.5 Pro
 
 **Model ID**: `google/gemini-2.5-pro`  
@@ -4257,48 +4213,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### LiquidAI: LFM2-24B-A2B
-
-**Model ID**: `liquid/lfm-2-24b-a2b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.03
-
-
-- **Standard Output**: $0.12
 
 
 
@@ -10749,94 +10663,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Poolside: Laguna XS.2
-
-**Model ID**: `poolside/laguna-xs.2`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
-### Poolside: Laguna XS.2 (free)
-
-**Model ID**: `poolside/laguna-xs.2:free`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Qwen2.5 72B Instruct
 
 **Model ID**: `qwen/qwen-2.5-72b-instruct`  
@@ -13513,48 +13339,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Switchpoint Router
-
-**Model ID**: `switchpoint/router`  
-**Family**: switchpoint
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.85
-
-
-- **Standard Output**: $3.4
-
-
-
-
-
-
-
----
-
-
 ### Tencent: Hunyuan A13B Instruct
 
 **Model ID**: `tencent/hunyuan-a13b-instruct`  
@@ -13608,8 +13392,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -13629,10 +13411,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.8
+- **Standard Output**: $0.58
 
 
 
@@ -14610,7 +14392,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -14631,10 +14413,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.93
+- **Standard Input**: $0.546
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $1.716
 
 
 
@@ -14947,6 +14729,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### xAI: Grok 4.5
+
+**Model ID**: `x-ai/grok-4.5`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
 ### xAI: Grok Build 0.1
 
 **Model ID**: `x-ai/grok-build-0.1`  
@@ -14979,6 +14803,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### xAI: Grok Latest
+
+**Model ID**: `~x-ai/grok-latest`  
+**Family**: ~x-ai
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
 
 
 
