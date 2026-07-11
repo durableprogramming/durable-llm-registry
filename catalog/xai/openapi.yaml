@@ -5425,9 +5425,10 @@ components:
           - 'null'
           items:
             type: string
-          description: What additional output data to include in the response. Currently
-            the only supported value is `reasoning.encrypted_content` which returns
-            an encrypted version of the reasoning tokens.
+          description: |-
+            What additional output data to include in the response. Supported values include
+            `reasoning.encrypted_content` (encrypted reasoning tokens) and tool-output options.
+            OpenAI's `message.output_text.logprobs` is accepted for compatibility but silently ignored.
         input:
           "$ref": "#/components/schemas/ModelInput"
           description: The input passed to the model. Can be text, image or file.

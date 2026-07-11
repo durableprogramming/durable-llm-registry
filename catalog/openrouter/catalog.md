@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 347
-- **Last Updated**: 2026-07-10
+- **Total Models**: 345
+- **Last Updated**: 2026-07-11
 
 ## Models
 
@@ -1419,50 +1419,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Arcee AI: Trinity Mini
-
-**Model ID**: `arcee-ai/trinity-mini`  
-**Family**: arcee-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.045
-
-
-- **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
 ### Arcee AI: Virtuoso Large
 
 **Model ID**: `arcee-ai/virtuoso-large`  
@@ -2411,10 +2367,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.084
+- **Standard Input**: $0.077
 
 
-- **Standard Output**: $0.168
+- **Standard Output**: $0.154
 
 
 
@@ -4385,48 +4341,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Meta: Llama 3 8B Instruct
-
-**Model ID**: `meta-llama/llama-3-8b-instruct`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.14
-
-
-- **Standard Output**: $0.14
 
 
 
@@ -14719,10 +14633,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.42
+- **Standard Input**: $0.35
 
 
-- **Standard Output**: $1.32
+- **Standard Output**: $1.1
 
 
 
