@@ -3982,6 +3982,50 @@ components:
       - '1:2'
       - '2:1'
       - auto
+    ImageGenerationCall:
+      type: object
+      description: The output of an image generation tool call.
+      required:
+      - type
+      properties:
+        id:
+          type: string
+          description: The unique ID of the image generation tool call.
+        prompt:
+          type:
+          - string
+          - 'null'
+          description: The prompt used to generate the image.
+        result:
+          type:
+          - string
+          - 'null'
+          description: |-
+            The generated image encoded in base64 (OpenAI-compatible: bare
+            base64, no data-URL prefix), or `null` while the call is still in
+            progress or has failed. The image format can be determined from the
+            decoded magic bytes (typically JPEG or PNG).
+        status:
+          type: string
+          description: |-
+            The status of the image generation tool call. One of `in_progress`,
+            `generating`, `completed` or `failed`.
+        type:
+          oneOf:
+          - type: string
+            description: |-
+              Type tag for [`ImageGenerationCall`]. Serializes as
+              `"image_generation_call"`.
+
+              A single-variant enum rather than a `String`: `ImageGenerationCall` lives
+              in the untagged `ModelOutput` / `ModelInputPart` enums and every other
+              field is defaulted or optional, so with a plain `String` type field the
+              struct would match *any* JSON object carrying a `type` key — swallowing
+              `function_call_output` (and similar) input items before their own
+              variants are tried.
+            enum:
+            - image_generation_call
+          description: The type of the image generation tool call. Always `image_generation_call`.
     ImageGenerationModel:
       type: object
       description: Details of an image generation model
@@ -5399,6 +5443,8 @@ components:
         - "$ref": "#/components/schemas/CustomToolCall"
       - allOf:
         - "$ref": "#/components/schemas/ShellCall"
+      - allOf:
+        - "$ref": "#/components/schemas/ImageGenerationCall"
     ModelRequest:
       type: object
       description: The request body for `/v1/responses` endpoint.
@@ -6032,6 +6078,24 @@ components:
             type: string
             enum:
             - x_search
+      - type: object
+        description: Generate images from text prompts.
+        required:
+        - type
+        properties:
+          action:
+            type:
+            - string
+            - 'null'
+            description: |-
+              Which image capabilities to expose to the model. One of `auto`
+              (the default; both generation and editing), `generate`
+              (text-to-image only), or `edit` (image editing only).
+            example: auto
+          type:
+            type: string
+            enum:
+            - image_generation
       - type: object
         description: Search the knowledge bases.
         required:
@@ -7155,6 +7219,7 @@ components:
       - file_search_calls
       - mcp_calls
       - document_search_calls
+      - image_generation_calls
       properties:
         code_interpreter_calls:
           type: integer
@@ -7168,6 +7233,10 @@ components:
           type: integer
           format: int32
           description: Number of file search calls.
+        image_generation_calls:
+          type: integer
+          format: int32
+          description: Number of image generation calls.
         mcp_calls:
           type: integer
           format: int32
