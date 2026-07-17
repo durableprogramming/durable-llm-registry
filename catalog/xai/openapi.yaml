@@ -5549,6 +5549,13 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ReasoningConfiguration"
             description: Reasoning configuration. Only for reasoning models.
+        reasoning_effort:
+          type:
+          - string
+          - 'null'
+          description: reasoning_effort alternative to reasoning configuration. This
+            is a non-standard field meant to ease user experience. We only look at
+            this if the reasoning field is unset.
         search_parameters:
           oneOf:
           - type: 'null'

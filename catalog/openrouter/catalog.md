@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 342
-- **Last Updated**: 2026-07-16
+- **Last Updated**: 2026-07-17
 
 ## Models
 
@@ -3224,8 +3224,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
-
 
 #### Modalities
 
@@ -3245,10 +3243,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.45
+- **Standard Output**: $0.3
 
 
 
@@ -4401,50 +4399,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Meta: Llama 3.2 11B Vision Instruct
-
-**Model ID**: `meta-llama/llama-3.2-11b-vision-instruct`  
-**Family**: meta-llama
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.345
-
-
-- **Standard Output**: $0.345
-
-
-
-
-
-
-
----
-
-
 ### Meta: Llama 3.2 1B Instruct
 
 **Model ID**: `meta-llama/llama-3.2-1b-instruct`  
@@ -4498,7 +4452,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 80,000 tokens
 
 
 #### Modalities
@@ -4519,10 +4473,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.0509
 
 
-- **Standard Output**: $0.33
+- **Standard Output**: $0.335
 
 
 
@@ -4783,6 +4737,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.18
+
+
+
+
+
+
+
+---
+
+
+### Meta: Muse Spark 1.1
+
+**Model ID**: `meta/muse-spark-1.1`  
+**Family**: meta
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, file, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $4.25
 
 
 
@@ -5087,10 +5083,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.0
 
 
 
@@ -5681,10 +5677,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.019
 
 
-- **Standard Output**: $0.04
+- **Standard Output**: $0.03
 
 
 
@@ -5999,10 +5995,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~moonshotai
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,048,576 tokens
 
-
-- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -6023,10 +6017,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $3.41
+- **Standard Output**: $15.0
 
 
 
@@ -6299,6 +6293,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### MoonshotAI: Kimi K3
+
+**Model ID**: `moonshotai/kimi-k3`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
 ### Morph: Morph V3 Fast
 
 **Model ID**: `morph/morph-v3-fast`  
@@ -6421,50 +6457,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.06
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Llama 3.3 Nemotron Super 49B V1.5
-
-**Model ID**: `nvidia/llama-3.3-nemotron-super-49b-v1.5`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.4
-
-
-- **Standard Output**: $0.4
 
 
 
@@ -12283,10 +12275,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.39
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $2.34
 
 
 
