@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 342
-- **Last Updated**: 2026-07-17
+- **Total Models**: 344
+- **Last Updated**: 2026-07-18
 
 ## Models
 
@@ -1424,6 +1424,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Auto Router
 
 **Model ID**: `openrouter/auto`  
+**Family**: openrouter
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, file, video
+
+
+- **Output**: text, image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $-1000000.0
+
+
+- **Standard Output**: $-1000000.0
+
+
+
+
+
+
+
+---
+
+
+### Auto Router (Beta)
+
+**Model ID**: `openrouter/auto-beta`  
 **Family**: openrouter
 #### Specifications
 
@@ -3440,7 +3482,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -3461,10 +3503,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.22
+- **Standard Input**: $0.12
 
 
-- **Standard Output**: $0.55
+- **Standard Output**: $0.37
 
 
 
@@ -4297,10 +4339,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.75
 
 
 
@@ -6128,7 +6170,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 100,352 tokens
 
 
 #### Modalities
@@ -6279,10 +6321,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $4.4
 
 
 
@@ -11072,7 +11114,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,702 tokens
 
 
-- **Max Output Tokens**: 40,960 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -11093,10 +11135,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.2275
 
 
-- **Standard Output**: $0.24
+- **Standard Output**: $0.91
 
 
 
@@ -11246,7 +11288,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -11267,10 +11309,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.52
 
 
 
@@ -12430,7 +12472,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 81,920 tokens
 
 
 #### Modalities
@@ -12451,10 +12493,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.195
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $1.56
+- **Standard Output**: $2.6
 
 
 
@@ -13739,6 +13781,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Thinking Machines: Inkling
+
+**Model ID**: `thinkingmachines/inkling`  
+**Family**: thinkingmachines
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $4.05
+
+
+
+
+
+
+
+---
+
+
 ### Upstage: Solar Pro 3
 
 **Model ID**: `upstage/solar-pro-3`  
@@ -14513,10 +14597,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9394
+- **Standard Input**: $0.2954
 
 
-- **Standard Output**: $2.9524
+- **Standard Output**: $0.9284
 
 
 
