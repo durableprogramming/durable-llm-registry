@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 338
-- **Last Updated**: 2026-07-19
+- **Total Models**: 339
+- **Last Updated**: 2026-07-20
 
 ## Models
 
@@ -4343,6 +4343,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.75
+
+
+
+
+
+
+
+---
+
+
+### Meituan: LongCat 2.0
+
+**Model ID**: `meituan/longcat-2.0`  
+**Family**: meituan
+#### Specifications
+
+- **Context Window**: 1,048,756 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
 
 
 
@@ -11124,6 +11168,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
+- **Max Output Tokens**: 32,768 tokens
+
 
 #### Modalities
 
@@ -11143,10 +11189,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1495
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.495
+- **Standard Output**: $3.0
 
 
 
@@ -14191,10 +14237,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 202,752 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -14218,7 +14264,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.95
 
 
-- **Standard Output**: $3.15
+- **Standard Output**: $2.55
 
 
 
@@ -14347,10 +14393,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2534
+- **Standard Input**: $0.9646
 
 
-- **Standard Output**: $0.7964
+- **Standard Output**: $3.0316
 
 
 
