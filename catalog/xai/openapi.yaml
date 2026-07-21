@@ -1997,9 +1997,8 @@ components:
           format: int32
           description: An upper bound for the number of tokens that can be generated
             for a completion, only applies to visible output tokens (i.e. does not
-            apply to tokens used for reasoning or function calls). Defaults to None,
-            meaning the model will generate as many tokens as needed up until the
-            model's maximum context length.
+            apply to tokens used for reasoning or function calls). Defaults to 128,000
+            when unset; set a larger value to allow longer generations.
           example: 8192
         max_tokens:
           type:
@@ -5500,7 +5499,8 @@ components:
           - 'null'
           format: int32
           description: Max number of tokens that can be generated in a response. This
-            includes both output and reasoning tokens.
+            includes both output and reasoning tokens. Defaults to 128,000 when unset;
+            set a larger value to allow longer generations.
         max_turns:
           type:
           - integer
