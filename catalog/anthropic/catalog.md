@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 10
-- **Last Updated**: 2026-07-24
+- **Total Models**: 11
+- **Last Updated**: 2026-07-25
 
 ## Models
 
@@ -347,6 +347,61 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 **Model ID**: `claude-opus-4-8`  
 **Family**: claude-opus-4
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $5.0
+
+
+
+
+
+
+---
+
+
+### Claude Opus 5
+
+**Model ID**: `claude-opus-5`  
+**Family**: claude-opus
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
