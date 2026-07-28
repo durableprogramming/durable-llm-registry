@@ -1941,6 +1941,17 @@ components:
         user_id:
           type: string
           description: User ID the API key belongs to.
+    AudioUrl:
+      type: object
+      description: |-
+        Reference audio input for video generation.
+        Accepts a base64-encoded data URL.
+      required:
+      - url
+      properties:
+        url:
+          type: string
+          description: Base64-encoded audio data URL (e.g. "data:audio/wav;base64,...").
     ChatRequest:
       type: object
       description: The chat request body for `/v1/chat/completions` endpoint.

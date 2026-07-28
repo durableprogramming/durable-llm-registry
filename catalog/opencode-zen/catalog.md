@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 59
-- **Last Updated**: 2026-07-27
+- **Total Models**: 60
+- **Last Updated**: 2026-07-28
 
 ## Models
 
@@ -2575,6 +2575,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Kimi K3
+
+**Model ID**: `kimi-k3`  
+**Family**: kimi
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
 
 
 
