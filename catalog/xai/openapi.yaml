@@ -1945,13 +1945,16 @@ components:
       type: object
       description: |-
         Reference audio input for video generation.
-        Accepts a base64-encoded data URL.
+        Accepts a base64-encoded data URL or an http(s) URL to download the clip
+        from (25 MiB per clip, like image inputs).
       required:
       - url
       properties:
         url:
           type: string
-          description: Base64-encoded audio data URL (e.g. "data:audio/wav;base64,...").
+          description: |-
+            Base64-encoded audio data URL (e.g. "data:audio/wav;base64,...") or an
+            http(s) URL to a downloadable audio clip.
     ChatRequest:
       type: object
       description: The chat request body for `/v1/chat/completions` endpoint.
