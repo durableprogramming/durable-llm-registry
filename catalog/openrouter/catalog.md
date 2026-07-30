@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 367
-- **Last Updated**: 2026-07-29
+- **Last Updated**: 2026-07-30
 
 ## Models
 
@@ -2587,10 +2587,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2002
+- **Standard Input**: $0.2574
 
 
-- **Standard Output**: $0.8001
+- **Standard Output**: $1.0287
 
 
 
@@ -4475,10 +4475,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.34
 
 
 
@@ -4762,7 +4762,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 65,536 tokens
 
 
-- **Max Output Tokens**: 66,000 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -6970,6 +6970,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 1,048,576 tokens
+
 
 #### Modalities
 
@@ -6989,7 +6991,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $2.9
 
 
 - **Standard Output**: $15.0
@@ -7668,8 +7670,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 512,288 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
-
 
 #### Modalities
 
@@ -7689,10 +7689,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $3.6
 
 
 
@@ -12205,10 +12205,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.2
 
 
 
@@ -15610,7 +15610,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -15631,10 +15631,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.7238
+- **Standard Input**: $0.966
 
 
-- **Standard Output**: $2.2748
+- **Standard Output**: $3.036
 
 
 

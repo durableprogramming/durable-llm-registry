@@ -3694,6 +3694,17 @@ components:
             Prompt for video generation. Required for text-to-video (T2V) and
             reference-to-video (R2V). Optional for image-to-video (I2V) — when
             omitted, the model generates a video from the image alone.
+        reference_audios:
+          type: array
+          items:
+            "$ref": "#/components/schemas/AudioUrl"
+          description: |-
+            Optional reference audio clips (voice identity) for reference-to-video
+            generation. Only supported by select video models; at most 3 clips.
+            May be provided without `reference_images` (audio-only
+            reference-to-video) — at least one reference of either kind selects
+            the reference-to-video mode.
+          maxItems: 3
         reference_images:
           type: array
           items:
