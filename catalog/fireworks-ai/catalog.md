@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 13
-- **Last Updated**: 2026-07-31
+- **Total Models**: 14
+- **Last Updated**: 2026-08-01
 
 ## Models
 
@@ -16,6 +16,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ### DeepSeek V4 Flash
 
 **Model ID**: `accounts/fireworks/models/deepseek-v4-flash`  
+**Family**: deepseek-v3
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.28
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4 Flash (0731)
+
+**Model ID**: `accounts/fireworks/models/deepseek-v4-flash-0731`  
 **Family**: deepseek-v3
 #### Specifications
 

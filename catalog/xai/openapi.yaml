@@ -1945,16 +1945,16 @@ components:
       type: object
       description: |-
         Reference audio input for video generation.
-        Accepts a base64-encoded data URL or an http(s) URL to download the clip
-        from (25 MiB per clip, like image inputs).
+        Selects a first-party preset voice by `voice_id`.
       required:
-      - url
+      - voice_id
       properties:
-        url:
+        voice_id:
           type: string
           description: |-
-            Base64-encoded audio data URL (e.g. "data:audio/wav;base64,...") or an
-            http(s) URL to a downloadable audio clip.
+            Identifier of a first-party preset voice (e.g. "ara"; same voice
+            identifiers as the TTS API), resolved server-side to a curated
+            reference clip from the model's voice-preset catalog.
     ChatRequest:
       type: object
       description: The chat request body for `/v1/chat/completions` endpoint.
@@ -3699,8 +3699,9 @@ components:
           items:
             "$ref": "#/components/schemas/AudioUrl"
           description: |-
-            Optional reference audio clips (voice identity) for reference-to-video
-            generation. Only supported by select video models; at most 3 clips.
+            Optional reference audio (voice identity) for reference-to-video
+            generation. Each entry selects a first-party preset voice via
+            `voice_id`. Only supported by select video models; at most 3 entries.
             May be provided without `reference_images` (audio-only
             reference-to-video) — at least one reference of either kind selects
             the reference-to-video mode.
@@ -7968,7 +7969,9 @@ components:
           type: array
           items:
             type: string
-          description: The input modalities supported by the model (e.g. "text", "image").
+          description: |-
+            The input modalities supported by the model (e.g. "text", "image";
+            "audio" for models accepting reference audio).
         object:
           type: string
           description: The object type, which is always `"model"`.
