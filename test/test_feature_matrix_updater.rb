@@ -159,9 +159,12 @@ class TestFeatureMatrixUpdater < Minitest::Test
       Providers::Mistral,
       Providers::Openai,
       Providers::Opencode,
+      Providers::OpencodeCli,
       Providers::OpenRouter,
       Providers::Perplexity,
+      Providers::SpiderRs,
       Providers::Together,
+      Providers::Truefoundry,
       Providers::XAI
     ]
 

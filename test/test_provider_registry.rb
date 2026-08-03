@@ -40,6 +40,13 @@ class TestProviderRegistry < Minitest::Test
     assert_equal 'XAI', registry.send(:adjust_class_name, 'Xai')
     assert_equal 'Fireworks', registry.send(:adjust_class_name, 'Firework')
     assert_equal 'Openai', registry.send(:adjust_class_name, 'Openai')
+    assert_equal 'SpiderRs', registry.send(:adjust_class_name, 'SpiderR')
+  end
+
+  def test_find_by_name_returns_spider_rs_provider_class
+    registry = Providers::Registry.new
+    provider = registry.find_by_name('spider_rs')
+    assert_equal Providers::SpiderRs, provider
   end
 
   def test_adjust_class_name_no_changes_needed

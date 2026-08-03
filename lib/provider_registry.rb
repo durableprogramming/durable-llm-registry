@@ -39,7 +39,7 @@ module Providers
     end
 
     def adjust_class_name(class_name)
-      class_name.gsub('Openrouter', 'OpenRouter').gsub('Xai', 'XAI').gsub('Firework', 'Fireworks')
+      class_name.gsub('Openrouter', 'OpenRouter').gsub('Xai', 'XAI').gsub('Firework', 'Fireworks').gsub('SpiderR', 'SpiderRs')
     end
   end
 end

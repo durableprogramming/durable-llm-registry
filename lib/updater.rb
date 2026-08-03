@@ -21,6 +21,10 @@ module Providers
       # Update the catalogs after all providers have been updated
       require_relative 'catalog_updater'
       CatalogUpdater.update_catalogs
+
+      # Merge outside_sources data on top of native catalogs
+      require_relative 'catalog_merger'
+      CatalogMerger.merge_catalogs
     end
   end
 end

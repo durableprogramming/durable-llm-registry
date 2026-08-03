@@ -14,6 +14,7 @@
       providers = []
       Dir.glob('catalog/*').select { |d| File.directory?(d) }.each do |dir|
         provider = File.basename(dir)
+        next if provider == 'outside_sources' || provider == 'merged'
         providers << provider
         logger.info("Processing provider: #{provider}")
         models_file = File.join(dir, 'models.jsonl')
