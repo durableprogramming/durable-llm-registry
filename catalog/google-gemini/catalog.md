@@ -2687,6 +2687,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 65,535 tokens
+
 
 #### Modalities
 
@@ -3375,6 +3377,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Context Window**: 256,000 tokens
 
+
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities

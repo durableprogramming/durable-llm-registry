@@ -14,7 +14,10 @@ This matrix shows which providers support dynamic pulling of API specifications,
 | Mistral | ❌ | ✅ | ❌ |
 | Openai | ✅ | ❌ | ❌ |
 | Opencode | ❌ | ✅ | ✅ |
+| OpencodeCli | ❌ | ✅ | ✅ |
 | OpenRouter | ❌ | ✅ | ✅ |
 | Perplexity | ❌ | ✅ | ✅ |
+| SpiderRs | ❌ | ✅ | ✅ |
 | Together | ❌ | ❌ | ❌ |
+| Truefoundry | ❌ | ✅ | ✅ |
 | XAI | ✅ | ❌ | ❌ |

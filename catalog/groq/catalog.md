@@ -7,22 +7,144 @@ This catalog provides a comprehensive overview of all groq models available thro
 ## Overview
 
 - **Provider**: groq
-- **Total Models**: 15
-- **Last Updated**: 2026-08-02
+- **Total Models**: 23
+- **Last Updated**: 2026-08-03
 
 ## Models
 
 
-### GPT-OSS 120B
+### allam-2-7b
 
-**Model ID**: `openai/gpt-oss-120b`  
-**Family**: gpt-oss-120b
+**Model ID**: `allam-2-7b`  
+**Family**: allam-2-7b
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 4,096 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### canopylabs/orpheus-arabic-saudi
+
+**Model ID**: `canopylabs/orpheus-arabic-saudi`  
+**Family**: canopylabs/orpheus-arabic-saudi
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### canopylabs/orpheus-v1-english
+
+**Model ID**: `canopylabs/orpheus-v1-english`  
+**Family**: canopylabs/orpheus-v1-english
+#### Specifications
+
+- **Context Window**: 200 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### gemma-7b-it
+
+**Model ID**: `gemma-7b-it`  
+**Family**: gemma-7b-it
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -39,7 +161,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - Function calling
 
-- Reasoning
+- Tool choice
 
 
 
@@ -49,10 +171,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.049999999999999996
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $0.08
 
 
 
@@ -63,60 +185,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### GPT-OSS 20B
-
-**Model ID**: `openai/gpt-oss-20b`  
-**Family**: gpt-oss-20b
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### Groq Compound
+### groq/compound
 
 **Model ID**: `groq/compound`  
-**Family**: groq-compound
+**Family**: groq/compound
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -137,83 +209,11 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Capabilities
 
 
-- Web search
+- System messages
 
 - Code execution
 
-- Tool use
-
-
-
-#### Pricing (per million tokens)
-
-
----
-
-
-### Groq Compound Mini
-
-**Model ID**: `groq/compound-mini`  
-**Family**: groq-compound-mini
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Web search
-
-- Code execution
-
-- Tool use
-
-
-
-#### Pricing (per million tokens)
-
-
----
-
-
-### Kimi K2 0905
-
-**Model ID**: `moonshotai/kimi-k2-instruct-0905`  
-**Family**: kimi-k2-0905
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
+- Json output
 
 
 
@@ -223,10 +223,6 @@ This catalog provides a comprehensive overview of all groq models available thro
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $3.0
 
 
 
@@ -237,10 +233,56 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Llama 3.1 8B Instant
+### groq/compound-mini
+
+**Model ID**: `groq/compound-mini`  
+**Family**: groq/compound-mini
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### llama-3.1-8b-instant
 
 **Model ID**: `llama-3.1-8b-instant`  
-**Family**: llama-3.1-8b
+**Family**: llama-3.1-8b-instant
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -263,6 +305,12 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - Function calling
 
+- Parallel function calling
+
+- Tool choice
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -271,7 +319,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.049999999999999996
 
 
 - **Standard Output**: $0.08
@@ -285,10 +333,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Llama 3.3 70B Versatile
+### llama-3.3-70b-versatile
 
 **Model ID**: `llama-3.3-70b-versatile`  
-**Family**: llama-3.3-70b
+**Family**: llama-3.3-70b-versatile
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -311,6 +359,14 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - Function calling
 
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -322,7 +378,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 - **Standard Input**: $0.59
 
 
-- **Standard Output**: $0.79
+- **Standard Output**: $0.7899999999999999
 
 
 
@@ -333,10 +389,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Llama 4 Maverick (17Bx128E)
+### meta-llama/llama-4-maverick-17b-128e-instruct
 
 **Model ID**: `meta-llama/llama-4-maverick-17b-128e-instruct`  
-**Family**: llama-4-maverick
+**Family**: meta-llama/llama-4-maverick-17b-128e-instruct
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -348,7 +404,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Modalities
 
 
-- **Input**: text
+- **Input**: image
 
 
 - **Output**: text
@@ -357,7 +413,11 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Capabilities
 
 
+- Structured output
+
 - Function calling
+
+- Tool choice
 
 
 
@@ -367,7 +427,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.19999999999999998
 
 
 - **Standard Output**: $0.6
@@ -381,10 +441,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Llama 4 Scout (17Bx16E)
+### meta-llama/llama-4-scout-17b-16e-instruct
 
 **Model ID**: `meta-llama/llama-4-scout-17b-16e-instruct`  
-**Family**: llama-4-scout
+**Family**: meta-llama/llama-4-scout-17b-16e-instruct
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -396,7 +456,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -406,6 +466,14 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 
 - Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
 
 
 
@@ -418,7 +486,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 - **Standard Input**: $0.11
 
 
-- **Standard Output**: $0.34
+- **Standard Output**: $0.33999999999999997
 
 
 
@@ -429,10 +497,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Llama Guard 4 12B
+### meta-llama/llama-guard-4-12b
 
 **Model ID**: `meta-llama/llama-guard-4-12b`  
-**Family**: llama-guard-4-12b
+**Family**: meta-llama/llama-guard-4-12b
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -459,10 +527,10 @@ This catalog provides a comprehensive overview of all groq models available thro
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.19999999999999998
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.19999999999999998
 
 
 
@@ -473,50 +541,390 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### PlayAI TTS
+### meta-llama/llama-prompt-guard-2-22m
+
+**Model ID**: `meta-llama/llama-prompt-guard-2-22m`  
+**Family**: meta-llama/llama-prompt-guard-2-22m
+#### Specifications
+
+- **Context Window**: 512 tokens
+
+
+- **Max Output Tokens**: 512 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.03
+
+
+- **Standard Output**: $0.03
+
+
+
+
+
+
+
+---
+
+
+### meta-llama/llama-prompt-guard-2-86m
+
+**Model ID**: `meta-llama/llama-prompt-guard-2-86m`  
+**Family**: meta-llama/llama-prompt-guard-2-86m
+#### Specifications
+
+- **Context Window**: 512 tokens
+
+
+- **Max Output Tokens**: 512 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.04
+
+
+- **Standard Output**: $0.04
+
+
+
+
+
+
+
+---
+
+
+### moonshotai/kimi-k2-instruct
+
+**Model ID**: `moonshotai/kimi-k2-instruct`  
+**Family**: moonshotai/kimi-k2-instruct
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### moonshotai/kimi-k2-instruct-0905
+
+**Model ID**: `moonshotai/kimi-k2-instruct-0905`  
+**Family**: moonshotai/kimi-k2-instruct-0905
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### openai/gpt-oss-120b
+
+**Model ID**: `openai/gpt-oss-120b`  
+**Family**: openai/gpt-oss-120b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Prompt caching
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### openai/gpt-oss-20b
+
+**Model ID**: `openai/gpt-oss-20b`  
+**Family**: openai/gpt-oss-20b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Prompt caching
+
+- Json output
+
+- System messages
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+- **Cached Output**: $0.0375
+
+
+
+
+
+
+---
+
+
+### openai/gpt-oss-safeguard-20b
+
+**Model ID**: `openai/gpt-oss-safeguard-20b`  
+**Family**: openai/gpt-oss-safeguard-20b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+- **Cached Output**: $0.0375
+
+
+
+
+
+
+---
+
+
+### playai-tts
 
 **Model ID**: `playai-tts`  
 **Family**: playai-tts
 #### Specifications
 
-- **Context Window**: 8,192 tokens
+- **Context Window**: 10,000 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: audio
-
-
-#### Capabilities
-
-
-- Text to speech
-
-
-
-#### Pricing (per million tokens)
-
-
----
-
-
-### PlayAI TTS Arabic
-
-**Model ID**: `playai-tts-arabic`  
-**Family**: playai-tts-arabic
-#### Specifications
-
-- **Context Window**: 8,192 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -525,26 +933,32 @@ This catalog provides a comprehensive overview of all groq models available thro
 - **Input**: text
 
 
-- **Output**: audio
+- **Output**: text
 
 
 #### Capabilities
 
 
-- Text to speech
-
-
-
 #### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
 
 
 ---
 
 
-### Qwen3 32B
+### qwen/qwen3-32b
 
 **Model ID**: `qwen/qwen3-32b`  
-**Family**: qwen3-32b
+**Family**: qwen/qwen3-32b
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -566,6 +980,12 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 
 - Function calling
+
+- Parallel function calling
+
+- Json output
+
+- Tool choice
 
 
 
@@ -589,20 +1009,22 @@ This catalog provides a comprehensive overview of all groq models available thro
 ---
 
 
-### Whisper Large v3
+### qwen/qwen3.6-27b
 
-**Model ID**: `whisper-large-v3`  
-**Family**: whisper-large-v3
+**Model ID**: `qwen/qwen3.6-27b`  
+**Family**: qwen/qwen3.6-27b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
+
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
 
 
-- **Input**: audio
+- **Input**: text, image
 
 
 - **Output**: text
@@ -611,24 +1033,44 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Capabilities
 
 
-- Speech to text
+- Function calling
+
+- Json output
+
+- System messages
 
 
 
 #### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
 
 
 ---
 
 
-### Whisper Large v3 Turbo
+### whisper-large-v3
 
-**Model ID**: `whisper-large-v3-turbo`  
-**Family**: whisper-large-v3-turbo
+**Model ID**: `whisper-large-v3`  
+**Family**: whisper-large-v3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 448 tokens
 
+
+- **Max Output Tokens**: 448 tokens
 
 
 #### Modalities
@@ -643,11 +1085,57 @@ This catalog provides a comprehensive overview of all groq models available thro
 #### Capabilities
 
 
-- Speech to text
+#### Pricing (per million tokens)
 
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### whisper-large-v3-turbo
+
+**Model ID**: `whisper-large-v3-turbo`  
+**Family**: whisper-large-v3-turbo
+#### Specifications
+
+- **Context Window**: 448 tokens
+
+
+- **Max Output Tokens**: 448 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
 
 
 #### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
 
 
 ---
