@@ -116,9 +116,9 @@ class TestCohere < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/cohere')
-        assert File.exist?('catalog/cohere/models.jsonl')
-        content = File.read('catalog/cohere/models.jsonl')
+        assert Dir.exist?('input_sources/native/cohere')
+        assert File.exist?('input_sources/native/cohere/models.jsonl')
+        content = File.read('input_sources/native/cohere/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
@@ -137,9 +137,9 @@ class TestCohere < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/cohere')
-        assert File.exist?('catalog/cohere/models.jsonl')
-        content = File.read('catalog/cohere/models.jsonl')
+        assert Dir.exist?('input_sources/native/cohere')
+        assert File.exist?('input_sources/native/cohere/models.jsonl')
+        content = File.read('input_sources/native/cohere/models.jsonl')
         assert_equal "\n", content  # Just a newline for empty array
       ensure
         Dir.chdir(original_dir)

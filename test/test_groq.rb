@@ -411,9 +411,9 @@ class TestGroq < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/groq')
-        assert File.exist?('catalog/groq/models.jsonl')
-        content = File.read('catalog/groq/models.jsonl')
+        assert Dir.exist?('input_sources/native/groq')
+        assert File.exist?('input_sources/native/groq/models.jsonl')
+        content = File.read('input_sources/native/groq/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
@@ -432,9 +432,9 @@ class TestGroq < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/groq')
-        assert File.exist?('catalog/groq/models.jsonl')
-        content = File.read('catalog/groq/models.jsonl')
+        assert Dir.exist?('input_sources/native/groq')
+        assert File.exist?('input_sources/native/groq/models.jsonl')
+        content = File.read('input_sources/native/groq/models.jsonl')
         assert_equal "\n", content
       ensure
         Dir.chdir(original_dir)
@@ -449,9 +449,9 @@ class TestGroq < Minitest::Test
       original_dir = Dir.pwd
       begin
         Dir.chdir(tmpdir)
-        # Make catalog directory read-only to simulate write error
-        FileUtils.mkdir_p('catalog')
-        FileUtils.chmod(0444, 'catalog')
+        # Make input_sources directory read-only to simulate write error
+        FileUtils.mkdir_p('input_sources')
+        FileUtils.chmod(0444, 'input_sources')
 
         assert_raises(Errno::EACCES) do
           @provider.send(:save_models_to_jsonl, models)
@@ -473,8 +473,8 @@ class TestGroq < Minitest::Test
         refute Dir.exist?('catalog')
 
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/groq')
-        assert File.exist?('catalog/groq/models.jsonl')
+        assert Dir.exist?('input_sources/native/groq')
+        assert File.exist?('input_sources/native/groq/models.jsonl')
       ensure
         Dir.chdir(original_dir)
       end

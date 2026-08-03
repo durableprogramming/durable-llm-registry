@@ -37,7 +37,7 @@ module Providers
     private
 
     def save_models_to_jsonl(models)
-      catalog_dir = "catalog/deepseek"
+      catalog_dir = "input_sources/native/deepseek"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
     end

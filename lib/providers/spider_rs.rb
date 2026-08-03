@@ -27,13 +27,13 @@ module Providers
 
       processed_models = process_models(raw_models)
       save_models_to_jsonl(processed_models)
-      @logger.info("Updated outside_sources/#{SOURCE_NAME} models data (#{processed_models.size} models)")
+      @logger.info("Updated input_sources/external/#{SOURCE_NAME} models data (#{processed_models.size} models)")
     end
 
     private
 
     def save_models_to_jsonl(models)
-      catalog_dir = "catalog/outside_sources/#{SOURCE_NAME}"
+      catalog_dir = "input_sources/external/#{SOURCE_NAME}"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
     end

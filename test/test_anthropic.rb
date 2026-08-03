@@ -135,9 +135,9 @@ class TestAnthropic < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/anthropic')
-        assert File.exist?('catalog/anthropic/models.jsonl')
-        content = File.read('catalog/anthropic/models.jsonl')
+        assert Dir.exist?('input_sources/native/anthropic')
+        assert File.exist?('input_sources/native/anthropic/models.jsonl')
+        content = File.read('input_sources/native/anthropic/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
@@ -156,9 +156,9 @@ class TestAnthropic < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/anthropic')
-        assert File.exist?('catalog/anthropic/models.jsonl')
-        content = File.read('catalog/anthropic/models.jsonl')
+        assert Dir.exist?('input_sources/native/anthropic')
+        assert File.exist?('input_sources/native/anthropic/models.jsonl')
+        content = File.read('input_sources/native/anthropic/models.jsonl')
         assert_equal "\n", content
       ensure
         Dir.chdir(original_dir)

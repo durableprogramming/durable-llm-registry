@@ -2,6 +2,7 @@ require 'minitest/autorun'
 require 'mocha/minitest'
 require_relative '../lib/updater'
 require_relative '../lib/catalog_updater'
+require_relative '../lib/catalog_merger'
 
 class TestUpdater < Minitest::Test
   def setup
@@ -39,9 +40,11 @@ class TestUpdater < Minitest::Test
   def test_run_with_no_provider_files
     Dir.stub :glob, ->(*args) { [] } do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, nil do
-          @updater.run
-          # Should not raise any errors
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            @updater.run
+            # Should not raise any errors
+          end
         end
       end
     end
@@ -65,10 +68,12 @@ class TestUpdater < Minitest::Test
 
       Providers.stub :const_get, mock_provider_class do
         Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-          CatalogUpdater.stub :update_catalogs, nil do
-            # Mock require_relative for openai.rb
-            Kernel.stub :require_relative, nil do
-              @updater.run
+          CatalogMerger.stub :merge_catalogs, nil do
+            CatalogUpdater.stub :update_catalogs, nil do
+              # Mock require_relative for openai.rb
+              Kernel.stub :require_relative, nil do
+                @updater.run
+              end
             end
           end
         end
@@ -105,10 +110,12 @@ class TestUpdater < Minitest::Test
         mock_provider_class
       } do
         Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-          CatalogUpdater.stub :update_catalogs, nil do
-            # Mock require_relative
-            Kernel.stub :require_relative, nil do
-              @updater.run
+          CatalogMerger.stub :merge_catalogs, nil do
+            CatalogUpdater.stub :update_catalogs, nil do
+              # Mock require_relative
+              Kernel.stub :require_relative, nil do
+                @updater.run
+              end
             end
           end
         end
@@ -125,9 +132,11 @@ class TestUpdater < Minitest::Test
     mock_registry.expect :all, []
     Providers::Registry.stub :new, mock_registry do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, :called do
-        CatalogUpdater.stub :update_catalogs, nil do
-          @updater.run
-          # update_feature_matrix_file was called (stubbed to return :called)
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            @updater.run
+            # update_feature_matrix_file was called (stubbed to return :called)
+          end
         end
       end
     end
@@ -136,9 +145,11 @@ class TestUpdater < Minitest::Test
   def test_run_calls_update_catalogs
     Dir.stub :glob, [] do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, :called do
-          result = @updater.run
-          assert_equal :called, result
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, :called do
+            result = @updater.run
+            assert_equal :called, result
+          end
         end
       end
     end
@@ -147,9 +158,11 @@ class TestUpdater < Minitest::Test
   def test_run_handles_provider_instantiation_error
     Providers::Registry.stub :new, ->(**args) { raise NameError.new('Class not found') } do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, nil do
-          assert_raises NameError do
-            @updater.run
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            assert_raises NameError do
+              @updater.run
+            end
           end
         end
       end
@@ -168,10 +181,12 @@ class TestUpdater < Minitest::Test
       Providers.stub :const_get, mock_provider_class do
         mock_provider_class.stubs(:new).returns(mock_instance)
         Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-          CatalogUpdater.stub :update_catalogs, nil do
-            Kernel.stub :require_relative, nil do
-              assert_raises StandardError do
-                @updater.run
+          CatalogMerger.stub :merge_catalogs, nil do
+            CatalogUpdater.stub :update_catalogs, nil do
+              Kernel.stub :require_relative, nil do
+                assert_raises StandardError do
+                  @updater.run
+                end
               end
             end
           end
@@ -185,9 +200,11 @@ class TestUpdater < Minitest::Test
   def test_run_handles_require_relative_error
     Providers::Registry.stub :new, ->(**args) { raise LoadError.new('File not found') } do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, nil do
-          assert_raises LoadError do
-            @updater.run
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            assert_raises LoadError do
+              @updater.run
+            end
           end
         end
       end
@@ -208,9 +225,11 @@ class TestUpdater < Minitest::Test
       Providers.stub :const_get, mock_provider_class do
         mock_provider_class.stubs(:new).returns(mock_instance)
         Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-          CatalogUpdater.stub :update_catalogs, nil do
-            Kernel.stub :require_relative, nil do
-              updater.run
+          CatalogMerger.stub :merge_catalogs, nil do
+            CatalogUpdater.stub :update_catalogs, nil do
+              Kernel.stub :require_relative, nil do
+                updater.run
+              end
             end
           end
         end
@@ -220,14 +239,17 @@ class TestUpdater < Minitest::Test
     custom_inflector.verify
   end
 
-  def test_run_requires_catalog_updater_once
+  def test_run_requires_catalog_merger_and_updater_once
     mock_registry = Minitest::Mock.new
     mock_registry.expect :all, []
+    @updater.expects(:require_relative).with('catalog_merger').once
     @updater.expects(:require_relative).with('catalog_updater').once
     Providers::Registry.stub :new, mock_registry do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, nil do
-          @updater.run
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            @updater.run
+          end
         end
       end
     end
@@ -243,9 +265,11 @@ class TestUpdater < Minitest::Test
       Providers.stub :const_get, mock_provider_class do
         mock_provider_class.stubs(:new).returns(mock_instance)
         Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-          CatalogUpdater.stub :update_catalogs, nil do
-            Kernel.stub :require_relative, nil do
-              @updater.run
+          CatalogMerger.stub :merge_catalogs, nil do
+            CatalogUpdater.stub :update_catalogs, nil do
+              Kernel.stub :require_relative, nil do
+                @updater.run
+              end
             end
           end
         end
@@ -276,8 +300,10 @@ class TestUpdater < Minitest::Test
     mock_registry.expect :all, [mock_provider_class1, mock_provider_class2]
     Providers::Registry.stub :new, mock_registry do
       Providers::FeatureMatrixUpdater.stub :update_feature_matrix_file, nil do
-        CatalogUpdater.stub :update_catalogs, nil do
-          @updater.run
+        CatalogMerger.stub :merge_catalogs, nil do
+          CatalogUpdater.stub :update_catalogs, nil do
+            @updater.run
+          end
         end
       end
     end

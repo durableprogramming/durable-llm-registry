@@ -54,7 +54,7 @@ module Providers
     end
 
     def save_models_to_jsonl(models)
-      catalog_dir = "catalog/groq"
+      catalog_dir = "input_sources/native/groq"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
     end

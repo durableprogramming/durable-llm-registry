@@ -28,7 +28,7 @@ module Providers
         next if processed_models.empty?
 
         save_models_to_jsonl(provider_id, processed_models)
-        @logger.info("Updated outside_sources/opencode-cli/#{provider_id} models data (#{processed_models.size} models)")
+        @logger.info("Updated input_sources/external/opencode-cli/#{provider_id} models data (#{processed_models.size} models)")
       end
     end
 
@@ -37,7 +37,7 @@ module Providers
     SOURCE_NAME = 'opencode-cli'
 
     def save_models_to_jsonl(provider_id, models)
-      catalog_dir = "catalog/outside_sources/#{SOURCE_NAME}/#{provider_id}"
+      catalog_dir = "input_sources/external/#{SOURCE_NAME}/#{provider_id}"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
     end

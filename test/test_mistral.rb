@@ -276,9 +276,9 @@ class TestMistral < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/mistral-ai')
-        assert File.exist?('catalog/mistral-ai/models.jsonl')
-        content = File.read('catalog/mistral-ai/models.jsonl')
+        assert Dir.exist?('input_sources/native/mistral-ai')
+        assert File.exist?('input_sources/native/mistral-ai/models.jsonl')
+        content = File.read('input_sources/native/mistral-ai/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
@@ -297,9 +297,9 @@ class TestMistral < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/mistral-ai')
-        assert File.exist?('catalog/mistral-ai/models.jsonl')
-        content = File.read('catalog/mistral-ai/models.jsonl')
+        assert Dir.exist?('input_sources/native/mistral-ai')
+        assert File.exist?('input_sources/native/mistral-ai/models.jsonl')
+        content = File.read('input_sources/native/mistral-ai/models.jsonl')
         assert_equal "\n", content
       ensure
         Dir.chdir(original_dir)

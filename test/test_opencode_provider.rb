@@ -307,10 +307,10 @@ class TestOpencodeProvider < Minitest::Test
     Dir.mktmpdir do |tmpdir|
       Dir.chdir(tmpdir) do
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/opencode-zen')
-        assert File.exist?('catalog/opencode-zen/models.jsonl')
+        assert Dir.exist?('input_sources/native/opencode-zen')
+        assert File.exist?('input_sources/native/opencode-zen/models.jsonl')
 
-        content = File.read('catalog/opencode-zen/models.jsonl')
+        content = File.read('input_sources/native/opencode-zen/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
 
@@ -327,10 +327,10 @@ class TestOpencodeProvider < Minitest::Test
     Dir.mktmpdir do |tmpdir|
       Dir.chdir(tmpdir) do
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/opencode-zen')
-        assert File.exist?('catalog/opencode-zen/models.jsonl')
+        assert Dir.exist?('input_sources/native/opencode-zen')
+        assert File.exist?('input_sources/native/opencode-zen/models.jsonl')
 
-        content = File.read('catalog/opencode-zen/models.jsonl')
+        content = File.read('input_sources/native/opencode-zen/models.jsonl')
         assert_equal '', content.strip  # Empty file
       end
     end

@@ -239,9 +239,9 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        assert Dir.exist?('catalog/test_provider')
-        assert File.exist?('catalog/test_provider/openapi.yaml')
-        content = File.read('catalog/test_provider/openapi.yaml')
+        assert Dir.exist?('input_sources/native/test_provider')
+        assert File.exist?('input_sources/native/test_provider/openapi.yaml')
+        content = File.read('input_sources/native/test_provider/openapi.yaml')
         assert_equal spec_content, content
       ensure
         Dir.chdir(original_dir)
@@ -258,12 +258,12 @@ class TestBase < Minitest::Test
       original_dir = Dir.pwd
       begin
         Dir.chdir(tmpdir)
-        FileUtils.mkdir_p('catalog/existing_provider')
-        File.write('catalog/existing_provider/openapi.yaml', 'old content')
+        FileUtils.mkdir_p('input_sources/native/existing_provider')
+        File.write('input_sources/native/existing_provider/openapi.yaml', 'old content')
 
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        content = File.read('catalog/existing_provider/openapi.yaml')
+        content = File.read('input_sources/native/existing_provider/openapi.yaml')
         assert_equal spec_content, content
       ensure
         Dir.chdir(original_dir)
@@ -283,8 +283,8 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        assert Dir.exist?('catalog/deep/nested/provider')
-        assert File.exist?('catalog/deep/nested/provider/openapi.yaml')
+        assert Dir.exist?('input_sources/native/deep/nested/provider')
+        assert File.exist?('input_sources/native/deep/nested/provider/openapi.yaml')
       ensure
         Dir.chdir(original_dir)
       end
@@ -302,8 +302,8 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, '')
 
-        assert Dir.exist?('catalog/empty_provider')
-        content = File.read('catalog/empty_provider/openapi.yaml')
+        assert Dir.exist?('input_sources/native/empty_provider')
+        content = File.read('input_sources/native/empty_provider/openapi.yaml')
         assert_equal '', content
       ensure
         Dir.chdir(original_dir)
@@ -323,8 +323,8 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        assert Dir.exist?('catalog/special-provider_name')
-        assert File.exist?('catalog/special-provider_name/openapi.yaml')
+        assert Dir.exist?('input_sources/native/special-provider_name')
+        assert File.exist?('input_sources/native/special-provider_name/openapi.yaml')
       ensure
         Dir.chdir(original_dir)
       end
@@ -342,8 +342,8 @@ class TestBase < Minitest::Test
         Dir.chdir(tmpdir)
 
         # Make the directory read-only to cause write failure
-        FileUtils.mkdir_p('catalog/failing_provider')
-        FileUtils.chmod(0444, 'catalog/failing_provider')
+        FileUtils.mkdir_p('input_sources/native/failing_provider')
+        FileUtils.chmod(0444, 'input_sources/native/failing_provider')
 
         assert_raises Errno::EACCES do
           provider.send(:save_spec_to_catalog, provider_name, spec_content)
@@ -364,9 +364,9 @@ class TestBase < Minitest::Test
       begin
         Dir.chdir(tmpdir)
 
-        # Make the catalog directory read-only
-        FileUtils.mkdir_p('catalog')
-        FileUtils.chmod(0444, 'catalog')
+        # Make the input_sources directory read-only
+        FileUtils.mkdir_p('input_sources')
+        FileUtils.chmod(0444, 'input_sources')
 
         assert_raises Errno::EACCES do
           provider.send(:save_spec_to_catalog, provider_name, spec_content)
@@ -387,12 +387,12 @@ class TestBase < Minitest::Test
       original_dir = Dir.pwd
       begin
         Dir.chdir(tmpdir)
-        FileUtils.mkdir_p('catalog/overwrite_provider')
-        File.write('catalog/overwrite_provider/openapi.yaml', old_content)
+        FileUtils.mkdir_p('input_sources/native/overwrite_provider')
+        File.write('input_sources/native/overwrite_provider/openapi.yaml', old_content)
 
         provider.send(:save_spec_to_catalog, provider_name, new_content)
 
-        content = File.read('catalog/overwrite_provider/openapi.yaml')
+        content = File.read('input_sources/native/overwrite_provider/openapi.yaml')
         assert_equal new_content, content
       ensure
         Dir.chdir(original_dir)
@@ -441,7 +441,7 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, nil)
 
-        content = File.read('catalog/nil_provider/openapi.yaml')
+        content = File.read('input_sources/native/nil_provider/openapi.yaml')
         assert_equal '', content
       ensure
         Dir.chdir(original_dir)
@@ -492,7 +492,7 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, unicode_content)
 
-        content = File.read('catalog/unicode_provider/openapi.yaml', encoding: 'UTF-8')
+        content = File.read('input_sources/native/unicode_provider/openapi.yaml', encoding: 'UTF-8')
         assert_equal unicode_content, content
       ensure
         Dir.chdir(original_dir)
@@ -552,9 +552,9 @@ class TestBase < Minitest::Test
         # This should still work as FileUtils.mkdir_p handles relative paths
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        # catalog/../outside_catalog resolves to outside_catalog
-        assert Dir.exist?('outside_catalog')
-        assert File.exist?('outside_catalog/openapi.yaml')
+        # input_sources/native/../outside_catalog resolves to input_sources/outside_catalog
+        assert Dir.exist?('input_sources/outside_catalog')
+        assert File.exist?('input_sources/outside_catalog/openapi.yaml')
       ensure
         Dir.chdir(original_dir)
       end
@@ -633,7 +633,7 @@ class TestBase < Minitest::Test
 
         provider.send(:save_spec_to_catalog, provider_name, spec_content)
 
-        expected_path = File.join('catalog', 'test', 'openapi.yaml')
+        expected_path = File.join('input_sources', 'native', 'test', 'openapi.yaml')
         assert File.exist?(expected_path)
       ensure
         Dir.chdir(original_dir)

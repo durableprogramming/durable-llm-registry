@@ -247,9 +247,9 @@ class TestAzureOpenai < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/azure-openai')
-        assert File.exist?('catalog/azure-openai/models.jsonl')
-        content = File.read('catalog/azure-openai/models.jsonl')
+        assert Dir.exist?('input_sources/native/azure-openai')
+        assert File.exist?('input_sources/native/azure-openai/models.jsonl')
+        content = File.read('input_sources/native/azure-openai/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
@@ -268,9 +268,9 @@ class TestAzureOpenai < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/azure-openai')
-        assert File.exist?('catalog/azure-openai/models.jsonl')
-        content = File.read('catalog/azure-openai/models.jsonl')
+        assert Dir.exist?('input_sources/native/azure-openai')
+        assert File.exist?('input_sources/native/azure-openai/models.jsonl')
+        content = File.read('input_sources/native/azure-openai/models.jsonl')
         assert_equal "\n", content
       ensure
         Dir.chdir(original_dir)
@@ -504,10 +504,10 @@ class TestAzureOpenai < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models1)
-        content1 = File.read('catalog/azure-openai/models.jsonl')
+        content1 = File.read('input_sources/native/azure-openai/models.jsonl')
 
         @provider.send(:save_models_to_jsonl, models2)
-        content2 = File.read('catalog/azure-openai/models.jsonl')
+        content2 = File.read('input_sources/native/azure-openai/models.jsonl')
 
         refute_equal content1, content2
         parsed = JSON.parse(content2.strip)
@@ -528,7 +528,7 @@ class TestAzureOpenai < Minitest::Test
         # Ensure parent directory doesn't exist
         refute Dir.exist?('catalog')
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/azure-openai')
+        assert Dir.exist?('input_sources/native/azure-openai')
       ensure
         Dir.chdir(original_dir)
       end
@@ -550,7 +550,7 @@ class TestAzureOpenai < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        content = File.read('catalog/azure-openai/models.jsonl')
+        content = File.read('input_sources/native/azure-openai/models.jsonl')
         parsed = JSON.parse(content.strip)
         assert_equal models.first, parsed
       ensure

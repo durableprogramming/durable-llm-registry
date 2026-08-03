@@ -18,13 +18,14 @@ module Providers
       # Update the feature matrix after all providers have been updated
       Providers::FeatureMatrixUpdater.update_feature_matrix_file
 
-      # Update the catalogs after all providers have been updated
-      require_relative 'catalog_updater'
-      CatalogUpdater.update_catalogs
-
-      # Merge outside_sources data on top of native catalogs
+      # Build catalog/<provider>/models.jsonl by merging input_sources/native
+      # with input_sources/external, in priority order
       require_relative 'catalog_merger'
       CatalogMerger.merge_catalogs
+
+      # Render markdown/HTML from the merged catalog/<provider>/models.jsonl files
+      require_relative 'catalog_updater'
+      CatalogUpdater.update_catalogs
     end
   end
 end

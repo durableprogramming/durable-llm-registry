@@ -30,14 +30,14 @@ module Providers
         next if processed_models.empty?
 
         save_models_to_jsonl(provider_name, processed_models)
-        @logger.info("Updated outside_sources/#{SOURCE_NAME}/#{provider_name} models data (#{processed_models.size} models)")
+        @logger.info("Updated input_sources/external/#{SOURCE_NAME}/#{provider_name} models data (#{processed_models.size} models)")
       end
     end
 
     private
 
     def save_models_to_jsonl(provider_name, models)
-      catalog_dir = "catalog/outside_sources/#{SOURCE_NAME}/#{provider_name}"
+      catalog_dir = "input_sources/external/#{SOURCE_NAME}/#{provider_name}"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
     end

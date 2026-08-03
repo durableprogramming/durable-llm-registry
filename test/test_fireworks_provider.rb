@@ -16,7 +16,7 @@ class TestFireworksProvider < Minitest::Test
 
   def teardown
     # Clean up any created files
-    FileUtils.rm_rf('catalog/fireworks-ai') if Dir.exist?('catalog/fireworks-ai')
+    FileUtils.rm_rf('input_sources/native/fireworks-ai') if Dir.exist?('input_sources/native/fireworks-ai')
   end
 
   def test_initialization_with_default_logger
@@ -182,10 +182,10 @@ class TestFireworksProvider < Minitest::Test
 
     @provider.send(:save_models_to_jsonl, models)
 
-    assert Dir.exist?('catalog/fireworks-ai')
-    assert File.exist?('catalog/fireworks-ai/models.jsonl')
+    assert Dir.exist?('input_sources/native/fireworks-ai')
+    assert File.exist?('input_sources/native/fireworks-ai/models.jsonl')
 
-    content = File.read('catalog/fireworks-ai/models.jsonl')
+    content = File.read('input_sources/native/fireworks-ai/models.jsonl')
     lines = content.strip.split("\n")
     assert_equal 2, lines.size
 
@@ -197,22 +197,22 @@ class TestFireworksProvider < Minitest::Test
   def test_save_models_to_jsonl_handles_empty_models
     @provider.send(:save_models_to_jsonl, [])
 
-    assert Dir.exist?('catalog/fireworks-ai')
-    assert File.exist?('catalog/fireworks-ai/models.jsonl')
+    assert Dir.exist?('input_sources/native/fireworks-ai')
+    assert File.exist?('input_sources/native/fireworks-ai/models.jsonl')
 
-    content = File.read('catalog/fireworks-ai/models.jsonl')
+    content = File.read('input_sources/native/fireworks-ai/models.jsonl')
     assert_equal '', content.strip
   end
 
   def test_save_models_to_jsonl_overwrites_existing_file
     # Create initial file
-    FileUtils.mkdir_p('catalog/fireworks-ai')
-    File.write('catalog/fireworks-ai/models.jsonl', '{"old": "data"}')
+    FileUtils.mkdir_p('input_sources/native/fireworks-ai')
+    File.write('input_sources/native/fireworks-ai/models.jsonl', '{"old": "data"}')
 
     models = [{ 'name' => 'New Model', 'family' => 'new' }]
     @provider.send(:save_models_to_jsonl, models)
 
-    content = File.read('catalog/fireworks-ai/models.jsonl')
+    content = File.read('input_sources/native/fireworks-ai/models.jsonl')
     lines = content.strip.split("\n")
     assert_equal 1, lines.size
 
@@ -423,8 +423,8 @@ class TestFireworksProvider < Minitest::Test
     end
 
     # Verify the file was created and contains expected data
-    assert File.exist?('catalog/fireworks-ai/models.jsonl')
-    content = File.read('catalog/fireworks-ai/models.jsonl')
+    assert File.exist?('input_sources/native/fireworks-ai/models.jsonl')
+    content = File.read('input_sources/native/fireworks-ai/models.jsonl')
     lines = content.strip.split("\n")
     assert_equal 3, lines.size
 
@@ -567,7 +567,7 @@ class TestFireworksProvider < Minitest::Test
 
     @provider.send(:save_models_to_jsonl, models)
 
-    content = File.read('catalog/fireworks-ai/models.jsonl')
+    content = File.read('input_sources/native/fireworks-ai/models.jsonl')
     lines = content.strip.split("\n")
     assert_equal 2, lines.size
 

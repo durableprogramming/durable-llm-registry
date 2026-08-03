@@ -4,13 +4,14 @@ require 'fileutils'
 require_relative 'colored_logger'
 require_relative 'provider_canonicalizer'
 
-# Builds a per-provider merged view under catalog/merged/<provider>/models.jsonl,
-# overlaying outside_sources data onto native catalog/<provider> data.
+# Builds catalog/<provider>/models.jsonl by overlaying input_sources/external
+# data onto input_sources/native data, in priority order.
 #
-# Priority order (highest first): native catalog/<provider>, then each configured
-# outside source. Native data is only trusted if its models.jsonl was committed
-# within FRESHNESS_DAYS; otherwise it's treated as broken and skipped, so the
-# next source in priority order becomes the base for that provider.
+# Priority order (highest first): input_sources/native/<provider>, then each
+# configured external source. Native data is only trusted if its models.jsonl
+# was committed within FRESHNESS_DAYS; otherwise it's treated as broken and
+# skipped, so the next source in priority order becomes the base for that
+# provider.
 #
 # spider-rs has no real per-provider grouping (see Providers::SpiderRs), so it
 # isn't part of the normal priority chain: after every other source is merged,
@@ -18,18 +19,20 @@ require_relative 'provider_canonicalizer'
 # already-known provider bucket. Anything that matches zero or multiple
 # providers is dropped rather than guessed at or dumped in its own bucket.
 #
-# Existing catalog/<provider> and catalog/outside_sources/<source>/<provider>
-# directories are untouched -- this only adds catalog/merged/*.
+# catalog/<provider>/models.jsonl is this class's output -- CatalogUpdater
+# only renders it into markdown/HTML, it does not produce it.
 class CatalogMerger
   FRESHNESS_DAYS = 30
 
-  # Priority order among outside sources, highest first. spider-rs is handled
+  NATIVE_DIR = 'input_sources/native'
+  EXTERNAL_DIR = 'input_sources/external'
+  CATALOG_DIR = 'catalog'
+
+  # Priority order among external sources, highest first. spider-rs is handled
   # separately (see class comment) and deliberately excluded from this list.
-  OUTSIDE_SOURCE_PRIORITY = %w[opencode-cli truefoundry].freeze
+  EXTERNAL_SOURCE_PRIORITY = %w[opencode-cli truefoundry].freeze
 
   SPIDER_RS_SOURCE = 'spider-rs'
-
-  RESERVED_DIRS = %w[outside_sources merged].freeze
 
   def self.merge_catalogs(logger: ColoredLogger.new(STDOUT))
     new(logger: logger).merge_catalogs
@@ -52,7 +55,7 @@ class CatalogMerger
     merged_by_provider.each do |provider, models|
       next if models.empty?
 
-      write_merged(provider, models)
+      write_catalog(provider, models)
       @logger.info("Merged #{models.size} models for #{provider}")
     end
   end
@@ -60,20 +63,19 @@ class CatalogMerger
   private
 
   def all_provider_names
-    names = native_provider_names + outside_source_provider_names
+    names = native_provider_names + external_provider_names
     names.map { |name| ProviderCanonicalizer.canonicalize(name) }.uniq.sort
   end
 
   def native_provider_names
-    Dir.glob('catalog/*')
+    Dir.glob("#{NATIVE_DIR}/*")
        .select { |d| File.directory?(d) }
        .map { |d| File.basename(d) }
-       .reject { |name| RESERVED_DIRS.include?(name) }
   end
 
-  def outside_source_provider_names
-    OUTSIDE_SOURCE_PRIORITY.flat_map do |source|
-      Dir.glob("catalog/outside_sources/#{source}/*")
+  def external_provider_names
+    EXTERNAL_SOURCE_PRIORITY.flat_map do |source|
+      Dir.glob("#{EXTERNAL_DIR}/#{source}/*")
          .select { |d| File.directory?(d) }
          .map { |d| File.basename(d) }
     end
@@ -84,7 +86,7 @@ class CatalogMerger
   # opencode-cli's "mistral"). Returns every on-disk name under `source` that
   # canonicalizes to `canonical_provider`.
   def source_dir_names_for(source, canonical_provider)
-    base = source == 'native' ? 'catalog' : "catalog/outside_sources/#{source}"
+    base = source == 'native' ? NATIVE_DIR : "#{EXTERNAL_DIR}/#{source}"
     Dir.glob("#{base}/*")
        .select { |d| File.directory?(d) }
        .map { |d| File.basename(d) }
@@ -113,34 +115,34 @@ class CatalogMerger
 
   def models_for_source(source, canonical_provider)
     source_dir_names_for(source, canonical_provider).flat_map do |dir_name|
-      path = source == 'native' ? "catalog/#{dir_name}/models.jsonl" : "catalog/outside_sources/#{source}/#{dir_name}/models.jsonl"
-      read_models(path)
+      base = source == 'native' ? NATIVE_DIR : "#{EXTERNAL_DIR}/#{source}"
+      read_models("#{base}/#{dir_name}/models.jsonl")
     end
   end
 
   # Returns [source_name, models] for whichever source should seed this provider:
-  # native if fresh, else the highest-priority outside source that has data.
+  # native if fresh, else the highest-priority external source that has data.
   def base_for(canonical_provider)
     native_dirs = source_dir_names_for('native', canonical_provider)
-    fresh_native_dir = native_dirs.find { |dir| fresh?("catalog/#{dir}/models.jsonl") }
+    fresh_native_dir = native_dirs.find { |dir| fresh?("#{NATIVE_DIR}/#{dir}/models.jsonl") }
 
     if fresh_native_dir
-      return ['native', read_models("catalog/#{fresh_native_dir}/models.jsonl")]
+      return ['native', read_models("#{NATIVE_DIR}/#{fresh_native_dir}/models.jsonl")]
     end
 
-    OUTSIDE_SOURCE_PRIORITY.each do |source|
+    EXTERNAL_SOURCE_PRIORITY.each do |source|
       models = models_for_source(source, canonical_provider)
       return [source, models] unless models.empty?
     end
 
-    ['native', native_dirs.flat_map { |dir| read_models("catalog/#{dir}/models.jsonl") }]
+    ['native', native_dirs.flat_map { |dir| read_models("#{NATIVE_DIR}/#{dir}/models.jsonl") }]
   end
 
   def source_chain_after(base_source)
-    return OUTSIDE_SOURCE_PRIORITY if base_source == 'native'
+    return EXTERNAL_SOURCE_PRIORITY if base_source == 'native'
 
-    index = OUTSIDE_SOURCE_PRIORITY.index(base_source) || -1
-    OUTSIDE_SOURCE_PRIORITY[(index + 1)..] || []
+    index = EXTERNAL_SOURCE_PRIORITY.index(base_source) || -1
+    EXTERNAL_SOURCE_PRIORITY[(index + 1)..] || []
   end
 
   def fresh?(path)
@@ -194,7 +196,7 @@ class CatalogMerger
   # one provider's existing model set; anything matching zero or multiple
   # providers is dropped (counted and logged, not silently discarded).
   def fold_in_spider_rs(merged_by_provider)
-    spider_models = read_models("catalog/outside_sources/#{SPIDER_RS_SOURCE}/models.jsonl")
+    spider_models = read_models("#{EXTERNAL_DIR}/#{SPIDER_RS_SOURCE}/models.jsonl")
     return if spider_models.empty?
 
     id_to_providers = Hash.new { |h, k| h[k] = [] }
@@ -220,8 +222,8 @@ class CatalogMerger
     @logger.info("spider-rs: folded #{matched} models into existing providers, dropped #{dropped} with zero or ambiguous provider matches")
   end
 
-  def write_merged(provider, models)
-    dir = "catalog/merged/#{provider}"
+  def write_catalog(provider, models)
+    dir = "#{CATALOG_DIR}/#{provider}"
     FileUtils.mkdir_p(dir)
     File.write("#{dir}/models.jsonl", models.map { |m| JSON.generate(m) }.join("\n") + "\n")
   end

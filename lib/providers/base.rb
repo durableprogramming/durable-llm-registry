@@ -45,7 +45,7 @@ module Providers
     end
 
     def save_spec_to_catalog(provider_name, spec_content)
-      catalog_dir = "catalog/#{provider_name}"
+      catalog_dir = "input_sources/native/#{provider_name}"
       FileUtils.mkdir_p(catalog_dir)
       File.write("#{catalog_dir}/openapi.yaml", spec_content)
     end

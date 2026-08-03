@@ -112,9 +112,9 @@ class TestXAI < Minitest::Test
       begin
         Dir.chdir(tmpdir)
         @provider.send(:save_models_to_jsonl, models)
-        assert Dir.exist?('catalog/xai')
-        assert File.exist?('catalog/xai/models.jsonl')
-        content = File.read('catalog/xai/models.jsonl')
+        assert Dir.exist?('input_sources/native/xai')
+        assert File.exist?('input_sources/native/xai/models.jsonl')
+        content = File.read('input_sources/native/xai/models.jsonl')
         lines = content.strip.split("\n")
         assert_equal 2, lines.size
         parsed = lines.map { |line| JSON.parse(line) }
