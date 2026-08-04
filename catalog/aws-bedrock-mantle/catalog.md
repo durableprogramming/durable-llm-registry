@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 54
-- **Last Updated**: 2026-08-03
+- **Last Updated**: 2026-08-04
 
 ## Models
 

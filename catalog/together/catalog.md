@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 370
-- **Last Updated**: 2026-08-03
+- **Total Models**: 372
+- **Last Updated**: 2026-08-04
 
 ## Models
 
@@ -4595,13 +4595,21 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image, video
 
 
 - **Output**: text
 
 
 #### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -7750,6 +7758,57 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/DeepSeek-V4-Flash-0731
+
+**Model ID**: `deepseek-ai/DeepSeek-V4-Flash-0731`  
+**Family**: deepseek-ai/DeepSeek-V4-Flash-0731
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.28
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
@@ -16000,6 +16059,67 @@ This catalog provides a comprehensive overview of all together models available 
 - Structured output
 
 - Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.2-FP8
+
+**Model ID**: `zai-org/GLM-5.2-FP8`  
+**Family**: zai-org/GLM-5.2-FP8
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- System messages
+
+- Tool choice
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 215
-- **Last Updated**: 2026-08-03
+- **Last Updated**: 2026-08-04
 
 ## Models
 
@@ -7646,6 +7646,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - Tool choice
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -7654,7 +7656,16 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
+- **Standard Input**: $4.0
 
+
+- **Standard Output**: $24.0
+
+
+
+
+
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -7708,20 +7719,32 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-realtime-2.1-mini-2026-07-07
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image, audio
 
 
-- **Output**: text
+- **Output**: text, audio
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)

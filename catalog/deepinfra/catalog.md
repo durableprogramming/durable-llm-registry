@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 247
-- **Last Updated**: 2026-08-03
+- **Total Models**: 248
+- **Last Updated**: 2026-08-04
 
 ## Models
 
@@ -3883,6 +3883,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Qwen/Qwen3.8-Max
+
+**Model ID**: `Qwen/Qwen3.8-Max`  
+**Family**: Qwen/Qwen3.8-Max
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.6500000000000001
+
+
+- **Standard Output**: $4.951
+
+
+
+
+
+- **Cached Output**: $0.205999992
 
 
 

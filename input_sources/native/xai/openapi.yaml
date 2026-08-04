@@ -3878,7 +3878,9 @@ components:
           description: User ID associated with the credentials.
         zdr_status:
           "$ref": "#/components/schemas/ZdrStatus"
-          description: 'Zero Data Retention status: `"no_zdr"`, `"zdr"`, or `"pii_scrubbing"`.'
+          description: |-
+            Zero Data Retention status: `"no_zdr"` or `"zdr"`.
+            Historical `"pii_scrubbing"` is accepted on read but no longer emitted.
     GroupBy:
       type: object
       description: Group search results by metadata key(s) and keep top-k per group.
