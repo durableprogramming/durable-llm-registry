@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 845
-- **Last Updated**: 2026-08-04
+- **Last Updated**: 2026-08-05
 
 ## Models
 
@@ -5311,10 +5311,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $1.08
 
 
 
@@ -5999,10 +5999,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.075
+- **Standard Input**: $0.09375
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.25
 
 
 
@@ -11779,10 +11779,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.98
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $3.95
+- **Standard Output**: $4.0
 
 
 
@@ -13147,6 +13147,216 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.75
+
+
+
+
+
+
+
+---
+
+
+### SpaceXAI: Grok 4.20
+
+**Model ID**: `x-ai/grok-4.20`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### SpaceXAI: Grok 4.20 Multi-Agent
+
+**Model ID**: `x-ai/grok-4.20-multi-agent`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 2,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### SpaceXAI: Grok 4.3
+
+**Model ID**: `x-ai/grok-4.3`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### SpaceXAI: Grok 4.5
+
+**Model ID**: `x-ai/grok-4.5`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### SpaceXAI: Grok Build 0.1
+
+**Model ID**: `x-ai/grok-build-0.1`  
+**Family**: x-ai
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $2.0
 
 
 
@@ -39574,216 +39784,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.02
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.20
-
-**Model ID**: `x-ai/grok-4.20`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 2,000,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.20 Multi-Agent
-
-**Model ID**: `x-ai/grok-4.20-multi-agent`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 2,000,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.3
-
-**Model ID**: `x-ai/grok-4.3`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $2.5
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok 4.5
-
-**Model ID**: `x-ai/grok-4.5`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 500,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $6.0
-
-
-
-
-
-
-
----
-
-
-### xAI: Grok Build 0.1
-
-**Model ID**: `x-ai/grok-build-0.1`  
-**Family**: x-ai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $2.0
-
 
 
 

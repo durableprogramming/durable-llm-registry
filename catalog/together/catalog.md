@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 372
-- **Last Updated**: 2026-08-04
+- **Total Models**: 373
+- **Last Updated**: 2026-08-05
 
 ## Models
 
@@ -14053,6 +14053,48 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### prunaai/p-image-ideogram
+
+**Model ID**: `prunaai/p-image-ideogram`  
+**Family**: prunaai/p-image-ideogram
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
