@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 248
-- **Last Updated**: 2026-08-05
+- **Last Updated**: 2026-08-06
 
 ## Models
 

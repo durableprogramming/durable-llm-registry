@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 7
-- **Last Updated**: 2026-08-05
+- **Total Models**: 8
+- **Last Updated**: 2026-08-06
 
 ## Models
 
@@ -194,6 +194,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### LongCat-2.0 Free
+
+**Model ID**: `longcat-2.0-free`  
+**Family**: longcat
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities

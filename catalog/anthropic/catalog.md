@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 27
-- **Last Updated**: 2026-08-05
+- **Last Updated**: 2026-08-06
 
 ## Models
 
@@ -111,61 +111,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 
 - **Cached Input**: $3.75
-
-
-- **Cached Output**: $15.0
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.1
-
-**Model ID**: `claude-opus-4-1-20250805`  
-**Family**: claude-opus-4-1
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $15.0
-
-
-- **Standard Output**: $15.0
-
-
-
-
-- **Cached Input**: $18.75
 
 
 - **Cached Output**: $15.0
@@ -1352,6 +1297,73 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Cache control
 
 - Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $15.0
+
+
+- **Standard Output**: $75.0
+
+
+
+
+- **Cached Input**: $18.75
+
+
+- **Cached Output**: $1.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-4-1-20250805
+
+**Model ID**: `claude-opus-4-1-20250805`  
+**Family**: claude-opus-4-1-20250805
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Cache control
 
 - Prompt caching
 
