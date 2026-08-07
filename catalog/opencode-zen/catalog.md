@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 61
-- **Last Updated**: 2026-08-06
+- **Last Updated**: 2026-08-07
 
 ## Models
 
@@ -2694,9 +2694,9 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Ling-3.0-flash Free
+### Ling-3.0-tiny Free
 
-**Model ID**: `ling-3.0-flash-free`  
+**Model ID**: `ling-3.0-tiny-free`  
 **Family**: ling
 #### Specifications
 
