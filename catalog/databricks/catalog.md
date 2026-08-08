@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 32
-- **Last Updated**: 2026-08-07
+- **Last Updated**: 2026-08-08
 
 ## Models
 
