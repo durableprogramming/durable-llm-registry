@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 
 - **Provider**: sambanova
 - **Total Models**: 30
-- **Last Updated**: 2026-08-08
+- **Last Updated**: 2026-08-09
 
 ## Models
 

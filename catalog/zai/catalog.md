@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all zai models available throu
 
 - **Provider**: zai
 - **Total Models**: 14
-- **Last Updated**: 2026-08-08
+- **Last Updated**: 2026-08-09
 
 ## Models
 
