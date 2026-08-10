@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 215
-- **Last Updated**: 2026-08-09
+- **Total Models**: 216
+- **Last Updated**: 2026-08-10
 
 ## Models
 
@@ -3018,6 +3018,44 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### gpt-4o-canvas
+
+**Model ID**: `gpt-4o-canvas`  
+**Family**: gpt-4o-canvas
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 

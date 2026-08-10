@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 219
-- **Last Updated**: 2026-08-09
+- **Last Updated**: 2026-08-10
 
 ## Models
 
@@ -3164,6 +3164,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -3211,6 +3213,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 

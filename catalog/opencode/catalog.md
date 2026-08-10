@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 8
-- **Last Updated**: 2026-08-09
+- **Last Updated**: 2026-08-10
 
 ## Models
 
@@ -70,7 +70,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### DeepSeek V4 Flash Free (New)
+### DeepSeek V4 Flash Free
 
 **Model ID**: `deepseek-v4-flash-free`  
 **Family**: deepseek-flash
@@ -184,9 +184,9 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Ling-3.0-flash Free
+### Ling-3.0-tiny Free
 
-**Model ID**: `ling-3.0-flash-free`  
+**Model ID**: `ling-3.0-tiny-free`  
 **Family**: ling
 #### Specifications
 
