@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 101
-- **Last Updated**: 2026-08-10
+- **Total Models**: 102
+- **Last Updated**: 2026-08-11
 
 ## Models
 
@@ -3263,6 +3263,48 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### mistral-ocr-4-1
+
+**Model ID**: `mistral-ocr-4-1`  
+**Family**: mistral-ocr-4-1
+#### Specifications
+
+- **Context Window**: 16,384 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)

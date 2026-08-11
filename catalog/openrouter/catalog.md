@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 880
-- **Last Updated**: 2026-08-10
+- **Total Models**: 884
+- **Last Updated**: 2026-08-11
 
 ## Models
 
@@ -3050,7 +3050,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 384,000 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -3071,10 +3071,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.435
+- **Standard Input**: $0.63168
 
 
-- **Standard Output**: $0.87
+- **Standard Output**: $1.26336
 
 
 
@@ -5855,6 +5855,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Meta: Muse Glimmer 30B
+
+**Model ID**: `meta/muse-glimmer-30b`  
+**Family**: meta
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
 ### Meta: Muse Spark 1.1
 
 **Model ID**: `meta/muse-spark-1.1`  
@@ -7160,7 +7202,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -7508,7 +7550,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -8033,6 +8075,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA: Nemotron 3.5 Lightning (free)
+
+**Model ID**: `nvidia/nemotron-3.5-lightning:free`  
+**Family**: nvidia
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
 
 
 - **Output**: text
@@ -13862,7 +13948,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -13886,7 +13972,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.27
+- **Standard Output**: $0.28
 
 
 
@@ -14214,7 +14300,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -14566,7 +14652,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -14587,10 +14673,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.34
+- **Standard Output**: $3.6
 
 
 
@@ -15569,6 +15655,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Sakana: Sakana Namazu
+
+**Model ID**: `sakana/sakana-namazu`  
+**Family**: sakana
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.95
+
+
+- **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
 ### Sao10K: Llama 3 8B Lunaris
 
 **Model ID**: `sao10k/l3-lunaris-8b`  
@@ -16471,6 +16601,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.6
+
+
+
+
+
+
+
+---
+
+
+### Upstage: Solar Pro 4
+
+**Model ID**: `upstage/solar-pro4`  
+**Family**: upstage
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.03
+
+
+- **Standard Output**: $0.12
 
 
 

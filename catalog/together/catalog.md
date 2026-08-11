@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 373
-- **Last Updated**: 2026-08-10
+- **Total Models**: 375
+- **Last Updated**: 2026-08-11
 
 ## Models
 
@@ -5833,6 +5833,48 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### black-forest-labs/FLUX-3
+
+**Model ID**: `black-forest-labs/FLUX-3`  
+**Family**: black-forest-labs/FLUX-3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: video, audio, image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### black-forest-labs/FLUX.1-kontext-max
 
 **Model ID**: `black-forest-labs/FLUX.1-kontext-max`  
@@ -7849,6 +7891,8 @@ This catalog provides a comprehensive overview of all together models available 
 - Json output
 
 - System messages
+
+- Prompt caching
 
 
 
@@ -11566,6 +11610,59 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Standard Output**: $0.18
 
+
+
+
+
+
+
+---
+
+
+### meta-models/Muse-Glimmer-30B
+
+**Model ID**: `meta-models/Muse-Glimmer-30B`  
+**Family**: meta-models/Muse-Glimmer-30B
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 

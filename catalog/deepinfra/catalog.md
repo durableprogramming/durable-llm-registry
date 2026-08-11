@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 248
-- **Last Updated**: 2026-08-10
+- **Total Models**: 249
+- **Last Updated**: 2026-08-11
 
 ## Models
 
@@ -9316,6 +9316,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### moonshotai/Kimi-K3
+
+**Model ID**: `moonshotai/Kimi-K3`  
+**Family**: moonshotai/Kimi-K3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.8499999999999996
+
+
+- **Standard Output**: $14.25
+
+
+
+
+
+- **Cached Output**: $0.28500000000000003
+
+
+
+
+
+
+---
+
+
 ### nvidia/Cosmos3-Nano
 
 **Model ID**: `nvidia/Cosmos3-Nano`  
@@ -10904,6 +10959,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - Function calling
 
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -10912,7 +10969,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.95
 
 
 - **Standard Output**: $4.05
@@ -10921,7 +10978,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.16999999999999998
+- **Cached Output**: $0.16
 
 
 

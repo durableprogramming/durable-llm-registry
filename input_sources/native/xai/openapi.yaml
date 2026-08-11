@@ -4088,7 +4088,10 @@ components:
         image_price:
           type: integer
           format: int64
-          description: Price of a single image in USD cents.
+          description: |-
+            Price of a single image in USD cents.
+            The default tier: medium quality at the default (1k) resolution. See
+            `pricing` for the full quality/resolution matrix.
         input_modalities:
           type: array
           items:
@@ -4108,9 +4111,42 @@ components:
         owned_by:
           type: string
           description: Owner of the model.
+        pricing:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ImagePricingTier"
+          description: |-
+            Per-image prices by (quality, resolution) tier. One entry per
+            combination the model serves; omitted when the model prices all
+            qualities identically (see `image_price`).
         version:
           type: string
           description: Version of the model.
+    ImagePricingTier:
+      type: object
+      description: |-
+        Per-image price for one (quality, resolution) tier of an image generation
+        model.
+      required:
+      - quality
+      - resolution
+      - price_per_image
+      properties:
+        price_per_image:
+          type: integer
+          format: int64
+          description: Price per generated image, in 1/100,000,000ths of a USD cent.
+        quality:
+          type: string
+          description: |-
+            Quality tier this price applies to: `"low"`, `"medium"`, or `"high"`.
+            Medium is the default quality a request serves at when it leaves
+            `quality` unset.
+        resolution:
+          type: string
+          description: |-
+            Output resolution this price applies to: `"1k"` or `"2k"`. 1k is the
+            default when a request leaves `resolution` unset.
     ImageResolution:
       type: string
       description: |-
@@ -5351,7 +5387,10 @@ components:
           - integer
           - 'null'
           format: int64
-          description: Price per image in USD cents (image generation models).
+          description: |-
+            Price per image in USD cents (image generation models).
+            The default tier: medium quality at the default (1k) resolution. See
+            `pricing` for the full quality/resolution matrix.
         long_context_threshold:
           type:
           - integer
@@ -5364,6 +5403,14 @@ components:
         owned_by:
           type: string
           description: Owner of the model.
+        pricing:
+          type: array
+          items:
+            "$ref": "#/components/schemas/ImagePricingTier"
+          description: |-
+            Per-image prices by (quality, resolution) tier (image generation
+            models). Omitted when the model prices all qualities identically
+            (see `image_price`).
         prompt_image_token_price:
           type:
           - integer

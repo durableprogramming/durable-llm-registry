@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 216
-- **Last Updated**: 2026-08-10
+- **Total Models**: 229
+- **Last Updated**: 2026-08-11
 
 ## Models
 
@@ -3244,6 +3244,60 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-4o-mini-audio-preview
+
+**Model ID**: `gpt-4o-mini-audio-preview`  
+**Family**: gpt-4o-mini-audio-preview
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
 ### gpt-4o-mini-audio-preview-2024-12-17
 
 **Model ID**: `gpt-4o-mini-audio-preview-2024-12-17`  
@@ -3289,6 +3343,65 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Standard Output**: $10.0
 
+
+
+
+
+
+
+---
+
+
+### gpt-4o-mini-realtime-preview
+
+**Model ID**: `gpt-4o-mini-realtime-preview`  
+**Family**: gpt-4o-mini-realtime-preview
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+- **Cached Output**: $0.3
 
 
 
@@ -5179,6 +5292,67 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-5.1-codex-max
+
+**Model ID**: `gpt-5.1-codex-max`  
+**Family**: gpt-5.1-codex-max
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.125
+
+
+
+
+
+
+---
+
+
 ### gpt-5.1-codex-max-2025-12-04
 
 **Model ID**: `gpt-5.1-codex-max-2025-12-04`  
@@ -5616,6 +5790,69 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-5.2-codex
+
+**Model ID**: `gpt-5.2-codex`  
+**Family**: gpt-5.2-codex
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
 ### gpt-5.2-codex-2026-01-14
 
 **Model ID**: `gpt-5.2-codex-2026-01-14`  
@@ -5689,6 +5926,69 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
+### gpt-5.3-codex
+
+**Model ID**: `gpt-5.3-codex`  
+**Family**: gpt-5.3-codex
+#### Specifications
+
+- **Context Window**: 272,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -5994,6 +6294,69 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-5.4-mini
+
+**Model ID**: `gpt-5.4-mini`  
+**Family**: gpt-5.4-mini
+#### Specifications
+
+- **Context Window**: 272,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
+
+
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
 ### gpt-5.4-mini-2026-03-17
 
 **Model ID**: `gpt-5.4-mini-2026-03-17`  
@@ -6059,6 +6422,69 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-5.4-nano
+
+**Model ID**: `gpt-5.4-nano`  
+**Family**: gpt-5.4-nano
+#### Specifications
+
+- **Context Window**: 272,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.25
+
+
+
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
 ### gpt-5.4-nano-2026-03-17
 
 **Model ID**: `gpt-5.4-nano-2026-03-17`  
@@ -6115,6 +6541,67 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
+### gpt-5.4-pro
+
+**Model ID**: `gpt-5.4-pro`  
+**Family**: gpt-5.4-pro
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $180.0
+
+
+
+
+
+- **Cached Output**: $3.0
 
 
 
@@ -6326,7 +6813,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6357,16 +6844,16 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.19999999999999998
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $1.2
 
 
 
 
 
-- **Cached Output**: $0.09999999999999999
+- **Cached Output**: $0.02
 
 
 
@@ -6376,10 +6863,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
-### gpt-5.6-sol-2026-07-09
+### gpt-5.6-sol
 
-**Model ID**: `gpt-5.6-sol-2026-07-09`  
-**Family**: gpt-5.6-sol-2026-07-09
+**Model ID**: `gpt-5.6-sol`  
+**Family**: gpt-5.6-sol
 #### Specifications
 
 - **Context Window**: 1,050,000 tokens
@@ -6391,7 +6878,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6439,6 +6926,132 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-5.6-sol-2026-07-09
+
+**Model ID**: `gpt-5.6-sol-2026-07-09`  
+**Family**: gpt-5.6-sol-2026-07-09
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### gpt-5.6-terra
+
+**Model ID**: `gpt-5.6-terra`  
+**Family**: gpt-5.6-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### gpt-5.6-terra-2026-07-09
 
 **Model ID**: `gpt-5.6-terra-2026-07-09`  
@@ -6454,7 +7067,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6481,16 +7094,70 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### gpt-audio-1.5
+
+**Model ID**: `gpt-audio-1.5`  
+**Family**: gpt-audio-1.5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 - **Standard Input**: $2.5
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $10.0
 
-
-
-
-
-- **Cached Output**: $0.25
 
 
 
@@ -7541,6 +8208,56 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-realtime-2
+
+**Model ID**: `gpt-realtime-2`  
+**Family**: gpt-realtime-2
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### gpt-realtime-2-2026-05-06
 
 **Model ID**: `gpt-realtime-2-2026-05-06`  
@@ -7574,6 +8291,67 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 - Prompt caching
 
 - Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $24.0
+
+
+
+
+
+- **Cached Output**: $0.39999999999999997
+
+
+
+
+
+
+---
+
+
+### gpt-realtime-2.1
+
+**Model ID**: `gpt-realtime-2.1`  
+**Family**: gpt-realtime-2.1
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
 
 
 
