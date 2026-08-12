@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 229
-- **Last Updated**: 2026-08-11
+- **Total Models**: 230
+- **Last Updated**: 2026-08-12
 
 ## Models
 
@@ -2806,6 +2806,60 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 **Model ID**: `gpt-4o-audio-mai`  
 **Family**: gpt-4o-audio-mai
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### gpt-4o-audio-preview
+
+**Model ID**: `gpt-4o-audio-preview`  
+**Family**: gpt-4o-audio-preview
 #### Specifications
 
 - **Context Window**: 128,000 tokens

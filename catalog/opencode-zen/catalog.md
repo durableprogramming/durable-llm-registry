@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 61
-- **Last Updated**: 2026-08-11
+- **Last Updated**: 2026-08-12
 
 ## Models
 
@@ -2419,6 +2419,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Hy3 Free
+
+**Model ID**: `hy3-free`  
+**Family**: hy3
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Kimi K2.5
 
 **Model ID**: `kimi-k2.5`  
@@ -2749,61 +2797,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### LongCat-2.0 Free
-
-**Model ID**: `longcat-2.0-free`  
-**Family**: longcat
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### MiMo-V2.5 Free
 
 **Model ID**: `mimo-v2.5-free`  
@@ -3072,10 +3065,10 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### North Mini Code Free
+### Nemotron 3.5 Lightning Free
 
-**Model ID**: `north-mini-code-free`  
-**Family**: north
+**Model ID**: `nemotron-3.5-lightning-free`  
+**Family**: nemotron
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -3106,11 +3099,18 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $5.0
 
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
 
 
 
