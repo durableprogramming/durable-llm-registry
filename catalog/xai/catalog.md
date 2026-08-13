@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 90
-- **Last Updated**: 2026-08-12
+- **Last Updated**: 2026-08-13
 
 ## Models
 
@@ -2455,7 +2455,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-4.20-beta-latest
 #### Specifications
 
-- **Context Window**: 2,000,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -2487,10 +2487,10 @@ This catalog provides a comprehensive overview of all xai models available throu
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.25
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $2.5
 
 
 

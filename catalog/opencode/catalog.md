@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 8
-- **Last Updated**: 2026-08-12
+- **Total Models**: 7
+- **Last Updated**: 2026-08-13
 
 ## Models
 
@@ -127,6 +127,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
+### Hy3 Free
+
+**Model ID**: `hy3-free`  
+**Family**: hy3-free
+#### Specifications
+
+- **Context Window**: 190,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
 ### Laguna S 2.1 Free
 
 **Model ID**: `laguna-s-2.1-free`  
@@ -137,120 +194,6 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### Ling-3.0-tiny Free
-
-**Model ID**: `ling-3.0-tiny-free`  
-**Family**: ling
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### LongCat-2.0 Free
-
-**Model ID**: `longcat-2.0-free`  
-**Family**: longcat
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -412,16 +355,16 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### North Mini Code Free
+### Nemotron 3.5 Lightning Free
 
-**Model ID**: `north-mini-code-free`  
-**Family**: north-free
+**Model ID**: `nemotron-3.5-lightning-free`  
+**Family**: nemotron-free
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 64,000 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities

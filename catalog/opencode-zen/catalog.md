@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 - **Provider**: opencode-zen
 - **Total Models**: 61
-- **Last Updated**: 2026-08-12
+- **Last Updated**: 2026-08-13
 
 ## Models
 
@@ -2364,6 +2364,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Grok 4.6
+
+**Model ID**: `grok-4.6`  
+**Family**: grok
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Grok Build 0.1
 
 **Model ID**: `grok-build-0.1`  
@@ -2691,61 +2746,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `laguna-s-2.1-free`  
 **Family**: laguna
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Ling-3.0-tiny Free
-
-**Model ID**: `ling-3.0-tiny-free`  
-**Family**: ling
 #### Specifications
 
 - **Context Window**: 128,000 tokens
