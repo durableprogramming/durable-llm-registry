@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 61
-- **Last Updated**: 2026-08-13
+- **Total Models**: 63
+- **Last Updated**: 2026-08-14
 
 ## Models
 
@@ -2309,6 +2309,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Gemini 3.7 Flash
+
+**Model ID**: `gemini-3.7-flash`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Grok 4.5
 
 **Model ID**: `grok-4.5`  
@@ -3008,6 +3063,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
+### Muse Spark 1.2
+
+**Model ID**: `muse-spark-1.2`  
+**Family**: muse
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
 
 
 

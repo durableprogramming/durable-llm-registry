@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 14
-- **Last Updated**: 2026-08-13
+- **Total Models**: 16
+- **Last Updated**: 2026-08-14
 
 ## Models
 
@@ -453,6 +453,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
+### Muse Glimmer 30B
+
+**Model ID**: `accounts/fireworks/models/muse-glimmer-30b`  
+**Family**: muse-glimmer
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
 ### NVIDIA Nemotron 3 Ultra (Preview)
 
 **Model ID**: `accounts/fireworks/models/nemotron-3-ultra-nvfp4`  
@@ -487,6 +531,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $2.4
+
+
+
+
+
+
+
+---
+
+
+### NVIDIA Nemotron 3.5 Lightning 30B A3B
+
+**Model ID**: `accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b`  
+**Family**: nemotron-lightning
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.05
+
+
+- **Standard Output**: $0.2
 
 
 

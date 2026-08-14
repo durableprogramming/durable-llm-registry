@@ -1945,16 +1945,27 @@ components:
       type: object
       description: |-
         Reference audio input for video generation.
-        Selects a first-party preset voice by `voice_id`.
-      required:
-      - voice_id
+        Accepts a caller-supplied clip via `url` or selects a voice via `voice_id`.
+        Exactly one source must be set.
       properties:
+        url:
+          type:
+          - string
+          - 'null'
+          description: |-
+            Base64-encoded audio data URL (e.g. `data:audio/wav;base64,...`) or an
+            http(s) URL to a downloadable audio clip of at most 15 seconds.
+            Mutually exclusive with `voice_id`.
         voice_id:
-          type: string
+          type:
+          - string
+          - 'null'
           description: |-
             Identifier of a first-party preset voice (e.g. "ara"; same voice
             identifiers as the TTS API), resolved server-side to a curated
-            reference clip from the model's voice-preset catalog.
+            reference clip from the model's voice-preset catalog. Models configured
+            for custom voices also accept a custom voice identifier. Mutually
+            exclusive with `url`.
     ChatRequest:
       type: object
       description: The chat request body for `/v1/chat/completions` endpoint.
@@ -3699,12 +3710,12 @@ components:
           items:
             "$ref": "#/components/schemas/AudioUrl"
           description: |-
-            Optional reference audio (voice identity) for reference-to-video
-            generation. Each entry selects a first-party preset voice via
-            `voice_id`. Only supported by select video models; at most 3 entries.
-            May be provided without `reference_images` (audio-only
-            reference-to-video) — at least one reference of either kind selects
-            the reference-to-video mode.
+            Optional reference audio clips (voice identity) for reference-to-video
+            generation. Each entry supplies a clip via `url` or selects a voice via
+            `voice_id`; caller-supplied clips must be at most 15 seconds long. Only
+            supported by select video models; at most 3 entries. May be provided
+            without `reference_images` (audio-only reference-to-video) — at least
+            one reference of either kind selects the reference-to-video mode.
           maxItems: 3
         reference_images:
           type: array
