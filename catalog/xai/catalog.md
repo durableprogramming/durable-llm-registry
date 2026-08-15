@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 ## Overview
 
 - **Provider**: xai
-- **Total Models**: 90
-- **Last Updated**: 2026-08-14
+- **Total Models**: 91
+- **Last Updated**: 2026-08-15
 
 ## Models
 
@@ -4085,6 +4085,65 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 
 - **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### grok-4.6
+
+**Model ID**: `grok-4.6`  
+**Family**: grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
 
 
 

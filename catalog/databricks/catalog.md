@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ## Overview
 
 - **Provider**: databricks
-- **Total Models**: 32
-- **Last Updated**: 2026-08-14
+- **Total Models**: 42
+- **Last Updated**: 2026-08-15
 
 ## Models
 
@@ -1080,6 +1080,635 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ---
 
 
+### databricks-gpt-5-2
+
+**Model ID**: `databricks-gpt-5-2`  
+**Family**: databricks-gpt-5-2
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+- **Cached Input**: $1.75
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-3-codex
+
+**Model ID**: `databricks-gpt-5-3-codex`  
+**Family**: databricks-gpt-5-3-codex
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+- **Cached Input**: $1.75
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-4
+
+**Model ID**: `databricks-gpt-5-4`  
+**Family**: databricks-gpt-5-4
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-4-mini
+
+**Model ID**: `databricks-gpt-5-4-mini`  
+**Family**: databricks-gpt-5-4-mini
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
+
+
+
+- **Cached Input**: $0.75
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-4-nano
+
+**Model ID**: `databricks-gpt-5-4-nano`  
+**Family**: databricks-gpt-5-4-nano
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.25
+
+
+
+
+- **Cached Input**: $0.19999999999999998
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-5
+
+**Model ID**: `databricks-gpt-5-5`  
+**Family**: databricks-gpt-5-5
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-5-pro
+
+**Model ID**: `databricks-gpt-5-5-pro`  
+**Family**: databricks-gpt-5-5-pro
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $180.0
+
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-6-luna
+
+**Model ID**: `databricks-gpt-5-6-luna`  
+**Family**: databricks-gpt-5-6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.2
+
+
+
+
+- **Cached Input**: $0.25
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-6-sol
+
+**Model ID**: `databricks-gpt-5-6-sol`  
+**Family**: databricks-gpt-5-6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### databricks-gpt-5-6-terra
+
+**Model ID**: `databricks-gpt-5-6-terra`  
+**Family**: databricks-gpt-5-6-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### databricks-gpt-5-mini
 
 **Model ID**: `databricks-gpt-5-mini`  
@@ -1196,6 +1825,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 
+
+- **Cached Input**: $0.049999999999999996
 
 
 - **Cached Output**: $0.005
