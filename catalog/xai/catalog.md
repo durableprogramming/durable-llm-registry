@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 91
-- **Last Updated**: 2026-08-15
+- **Last Updated**: 2026-08-16
 
 ## Models
 
