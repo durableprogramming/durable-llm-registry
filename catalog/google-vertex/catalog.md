@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 415
-- **Last Updated**: 2026-08-17
+- **Total Models**: 417
+- **Last Updated**: 2026-08-18
 
 ## Models
 
@@ -6150,6 +6150,140 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### gemini-3.5-flash
+
+**Model ID**: `gemini-3.5-flash`  
+**Family**: gemini-3.5-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.6500000000000001
+
+
+- **Standard Output**: $9.9
+
+
+
+
+
+- **Cached Output**: $0.165
+
+
+
+
+
+
+---
+
+
+### gemini-3.6-flash
+
+**Model ID**: `gemini-3.6-flash`  
+**Family**: gemini-3.6-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $3.75
+
+
+
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
 ### gemini-embedding-001
 
 **Model ID**: `gemini-embedding-001`  
@@ -8875,16 +9009,16 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $1.5
+- **Standard Input**: $0.75
 
 
-- **Standard Output**: $7.5
+- **Standard Output**: $3.75
 
 
 
 
 
-- **Cached Output**: $0.15
+- **Cached Output**: $0.075
 
 
 

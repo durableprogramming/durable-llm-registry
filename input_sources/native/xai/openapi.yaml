@@ -3,8 +3,6 @@ openapi: 3.1.0
 info:
   title: xAI's REST API
   description: REST API for xAI compatible with other providers.
-  license:
-    name: ''
   version: 1.0.0
 paths:
   "/v1/api-key":

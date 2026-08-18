@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ## Overview
 
 - **Provider**: databricks
-- **Total Models**: 42
-- **Last Updated**: 2026-08-17
+- **Total Models**: 68
+- **Last Updated**: 2026-08-18
 
 ## Models
 
@@ -2431,6 +2431,1562 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-haiku-4-5
+
+**Model ID**: `system.ai.claude-haiku-4-5`  
+**Family**: system.ai.claude-haiku-4-5
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Assistant prefill
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-opus-4-1
+
+**Model ID**: `system.ai.claude-opus-4-1`  
+**Family**: system.ai.claude-opus-4-1
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $15.0
+
+
+- **Standard Output**: $75.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-opus-4-5
+
+**Model ID**: `system.ai.claude-opus-4-5`  
+**Family**: system.ai.claude-opus-4-5
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Assistant prefill
+
+- Prompt caching
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-opus-4-6
+
+**Model ID**: `system.ai.claude-opus-4-6`  
+**Family**: system.ai.claude-opus-4-6
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Cache control
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-opus-4-7
+
+**Model ID**: `system.ai.claude-opus-4-7`  
+**Family**: system.ai.claude-opus-4-7
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+- Structured output
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-sonnet-4
+
+**Model ID**: `system.ai.claude-sonnet-4`  
+**Family**: system.ai.claude-sonnet-4
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-sonnet-4-5
+
+**Model ID**: `system.ai.claude-sonnet-4-5`  
+**Family**: system.ai.claude-sonnet-4-5
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Assistant prefill
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.claude-sonnet-4-6
+
+**Model ID**: `system.ai.claude-sonnet-4-6`  
+**Family**: system.ai.claude-sonnet-4-6
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Assistant prefill
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### system.ai.gemini-2-5-flash
+
+**Model ID**: `system.ai.gemini-2-5-flash`  
+**Family**: system.ai.gemini-2-5-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gemini-2-5-pro
+
+**Model ID**: `system.ai.gemini-2-5-pro`  
+**Family**: system.ai.gemini-2-5-pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gemma-3-12b
+
+**Model ID**: `system.ai.gemma-3-12b`  
+**Family**: system.ai.gemma-3-12b
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5
+
+**Model ID**: `system.ai.gpt-5`  
+**Family**: system.ai.gpt-5
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Structured output
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.125
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-1
+
+**Model ID**: `system.ai.gpt-5-1`  
+**Family**: system.ai.gpt-5-1
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Function calling
+
+- Structured output
+
+- Json output
+
+- Tool choice
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.125
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-2
+
+**Model ID**: `system.ai.gpt-5-2`  
+**Family**: system.ai.gpt-5-2
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+- **Cached Input**: $1.75
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-3-codex
+
+**Model ID**: `system.ai.gpt-5-3-codex`  
+**Family**: system.ai.gpt-5-3-codex
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.75
+
+
+- **Standard Output**: $14.0
+
+
+
+
+- **Cached Input**: $1.75
+
+
+- **Cached Output**: $0.175
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-4
+
+**Model ID**: `system.ai.gpt-5-4`  
+**Family**: system.ai.gpt-5-4
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-4-mini
+
+**Model ID**: `system.ai.gpt-5-4-mini`  
+**Family**: system.ai.gpt-5-4-mini
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
+
+
+
+- **Cached Input**: $0.75
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-4-nano
+
+**Model ID**: `system.ai.gpt-5-4-nano`  
+**Family**: system.ai.gpt-5-4-nano
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.25
+
+
+
+
+- **Cached Input**: $0.19999999999999998
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-5-pro
+
+**Model ID**: `system.ai.gpt-5-5-pro`  
+**Family**: system.ai.gpt-5-5-pro
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $180.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-mini
+
+**Model ID**: `system.ai.gpt-5-mini`  
+**Family**: system.ai.gpt-5-mini
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+- System messages
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $2.0
+
+
+
+
+- **Cached Input**: $0.25
+
+
+- **Cached Output**: $0.024999999999999998
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-5-nano
+
+**Model ID**: `system.ai.gpt-5-nano`  
+**Family**: system.ai.gpt-5-nano
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.049999999999999996
+
+
+- **Standard Output**: $0.39999999999999997
+
+
+
+
+- **Cached Input**: $0.049999999999999996
+
+
+- **Cached Output**: $0.005
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-oss-120b
+
+**Model ID**: `system.ai.gpt-oss-120b`  
+**Family**: system.ai.gpt-oss-120b
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 25,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gpt-oss-20b
+
+**Model ID**: `system.ai.gpt-oss-20b`  
+**Family**: system.ai.gpt-oss-20b
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 25,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Json output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.07
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
+### system.ai.gte-large-en
+
+**Model ID**: `system.ai.gte-large-en`  
+**Family**: system.ai.gte-large-en
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.13
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### system.ai.llama-4-maverick
+
+**Model ID**: `system.ai.llama-4-maverick`  
+**Family**: system.ai.llama-4-maverick
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### system.ai.meta-llama-3-3-70b-instruct
+
+**Model ID**: `system.ai.meta-llama-3-3-70b-instruct`  
+**Family**: system.ai.meta-llama-3-3-70b-instruct
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Tool choice
+
+- Function calling
+
+- Structured output
+
+- Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
 
 
 
