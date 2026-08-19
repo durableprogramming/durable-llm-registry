@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 15
-- **Last Updated**: 2026-08-18
+- **Total Models**: 16
+- **Last Updated**: 2026-08-19
 
 ## Models
 
@@ -663,6 +663,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $1.6
+
+
+
+
+
+
+
+---
+
+
+### Qwen 3.8 Max
+
+**Model ID**: `accounts/fireworks/models/qwen3p8-max`  
+**Family**: qwen3
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
 
 
 
