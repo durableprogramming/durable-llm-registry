@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 63
-- **Last Updated**: 2026-08-19
+- **Total Models**: 62
+- **Last Updated**: 2026-08-20
 
 ## Models
 
@@ -657,54 +657,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### DeepSeek V4 Flash Free
-
-**Model ID**: `deepseek-v4-flash-free`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
 
 
 
@@ -2797,61 +2749,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Laguna S 2.1 Free
-
-**Model ID**: `laguna-s-2.1-free`  
-**Family**: laguna
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### MiMo-V2.5 Free
 
 **Model ID**: `mimo-v2.5-free`  
@@ -3075,6 +2972,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Muse Spark 1.2
 
 **Model ID**: `muse-spark-1.2`  
+**Family**: muse
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Muse Spark 1.2 Contributor Free
+
+**Model ID**: `muse-spark-1.2-contributor-free`  
 **Family**: muse
 #### Specifications
 

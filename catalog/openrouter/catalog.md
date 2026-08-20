@@ -7,54 +7,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 897
-- **Last Updated**: 2026-08-19
+- **Total Models**: 900
+- **Last Updated**: 2026-08-20
 
 ## Models
-
-
-### AI21: Jamba Large 1.7
-
-**Model ID**: `ai21/jamba-large-1.7`  
-**Family**: ai21
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $8.0
-
-
-
-
-
-
-
----
 
 
 ### AionLabs: Aion-2.0
@@ -2763,10 +2719,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0765
+- **Standard Input**: $0.065
 
 
-- **Standard Output**: $0.153
+- **Standard Output**: $0.14
 
 
 
@@ -3071,10 +3027,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0826
+- **Standard Input**: $0.0868
 
 
-- **Standard Output**: $0.1652
+- **Standard Output**: $0.1736
 
 
 
@@ -3159,10 +3115,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.44
+- **Standard Input**: $1.6
 
 
-- **Standard Output**: $2.88
+- **Standard Output**: $3.2
 
 
 
@@ -3181,8 +3137,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Context Window**: 1,048,576 tokens
 
-
-- **Max Output Tokens**: 384,000 tokens
 
 
 #### Modalities
@@ -3203,10 +3157,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.66
+- **Standard Input**: $1.188
 
 
-- **Standard Output**: $1.98
+- **Standard Output**: $3.564
 
 
 
@@ -5204,7 +5158,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 65,536 tokens
 
 
-- **Max Output Tokens**: 66,000 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -5713,50 +5667,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $5.0
-
-
-
-
-
-
-
----
-
-
-### Mancer: Weaver (alpha)
-
-**Model ID**: `mancer/weaver`  
-**Family**: mancer
-#### Specifications
-
-- **Context Window**: 8,000 tokens
-
-
-- **Max Output Tokens**: 6,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $0.75
 
 
 
@@ -6518,7 +6428,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 196,608 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -6539,7 +6449,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.22
+- **Standard Input**: $0.225
 
 
 - **Standard Output**: $0.9
@@ -8417,7 +8327,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nvidia
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -15356,7 +15266,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -15377,10 +15287,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $3.6
 
 
 
@@ -15749,7 +15659,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -16645,6 +16555,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.57
+
+
+
+
+
+
+
+---
+
+
+### Tencent: Hy-MT2-1.8B
+
+**Model ID**: `tencent/hy-mt2-1.8b`  
+**Family**: tencent
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.044
+
+
+- **Standard Output**: $0.177
+
+
+
+
+
+
+
+---
+
+
+### Tencent: Hy-MT2-30B-A3B
+
+**Model ID**: `tencent/hy-mt2-30b-a3b`  
+**Family**: tencent
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.074
+
+
+- **Standard Output**: $0.295
 
 
 
@@ -18005,6 +18003,102 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM Latest
+
+**Model ID**: `~z-ai/glm-latest`  
+**Family**: ~z-ai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+
+
+---
+
+
+### ai21/jamba-large-1.7
+
+**Model ID**: `ai21/jamba-large-1.7`  
+**Family**: ai21/jamba-large-1.7
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $8.0
 
 
 
@@ -21968,7 +22062,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 163,840 tokens
 
 
 #### Modalities
@@ -30386,6 +30480,54 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### mancer/weaver
+
+**Model ID**: `mancer/weaver`  
+**Family**: mancer/weaver
+#### Specifications
+
+- **Context Window**: 8,000 tokens
+
+
+- **Max Output Tokens**: 2,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $1.0
 
 
 
@@ -40903,7 +41045,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 8,000 tokens
 
 
-- **Max Output Tokens**: 6,000 tokens
+- **Max Output Tokens**: 2,000 tokens
 
 
 #### Modalities

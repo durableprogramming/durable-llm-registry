@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 
 - **Provider**: sambanova
 - **Total Models**: 30
-- **Last Updated**: 2026-08-19
+- **Last Updated**: 2026-08-20
 
 ## Models
 
@@ -1414,10 +1414,10 @@ This catalog provides a comprehensive overview of all sambanova models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.22
+- **Standard Input**: $0.38
 
 
-- **Standard Output**: $0.59
+- **Standard Output**: $1.15
 
 
 

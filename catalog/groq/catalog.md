@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - **Provider**: groq
 - **Total Models**: 23
-- **Last Updated**: 2026-08-19
+- **Last Updated**: 2026-08-20
 
 ## Models
 
@@ -1036,6 +1036,8 @@ This catalog provides a comprehensive overview of all groq models available thro
 - Function calling
 
 - Json output
+
+- Structured output
 
 - System messages
 

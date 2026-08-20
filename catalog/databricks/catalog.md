@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 68
-- **Last Updated**: 2026-08-19
+- **Last Updated**: 2026-08-20
 
 ## Models
 
@@ -322,6 +322,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - Prompt caching
 
 - System messages
+
+- Cache control
 
 
 
@@ -734,7 +736,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 #### Modalities
 
 
-- **Input**: text, image, pdf
+- **Input**: text, image
 
 
 - **Output**: text
@@ -921,8 +923,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 #### Capabilities
 
-
-- Function calling
 
 - Json output
 
@@ -1492,12 +1492,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Structured output
 
-- System messages
-
-- Tool choice
-
-- Json output
-
 
 
 #### Pricing (per million tokens)
@@ -1510,6 +1504,11 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 - **Standard Output**: $180.0
+
+
+
+
+- **Cached Input**: $30.0
 
 
 

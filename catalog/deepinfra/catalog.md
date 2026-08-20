@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 249
-- **Last Updated**: 2026-08-19
+- **Last Updated**: 2026-08-20
 
 ## Models
 
@@ -751,6 +751,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 - Prompt caching
 
 - Function calling
+
+- Json output
 
 
 
@@ -1543,16 +1545,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.28
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.1
 
 
 
 
 
-- **Cached Output**: $0.06
+- **Cached Output**: $0.056
 
 
 
@@ -6397,7 +6399,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.08
 
 
 - **Standard Output**: $0.18
@@ -6406,7 +6408,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.018
+- **Cached Output**: $0.016
 
 
 
@@ -7352,11 +7354,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.37
+- **Standard Output**: $0.33999999999999997
 
+
+
+
+
+- **Cached Output**: $0.049999999999999996
 
 
 
@@ -9297,16 +9304,18 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.74
+- **Standard Input**: $0.6799999999999999
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $3.4
 
 
 
 
+- **Cached Input**: $0.85
 
-- **Cached Output**: $0.14999999800000002
+
+- **Cached Output**: $0.136
 
 
 
@@ -9359,6 +9368,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
+
+- **Cached Input**: $3.5625
 
 
 - **Cached Output**: $0.28500000000000003
@@ -9843,6 +9854,11 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Standard Output**: $0.19999999999999998
 
+
+
+
+
+- **Cached Output**: $0.024999999999999998
 
 
 
@@ -11012,6 +11028,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - Function calling
 
+- Json output
+
 - Prompt caching
 
 
@@ -11022,7 +11040,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.44999999999999996
 
 
 - **Standard Output**: $1.2
@@ -11458,16 +11476,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9299999999999999
+- **Standard Input**: $0.75
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $2.4
 
 
 
 
 
-- **Cached Output**: $0.18
+- **Cached Output**: $0.14
 
 
 
