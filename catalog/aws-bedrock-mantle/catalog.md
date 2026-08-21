@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ## Overview
 
 - **Provider**: aws-bedrock-mantle
-- **Total Models**: 54
-- **Last Updated**: 2026-08-20
+- **Total Models**: 55
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -465,6 +465,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 #### Capabilities
 
 
+- Function calling
+
+
+
 #### Pricing (per million tokens)
 
 
@@ -507,6 +511,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 #### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)
@@ -856,6 +864,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -1225,6 +1235,12 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -1837,8 +1853,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.6-luna
 #### Specifications
 
-- **Context Window**: 272,000 tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -1902,7 +1920,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.6-sol
 #### Specifications
 
-- **Context Window**: 272,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -1944,7 +1962,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 
-- **Cached Input**: $6.88
+- **Cached Input**: $6.875
 
 
 - **Cached Output**: $0.55
@@ -1963,7 +1981,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.6-terra
 #### Specifications
 
-- **Context Window**: 272,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -2107,6 +2125,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -2608,6 +2628,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - System messages
 
+- Function calling
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2682,6 +2706,67 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### xai.grok-4.6
+
+**Model ID**: `xai.grok-4.6`  
+**Family**: xai.grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $6.6000000000000005
+
+
+
+
+
+- **Cached Output**: $0.55
 
 
 
@@ -2856,6 +2941,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - System messages
 
 - Tool choice
+
+- Structured output
 
 
 

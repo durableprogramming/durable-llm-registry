@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 219
-- **Last Updated**: 2026-08-20
+- **Total Models**: 221
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -2307,6 +2307,10 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
+- Structured output
+
+- System messages
+
 - Tool choice
 
 
@@ -2575,6 +2579,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Tool choice
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2635,6 +2641,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Function calling
 
 - Prompt caching
+
+- Structured output
 
 - System messages
 
@@ -2704,8 +2712,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Assistant prefill
 
@@ -2989,7 +2995,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: embedding
@@ -3774,6 +3780,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -4231,6 +4239,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
+- Structured output
+
 - System messages
 
 - Tool choice
@@ -4299,8 +4309,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Assistant prefill
 
@@ -4682,6 +4690,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -5011,8 +5021,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Structured output
-
 - Assistant prefill
 
 
@@ -5145,6 +5153,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -5209,6 +5219,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - System messages
 
 - Assistant prefill
+
+- Structured output
 
 
 
@@ -5348,6 +5360,65 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### global.xai.grok-4.6
+
+**Model ID**: `global.xai.grok-4.6`  
+**Family**: global.xai.grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Prompt caching
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### google.gemma-3-12b-it
 
 **Model ID**: `google.gemma-3-12b-it`  
@@ -5375,6 +5446,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Function calling
 
 - System messages
+
+- Structured output
 
 
 
@@ -5424,6 +5497,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -5468,6 +5543,10 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 #### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)
@@ -5584,6 +5663,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Assistant prefill
 
 - Cache control
+
+- Structured output
 
 
 
@@ -6324,6 +6405,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -6376,6 +6459,10 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Structured output
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -6427,6 +6514,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - System messages
 
 - Tool choice
+
+- Structured output
 
 
 
@@ -7038,6 +7127,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7138,6 +7229,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7185,6 +7278,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -7234,6 +7329,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7282,6 +7379,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7329,6 +7428,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -7602,6 +7703,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7649,6 +7752,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -7698,6 +7803,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7745,6 +7852,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -7848,6 +7957,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -7898,6 +8009,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Structured output
 
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -7945,8 +8058,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
-
-- Structured output
 
 
 
@@ -8563,6 +8674,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - Prompt caching
+
+- Assistant prefill
 
 
 
@@ -9191,6 +9304,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -9379,6 +9494,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Function calling
 
 - Prompt caching
+
+- Structured output
 
 - System messages
 
@@ -10152,7 +10269,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: text, doc
+- **Input**: text
 
 
 - **Output**: text
@@ -10448,7 +10565,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: text, image, doc
+- **Input**: text, image
 
 
 - **Output**: text
@@ -11183,6 +11300,65 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### us.xai.grok-4.6
+
+**Model ID**: `us.xai.grok-4.6`  
+**Family**: us.xai.grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Prompt caching
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $6.6000000000000005
+
+
+
+
+
+- **Cached Output**: $0.55
+
+
+
+
+
+
+---
+
+
 ### writer.palmyra-vision-7b
 
 **Model ID**: `writer.palmyra-vision-7b`  
@@ -11208,6 +11384,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - System messages
+
+- Structured output
 
 
 
@@ -11261,6 +11439,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -11308,6 +11488,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - Function calling
+
+- Structured output
 
 
 

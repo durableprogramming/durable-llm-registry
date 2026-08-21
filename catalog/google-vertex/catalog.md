@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 417
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -1068,13 +1068,19 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Function calling
 
+- Parallel function calling
+
 - Tool choice
 
 - Prompt caching
 
+- Cache control
+
 - Structured output
 
 - Assistant prefill
+
+- System messages
 
 
 
@@ -5486,6 +5492,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Code execution
 
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -5870,7 +5878,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image
 
 
 - **Output**: text, image
@@ -8182,7 +8190,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 
-- **Cached Output**: $0.13
+- **Cached Output**: $0.125
 
 
 
@@ -8325,8 +8333,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
-- Structured output
-
 
 
 #### Pricing (per million tokens)
@@ -8463,6 +8469,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -8476,6 +8484,11 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $3.0
 
+
+
+
+
+- **Cached Output**: $0.049999999999999996
 
 
 
@@ -10310,6 +10323,10 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 #### Capabilities
+
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -12454,7 +12471,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: language-v1-analyze-sentiment
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 100,000 tokens
 
 
 
@@ -15705,6 +15722,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 16,384 tokens
+
 
 #### Modalities
 
@@ -17947,6 +17966,14 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
 
 
 #### Pricing (per million tokens)

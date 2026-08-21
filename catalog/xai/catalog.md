@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 91
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -4225,6 +4225,14 @@ This catalog provides a comprehensive overview of all xai models available throu
 #### Capabilities
 
 
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+
+
 #### Pricing (per million tokens)
 
 
@@ -4789,7 +4797,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: video

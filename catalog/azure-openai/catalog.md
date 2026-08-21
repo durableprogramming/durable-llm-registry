@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 230
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -6417,7 +6417,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-5.4-mini-2026-03-17
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 400,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -6545,7 +6545,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-5.4-nano-2026-03-17
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 400,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -7632,7 +7632,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -7647,6 +7647,12 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - Structured output
 
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -7655,7 +7661,16 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
+- **Standard Input**: $1.25
 
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.125
 
 
 
@@ -8057,8 +8072,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-live-transcribe
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -8095,8 +8112,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-live-transcribe-2026-07-28
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -8178,7 +8197,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text
+- **Input**: audio
 
 
 - **Output**: text

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - **Provider**: wafer
 - **Total Models**: 16
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -380,7 +380,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -390,6 +390,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - Function calling
+
+- Prompt caching
 
 
 
@@ -427,7 +429,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 512,000 tokens
+- **Max Output Tokens**: 524,288 tokens
 
 
 #### Modalities
@@ -774,6 +776,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - **Context Window**: 1,048,576 tokens
 
+
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities

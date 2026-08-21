@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Provider**: together
 - **Total Models**: 375
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -64,7 +64,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: image
@@ -307,10 +307,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -5441,10 +5437,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -5483,10 +5475,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -5513,7 +5501,7 @@ This catalog provides a comprehensive overview of all together models available 
 - **Input**: text
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities
@@ -5846,7 +5834,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, audio
 
 
 - **Output**: video, audio, image
@@ -6777,6 +6765,10 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 #### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)
@@ -7815,7 +7807,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: deepseek-ai/DeepSeek-V4-Flash-0731
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -7832,6 +7824,14 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
+- System messages
 
 
 
@@ -8133,7 +8133,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: google/flash-image-3.1-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -9156,7 +9156,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: image
@@ -9561,10 +9561,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -11465,6 +11461,10 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
+- **Standard Input**: $0.18
+
+
+- **Standard Output**: $0.18
 
 
 
@@ -12741,6 +12741,8 @@ This catalog provides a comprehensive overview of all together models available 
 
 - Structured output
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -12774,7 +12776,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: moonshotai/Kimi-K3
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14024,6 +14026,8 @@ This catalog provides a comprehensive overview of all together models available 
 
 - Json output
 
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -14821,7 +14825,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: thinkingmachines/Inkling-Small
 #### Specifications
 
-- **Context Window**: 524,288 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -14835,6 +14839,10 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 #### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)

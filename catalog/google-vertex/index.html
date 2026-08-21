@@ -43,7 +43,7 @@
         </div>
         <div class="bg-white/5 rounded-lg p-4">
           <div class="text-sm text-slate-400 uppercase tracking-wide">Last Updated</div>
-          <div class="text-lg font-semibold text-white">2026-08-20</div>
+          <div class="text-lg font-semibold text-white">2026-08-21</div>
         </div>
       </div>
     </div>
@@ -2195,6 +2195,10 @@
                   </span>
                 
                   <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Parallel function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
                     Tool choice
                   </span>
                 
@@ -2203,11 +2207,19 @@
                   </span>
                 
                   <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Cache control
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
                     Structured output
                   </span>
                 
                   <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
                     Assistant prefill
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    System messages
                   </span>
                 
               </div>
@@ -10922,6 +10934,10 @@
                     Code execution
                   </span>
                 
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Json output
+                  </span>
+                
               </div>
             </div>
           
@@ -11690,7 +11706,7 @@
                 
                   <div class="bg-slate-800/50 rounded-lg p-4">
                     <div class="text-sm text-slate-400 uppercase tracking-wide mb-2">Input</div>
-                    <div class="text-white">text, image, video</div>
+                    <div class="text-white">text, image</div>
                   </div>
                 
                 
@@ -16147,7 +16163,7 @@
                         
                           <div class="bg-slate-800/50 rounded-lg p-4">
                             <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
-                            <div class="text-white font-medium">$0.13</div>
+                            <div class="text-white font-medium">$0.125</div>
                           </div>
                         
                       </div>
@@ -16430,10 +16446,6 @@
                     System messages
                   </span>
                 
-                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
-                    Structured output
-                  </span>
-                
               </div>
             </div>
           
@@ -16697,6 +16709,10 @@
                     System messages
                   </span>
                 
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Prompt caching
+                  </span>
+                
               </div>
             </div>
           
@@ -16725,6 +16741,19 @@
                       </div>
                     </div>
                   
+                  
+                    <div>
+                      <h5 class="text-md font-semibold text-cyan-400 mb-2">Text Tokens - Cached</h5>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                        
+                          <div class="bg-slate-800/50 rounded-lg p-4">
+                            <div class="text-sm text-slate-400 uppercase tracking-wide">Output</div>
+                            <div class="text-white font-medium">$0.049999999999999996</div>
+                          </div>
+                        
+                      </div>
+                    </div>
                   
                   
                 </div>
@@ -20218,6 +20247,17 @@
             </div>
           
 
+          
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    System messages
+                  </span>
+                
+              </div>
+            </div>
           
 
           
@@ -24134,7 +24174,7 @@
               <div class="space-y-2">
                 <div class="flex justify-between">
                   <span class="text-slate-300">Context Window:</span>
-                  <span class="text-white font-medium"> tokens</span>
+                  <span class="text-white font-medium">100,000 tokens</span>
                 </div>
                 
               </div>
@@ -30283,6 +30323,11 @@
                   <span class="text-white font-medium">1,000,000 tokens</span>
                 </div>
                 
+                  <div class="flex justify-between">
+                    <span class="text-slate-300">Max Output Tokens:</span>
+                    <span class="text-white font-medium">16,384 tokens</span>
+                  </div>
+                
               </div>
             </div>
           </div>
@@ -34535,6 +34580,25 @@
           
 
           
+            <div class="mt-6">
+              <h4 class="text-lg font-semibold text-white mb-3">Capabilities</h4>
+              <div class="flex flex-wrap gap-2">
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Function calling
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    Tool choice
+                  </span>
+                
+                  <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm font-medium">
+                    System messages
+                  </span>
+                
+              </div>
+            </div>
+          
 
           
             <div class="mt-6">
@@ -37147,7 +37211,7 @@
     </div>
 
     <footer class="text-center mt-16 text-slate-500">
-      <p>Last updated: 2026-08-20 13:38 UTC</p>
+      <p>Last updated: 2026-08-21 13:37 UTC</p>
     </footer>
   </div>
 </body>

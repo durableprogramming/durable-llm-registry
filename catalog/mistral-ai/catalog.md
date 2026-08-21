@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Provider**: mistral-ai
 - **Total Models**: 102
-- **Last Updated**: 2026-08-20
+- **Last Updated**: 2026-08-21
 
 ## Models
 
@@ -74,7 +74,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 256,000 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -214,7 +214,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 8,191 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -3569,7 +3569,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
