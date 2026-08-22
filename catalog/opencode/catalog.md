@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 7
-- **Last Updated**: 2026-08-21
+- **Last Updated**: 2026-08-22
 
 ## Models
 
@@ -355,7 +355,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Ox Alpha Free
+### Ox Alpha Free (Unlimited)
 
 **Model ID**: `x-preview-f-free`  
 **Family**: x-preview-f-free
