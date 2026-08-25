@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 221
-- **Last Updated**: 2026-08-23
+- **Total Models**: 229
+- **Last Updated**: 2026-08-25
 
 ## Models
 
@@ -5360,6 +5360,201 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### global.openai.gpt-5.6-luna
+
+**Model ID**: `global.openai.gpt-5.6-luna`  
+**Family**: global.openai.gpt-5.6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.2
+
+
+
+
+- **Cached Input**: $0.25
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
+### global.openai.gpt-5.6-sol
+
+**Model ID**: `global.openai.gpt-5.6-sol`  
+**Family**: global.openai.gpt-5.6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.39999999999999997
+
+
+
+
+
+
+---
+
+
+### global.openai.gpt-5.6-terra
+
+**Model ID**: `global.openai.gpt-5.6-terra`  
+**Family**: global.openai.gpt-5.6-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $12.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### global.xai.grok-4.6
 
 **Model ID**: `global.xai.grok-4.6`  
@@ -5560,6 +5755,136 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Standard Output**: $0.08
 
+
+
+
+
+
+
+---
+
+
+### in.openai.gpt-5.6-luna
+
+**Model ID**: `in.openai.gpt-5.6-luna`  
+**Family**: in.openai.gpt-5.6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $1.32
+
+
+
+
+- **Cached Input**: $0.275
+
+
+- **Cached Output**: $0.022
+
+
+
+
+
+
+---
+
+
+### in.openai.gpt-5.6-terra
+
+**Model ID**: `in.openai.gpt-5.6-terra`  
+**Family**: in.openai.gpt-5.6-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $13.200000000000001
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.22
 
 
 
@@ -10699,6 +11024,201 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Standard Output**: $6.0
 
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-5.6-luna
+
+**Model ID**: `us.openai.gpt-5.6-luna`  
+**Family**: us.openai.gpt-5.6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $1.32
+
+
+
+
+- **Cached Input**: $0.275
+
+
+- **Cached Output**: $0.022
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-5.6-sol
+
+**Model ID**: `us.openai.gpt-5.6-sol`  
+**Family**: us.openai.gpt-5.6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.4
+
+
+- **Standard Output**: $22.0
+
+
+
+
+- **Cached Input**: $5.5
+
+
+- **Cached Output**: $0.44
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-5.6-terra
+
+**Model ID**: `us.openai.gpt-5.6-terra`  
+**Family**: us.openai.gpt-5.6-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $13.200000000000001
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.22
 
 
 

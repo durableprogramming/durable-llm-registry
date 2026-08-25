@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 417
-- **Last Updated**: 2026-08-23
+- **Total Models**: 420
+- **Last Updated**: 2026-08-25
 
 ## Models
 
@@ -9041,6 +9041,73 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/gemini-3.7-flash
+
+**Model ID**: `google/gemini-3.7-flash`  
+**Family**: google/gemini-3.7-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.8250000000000001
+
+
+- **Standard Output**: $4.125
+
+
+
+
+
+- **Cached Output**: $0.0825
+
+
+
+
+
+
+---
+
+
 ### google/gemini-embedding-001
 
 **Model ID**: `google/gemini-embedding-001`  
@@ -13795,9 +13862,13 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Function calling
 
+- Parallel function calling
+
 - Structured output
 
 - System messages
+
+- Tool choice
 
 
 
@@ -18899,6 +18970,69 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### xai/grok-4.6
+
+**Model ID**: `xai/grok-4.6`  
+**Family**: xai/grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### xiaomimimo/xiaomimimo
 
 **Model ID**: `xiaomimimo/xiaomimimo`  
@@ -19254,6 +19388,56 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### zai-org/glm-5.2-maas
+
+**Model ID**: `zai-org/glm-5.2-maas`  
+**Family**: zai-org/glm-5.2-maas
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

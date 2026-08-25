@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 230
-- **Last Updated**: 2026-08-23
+- **Last Updated**: 2026-08-25
 
 ## Models
 
@@ -722,10 +722,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: container
 #### Specifications
 
-- **Context Window**: 0 tokens
+- **Context Window**:  tokens
 
-
-- **Max Output Tokens**: 0 tokens
 
 
 #### Modalities

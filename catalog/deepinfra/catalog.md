@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 249
-- **Last Updated**: 2026-08-23
+- **Total Models**: 250
+- **Last Updated**: 2026-08-25
 
 ## Models
 
@@ -7002,6 +7002,54 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Standard Output**: $9.0
+
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.7-flash
+
+**Model ID**: `google/gemini-3.7-flash`  
+**Family**: google/gemini-3.7-flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $3.75
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 27
-- **Last Updated**: 2026-08-23
+- **Last Updated**: 2026-08-25
 
 ## Models
 
@@ -47,18 +47,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $10.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $10.0
 
 
 
 
-- **Cached Input**: $3.75
+- **Cached Input**: $12.5
 
 
-- **Cached Output**: $15.0
+- **Cached Output**: $10.0
 
 
 
@@ -102,238 +102,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $1.0
 
 
 
 
-- **Cached Input**: $3.75
+- **Cached Input**: $1.25
 
 
-- **Cached Output**: $15.0
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.5
-
-**Model ID**: `claude-opus-4-5-20251101`  
-**Family**: claude-opus-4
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $6.25
-
-
-- **Cached Output**: $5.0
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.6
-
-**Model ID**: `claude-opus-4-6`  
-**Family**: claude-opus-4
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $6.25
-
-
-- **Cached Output**: $5.0
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.7
-
-**Model ID**: `claude-opus-4-7`  
-**Family**: claude-opus-4
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $6.25
-
-
-- **Cached Output**: $5.0
-
-
-
-
-
-
----
-
-
-### Claude Opus 4.8
-
-**Model ID**: `claude-opus-4-8`  
-**Family**: claude-opus-4
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $5.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $6.25
-
-
-- **Cached Output**: $5.0
+- **Cached Output**: $1.0
 
 
 
@@ -377,128 +157,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $5.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $5.0
 
 
 
 
-- **Cached Input**: $3.75
+- **Cached Input**: $6.25
 
 
-- **Cached Output**: $15.0
-
-
-
-
-
-
----
-
-
-### Claude Sonnet 4.5
-
-**Model ID**: `claude-sonnet-4-5-20250929`  
-**Family**: claude-sonnet-4
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $3.0
-
-
-
-
-- **Cached Input**: $3.75
-
-
-- **Cached Output**: $3.0
-
-
-
-
-
-
----
-
-
-### Claude Sonnet 4.6
-
-**Model ID**: `claude-sonnet-4-6`  
-**Family**: claude-sonnet-4
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $3.0
-
-
-- **Standard Output**: $3.0
-
-
-
-
-- **Cached Input**: $3.75
-
-
-- **Cached Output**: $3.0
+- **Cached Output**: $5.0
 
 
 
@@ -542,18 +212,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $2.0
 
 
-- **Standard Output**: $15.0
+- **Standard Output**: $2.0
 
 
 
 
-- **Cached Input**: $3.75
+- **Cached Input**: $2.5
 
 
-- **Cached Output**: $15.0
+- **Cached Output**: $2.0
 
 
 
@@ -1530,6 +1200,280 @@ This catalog provides a comprehensive overview of all anthropic models available
 ---
 
 
+### claude-opus-4-5-20251101
+
+**Model ID**: `claude-opus-4-5-20251101`  
+**Family**: claude-opus-4-5-20251101
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Assistant prefill
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-4-6
+
+**Model ID**: `claude-opus-4-6`  
+**Family**: claude-opus-4-6
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Cache control
+
+- Assistant prefill
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-4-7
+
+**Model ID**: `claude-opus-4-7`  
+**Family**: claude-opus-4-7
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+- Structured output
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-4-8
+
+**Model ID**: `claude-opus-4-8`  
+**Family**: claude-opus-4-8
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### claude-sonnet-4-20250514
 
 **Model ID**: `claude-sonnet-4-20250514`  
@@ -1605,6 +1549,140 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 
 - **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Assistant prefill
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-4-5-20250929
+
+**Model ID**: `claude-sonnet-4-5-20250929`  
+**Family**: claude-sonnet-4-5-20250929
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Cache control
+
+- Prompt caching
+
+- Structured output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-4-6
+
+**Model ID**: `claude-sonnet-4-6`  
+**Family**: claude-sonnet-4-6
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
