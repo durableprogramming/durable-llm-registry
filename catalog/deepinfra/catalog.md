@@ -7,10 +7,48 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 250
-- **Last Updated**: 2026-08-25
+- **Total Models**: 255
+- **Last Updated**: 2026-08-26
 
 ## Models
+
+
+### Audio8/Audio8-TTS-Preview-0.6b
+
+**Model ID**: `Audio8/Audio8-TTS-Preview-0.6b`  
+**Family**: Audio8/Audio8-TTS-Preview-0.6b
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
 
 
 ### BAAI/bge-base-en-v1.5
@@ -3894,6 +3932,116 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### Qwen/Qwen3.8-2.4T-A95B
+
+**Model ID**: `Qwen/Qwen3.8-2.4T-A95B`  
+**Family**: Qwen/Qwen3.8-2.4T-A95B
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### Qwen/Qwen3.8-27B
+
+**Model ID**: `Qwen/Qwen3.8-27B`  
+**Family**: Qwen/Qwen3.8-27B
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.39999999999999997
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+- **Cached Output**: $0.04
+
+
+
+
+
+
+---
+
+
 ### Qwen/Qwen3.8-Max
 
 **Model ID**: `Qwen/Qwen3.8-Max`  
@@ -7697,6 +7845,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### inclusionAI/Ling-3.0-flash
+
+**Model ID**: `inclusionAI/Ling-3.0-flash`  
+**Family**: inclusionAI/Ling-3.0-flash
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+- **Cached Output**: $0.012
+
+
+
+
+
+
+---
+
+
 ### intfloat/e5-base-v2
 
 **Model ID**: `intfloat/e5-base-v2`  
@@ -9762,6 +9965,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### nvidia/NVIDIA-Nemotron-3.5-Lightning
+
+**Model ID**: `nvidia/NVIDIA-Nemotron-3.5-Lightning`  
+**Family**: nvidia/NVIDIA-Nemotron-3.5-Lightning
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.08
+
+
+- **Standard Output**: $0.19999999999999998
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 

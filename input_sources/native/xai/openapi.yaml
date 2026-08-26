@@ -3535,9 +3535,8 @@ components:
           - boolean
           - 'null'
           description: |-
-            When true, the definition is hidden from the model's prompt until loaded
-            via a `tool_search` step. The tool stays callable at all times. Only
-            supported on `/v1/responses` together with the `tool_search` tool.
+            When true, the definition is hidden from the model's prompt but stays
+            callable, loaded via a `tool_search` step (`/v1/responses` only).
         description:
           type:
           - string
@@ -5624,6 +5623,10 @@ components:
         - "$ref": "#/components/schemas/ShellCall"
       - allOf:
         - "$ref": "#/components/schemas/ImageGenerationCall"
+      - allOf:
+        - "$ref": "#/components/schemas/ToolSearchCall"
+      - allOf:
+        - "$ref": "#/components/schemas/ToolSearchOutput"
     ModelRequest:
       type: object
       description: The request body for `/v1/responses` endpoint.
@@ -6352,6 +6355,13 @@ components:
             type:
             - string
             - 'null'
+          defer_loading:
+            type:
+            - boolean
+            - 'null'
+            description: |-
+              When true, this server's tool definitions are hidden from the
+              model's prompt but stay callable, loaded via a `tool_search` step.
           headers:
             type:
             - object
@@ -6389,6 +6399,21 @@ components:
             type: string
             enum:
             - shell
+      - type: object
+        description: Search over deferred tool definitions (server-side execution
+          only).
+        required:
+        - type
+        properties:
+          execution:
+            type:
+            - string
+            - 'null'
+            description: Where the search runs. Only `"server"` (or unset) is supported.
+          type:
+            type: string
+            enum:
+            - tool_search
       description: Definition of one tool that the model can call.
     ModelToolChoice:
       oneOf:
@@ -7929,6 +7954,76 @@ components:
             enum:
             - image
       description: A single content block within a tool_result's array content.
+    ToolSearchCall:
+      type: object
+      description: A server-side tool search call made by the model.
+      required:
+      - id
+      - type
+      properties:
+        arguments:
+          description: 'The arguments of the tool search call: `{"query": ..., "limit":
+            ...}`.'
+        call_id:
+          type:
+          - string
+          - 'null'
+          description: Always `null`; present for OpenAI compatibility.
+        execution:
+          type: string
+          description: Where the search runs. Always `server`.
+        id:
+          type: string
+          description: The unique ID of the tool search call item.
+        status:
+          type: string
+          description: |-
+            Status of the item. One of `in_progress`, `completed` or
+            `incomplete` (a failed search).
+        type:
+          oneOf:
+          - type: string
+            description: |-
+              Type tag for [`ToolSearchCall`]; a single-variant enum (not a `String`)
+              for the same untagged-enum disambiguation as [`ImageGenerationCallType`].
+            enum:
+            - tool_search_call
+          description: The type of the item. Always `tool_search_call`.
+    ToolSearchOutput:
+      type: object
+      description: The tool definitions loaded by a completed tool search call.
+      required:
+      - id
+      - type
+      properties:
+        call_id:
+          type:
+          - string
+          - 'null'
+          description: Always `null`; present for OpenAI compatibility.
+        execution:
+          type: string
+          description: Where the search ran. Always `server`.
+        id:
+          type: string
+          description: The unique ID of the tool search output item.
+        status:
+          type: string
+          description: Status of the item. Always `completed`.
+        tools:
+          type: array
+          items: {}
+          description: The loaded tool definitions, echoed in the shape they were
+            supplied in.
+        type:
+          oneOf:
+          - type: string
+            description: |-
+              Type tag for [`ToolSearchOutput`]. Serializes as `"tool_search_output"`.
+              See [`ToolSearchCallType`] for why this is a single-variant enum.
+            enum:
+            - tool_search_output
+          description: The type of the item. Always `tool_search_output`.
     TopLogProb:
       type: object
       required:

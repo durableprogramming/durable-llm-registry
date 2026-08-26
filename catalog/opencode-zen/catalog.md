@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 63
-- **Last Updated**: 2026-08-25
+- **Total Models**: 62
+- **Last Updated**: 2026-08-26
 
 ## Models
 
@@ -3131,61 +3131,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `nemotron-3.5-lightning-free`  
 **Family**: nemotron
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Ox Alpha Free
-
-**Model ID**: `x-preview-f-free`  
-**Family**: x
 #### Specifications
 
 - **Context Window**: 128,000 tokens
