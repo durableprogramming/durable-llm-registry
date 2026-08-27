@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 16
-- **Last Updated**: 2026-08-26
+- **Last Updated**: 2026-08-27
 
 ## Models
 
@@ -101,16 +101,16 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### GLM 5.1
+### DeepSeek V4 Pro (0813)
 
-**Model ID**: `accounts/fireworks/models/glm-5p1`  
-**Family**: glm-4p5v
+**Model ID**: `accounts/fireworks/models/deepseek-v4-pro-0813`  
+**Family**: deepseek-v3
 #### Specifications
 
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 4,096 tokens
+- **Max Output Tokens**: 20,000 tokens
 
 
 #### Modalities
@@ -131,10 +131,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.4
+- **Standard Input**: $1.32
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $3.96
 
 
 
