@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all nvidia models available th
 
 - **Provider**: nvidia
 - **Total Models**: 96
-- **Last Updated**: 2026-08-27
+- **Last Updated**: 2026-08-28
 
 ## Models
 

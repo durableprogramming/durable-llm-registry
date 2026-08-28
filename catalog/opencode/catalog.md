@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 7
-- **Last Updated**: 2026-08-27
+- **Last Updated**: 2026-08-28
 
 ## Models
 
@@ -80,6 +80,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Ling 3.0 Flash Fin Free
+
+**Model ID**: `ling-3.0-flash-fin-free`  
+**Family**: ling
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -314,63 +371,6 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### Ox Alpha Free (Unlimited)
-
-**Model ID**: `x-preview-f-free`  
-**Family**: x-preview-f-free
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video
 
 
 - **Output**: text

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 16
-- **Last Updated**: 2026-08-27
+- **Total Models**: 17
+- **Last Updated**: 2026-08-28
 
 ## Models
 
@@ -148,6 +148,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ### GLM 5.2
 
 **Model ID**: `accounts/fireworks/models/glm-5p2`  
+**Family**: glm-4p5v
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+
+
+---
+
+
+### GLM 5.3
+
+**Model ID**: `accounts/fireworks/models/glm-5p3`  
 **Family**: glm-4p5v
 #### Specifications
 

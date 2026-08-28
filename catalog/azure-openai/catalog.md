@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 230
-- **Last Updated**: 2026-08-27
+- **Last Updated**: 2026-08-28
 
 ## Models
 
