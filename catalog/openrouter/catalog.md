@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 929
-- **Last Updated**: 2026-08-28
+- **Last Updated**: 2026-08-29
 
 ## Models
 
@@ -179,50 +179,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.6
-
-
-
-
-
-
-
----
-
-
-### AllenAI: Olmo 3 32B Think
-
-**Model ID**: `allenai/olmo-3-32b-think`  
-**Family**: allenai
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 58,982 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.5
 
 
 
@@ -1773,50 +1729,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Arcee AI: Virtuoso Large
-
-**Model ID**: `arcee-ai/virtuoso-large`  
-**Family**: arcee-ai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 64,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.75
-
-
-- **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
 ### Auto Router
 
 **Model ID**: `openrouter/auto`  
@@ -2985,10 +2897,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08652
+- **Standard Input**: $0.08316
 
 
-- **Standard Output**: $0.17304
+- **Standard Output**: $0.16632
 
 
 
@@ -3029,10 +2941,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.045
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.09
 
 
 
@@ -3161,10 +3073,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.731496
+- **Standard Input**: $0.57942
 
 
-- **Standard Output**: $1.462992
+- **Standard Output**: $1.15884
 
 
 
@@ -17455,10 +17367,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.25
+- **Standard Input**: $1.1875
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $4.18
 
 
 
@@ -17894,6 +17806,56 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.19999999999999998
+
+
+
+
+
+
+
+---
+
+
+### allenai/olmo-3-32b-think
+
+**Model ID**: `allenai/olmo-3-32b-think`  
+**Family**: allenai/olmo-3-32b-think
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
 
 
 
@@ -19223,6 +19185,56 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### arcee-ai/virtuoso-large
+
+**Model ID**: `arcee-ai/virtuoso-large`  
+**Family**: arcee-ai/virtuoso-large
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $1.2
 
 
 
