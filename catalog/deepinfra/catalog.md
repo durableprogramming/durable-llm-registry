@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 255
-- **Last Updated**: 2026-08-29
+- **Total Models**: 257
+- **Last Updated**: 2026-08-30
 
 ## Models
 
@@ -6621,6 +6621,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### deepseek-ai/DeepSeek-V4-Pro-0813
+
+**Model ID**: `deepseek-ai/DeepSeek-V4-Pro-0813`  
+**Family**: deepseek-ai/DeepSeek-V4-Pro-0813
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.3
+
+
+- **Standard Output**: $2.6
+
+
+
+
+
+- **Cached Output**: $0.100000004
+
+
+
+
+
+
+---
+
+
 ### deepseek-ai/Janus-Pro-1B
 
 **Model ID**: `deepseek-ai/Janus-Pro-1B`  
@@ -8797,6 +8852,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Standard Output**: $0.04
 
+
+
+
+
+
+
+---
+
+
+### meta-models/Muse-Glimmer-30B
+
+**Model ID**: `meta-models/Muse-Glimmer-30B`  
+**Family**: meta-models/Muse-Glimmer-30B
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.039999998999999994
 
 
 

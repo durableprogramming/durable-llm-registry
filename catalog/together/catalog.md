@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 375
-- **Last Updated**: 2026-08-29
+- **Total Models**: 378
+- **Last Updated**: 2026-08-30
 
 ## Models
 
@@ -255,6 +255,44 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Input**: text, image, video
+
+
+- **Output**: video
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### ByteDance/Seedance-2.5
+
+**Model ID**: `ByteDance/Seedance-2.5`  
+**Family**: ByteDance/Seedance-2.5
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
 
 
 - **Output**: video
@@ -4887,6 +4925,61 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### Qwen/Qwen3.8-2.4T-A95B
+
+**Model ID**: `Qwen/Qwen3.8-2.4T-A95B`  
+**Family**: Qwen/Qwen3.8-2.4T-A95B
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
 ### RunDiffusion/Juggernaut-pro-flux
 
 **Model ID**: `RunDiffusion/Juggernaut-pro-flux`  
@@ -7912,6 +8005,63 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/DeepSeek-V4-Pro-0813
+
+**Model ID**: `deepseek-ai/DeepSeek-V4-Pro-0813`  
+**Family**: deepseek-ai/DeepSeek-V4-Pro-0813
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
 
 
 

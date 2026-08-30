@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 78
-- **Last Updated**: 2026-08-29
+- **Last Updated**: 2026-08-30
 
 ## Models
 
@@ -2746,7 +2746,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities

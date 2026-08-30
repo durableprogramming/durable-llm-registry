@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 17
-- **Last Updated**: 2026-08-29
+- **Total Models**: 14
+- **Last Updated**: 2026-08-30
 
 ## Models
 
@@ -47,50 +47,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.66
-
-
-
-
-
-
-
----
-
-
-### DeepSeek V4 Pro
-
-**Model ID**: `accounts/fireworks/models/deepseek-v4-pro`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.74
-
-
-- **Standard Output**: $3.48
 
 
 
@@ -365,50 +321,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### MiniMax M2.7
-
-**Model ID**: `accounts/fireworks/models/minimax-m2p7`  
-**Family**: minimax-m2p7
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
 ### MiniMax M3
 
 **Model ID**: `accounts/fireworks/models/minimax-m3`  
@@ -619,50 +531,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
-### OpenAI GPT OSS 20B
-
-**Model ID**: `accounts/fireworks/models/gpt-oss-20b`  
-**Family**: gpt-oss
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.07
-
-
-- **Standard Output**: $0.3
 
 
 

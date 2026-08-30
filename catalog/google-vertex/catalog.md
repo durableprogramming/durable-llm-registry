@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 420
-- **Last Updated**: 2026-08-29
+- **Total Models**: 424
+- **Last Updated**: 2026-08-30
 
 ## Models
 
@@ -9320,6 +9320,60 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/gemini-robotics-er-2-preview-info
+
+**Model ID**: `google/gemini-robotics-er-2-preview-info`  
+**Family**: google/gemini-robotics-er-2-preview-info
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Code execution
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### google/gemma
 
 **Model ID**: `google/gemma`  
@@ -15480,6 +15534,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### moonshotai/kimi-k3
+
+**Model ID**: `moonshotai/kimi-k3`  
+**Family**: moonshotai/kimi-k3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### multimodalembedding@001
 
 **Model ID**: `multimodalembedding@001`  
@@ -15719,6 +15811,54 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Json output
 
 - System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### nvidia/nemotron-3.5-lightning
+
+**Model ID**: `nvidia/nemotron-3.5-lightning`  
+**Family**: nvidia/nemotron-3.5-lightning
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
 
 
 
@@ -17367,6 +17507,54 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### tencent/tencent-hy3
+
+**Model ID**: `tencent/tencent-hy3`  
+**Family**: tencent/tencent-hy3
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Json output
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
