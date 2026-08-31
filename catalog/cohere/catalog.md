@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ## Overview
 
 - **Provider**: cohere
-- **Total Models**: 38
-- **Last Updated**: 2026-08-30
+- **Total Models**: 39
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -1245,6 +1245,44 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### parse-v5.0
+
+**Model ID**: `parse-v5.0`  
+**Family**: parse-v5.0
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image, pdf, doc
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 

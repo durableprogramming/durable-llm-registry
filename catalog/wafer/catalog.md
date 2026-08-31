@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 16
-- **Last Updated**: 2026-08-30
+- **Total Models**: 17
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -240,6 +240,67 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.22999999999999998
+
+
+
+
+
+
+---
+
+
+### GLM-5.3-Flash
+
+**Model ID**: `GLM-5.3-Flash`  
+**Family**: GLM-5.3-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 

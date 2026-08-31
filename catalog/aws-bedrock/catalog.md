@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 229
-- **Last Updated**: 2026-08-30
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -2188,8 +2188,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Structured output
-
 - Assistant prefill
 
 
@@ -2513,8 +2511,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Cache control
 
 - Assistant prefill
-
-- Structured output
 
 
 
@@ -4623,8 +4619,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Structured output
-
 - Assistant prefill
 
 
@@ -5286,8 +5280,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - Prompt caching
-
-- Structured output
 
 - Assistant prefill
 
@@ -9558,8 +9550,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
-- Structured output
-
 - Assistant prefill
 
 
@@ -10092,8 +10082,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Structured output
-
 - Assistant prefill
 
 - Json output
@@ -10361,8 +10349,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 
 

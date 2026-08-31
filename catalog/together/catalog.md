@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 378
-- **Last Updated**: 2026-08-30
+- **Total Models**: 382
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -4971,6 +4971,62 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
+### Qwen/Qwen3.8-Flash
+
+**Model ID**: `Qwen/Qwen3.8-Flash`  
+**Family**: Qwen/Qwen3.8-Flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.47
+
 
 
 
@@ -16436,6 +16492,175 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.2-FP8-Lora
+
+**Model ID**: `zai-org/GLM-5.2-FP8-Lora`  
+**Family**: zai-org/GLM-5.2-FP8-Lora
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.3
+
+**Model ID**: `zai-org/GLM-5.3`  
+**Family**: zai-org/GLM-5.3
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.3-Flash
+
+**Model ID**: `zai-org/GLM-5.3-Flash`  
+**Family**: zai-org/GLM-5.3-Flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 

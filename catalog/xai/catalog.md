@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 ## Overview
 
 - **Provider**: xai
-- **Total Models**: 91
-- **Last Updated**: 2026-08-30
+- **Total Models**: 92
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -1439,8 +1439,6 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 2,000,000 tokens
 
-
-- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -3865,8 +3863,6 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 1,000,000 tokens
-
 
 #### Modalities
 
@@ -4503,6 +4499,44 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 
 - **Standard Input**: $0.0
+
+
+
+
+
+
+
+
+---
+
+
+### grok-imagine-image-2.0
+
+**Model ID**: `grok-imagine-image-2.0`  
+**Family**: grok-imagine-image-2.0
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 78
-- **Last Updated**: 2026-08-30
+- **Total Models**: 80
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -2343,6 +2343,90 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### gemini-3.5-transcribe
+
+**Model ID**: `gemini-3.5-transcribe`  
+**Family**: gemini-3.5-transcribe
+#### Specifications
+
+- **Context Window**: 96,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+- **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
+### gemini-3.5-transcribe-live
+
+**Model ID**: `gemini-3.5-transcribe-live`  
+**Family**: gemini-3.5-transcribe-live
+#### Specifications
+
+- **Context Window**: 96,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+- **Standard Output**: $21.0
 
 
 

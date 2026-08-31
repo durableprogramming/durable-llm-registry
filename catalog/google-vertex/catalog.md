@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 424
-- **Last Updated**: 2026-08-30
+- **Total Models**: 426
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -8965,6 +8965,90 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.032999999999999995
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.5-transcribe-live-preview
+
+**Model ID**: `google/gemini-3.5-transcribe-live-preview`  
+**Family**: google/gemini-3.5-transcribe-live-preview
+#### Specifications
+
+- **Context Window**: 96,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+- **Standard Output**: $21.0
+
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.5-transcribe-preview
+
+**Model ID**: `google/gemini-3.5-transcribe-preview`  
+**Family**: google/gemini-3.5-transcribe-preview
+#### Specifications
+
+- **Context Window**: 96,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+- **Standard Output**: $12.0
+
 
 
 

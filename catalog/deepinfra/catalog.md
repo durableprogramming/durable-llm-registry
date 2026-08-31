@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 257
-- **Last Updated**: 2026-08-30
+- **Total Models**: 262
+- **Last Updated**: 2026-08-31
 
 ## Models
 
@@ -7900,6 +7900,171 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### ibm-granite/granite-4.2-30b
+
+**Model ID**: `ibm-granite/granite-4.2-30b`  
+**Family**: ibm-granite/granite-4.2-30b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.16
+
+
+- **Standard Output**: $0.65
+
+
+
+
+
+- **Cached Output**: $0.04
+
+
+
+
+
+
+---
+
+
+### ibm-granite/granite-4.2-3b
+
+**Model ID**: `ibm-granite/granite-4.2-3b`  
+**Family**: ibm-granite/granite-4.2-3b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.03
+
+
+- **Standard Output**: $0.12
+
+
+
+
+
+- **Cached Output**: $0.0075
+
+
+
+
+
+
+---
+
+
+### ibm-granite/granite-4.2-8b
+
+**Model ID**: `ibm-granite/granite-4.2-8b`  
+**Family**: ibm-granite/granite-4.2-8b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.25
+
+
+
+
+
+- **Cached Output**: $0.015
+
+
+
+
+
+
+---
+
+
 ### inclusionAI/Ling-3.0-flash
 
 **Model ID**: `inclusionAI/Ling-3.0-flash`  
@@ -11902,6 +12067,116 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.3
+
+**Model ID**: `zai-org/GLM-5.3`  
+**Family**: zai-org/GLM-5.3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.2
+
+
+- **Standard Output**: $4.0
+
+
+
+
+
+- **Cached Output**: $0.24
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.3-Flash
+
+**Model ID**: `zai-org/GLM-5.3-Flash`  
+**Family**: zai-org/GLM-5.3-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
