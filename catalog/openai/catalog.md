@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openai models available th
 ## Overview
 
 - **Provider**: openai
-- **Total Models**: 151
-- **Last Updated**: 2026-08-31
+- **Total Models**: 155
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -5244,6 +5244,12 @@ This catalog provides a comprehensive overview of all openai models available th
 
 - System messages
 
+- Tool choice
+
+- Parallel function calling
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -5252,18 +5258,18 @@ This catalog provides a comprehensive overview of all openai models available th
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $20.0
 
 
 
 
-- **Cached Input**: $6.25
+- **Cached Input**: $5.0
 
 
-- **Cached Output**: $0.5
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -6944,6 +6950,44 @@ This catalog provides a comprehensive overview of all openai models available th
 ---
 
 
+### o1-pro-2025-03-19
+
+**Model ID**: `o1-pro-2025-03-19`  
+**Family**: o1-pro-2025-03-19
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### o3
 
 **Model ID**: `o3`  
@@ -7119,6 +7163,44 @@ This catalog provides a comprehensive overview of all openai models available th
 ---
 
 
+### o3-deep-research-2025-06-26
+
+**Model ID**: `o3-deep-research-2025-06-26`  
+**Family**: o3-deep-research-2025-06-26
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### o3-mini
 
 **Model ID**: `o3-mini`  
@@ -7285,6 +7367,44 @@ This catalog provides a comprehensive overview of all openai models available th
 
 
 - **Standard Output**: $80.0
+
+
+
+
+
+
+
+---
+
+
+### o3-pro-2025-06-10
+
+**Model ID**: `o3-pro-2025-06-10`  
+**Family**: o3-pro-2025-06-10
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 
@@ -7474,6 +7594,44 @@ This catalog provides a comprehensive overview of all openai models available th
 ---
 
 
+### o4-mini-deep-research-2025-06-26
+
+**Model ID**: `o4-mini-deep-research-2025-06-26`  
+**Family**: o4-mini-deep-research-2025-06-26
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### omni-moderation-2024-09-26
 
 **Model ID**: `omni-moderation-2024-09-26`  
@@ -7646,18 +7804,18 @@ This catalog provides a comprehensive overview of all openai models available th
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $20.0
 
 
 
 
-- **Cached Input**: $6.25
+- **Cached Input**: $5.0
 
 
-- **Cached Output**: $0.5
+- **Cached Output**: $0.39999999999999997
 
 
 

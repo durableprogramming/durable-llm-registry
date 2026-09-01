@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 929
-- **Last Updated**: 2026-08-31
+- **Total Models**: 931
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -1113,50 +1113,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Anthropic: Claude Opus 4.7 (Fast)
-
-**Model ID**: `anthropic/claude-opus-4.7-fast`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $30.0
-
-
-- **Standard Output**: $150.0
-
-
-
-
-
-
-
----
-
-
 ### Anthropic: Claude Opus 4.7 (batch)
 
 **Model ID**: `anthropic/claude-opus-4.7:batch`  
@@ -1235,50 +1191,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $25.0
-
-
-
-
-
-
-
----
-
-
-### Anthropic: Claude Opus 4.8 (Fast)
-
-**Model ID**: `anthropic/claude-opus-4.8-fast`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $10.0
-
-
-- **Standard Output**: $50.0
 
 
 
@@ -2251,50 +2163,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Claude Opus 5 (Fast)
-
-**Model ID**: `anthropic/claude-opus-5-fast`  
-**Family**: anthropic
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $10.0
-
-
-- **Standard Output**: $50.0
-
-
-
-
-
-
-
----
-
-
 ### Claude Opus 5 (batch)
 
 **Model ID**: `anthropic/claude-opus-5:batch`  
@@ -2568,7 +2436,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -2589,10 +2457,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.03
+- **Standard Input**: $0.04998
 
 
-- **Standard Output**: $0.16
+- **Standard Output**: $0.09996
 
 
 
@@ -2897,10 +2765,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08092
+- **Standard Input**: $0.07476
 
 
-- **Standard Output**: $0.16184
+- **Standard Output**: $0.14952
 
 
 
@@ -3052,7 +2920,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 384,000 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -3073,10 +2941,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.030776
+- **Standard Input**: $1.6
 
 
-- **Standard Output**: $2.061552
+- **Standard Output**: $3.2
 
 
 
@@ -4215,10 +4083,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.65
+- **Standard Input**: $1.5
 
 
-- **Standard Output**: $9.9
+- **Standard Output**: $9.0
 
 
 
@@ -5373,6 +5241,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### IBM: Granite 4.2 8B
+
+**Model ID**: `ibm-granite/granite-4.2-8b`  
+**Family**: ibm-granite
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 117,964 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.15
+
+
+
+
+
+
+
+---
+
+
 ### Inception: Mercury 2
 
 **Model ID**: `inception/mercury-2`  
@@ -5407,6 +5319,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.75
+
+
+
+
+
+
+
+---
+
+
+### Inception: Mercury 2.5 Preview
+
+**Model ID**: `inception/mercury-2.5-preview`  
+**Family**: inception
+#### Specifications
+
+- **Context Window**: 260,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.04
+
+
+- **Standard Output**: $0.15
 
 
 
@@ -5667,7 +5623,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $3.0
+- **Standard Input**: $2.5
 
 
 - **Standard Output**: $5.0
@@ -5711,7 +5667,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.4
 
 
 - **Standard Output**: $0.75
@@ -6042,7 +5998,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -6063,10 +6019,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.11
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.34
+- **Standard Output**: $0.3
 
 
 
@@ -7001,50 +6957,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Codestral 2508 (batch)
-
-**Model ID**: `mistralai/codestral-2508:batch`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 204,800 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $0.9
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Devstral 2 2512
 
 **Model ID**: `mistralai/devstral-2512`  
@@ -7221,97 +7133,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Mistral: Ministral 3 8B 2512 (batch)
-
-**Model ID**: `mistralai/ministral-8b-2512:batch`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.15
-
-
-
-
-
-
-
----
-
-
 ### Mistral: Mistral Large 3 2512
 
 **Model ID**: `mistralai/mistral-large-2512`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### Mistral: Mistral Large 3 2512 (batch)
-
-**Model ID**: `mistralai/mistral-large-2512:batch`  
 **Family**: mistralai
 #### Specifications
 
@@ -7400,50 +7224,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Mistral: Mistral Medium 3.1
 
 **Model ID**: `mistralai/mistral-medium-3.1`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 104,857 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.4
-
-
-- **Standard Output**: $2.0
-
-
-
-
-
-
-
----
-
-
-### Mistral: Mistral Medium 3.1 (batch)
-
-**Model ID**: `mistralai/mistral-medium-3.1:batch`  
 **Family**: mistralai
 #### Specifications
 
@@ -7752,50 +7532,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Mistral: Mistral Small 4
 
 **Model ID**: `mistralai/mistral-small-2603`  
-**Family**: mistralai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
-### Mistral: Mistral Small 4 (batch)
-
-**Model ID**: `mistralai/mistral-small-2603:batch`  
 **Family**: mistralai
 #### Specifications
 
@@ -10477,6 +10213,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5 (batch)
+
+**Model ID**: `openai/gpt-5:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.625
+
+
+- **Standard Output**: $5.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5 Image
 
 **Model ID**: `openai/gpt-5-image`  
@@ -10609,6 +10389,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5 Mini (batch)
+
+**Model ID**: `openai/gpt-5-mini:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.125
+
+
+- **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5 Nano
 
 **Model ID**: `openai/gpt-5-nano`  
@@ -10643,6 +10467,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5 Nano (batch)
+
+**Model ID**: `openai/gpt-5-nano:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.025
+
+
+- **Standard Output**: $0.2
 
 
 
@@ -10775,6 +10643,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.1 (batch)
+
+**Model ID**: `openai/gpt-5.1:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, text, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.625
+
+
+- **Standard Output**: $5.0
 
 
 
@@ -10951,6 +10863,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $14.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.2 (batch)
+
+**Model ID**: `openai/gpt-5.2:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.875
+
+
+- **Standard Output**: $7.0
 
 
 
@@ -11225,6 +11181,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5.4 (batch)
+
+**Model ID**: `openai/gpt-5.4:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $7.5
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5.4 Image 2
 
 **Model ID**: `openai/gpt-5.4-image-2`  
@@ -11313,6 +11313,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-5.4 Mini (batch)
+
+**Model ID**: `openai/gpt-5.4-mini:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.375
+
+
+- **Standard Output**: $2.25
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: GPT-5.4 Nano
 
 **Model ID**: `openai/gpt-5.4-nano`  
@@ -11347,6 +11391,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.25
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.4 Nano (batch)
+
+**Model ID**: `openai/gpt-5.4-nano:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.625
 
 
 
@@ -11567,6 +11655,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $180.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.5 Pro (batch)
+
+**Model ID**: `openai/gpt-5.5-pro:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $15.0
+
+
+- **Standard Output**: $90.0
 
 
 
@@ -11963,6 +12095,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $12.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-5.6 Terra (batch)
+
+**Model ID**: `openai/gpt-5.6-terra:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $6.0
 
 
 
@@ -14266,7 +14442,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -14287,7 +14463,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $1.1
@@ -15410,7 +15586,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -15475,10 +15651,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $2.5
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $6.25
 
 
 
@@ -18138,7 +18314,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -18159,10 +18335,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.1875
+- **Standard Input**: $1.17
 
 
-- **Standard Output**: $4.18
+- **Standard Output**: $3.96
 
 
 
@@ -19512,6 +19688,195 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $3.0
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-opus-4.7-fast
+
+**Model ID**: `anthropic/claude-opus-4.7-fast`  
+**Family**: anthropic/claude-opus-4.7-fast
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $30.0
+
+
+- **Standard Output**: $150.0
+
+
+
+
+- **Cached Input**: $37.5
+
+
+- **Cached Output**: $3.0
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-opus-4.8-fast
+
+**Model ID**: `anthropic/claude-opus-4.8-fast`  
+**Family**: anthropic/claude-opus-4.8-fast
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-opus-5-fast
+
+**Model ID**: `anthropic/claude-opus-5-fast`  
+**Family**: anthropic/claude-opus-5-fast
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
 
 
 
@@ -33305,6 +33670,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### mistralai/codestral-2508:batch
+
+**Model ID**: `mistralai/codestral-2508:batch`  
+**Family**: mistralai/codestral-2508:batch
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 204,800 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $0.8999999999999999
+
+
+
+
+
+- **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
 ### mistralai/devstral-2512:free
 
 **Model ID**: `mistralai/devstral-2512:free`  
@@ -33519,6 +33945,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### mistralai/ministral-8b-2512:batch
+
+**Model ID**: `mistralai/ministral-8b-2512:batch`  
+**Family**: mistralai/ministral-8b-2512:batch
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.15
+
+
+
+
+
+- **Cached Output**: $0.015
+
+
+
+
+
+
+---
+
+
 ### mistralai/mistral-7b-instruct
 
 **Model ID**: `mistralai/mistral-7b-instruct`  
@@ -33703,6 +34190,189 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### mistralai/mistral-large-2512:batch
+
+**Model ID**: `mistralai/mistral-large-2512:batch`  
+**Family**: mistralai/mistral-large-2512:batch
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+- **Cached Output**: $0.049999999999999996
+
+
+
+
+
+
+---
+
+
+### mistralai/mistral-medium-3.1:batch
+
+**Model ID**: `mistralai/mistral-medium-3.1:batch`  
+**Family**: mistralai/mistral-medium-3.1:batch
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 104,857 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.39999999999999997
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+- **Cached Output**: $0.04
+
+
+
+
+
+
+---
+
+
+### mistralai/mistral-small-2603:batch
+
+**Model ID**: `mistralai/mistral-small-2603:batch`  
+**Family**: mistralai/mistral-small-2603:batch
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.015
 
 
 
@@ -36633,128 +37303,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### openai/gpt-5-mini:batch
-
-**Model ID**: `openai/gpt-5-mini:batch`  
-**Family**: openai/gpt-5-mini:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.125
-
-
-- **Standard Output**: $1.0
-
-
-
-
-
-- **Cached Output**: $0.012499999999999999
-
-
-
-
-
-
----
-
-
-### openai/gpt-5-nano:batch
-
-**Model ID**: `openai/gpt-5-nano:batch`  
-**Family**: openai/gpt-5-nano:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.024999999999999998
-
-
-- **Standard Output**: $0.19999999999999998
-
-
-
-
-
-- **Cached Output**: $0.0025
-
-
-
-
-
-
----
-
-
 ### openai/gpt-5.1-chat
 
 **Model ID**: `openai/gpt-5.1-chat`  
@@ -36816,128 +37364,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### openai/gpt-5.1:batch
-
-**Model ID**: `openai/gpt-5.1:batch`  
-**Family**: openai/gpt-5.1:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: image, text, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.625
-
-
-- **Standard Output**: $5.0
-
-
-
-
-
-- **Cached Output**: $0.0625
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.2:batch
-
-**Model ID**: `openai/gpt-5.2:batch`  
-**Family**: openai/gpt-5.2:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: pdf, image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.875
-
-
-- **Standard Output**: $7.0
-
-
-
-
-
-- **Cached Output**: $0.0875
-
-
-
-
-
-
----
-
-
 ### openai/gpt-5.3-chat
 
 **Model ID**: `openai/gpt-5.3-chat`  
@@ -36990,365 +37416,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.175
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.4-mini:batch
-
-**Model ID**: `openai/gpt-5.4-mini:batch`  
-**Family**: openai/gpt-5.4-mini:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: pdf, image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.375
-
-
-- **Standard Output**: $2.25
-
-
-
-
-
-- **Cached Output**: $0.0375
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.4-nano:batch
-
-**Model ID**: `openai/gpt-5.4-nano:batch`  
-**Family**: openai/gpt-5.4-nano:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: pdf, image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.09999999999999999
-
-
-- **Standard Output**: $0.625
-
-
-
-
-
-- **Cached Output**: $0.01
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.4:batch
-
-**Model ID**: `openai/gpt-5.4:batch`  
-**Family**: openai/gpt-5.4:batch
-#### Specifications
-
-- **Context Window**: 1,050,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.25
-
-
-- **Standard Output**: $7.5
-
-
-
-
-
-- **Cached Output**: $0.125
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.5-pro:batch
-
-**Model ID**: `openai/gpt-5.5-pro:batch`  
-**Family**: openai/gpt-5.5-pro:batch
-#### Specifications
-
-- **Context Window**: 1,050,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: pdf, image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $15.0
-
-
-- **Standard Output**: $90.0
-
-
-
-
-
-
-
----
-
-
-### openai/gpt-5.6-terra:batch
-
-**Model ID**: `openai/gpt-5.6-terra:batch`  
-**Family**: openai/gpt-5.6-terra:batch
-#### Specifications
-
-- **Context Window**: 1,050,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: pdf, image, text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $6.0
-
-
-
-
-
-- **Cached Output**: $0.09999999999999999
-
-
-
-
-
-
----
-
-
-### openai/gpt-5:batch
-
-**Model ID**: `openai/gpt-5:batch`  
-**Family**: openai/gpt-5:batch
-#### Specifications
-
-- **Context Window**: 400,000 tokens
-
-
-- **Max Output Tokens**: 128,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.625
-
-
-- **Standard Output**: $5.0
-
-
-
-
-
-- **Cached Output**: $0.0625
 
 
 

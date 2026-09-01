@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 17
-- **Last Updated**: 2026-08-31
+- **Total Models**: 18
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -240,6 +240,65 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.22999999999999998
+
+
+
+
+
+
+---
+
+
+### GLM-5.3
+
+**Model ID**: `GLM-5.3`  
+**Family**: GLM-5.3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
 
 
 

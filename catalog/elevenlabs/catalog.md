@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 ## Overview
 
 - **Provider**: elevenlabs
-- **Total Models**: 11
-- **Last Updated**: 2026-08-31
+- **Total Models**: 12
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -359,6 +359,44 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 
 **Model ID**: `eleven_v3`  
 **Family**: eleven_v3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### eleven_v3_conversational
+
+**Model ID**: `eleven_v3_conversational`  
+**Family**: eleven_v3_conversational
 #### Specifications
 
 - **Context Window**:  tokens

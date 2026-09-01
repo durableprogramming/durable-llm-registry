@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 103
-- **Last Updated**: 2026-08-31
+- **Total Models**: 104
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -702,6 +702,50 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
+### glm-5-2
+
+**Model ID**: `glm-5-2`  
+**Family**: glm-5-2
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 

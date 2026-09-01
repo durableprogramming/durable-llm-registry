@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 426
-- **Last Updated**: 2026-08-31
+- **Total Models**: 428
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -6797,6 +6797,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/alphafold3-request
+
+**Model ID**: `google/alphafold3-request`  
+**Family**: google/alphafold3-request
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### google/alphagenome
 
 **Model ID**: `google/alphagenome`  
@@ -9352,6 +9390,48 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### google/gemini-omni-1.1-flash-preview
+
+**Model ID**: `google/gemini-omni-1.1-flash-preview`  
+**Family**: google/gemini-omni-1.1-flash-preview
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: video
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $9.0
 
 
 

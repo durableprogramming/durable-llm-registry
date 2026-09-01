@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all sambanova models available
 ## Overview
 
 - **Provider**: sambanova
-- **Total Models**: 30
-- **Last Updated**: 2026-08-31
+- **Total Models**: 31
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -1057,6 +1057,50 @@ This catalog provides a comprehensive overview of all sambanova models available
 
 
 - **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
+### MiniMax-M3
+
+**Model ID**: `MiniMax-M3`  
+**Family**: MiniMax-M3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 1,048,576 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.4
+
 
 
 

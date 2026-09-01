@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all groq models available thro
 ## Overview
 
 - **Provider**: groq
-- **Total Models**: 23
-- **Last Updated**: 2026-08-31
+- **Total Models**: 24
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -1053,6 +1053,64 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 
 - **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
+### qwen/qwen3.8-27b
+
+**Model ID**: `qwen/qwen3.8-27b`  
+**Family**: qwen/qwen3.8-27b
+#### Specifications
+
+- **Context Window**: 131,042 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Json output
+
+- Structured output
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.7999999999999999
+
+
+- **Standard Output**: $4.0
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 230
-- **Last Updated**: 2026-08-31
+- **Total Models**: 236
+- **Last Updated**: 2026-09-01
 
 ## Models
 
@@ -7165,6 +7165,60 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-audio
+
+**Model ID**: `gpt-audio`  
+**Family**: gpt-audio
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
 ### gpt-audio-1.5
 
 **Model ID**: `gpt-audio-1.5`  
@@ -7489,6 +7543,54 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-chat-latest
+
+**Model ID**: `gpt-chat-latest`  
+**Family**: gpt-chat-latest
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### gpt-chat-latest-2026-05-05
 
 **Model ID**: `gpt-chat-latest-2026-05-05`  
@@ -7650,6 +7752,69 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 - Tool choice
 
 - Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.125
+
+
+
+
+
+
+---
+
+
+### gpt-chat-latest-2026-08-06
+
+**Model ID**: `gpt-chat-latest-2026-08-06`  
+**Family**: gpt-chat-latest-2026-08-06
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
 
 
 
@@ -8211,6 +8376,124 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 
+
+
+
+
+
+
+---
+
+
+### gpt-realtime
+
+**Model ID**: `gpt-realtime`  
+**Family**: gpt-realtime
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $16.0
+
+
+
+
+
+- **Cached Output**: $4.0
+
+
+
+
+
+
+---
+
+
+### gpt-realtime-1.5
+
+**Model ID**: `gpt-realtime-1.5`  
+**Family**: gpt-realtime-1.5
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $16.0
+
+
+
+
+
+- **Cached Output**: $4.0
 
 
 
@@ -9082,6 +9365,44 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 **Model ID**: `mai-5b-2026-07-01`  
 **Family**: mai-5b-2026-07-01
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### mai-m365
+
+**Model ID**: `mai-m365`  
+**Family**: mai-m365
 #### Specifications
 
 - **Context Window**:  tokens
