@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 931
-- **Last Updated**: 2026-09-01
+- **Total Models**: 936
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -588,6 +588,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Anthropic: Claude Fable 5 (batch)
 
 **Model ID**: `anthropic/claude-fable-5:batch`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Fable 5.1
+
+**Model ID**: `anthropic/claude-fable-5.1`  
+**Family**: anthropic
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+
+
+
+---
+
+
+### Anthropic: Claude Fable 5.1 (batch)
+
+**Model ID**: `anthropic/claude-fable-5.1:batch`  
 **Family**: anthropic
 #### Specifications
 
@@ -2436,7 +2524,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -2457,10 +2545,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04998
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.09996
+- **Standard Output**: $0.16
 
 
 
@@ -2568,7 +2656,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 144,900 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -2589,10 +2677,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.55
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $1.65
+- **Standard Output**: $0.95
 
 
 
@@ -2765,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07476
+- **Standard Input**: $0.084
 
 
-- **Standard Output**: $0.14952
+- **Standard Output**: $0.168
 
 
 
@@ -2920,7 +3008,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 384,000 tokens
 
 
 #### Modalities
@@ -2941,10 +3029,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.6
+- **Standard Input**: $1.030776
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $2.061552
 
 
 
@@ -4391,10 +4479,98 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1875
+- **Standard Input**: $0.375
 
 
-- **Standard Output**: $0.9375
+- **Standard Output**: $1.875
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemini 3.8 Flash
+
+**Model ID**: `google/gemini-3.8-flash`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, file, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $3.75
+
+
+
+
+
+
+
+---
+
+
+### Google: Gemini 3.8 Flash (batch)
+
+**Model ID**: `google/gemini-3.8-flash:batch`  
+**Family**: google
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, file, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.375
+
+
+- **Standard Output**: $1.875
 
 
 
@@ -8418,7 +8594,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -8439,10 +8615,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.625
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $3.125
 
 
 
@@ -15586,7 +15762,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -15651,10 +15827,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $2.0
 
 
-- **Standard Output**: $6.25
+- **Standard Output**: $6.0
 
 
 
@@ -18050,7 +18226,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -18071,10 +18247,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.19
+- **Standard Input**: $0.966
 
 
-- **Standard Output**: $3.74
+- **Standard Output**: $3.036
 
 
 
@@ -18305,6 +18481,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Z.ai: GLM Flash Latest
+
+**Model ID**: `~z-ai/glm-flash-latest`  
+**Family**: ~z-ai
+#### Specifications
+
+- **Context Window**: 1,310,720 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.25
+
+
+
+
+
+
+
+---
+
+
 ### Z.ai: GLM Latest
 
 **Model ID**: `~z-ai/glm-latest`  
@@ -18314,7 +18534,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -18335,10 +18555,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.17
+- **Standard Input**: $1.15
 
 
-- **Standard Output**: $3.96
+- **Standard Output**: $3.5
 
 
 

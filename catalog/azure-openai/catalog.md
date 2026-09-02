@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 236
-- **Last Updated**: 2026-09-01
+- **Total Models**: 237
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -6841,6 +6841,73 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### gpt-5.6-luna
+
+**Model ID**: `gpt-5.6-luna`  
+**Family**: gpt-5.6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.2
+
+
+
+
+- **Cached Input**: $0.25
+
+
+- **Cached Output**: $0.02
 
 
 

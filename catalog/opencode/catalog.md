@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 6
-- **Last Updated**: 2026-09-01
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -70,16 +70,16 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Hy3 Free
+### Ling 3.0 Flash Fin Free
 
-**Model ID**: `hy3-free`  
-**Family**: hy3-free
+**Model ID**: `ling-3.0-flash-fin-free`  
+**Family**: ling
 #### Specifications
 
-- **Context Window**: 190,000 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 64,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities

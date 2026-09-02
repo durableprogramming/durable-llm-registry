@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 
 - **Provider**: elevenlabs
 - **Total Models**: 12
-- **Last Updated**: 2026-09-01
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -26,10 +26,10 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: audio
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -67,7 +67,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -105,7 +105,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -143,7 +143,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -178,10 +178,10 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: audio
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -219,7 +219,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -257,7 +257,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -371,7 +371,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -409,7 +409,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: audio
 
 
 #### Capabilities
@@ -444,7 +444,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: audio, video
 
 
 - **Output**: text

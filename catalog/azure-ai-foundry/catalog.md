@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ## Overview
 
 - **Provider**: azure-ai-foundry
-- **Total Models**: 219
-- **Last Updated**: 2026-09-01
+- **Total Models**: 220
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -6371,6 +6371,75 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 
 - **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### claude-fable-5-1
+
+**Model ID**: `claude-fable-5-1`  
+**Family**: claude-fable-5-1
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Structured output
+
+- Json output
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $0.25
 
 
 

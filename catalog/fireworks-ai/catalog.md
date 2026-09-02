@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 15
-- **Last Updated**: 2026-09-01
+- **Total Models**: 16
+- **Last Updated**: 2026-09-02
 
 ## Models
 
@@ -35,6 +35,54 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $0.66
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4 Flash Vision Exp
+
+**Model ID**: `accounts/fireworks/models/deepseek-v4-flash-vision-exp`  
+**Family**: deepseek-v3
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Vision
+
 
 
 #### Pricing (per million tokens)
