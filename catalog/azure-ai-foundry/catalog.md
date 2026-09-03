@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Provider**: azure-ai-foundry
 - **Total Models**: 220
-- **Last Updated**: 2026-09-02
+- **Last Updated**: 2026-09-03
 
 ## Models
 

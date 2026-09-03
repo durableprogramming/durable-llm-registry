@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 81
-- **Last Updated**: 2026-09-02
+- **Total Models**: 82
+- **Last Updated**: 2026-09-03
 
 ## Models
 
@@ -2539,6 +2539,71 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - Tool choice
 
 - Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $3.75
+
+
+
+
+
+- **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### gemini-3.8-flash
+
+**Model ID**: `gemini-3.8-flash`  
+**Family**: gemini-3.8-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+- System messages
+
+- Tool choice
+
+- Json output
 
 
 

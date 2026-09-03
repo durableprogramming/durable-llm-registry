@@ -5334,7 +5334,7 @@ components:
         input_tokens:
           type: integer
           format: int32
-          description: Number of input tokens used
+          description: Number of input tokens not served from cache (Anthropic semantics).
         output_tokens:
           type: integer
           format: int32

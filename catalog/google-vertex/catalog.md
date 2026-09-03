@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 429
-- **Last Updated**: 2026-09-02
+- **Total Models**: 431
+- **Last Updated**: 2026-09-03
 
 ## Models
 
@@ -9077,6 +9077,46 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/gemini-3.5-live-translate-preview
+
+**Model ID**: `google/gemini-3.5-live-translate-preview`  
+**Family**: google/gemini-3.5-live-translate-preview
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: audio, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### google/gemini-3.5-transcribe-live-preview
 
 **Model ID**: `google/gemini-3.5-transcribe-live-preview`  
@@ -9232,6 +9272,73 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 **Model ID**: `google/gemini-3.7-flash`  
 **Family**: google/gemini-3.7-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.8250000000000001
+
+
+- **Standard Output**: $4.125
+
+
+
+
+
+- **Cached Output**: $0.0825
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.8-flash
+
+**Model ID**: `google/gemini-3.8-flash`  
+**Family**: google/gemini-3.8-flash
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -18724,7 +18831,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Input**: text, image
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities
@@ -18800,7 +18907,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Input**: text, image
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities

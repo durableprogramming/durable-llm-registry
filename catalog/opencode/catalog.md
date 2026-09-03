@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 6
-- **Last Updated**: 2026-09-02
+- **Total Models**: 7
+- **Last Updated**: 2026-09-03
 
 ## Models
 
@@ -187,6 +187,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 ### Muse Spark 1.2 Free
 
 **Model ID**: `muse-spark-1.2-contributor-free`  
+**Family**: muse-free
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Muse Spark 1.3 Free
+
+**Model ID**: `muse-spark-1.3-contributor-free`  
 **Family**: muse-free
 #### Specifications
 
