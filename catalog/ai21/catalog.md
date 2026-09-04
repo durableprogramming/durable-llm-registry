@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all ai21 models available thro
 
 - **Provider**: ai21
 - **Total Models**: 12
-- **Last Updated**: 2026-09-03
+- **Last Updated**: 2026-09-04
 
 ## Models
 

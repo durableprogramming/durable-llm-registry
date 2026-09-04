@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Provider**: azure-ai-foundry
 - **Total Models**: 220
-- **Last Updated**: 2026-09-03
+- **Last Updated**: 2026-09-04
 
 ## Models
 
@@ -9931,8 +9931,6 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Context Window**: 131,000 tokens
 
-
-- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 92
-- **Last Updated**: 2026-09-03
+- **Last Updated**: 2026-09-04
 
 ## Models
 
@@ -4260,6 +4260,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 256,000 tokens
 
+
+- **Max Output Tokens**: 500,000 tokens
 
 
 #### Modalities

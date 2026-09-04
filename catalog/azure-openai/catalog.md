@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 237
-- **Last Updated**: 2026-09-03
+- **Total Models**: 238
+- **Last Updated**: 2026-09-04
 
 ## Models
 
@@ -7223,6 +7223,71 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### gpt-6-astra-2026-09-03-private
+
+**Model ID**: `gpt-6-astra-2026-09-03-private`  
+**Family**: gpt-6-astra-2026-09-03-private
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
 
 
 

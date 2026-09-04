@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openai models available th
 ## Overview
 
 - **Provider**: openai
-- **Total Models**: 155
-- **Last Updated**: 2026-09-03
+- **Total Models**: 156
+- **Last Updated**: 2026-09-04
 
 ## Models
 
@@ -5333,6 +5333,73 @@ This catalog provides a comprehensive overview of all openai models available th
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### gpt-6-astra
+
+**Model ID**: `gpt-6-astra`  
+**Family**: gpt-6-astra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Parallel function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
 
 
 
