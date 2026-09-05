@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 16
-- **Last Updated**: 2026-09-04
+- **Last Updated**: 2026-09-05
 
 ## Models
 

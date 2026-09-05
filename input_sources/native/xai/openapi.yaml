@@ -3673,7 +3673,10 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/VideoAspectRatio"
-            description: Aspect ratio of the generated video.
+            description: |-
+              Aspect ratio of the generated video. Ignored for image-to-video
+              (first-frame `image` input): the aspect ratio is always derived from
+              the input image.
         duration:
           type:
           - integer

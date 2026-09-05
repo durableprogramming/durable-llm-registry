@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 65
-- **Last Updated**: 2026-09-04
+- **Total Models**: 69
+- **Last Updated**: 2026-09-05
 
 ## Models
 
@@ -700,18 +700,73 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $0.28
 
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $0.17500000000000002
 
 
-- **Cached Output**: $0.5
+- **Cached Output**: $0.028
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4 Flash Vision Exp
+
+**Model ID**: `deepseek-v4-flash-vision-exp`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.28
+
+
+
+
+- **Cached Input**: $0.17500000000000002
+
+
+- **Cached Output**: $0.028
 
 
 
@@ -755,18 +810,18 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $1.74
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $3.48
 
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $2.175
 
 
-- **Cached Output**: $0.5
+- **Cached Output**: $0.145
 
 
 
@@ -889,6 +944,116 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### GLM 5.2
 
 **Model ID**: `glm-5.2`  
+**Family**: glm
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GLM 5.3
+
+**Model ID**: `glm-5.3`  
+**Family**: glm
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GLM 5.3 Flash
+
+**Model ID**: `glm-5.3-flash`  
 **Family**: glm
 #### Specifications
 
@@ -2041,6 +2206,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### GPT 6 Astra
+
+**Model ID**: `gpt-6-astra`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Gemini 3 Flash
 
 **Model ID**: `gemini-3-flash`  
@@ -3141,9 +3361,9 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Muse Spark 1.2 Contributor Free
+### Muse Spark 1.3
 
-**Model ID**: `muse-spark-1.2-contributor-free`  
+**Model ID**: `muse-spark-1.3`  
 **Family**: muse
 #### Specifications
 

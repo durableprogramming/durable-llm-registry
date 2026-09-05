@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 941
-- **Last Updated**: 2026-09-04
+- **Total Models**: 947
+- **Last Updated**: 2026-09-05
 
 ## Models
 
@@ -2853,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08806
+- **Standard Input**: $0.08442
 
 
-- **Standard Output**: $0.17612
+- **Standard Output**: $0.16884
 
 
 
@@ -3029,10 +3029,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.011984
+- **Standard Input**: $0.849816
 
 
-- **Standard Output**: $2.023968
+- **Standard Output**: $1.699632
 
 
 
@@ -5593,138 +5593,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Ling 3.0 Flash Fin
-
-**Model ID**: `inclusionai/ling-3.0-flash-fin`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 235,929 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.06
-
-
-- **Standard Output**: $0.18
-
-
-
-
-
-
-
----
-
-
-### Ling 3.0 Flash Fin (free)
-
-**Model ID**: `inclusionai/ling-3.0-flash-fin:free`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Ling-3.0-flash
-
-**Model ID**: `inclusionai/ling-3.0-flash`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.021
-
-
-- **Standard Output**: $0.063
-
-
-
-
-
-
-
----
-
-
 ### LiquidAI: LFM2.5-2.6B (free)
 
 **Model ID**: `liquid/lfm-2.5-2.6b:free`  
@@ -7999,10 +7867,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $2.55
 
 
-- **Standard Output**: $14.0
+- **Standard Output**: $12.75
 
 
 
@@ -12501,6 +12369,182 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-6 Astra
+
+**Model ID**: `openai/gpt-6-astra`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-6 Astra (batch)
+
+**Model ID**: `openai/gpt-6-astra:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-6 Astra Pro
+
+**Model ID**: `openai/gpt-6-astra-pro`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-6 Astra Pro (batch)
+
+**Model ID**: `openai/gpt-6-astra-pro:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -14090,7 +14134,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -14111,10 +14155,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0875
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.35
+- **Standard Output**: $0.55
 
 
 
@@ -16017,9 +16061,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen3.8 Max
+### Qwen: Qwen3.8 Max (0902)
 
-**Model ID**: `qwen/qwen3.8-max`  
+**Model ID**: `qwen/qwen3.8-max-0902`  
 **Family**: qwen
 #### Specifications
 
@@ -17103,10 +17147,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0825
+- **Standard Input**: $0.132
 
 
-- **Standard Output**: $0.33
+- **Standard Output**: $0.528
 
 
 
@@ -28764,6 +28808,182 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.024999999999999998
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling 3.0 Flash
+
+**Model ID**: `inclusionai/ling-3.0-flash`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.021
+
+
+- **Standard Output**: $0.063
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling 3.0 Flash Fin
+
+**Model ID**: `inclusionai/ling-3.0-flash-fin`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling 3.0 Flash Fin (free)
+
+**Model ID**: `inclusionai/ling-3.0-flash-fin:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling 3.0 Flash Sante (free)
+
+**Model ID**: `inclusionai/ling-3.0-flash-sante:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
 
 
 
@@ -40569,6 +40789,69 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### qwen/qwen3.8-max
+
+**Model ID**: `qwen/qwen3.8-max`  
+**Family**: qwen/qwen3.8-max
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.25
 
 
 
