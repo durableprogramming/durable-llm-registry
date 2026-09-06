@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 947
-- **Last Updated**: 2026-09-05
+- **Last Updated**: 2026-09-06
 
 ## Models
 
@@ -2524,7 +2524,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -2545,10 +2545,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04998
+- **Standard Input**: $0.045
 
 
-- **Standard Output**: $0.09996
+- **Standard Output**: $0.09
 
 
 
@@ -2853,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08442
+- **Standard Input**: $0.08022
 
 
-- **Standard Output**: $0.16884
+- **Standard Output**: $0.16044
 
 
 
@@ -2876,7 +2876,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -2897,10 +2897,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.065
+- **Standard Input**: $0.04998
 
 
-- **Standard Output**: $0.18
+- **Standard Output**: $0.09996
 
 
 
@@ -3029,10 +3029,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.849816
+- **Standard Input**: $0.66729
 
 
-- **Standard Output**: $1.699632
+- **Standard Output**: $1.33458
 
 
 
@@ -15387,10 +15387,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.3125
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $1.25
 
 
 
@@ -17346,7 +17346,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,024,000 tokens
 
 
-- **Max Output Tokens**: 26,214 tokens
+- **Max Output Tokens**: 819,200 tokens
 
 
 #### Modalities
@@ -18437,50 +18437,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Z.ai: GLM 5.2 (free)
-
-**Model ID**: `z-ai/glm-5.2:free`  
-**Family**: z-ai
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 230,400 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Z.ai: GLM 5.3
 
 **Model ID**: `z-ai/glm-5.3`  
@@ -18731,10 +18687,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.15
+- **Standard Input**: $1.17
 
 
-- **Standard Output**: $3.5
+- **Standard Output**: $3.96
 
 
 
@@ -22258,7 +22214,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: codestral-2501
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -44695,6 +44651,60 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.13
+
+
+
+
+
+
+---
+
+
+### z-ai/glm-5.2:free
+
+**Model ID**: `z-ai/glm-5.2:free`  
+**Family**: z-ai/glm-5.2:free
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 256,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
 
 
 
