@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 28
-- **Last Updated**: 2026-09-07
+- **Last Updated**: 2026-09-08
 
 ## Models
 
@@ -907,6 +907,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - Code execution
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -1513,6 +1515,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Assistant prefill
 
 - Code execution
+
+- Mid conversation system messages
 
 
 

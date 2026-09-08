@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Provider**: azure-ai-foundry
 - **Total Models**: 220
-- **Last Updated**: 2026-09-07
+- **Last Updated**: 2026-09-08
 
 ## Models
 
@@ -6351,6 +6351,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - Json output
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -6419,6 +6421,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 - Json output
 
 - Code execution
+
+- Mid conversation system messages
 
 
 
@@ -7057,6 +7061,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - Json output
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -7183,6 +7189,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 - Json output
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -7505,6 +7513,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 - Structured output
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 

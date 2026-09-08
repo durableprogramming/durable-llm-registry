@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 231
-- **Last Updated**: 2026-09-07
+- **Last Updated**: 2026-09-08
 
 ## Models
 
@@ -2190,6 +2190,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -2443,6 +2445,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
+- Mid conversation system messages
+
 - Assistant prefill
 
 
@@ -2511,6 +2515,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Cache control
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -2712,6 +2718,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Assistant prefill
 
 - Json output
+
+- Mid conversation system messages
 
 
 
@@ -3975,6 +3983,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
+- Mid conversation system messages
+
 - Assistant prefill
 
 
@@ -4043,6 +4053,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -4309,6 +4321,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Assistant prefill
 
 - Json output
+
+- Mid conversation system messages
 
 
 
@@ -4621,6 +4635,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -4683,6 +4699,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - System messages
 
 - Structured output
+
+- Mid conversation system messages
 
 
 
@@ -5013,6 +5031,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -5079,6 +5099,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Cache control
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -5345,6 +5367,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -6177,6 +6201,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - Prompt caching
+
+- Mid conversation system messages
 
 - Assistant prefill
 
@@ -9615,6 +9641,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -9677,6 +9705,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
+
+- Mid conversation system messages
 
 
 
@@ -10141,6 +10171,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
+- Mid conversation system messages
+
 - Assistant prefill
 
 
@@ -10211,6 +10243,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Assistant prefill
 
 - Json output
+
+- Mid conversation system messages
 
 
 
@@ -10475,6 +10509,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
+
+- Mid conversation system messages
 
 
 

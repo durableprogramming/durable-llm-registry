@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 431
-- **Last Updated**: 2026-09-07
+- **Last Updated**: 2026-09-08
 
 ## Models
 
@@ -946,6 +946,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -1010,6 +1012,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - System messages
 
 - Structured output
+
+- Mid conversation system messages
 
 
 
@@ -1752,6 +1756,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Assistant prefill
 
+- Mid conversation system messages
+
 
 
 #### Pricing (per million tokens)
@@ -1883,6 +1889,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Structured output
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
@@ -2346,6 +2354,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Structured output
 
 - Assistant prefill
+
+- Mid conversation system messages
 
 
 
