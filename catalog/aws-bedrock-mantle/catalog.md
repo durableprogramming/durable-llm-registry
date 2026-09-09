@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ## Overview
 
 - **Provider**: aws-bedrock-mantle
-- **Total Models**: 55
-- **Last Updated**: 2026-09-08
+- **Total Models**: 56
+- **Last Updated**: 2026-09-09
 
 ## Models
 
@@ -2041,6 +2041,75 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
+### openai.gpt-6-astra
+
+**Model ID**: `openai.gpt-6-astra`  
+**Family**: openai.gpt-6-astra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $11.0
+
+
+- **Standard Output**: $55.0
+
+
+
+
+- **Cached Input**: $13.75
+
+
+- **Cached Output**: $1.1
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 231
-- **Last Updated**: 2026-09-08
+- **Total Models**: 233
+- **Last Updated**: 2026-09-09
 
 ## Models
 
@@ -271,7 +271,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ##### Text Tokens
 
 
-- **Standard Input**: $0.135
+- **Standard Input**: $0.162
 
 
 
@@ -2246,6 +2246,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -4186,6 +4188,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Assistant prefill
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -4337,6 +4341,13 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Standard Output**: $11.0
 
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.22
 
 
 
@@ -4833,6 +4844,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - Assistant prefill
+
+- Structured output
 
 
 
@@ -5445,7 +5458,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: global.openai.gpt-5.6-luna
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -5474,6 +5487,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Json output
 
 - Prompt caching
+
+- Structured output
 
 
 
@@ -5634,6 +5649,71 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### global.openai.gpt-6-astra
+
+**Model ID**: `global.openai.gpt-6-astra`  
+**Family**: global.openai.gpt-6-astra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
 ### global.xai.grok-4.6
 
 **Model ID**: `global.xai.grok-4.6`  
@@ -5771,6 +5851,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Function calling
+
 - Structured output
 
 
@@ -5849,7 +5931,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: in.openai.gpt-5.6-luna
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -5872,6 +5954,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Parallel function calling
 
 - Prompt caching
+
+- Structured output
 
 - System messages
 
@@ -6973,6 +7057,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Structured output
 
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -7184,6 +7270,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Tool choice
 
 - System messages
+
+- Assistant prefill
 
 
 
@@ -7737,6 +7825,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Structured output
 
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -8160,6 +8250,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Function calling
 
 - Structured output
+
+- System messages
 
 
 
@@ -8899,6 +8991,12 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - System messages
 
 - Assistant prefill
+
+- Structured output
+
+- Parallel function calling
+
+- Cache control
 
 
 
@@ -11187,7 +11285,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.openai.gpt-5.6-luna
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -11216,6 +11314,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Json output
 
 - Prompt caching
+
+- Structured output
 
 
 
@@ -11367,6 +11467,71 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-6-astra
+
+**Model ID**: `us.openai.gpt-6-astra`  
+**Family**: us.openai.gpt-6-astra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $11.0
+
+
+- **Standard Output**: $55.0
+
+
+
+
+- **Cached Input**: $13.75
+
+
+- **Cached Output**: $1.1
 
 
 
@@ -12052,6 +12217,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - System messages
+
+- Function calling
 
 - Structured output
 

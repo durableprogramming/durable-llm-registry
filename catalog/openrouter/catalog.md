@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 949
-- **Last Updated**: 2026-09-08
+- **Total Models**: 952
+- **Last Updated**: 2026-09-09
 
 ## Models
 
@@ -2853,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08708
+- **Standard Input**: $0.084
 
 
-- **Standard Output**: $0.17416
+- **Standard Output**: $0.168
 
 
 
@@ -2964,7 +2964,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 384,000 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -3073,10 +3073,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.95526
+- **Standard Input**: $0.87
 
 
-- **Standard Output**: $1.91052
+- **Standard Output**: $1.74
 
 
 
@@ -5447,10 +5447,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.15
+- **Standard Output**: $0.25
 
 
 
@@ -5505,9 +5505,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Inception: Mercury 2.5 Preview
+### Inception: Mercury 2.5
 
-**Model ID**: `inception/mercury-2.5-preview`  
+**Model ID**: `inception/mercury-2.5`  
 **Family**: inception
 #### Specifications
 
@@ -6239,10 +6239,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.35
+- **Standard Input**: $0.175
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $0.75
 
 
 
@@ -7823,10 +7823,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $2.4
 
 
-- **Standard Output**: $14.0
+- **Standard Output**: $12.0
 
 
 
@@ -8415,7 +8415,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: nvidia
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 262,144 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -8761,6 +8761,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Nex AGI: Nex-N2.5-Mini (free)
+
+**Model ID**: `nex-agi/nex-n2.5-mini:free`  
+**Family**: nex-agi
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Nex AGI: Nex-N2.5-Pro (free)
+
+**Model ID**: `nex-agi/nex-n2.5-pro:free`  
+**Family**: nex-agi
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Nous: Hermes 3 405B Instruct
 
 **Model ID**: `nousresearch/hermes-3-llama-3.1-405b`  
@@ -8883,50 +8971,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.0
-
-
-
-
-
-
-
----
-
-
-### Nous: Hermes 4 70B
-
-**Model ID**: `nousresearch/hermes-4-70b`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 117,964 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.13
-
-
-- **Standard Output**: $0.4
 
 
 
@@ -14023,10 +14067,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.22
 
 
-- **Standard Output**: $0.55
+- **Standard Output**: $0.88
 
 
 
@@ -14618,7 +14662,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -14639,7 +14683,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.09
 
 
 - **Standard Output**: $1.1
@@ -15762,7 +15806,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -17962,7 +18006,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -17983,10 +18027,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.55
+- **Standard Input**: $0.43
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $1.75
 
 
 
@@ -18270,7 +18314,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -18291,10 +18335,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.966
+- **Standard Input**: $0.28
 
 
-- **Standard Output**: $3.036
+- **Standard Output**: $0.88
 
 
 
@@ -18355,7 +18399,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 1,310,720 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 943,718 tokens
@@ -18487,10 +18531,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 1,048,575 tokens
+- **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,717 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -18511,10 +18555,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.25
 
 
 
@@ -18578,7 +18622,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -18619,7 +18663,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~z-ai
 #### Specifications
 
-- **Context Window**: 1,310,720 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -28672,6 +28716,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### inception/mercury-2.5-preview
+
+**Model ID**: `inception/mercury-2.5-preview`  
+**Family**: inception/mercury-2.5-preview
+#### Specifications
+
+- **Context Window**: 260,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.04
+
+
+- **Standard Output**: $0.15
+
+
+
+
+
+- **Cached Output**: $0.004
+
+
+
+
+
+
+---
+
+
 ### inception/mercury-coder
 
 **Model ID**: `inception/mercury-coder`  
@@ -36330,6 +36435,52 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### nousresearch/hermes-4-70b
+
+**Model ID**: `nousresearch/hermes-4-70b`  
+**Family**: nousresearch/hermes-4-70b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.13
+
+
+- **Standard Output**: $0.39999999999999997
 
 
 
