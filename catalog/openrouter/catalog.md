@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 952
-- **Last Updated**: 2026-09-09
+- **Total Models**: 954
+- **Last Updated**: 2026-09-10
 
 ## Models
 
@@ -2568,7 +2568,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 16,000 tokens
 
 
 #### Modalities
@@ -2589,10 +2589,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.32
+- **Standard Input**: $0.2574
 
 
-- **Standard Output**: $0.89
+- **Standard Output**: $1.0287
 
 
 
@@ -2853,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.084
+- **Standard Input**: $0.08708
 
 
-- **Standard Output**: $0.168
+- **Standard Output**: $0.17416
 
 
 
@@ -3165,6 +3165,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.98
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V4.1 Flash
+
+**Model ID**: `deepseek/deepseek-v4.1-flash`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -4810,7 +4854,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -4831,10 +4875,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.042
 
 
-- **Standard Output**: $0.34
+- **Standard Output**: $0.22
 
 
 
@@ -6702,7 +6746,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -6723,10 +6767,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.08
+- **Standard Output**: $1.2
 
 
 
@@ -7045,6 +7089,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Codestral 2508 (batch)
+
+**Model ID**: `mistralai/codestral-2508:batch`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 204,800 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.45
+
+
+
+
+
+
+
+---
+
+
 ### Mistral: Devstral 2 2512
 
 **Model ID**: `mistralai/devstral-2512`  
@@ -7221,6 +7309,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Ministral 3 8B 2512 (batch)
+
+**Model ID**: `mistralai/ministral-8b-2512:batch`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.075
+
+
+
+
+
+
+
+---
+
+
 ### Mistral: Mistral Large 3 2512
 
 **Model ID**: `mistralai/mistral-large-2512`  
@@ -7255,6 +7387,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### Mistral: Mistral Large 3 2512 (batch)
+
+**Model ID**: `mistralai/mistral-large-2512:batch`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $0.75
 
 
 
@@ -7343,6 +7519,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### Mistral: Mistral Medium 3.1 (batch)
+
+**Model ID**: `mistralai/mistral-medium-3.1:batch`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 104,857 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, file
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $1.0
 
 
 
@@ -7661,6 +7881,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Mistral: Mistral Small 4 (batch)
+
+**Model ID**: `mistralai/mistral-small-2603:batch`  
+**Family**: mistralai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 209,715 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
 ### Mistral: Mixtral 8x22B Instruct
 
 **Model ID**: `mistralai/mixtral-8x22b-instruct`  
@@ -7934,7 +8198,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 100,352 tokens
 
 
 #### Modalities
@@ -15190,7 +15454,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 81,920 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -15211,10 +15475,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.29
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $2.08
 
 
 
@@ -15498,7 +15762,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -15519,10 +15783,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $0.7
 
 
 
@@ -17302,7 +17566,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 471,859 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -18135,7 +18399,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 200,000 tokens
 
 
 - **Max Output Tokens**: 117,964 tokens
@@ -18399,7 +18663,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,310,720 tokens
 
 
 - **Max Output Tokens**: 943,718 tokens
@@ -18511,10 +18775,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.075
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.25
+- **Standard Output**: $0.5
 
 
 
@@ -18663,7 +18927,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: ~z-ai
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,310,720 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -18687,10 +18951,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.113
+- **Standard Input**: $0.7
 
 
-- **Standard Output**: $3.498
+- **Standard Output**: $2.2
 
 
 
@@ -29010,6 +29274,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### inclusionAI: Ling 3.0 Flash VL (free)
+
+**Model ID**: `inclusionai/ling-3.0-flash-vl:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### inclusionai/ling-2.6-1t
 
 **Model ID**: `inclusionai/ling-2.6-1t`  
@@ -34424,67 +34732,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### mistralai/codestral-2508:batch
-
-**Model ID**: `mistralai/codestral-2508:batch`  
-**Family**: mistralai/codestral-2508:batch
-#### Specifications
-
-- **Context Window**: 256,000 tokens
-
-
-- **Max Output Tokens**: 204,800 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.3
-
-
-- **Standard Output**: $0.8999999999999999
-
-
-
-
-
-- **Cached Output**: $0.03
-
-
-
-
-
-
----
-
-
 ### mistralai/devstral-2512:free
 
 **Model ID**: `mistralai/devstral-2512:free`  
@@ -34699,67 +34946,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### mistralai/ministral-8b-2512:batch
-
-**Model ID**: `mistralai/ministral-8b-2512:batch`  
-**Family**: mistralai/ministral-8b-2512:batch
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.15
-
-
-
-
-
-- **Cached Output**: $0.015
-
-
-
-
-
-
----
-
-
 ### mistralai/mistral-7b-instruct
 
 **Model ID**: `mistralai/mistral-7b-instruct`  
@@ -34944,189 +35130,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.19999999999999998
-
-
-
-
-
-
----
-
-
-### mistralai/mistral-large-2512:batch
-
-**Model ID**: `mistralai/mistral-large-2512:batch`  
-**Family**: mistralai/mistral-large-2512:batch
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-- **Cached Output**: $0.049999999999999996
-
-
-
-
-
-
----
-
-
-### mistralai/mistral-medium-3.1:batch
-
-**Model ID**: `mistralai/mistral-medium-3.1:batch`  
-**Family**: mistralai/mistral-medium-3.1:batch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 104,857 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.39999999999999997
-
-
-- **Standard Output**: $2.0
-
-
-
-
-
-- **Cached Output**: $0.04
-
-
-
-
-
-
----
-
-
-### mistralai/mistral-small-2603:batch
-
-**Model ID**: `mistralai/mistral-small-2603:batch`  
-**Family**: mistralai/mistral-small-2603:batch
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 209,715 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-- **Cached Output**: $0.015
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openai models available th
 ## Overview
 
 - **Provider**: openai
-- **Total Models**: 156
-- **Last Updated**: 2026-09-09
+- **Total Models**: 160
+- **Last Updated**: 2026-09-10
 
 ## Models
 
@@ -6031,6 +6031,210 @@ This catalog provides a comprehensive overview of all openai models available th
 
 - **Standard Input**: $5.0
 
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-flare
+
+**Model ID**: `gpt-image-2.5-flare`  
+**Family**: gpt-image-2.5-flare
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-flare-2026-09-08
+
+**Model ID**: `gpt-image-2.5-flare-2026-09-08`  
+**Family**: gpt-image-2.5-flare-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-sunburst
+
+**Model ID**: `gpt-image-2.5-sunburst`  
+**Family**: gpt-image-2.5-sunburst
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-sunburst-2026-09-08
+
+**Model ID**: `gpt-image-2.5-sunburst-2026-09-08`  
+**Family**: gpt-image-2.5-sunburst-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $30.0
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 233
-- **Last Updated**: 2026-09-09
+- **Last Updated**: 2026-09-10
 
 ## Models
 
@@ -2200,7 +2200,18 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ##### Text Tokens
 
 
+- **Standard Input**: $11.0
 
+
+- **Standard Output**: $55.0
+
+
+
+
+- **Cached Input**: $13.75
+
+
+- **Cached Output**: $1.1
 
 
 
