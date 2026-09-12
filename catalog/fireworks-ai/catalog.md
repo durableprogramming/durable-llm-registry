@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 16
-- **Last Updated**: 2026-09-11
+- **Last Updated**: 2026-09-12
 
 ## Models
 
@@ -139,6 +139,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $3.96
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4.1 Flash
+
+**Model ID**: `accounts/fireworks/models/deepseek-v4p1-flash`  
+**Family**: deepseek-v3
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $0.66
 
 
 
@@ -623,50 +667,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
-### Qwen 3.7 Plus
-
-**Model ID**: `accounts/fireworks/models/qwen3p7-plus`  
-**Family**: qwen3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.4
-
-
-- **Standard Output**: $1.6
 
 
 
