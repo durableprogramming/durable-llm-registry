@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 966
-- **Last Updated**: 2026-09-16
+- **Last Updated**: 2026-09-17
 
 ## Models
 
@@ -2897,10 +2897,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08708
+- **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.17416
+- **Standard Output**: $0.14
 
 
 
@@ -3029,10 +3029,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.04
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.13
 
 
 
@@ -6327,10 +6327,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.35
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $1.1
 
 
 
@@ -8439,10 +8439,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.648138
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $13.282724
+- **Standard Output**: $15.0
 
 
 
@@ -8527,10 +8527,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $2.1
+- **Standard Input**: $1.875
 
 
-- **Standard Output**: $10.95
+- **Standard Output**: $10.5
 
 
 
@@ -8703,10 +8703,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.24
 
 
 

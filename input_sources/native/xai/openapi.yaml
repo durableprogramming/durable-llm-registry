@@ -2094,6 +2094,15 @@ components:
               Specify `{ "type": "json_object" }` for JSON output, or `{ "type": "json_schema",
               "json_schema": {...} }` for structured outputs. If `{ \"type\": \"text\"
               }`, the model will return a text response.'
+        safety_identifier:
+          type:
+          - string
+          - 'null'
+          description: Supplied by the API client to identify the end user behind
+            this request. A stable string that uniquely identifies each of your users;
+            hash your internal user id or username rather than sending an email or
+            name. Stored with the request metadata so a usage-policy violation can
+            be attributed to that user rather than to the API key.
         search_parameters:
           oneOf:
           - type: 'null'
@@ -5694,7 +5703,9 @@ components:
           description: |-
             Maximum number of agentic tool calling turns allowed for this request.
             If not set, defaults to the server's global cap.
-            This parameter will be ignored for any non-agentic requests.
+            This parameter will be ignored for any non-agentic requests, and for
+            agentic SLOP requests that have neither a server-side tool nor a file
+            attachment.
         metadata:
           description: Not supported. Only maintained for compatibility reasons.
         min_p:
@@ -5741,6 +5752,15 @@ components:
           description: reasoning_effort alternative to reasoning configuration. This
             is a non-standard field meant to ease user experience. We only look at
             this if the reasoning field is unset.
+        safety_identifier:
+          type:
+          - string
+          - 'null'
+          description: Supplied by the API client to identify the end user behind
+            this request. A stable string that uniquely identifies each of your users;
+            hash your internal user id or username rather than sending an email or
+            name. Stored with the request metadata so a usage-policy violation can
+            be attributed to that user rather than to the API key.
         search_parameters:
           oneOf:
           - type: 'null'
