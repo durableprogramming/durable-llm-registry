@@ -4173,8 +4173,8 @@ components:
         resolution:
           type: string
           description: |-
-            Output resolution this price applies to: `"1k"` or `"2k"`. 1k is the
-            default when a request leaves `resolution` unset.
+            Output resolution this price applies to: `"1k"`, `"1.5k"`, or `"2k"`.
+            1k is the default when a request leaves `resolution` unset.
     ImageResolution:
       type: string
       description: |-
@@ -4183,6 +4183,7 @@ components:
       enum:
       - 1k
       - 2k
+      - 1.5k
     ImageUrl:
       type: object
       description: |-
