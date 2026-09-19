@@ -933,6 +933,13 @@ paths:
                   completion_text_token_price_long_context: 160000
                   long_context_threshold: 128000
                   aliases: []
+                  capabilities:
+                    reasoning_effort:
+                    - low
+                    - medium
+                    - high
+                    - xhigh
+                    default_reasoning_effort: high
         '400':
           description: Bad request. The request is invalid or an invalid API key is
             provided.
@@ -1103,6 +1110,13 @@ paths:
                   prompt_text_token_price_long_context: 40000
                   completion_text_token_price_long_context: 160000
                   long_context_threshold: 128000
+                  capabilities:
+                    reasoning_effort:
+                    - low
+                    - medium
+                    - high
+                    - xhigh
+                    default_reasoning_effort: high
                 - id: grok-imagine-image
                   aliases: []
                   context_length: 1024
@@ -4303,6 +4317,11 @@ components:
           description: |-
             Price of the cached prompt text token for long context requests (USD cents per 100 million tokens).
             When 0, falls back to cached_prompt_text_token_price.
+        capabilities:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ModelCapabilities"
+            description: Optional request parameters this model accepts.
         completion_text_token_price:
           type: integer
           format: int64
@@ -5383,6 +5402,11 @@ components:
           format: int64
           description: Price of the cached prompt text token for long context requests
             (USD cents per 100 million tokens).
+        capabilities:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ModelCapabilities"
+            description: Optional request parameters this model accepts.
         completion_text_token_price:
           type:
           - integer
@@ -5461,6 +5485,23 @@ components:
           format: int64
           description: Price of the prompt text token for long context requests (USD
             cents per 100 million tokens).
+    ModelCapabilities:
+      type: object
+      description: The optional request parameters a model accepts.
+      required:
+      - reasoning_effort
+      properties:
+        default_reasoning_effort:
+          type:
+          - string
+          - 'null'
+          description: Model-wide default when effort is omitted; aliases may have
+            their own defaults.
+        reasoning_effort:
+          type: array
+          items:
+            type: string
+          description: The values the model accepts for `reasoning_effort` or `reasoning.effort`.
     ModelInput:
       oneOf:
       - type: string

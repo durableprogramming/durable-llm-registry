@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 16
-- **Last Updated**: 2026-09-18
+- **Last Updated**: 2026-09-19
 
 ## Models
 
@@ -179,10 +179,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.22
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.66
+- **Standard Output**: $1.2
 
 
 
