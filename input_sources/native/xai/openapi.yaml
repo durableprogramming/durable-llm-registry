@@ -7489,6 +7489,8 @@ components:
       required:
       - web_search_calls
       - x_search_calls
+      - x_posts_fetched
+      - x_users_fetched
       - code_interpreter_calls
       - file_search_calls
       - mcp_calls
@@ -7519,10 +7521,23 @@ components:
           type: integer
           format: int32
           description: Number of web search calls.
+        x_posts_fetched:
+          type: integer
+          format: int32
+          description: |-
+            Number of X posts fetched across all X search calls, including nested
+            parent/quote posts and every post of a fetched thread, without
+            de-duplication. X search is billed per fetched item.
         x_search_calls:
           type: integer
           format: int32
           description: Number of X search calls.
+        x_users_fetched:
+          type: integer
+          format: int32
+          description: |-
+            Number of X user profiles fetched across all X search calls, without
+            de-duplication. X search is billed per fetched item.
     ServiceTier:
       type: string
       description: Processing tier for a request. Determines scheduling priority and
@@ -8196,6 +8211,11 @@ components:
         prompt_tokens_details:
           "$ref": "#/components/schemas/PromptUsageDetail"
           description: Breakdown of prompt token usage of different types.
+        server_side_tool_usage_details:
+          oneOf:
+          - type: 'null'
+          - "$ref": "#/components/schemas/ServerSideToolUsageDetails"
+            description: Details about the server side tool usage.
         total_tokens:
           type: integer
           format: int32
