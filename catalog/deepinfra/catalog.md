@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 262
-- **Last Updated**: 2026-09-20
+- **Total Models**: 270
+- **Last Updated**: 2026-09-21
 
 ## Models
 
@@ -215,6 +215,46 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 **Model ID**: `BAAI/bge-m3-multi`  
 **Family**: BAAI/bge-m3-multi
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.01
+
+
+
+
+
+
+
+
+---
+
+
+### BAAI/bge-m3-multi-8k
+
+**Model ID**: `BAAI/bge-m3-multi-8k`  
+**Family**: BAAI/bge-m3-multi-8k
 #### Specifications
 
 - **Context Window**: 8,192 tokens
@@ -555,10 +595,86 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### Bria/fibo-1.5
+
+**Model ID**: `Bria/fibo-1.5`  
+**Family**: Bria/fibo-1.5
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Bria/fibo_edit
 
 **Model ID**: `Bria/fibo_edit`  
 **Family**: Bria/fibo_edit
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Bria/fibo_edit-1.5
+
+**Model ID**: `Bria/fibo_edit-1.5`  
+**Family**: Bria/fibo_edit-1.5
 #### Specifications
 
 - **Context Window**:  tokens
@@ -983,7 +1099,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 - **Input**: text, image, video, audio
 
 
-- **Output**: video
+- **Output**: video, audio, image
 
 
 #### Capabilities
@@ -4023,16 +4139,71 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39999999999999997
+- **Standard Input**: $0.19999999999999998
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $2.5
 
 
 
 
 
-- **Cached Output**: $0.04
+- **Cached Output**: $0.049999999999999996
+
+
+
+
+
+
+---
+
+
+### Qwen/Qwen3.8-Flash
+
+**Model ID**: `Qwen/Qwen3.8-Flash`  
+**Family**: Qwen/Qwen3.8-Flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.113
+
+
+- **Standard Output**: $0.382
+
+
+
+
+
+- **Cached Output**: $0.01409999988
 
 
 
@@ -4541,16 +4712,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39999999999999997
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $0.28
 
 
 
 
 
-- **Cached Output**: $0.08
+- **Cached Output**: $0.0028
 
 
 
@@ -5312,10 +5483,10 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $10.0
+- **Standard Output**: $15.0
 
 
 
@@ -6547,7 +6718,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.06
 
 
 - **Standard Output**: $0.18
@@ -6556,7 +6727,62 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.016
+- **Cached Output**: $0.015
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+
+**Model ID**: `deepseek-ai/DeepSeek-V4-Flash-Vision-Exp`  
+**Family**: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.44
+
+
+- **Standard Output**: $1.32
+
+
+
+
+
+- **Cached Output**: $0.1400000008
 
 
 
@@ -6666,7 +6892,62 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.100000004
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/DeepSeek-V4.1-Flash
+
+**Model ID**: `deepseek-ai/DeepSeek-V4.1-Flash`  
+**Family**: deepseek-ai/DeepSeek-V4.1-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.006
 
 
 
@@ -7426,7 +7707,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: image, text
+- **Input**: image, text, video
 
 
 - **Output**: text
@@ -8120,6 +8401,116 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### inclusionAI/Ling-3.0-flash-Fin
+
+**Model ID**: `inclusionAI/Ling-3.0-flash-Fin`  
+**Family**: inclusionAI/Ling-3.0-flash-Fin
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+- **Cached Output**: $0.012
+
+
+
+
+
+
+---
+
+
+### inclusionAI/Ling-3.0-flash-VL
+
+**Model ID**: `inclusionAI/Ling-3.0-flash-VL`  
+**Family**: inclusionAI/Ling-3.0-flash-VL
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+- **Cached Output**: $0.012
+
+
+
+
+
+
+---
+
+
 ### intfloat/e5-base-v2
 
 **Model ID**: `intfloat/e5-base-v2`  
@@ -8331,7 +8722,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, audio
 
 
 - **Output**: audio
@@ -9071,7 +9462,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.039999998999999994
+- **Cached Output**: $0.04
 
 
 
@@ -9864,7 +10255,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -10152,7 +10543,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -12121,7 +12512,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.24
+- **Cached Output**: $0.19999999999999998
 
 
 

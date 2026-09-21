@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ## Overview
 
 - **Provider**: azure-ai-foundry
-- **Total Models**: 220
-- **Last Updated**: 2026-09-20
+- **Total Models**: 230
+- **Last Updated**: 2026-09-21
 
 ## Models
 
@@ -1205,6 +1205,82 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ---
 
 
+### DeepSeek-V4.1-Flash
+
+**Model ID**: `DeepSeek-V4.1-Flash`  
+**Family**: DeepSeek-V4.1-Flash
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4.1-Flash-2026-09-10
+
+**Model ID**: `DeepSeek-V4.1-Flash-2026-09-10`  
+**Family**: DeepSeek-V4.1-Flash-2026-09-10
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### FLUX-1.1-pro
 
 **Model ID**: `FLUX-1.1-pro`  
@@ -1357,6 +1433,56 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ---
 
 
+### Inkling-Small
+
+**Model ID**: `Inkling-Small`  
+**Family**: Inkling-Small
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Kimi-K2-Thinking
 
 **Model ID**: `Kimi-K2-Thinking`  
@@ -1440,6 +1566,65 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Standard Output**: $3.0
 
+
+
+
+
+
+
+---
+
+
+### Kimi-K2.6
+
+**Model ID**: `Kimi-K2.6`  
+**Family**: Kimi-K2.6
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.95
+
+
+- **Standard Output**: $4.0
+
+
+
+
+
+- **Cached Output**: $0.16
 
 
 
@@ -3923,6 +4108,142 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Muse-Glimmer-30B
+
+**Model ID**: `Muse-Glimmer-30B`  
+**Family**: Muse-Glimmer-30B
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Nemotron-3-Super-120B-A12B-BF16
+
+**Model ID**: `Nemotron-3-Super-120B-A12B-BF16`  
+**Family**: Nemotron-3-Super-120B-A12B-BF16
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Nemotron-3-Ultra-550B-A55B-BF16
+
+**Model ID**: `Nemotron-3-Ultra-550B-A55B-BF16`  
+**Family**: Nemotron-3-Ultra-550B-A55B-BF16
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Function calling
+
+- Structured output
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -9933,6 +10254,82 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ---
 
 
+### muse-spark-1.2
+
+**Model ID**: `muse-spark-1.2`  
+**Family**: muse-spark-1.2
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### muse-spark-1.3
+
+**Model ID**: `muse-spark-1.3`  
+**Family**: muse-spark-1.3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### qwen-3-32b
 
 **Model ID**: `qwen-3-32b`  
@@ -10093,6 +10490,44 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - Json output
 
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### qwen3.8-27b
+
+**Model ID**: `qwen3.8-27b`  
+**Family**: qwen3.8-27b
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
 
 
 #### Pricing (per million tokens)

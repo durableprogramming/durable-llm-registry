@@ -7,10 +7,58 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 428
-- **Last Updated**: 2026-09-20
+- **Total Models**: 474
+- **Last Updated**: 2026-09-21
 
 ## Models
+
+
+### AI21-Jamba-1.5-Large
+
+**Model ID**: `AI21-Jamba-1.5-Large`  
+**Family**: AI21-Jamba-1.5-Large
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
 
 
 ### AI21-Jamba-1.5-Mini
@@ -237,6 +285,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### Cohere-command-r
+
+**Model ID**: `Cohere-command-r`  
+**Family**: Cohere-command-r
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Cohere-command-r-08-2024
 
 **Model ID**: `Cohere-command-r-08-2024`  
@@ -364,7 +450,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -435,6 +521,46 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### Cohere-parse-v5
+
+**Model ID**: `Cohere-parse-v5`  
+**Family**: Cohere-parse-v5
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Cohere-rerank-v4.0-fast
 
 **Model ID**: `Cohere-rerank-v4.0-fast`  
@@ -479,8 +605,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-rerank-v4.0-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 4,096 tokens
 
+
+- **Max Output Tokens**: 2,048 tokens
 
 
 #### Modalities
@@ -701,6 +829,63 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### DeepSeek-V3.2
+
+**Model ID**: `DeepSeek-V3.2`  
+**Family**: DeepSeek-V3.2
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.58
+
+
+- **Standard Output**: $1.68
+
+
+
+
+
+- **Cached Output**: $0.31
+
+
+
+
+
+
+---
+
+
 ### DeepSeek-V3.2-Speciale
 
 **Model ID**: `DeepSeek-V3.2-Speciale`  
@@ -725,6 +910,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
+- Function calling
+
 - Json output
 
 
@@ -735,6 +922,50 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4-Flash
+
+**Model ID**: `DeepSeek-V4-Flash`  
+**Family**: DeepSeek-V4-Flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19
+
+
+- **Standard Output**: $0.51
 
 
 
@@ -767,6 +998,12 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -853,6 +1090,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
+- Function calling
+
 - Json output
 
 
@@ -877,6 +1116,56 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 **Model ID**: `DeepSeek-V4-Pro`  
 **Family**: DeepSeek-V4-Pro
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.74
+
+
+- **Standard Output**: $3.48
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4-Pro-2026-04-23
+
+**Model ID**: `DeepSeek-V4-Pro-2026-04-23`  
+**Family**: DeepSeek-V4-Pro-2026-04-23
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -923,10 +1212,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
-### FLUX-1.1-pro
+### DeepSeek-V4.1-Flash
 
-**Model ID**: `FLUX-1.1-pro`  
-**Family**: FLUX-1.1-pro
+**Model ID**: `DeepSeek-V4.1-Flash`  
+**Family**: DeepSeek-V4.1-Flash
 #### Specifications
 
 - **Context Window**:  tokens
@@ -961,10 +1250,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
-### FLUX.1-Kontext-pro
+### DeepSeek-V4.1-Flash-2026-09-10
 
-**Model ID**: `FLUX.1-Kontext-pro`  
-**Family**: FLUX.1-Kontext-pro
+**Model ID**: `DeepSeek-V4.1-Flash-2026-09-10`  
+**Family**: DeepSeek-V4.1-Flash-2026-09-10
 #### Specifications
 
 - **Context Window**:  tokens
@@ -978,6 +1267,82 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### FLUX-1.1-pro
+
+**Model ID**: `FLUX-1.1-pro`  
+**Family**: FLUX-1.1-pro
+#### Specifications
+
+- **Context Window**: 5,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### FLUX.1-Kontext-pro
+
+**Model ID**: `FLUX.1-Kontext-pro`  
+**Family**: FLUX.1-Kontext-pro
+#### Specifications
+
+- **Context Window**: 5,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
 
 
 #### Capabilities
@@ -1075,6 +1440,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### Inkling-Small
+
+**Model ID**: `Inkling-Small`  
+**Family**: Inkling-Small
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Kimi-K2-Thinking
 
 **Model ID**: `Kimi-K2-Thinking`  
@@ -1113,6 +1516,108 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### Kimi-K2.5
+
+**Model ID**: `Kimi-K2.5`  
+**Family**: Kimi-K2.5
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
+### Kimi-K2.6
+
+**Model ID**: `Kimi-K2.6`  
+**Family**: Kimi-K2.6
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.95
+
+
+- **Standard Output**: $4.0
+
+
+
+
+
+
+
+---
+
+
 ### Kimi-K2.6-2026-04-20
 
 **Model ID**: `Kimi-K2.6-2026-04-20`  
@@ -1135,6 +1640,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 #### Capabilities
+
+
+- Function calling
+
 
 
 #### Pricing (per million tokens)
@@ -1177,6 +1686,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
+- Function calling
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
 #### Pricing (per million tokens)
 
 
@@ -1193,6 +1712,116 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.19
+
+
+
+
+
+
+---
+
+
+### Kimi-K3
+
+**Model ID**: `Kimi-K3`  
+**Family**: Kimi-K3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.3000000000000003
+
+
+- **Standard Output**: $16.5
+
+
+
+
+
+- **Cached Output**: $0.33
+
+
+
+
+
+
+---
+
+
+### Kimi-K3-2026-07-29
+
+**Model ID**: `Kimi-K3-2026-07-29`  
+**Family**: Kimi-K3-2026-07-29
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.3000000000000003
+
+
+- **Standard Output**: $16.5
+
+
+
+
+
+- **Cached Output**: $0.33
 
 
 
@@ -1425,7 +2054,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 2,048 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -1438,12 +2067,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 #### Capabilities
-
-
-- Function calling
-
-- Tool choice
-
 
 
 #### Pricing (per million tokens)
@@ -1684,10 +2307,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - System messages
 
-- Function calling
-
-- Tool choice
-
 
 
 #### Pricing (per million tokens)
@@ -1725,7 +2344,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -1734,22 +2353,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
-- Function calling
-
-- Tool choice
-
-
-
 #### Pricing (per million tokens)
 
 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.4100000000000001
+- **Standard Input**: $0.25
 
 
-- **Standard Output**: $0.35
+- **Standard Output**: $1.0
 
 
 
@@ -1769,13 +2382,13 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Context Window**: 10,000,000 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -1934,6 +2547,48 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### MAI-Image-2.5-2026-06-02
+
+**Model ID**: `MAI-Image-2.5-2026-06-02`  
+**Family**: MAI-Image-2.5-2026-06-02
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+
+
+---
+
+
 ### MAI-Image-2.5-Flash-2026-06-02
 
 **Model ID**: `MAI-Image-2.5-Flash-2026-06-02`  
@@ -1963,6 +2618,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Standard Input**: $1.75
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2.5-Pro
+
+**Model ID**: `MAI-Image-2.5-Pro`  
+**Family**: MAI-Image-2.5-Pro
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
 
 
 
@@ -2020,7 +2713,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2.6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
@@ -2096,7 +2789,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2.6-Flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
@@ -2134,7 +2827,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2.6-Flash-2026-07-31
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
@@ -2170,6 +2863,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 **Model ID**: `MAI-Image-2e`  
 **Family**: MAI-Image-2e
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2e-2026-04-09
+
+**Model ID**: `MAI-Image-2e-2026-04-09`  
+**Family**: MAI-Image-2e-2026-04-09
 #### Specifications
 
 - **Context Window**:  tokens
@@ -2840,10 +3571,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-8B-Instruct
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 2,048 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -3122,6 +3853,58 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### Mistral-Large-3
+
+**Model ID**: `Mistral-Large-3`  
+**Family**: Mistral-Large-3
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
 ### Mistral-Nemo
 
 **Model ID**: `Mistral-Nemo`  
@@ -3166,7 +3949,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
@@ -3198,6 +3981,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $12.0
 
 
 
@@ -3228,6 +4015,148 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Muse-Glimmer-30B
+
+**Model ID**: `Muse-Glimmer-30B`  
+**Family**: Muse-Glimmer-30B
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Nemotron-3-Super-120B-A12B-BF16
+
+**Model ID**: `Nemotron-3-Super-120B-A12B-BF16`  
+**Family**: Nemotron-3-Super-120B-A12B-BF16
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Nemotron-3-Ultra-550B-A55B-BF16
+
+**Model ID**: `Nemotron-3-Ultra-550B-A55B-BF16`  
+**Family**: Nemotron-3-Ultra-550B-A55B-BF16
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -4875,7 +5804,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -5210,10 +6139,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
-- Function calling
-
-
-
 #### Pricing (per million tokens)
 
 
@@ -5268,10 +6193,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $0.32
+- **Standard Output**: $0.3
 
 
 
@@ -5297,17 +6222,13 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: audio, image
+- **Input**: text, image, audio
 
 
 - **Output**: text
 
 
 #### Capabilities
-
-
-- Function calling
-
 
 
 #### Pricing (per million tokens)
@@ -5826,6 +6747,146 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### claude-fable-5
+
+**Model ID**: `claude-fable-5`  
+**Family**: claude-fable-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### claude-fable-5-1
+
+**Model ID**: `claude-fable-5-1`  
+**Family**: claude-fable-5-1
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
 ### claude-haiku-4-5
 
 **Model ID**: `claude-haiku-4-5`  
@@ -5841,7 +6902,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image, pdf
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -5852,13 +6913,21 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Function calling
 
+- Parallel function calling
+
 - Tool choice
 
 - Prompt caching
 
+- Cache control
+
 - Structured output
 
 - Assistant prefill
+
+- System messages
+
+- Json output
 
 
 
@@ -6147,7 +7216,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image, pdf
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6195,22 +7264,22 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
-### claude-opus-4-6
+### claude-opus-4-5-20251101
 
-**Model ID**: `claude-opus-4-6`  
-**Family**: claude-opus-4-6
+**Model ID**: `claude-opus-4-5-20251101`  
+**Family**: claude-opus-4-5-20251101
 #### Specifications
 
 - **Context Window**: 200,000 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 64,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: image, pdf
+- **Input**: text, image
 
 
 - **Output**: text
@@ -6221,11 +7290,88 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Function calling
 
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-4-6
+
+**Model ID**: `claude-opus-4-6`  
+**Family**: claude-opus-4-6
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
 - Tool choice
 
 - Prompt caching
 
 - Structured output
+
+- Cache control
+
+- System messages
 
 
 
@@ -6630,7 +7776,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image, pdf
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6648,6 +7794,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Structured output
 
 - Assistant prefill
+
+- System messages
+
+- Cache control
 
 
 
@@ -6753,14 +7903,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: claude-sonnet-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: image, pdf
+- **Input**: text, image, pdf
 
 
 - **Output**: text
@@ -6771,13 +7923,21 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Function calling
 
+- Parallel function calling
+
 - Tool choice
 
 - Prompt caching
 
+- Cache control
+
 - Structured output
 
+- Json output
+
 - Assistant prefill
+
+- System messages
 
 
 
@@ -6787,7 +7947,18 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+- **Standard Input**: $3.0
 
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
 
 
 
@@ -6838,6 +8009,77 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Tool choice
 
 - Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-5-2
+
+**Model ID**: `claude-sonnet-5-2`  
+**Family**: claude-sonnet-5-2
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Assistant prefill
+
+- Json output
 
 
 
@@ -7226,6 +8468,64 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.375
+
+
+
+
+
+
+---
+
+
+### cohere-command-a
+
+**Model ID**: `cohere-command-a`  
+**Family**: cohere-command-a
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.5
+
+
+- **Standard Output**: $10.0
+
 
 
 
@@ -7977,10 +9277,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: deepseek-v3.2
 #### Specifications
 
-- **Context Window**: 163,840 tokens
+- **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 163,840 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -8002,6 +9302,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Prompt caching
 
 - Assistant prefill
+
+- Json output
 
 
 
@@ -8085,17 +9387,17 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: embed-v-4-0
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image, pdf
 
 
-- **Output**: text
+- **Output**: embedding
 
 
 #### Capabilities
@@ -8127,17 +9429,17 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: flux.2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
-- **Output**: text
+- **Output**: image
 
 
 #### Capabilities
@@ -11272,7 +12574,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: audio
+- **Input**: text, audio
 
 
 - **Output**: text
@@ -13874,6 +15176,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Prompt caching
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -14027,6 +15331,73 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### gpt-5.6-luna
+
+**Model ID**: `gpt-5.6-luna`  
+**Family**: gpt-5.6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.2
+
+
+
+
+- **Cached Input**: $0.25
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
+
+
 ### gpt-5.6-luna-2026-07-09
 
 **Model ID**: `gpt-5.6-luna-2026-07-09`  
@@ -14136,16 +15507,18 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $20.0
 
 
 
 
+- **Cached Input**: $5.0
 
-- **Cached Output**: $0.5
+
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -14199,16 +15572,18 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $20.0
 
 
 
 
+- **Cached Input**: $5.0
 
-- **Cached Output**: $0.5
+
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -14482,7 +15857,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-6-astra-2026-09-03-private
 #### Specifications
 
-- **Context Window**: 922,000 tokens
+- **Context Window**: 1,050,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -14491,7 +15866,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: text, image, pdf
+- **Input**: text, image
 
 
 - **Output**: text
@@ -14789,6 +16164,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Tool choice
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -14843,6 +16220,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Tool choice
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -14856,6 +16235,11 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Standard Output**: $2.4
 
+
+
+
+
+- **Cached Output**: $0.06
 
 
 
@@ -15171,6 +16555,60 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### gpt-chat-latest-2026-08-06
+
+**Model ID**: `gpt-chat-latest-2026-08-06`  
+**Family**: gpt-chat-latest-2026-08-06
+#### Specifications
+
+- **Context Window**: 400,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### gpt-image-1
 
 **Model ID**: `gpt-image-1`  
@@ -15394,6 +16832,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Standard Input**: $5.0
 
 
+- **Standard Output**: $10.0
+
 
 
 
@@ -15472,7 +16912,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: text, image, pdf
+- **Input**: text, image
 
 
 - **Output**: image
@@ -15548,6 +16988,278 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-flare
+
+**Model ID**: `gpt-image-2.5-flare`  
+**Family**: gpt-image-2.5-flare
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-flare-2026-09-08
+
+**Model ID**: `gpt-image-2.5-flare-2026-09-08`  
+**Family**: gpt-image-2.5-flare-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-sunburst
+
+**Model ID**: `gpt-image-2.5-sunburst`  
+**Family**: gpt-image-2.5-sunburst
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-sunburst-2026-09-08
+
+**Model ID**: `gpt-image-2.5-sunburst-2026-09-08`  
+**Family**: gpt-image-2.5-sunburst-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-live-1
+
+**Model ID**: `gpt-live-1`  
+**Family**: gpt-live-1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio, text
+
+
+- **Output**: audio, text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### gpt-live-1-2026-09-10
+
+**Model ID**: `gpt-live-1-2026-09-10`  
+**Family**: gpt-live-1-2026-09-10
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -15745,6 +17457,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Structured output
 
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -15757,6 +17471,56 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Standard Output**: $0.6
+
+
+
+
+
+
+
+---
+
+
+### gpt-oss-20b
+
+**Model ID**: `gpt-oss-20b`  
+**Family**: gpt-oss-20b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 
@@ -15866,7 +17630,68 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 
-- **Cached Output**: $4.0
+- **Cached Output**: $0.39999999999999997
+
+
+
+
+
+
+---
+
+
+### gpt-realtime-1.5
+
+**Model ID**: `gpt-realtime-1.5`  
+**Family**: gpt-realtime-1.5
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $16.0
+
+
+
+
+
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -16147,7 +17972,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+- **Standard Input**: $4.0
 
+
+- **Standard Output**: $24.0
+
+
+
+
+
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -16218,6 +18052,63 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### gpt-realtime-2.1-mini
+
+**Model ID**: `gpt-realtime-2.1-mini`  
+**Family**: gpt-realtime-2.1-mini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
+
+
+- **Standard Output**: $2.4
+
+
+
+
+
+- **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
 ### gpt-realtime-2.1-mini-2026-06-25
 
 **Model ID**: `gpt-realtime-2.1-mini-2026-06-25`  
@@ -16262,7 +18153,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-realtime-2.1-mini-2026-07-07
 #### Specifications
 
-- **Context Window**: 32,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -16840,10 +18731,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: grok-4
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 262,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -16926,6 +18817,169 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### grok-4-1-fast-reasoning
+
+**Model ID**: `grok-4-1-fast-reasoning`  
+**Family**: grok-4-1-fast-reasoning
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### grok-4-20-non-reasoning
+
+**Model ID**: `grok-4-20-non-reasoning`  
+**Family**: grok-4-20-non-reasoning
+#### Specifications
+
+- **Context Window**: 262,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### grok-4-20-reasoning
+
+**Model ID**: `grok-4-20-reasoning`  
+**Family**: grok-4-20-reasoning
+#### Specifications
+
+- **Context Window**: 262,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
 
 
 
@@ -17040,16 +19094,133 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ---
 
 
+### grok-4.3
+
+**Model ID**: `grok-4.3`  
+**Family**: grok-4.3
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### grok-4.6
+
+**Model ID**: `grok-4.6`  
+**Family**: grok-4.6
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### grok-code-fast-1
 
 **Model ID**: `grok-code-fast-1`  
 **Family**: grok-code-fast-1
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 256,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities
@@ -17243,7 +19414,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -17398,7 +19569,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: ministral-3b
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -17486,8 +19657,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mistral-document-ai-2512
 #### Specifications
 
-- **Context Window**: 16,384 tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -17670,16 +19843,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mistral-large-3
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 8,191 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -17691,6 +19864,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Function calling
 
 - Tool choice
+
+- Json output
+
+- System messages
 
 
 
@@ -17770,16 +19947,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mistral-medium-2505
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 8,191 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -17788,11 +19965,9 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 #### Capabilities
 
 
-- Function calling
-
-- Tool choice
-
 - Assistant prefill
+
+- Json output
 
 
 
@@ -17806,6 +19981,56 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### mistral-medium-3-5
+
+**Model ID**: `mistral-medium-3-5`  
+**Family**: mistral-medium-3-5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $7.5
 
 
 
@@ -17969,13 +20194,13 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -17996,10 +20221,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.09999999999999999
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $0.3
 
 
 
@@ -18234,6 +20459,60 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: model_router
 #### Specifications
 
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### muse-spark-1.2
+
+**Model ID**: `muse-spark-1.2`  
+**Family**: muse-spark-1.2
+#### Specifications
+
 - **Context Window**:  tokens
 
 
@@ -18256,10 +20535,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.0
+
+
+
+
+
+---
+
+
+### muse-spark-1.3
+
+**Model ID**: `muse-spark-1.3`  
+**Family**: muse-spark-1.3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 
@@ -18426,16 +20739,16 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
-- **Standard Input**: $1.21
+- **Standard Input**: $1.1
 
 
-- **Standard Output**: $4.84
+- **Standard Output**: $4.4
 
 
 
 
 
-- **Cached Output**: $0.605
+- **Cached Output**: $0.55
 
 
 
@@ -18689,6 +21002,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### o3-deep-research
+
+**Model ID**: `o3-deep-research`  
+**Family**: o3-deep-research
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -19281,7 +21632,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: qwen-3-32b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,000 tokens
 
 
 
@@ -19365,7 +21716,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: qwen3-32b-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,000 tokens
 
 
 
@@ -19428,6 +21779,50 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Json output
 
 - Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### qwen3.8-27b
+
+**Model ID**: `qwen3.8-27b`  
+**Family**: qwen3.8-27b
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
 
 - System messages
 
@@ -19911,7 +22306,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-embedding-3-large
 #### Specifications
 
-- **Context Window**: 8,191 tokens
+- **Context Window**: 8,192 tokens
 
 
 

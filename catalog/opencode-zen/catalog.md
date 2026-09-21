@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 73
-- **Last Updated**: 2026-09-20
+- **Total Models**: 74
+- **Last Updated**: 2026-09-21
 
 ## Models
 
@@ -2759,6 +2759,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Grok 4.6
 
 **Model ID**: `grok-4.6`  
+**Family**: grok
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Grok 4.7
+
+**Model ID**: `grok-4.7`  
 **Family**: grok
 #### Specifications
 
