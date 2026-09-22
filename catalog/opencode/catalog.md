@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 7
-- **Last Updated**: 2026-09-21
+- **Total Models**: 8
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -143,6 +143,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Input**: text, audio, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### MiMo-V2.6-Flash Free
+
+**Model ID**: `mimo-v2.6-flash-free`  
+**Family**: mimo
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video, pdf
 
 
 - **Output**: text

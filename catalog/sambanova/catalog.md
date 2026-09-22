@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 
 - **Provider**: sambanova
 - **Total Models**: 31
-- **Last Updated**: 2026-09-21
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -1081,7 +1081,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -1497,6 +1497,10 @@ This catalog provides a comprehensive overview of all sambanova models available
 - Function calling
 
 - Tool choice
+
+- Json output
+
+- Structured output
 
 
 

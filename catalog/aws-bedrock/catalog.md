@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 233
-- **Last Updated**: 2026-09-21
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -3052,7 +3052,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: embedding

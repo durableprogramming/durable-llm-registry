@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 28
-- **Last Updated**: 2026-09-21
+- **Total Models**: 29
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -123,9 +123,9 @@ This catalog provides a comprehensive overview of all anthropic models available
 ---
 
 
-### Claude Opus 5
+### Claude Opus 5.5
 
-**Model ID**: `claude-opus-5`  
+**Model ID**: `claude-opus-5-5`  
 **Family**: claude-opus
 #### Specifications
 
@@ -157,18 +157,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $4.0
 
 
 
 
-- **Cached Input**: $6.25
+- **Cached Input**: $5.0
 
 
-- **Cached Output**: $5.0
+- **Cached Output**: $4.0
 
 
 
@@ -1511,6 +1511,79 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Tool choice
 
 - Prompt caching
+
+- Assistant prefill
+
+- Code execution
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+- **Standard Output**: $25.0
+
+
+
+
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-5
+
+**Model ID**: `claude-opus-5`  
+**Family**: claude-opus-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
 
 - Assistant prefill
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 431
-- **Last Updated**: 2026-09-21
+- **Total Models**: 432
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -2627,7 +2627,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, audio
 
 
 - **Output**: audio
@@ -5964,6 +5964,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -5977,6 +5979,11 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $12.0
 
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -7706,6 +7713,14 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Parallel function calling
 
+- Structured output
+
+- Json output
+
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -7907,7 +7922,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,535 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -8592,16 +8607,16 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.55
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $3.3000000000000003
 
 
 
 
 
-- **Cached Output**: $0.049999999999999996
+- **Cached Output**: $0.055
 
 
 
@@ -8745,7 +8760,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, pdf
 
 
 - **Output**: text, image
@@ -9710,7 +9725,16 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
+- **Standard Input**: $1.0
 
+
+- **Standard Output**: $5.0
+
+
+
+
+
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -13910,6 +13934,10 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -13957,6 +13985,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -14574,7 +14604,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: embedding
 
 
 #### Capabilities
@@ -14602,7 +14632,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: microsoft/bio-gpt
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,024 tokens
 
 
 
@@ -18641,7 +18671,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: tiiuae/falcon-instruct-7b-peft
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 2,048 tokens
 
 
 
@@ -18983,7 +19013,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: virtueai/virtueguard-text-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,000 tokens
 
 
 
@@ -19337,7 +19367,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: xai/grok-4.20-non-reasoning
 #### Specifications
 
-- **Context Window**: 2,000,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -19426,10 +19456,10 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.25
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $2.5
 
 
 
@@ -19468,6 +19498,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - Function calling
+
+- Parallel function calling
 
 - Prompt caching
 
@@ -19823,7 +19855,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 64,000 tokens
 
 
 #### Modalities
@@ -19847,6 +19879,65 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Json output
 
 - System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### zai-org/glm-5-3
+
+**Model ID**: `zai-org/glm-5-3`  
+**Family**: zai-org/glm-5-3
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Json output
 
 - Prompt caching
 
@@ -19963,6 +20054,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -19971,7 +20064,16 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
+- **Standard Input**: $1.4
 
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
 
 
 

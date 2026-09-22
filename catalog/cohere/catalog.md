@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ## Overview
 
 - **Provider**: cohere
-- **Total Models**: 39
-- **Last Updated**: 2026-09-21
+- **Total Models**: 40
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -530,6 +530,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 - Tool choice
 
 - System messages
+
+- Json output
 
 
 
@@ -1255,6 +1257,48 @@ This catalog provides a comprehensive overview of all cohere models available th
 ---
 
 
+### north-small-translate-09-2026
+
+**Model ID**: `north-small-translate-09-2026`  
+**Family**: north-small-translate-09-2026
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### parse-v5.0
 
 **Model ID**: `parse-v5.0`  
@@ -1513,7 +1557,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 **Family**: rerank-v4.0-fast
 #### Specifications
 
-- **Context Window**: 32,000 tokens
+- **Context Window**: 32,768 tokens
 
 
 

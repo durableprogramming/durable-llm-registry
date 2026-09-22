@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 ## Overview
 
 - **Provider**: xai
-- **Total Models**: 92
-- **Last Updated**: 2026-09-21
+- **Total Models**: 93
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -2059,6 +2059,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2228,6 +2230,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2282,6 +2286,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -2454,6 +2460,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2511,6 +2519,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2565,6 +2575,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -2622,6 +2634,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -2682,6 +2696,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2739,6 +2755,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 2,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2791,6 +2809,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -2851,6 +2871,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 2,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2906,6 +2928,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 2,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -2935,10 +2959,10 @@ This catalog provides a comprehensive overview of all xai models available throu
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.25
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $2.5
 
 
 
@@ -2962,6 +2986,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 1,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -3019,6 +3045,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 2,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -3584,6 +3612,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 1,000,000 tokens
+
 
 #### Modalities
 
@@ -3752,6 +3782,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Context Window**: 2,000,000 tokens
 
+
+- **Max Output Tokens**: 1,000,000 tokens
 
 
 #### Modalities
@@ -4147,6 +4179,65 @@ This catalog provides a comprehensive overview of all xai models available throu
 ---
 
 
+### grok-4.7
+
+**Model ID**: `grok-4.7`  
+**Family**: grok-4.7
+#### Specifications
+
+- **Context Window**: 500,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### grok-beta
 
 **Model ID**: `grok-beta`  
@@ -4274,6 +4365,18 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- Tool choice
+
+- System messages
+
 
 
 #### Pricing (per million tokens)

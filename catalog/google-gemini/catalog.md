@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 82
-- **Last Updated**: 2026-09-21
+- **Total Models**: 87
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -61,6 +61,56 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 - **Cached Output**: $0.15
+
+
+
+
+
+
+---
+
+
+### antigravity-preview-09-2026
+
+**Model ID**: `antigravity-preview-09-2026`  
+**Family**: antigravity-preview-09-2026
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Code execution
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -1865,17 +1915,13 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video, pdf
 
 
 - **Output**: text, image
 
 
 #### Capabilities
-
-
-- Function calling
-
 
 
 #### Pricing (per million tokens)
@@ -2483,16 +2529,16 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $1.5
+- **Standard Input**: $0.75
 
 
-- **Standard Output**: $7.5
+- **Standard Output**: $3.75
 
 
 
 
 
-- **Cached Output**: $0.15
+- **Cached Output**: $0.075
 
 
 
@@ -2623,6 +2669,108 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 - **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### gemini-3.8-live
+
+**Model ID**: `gemini-3.8-live`  
+**Family**: gemini-3.8-live
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
+
+
+
+
+
+
+---
+
+
+### gemini-3.8-live-extended-thinking
+
+**Model ID**: `gemini-3.8-live-extended-thinking`  
+**Family**: gemini-3.8-live-extended-thinking
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
 
 
 
@@ -2802,16 +2950,16 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.75
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $3.75
 
 
 
 
 
-- **Cached Output**: $0.049999999999999996
+- **Cached Output**: $0.075
 
 
 
@@ -3187,16 +3335,16 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $10.0
+- **Standard Output**: $5.0
 
 
 
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -3964,6 +4112,84 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 - **Output**: audio, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### lyria-3.5
+
+**Model ID**: `lyria-3.5`  
+**Family**: lyria-3.5
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: audio, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### lyria-realtime-exp
+
+**Model ID**: `lyria-realtime-exp`  
+**Family**: lyria-realtime-exp
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
 
 
 #### Capabilities

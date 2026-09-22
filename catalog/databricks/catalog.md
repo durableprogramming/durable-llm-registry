@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 68
-- **Last Updated**: 2026-09-21
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -926,6 +926,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 #### Capabilities
 
 
+- Function calling
+
 - Json output
 
 
@@ -941,6 +943,13 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Standard Output**: $0.5
 
+
+
+
+- **Cached Input**: $0.15001
+
+
+- **Cached Output**: $0.15001
 
 
 
@@ -1045,6 +1054,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Function calling
 
+- Parallel function calling
+
 - Structured output
 
 - Json output
@@ -1069,7 +1080,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $1.24999
 
 
 - **Cached Output**: $0.125
@@ -1372,6 +1383,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Prompt caching
 
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -1513,6 +1526,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - **Cached Input**: $30.0
 
 
+- **Cached Output**: $30.0
+
 
 
 
@@ -1565,18 +1580,18 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19999999999999998
+- **Standard Input**: $1.0000200000000001
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $5.99998
 
 
 
 
-- **Cached Input**: $0.25
+- **Cached Input**: $1.24999
 
 
-- **Cached Output**: $0.02
+- **Cached Output**: $0.10003000000000001
 
 
 
@@ -1626,18 +1641,18 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $5.0
+- **Standard Input**: $4.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $20.0
 
 
 
 
-- **Cached Input**: $6.25
+- **Cached Input**: $5.0
 
 
-- **Cached Output**: $0.5
+- **Cached Output**: $0.39999999999999997
 
 
 
@@ -2846,6 +2861,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - System messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2859,6 +2876,13 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Standard Output**: $15.0
 
+
+
+
+- **Cached Input**: $3.7499700000000002
+
+
+- **Cached Output**: $0.30002
 
 
 
@@ -3137,6 +3161,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Json output
 
+- Cache control
+
 
 
 #### Pricing (per million tokens)
@@ -3153,7 +3179,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $1.24999
 
 
 - **Cached Output**: $0.125
@@ -3660,7 +3686,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 
-- **Cached Input**: $0.25
+- **Cached Input**: $0.24997
 
 
 - **Cached Output**: $0.024999999999999998

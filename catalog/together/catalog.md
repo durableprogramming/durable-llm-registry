@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 382
-- **Last Updated**: 2026-09-21
+- **Total Models**: 386
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -64,7 +64,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: image
@@ -254,7 +254,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, audio
 
 
 - **Output**: video
@@ -619,7 +619,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: LiquidAI/LFM2.5-8B-A1B
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -638,6 +638,8 @@ This catalog provides a comprehensive overview of all together models available 
 - Function calling
 
 - Json output
+
+- Structured output
 
 
 
@@ -699,6 +701,44 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### MiniMaxAI/MiniMax-H3
+
+**Model ID**: `MiniMaxAI/MiniMax-H3`  
+**Family**: MiniMaxAI/MiniMax-H3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: video, audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### MiniMaxAI/MiniMax-M1-40k
 
 **Model ID**: `MiniMaxAI/MiniMax-M1-40k`  
@@ -724,6 +764,8 @@ This catalog provides a comprehensive overview of all together models available 
 - Function calling
 
 - System messages
+
+- Json output
 
 
 
@@ -1067,7 +1109,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: MiniMaxAI/MiniMax-M3
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 524,288 tokens
 
 
 
@@ -1328,7 +1370,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: Qwen/Qwen-Image-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000 tokens
 
 
 
@@ -3186,6 +3228,8 @@ This catalog provides a comprehensive overview of all together models available 
 
 - Function calling
 
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -3645,6 +3689,8 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - System messages
+
+- Function calling
 
 
 
@@ -4852,16 +4898,16 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.25
+- **Standard Input**: $2.5
 
 
-- **Standard Output**: $3.75
+- **Standard Output**: $7.5
 
 
 
 
 
-- **Cached Output**: $0.13
+- **Cached Output**: $0.25
 
 
 
@@ -4931,7 +4977,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: Qwen/Qwen3.8-2.4T-A95B
 #### Specifications
 
-- **Context Window**: 256,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -4995,7 +5041,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image
 
 
 - **Output**: text
@@ -5612,7 +5658,7 @@ This catalog provides a comprehensive overview of all together models available 
 - **Input**: text, image
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities
@@ -5688,7 +5734,7 @@ This catalog provides a comprehensive overview of all together models available 
 - **Input**: text, image
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities
@@ -7914,7 +7960,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: deepseek-ai/DeepSeek-V3.2-Exp
 #### Specifications
 
-- **Context Window**: 163,840 tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8108,16 +8154,71 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.4
+- **Standard Input**: $1.32
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $3.9600000000000004
 
 
 
 
 
-- **Cached Output**: $0.26
+- **Cached Output**: $0.13
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/DeepSeek-V4.1-Flash
+
+**Model ID**: `deepseek-ai/DeepSeek-V4.1-Flash`  
+**Family**: deepseek-ai/DeepSeek-V4.1-Flash
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.006
 
 
 
@@ -8361,10 +8462,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -9259,7 +9356,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image, audio, video
+- **Input**: text, image, audio
 
 
 - **Output**: text
@@ -9362,7 +9459,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: image
@@ -13781,7 +13878,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: nvidia/nemotron-3-ultra-550b-a55b
 #### Specifications
 
-- **Context Window**: 512,300 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -13988,7 +14085,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: openai/gpt-oss-120b
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -15031,7 +15128,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: thinkingmachines/Inkling-Small
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 524,288 tokens
 
 
 
@@ -16020,7 +16117,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: zai-org/GLM-4.6
 #### Specifications
 
-- **Context Window**: 202,752 tokens
+- **Context Window**: 198,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -16387,7 +16484,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: zai-org/GLM-5.2
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -16446,7 +16543,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: zai-org/GLM-5.2-FP8
 #### Specifications
 
-- **Context Window**: 262,144 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -16510,6 +16607,8 @@ This catalog provides a comprehensive overview of all together models available 
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -16564,7 +16663,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: zai-org/GLM-5.3
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -16615,14 +16714,110 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### zai-org/GLM-5.3-FP8
+
+**Model ID**: `zai-org/GLM-5.3-FP8`  
+**Family**: zai-org/GLM-5.3-FP8
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
+### zai-org/GLM-5.3-FP8-Lora
+
+**Model ID**: `zai-org/GLM-5.3-FP8-Lora`  
+**Family**: zai-org/GLM-5.3-FP8-Lora
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.26
+
+
+
+
+
+
+---
+
+
 ### zai-org/GLM-5.3-Flash
 
 **Model ID**: `zai-org/GLM-5.3-Flash`  
 **Family**: zai-org/GLM-5.3-Flash
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities

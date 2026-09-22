@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 104
-- **Last Updated**: 2026-09-21
+- **Total Models**: 107
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -738,6 +738,12 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Function calling
 
+- Structured output
+
+- Assistant prefill
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -746,7 +752,16 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ##### Text Tokens
 
 
+- **Standard Input**: $1.4
 
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
 
 
 
@@ -1504,6 +1519,11 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 
+- **Cached Output**: $0.01
+
+
+
+
 
 
 ---
@@ -1715,7 +1735,16 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ##### Text Tokens
 
 
+- **Standard Input**: $0.39999999999999997
 
+
+- **Standard Output**: $2.0
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 
@@ -2733,6 +2762,11 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 
+- **Cached Output**: $0.15
+
+
+
+
 
 
 ---
@@ -3650,6 +3684,12 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Tool choice
 
+- System messages
+
+- Assistant prefill
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -3663,6 +3703,11 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Standard Output**: $0.6
 
+
+
+
+
+- **Cached Output**: $0.015
 
 
 
@@ -5076,10 +5121,179 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ---
 
 
+### zai-glm-5
+
+**Model ID**: `zai-glm-5`  
+**Family**: zai-glm-5
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
 ### zai-glm-5-2
 
 **Model ID**: `zai-glm-5-2`  
 **Family**: zai-glm-5-2
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### zai-glm-5-3
+
+**Model ID**: `zai-glm-5-3`  
+**Family**: zai-glm-5-3
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.4
+
+
+- **Standard Output**: $4.4
+
+
+
+
+
+- **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### zai-glm-latest
+
+**Model ID**: `zai-glm-latest`  
+**Family**: zai-glm-latest
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens

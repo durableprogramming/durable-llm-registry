@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 24
-- **Last Updated**: 2026-09-21
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -741,8 +741,6 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - Structured output
 
-- Prompt caching
-
 - System messages
 
 
@@ -753,16 +751,11 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $1.0
 
-
-
-
-
-- **Cached Output**: $0.0625
 
 
 

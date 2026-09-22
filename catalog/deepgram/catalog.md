@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepgram models available 
 ## Overview
 
 - **Provider**: deepgram
-- **Total Models**: 143
-- **Last Updated**: 2026-09-21
+- **Total Models**: 144
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -4843,6 +4843,44 @@ This catalog provides a comprehensive overview of all deepgram models available 
 
 **Model ID**: `nova-3-medical`  
 **Family**: nova-3-medical
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### nova-3-pharma
+
+**Model ID**: `nova-3-pharma`  
+**Family**: nova-3-pharma
 #### Specifications
 
 - **Context Window**:  tokens

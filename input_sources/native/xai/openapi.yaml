@@ -3717,6 +3717,16 @@ components:
               Optional input image for image-to-video generation.
               If provided, generates video with this image as the first frame.
               Also accepts `input_reference` for compatibility (same semantics — first frame).
+        keyframes:
+          type: array
+          items:
+            "$ref": "#/components/schemas/VideoKeyframe"
+          description: |-
+            Optional mid-video keyframe anchors, strictly between the endpoint
+            pins (`image` as the first frame, `last_frame` as the last). Each
+            entry pins an image to appear literally at its timestamp. Only
+            supported by select video models; at most 4 entries.
+          maxItems: 4
         model:
           type:
           - string
@@ -8317,6 +8327,23 @@ components:
         version:
           type: string
           description: Version of the model.
+    VideoKeyframe:
+      type: object
+      description: |-
+        A mid-video keyframe anchor: the image appears literally at `timestamp_s`
+        seconds, strictly inside the clip (endpoints use `image` / `last_frame`).
+        Timestamps snap to the engine's keyframe grid (one anchor per 1/3 second).
+      required:
+      - image
+      - timestamp_s
+      properties:
+        image:
+          "$ref": "#/components/schemas/ImageUrl"
+          description: The pinned image.
+        timestamp_s:
+          type: number
+          format: float
+          description: Anchor time in seconds, strictly inside the clip (0 < t < duration).
     VideoOutput:
       type: object
       description: Output destination for generated video.

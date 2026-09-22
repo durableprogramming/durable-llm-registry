@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openai models available th
 ## Overview
 
 - **Provider**: openai
-- **Total Models**: 160
-- **Last Updated**: 2026-09-21
+- **Total Models**: 161
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -6241,6 +6241,48 @@ This catalog provides a comprehensive overview of all openai models available th
 
 
 - **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-live-1
+
+**Model ID**: `gpt-live-1`  
+**Family**: gpt-live-1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

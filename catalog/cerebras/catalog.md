@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cerebras models available 
 ## Overview
 
 - **Provider**: cerebras
-- **Total Models**: 6
-- **Last Updated**: 2026-09-21
+- **Total Models**: 7
+- **Last Updated**: 2026-09-22
 
 ## Models
 
@@ -292,6 +292,66 @@ This catalog provides a comprehensive overview of all cerebras models available 
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### qwen-3.8-27b
+
+**Model ID**: `qwen-3.8-27b`  
+**Family**: qwen-3.8-27b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 40,960 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.9900000000000001
+
+
+- **Standard Output**: $1.49
 
 
 
