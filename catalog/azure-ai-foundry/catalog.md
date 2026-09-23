@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ## Overview
 
 - **Provider**: azure-ai-foundry
-- **Total Models**: 232
-- **Last Updated**: 2026-09-22
+- **Total Models**: 234
+- **Last Updated**: 2026-09-23
 
 ## Models
 
@@ -7545,6 +7545,13 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 
 
+- **Cached Input**: $6.25
+
+
+- **Cached Output**: $0.5
+
+
+
 
 
 
@@ -7686,6 +7693,148 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-5-5
+
+**Model ID**: `claude-opus-5-5`  
+**Family**: claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-opus-5-5-2
+
+**Model ID**: `claude-opus-5-5-2`  
+**Family**: claude-opus-5-5-2
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -7867,7 +8016,18 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ##### Text Tokens
 
 
+- **Standard Input**: $3.0
 
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
 
 
 
@@ -7976,7 +8136,18 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ##### Text Tokens
 
 
+- **Standard Input**: $2.0
 
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

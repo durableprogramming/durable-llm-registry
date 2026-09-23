@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 476
-- **Last Updated**: 2026-09-22
+- **Total Models**: 482
+- **Last Updated**: 2026-09-23
 
 ## Models
 
@@ -7883,6 +7883,152 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### claude-opus-5-5
+
+**Model ID**: `claude-opus-5-5`  
+**Family**: claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf, code
+
+
+- **Output**: text, code
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-opus-5-5-2
+
+**Model ID**: `claude-opus-5-5-2`  
+**Family**: claude-opus-5-5-2
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -16040,6 +16186,274 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### gpt-6-luna
+
+**Model ID**: `gpt-6-luna`  
+**Family**: gpt-6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
+### gpt-6-luna-2026-09-22
+
+**Model ID**: `gpt-6-luna-2026-09-22`  
+**Family**: gpt-6-luna-2026-09-22
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
+### gpt-6-sol
+
+**Model ID**: `gpt-6-sol`  
+**Family**: gpt-6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### gpt-6-sol-2026-09-22
+
+**Model ID**: `gpt-6-sol-2026-09-22`  
+**Family**: gpt-6-sol-2026-09-22
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

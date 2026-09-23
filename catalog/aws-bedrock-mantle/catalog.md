@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ## Overview
 
 - **Provider**: aws-bedrock-mantle
-- **Total Models**: 56
-- **Last Updated**: 2026-09-22
+- **Total Models**: 59
+- **Last Updated**: 2026-09-23
 
 ## Models
 
@@ -254,6 +254,73 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 
+
+
+
+
+
+
+---
+
+
+### anthropic.claude-opus-5-5
+
+**Model ID**: `anthropic.claude-opus-5-5`  
+**Family**: anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Assistant prefill
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -2113,6 +2180,144 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - **Cached Output**: $1.1
+
+
+
+
+
+
+---
+
+
+### openai.gpt-6-luna
+
+**Model ID**: `openai.gpt-6-luna`  
+**Family**: openai.gpt-6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
+
+
+
+
+
+
+---
+
+
+### openai.gpt-6-sol
+
+**Model ID**: `openai.gpt-6-sol`  
+**Family**: openai.gpt-6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+- Cache control
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $11.0
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.22
 
 
 

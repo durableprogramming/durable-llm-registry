@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 87
-- **Last Updated**: 2026-09-22
+- **Last Updated**: 2026-09-23
 
 ## Models
 

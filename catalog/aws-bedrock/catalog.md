@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 233
-- **Last Updated**: 2026-09-22
+- **Total Models**: 242
+- **Last Updated**: 2026-09-23
 
 ## Models
 
@@ -1160,7 +1160,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 8,192 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -1302,10 +1302,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-haiku-20240307-v1:0
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**:  tokens
 
-
-- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -1342,10 +1340,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-sonnet-20240229-v1:0
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**:  tokens
 
-
-- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -2551,6 +2547,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.55
+
+
+
+
+
+
+---
+
+
+### au.anthropic.claude-opus-5-5
+
+**Model ID**: `au.anthropic.claude-opus-5-5`  
+**Family**: au.anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.4
+
+
+- **Standard Output**: $22.0
+
+
+
+
+- **Cached Input**: $5.5
+
+
+- **Cached Output**: $0.22
 
 
 
@@ -4098,6 +4163,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### eu.anthropic.claude-opus-5-5
+
+**Model ID**: `eu.anthropic.claude-opus-5-5`  
+**Family**: eu.anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- System messages
+
+- Mid conversation system messages
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Cache control
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.4
+
+
+- **Standard Output**: $22.0
+
+
+
+
+- **Cached Input**: $5.5
+
+
+- **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
 ### eu.anthropic.claude-sonnet-4-20250514-v1:0
 
 **Model ID**: `eu.anthropic.claude-sonnet-4-20250514-v1:0`  
@@ -5155,6 +5289,73 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### global.anthropic.claude-opus-5-5
+
+**Model ID**: `global.anthropic.claude-opus-5-5`  
+**Family**: global.anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Tool choice
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### global.anthropic.claude-sonnet-4-20250514-v1:0
 
 **Model ID**: `global.anthropic.claude-sonnet-4-20250514-v1:0`  
@@ -5716,6 +5917,136 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### global.openai.gpt-6-luna
+
+**Model ID**: `global.openai.gpt-6-luna`  
+**Family**: global.openai.gpt-6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
+### global.openai.gpt-6-sol
+
+**Model ID**: `global.openai.gpt-6-sol`  
+**Family**: global.openai.gpt-6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -6321,6 +6652,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.55
+
+
+
+
+
+
+---
+
+
+### jp.anthropic.claude-opus-5-5
+
+**Model ID**: `jp.anthropic.claude-opus-5-5`  
+**Family**: jp.anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Assistant prefill
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.4
+
+
+- **Standard Output**: $22.0
+
+
+
+
+- **Cached Input**: $5.5
+
+
+- **Cached Output**: $0.22
 
 
 
@@ -10384,6 +10784,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### us.anthropic.claude-opus-5-5
+
+**Model ID**: `us.anthropic.claude-opus-5-5`  
+**Family**: us.anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Prompt caching
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.4
+
+
+- **Standard Output**: $22.0
+
+
+
+
+- **Cached Input**: $5.5
+
+
+- **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
 ### us.anthropic.claude-sonnet-4-20250514-v1:0
 
 **Model ID**: `us.anthropic.claude-sonnet-4-20250514-v1:0`  
@@ -11543,6 +12012,136 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $1.1
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-6-luna
+
+**Model ID**: `us.openai.gpt-6-luna`  
+**Family**: us.openai.gpt-6-luna
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
+
+
+
+
+
+
+---
+
+
+### us.openai.gpt-6-sol
+
+**Model ID**: `us.openai.gpt-6-sol`  
+**Family**: us.openai.gpt-6-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $11.0
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.22
 
 
 

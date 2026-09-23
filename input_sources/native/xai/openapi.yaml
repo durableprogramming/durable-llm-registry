@@ -2138,8 +2138,9 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ServiceTier"
             description: |-
-              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
-              priority at a higher token price. Valid values: `"auto"` (default), `"priority"`.
+              Processing tier. `"fast"` and `"priority"` are interchangeable: on models with a fast
+              deployment both use it and its rates; otherwise both mean higher scheduling priority at a
+              higher price. Valid: `"auto"`, `"priority"`, `"fast"`.
         stop:
           type:
           - array
@@ -5824,8 +5825,9 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/ServiceTier"
             description: |-
-              Specifies the processing tier for this request. Set to `"priority"` for higher scheduling
-              priority at a higher token price. Valid values: `"auto"` (default), `"priority"`.
+              Processing tier. `"fast"` and `"priority"` are interchangeable: on models with a fast
+              deployment both use it and its rates; otherwise both mean higher scheduling priority at a
+              higher price. Valid: `"auto"`, `"priority"`, `"fast"`.
         store:
           type:
           - boolean
@@ -7550,11 +7552,13 @@ components:
             de-duplication. X search is billed per fetched item.
     ServiceTier:
       type: string
-      description: Processing tier for a request. Determines scheduling priority and
-        billing.
+      description: |-
+        Processing tier for a request. `Fast` and `Priority` are interchangeable: the model's fast
+        deployment and its rates where configured, else higher scheduling priority at a higher price.
       enum:
       - default
       - priority
+      - fast
     ShellCall:
       type: object
       description: A shell command call emitted by the model for local execution.

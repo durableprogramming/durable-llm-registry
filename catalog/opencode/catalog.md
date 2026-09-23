@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 8
-- **Last Updated**: 2026-09-22
+- **Last Updated**: 2026-09-23
 
 ## Models
 
