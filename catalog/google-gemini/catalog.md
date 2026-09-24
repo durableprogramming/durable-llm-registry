@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 87
-- **Last Updated**: 2026-09-23
+- **Total Models**: 89
+- **Last Updated**: 2026-09-24
 
 ## Models
 
@@ -2678,6 +2678,90 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ---
 
 
+### gemini-3.8-flash-lite-tts
+
+**Model ID**: `gemini-3.8-flash-lite-tts`  
+**Family**: gemini-3.8-flash-lite-tts
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+
+
+
+
+
+
+---
+
+
+### gemini-3.8-flash-tts
+
+**Model ID**: `gemini-3.8-flash-tts`  
+**Family**: gemini-3.8-flash-tts
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+
+
+
+
+
+
+---
+
+
 ### gemini-3.8-live
 
 **Model ID**: `gemini-3.8-live`  
@@ -4179,8 +4263,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: lyria-realtime-exp
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities

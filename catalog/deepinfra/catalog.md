@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 270
-- **Last Updated**: 2026-09-23
+- **Total Models**: 273
+- **Last Updated**: 2026-09-24
 
 ## Models
 
@@ -4862,6 +4862,116 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### XiaomiMiMo/MiMo-V2.6-Flash
+
+**Model ID**: `XiaomiMiMo/MiMo-V2.6-Flash`  
+**Family**: XiaomiMiMo/MiMo-V2.6-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.28
+
+
+
+
+
+- **Cached Output**: $0.0028
+
+
+
+
+
+
+---
+
+
+### XiaomiMiMo/MiMo-V2.6-Pro
+
+**Model ID**: `XiaomiMiMo/MiMo-V2.6-Pro`  
+**Family**: XiaomiMiMo/MiMo-V2.6-Pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.435
+
+
+- **Standard Output**: $0.87
+
+
+
+
+
+- **Cached Output**: $0.0035999991
+
+
+
+
+
+
+---
+
+
 ### allenai/Olmo-3.1-32B-Instruct
 
 **Model ID**: `allenai/Olmo-3.1-32B-Instruct`  
@@ -5392,6 +5502,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Standard Output**: $25.0
 
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-opus-5-5
+
+**Model ID**: `anthropic/claude-opus-5-5`  
+**Family**: anthropic/claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

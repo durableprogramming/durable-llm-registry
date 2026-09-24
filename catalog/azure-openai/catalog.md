@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 248
-- **Last Updated**: 2026-09-23
+- **Total Models**: 252
+- **Last Updated**: 2026-09-24
 
 ## Models
 
@@ -8821,6 +8821,51 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-image-2.5-flare-2026-09-08
+
+**Model ID**: `gpt-image-2.5-flare-2026-09-08`  
+**Family**: gpt-image-2.5-flare-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
 ### gpt-image-2.5-sunburst
 
 **Model ID**: `gpt-image-2.5-sunburst`  
@@ -8857,6 +8902,135 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 
 - **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-image-2.5-sunburst-2026-09-08
+
+**Model ID**: `gpt-image-2.5-sunburst-2026-09-08`  
+**Family**: gpt-image-2.5-sunburst-2026-09-08
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $5.0
+
+
+
+
+
+
+- **Cached Output**: $1.25
+
+
+
+
+
+
+---
+
+
+### gpt-live-1
+
+**Model ID**: `gpt-live-1`  
+**Family**: gpt-live-1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### gpt-live-1-2026-09-10
+
+**Model ID**: `gpt-live-1-2026-09-10`  
+**Family**: gpt-live-1-2026-09-10
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, audio
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

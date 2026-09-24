@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 242
-- **Last Updated**: 2026-09-23
+- **Total Models**: 244
+- **Last Updated**: 2026-09-24
 
 ## Models
 
@@ -5655,6 +5655,71 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Standard Input**: $0.12
 
 
+
+
+
+
+
+
+---
+
+
+### global.moonshotai.kimi-k3
+
+**Model ID**: `global.moonshotai.kimi-k3`  
+**Family**: global.moonshotai.kimi-k3
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+- **Cached Input**: $3.75
+
+
+- **Cached Output**: $0.3
 
 
 
@@ -11750,6 +11815,71 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Standard Output**: $6.0
 
+
+
+
+
+
+
+---
+
+
+### us.moonshotai.kimi-k3
+
+**Model ID**: `us.moonshotai.kimi-k3`  
+**Family**: us.moonshotai.kimi-k3
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.3000000000000003
+
+
+- **Standard Output**: $16.5
+
+
+
+
+- **Cached Input**: $4.125
+
+
+- **Cached Output**: $0.33
 
 
 

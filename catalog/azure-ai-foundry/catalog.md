@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 ## Overview
 
 - **Provider**: azure-ai-foundry
-- **Total Models**: 234
-- **Last Updated**: 2026-09-23
+- **Total Models**: 238
+- **Last Updated**: 2026-09-24
 
 ## Models
 
@@ -2837,6 +2837,166 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 
 - **Standard Input**: $5.0
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2.6
+
+**Model ID**: `MAI-Image-2.6`  
+**Family**: MAI-Image-2.6
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2.6-2026-07-31
+
+**Model ID**: `MAI-Image-2.6-2026-07-31`  
+**Family**: MAI-Image-2.6-2026-07-31
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2.6-Flash
+
+**Model ID**: `MAI-Image-2.6-Flash`  
+**Family**: MAI-Image-2.6-Flash
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Image-2.6-Flash-2026-07-31
+
+**Model ID**: `MAI-Image-2.6-Flash-2026-07-31`  
+**Family**: MAI-Image-2.6-Flash-2026-07-31
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
 
 
 

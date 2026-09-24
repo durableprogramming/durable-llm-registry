@@ -1,0 +1,1 @@
+{"name":"jev-1.13.0","family":"jev-1.13.0","provider":"typesafe","id":"jev-1.13.0","context_window":64000,"max_output_tokens":null,"modalities":{"input":["text"],"output":["text"]},"capabilities":[],"pricing":{"text_tokens":{"standard":{"input_per_million":0.041999999999999996,"output_per_million":0.0}}}}
