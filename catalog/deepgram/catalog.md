@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepgram models available 
 
 - **Provider**: deepgram
 - **Total Models**: 144
-- **Last Updated**: 2026-09-24
+- **Last Updated**: 2026-09-25
 
 ## Models
 

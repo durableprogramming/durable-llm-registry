@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 79
-- **Last Updated**: 2026-09-24
+- **Total Models**: 80
+- **Last Updated**: 2026-09-25
 
 ## Models
 
@@ -4237,6 +4237,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Qwen3.8 Flash
 
 **Model ID**: `qwen3.8-flash`  
+**Family**: qwen3.8
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Qwen3.8 Max
+
+**Model ID**: `qwen3.8-max`  
 **Family**: qwen3.8
 #### Specifications
 
