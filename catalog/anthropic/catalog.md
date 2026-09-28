@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 29
-- **Last Updated**: 2026-09-27
+- **Total Models**: 30
+- **Last Updated**: 2026-09-28
 
 ## Models
 
@@ -178,9 +178,9 @@ This catalog provides a comprehensive overview of all anthropic models available
 ---
 
 
-### Claude Sonnet 5
+### Claude Sonnet 5.5
 
-**Model ID**: `claude-sonnet-5`  
+**Model ID**: `claude-sonnet-5-5`  
 **Family**: claude-sonnet
 #### Specifications
 
@@ -1879,6 +1879,81 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 
 - **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-5
+
+**Model ID**: `claude-sonnet-5`  
+**Family**: claude-sonnet-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Assistant prefill
+
+- Structured output
+
+- Json output
+
+- Code execution
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

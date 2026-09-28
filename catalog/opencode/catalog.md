@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 - **Provider**: opencode
 - **Total Models**: 8
-- **Last Updated**: 2026-09-27
+- **Last Updated**: 2026-09-28
 
 ## Models
 
@@ -127,22 +127,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### MiMo V2.5 Free
+### LongCat 2.5 Preview Free
 
-**Model ID**: `mimo-v2.5-free`  
-**Family**: mimo-v2.5-free
+**Model ID**: `longcat-2.5-preview-free`  
+**Family**: longcat
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, audio, image, video
+- **Input**: text, image
 
 
 - **Output**: text
@@ -199,64 +199,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 #### Modalities
 
 
-- **Input**: text, audio, image, video, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### Muse Spark 1.2 Free
-
-**Model ID**: `muse-spark-1.2-contributor-free`  
-**Family**: muse-free
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, audio, image, video, pdf
+- **Input**: text, audio, image, video
 
 
 - **Output**: text
@@ -428,6 +371,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Space Bunny Free
+
+**Model ID**: `space-bunny-free`  
+**Family**: space-bunny-free
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 524,288 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
 
 
 - **Output**: text

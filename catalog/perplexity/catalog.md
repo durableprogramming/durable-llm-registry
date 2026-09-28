@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 24
-- **Last Updated**: 2026-09-27
+- **Total Models**: 25
+- **Last Updated**: 2026-09-28
 
 ## Models
 
@@ -532,6 +532,59 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Standard Output**: $0.28
 
+
+
+
+
+
+
+---
+
+
+### perplexity/sonar
+
+**Model ID**: `perplexity/sonar`  
+**Family**: perplexity/sonar
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+- **Cached Output**: $0.0625
 
 
 
