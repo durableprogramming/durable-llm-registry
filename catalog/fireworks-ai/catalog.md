@@ -7,146 +7,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 16
-- **Last Updated**: 2026-09-28
+- **Total Models**: 10
+- **Last Updated**: 2026-09-29
 
 ## Models
-
-
-### DeepSeek V4 Flash (0731)
-
-**Model ID**: `accounts/fireworks/models/deepseek-v4-flash-0731`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.22
-
-
-- **Standard Output**: $0.66
-
-
-
-
-
-
-
----
-
-
-### DeepSeek V4 Flash Vision Exp
-
-**Model ID**: `accounts/fireworks/models/deepseek-v4-flash-vision-exp`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Vision
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.22
-
-
-- **Standard Output**: $0.66
-
-
-
-
-
-
-
----
-
-
-### DeepSeek V4 Pro (0813)
-
-**Model ID**: `accounts/fireworks/models/deepseek-v4-pro-0813`  
-**Family**: deepseek-v3
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.32
-
-
-- **Standard Output**: $3.96
-
-
-
-
-
-
-
----
 
 
 ### DeepSeek V4.1 Flash
@@ -193,10 +57,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### GLM 5.2
+### Ember-1
 
-**Model ID**: `accounts/fireworks/models/glm-5p2`  
-**Family**: glm-4p5v
+**Model ID**: `accounts/fireworks/models/ember-1`  
+**Family**: ember-1
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -223,10 +87,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.4
+- **Standard Input**: $3.0
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $15.0
 
 
 
@@ -325,94 +189,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
-### Kimi K2.6
-
-**Model ID**: `accounts/fireworks/models/kimi-k2p6`  
-**Family**: kimi-k2
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.95
-
-
-- **Standard Output**: $4.0
-
-
-
-
-
-
-
----
-
-
-### Kimi K2.7 Code
-
-**Model ID**: `accounts/fireworks/models/kimi-k2p7-code`  
-**Family**: kimi-k2
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 20,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.95
-
-
-- **Standard Output**: $4.0
-
-
-
-
-
-
-
----
-
-
 ### Kimi K3
 
 **Model ID**: `accounts/fireworks/models/kimi-k3`  
@@ -491,50 +267,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $1.2
-
-
-
-
-
-
-
----
-
-
-### Muse Glimmer 30B
-
-**Model ID**: `accounts/fireworks/models/muse-glimmer-30b`  
-**Family**: muse-glimmer
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.35
-
-
-- **Standard Output**: $1.5
 
 
 

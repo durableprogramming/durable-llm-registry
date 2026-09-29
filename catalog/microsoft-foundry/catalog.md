@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 482
-- **Last Updated**: 2026-09-28
+- **Total Models**: 484
+- **Last Updated**: 2026-09-29
 
 ## Models
 
@@ -8357,6 +8357,150 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Assistant prefill
 
 - Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-5-5
+
+**Model ID**: `claude-sonnet-5-5`  
+**Family**: claude-sonnet-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- Prompt caching
+
+- Tool choice
+
+- Structured output
+
+- System messages
+
+- Mid conversation system messages
+
+- Json output
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-sonnet-5-5-2
+
+**Model ID**: `claude-sonnet-5-5-2`  
+**Family**: claude-sonnet-5-5-2
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Assistant prefill
 
 
 

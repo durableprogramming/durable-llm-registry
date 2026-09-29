@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 244
-- **Last Updated**: 2026-09-28
+- **Total Models**: 245
+- **Last Updated**: 2026-09-29
 
 ## Models
 
@@ -5594,6 +5594,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Assistant prefill
 
 - Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### global.anthropic.claude-sonnet-5-5
+
+**Model ID**: `global.anthropic.claude-sonnet-5-5`  
+**Family**: global.anthropic.claude-sonnet-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Assistant prefill
 
 
 

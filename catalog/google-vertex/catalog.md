@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 433
-- **Last Updated**: 2026-09-28
+- **Total Models**: 434
+- **Last Updated**: 2026-09-29
 
 ## Models
 
@@ -2448,6 +2448,73 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-sonnet-5-5
+
+**Model ID**: `anthropic/claude-sonnet-5-5`  
+**Family**: anthropic/claude-sonnet-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Mid conversation system messages
+
+- Tool choice
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
