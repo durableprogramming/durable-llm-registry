@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openai models available th
 ## Overview
 
 - **Provider**: openai
-- **Total Models**: 163
-- **Last Updated**: 2026-09-29
+- **Total Models**: 164
+- **Last Updated**: 2026-09-30
 
 ## Models
 
@@ -5534,6 +5534,73 @@ This catalog provides a comprehensive overview of all openai models available th
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### gpt-6.1-sol
+
+**Model ID**: `gpt-6.1-sol`  
+**Family**: gpt-6.1-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.09999999999999999
 
 
 
