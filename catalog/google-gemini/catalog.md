@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 89
-- **Last Updated**: 2026-10-01
+- **Last Updated**: 2026-10-02
 
 ## Models
 
@@ -4223,7 +4223,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: lyria-3.5
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens

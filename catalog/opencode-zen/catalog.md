@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 82
-- **Last Updated**: 2026-10-01
+- **Total Models**: 83
+- **Last Updated**: 2026-10-02
 
 ## Models
 
@@ -3474,6 +3474,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Ling 3.0 Flash Fin Free
 
 **Model ID**: `ling-3.0-flash-fin-free`  
+**Family**: ling
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Ling 3.1 Flash Free
+
+**Model ID**: `ling-3.1-flash-free`  
 **Family**: ling
 #### Specifications
 
