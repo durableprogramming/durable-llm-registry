@@ -2800,7 +2800,9 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/ImageUrl"
-            description: A public URL of image prompt, only available for vision models.
+            description: |-
+              Image prompt. An object `{url, detail}` on chat completions, or a string
+              URL on Responses `input_image`.
         text:
           type:
           - string
@@ -2808,8 +2810,10 @@ components:
           description: Text prompt.
         type:
           type: string
-          description: The type of the content part. Can be `text`, `image_url`, `text_file`
-            or `file`.
+          description: |-
+            The type of the content part. Can be `text`, `image_url`, `text_file` or `file`.
+            `input_text` and `input_image` are accepted so a tool result can use the
+            same content items as `/v1/responses` `function_call_output`.
     ContextDetails:
       type: object
       description: |-
