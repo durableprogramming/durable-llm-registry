@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 434
-- **Last Updated**: 2026-10-06
+- **Total Models**: 450
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -4472,6 +4472,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### deepseek-ai/deepseek-v4.1
+
+**Model ID**: `deepseek-ai/deepseek-v4.1`  
+**Family**: deepseek-ai/deepseek-v4.1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### dito
 
 **Model ID**: `dito`  
@@ -4510,6 +4548,196 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### elevenlabs/elevenlabs-aligner-v1
+
+**Model ID**: `elevenlabs/elevenlabs-aligner-v1`  
+**Family**: elevenlabs/elevenlabs-aligner-v1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### elevenlabs/elevenlabs-scribe-v2
+
+**Model ID**: `elevenlabs/elevenlabs-scribe-v2`  
+**Family**: elevenlabs/elevenlabs-scribe-v2
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### elevenlabs/elevenlabs-scribe-v2-turbo
+
+**Model ID**: `elevenlabs/elevenlabs-scribe-v2-turbo`  
+**Family**: elevenlabs/elevenlabs-scribe-v2-turbo
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### elevenlabs/elevenlabs-stt-v1
+
+**Model ID**: `elevenlabs/elevenlabs-stt-v1`  
+**Family**: elevenlabs/elevenlabs-stt-v1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### elevenlabs/elevenlabs-tts-multilingual-v2
+
+**Model ID**: `elevenlabs/elevenlabs-tts-multilingual-v2`  
+**Family**: elevenlabs/elevenlabs-tts-multilingual-v2
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### elevenlabs/elevenlabs-tts-v2-5
 
 **Model ID**: `elevenlabs/elevenlabs-tts-v2-5`  
@@ -4527,6 +4755,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### elevenlabs/elevenlabs-turn-v1
+
+**Model ID**: `elevenlabs/elevenlabs-turn-v1`  
+**Family**: elevenlabs/elevenlabs-turn-v1
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
 
 
 #### Capabilities
@@ -8588,7 +8854,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, pdf
 
 
 - **Output**: text, image
@@ -8598,6 +8864,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - System messages
+
+- Prompt caching
 
 
 
@@ -8612,6 +8880,11 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $12.0
 
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 
@@ -9565,6 +9838,58 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/gemini-3.8-live
+
+**Model ID**: `google/gemini-3.8-live`  
+**Family**: google/gemini-3.8-live
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text, audio
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $4.5
+
+
+
+
+
+
+
+---
+
+
 ### google/gemini-embedding-001
 
 **Model ID**: `google/gemini-embedding-001`  
@@ -9726,6 +10051,61 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $2.0
 
+
+
+
+
+
+
+---
+
+
+### google/gemini-nano-banana-2.1
+
+**Model ID**: `google/gemini-nano-banana-2.1`  
+**Family**: google/gemini-nano-banana-2.1
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, pdf
+
+
+- **Output**: text, image
+
+
+#### Capabilities
+
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $7.5
+
+
+
+
+
+- **Cached Output**: $0.15
 
 
 
@@ -12910,6 +13290,10 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
+- **Standard Input**: $0.015
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -12950,6 +13334,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Input**: $0.024999999999999998
 
+
+- **Standard Output**: $0.0
 
 
 
@@ -16204,6 +16590,82 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### nvidia/cosmos-3
+
+**Model ID**: `nvidia/cosmos-3`  
+**Family**: nvidia/cosmos-3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: video, image, audio, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### nvidia/cosmos3
+
+**Model ID**: `nvidia/cosmos3`  
+**Family**: nvidia/cosmos3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### nvidia/cosmos3-nano
 
 **Model ID**: `nvidia/cosmos3-nano`  
@@ -16290,6 +16752,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### nvidia/nemotron-3
+
+**Model ID**: `nvidia/nemotron-3`  
+**Family**: nvidia/nemotron-3
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### nvidia/nemotron-3-super
 
 **Model ID**: `nvidia/nemotron-3-super`  
@@ -16323,6 +16823,52 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Structured output
 
 - Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### nvidia/nemotron-3.5
+
+**Model ID**: `nvidia/nemotron-3.5`  
+**Family**: nvidia/nemotron-3.5
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
 
 - System messages
 
@@ -16467,6 +17013,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - System messages
 
 - Tool choice
+
+- Structured output
 
 
 
@@ -17597,6 +18145,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### qwen/qwen3.8
+
+**Model ID**: `qwen/qwen3.8`  
+**Family**: qwen/qwen3.8
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
 
 
 #### Pricing (per million tokens)
@@ -19619,7 +20205,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: xai/grok-4.3
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -19728,6 +20314,50 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### xai/grok-4.7
+
+**Model ID**: `xai/grok-4.7`  
+**Family**: xai/grok-4.7
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -19863,6 +20493,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Standard Output**: $2.2
+
+
+
+
+
+
+
+---
+
+
+### zai-org/glm-4.7-flash
+
+**Model ID**: `zai-org/glm-4.7-flash`  
+**Family**: zai-org/glm-4.7-flash
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 
@@ -20265,10 +20933,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: zai-org/glm-ocr
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
-
-- **Max Output Tokens**: 8,192 tokens
 
 
 #### Modalities

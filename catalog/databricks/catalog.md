@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 68
-- **Last Updated**: 2026-10-06
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -1520,13 +1520,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Standard Output**: $180.0
 
-
-
-
-- **Cached Input**: $30.0
-
-
-- **Cached Output**: $30.0
 
 
 

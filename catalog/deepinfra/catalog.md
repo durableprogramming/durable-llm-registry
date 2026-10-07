@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 273
-- **Last Updated**: 2026-10-06
+- **Total Models**: 275
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -4139,16 +4139,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19999999999999998
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $1.875
 
 
 
 
 
-- **Cached Output**: $0.049999999999999996
+- **Cached Output**: $0.038000000000000006
 
 
 
@@ -4226,7 +4226,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -5652,6 +5652,54 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-sonnet-5-5
+
+**Model ID**: `anthropic/claude-sonnet-5-5`  
+**Family**: anthropic/claude-sonnet-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
 
 
 
@@ -7950,10 +7998,10 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.13
+- **Standard Input**: $0.19999999999999998
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.39999999999999997
 
 
 
@@ -7982,7 +8030,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -10708,7 +10756,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: text
@@ -10827,11 +10875,11 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Capabilities
 
 
-- Prompt caching
-
 - Function calling
 
 - Json output
+
+- Prompt caching
 
 
 
@@ -10841,16 +10889,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.19999999999999998
+- **Standard Output**: $0.16
 
 
 
 
 
-- **Cached Output**: $0.04
+- **Cached Output**: $0.03
 
 
 
@@ -11987,16 +12035,71 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.13
 
 
-- **Standard Output**: $0.58
+- **Standard Output**: $0.53
 
 
 
 
 
-- **Cached Output**: $0.035
+- **Cached Output**: $0.032999999999999995
+
+
+
+
+
+
+---
+
+
+### tencent/Hy4-preview
+
+**Model ID**: `tencent/Hy4-preview`  
+**Family**: tencent/Hy4-preview
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.834
+
+
+- **Standard Output**: $2.501
+
+
+
+
+
+- **Cached Output**: $0.04199999814
 
 
 
@@ -12613,16 +12716,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.5630000000000001
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $1.7999999999999998
 
 
 
 
 
-- **Cached Output**: $0.14
+- **Cached Output**: $0.105
 
 
 
@@ -12668,16 +12771,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $1.2
+- **Standard Input**: $0.5630000000000001
 
 
-- **Standard Output**: $4.0
+- **Standard Output**: $2.5
 
 
 
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.125
 
 
 

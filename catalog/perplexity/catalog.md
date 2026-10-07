@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 74
-- **Last Updated**: 2026-10-06
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -2706,6 +2706,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 - Structured output
 
 - System messages
+
+- Json output
 
 
 

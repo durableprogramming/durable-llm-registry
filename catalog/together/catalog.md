@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 386
-- **Last Updated**: 2026-10-06
+- **Total Models**: 387
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -371,7 +371,7 @@ This catalog provides a comprehensive overview of all together models available 
 - **Input**: text
 
 
-- **Output**: video
+- **Output**: video, audio
 
 
 #### Capabilities
@@ -4363,7 +4363,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -4898,16 +4898,16 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $1.5
 
 
-- **Standard Output**: $7.5
+- **Standard Output**: $4.5
 
 
 
 
 
-- **Cached Output**: $0.25
+- **Cached Output**: $0.3
 
 
 
@@ -5746,10 +5746,6 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -6261,7 +6257,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: image
@@ -8097,16 +8093,16 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.74
+- **Standard Input**: $1.32
 
 
-- **Standard Output**: $3.48
+- **Standard Output**: $3.9600000000000004
 
 
 
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.13
 
 
 
@@ -9404,7 +9400,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image, audio
+- **Input**: text, image, audio, video
 
 
 - **Output**: text
@@ -15437,6 +15433,57 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### together/Tev1-4B-experimental
+
+**Model ID**: `together/Tev1-4B-experimental`  
+**Family**: together/Tev1-4B-experimental
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.041999999999999996
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+- **Cached Output**: $0.041999999999999996
+
+
+
+
+
+
+---
+
+
 ### togethercomputer/CodeLlama-34b-Instruct
 
 **Model ID**: `togethercomputer/CodeLlama-34b-Instruct`  
@@ -16663,7 +16710,7 @@ This catalog provides a comprehensive overview of all together models available 
 **Family**: zai-org/GLM-5.3
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,048,575 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens

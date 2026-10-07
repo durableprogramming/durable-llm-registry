@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 107
-- **Last Updated**: 2026-10-06
+- **Total Models**: 109
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -1496,6 +1496,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Json output
 
+- Assistant prefill
+
 
 
 #### Pricing (per million tokens)
@@ -1721,6 +1723,12 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Function calling
 
+- Structured output
+
+- Prompt caching
+
+- Assistant prefill
+
 
 
 #### Pricing (per million tokens)
@@ -1872,7 +1880,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Input**: text
 
 
-- **Output**: text
+- **Output**: embedding
 
 
 #### Capabilities
@@ -2228,6 +2236,92 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Cached Output**: $0.049999999999999996
+
+
+
+
+
+
+---
+
+
+### mistral-large-4
+
+**Model ID**: `mistral-large-4`  
+**Family**: mistral-large-4
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### mistral-large-4-0
+
+**Model ID**: `mistral-large-4-0`  
+**Family**: mistral-large-4-0
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -5026,7 +5120,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 #### Modalities
 
 
-- **Input**: audio
+- **Input**: audio, text
 
 
 - **Output**: text
@@ -5036,6 +5130,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - Function calling
+
+- Structured output
 
 
 
@@ -5048,7 +5144,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Standard Input**: $0.09999999999999999
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.39999999999999997
 
 
 
@@ -5138,6 +5234,10 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - Function calling
 
 - Structured output
+
+- Assistant prefill
+
+- Prompt caching
 
 
 

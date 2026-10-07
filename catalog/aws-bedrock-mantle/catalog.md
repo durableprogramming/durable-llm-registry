@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ## Overview
 
 - **Provider**: aws-bedrock-mantle
-- **Total Models**: 59
-- **Last Updated**: 2026-10-06
+- **Total Models**: 60
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -1355,6 +1355,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -1458,6 +1460,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - Tool choice
 
 - System messages
+
+- Structured output
 
 
 
@@ -1609,6 +1613,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -1754,8 +1760,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.4-2026-03-05
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -1815,8 +1823,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.5
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -1868,8 +1878,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.5-2026-04-23
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -1996,8 +2008,10 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.6-sol
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -2057,7 +2071,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: openai.gpt-5.6-terra
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,050,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -2318,6 +2332,73 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
+### openai.gpt-6.1-sol
+
+**Model ID**: `openai.gpt-6.1-sol`  
+**Family**: openai.gpt-6.1-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- System messages
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $11.0
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.11
 
 
 

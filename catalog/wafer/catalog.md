@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - **Provider**: wafer
 - **Total Models**: 20
-- **Last Updated**: 2026-10-06
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -98,6 +98,12 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - Function calling
 
+- Structured output
+
+- Json output
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -106,16 +112,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.98
+- **Standard Input**: $0.39
 
 
-- **Standard Output**: $2.9000000000000004
+- **Standard Output**: $3.49
 
 
 
 
 
-- **Cached Output**: $0.032999999999999995
+- **Cached Output**: $0.3159
 
 
 
@@ -281,7 +287,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $1.4
+- **Standard Input**: $0.22999999999999998
 
 
 - **Standard Output**: $4.4
@@ -290,7 +296,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 
-- **Cached Output**: $0.26
+- **Cached Output**: $0.1871
 
 
 
@@ -342,16 +348,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $1.19
+- **Standard Input**: $0.22
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $3.39
 
 
 
 
 
-- **Cached Output**: $0.26
+- **Cached Output**: $0.1775
 
 
 
@@ -551,6 +557,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
@@ -580,16 +588,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0999999999999996
+- **Standard Input**: $1.44
 
 
-- **Standard Output**: $10.950000000000001
+- **Standard Output**: $9.0
 
 
 
 
 
-- **Cached Output**: $0.21
+- **Cached Output**: $0.3
 
 
 
@@ -789,7 +797,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -818,16 +826,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $4.4
 
 
 
 
 
-- **Cached Output**: $0.049999999999999996
+- **Cached Output**: $0.0199
 
 
 

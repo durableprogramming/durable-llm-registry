@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ## Overview
 
 - **Provider**: cohere
-- **Total Models**: 40
-- **Last Updated**: 2026-10-06
+- **Total Models**: 42
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -83,6 +83,10 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 
 #### Capabilities
+
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -1207,6 +1211,90 @@ This catalog provides a comprehensive overview of all cohere models available th
 ---
 
 
+### embed-v5.0-fast
+
+**Model ID**: `embed-v5.0-fast`  
+**Family**: embed-v5.0-fast
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.08
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### embed-v5.0-pro
+
+**Model ID**: `embed-v5.0-pro`  
+**Family**: embed-v5.0-pro
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.12
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### north-mini-code-1-0
 
 **Model ID**: `north-mini-code-1-0`  
@@ -1263,7 +1351,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 **Family**: north-small-translate-09-2026
 #### Specifications
 
-- **Context Window**: 32,768 tokens
+- **Context Window**: 16,000 tokens
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 89
-- **Last Updated**: 2026-10-06
+- **Total Models**: 91
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -111,6 +111,73 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 
+
+
+
+
+
+
+---
+
+
+### antigravity-preview-latest
+
+**Model ID**: `antigravity-preview-latest`  
+**Family**: antigravity-preview-latest
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Code execution
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.75
+
+
+- **Standard Output**: $3.75
+
+
+
+
+
+- **Cached Output**: $0.075
 
 
 
@@ -1757,6 +1824,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - System messages
 
+- Function calling
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2702,6 +2773,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Capabilities
 
 
+- Prompt caching
+
+
+
 #### Pricing (per million tokens)
 
 
@@ -2711,6 +2786,11 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Standard Input**: $0.5
 
 
+
+
+
+
+- **Cached Output**: $0.125
 
 
 
@@ -2744,6 +2824,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Capabilities
 
 
+- Prompt caching
+
+
+
 #### Pricing (per million tokens)
 
 
@@ -2753,6 +2837,11 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Standard Input**: $0.5
 
 
+
+
+
+
+- **Cached Output**: $0.125
 
 
 
@@ -3109,6 +3198,46 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 - **Cached Output**: $0.024999999999999998
+
+
+
+
+
+
+---
+
+
+### gemini-nano-banana-2.1
+
+**Model ID**: `gemini-nano-banana-2.1`  
+**Family**: gemini-nano-banana-2.1
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -3476,10 +3605,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $2.0
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $10.0
+- **Standard Output**: $5.0
 
 
 

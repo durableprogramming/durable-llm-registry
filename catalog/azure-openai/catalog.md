@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ## Overview
 
 - **Provider**: azure-openai
-- **Total Models**: 252
-- **Last Updated**: 2026-10-06
+- **Total Models**: 254
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -3682,7 +3682,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $0.6
 
 
 - **Standard Output**: $10.0
@@ -3724,7 +3724,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $0.6
 
 
 - **Standard Output**: $10.0
@@ -3766,7 +3766,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $0.6
 
 
 - **Standard Output**: $10.0
@@ -6226,7 +6226,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-5.4
 #### Specifications
 
-- **Context Window**: 1,050,000 tokens
+- **Context Window**: 922,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -7699,6 +7699,140 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ---
 
 
+### gpt-6.1-sol
+
+**Model ID**: `gpt-6.1-sol`  
+**Family**: gpt-6.1-sol
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### gpt-6.1-sol-2026-09-29
+
+**Model ID**: `gpt-6.1-sol-2026-09-29`  
+**Family**: gpt-6.1-sol-2026-09-29
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+- **Cached Input**: $2.5
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
 ### gpt-audio
 
 **Model ID**: `gpt-audio`  
@@ -8711,8 +8845,6 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 - **Standard Input**: $5.0
 
 
-- **Standard Output**: $10.0
-
 
 
 
@@ -9046,7 +9178,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-live-transcribe
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 32,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -9086,7 +9218,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-live-transcribe-2026-07-28
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 32,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -10124,8 +10256,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-realtime-whisper-2-2026-07-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities

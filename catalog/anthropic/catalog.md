@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 30
-- **Last Updated**: 2026-10-06
+- **Total Models**: 31
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -68,16 +68,16 @@ This catalog provides a comprehensive overview of all anthropic models available
 ---
 
 
-### Claude Haiku 4.5
+### Claude Haiku 5.5
 
-**Model ID**: `claude-haiku-4-5-20251001`  
+**Model ID**: `claude-haiku-5-5`  
 **Family**: claude-haiku
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 64,000 tokens
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -102,18 +102,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.1
 
 
 
 
-- **Cached Input**: $1.25
+- **Cached Input**: $0.125
 
 
-- **Cached Output**: $1.0
+- **Cached Output**: $0.1
 
 
 
@@ -977,6 +977,75 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Assistant prefill
 
 - System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### claude-haiku-4-5-20251001
+
+**Model ID**: `claude-haiku-4-5-20251001`  
+**Family**: claude-haiku-4-5-20251001
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Structured output
+
+- Assistant prefill
 
 
 

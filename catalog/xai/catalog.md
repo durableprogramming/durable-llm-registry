@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all xai models available throu
 ## Overview
 
 - **Provider**: xai
-- **Total Models**: 93
-- **Last Updated**: 2026-10-06
+- **Total Models**: 94
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -3838,7 +3838,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text
 
 
 - **Output**: text
@@ -4919,6 +4919,44 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 **Model ID**: `grok-imagine-video-1.5-2026-05-30`  
 **Family**: grok-imagine-video-1.5-2026-05-30
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: video
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### grok-imagine-video-1.5-lite
+
+**Model ID**: `grok-imagine-video-1.5-lite`  
+**Family**: grok-imagine-video-1.5-lite
 #### Specifications
 
 - **Context Window**:  tokens

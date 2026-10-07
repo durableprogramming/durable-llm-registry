@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - **Provider**: groq
 - **Total Models**: 24
-- **Last Updated**: 2026-10-06
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -1069,7 +1069,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 **Family**: qwen/qwen3.8-27b
 #### Specifications
 
-- **Context Window**: 131,042 tokens
+- **Context Window**: 131,072 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens

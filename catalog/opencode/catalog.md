@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 8
-- **Last Updated**: 2026-10-06
+- **Total Models**: 10
+- **Last Updated**: 2026-10-07
 
 ## Models
 
@@ -70,9 +70,123 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
+### Fledge Alpha Free
+
+**Model ID**: `fledge-alpha-free`  
+**Family**: fledge-alpha-free
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
 ### Ling 3.0 Flash Fin Free
 
 **Model ID**: `ling-3.0-flash-fin-free`  
+**Family**: ling
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Ling 3.1 Flash Free
+
+**Model ID**: `ling-3.1-flash-free`  
 **Family**: ling
 #### Specifications
 
