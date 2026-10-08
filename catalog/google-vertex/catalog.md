@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 450
-- **Last Updated**: 2026-10-07
+- **Total Models**: 451
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -1171,6 +1171,77 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.11
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-haiku-5-5
+
+**Model ID**: `anthropic/claude-haiku-5-5`  
+**Family**: anthropic/claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
 
 
 

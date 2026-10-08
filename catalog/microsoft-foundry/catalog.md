@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 503
-- **Last Updated**: 2026-10-07
+- **Total Models**: 505
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -7681,6 +7681,148 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### claude-haiku-5-5
+
+**Model ID**: `claude-haiku-5-5`  
+**Family**: claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
+### claude-haiku-5-5-2
+
+**Model ID**: `claude-haiku-5-5-2`  
+**Family**: claude-haiku-5-5-2
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
 
 
 

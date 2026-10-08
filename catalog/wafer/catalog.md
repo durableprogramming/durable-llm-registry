@@ -7,10 +7,69 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 20
-- **Last Updated**: 2026-10-07
+- **Total Models**: 21
+- **Last Updated**: 2026-10-08
 
 ## Models
+
+
+### DeepSeek-V4-Flash-0423
+
+**Model ID**: `DeepSeek-V4-Flash-0423`  
+**Family**: DeepSeek-V4-Flash-0423
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.07
+
+
+- **Standard Output**: $0.25
+
+
+
+
+
+- **Cached Output**: $0.02
+
+
+
+
+
+
+---
 
 
 ### DeepSeek-V4-Flash-0731-Fast
@@ -411,16 +470,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09999999999999999
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.35
+- **Standard Output**: $0.5
 
 
 
 
 
-- **Cached Output**: $0.02
+- **Cached Output**: $0.03
 
 
 

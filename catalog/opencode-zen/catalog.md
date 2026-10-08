@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 86
-- **Last Updated**: 2026-10-07
+- **Total Models**: 88
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -175,6 +175,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `claude-haiku-4-5`  
 **Family**: claude-haiku-4
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Claude Haiku 5.5
+
+**Model ID**: `claude-haiku-5-5`  
+**Family**: claude-haiku-5
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -721,6 +776,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Claude Sonnet 5.5
+
+**Model ID**: `claude-sonnet-5-5`  
+**Family**: claude-sonnet-5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### DeepSeek V4 Flash
 
 **Model ID**: `deepseek-v4-flash`  
@@ -945,54 +1055,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `exo-free`  
 **Family**: exo
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Fledge Alpha Free
-
-**Model ID**: `fledge-alpha-free`  
-**Family**: fledge
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -4664,6 +4726,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `space-bunny-free`  
 **Family**: space
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Step 5 Preview Free
+
+**Model ID**: `step-5-preview-free`  
+**Family**: step
 #### Specifications
 
 - **Context Window**: 128,000 tokens

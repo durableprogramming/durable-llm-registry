@@ -8385,6 +8385,8 @@ components:
       - '3:4'
       - '3:2'
       - '2:3'
+      - '21:9'
+      - '5:2'
     VideoError:
       type: object
       description: Structured error returned when video generation fails.

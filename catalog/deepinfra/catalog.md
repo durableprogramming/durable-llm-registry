@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 275
-- **Last Updated**: 2026-10-07
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -8494,7 +8494,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 
-- **Cached Output**: $0.0075
+- **Cached Output**: $0.008
 
 
 

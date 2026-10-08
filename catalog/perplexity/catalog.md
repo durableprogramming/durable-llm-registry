@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 74
-- **Last Updated**: 2026-10-07
+- **Total Models**: 75
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -171,6 +171,63 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### anthropic/claude-haiku-5-5
+
+**Model ID**: `anthropic/claude-haiku-5-5`  
+**Family**: anthropic/claude-haiku-5-5
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Mid conversation system messages
+
+- Structured output
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.01
 
 
 

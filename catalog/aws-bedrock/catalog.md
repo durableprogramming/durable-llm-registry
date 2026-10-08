@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 264
-- **Last Updated**: 2026-10-07
+- **Total Models**: 270
+- **Last Updated**: 2026-10-08
 
 ## Models
 
@@ -1571,6 +1571,73 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### anthropic.claude-opus-5-5
+
+**Model ID**: `anthropic.claude-opus-5-5`  
+**Family**: anthropic.claude-opus-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Tool choice
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.0
+
+
+- **Standard Output**: $20.0
+
+
+
+
+- **Cached Input**: $5.0
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### anthropic.claude-sonnet-4-6
 
 **Model ID**: `anthropic.claude-sonnet-4-6`  
@@ -2457,6 +2524,77 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.11
+
+
+
+
+
+
+---
+
+
+### au.anthropic.claude-haiku-5-5
+
+**Model ID**: `au.anthropic.claude-haiku-5-5`  
+**Family**: au.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
 
 
 
@@ -4016,6 +4154,77 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### eu.anthropic.claude-haiku-5-5
+
+**Model ID**: `eu.anthropic.claude-haiku-5-5`  
+**Family**: eu.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
+
+
+
+
+
+
+---
+
+
 ### eu.anthropic.claude-opus-4-5-20251101-v1:0
 
 **Model ID**: `eu.anthropic.claude-opus-4-5-20251101-v1:0`  
@@ -5202,6 +5411,77 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### global.anthropic.claude-haiku-5-5
+
+**Model ID**: `global.anthropic.claude-haiku-5-5`  
+**Family**: global.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.5
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.01
 
 
 
@@ -6479,6 +6759,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Json output
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -6543,6 +6825,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Json output
+
+- Structured output
 
 
 
@@ -7462,6 +7746,77 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.11
+
+
+
+
+
+
+---
+
+
+### jp.anthropic.claude-haiku-5-5
+
+**Model ID**: `jp.anthropic.claude-haiku-5-5`  
+**Family**: jp.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
 
 
 
@@ -11261,6 +11616,77 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### us.anthropic.claude-haiku-5-5
+
+**Model ID**: `us.anthropic.claude-haiku-5-5`  
+**Family**: us.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
+
+
+
+
+
+
+---
+
+
 ### us.anthropic.claude-opus-4-1-20250805-v1:0
 
 **Model ID**: `us.anthropic.claude-opus-4-1-20250805-v1:0`  
@@ -13263,6 +13689,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Json output
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -13327,6 +13755,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Json output
+
+- Structured output
 
 
 

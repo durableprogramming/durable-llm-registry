@@ -8,15 +8,15 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 - **Provider**: truefoundry-models
 - **Total Models**: 22
-- **Last Updated**: 2026-10-07
+- **Last Updated**: 2026-10-08
 
 ## Models
 
 
-### truerouter-curated/claude-haiku-4-5-20251001
+### tfy-managed/claude-haiku-4-5-20251001
 
-**Model ID**: `truerouter-curated/claude-haiku-4-5-20251001`  
-**Family**: truerouter-curated/claude-haiku-4-5-20251001
+**Model ID**: `tfy-managed/claude-haiku-4-5-20251001`  
+**Family**: tfy-managed/claude-haiku-4-5-20251001
 #### Specifications
 
 - **Context Window**: 200,000 tokens
@@ -82,10 +82,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/claude-opus-5-5
+### tfy-managed/claude-opus-5-5
 
-**Model ID**: `truerouter-curated/claude-opus-5-5`  
-**Family**: truerouter-curated/claude-opus-5-5
+**Model ID**: `tfy-managed/claude-opus-5-5`  
+**Family**: tfy-managed/claude-opus-5-5
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -157,10 +157,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/claude-sonnet-5-5
+### tfy-managed/claude-sonnet-5-5
 
-**Model ID**: `truerouter-curated/claude-sonnet-5-5`  
-**Family**: truerouter-curated/claude-sonnet-5-5
+**Model ID**: `tfy-managed/claude-sonnet-5-5`  
+**Family**: tfy-managed/claude-sonnet-5-5
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -232,10 +232,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/deepseek-v4-flash-0731
+### tfy-managed/deepseek-v4-flash-0731
 
-**Model ID**: `truerouter-curated/deepseek-v4-flash-0731`  
-**Family**: truerouter-curated/deepseek-v4-flash-0731
+**Model ID**: `tfy-managed/deepseek-v4-flash-0731`  
+**Family**: tfy-managed/deepseek-v4-flash-0731
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -283,7 +283,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
-- **Cached Output**: $0.0028
+- **Cached Output**: $0.03
 
 
 
@@ -293,10 +293,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/deepseek-v4-pro-0813
+### tfy-managed/deepseek-v4-pro-0813
 
-**Model ID**: `truerouter-curated/deepseek-v4-pro-0813`  
-**Family**: truerouter-curated/deepseek-v4-pro-0813
+**Model ID**: `tfy-managed/deepseek-v4-pro-0813`  
+**Family**: tfy-managed/deepseek-v4-pro-0813
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -335,16 +335,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.1880000000000002
+- **Standard Input**: $1.32
 
 
-- **Standard Output**: $3.564
+- **Standard Output**: $3.9600000000000004
 
 
 
 
 
-- **Cached Output**: $0.039599999999999996
+- **Cached Output**: $0.13199999999999998
 
 
 
@@ -354,10 +354,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/deepseek-v4.1-flash
+### tfy-managed/deepseek-v4.1-flash
 
-**Model ID**: `truerouter-curated/deepseek-v4.1-flash`  
-**Family**: truerouter-curated/deepseek-v4.1-flash
+**Model ID**: `tfy-managed/deepseek-v4.1-flash`  
+**Family**: tfy-managed/deepseek-v4.1-flash
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -405,7 +405,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
-- **Cached Output**: $0.006
+- **Cached Output**: $0.007
 
 
 
@@ -415,10 +415,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/glm-5.3
+### tfy-managed/glm-5.3
 
-**Model ID**: `truerouter-curated/glm-5.3`  
-**Family**: truerouter-curated/glm-5.3
+**Model ID**: `tfy-managed/glm-5.3`  
+**Family**: tfy-managed/glm-5.3
 #### Specifications
 
 - **Context Window**: 1,310,720 tokens
@@ -459,16 +459,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9099999999999999
+- **Standard Input**: $1.4
 
 
-- **Standard Output**: $2.8600000000000003
+- **Standard Output**: $4.4
 
 
 
 
 
-- **Cached Output**: $0.16899999999999998
+- **Cached Output**: $0.26
 
 
 
@@ -478,10 +478,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/glm-5.3-flash
+### tfy-managed/glm-5.3-flash
 
-**Model ID**: `truerouter-curated/glm-5.3-flash`  
-**Family**: truerouter-curated/glm-5.3-flash
+**Model ID**: `tfy-managed/glm-5.3-flash`  
+**Family**: tfy-managed/glm-5.3-flash
 #### Specifications
 
 - **Context Window**: 1,310,720 tokens
@@ -520,16 +520,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.5
 
 
 
 
 
-- **Cached Output**: $0.018
+- **Cached Output**: $0.03
 
 
 
@@ -539,10 +539,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/gpt-6-astra
+### tfy-managed/gpt-6-astra
 
-**Model ID**: `truerouter-curated/gpt-6-astra`  
-**Family**: truerouter-curated/gpt-6-astra
+**Model ID**: `tfy-managed/gpt-6-astra`  
+**Family**: tfy-managed/gpt-6-astra
 #### Specifications
 
 - **Context Window**: 1,050,000 tokens
@@ -606,10 +606,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/gpt-6-luna
+### tfy-managed/gpt-6-luna
 
-**Model ID**: `truerouter-curated/gpt-6-luna`  
-**Family**: truerouter-curated/gpt-6-luna
+**Model ID**: `tfy-managed/gpt-6-luna`  
+**Family**: tfy-managed/gpt-6-luna
 #### Specifications
 
 - **Context Window**: 1,050,000 tokens
@@ -673,10 +673,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/gpt-6.1-sol
+### tfy-managed/gpt-6.1-sol
 
-**Model ID**: `truerouter-curated/gpt-6.1-sol`  
-**Family**: truerouter-curated/gpt-6.1-sol
+**Model ID**: `tfy-managed/gpt-6.1-sol`  
+**Family**: tfy-managed/gpt-6.1-sol
 #### Specifications
 
 - **Context Window**: 1,050,000 tokens
@@ -740,10 +740,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/gpt-oss-120b
+### tfy-managed/gpt-oss-120b
 
-**Model ID**: `truerouter-curated/gpt-oss-120b`  
-**Family**: truerouter-curated/gpt-oss-120b
+**Model ID**: `tfy-managed/gpt-oss-120b`  
+**Family**: tfy-managed/gpt-oss-120b
 #### Specifications
 
 - **Context Window**: 131,072 tokens
@@ -778,11 +778,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.039
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.19
+- **Standard Output**: $0.6
 
+
+
+
+
+- **Cached Output**: $0.15
 
 
 
@@ -792,10 +797,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/grok-4.7
+### tfy-managed/grok-4.7
 
-**Model ID**: `truerouter-curated/grok-4.7`  
-**Family**: truerouter-curated/grok-4.7
+**Model ID**: `tfy-managed/grok-4.7`  
+**Family**: tfy-managed/grok-4.7
 #### Specifications
 
 - **Context Window**: 500,000 tokens
@@ -851,10 +856,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/kimi-k2.7-code
+### tfy-managed/kimi-k2.7-code
 
-**Model ID**: `truerouter-curated/kimi-k2.7-code`  
-**Family**: truerouter-curated/kimi-k2.7-code
+**Model ID**: `tfy-managed/kimi-k2.7-code`  
+**Family**: tfy-managed/kimi-k2.7-code
 #### Specifications
 
 - **Context Window**: 262,144 tokens
@@ -912,10 +917,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/kimi-k3
+### tfy-managed/kimi-k3
 
-**Model ID**: `truerouter-curated/kimi-k3`  
-**Family**: truerouter-curated/kimi-k3
+**Model ID**: `tfy-managed/kimi-k3`  
+**Family**: tfy-managed/kimi-k3
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -975,10 +980,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/mimo-v2.6-flash
+### tfy-managed/mimo-v2.6-flash
 
-**Model ID**: `truerouter-curated/mimo-v2.6-flash`  
-**Family**: truerouter-curated/mimo-v2.6-flash
+**Model ID**: `tfy-managed/mimo-v2.6-flash`  
+**Family**: tfy-managed/mimo-v2.6-flash
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -1017,16 +1022,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.14
+- **Standard Input**: $0.154
 
 
-- **Standard Output**: $0.28
+- **Standard Output**: $0.305
 
 
 
 
 
-- **Cached Output**: $0.0028
+- **Cached Output**: $0.003
 
 
 
@@ -1036,10 +1041,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/mimo-v2.6-pro
+### tfy-managed/mimo-v2.6-pro
 
-**Model ID**: `truerouter-curated/mimo-v2.6-pro`  
-**Family**: truerouter-curated/mimo-v2.6-pro
+**Model ID**: `tfy-managed/mimo-v2.6-pro`  
+**Family**: tfy-managed/mimo-v2.6-pro
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -1078,16 +1083,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.435
+- **Standard Input**: $0.456
 
 
-- **Standard Output**: $0.87
+- **Standard Output**: $0.918
 
 
 
 
 
-- **Cached Output**: $0.0036
+- **Cached Output**: $0.004
 
 
 
@@ -1097,10 +1102,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/minimax-m3
+### tfy-managed/minimax-m3
 
-**Model ID**: `truerouter-curated/minimax-m3`  
-**Family**: truerouter-curated/minimax-m3
+**Model ID**: `tfy-managed/minimax-m3`  
+**Family**: tfy-managed/minimax-m3
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -1160,10 +1165,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/nemotron-3-ultra
+### tfy-managed/nemotron-3-ultra
 
-**Model ID**: `truerouter-curated/nemotron-3-ultra`  
-**Family**: truerouter-curated/nemotron-3-ultra
+**Model ID**: `tfy-managed/nemotron-3-ultra`  
+**Family**: tfy-managed/nemotron-3-ultra
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -1202,16 +1207,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.5
+- **Standard Output**: $2.4
 
 
 
 
 
-- **Cached Output**: $0.15
+- **Cached Output**: $0.12
 
 
 
@@ -1221,10 +1226,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/qwen3.8-max
+### tfy-managed/qwen3.8-max
 
-**Model ID**: `truerouter-curated/qwen3.8-max`  
-**Family**: truerouter-curated/qwen3.8-max
+**Model ID**: `tfy-managed/qwen3.8-max`  
+**Family**: tfy-managed/qwen3.8-max
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -1284,10 +1289,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/text-embedding-3-large
+### tfy-managed/text-embedding-3-large
 
-**Model ID**: `truerouter-curated/text-embedding-3-large`  
-**Family**: truerouter-curated/text-embedding-3-large
+**Model ID**: `tfy-managed/text-embedding-3-large`  
+**Family**: tfy-managed/text-embedding-3-large
 #### Specifications
 
 - **Context Window**: 8,192 tokens
@@ -1326,10 +1331,10 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ---
 
 
-### truerouter-curated/text-embedding-3-small
+### tfy-managed/text-embedding-3-small
 
-**Model ID**: `truerouter-curated/text-embedding-3-small`  
-**Family**: truerouter-curated/text-embedding-3-small
+**Model ID**: `tfy-managed/text-embedding-3-small`  
+**Family**: tfy-managed/text-embedding-3-small
 #### Specifications
 
 - **Context Window**: 8,192 tokens
