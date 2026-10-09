@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 387
-- **Last Updated**: 2026-10-08
+- **Total Models**: 388
+- **Last Updated**: 2026-10-09
 
 ## Models
 
@@ -3606,6 +3606,48 @@ This catalog provides a comprehensive overview of all together models available 
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+
+**Model ID**: `Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice`  
+**Family**: Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 

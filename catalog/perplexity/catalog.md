@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 75
-- **Last Updated**: 2026-10-08
+- **Last Updated**: 2026-10-09
 
 ## Models
 

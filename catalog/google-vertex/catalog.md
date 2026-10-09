@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 451
-- **Last Updated**: 2026-10-08
+- **Total Models**: 452
+- **Last Updated**: 2026-10-09
 
 ## Models
 
@@ -3834,6 +3834,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Specifications
 
 - **Context Window**: 400,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### convaiinnovations/laya-typed-decisions
+
+**Model ID**: `convaiinnovations/laya-typed-decisions`  
+**Family**: convaiinnovations/laya-typed-decisions
+#### Specifications
+
+- **Context Window**: 1,024 tokens
 
 
 

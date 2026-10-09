@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 270
-- **Last Updated**: 2026-10-08
+- **Total Models**: 271
+- **Last Updated**: 2026-10-09
 
 ## Models
 
@@ -2571,8 +2571,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Structured output
-
 - Json output
 
 
@@ -3139,6 +3137,73 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 - **Cached Output**: $0.22
+
+
+
+
+
+
+---
+
+
+### au.anthropic.claude-sonnet-5-5
+
+**Model ID**: `au.anthropic.claude-sonnet-5-5`  
+**Family**: au.anthropic.claude-sonnet-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Prompt caching
+
+- Cache control
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $11.0
+
+
+
+
+- **Cached Input**: $2.75
+
+
+- **Cached Output**: $0.11
 
 
 
@@ -4191,8 +4256,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Json output
 
@@ -5457,8 +5520,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Json output
 
@@ -7792,8 +7853,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Json output
 
@@ -11653,8 +11712,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
-
-- Structured output
 
 - Json output
 

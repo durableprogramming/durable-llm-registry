@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Provider**: microsoft-foundry
 - **Total Models**: 505
-- **Last Updated**: 2026-10-08
+- **Last Updated**: 2026-10-09
 
 ## Models
 
@@ -16745,6 +16745,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 
+- **Cached Input**: $0.25
+
 
 - **Cached Output**: $0.02
 
@@ -17004,6 +17006,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 
+
+- **Cached Input**: $2.5
 
 
 - **Cached Output**: $0.19999999999999998
@@ -18945,8 +18949,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-live-1-2026-09-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities

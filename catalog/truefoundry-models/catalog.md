@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 - **Provider**: truefoundry-models
 - **Total Models**: 22
-- **Last Updated**: 2026-10-08
+- **Last Updated**: 2026-10-09
 
 ## Models
 
@@ -344,7 +344,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
-- **Cached Output**: $0.13199999999999998
+- **Cached Output**: $0.13
 
 
 
@@ -405,7 +405,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
-- **Cached Output**: $0.007
+- **Cached Output**: $0.006
 
 
 
@@ -906,6 +906,8 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
+- **Cached Input**: $0.85
+
 
 - **Cached Output**: $0.19
 
@@ -969,6 +971,8 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 
 
+- **Cached Input**: $3.5625
+
 
 - **Cached Output**: $0.3
 
@@ -1022,16 +1026,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.154
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.305
+- **Standard Output**: $0.28
 
 
 
 
 
-- **Cached Output**: $0.003
+- **Cached Output**: $0.0028
 
 
 
@@ -1083,16 +1087,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.456
+- **Standard Input**: $0.435
 
 
-- **Standard Output**: $0.918
+- **Standard Output**: $0.87
 
 
 
 
 
-- **Cached Output**: $0.004
+- **Cached Output**: $0.0036
 
 
 
@@ -1146,16 +1150,16 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $2.4
 
 
 
 
 
-- **Cached Output**: $0.06
+- **Cached Output**: $0.07
 
 
 
@@ -1210,13 +1214,13 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 - **Standard Input**: $0.6
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $3.5999999999999996
 
 
 
 
 
-- **Cached Output**: $0.12
+- **Cached Output**: $0.25
 
 
 
