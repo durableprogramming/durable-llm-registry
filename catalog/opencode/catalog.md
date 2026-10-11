@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 10
-- **Last Updated**: 2026-10-10
+- **Total Models**: 11
+- **Last Updated**: 2026-10-11
 
 ## Models
 
@@ -70,10 +70,10 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Fledge Alpha Free
+### Exo Free
 
-**Model ID**: `fledge-alpha-free`  
-**Family**: fledge-alpha-free
+**Model ID**: `exo-free`  
+**Family**: exo-free
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -536,6 +536,63 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Max Output Tokens**: 524,288 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Step 5 Preview Free
+
+**Model ID**: `step-5-preview-free`  
+**Family**: step-5-preview-free
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
