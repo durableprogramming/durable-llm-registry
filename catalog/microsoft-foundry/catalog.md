@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 505
-- **Last Updated**: 2026-10-11
+- **Total Models**: 506
+- **Last Updated**: 2026-10-12
 
 ## Models
 
@@ -4203,6 +4203,48 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### Microsoft-Decision-1
+
+**Model ID**: `Microsoft-Decision-1`  
+**Family**: Microsoft-Decision-1
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.041999999999999996
+
+
+- **Standard Output**: $0.0
 
 
 

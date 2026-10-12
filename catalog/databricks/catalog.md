@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ## Overview
 
 - **Provider**: databricks
-- **Total Models**: 68
-- **Last Updated**: 2026-10-11
+- **Total Models**: 70
+- **Last Updated**: 2026-10-12
 
 ## Models
 
@@ -2450,6 +2450,44 @@ This catalog provides a comprehensive overview of all databricks models availabl
 ---
 
 
+### databricks-openjev-qwen35-4b
+
+**Model ID**: `databricks-openjev-qwen35-4b`  
+**Family**: databricks-openjev-qwen35-4b
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### system.ai.claude-haiku-4-5
 
 **Model ID**: `system.ai.claude-haiku-4-5`  
@@ -4007,6 +4045,44 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 
 - **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### system.ai.openjev-qwen35-4b
+
+**Model ID**: `system.ai.openjev-qwen35-4b`  
+**Family**: system.ai.openjev-qwen35-4b
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 

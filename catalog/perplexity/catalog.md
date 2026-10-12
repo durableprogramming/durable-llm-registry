@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 75
-- **Last Updated**: 2026-10-11
+- **Total Models**: 77
+- **Last Updated**: 2026-10-12
 
 ## Models
 
@@ -2959,6 +2959,90 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Standard Output**: $0.28
+
+
+
+
+
+
+
+---
+
+
+### pplx-decider-v1-27b
+
+**Model ID**: `pplx-decider-v1-27b`  
+**Family**: pplx-decider-v1-27b
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.02
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### pplx-decider-v1.1-27b
+
+**Model ID**: `pplx-decider-v1.1-27b`  
+**Family**: pplx-decider-v1.1-27b
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.02
+
+
+- **Standard Output**: $0.0
 
 
 
