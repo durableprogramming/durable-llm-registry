@@ -4948,6 +4948,25 @@ components:
             enum:
             - system
       - type: object
+        description: Developer message, instructions from the application developer.
+        required:
+        - content
+        - role
+        properties:
+          content:
+            "$ref": "#/components/schemas/Content"
+            description: Developer prompt content.
+          name:
+            type:
+            - string
+            - 'null'
+            description: A unique identifier representing your end-user, which can
+              help xAI to monitor and detect abuse.
+          role:
+            type: string
+            enum:
+            - developer
+      - type: object
         description: User message, typically request from user for the model to answer.
         required:
         - content

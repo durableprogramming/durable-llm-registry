@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 506
-- **Last Updated**: 2026-10-12
+- **Total Models**: 507
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -9097,7 +9097,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Cached Input**: $2.5
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -9168,7 +9168,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - **Cached Input**: $2.5
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -20221,6 +20221,46 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
+### gpt-realtime-translate
+
+**Model ID**: `gpt-realtime-translate`  
+**Family**: gpt-realtime-translate
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: audio, text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ## Overview
 
 - **Provider**: aws-bedrock-mantle
-- **Total Models**: 60
-- **Last Updated**: 2026-10-12
+- **Total Models**: 61
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -71,6 +71,62 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 
 - **Cached Output**: $0.11
+
+
+
+
+
+
+---
+
+
+### anthropic.claude-mulberry-trn2-208k-20251001
+
+**Model ID**: `anthropic.claude-mulberry-trn2-208k-20251001`  
+**Family**: anthropic.claude-mulberry-trn2-208k-20251001
+#### Specifications
+
+- **Context Window**: 208,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Cache control
+
+- System messages
+
+- Tool choice
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

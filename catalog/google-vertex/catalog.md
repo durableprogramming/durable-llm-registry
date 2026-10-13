@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 452
-- **Last Updated**: 2026-10-12
+- **Total Models**: 455
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -8122,6 +8122,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/embeddinggemma2
+
+**Model ID**: `google/embeddinggemma2`  
+**Family**: google/embeddinggemma2
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, code, image, audio, video
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### google/f-vlm-jax
 
 **Model ID**: `google/f-vlm-jax`  
@@ -10299,6 +10337,73 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $9.0
 
+
+
+
+
+
+
+---
+
+
+### google/gemini-robotics-er-2-preview
+
+**Model ID**: `google/gemini-robotics-er-2-preview`  
+**Family**: google/gemini-robotics-er-2-preview
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -14972,6 +15077,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### meta/muse-glimmer
+
+**Model ID**: `meta/muse-glimmer`  
+**Family**: meta/muse-glimmer
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
 
 
 #### Capabilities

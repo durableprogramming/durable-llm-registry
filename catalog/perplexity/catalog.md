@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 77
-- **Last Updated**: 2026-10-12
+- **Total Models**: 78
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -2541,6 +2541,67 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### perplexity/deepseek-v4-pro-0813
+
+**Model ID**: `perplexity/deepseek-v4-pro-0813`  
+**Family**: perplexity/deepseek-v4-pro-0813
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.32
+
+
+- **Standard Output**: $3.9600000000000004
+
+
+
+
+
+- **Cached Output**: $0.044
 
 
 

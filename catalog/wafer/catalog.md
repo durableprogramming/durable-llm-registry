@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 21
-- **Last Updated**: 2026-10-12
+- **Total Models**: 22
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -203,7 +203,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image
 
 
 - **Output**: text
@@ -214,6 +214,12 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - Function calling
 
+- Prompt caching
+
+- Json output
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -222,10 +228,10 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19999999999999998
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $1.2
 
 
 
@@ -714,6 +720,57 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.07
+
+
+
+
+
+
+---
+
+
+### Nemotron-3.5-Lightning
+
+**Model ID**: `Nemotron-3.5-Lightning`  
+**Family**: Nemotron-3.5-Lightning
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.049999999999999996
+
+
+- **Standard Output**: $0.19999999999999998
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 

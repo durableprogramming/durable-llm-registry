@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 271
-- **Last Updated**: 2026-10-12
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -6283,7 +6283,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Cached Input**: $2.5
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -7059,7 +7059,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
@@ -7068,13 +7068,34 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Capabilities
 
 
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+
+
 #### Pricing (per million tokens)
 
 
 ##### Text Tokens
 
 
+- **Standard Input**: $2.0
 
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
 
 
 
@@ -14586,13 +14607,28 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Capabilities
 
 
+- Prompt caching
+
+- Structured output
+
+
+
 #### Pricing (per million tokens)
 
 
 ##### Text Tokens
 
 
+- **Standard Input**: $2.2
 
+
+- **Standard Output**: $6.6000000000000005
+
+
+
+
+
+- **Cached Output**: $0.55
 
 
 

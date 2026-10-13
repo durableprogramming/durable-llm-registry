@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 88
-- **Last Updated**: 2026-10-12
+- **Total Models**: 90
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -17,6 +17,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `big-pickle`  
 **Family**: big
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Cat Jam Free
+
+**Model ID**: `cat-jam-free`  
+**Family**: cat
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -3027,6 +3075,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Gemini 3.8 Flash
 
 **Model ID**: `gemini-3.8-flash`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Gemini 4 Argon
+
+**Model ID**: `gemini-4-argon`  
 **Family**: gemini
 #### Specifications
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Provider**: mistral-ai
 - **Total Models**: 109
-- **Last Updated**: 2026-10-12
+- **Last Updated**: 2026-10-13
 
 ## Models
 
@@ -5132,6 +5132,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - Function calling
 
 - Structured output
+
+- Assistant prefill
 
 
 
