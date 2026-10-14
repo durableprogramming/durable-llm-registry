@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 271
-- **Last Updated**: 2026-10-13
+- **Last Updated**: 2026-10-14
 
 ## Models
 
@@ -1205,7 +1205,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-5-sonnet-20240620-v1:0
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 200,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 455
-- **Last Updated**: 2026-10-13
+- **Total Models**: 456
+- **Last Updated**: 2026-10-14
 
 ## Models
 
@@ -10028,6 +10028,69 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Standard Output**: $4.5
 
+
+
+
+
+
+
+---
+
+
+### google/gemini-4-argon
+
+**Model ID**: `google/gemini-4-argon`  
+**Family**: google/gemini-4-argon
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 1,048,576 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+- Prompt caching
+
+- Structured output
+
+- Code execution
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.2
+
+
+- **Standard Output**: $11.0
+
+
+
+
+
+- **Cached Output**: $0.11
 
 
 
