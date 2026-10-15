@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 86
-- **Last Updated**: 2026-10-14
+- **Total Models**: 88
+- **Last Updated**: 2026-10-15
 
 ## Models
 
@@ -937,6 +937,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### DeepSeek V4.1 Flash
 
 **Model ID**: `deepseek-v4.1-flash`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### DeepSeek V4.1 Flash Free
+
+**Model ID**: `deepseek-v4.1-flash-free`  
 **Family**: deepseek
 #### Specifications
 
@@ -4223,6 +4278,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Nemotron 3.5 Lightning Free
 
 **Model ID**: `nemotron-3.5-lightning-free`  
+**Family**: nemotron
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Nemotron 3.5 Super VL Free
+
+**Model ID**: `nemotron-3.5-super-vl-free`  
 **Family**: nemotron
 #### Specifications
 
