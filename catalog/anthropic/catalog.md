@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - **Provider**: anthropic
 - **Total Models**: 31
-- **Last Updated**: 2026-10-15
+- **Last Updated**: 2026-10-16
 
 ## Models
 
@@ -903,8 +903,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - Prompt caching
 
-- Assistant prefill
-
 - Code execution
 
 - Mid conversation system messages
@@ -1441,8 +1439,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - Cache control
 
-- Assistant prefill
-
 - System messages
 
 
@@ -1509,8 +1505,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Tool choice
 
 - Prompt caching
-
-- Assistant prefill
 
 - Structured output
 
@@ -1580,8 +1574,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Tool choice
 
 - Prompt caching
-
-- Assistant prefill
 
 - Code execution
 
@@ -1653,8 +1645,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Prompt caching
 
 - Structured output
-
-- Assistant prefill
 
 - Code execution
 
@@ -1924,8 +1914,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 - Structured output
 
-- Assistant prefill
-
 - System messages
 
 
@@ -1992,8 +1980,6 @@ This catalog provides a comprehensive overview of all anthropic models available
 - Prompt caching
 
 - Cache control
-
-- Assistant prefill
 
 - Structured output
 

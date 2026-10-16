@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 11
-- **Last Updated**: 2026-10-15
+- **Total Models**: 12
+- **Last Updated**: 2026-10-16
 
 ## Models
 
@@ -70,73 +70,16 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Exo Free
+### Cat Jam Free
 
-**Model ID**: `exo-free`  
-**Family**: exo-free
+**Model ID**: `cat-jam-free`  
+**Family**: cat-jam-free
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### Ling 3.0 Flash Fin Free
-
-**Model ID**: `ling-3.0-flash-fin-free`  
-**Family**: ling
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -184,16 +127,130 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Ling 3.1 Flash Free
+### DeepSeek V4.1 Flash Free
 
-**Model ID**: `ling-3.1-flash-free`  
-**Family**: ling
+**Model ID**: `deepseek-v4.1-flash-free`  
+**Family**: deepseek-flash
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### GLM-5.3-Flash Free
+
+**Model ID**: `glm-5.3-flash-free`  
+**Family**: glm-flash
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### LL Alpha Free
+
+**Model ID**: `ll-alpha-free`  
+**Family**: ll-alpha-free
 #### Specifications
 
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -526,22 +583,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Space Bunny Free
+### Nemotron 3.5 Super VL Free
 
-**Model ID**: `space-bunny-free`  
-**Family**: space-bunny-free
+**Model ID**: `nemotron-3.5-super-vl-free`  
+**Family**: nemotron-free
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 524,288 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image
 
 
 - **Output**: text
@@ -583,16 +640,16 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Step 5 Preview Free
+### Space Bunny Free
 
-**Model ID**: `step-5-preview-free`  
-**Family**: step-5-preview-free
+**Model ID**: `space-bunny-free`  
+**Family**: space-bunny-free
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 524,288 tokens
 
 
 #### Modalities

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1045
-- **Last Updated**: 2026-10-15
+- **Total Models**: 1049
+- **Last Updated**: 2026-10-16
 
 ## Models
 
@@ -2765,10 +2765,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0216
+- **Standard Input**: $0.036
 
 
-- **Standard Output**: $0.72
+- **Standard Output**: $0.6633
 
 
 
@@ -2809,10 +2809,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1307
+- **Standard Input**: $0.24948
 
 
-- **Standard Output**: $8.0
+- **Standard Output**: $0.74844
 
 
 
@@ -3161,10 +3161,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.016
+- **Standard Input**: $0.0058
 
 
-- **Standard Output**: $0.64
+- **Standard Output**: $1.28
 
 
 
@@ -3205,10 +3205,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0144
+- **Standard Input**: $0.00522
 
 
-- **Standard Output**: $0.576
+- **Standard Output**: $1.152
 
 
 
@@ -3293,10 +3293,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.41064
+- **Standard Input**: $0.327642
 
 
-- **Standard Output**: $0.82128
+- **Standard Output**: $0.655284
 
 
 
@@ -3381,10 +3381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0216
+- **Standard Input**: $0.036
 
 
-- **Standard Output**: $0.72
+- **Standard Output**: $0.6633
 
 
 
@@ -4699,10 +4699,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.75
+- **Standard Input**: $0.825
 
 
-- **Standard Output**: $3.75
+- **Standard Output**: $4.125
 
 
 
@@ -6350,7 +6350,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -6371,10 +6371,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.59
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.79
+- **Standard Output**: $0.32
 
 
 
@@ -6438,7 +6438,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,310,720 tokens
 
 
-- **Max Output Tokens**: 117,964 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -6459,10 +6459,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.18
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.59
+- **Standard Output**: $0.3
 
 
 
@@ -6771,6 +6771,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.2
+
+
+
+
+
+
+
+---
+
+
+### Meta: Muse Spark Open
+
+**Model ID**: `meta/muse-spark-open`  
+**Family**: meta
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 943,718 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, file, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $4.25
 
 
 
@@ -8365,6 +8409,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Moondream: Moondream 3 Preview
+
+**Model ID**: `moondream/moondream3-preview`  
+**Family**: moondream
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### Moondream: Moondream 3.1
+
+**Model ID**: `moondream/moondream3.1-9b-a2b`  
+**Family**: moondream
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
 ### MoonshotAI: Kimi K2 0711
 
 **Model ID**: `moonshotai/kimi-k2`  
@@ -8659,10 +8791,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.304
 
 
-- **Standard Output**: $16.5
+- **Standard Output**: $12.533
 
 
 
@@ -8747,10 +8879,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.41
+- **Standard Input**: $0.294
 
 
-- **Standard Output**: $14.9
+- **Standard Output**: $28.0
 
 
 
@@ -15848,7 +15980,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -15869,7 +16001,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.09
 
 
 - **Standard Output**: $1.1
@@ -17061,6 +17193,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.65
+
+
+
+
+
+
+
+---
+
+
+### Reflection: Beam 1.0 501B A23B
+
+**Model ID**: `reflection/beam-1.0-501b-a23b`  
+**Family**: reflection
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $1.0
 
 
 
@@ -19739,10 +19915,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.62
 
 
-- **Standard Output**: $7.0
+- **Standard Output**: $2.42
 
 
 
@@ -19783,7 +19959,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.079
 
 
 - **Standard Output**: $4.8
@@ -19850,7 +20026,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,717 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -19871,10 +20047,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.0308
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.6104
 
 
 
@@ -19915,10 +20091,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.06
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.2
+- **Standard Output**: $0.18
 
 
 
@@ -20070,7 +20246,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -20091,10 +20267,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.036
+- **Standard Input**: $0.0308
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $0.6104
 
 
 

@@ -7,16 +7,16 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 88
-- **Last Updated**: 2026-10-15
+- **Total Models**: 89
+- **Last Updated**: 2026-10-16
 
 ## Models
 
 
-### Big Pickle
+### Beam Free
 
-**Model ID**: `big-pickle`  
-**Family**: big
+**Model ID**: `beam-free`  
+**Family**: beam
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -61,10 +61,10 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Cat Jam Free
+### Big Pickle
 
-**Model ID**: `cat-jam-free`  
-**Family**: cat
+**Model ID**: `big-pickle`  
+**Family**: big
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -1315,6 +1315,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### GLM 5.3 Flash
 
 **Model ID**: `glm-5.3-flash`  
+**Family**: glm
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GLM-5.3-Flash Free
+
+**Model ID**: `glm-5.3-flash-free`  
 **Family**: glm
 #### Specifications
 
@@ -3677,6 +3732,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### LL Alpha Free
+
+**Model ID**: `ll-alpha-free`  
+**Family**: ll
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### LongCat 2.5 Preview Free
 
 **Model ID**: `longcat-2.5-preview-free`  
@@ -4719,54 +4822,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `space-bunny-free`  
 **Family**: space
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Step 5 Preview Free
-
-**Model ID**: `step-5-preview-free`  
-**Family**: step
 #### Specifications
 
 - **Context Window**: 128,000 tokens

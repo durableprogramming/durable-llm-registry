@@ -2037,6 +2037,15 @@ components:
           default: 0
           maximum: 2
           minimum: -2
+        guidelines:
+          type:
+          - array
+          - 'null'
+          items:
+            "$ref": "#/components/schemas/Guideline"
+          description: |-
+            Per-category instructions for model output. See [`Guideline`].
+            Omitted requests leave this unset.
         logit_bias:
           type:
           - object
@@ -2158,8 +2167,9 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/SearchParameters"
-            description: Set the parameters to be used for searched data. If not set,
-              no data will be acquired by the model.
+            description: |-
+              Deprecated: live search has been removed, and requests that set this field fail. Use the
+              Agent Tools API instead: <https://docs.x.ai/developers/tools/overview>.
         seed:
           type:
           - integer
@@ -2271,8 +2281,8 @@ components:
           - type: 'null'
           - "$ref": "#/components/schemas/WebSearchOptions"
             description: |-
-              Options to control the web search. This is only included for compatibility reason. Prefer
-              the usage of `realtime_data_parameters` instead.
+              Deprecated: live search has been removed, and requests that set this field fail. Use the
+              Agent Tools API instead: <https://docs.x.ai/developers/tools/overview>.
     ChatResponse:
       type: object
       description: The chat response body for `/v1/chat/completions` endpoint.
@@ -4103,6 +4113,42 @@ components:
                   type: string
                 description: Key(s) to sort by within each group.
       description: Aggregation function to apply within each group.
+    Guideline:
+      type: object
+      description: |-
+        One entry in [`ChatRequest::guidelines`] and [`ModelRequest::guidelines`].
+
+        `type` must be `policy`. Each `category` may appear at most once, and
+        `behavior` must be one that category supports: `decline` for `sexual`,
+        `violence`, `illicit`, and `profanity`; `decline` or `offer_support` for
+        `self_harm`.
+      required:
+      - type
+      - category
+      - behavior
+      properties:
+        behavior:
+          "$ref": "#/components/schemas/GuidelineBehavior"
+        category:
+          "$ref": "#/components/schemas/GuidelineCategory"
+        type:
+          type: string
+          description: Discriminator. Must be `policy`.
+    GuidelineBehavior:
+      type: string
+      description: How the model should handle a [`GuidelineCategory`].
+      enum:
+      - decline
+      - offer_support
+    GuidelineCategory:
+      type: string
+      description: Content category a guideline applies to.
+      enum:
+      - sexual
+      - violence
+      - self_harm
+      - illicit
+      - profanity
     HybridReranker:
       oneOf:
       - allOf:
@@ -5868,6 +5914,15 @@ components:
           items: {}
           description: Optional context-management directives (e.g. compaction). Parsed
             but not yet executed.
+        guidelines:
+          type:
+          - array
+          - 'null'
+          items:
+            "$ref": "#/components/schemas/Guideline"
+          description: |-
+            Per-category instructions for model output. See [`Guideline`].
+            Omitted requests leave this unset.
         include:
           type:
           - array
@@ -5975,8 +6030,10 @@ components:
           oneOf:
           - type: 'null'
           - "$ref": "#/components/schemas/SearchParameters"
-            description: Set the parameters to be used for searched data. Takes precedence
-              over `web_search_preview` tool if specified in the tools.
+            description: |-
+              Deprecated: live search has been removed, and requests that set this field fail with
+              `410 Gone`. Use the `web_search` and `x_search` tools instead:
+              <https://docs.x.ai/developers/tools/overview>.
         service_tier:
           oneOf:
           - type: 'null'
@@ -6037,8 +6094,7 @@ components:
             "$ref": "#/components/schemas/ModelTool"
           description: A list of tools the model may call in JSON-schema. Currently,
             only functions and web search are supported as tools. A max of 350 tools
-            are supported.`web_search_preview` tool, if specified, will be overridden
-            by `search_parameters`.
+            are supported.
           maxItems: 350
         top_k:
           type:
@@ -8104,6 +8160,9 @@ components:
             enum:
             - function
       - type: object
+        description: |-
+          Deprecated: live search has been removed, and requests that include this tool fail. Use the
+          Agent Tools API instead: <https://docs.x.ai/developers/tools/overview>.
         required:
         - sources
         - type
@@ -8116,6 +8175,7 @@ components:
             type: string
             enum:
             - live_search
+        deprecated: true
       description: Definition of one tool that the model can call.
     ToolCall:
       type: object
