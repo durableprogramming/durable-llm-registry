@@ -2242,9 +2242,9 @@ components:
             "$ref": "#/components/schemas/Tool"
           description: A list of tools the model may call in JSON-schema. Currently,
             only functions are supported as a tool. Use this to provide a list of
-            functions the model may generate JSON inputs for. A max of 350 functions
+            functions the model may generate JSON inputs for. A max of 1000 functions
             are supported.
-          maxItems: 350
+          maxItems: 1000
         top_logprobs:
           type:
           - integer
@@ -5353,7 +5353,7 @@ components:
             "$ref": "#/components/schemas/MessageTools"
           description: A list of tools the model may call in JSON-schema. Currently,
             only functions are supported as a tool. Use this to provide a list of
-            functions the model may generate JSON inputs for. A max of 350 functions
+            functions the model may generate JSON inputs for. A max of 1000 functions
             are supported.
         top_k:
           type:
@@ -6093,9 +6093,9 @@ components:
           items:
             "$ref": "#/components/schemas/ModelTool"
           description: A list of tools the model may call in JSON-schema. Currently,
-            only functions and web search are supported as tools. A max of 350 tools
+            only functions and web search are supported as tools. A max of 1000 tools
             are supported.
-          maxItems: 350
+          maxItems: 1000
         top_k:
           type:
           - integer
@@ -6302,9 +6302,9 @@ components:
           items:
             "$ref": "#/components/schemas/ModelTool"
           description: A list of tools the model may call in JSON-schema. Currently,
-            only functions and web search are supported as tools. A max of 350 tools
+            only functions and web search are supported as tools. A max of 1000 tools
             are supported.
-          maxItems: 350
+          maxItems: 1000
         top_logprobs:
           type: integer
           format: int32
