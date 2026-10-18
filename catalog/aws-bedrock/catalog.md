@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 271
-- **Last Updated**: 2026-10-17
+- **Last Updated**: 2026-10-18
 
 ## Models
 
@@ -7053,7 +7053,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 500,000 tokens
 
 
-- **Max Output Tokens**: 500,000 tokens
+- **Max Output Tokens**: 524,288 tokens
 
 
 #### Modalities
@@ -14592,7 +14592,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 500,000 tokens
 
 
-- **Max Output Tokens**: 500,000 tokens
+- **Max Output Tokens**: 524,288 tokens
 
 
 #### Modalities
