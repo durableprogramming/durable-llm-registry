@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 254
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -1472,10 +1472,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.5
+- **Standard Input**: $1.6500000000000001
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $2.2
 
 
 
@@ -1516,10 +1516,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $1.5
+- **Standard Input**: $1.6500000000000001
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $2.2
 
 
 
@@ -1946,10 +1946,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $10.0
+- **Standard Input**: $11.0
 
 
-- **Standard Output**: $30.0
+- **Standard Output**: $33.0
 
 
 
@@ -3311,10 +3311,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 #### Modalities
 
 
-- **Input**: text, audio
+- **Input**: text
 
 
-- **Output**: text, audio
+- **Output**: text
 
 
 #### Capabilities
@@ -3336,10 +3336,10 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $2.5
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $10.0
+- **Standard Output**: $0.6
 
 
 
@@ -8730,7 +8730,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 - **Input**: text, image
 
 
-- **Output**: image
+- **Output**: image, text
 
 
 #### Capabilities
@@ -8748,6 +8748,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Standard Input**: $5.0
 
+
+- **Standard Output**: $10.0
 
 
 
@@ -9624,7 +9626,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-realtime-2.1
 #### Specifications
 
-- **Context Window**: 32,000 tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -10792,6 +10794,8 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -12376,7 +12380,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.13
+- **Standard Input**: $0.143
 
 
 - **Standard Output**: $0.0
@@ -12418,7 +12422,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.022
 
 
 - **Standard Output**: $0.0
@@ -12460,7 +12464,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09999999999999999
+- **Standard Input**: $0.11
 
 
 - **Standard Output**: $0.0
@@ -12480,7 +12484,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-embedding-ada-002-2
 #### Specifications
 
-- **Context Window**: 8,191 tokens
+- **Context Window**: 8,192 tokens
 
 
 
@@ -12502,7 +12506,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09999999999999999
+- **Standard Input**: $0.11
 
 
 - **Standard Output**: $0.0

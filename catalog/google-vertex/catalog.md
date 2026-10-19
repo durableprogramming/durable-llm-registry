@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 456
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -942,8 +942,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
-- Assistant prefill
-
 - Structured output
 
 - Mid conversation system messages
@@ -1620,8 +1618,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -1687,8 +1683,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - System messages
 
-- Assistant prefill
-
 - Cache control
 
 
@@ -1743,8 +1737,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 #### Capabilities
 
-
-- Assistant prefill
 
 - Cache control
 
@@ -1824,8 +1816,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - System messages
 
 - Structured output
-
-- Assistant prefill
 
 - Mid conversation system messages
 
@@ -1959,8 +1949,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
-- Assistant prefill
-
 - Mid conversation system messages
 
 
@@ -2024,15 +2012,11 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Mid conversation system messages
 
-- Tool choice
-
 - Prompt caching
 
 - Cache control
 
 - Structured output
-
-- Assistant prefill
 
 
 
@@ -2292,8 +2276,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
-- Assistant prefill
-
 - System messages
 
 
@@ -2360,8 +2342,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - Cache control
 
 - Structured output
-
-- Assistant prefill
 
 - System messages
 
@@ -2495,8 +2475,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Structured output
 
-- Assistant prefill
-
 - Mid conversation system messages
 
 
@@ -2562,10 +2540,6 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - Mid conversation system messages
 
-- Tool choice
-
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -2585,7 +2559,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Cached Input**: $2.5
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -9001,7 +8975,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image, pdf
+- **Input**: text, image
 
 
 - **Output**: text, image
@@ -9622,6 +9596,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - Function calling
+
+- Parallel function calling
 
 - System messages
 
@@ -10594,7 +10570,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image, pdf
+- **Input**: text, image
 
 
 - **Output**: text
@@ -10783,7 +10759,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 #### Modalities
 
 
-- **Input**: text, image, audio, video, pdf
+- **Input**: text, image
 
 
 - **Output**: text
@@ -14179,7 +14155,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 - **Input**: text, image
 
 
-- **Output**: audio
+- **Output**: audio, text
 
 
 #### Capabilities
@@ -16987,7 +16963,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nvidia/cosmos3-nano
 #### Specifications
 
-- **Context Window**: 4,096 tokens
+- **Context Window**: 262,144 tokens
 
 
 
@@ -20581,7 +20557,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: xai/grok-4.6
 #### Specifications
 
-- **Context Window**: 500,000 tokens
+- **Context Window**: 524,288 tokens
 
 
 

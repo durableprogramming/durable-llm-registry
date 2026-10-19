@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 70
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -388,8 +388,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Cache control
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -454,8 +452,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - Tool choice
 
 - Prompt caching
-
-- Assistant prefill
 
 - Structured output
 
@@ -688,8 +684,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Structured output
 
-- Assistant prefill
-
 - System messages
 
 
@@ -756,8 +750,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - Cache control
 
 - Structured output
-
-- Assistant prefill
 
 - Mid conversation system messages
 
@@ -2702,8 +2694,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - Cache control
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -2768,8 +2758,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - Tool choice
 
 - Prompt caching
-
-- Assistant prefill
 
 - Structured output
 
@@ -2958,8 +2946,6 @@ This catalog provides a comprehensive overview of all databricks models availabl
 - Cache control
 
 - Structured output
-
-- Assistant prefill
 
 - System messages
 

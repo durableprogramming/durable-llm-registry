@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 275
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -7975,7 +7975,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image
 
 
 - **Output**: text
@@ -9813,7 +9813,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.019000000000000003
+- **Standard Input**: $0.029
 
 
 - **Standard Output**: $0.03

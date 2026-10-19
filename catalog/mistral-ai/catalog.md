@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Provider**: mistral-ai
 - **Total Models**: 109
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -1784,6 +1784,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Prompt caching
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -1797,6 +1799,11 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Standard Output**: $0.8999999999999999
 
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
@@ -3274,7 +3281,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 - **Input**: image, pdf, doc
 
 
-- **Output**: text
+- **Output**: text, image
 
 
 #### Capabilities

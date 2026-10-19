@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 61
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -172,8 +172,6 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - Cache control
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -239,8 +237,6 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - Prompt caching
 
-- Assistant prefill
-
 - Mid conversation system messages
 
 
@@ -297,8 +293,6 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - Cache control
 
-- Assistant prefill
-
 - Mid conversation system messages
 
 
@@ -352,8 +346,6 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - Cache control
 
 - System messages
-
-- Assistant prefill
 
 - Mid conversation system messages
 
@@ -421,8 +413,6 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - Cache control
 
 - System messages
-
-- Assistant prefill
 
 - Mid conversation system messages
 

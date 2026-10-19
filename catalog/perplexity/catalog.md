@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 78
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -749,7 +749,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 

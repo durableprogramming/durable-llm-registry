@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Provider**: microsoft-foundry
 - **Total Models**: 507
-- **Last Updated**: 2026-10-18
+- **Last Updated**: 2026-10-19
 
 ## Models
 
@@ -7411,8 +7411,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Prompt caching
 
-- Assistant prefill
-
 - Structured output
 
 - Mid conversation system messages
@@ -7485,8 +7483,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Structured output
 
 - Json output
-
-- Assistant prefill
 
 - Mid conversation system messages
 
@@ -8220,8 +8216,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Json output
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -8288,8 +8282,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Prompt caching
 
 - Structured output
-
-- Assistant prefill
 
 - Json output
 
@@ -8364,8 +8356,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Json output
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -8432,8 +8422,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Prompt caching
 
 - Structured output
-
-- Assistant prefill
 
 - Json output
 
@@ -8508,8 +8496,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Json output
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -8571,8 +8557,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Mid conversation system messages
 
-- Tool choice
-
 - Prompt caching
 
 - Cache control
@@ -8580,8 +8564,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Structured output
 
 - Json output
-
-- Assistant prefill
 
 
 
@@ -8640,8 +8622,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Parallel function calling
 
-- Tool choice
-
 - System messages
 
 - Mid conversation system messages
@@ -8653,8 +8633,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Structured output
 
 - Json output
-
-- Assistant prefill
 
 
 
@@ -8859,8 +8837,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Json output
 
-- Assistant prefill
-
 - System messages
 
 
@@ -9001,8 +8977,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Structured output
 
-- Assistant prefill
-
 - Json output
 
 
@@ -9066,8 +9040,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Prompt caching
 
-- Tool choice
-
 - Structured output
 
 - System messages
@@ -9075,8 +9047,6 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 - Mid conversation system messages
 
 - Json output
-
-- Assistant prefill
 
 
 
@@ -9141,13 +9111,9 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - Mid conversation system messages
 
-- Tool choice
-
 - Prompt caching
 
 - Structured output
-
-- Assistant prefill
 
 
 
