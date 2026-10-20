@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 1056
-- **Last Updated**: 2026-10-19
+- **Last Updated**: 2026-10-20
 
 ## Models
 
@@ -2765,10 +2765,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.038
+- **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.5
 
 
 
@@ -2832,7 +2832,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 16,000 tokens
 
 
 #### Modalities
@@ -2853,10 +2853,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.32
+- **Standard Input**: $0.2574
 
 
-- **Standard Output**: $0.89
+- **Standard Output**: $1.0287
 
 
 
@@ -3140,7 +3140,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -3161,10 +3161,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.1298
 
 
-- **Standard Output**: $0.15
+- **Standard Output**: $0.3894
 
 
 
@@ -3205,7 +3205,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.00392
+- **Standard Input**: $0.00912
 
 
 - **Standard Output**: $0.12
@@ -3293,10 +3293,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.398808
+- **Standard Input**: $0.392022
 
 
-- **Standard Output**: $0.797616
+- **Standard Output**: $0.784044
 
 
 
@@ -3381,10 +3381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0304
+- **Standard Input**: $0.02832
 
 
-- **Standard Output**: $0.08
+- **Standard Output**: $0.12
 
 
 
@@ -3745,50 +3745,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Google: Gemini 2.5 Flash (batch)
-
-**Model ID**: `google/gemini-2.5-flash:batch`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,535 tokens
-
-
-#### Modalities
-
-
-- **Input**: file, image, text, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $1.25
-
-
-
-
-
-
-
----
-
-
 ### Google: Gemini 2.5 Flash Lite
 
 **Model ID**: `google/gemini-2.5-flash-lite`  
@@ -3911,50 +3867,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $10.0
-
-
-
-
-
-
-
----
-
-
-### Google: Gemini 2.5 Pro (batch)
-
-**Model ID**: `google/gemini-2.5-pro:batch`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.625
-
-
-- **Standard Output**: $5.0
 
 
 
@@ -5118,7 +5030,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 117,964 tokens
 
 
 #### Modalities
@@ -5139,10 +5051,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.04
 
 
-- **Standard Output**: $0.1
+- **Standard Output**: $0.05
 
 
 
@@ -7911,10 +7823,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.68
+- **Standard Input**: $1.36
 
 
-- **Standard Output**: $2.09
+- **Standard Output**: $4.18
 
 
 
@@ -9627,10 +9539,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.5
 
 
 
@@ -16156,7 +16068,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -16177,7 +16089,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $1.1
@@ -16420,7 +16332,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -16441,10 +16353,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $0.39
 
 
-- **Standard Output**: $3.6
+- **Standard Output**: $2.34
 
 
 
@@ -16837,10 +16749,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.95
 
 
 
@@ -17168,7 +17080,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -17189,10 +17101,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.24
+- **Standard Input**: $0.04
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $1.35
 
 
 
@@ -17453,10 +17365,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.0
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $1.0
 
 
 
@@ -19255,10 +19167,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.36
+- **Standard Output**: $0.6
 
 
 
@@ -20487,10 +20399,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.057
+- **Standard Input**: $0.079
 
 
-- **Standard Output**: $6.0
+- **Standard Output**: $1.4
 
 
 
@@ -28949,6 +28861,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### google/gemini-2.5-flash:batch
+
+**Model ID**: `google/gemini-2.5-flash:batch`  
+**Family**: google/gemini-2.5-flash:batch
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,535 tokens
+
+
+#### Modalities
+
+
+- **Input**: pdf, image, text, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $1.25
+
+
+
+
+
+- **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
 ### google/gemini-2.5-pro-preview-05-06
 
 **Model ID**: `google/gemini-2.5-pro-preview-05-06`  
@@ -29000,6 +28973,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Input**: $0.375
+
+
+- **Cached Output**: $0.125
+
+
+
+
+
+
+---
+
+
+### google/gemini-2.5-pro:batch
+
+**Model ID**: `google/gemini-2.5-pro:batch`  
+**Family**: google/gemini-2.5-pro:batch
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.625
+
+
+- **Standard Output**: $5.0
+
+
+
 
 
 - **Cached Output**: $0.125
