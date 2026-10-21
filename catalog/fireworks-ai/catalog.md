@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 11
-- **Last Updated**: 2026-10-20
+- **Total Models**: 12
+- **Last Updated**: 2026-10-21
 
 ## Models
 
@@ -311,6 +311,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### Muse Spark Open
+
+**Model ID**: `accounts/fireworks/models/muse-spark-open`  
+**Family**: muse-spark
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $4.25
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 88
-- **Last Updated**: 2026-10-20
+- **Total Models**: 89
+- **Last Updated**: 2026-10-21
 
 ## Models
 
@@ -1048,6 +1048,54 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `exo-free`  
 **Family**: exo
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Flint 40B Free
+
+**Model ID**: `flint-40b-free`  
+**Family**: flint
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -3732,54 +3780,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### LL Alpha Free
-
-**Model ID**: `ll-alpha-free`  
-**Family**: ll
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### LongCat 2.5 Preview Free
 
 **Model ID**: `longcat-2.5-preview-free`  
@@ -4278,6 +4278,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Muse Spark 1.3
 
 **Model ID**: `muse-spark-1.3`  
+**Family**: muse
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Muse Wonder 1.0
+
+**Model ID**: `muse-wonder-1.0`  
 **Family**: muse
 #### Specifications
 
