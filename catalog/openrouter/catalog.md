@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1056
-- **Last Updated**: 2026-10-21
+- **Total Models**: 1069
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -2765,10 +2765,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.049
+- **Standard Input**: $0.07
 
 
-- **Standard Output**: $0.375
+- **Standard Output**: $0.5
 
 
 
@@ -3293,10 +3293,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.418992
+- **Standard Input**: $0.442656
 
 
-- **Standard Output**: $0.837984
+- **Standard Output**: $0.885312
 
 
 
@@ -3381,10 +3381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02394
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.375
+- **Standard Output**: $1.2
 
 
 
@@ -3779,50 +3779,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.4
-
-
-
-
-
-
-
----
-
-
-### Google: Gemini 2.5 Flash Lite (batch)
-
-**Model ID**: `google/gemini-2.5-flash-lite:batch`  
-**Family**: google
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 65,535 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, file, audio, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.05
-
-
-- **Standard Output**: $0.2
 
 
 
@@ -7221,9 +7177,9 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### MiniMax: MiniMax M3.1 Flash (free)
+### MiniMax: MiniMax M3.1 Flash
 
-**Model ID**: `minimax/minimax-m3.1-flash:free`  
+**Model ID**: `minimax/minimax-m3.1-flash`  
 **Family**: minimax
 #### Specifications
 
@@ -7251,10 +7207,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $0.6
 
 
 
@@ -8926,7 +8882,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.238
 
 
-- **Standard Output**: $16.0
+- **Standard Output**: $24.0
 
 
 
@@ -9187,10 +9143,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.45
+- **Standard Output**: $2.4
 
 
 
@@ -16332,7 +16288,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -16353,10 +16309,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.34
+- **Standard Output**: $3.6
 
 
 
@@ -16485,10 +16441,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.26
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $2.08
+- **Standard Output**: $3.2
 
 
 
@@ -17335,16 +17291,16 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Reflection: Beam 1.0 501B A23B
+### Recursive: Flint (free)
 
-**Model ID**: `reflection/beam-1.0-501b-a23b`  
-**Family**: reflection
+**Model ID**: `recursive/flint-v1.0:free`  
+**Family**: recursive
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -17365,7 +17321,51 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Reflection: Beam 1.0 501B A23B
+
+**Model ID**: `reflection/beam-1.0-501b-a23b`  
+**Family**: reflection
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
 
 
 - **Standard Output**: $1.0
@@ -20026,7 +20026,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 262,144 tokens
 
 
 #### Modalities
@@ -20047,10 +20047,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.079
+- **Standard Input**: $0.7
 
 
-- **Standard Output**: $1.4
+- **Standard Output**: $2.2
 
 
 
@@ -20114,7 +20114,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,717 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -20135,10 +20135,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.0052
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.1985
 
 
 
@@ -20355,10 +20355,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.051691
+- **Standard Input**: $0.0052
 
 
-- **Standard Output**: $0.12
+- **Standard Output**: $0.1985
 
 
 
@@ -23087,6 +23087,90 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### baseten/elephant-1:free
+
+**Model ID**: `baseten/elephant-1:free`  
+**Family**: baseten/elephant-1:free
+#### Specifications
+
+- **Context Window**: 16,384 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### baseten/mammoth-1:free
+
+**Model ID**: `baseten/mammoth-1:free`  
+**Family**: baseten/mammoth-1:free
+#### Specifications
+
+- **Context Window**: 16,384 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
 
 
 - **Output**: text
@@ -28861,6 +28945,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### google/gemini-2.5-flash-lite:batch
+
+**Model ID**: `google/gemini-2.5-flash-lite:batch`  
+**Family**: google/gemini-2.5-flash-lite:batch
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,535 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.049999999999999996
+
+
+- **Standard Output**: $0.19999999999999998
+
+
+
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
 ### google/gemini-2.5-flash:batch
 
 **Model ID**: `google/gemini-2.5-flash:batch`  
@@ -33534,6 +33679,57 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### liquid/d1-ultra
+
+**Model ID**: `liquid/d1-ultra`  
+**Family**: liquid/d1-ultra
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.041999999999999996
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+- **Cached Output**: $0.041999999999999996
+
+
+
+
+
+
+---
+
+
 ### liquid/lfm-2-24b-a2b
 
 **Model ID**: `liquid/lfm-2-24b-a2b`  
@@ -36685,6 +36881,58 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### minimax/minimax-m3.1-flash:free
+
+**Model ID**: `minimax/minimax-m3.1-flash:free`  
+**Family**: minimax/minimax-m3.1-flash:free
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 524,288 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### minimax/minimax-m3:batch
 
 **Model ID**: `minimax/minimax-m3:batch`  
@@ -39079,6 +39327,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.06
+
+
+
+
+
+
+
+---
+
+
+### nace-ai/drex-max
+
+**Model ID**: `nace-ai/drex-max`  
+**Family**: nace-ai/drex-max
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -42700,10 +42990,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### perplexity/pplx-decider-flash-v1.2
+
+**Model ID**: `perplexity/pplx-decider-flash-v1.2`  
+**Family**: perplexity/pplx-decider-flash-v1.2
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.01
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### perplexity/pplx-decider-v1.1-27b
 
 **Model ID**: `perplexity/pplx-decider-v1.1-27b`  
 **Family**: perplexity/pplx-decider-v1.1-27b
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.02
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### perplexity/pplx-decider-v1.2
+
+**Model ID**: `perplexity/pplx-decider-v1.2`  
+**Family**: perplexity/pplx-decider-v1.2
 #### Specifications
 
 - **Context Window**: 262,144 tokens
@@ -47040,6 +47414,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### respan/span-02
+
+**Model ID**: `respan/span-02`  
+**Family**: respan/span-02
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.01
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### rocinante-12b
 
 **Model ID**: `rocinante-12b`  
@@ -47345,6 +47761,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### scaledown/classify-1
+
+**Model ID**: `scaledown/classify-1`  
+**Family**: scaledown/classify-1
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.04
 
 
 - **Standard Output**: $0.0
@@ -48291,6 +48749,48 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.041999999999999996
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### typesafe/jev-1.14
+
+**Model ID**: `typesafe/jev-1.14`  
+**Family**: typesafe/jev-1.14
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
 
 
 - **Output**: text
@@ -50000,6 +50500,90 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 **Model ID**: `~perplexity/pplx-decider-27b-latest`  
 **Family**: ~perplexity/pplx-decider-27b-latest
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.02
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### ~perplexity/pplx-decider-flash-latest
+
+**Model ID**: `~perplexity/pplx-decider-flash-latest`  
+**Family**: ~perplexity/pplx-decider-flash-latest
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.01
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### ~perplexity/pplx-decider-latest
+
+**Model ID**: `~perplexity/pplx-decider-latest`  
+**Family**: ~perplexity/pplx-decider-latest
 #### Specifications
 
 - **Context Window**: 262,144 tokens

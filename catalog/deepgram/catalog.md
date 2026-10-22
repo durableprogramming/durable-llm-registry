@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepgram models available 
 ## Overview
 
 - **Provider**: deepgram
-- **Total Models**: 144
-- **Last Updated**: 2026-10-21
+- **Total Models**: 145
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -3247,6 +3247,44 @@ This catalog provides a comprehensive overview of all deepgram models available 
 
 **Model ID**: `aura-2-uzume-ja`  
 **Family**: aura-2-uzume-ja
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### aura-2-valentina-es
+
+**Model ID**: `aura-2-valentina-es`  
+**Family**: aura-2-valentina-es
 #### Specifications
 
 - **Context Window**:  tokens

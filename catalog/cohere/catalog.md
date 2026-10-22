@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ## Overview
 
 - **Provider**: cohere
-- **Total Models**: 42
-- **Last Updated**: 2026-10-21
+- **Total Models**: 44
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -273,9 +273,9 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 - Structured output
 
-- Tool choice
-
 - Function calling
+
+- Parallel function calling
 
 - Json output
 
@@ -1681,6 +1681,82 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 **Model ID**: `rerank-v4.0-pro`  
 **Family**: rerank-v4.0-pro
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### rerank-v5.0-fast
+
+**Model ID**: `rerank-v5.0-fast`  
+**Family**: rerank-v5.0-fast
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### rerank-v5.0-pro
+
+**Model ID**: `rerank-v5.0-pro`  
+**Family**: rerank-v5.0-pro
 #### Specifications
 
 - **Context Window**: 32,768 tokens

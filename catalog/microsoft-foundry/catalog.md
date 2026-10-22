@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 507
-- **Last Updated**: 2026-10-21
+- **Total Models**: 512
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -689,6 +689,82 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Max Output Tokens**: 2,048 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Cohere-rerank-v5-fast
+
+**Model ID**: `Cohere-rerank-v5-fast`  
+**Family**: Cohere-rerank-v5-fast
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Cohere-rerank-v5-pro
+
+**Model ID**: `Cohere-rerank-v5-pro`  
+**Family**: Cohere-rerank-v5-pro
+#### Specifications
+
+- **Context Window**:  tokens
+
 
 
 #### Modalities
@@ -2615,6 +2691,115 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Standard Output**: $0.78
 
+
+
+
+
+
+
+---
+
+
+### MAI-Code-1.1-Flash
+
+**Model ID**: `MAI-Code-1.1-Flash`  
+**Family**: MAI-Code-1.1-Flash
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### MAI-Code-1.1-Flash-2026-09-15
+
+**Model ID**: `MAI-Code-1.1-Flash-2026-09-15`  
+**Family**: MAI-Code-1.1-Flash-2026-09-15
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.02
 
 
 
@@ -8654,6 +8839,44 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### claude-opus-5-5-fast-2
+
+**Model ID**: `claude-opus-5-5-fast-2`  
+**Family**: claude-opus-5-5-fast-2
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 78
-- **Last Updated**: 2026-10-21
+- **Total Models**: 80
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -19,7 +19,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-fable-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -131,7 +131,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-haiku-4-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
 
 
@@ -186,7 +186,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-haiku-5-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -243,7 +243,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-4-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
 
 
@@ -296,7 +296,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -343,7 +343,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-4-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -390,7 +390,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-4-8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -451,7 +451,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -498,7 +498,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-opus-5-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -545,7 +545,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-sonnet-4-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
 
 
@@ -592,7 +592,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-sonnet-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -653,7 +653,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-sonnet-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -708,7 +708,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: anthropic/claude-sonnet-5-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -1236,6 +1236,54 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Cached Output**: $0.075
+
+
+
+
+
+
+---
+
+
+### google/gemini-4-argon
+
+**Model ID**: `google/gemini-4-argon`  
+**Family**: google/gemini-4-argon
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Code execution
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 
@@ -2790,6 +2838,61 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Cached Output**: $0.25
+
+
+
+
+
+
+---
+
+
+### perplexity/nemotron-3.5-super-120b-a12b
+
+**Model ID**: `perplexity/nemotron-3.5-super-120b-a12b`  
+**Family**: perplexity/nemotron-3.5-super-120b-a12b
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, doc
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 

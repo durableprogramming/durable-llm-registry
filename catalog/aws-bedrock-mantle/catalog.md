@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 61
-- **Last Updated**: 2026-10-21
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -348,6 +348,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - System messages
 
 - Mid conversation system messages
+
+- Structured output
 
 
 

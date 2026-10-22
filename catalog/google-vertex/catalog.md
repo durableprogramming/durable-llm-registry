@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 456
-- **Last Updated**: 2026-10-21
+- **Total Models**: 461
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -4584,6 +4584,63 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 
+
+
+
+
+
+
+---
+
+
+### deepseek-ai/deepseek-v4.1-flash-maas
+
+**Model ID**: `deepseek-ai/deepseek-v4.1-flash-maas`  
+**Family**: deepseek-ai/deepseek-v4.1-flash-maas
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 1,048,576 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
@@ -9676,6 +9733,84 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### google/gemini-3.5-transcribe
+
+**Model ID**: `google/gemini-3.5-transcribe`  
+**Family**: google/gemini-3.5-transcribe
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.5-transcribe-live
+
+**Model ID**: `google/gemini-3.5-transcribe-live`  
+**Family**: google/gemini-3.5-transcribe-live
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+- **Standard Output**: $21.0
+
+
+
+
+
+
+
+---
+
+
 ### google/gemini-3.5-transcribe-live-preview
 
 **Model ID**: `google/gemini-3.5-transcribe-live-preview`  
@@ -10307,17 +10442,19 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/gemini-omni-1.1-flash-preview
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 131,072 tokens
 
+
+- **Max Output Tokens**: 57,920 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, image, video, audio
+- **Input**: text, image, video
 
 
-- **Output**: video
+- **Output**: text, video
 
 
 #### Capabilities
@@ -15175,6 +15312,48 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ---
 
 
+### meta/muse-spark-open
+
+**Model ID**: `meta/muse-spark-open`  
+**Family**: meta/muse-spark-open
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### meta/nllb
 
 **Model ID**: `meta/nllb`  
@@ -18517,6 +18696,56 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### reflection/beam
+
+**Model ID**: `reflection/beam`  
+**Family**: reflection/beam
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Structured output
+
+- System messages
+
+- Tool choice
 
 
 

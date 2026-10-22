@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 - **Provider**: wafer
 - **Total Models**: 22
-- **Last Updated**: 2026-10-21
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -53,16 +53,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.14
 
 
-- **Standard Output**: $0.25
+- **Standard Output**: $0.28
 
 
 
 
 
-- **Cached Output**: $0.02
+- **Cached Output**: $0.028
 
 
 
@@ -171,16 +171,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.39
+- **Standard Input**: $1.32
 
 
-- **Standard Output**: $3.49
+- **Standard Output**: $3.9600000000000004
 
 
 
 
 
-- **Cached Output**: $0.3159
+- **Cached Output**: $0.044
 
 
 
@@ -942,16 +942,16 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.42
 
 
-- **Standard Output**: $4.4
+- **Standard Output**: $2.5500000000000003
 
 
 
 
 
-- **Cached Output**: $0.0199
+- **Cached Output**: $0.09
 
 
 

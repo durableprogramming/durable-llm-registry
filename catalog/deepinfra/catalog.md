@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 275
-- **Last Updated**: 2026-10-21
+- **Total Models**: 281
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -633,6 +633,44 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### Bria/fibo-2.0
+
+**Model ID**: `Bria/fibo-2.0`  
+**Family**: Bria/fibo-2.0
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### Bria/fibo_edit
 
 **Model ID**: `Bria/fibo_edit`  
@@ -764,6 +802,44 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Output**: image
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### Bria/remove_background_guided
+
+**Model ID**: `Bria/remove_background_guided`  
+**Family**: Bria/remove_background_guided
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
 
 
 #### Capabilities
@@ -7170,6 +7246,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+**Model ID**: `deepseek-ai/DeepSeek-V4.1-Flash-1017`  
+**Family**: deepseek-ai/DeepSeek-V4.1-Flash-1017
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.006
+
+
+
+
+
+
+---
+
+
 ### deepseek-ai/Janus-Pro-1B
 
 **Model ID**: `deepseek-ai/Janus-Pro-1B`  
@@ -8715,6 +8846,57 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.012
+
+
+
+
+
+
+---
+
+
+### inclusionAI/Ling-3.1-flash
+
+**Model ID**: `inclusionAI/Ling-3.1-flash`  
+**Family**: inclusionAI/Ling-3.1-flash
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $0.8999999999999999
+
+
+
+
+
+- **Cached Output**: $0.06
 
 
 
@@ -10908,6 +11090,57 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ---
 
 
+### nvidia/NVIDIA-Nemotron-3.5-Super-VL
+
+**Model ID**: `nvidia/NVIDIA-Nemotron-3.5-Super-VL`  
+**Family**: nvidia/NVIDIA-Nemotron-3.5-Super-VL
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $1.0
+
+
+
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
 ### nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL
 
 **Model ID**: `nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL`  
@@ -11990,6 +12223,57 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.04
+
+
+
+
+
+
+---
+
+
+### stepfun-ai/Step-5-Preview
+
+**Model ID**: `stepfun-ai/Step-5-Preview`  
+**Family**: stepfun-ai/Step-5-Preview
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $2.7
+
+
+
+
+
+- **Cached Output**: $0.049999999999999996
 
 
 

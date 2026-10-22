@@ -7,22 +7,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 12
-- **Last Updated**: 2026-10-21
+- **Total Models**: 10
+- **Last Updated**: 2026-10-22
 
 ## Models
 
 
-### Big Pickle
+### Beam Free
 
-**Model ID**: `big-pickle`  
-**Family**: big-pickle
+**Model ID**: `beam-free`  
+**Family**: beam
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -70,16 +70,16 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Cat Jam Free
+### Big Pickle
 
-**Model ID**: `cat-jam-free`  
-**Family**: cat-jam-free
+**Model ID**: `big-pickle`  
+**Family**: big-pickle
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 200,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
@@ -184,67 +184,10 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### GLM-5.3-Flash Free
+### Flint 40B Free
 
-**Model ID**: `glm-5.3-flash-free`  
-**Family**: glm-flash
-#### Specifications
-
-- **Context Window**: 200,000 tokens
-
-
-- **Max Output Tokens**: 32,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video, pdf
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### LL Alpha Free
-
-**Model ID**: `ll-alpha-free`  
-**Family**: ll-alpha-free
+**Model ID**: `flint-40b-free`  
+**Family**: flint
 #### Specifications
 
 - **Context Window**: 262,144 tokens
@@ -298,22 +241,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### LongCat 2.5 Preview Free
+### GLM-5.3-Flash Free
 
-**Model ID**: `longcat-2.5-preview-free`  
-**Family**: longcat
+**Model ID**: `glm-5.3-flash-free`  
+**Family**: glm-flash
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 200,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 32,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video, pdf
 
 
 - **Output**: text
@@ -412,22 +355,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Muse Spark 1.3 Free
+### MiniMax M3.1 Flash Free
 
-**Model ID**: `muse-spark-1.3-contributor-free`  
-**Family**: muse-free
+**Model ID**: `minimax-m3.1-flash-free`  
+**Family**: minimax
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 512,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, audio, image, video, pdf
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -472,7 +415,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 ### Nemotron 3 Ultra Free
 
 **Model ID**: `nemotron-3-ultra-free`  
-**Family**: nemotron-free
+**Family**: nemotron
 #### Specifications
 
 - **Context Window**: 1,000,000 tokens
@@ -529,7 +472,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 ### Nemotron 3.5 Lightning Free
 
 **Model ID**: `nemotron-3.5-lightning-free`  
-**Family**: nemotron-free
+**Family**: nemotron
 #### Specifications
 
 - **Context Window**: 262,144 tokens
@@ -586,7 +529,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 ### Nemotron 3.5 Super VL Free
 
 **Model ID**: `nemotron-3.5-super-vl-free`  
-**Family**: nemotron-free
+**Family**: nemotron
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
@@ -599,63 +542,6 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### Space Bunny Free
-
-**Model ID**: `space-bunny-free`  
-**Family**: space-bunny-free
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 524,288 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video
 
 
 - **Output**: text

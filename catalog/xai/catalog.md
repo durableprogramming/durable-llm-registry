@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 94
-- **Last Updated**: 2026-10-21
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -3838,7 +3838,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text

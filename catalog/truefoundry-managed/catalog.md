@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 
 - **Provider**: truefoundry-managed
 - **Total Models**: 22
-- **Last Updated**: 2026-10-21
+- **Last Updated**: 2026-10-22
 
 ## Models
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ## Overview
 
 - **Provider**: google-gemini
-- **Total Models**: 91
-- **Last Updated**: 2026-10-21
+- **Total Models**: 92
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -2953,6 +2953,65 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ---
 
 
+### gemini-4-argon
+
+**Model ID**: `gemini-4-argon`  
+**Family**: gemini-4-argon
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video, audio, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Code execution
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
 ### gemini-embedding-001
 
 **Model ID**: `gemini-embedding-001`  
@@ -3213,19 +3272,19 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: gemini-nano-banana-2.1
 #### Specifications
 
-- **Context Window**: 65,536 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image, video, pdf
 
 
-- **Output**: text
+- **Output**: image, text
 
 
 #### Capabilities
@@ -3237,6 +3296,10 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $7.5
 
 
 

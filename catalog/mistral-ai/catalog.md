@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 109
-- **Last Updated**: 2026-10-21
+- **Total Models**: 114
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -4910,6 +4910,82 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ---
 
 
+### voxtral-mini-transcribe-3
+
+**Model ID**: `voxtral-mini-transcribe-3`  
+**Family**: voxtral-mini-transcribe-3
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### voxtral-mini-transcribe-3-0
+
+**Model ID**: `voxtral-mini-transcribe-3-0`  
+**Family**: voxtral-mini-transcribe-3-0
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### voxtral-mini-transcribe-realtime-2602
 
 **Model ID**: `voxtral-mini-transcribe-realtime-2602`  
@@ -5014,6 +5090,44 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Function calling
 
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### voxtral-mini-tts-3
+
+**Model ID**: `voxtral-mini-tts-3`  
+**Family**: voxtral-mini-tts-3
+#### Specifications
+
+- **Context Window**: 4,096 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
 
 
 #### Pricing (per million tokens)
@@ -5206,6 +5320,82 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Standard Output**: $0.39999999999999997
+
+
+
+
+
+
+
+---
+
+
+### voxtral-small-transcribe-3
+
+**Model ID**: `voxtral-small-transcribe-3`  
+**Family**: voxtral-small-transcribe-3
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### voxtral-small-transcribe-3-0
+
+**Model ID**: `voxtral-small-transcribe-3-0`  
+**Family**: voxtral-small-transcribe-3-0
+#### Specifications
+
+- **Context Window**: 65,536 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
 
 
 

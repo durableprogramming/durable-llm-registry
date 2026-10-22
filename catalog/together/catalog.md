@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 388
-- **Last Updated**: 2026-10-21
+- **Total Models**: 393
+- **Last Updated**: 2026-10-22
 
 ## Models
 
@@ -8266,6 +8266,69 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+**Model ID**: `deepseek-ai/DeepSeek-V4.1-Flash-1017`  
+**Family**: deepseek-ai/DeepSeek-V4.1-Flash-1017
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Json output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.006
+
+
+
+
+
+
+---
+
+
 ### deepseek-ai/deepseek-coder-33b-instruct
 
 **Model ID**: `deepseek-ai/deepseek-coder-33b-instruct`  
@@ -12013,6 +12076,124 @@ This catalog provides a comprehensive overview of all together models available 
 ---
 
 
+### meta-models/Muse-Spark-Open-816B-A42B
+
+**Model ID**: `meta-models/Muse-Spark-Open-816B-A42B`  
+**Family**: meta-models/Muse-Spark-Open-816B-A42B
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video, pdf
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Structured output
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.25
+
+
+- **Standard Output**: $4.25
+
+
+
+
+
+- **Cached Output**: $0.15
+
+
+
+
+
+
+---
+
+
+### meta-models/Muse-Spark-Open-816B-A42B-promo
+
+**Model ID**: `meta-models/Muse-Spark-Open-816B-A42B-promo`  
+**Family**: meta-models/Muse-Spark-Open-816B-A42B-promo
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
 ### minimax/hailuo-02
 
 **Model ID**: `minimax/hailuo-02`  
@@ -13647,8 +13828,6 @@ This catalog provides a comprehensive overview of all together models available 
 - **Context Window**: 1,000,000 tokens
 
 
-- **Max Output Tokens**: 1,000,000 tokens
-
 
 #### Modalities
 
@@ -13779,6 +13958,53 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 
+
+
+
+
+
+
+---
+
+
+### nvidia/NVIDIA-Nemotron-3.5-Super-VL
+
+**Model ID**: `nvidia/NVIDIA-Nemotron-3.5-Super-VL`  
+**Family**: nvidia/NVIDIA-Nemotron-3.5-Super-VL
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.02
 
 
 
@@ -14538,6 +14764,53 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### reflection/Beam-1.0-501B-A23B
+
+**Model ID**: `reflection/Beam-1.0-501B-A23B`  
+**Family**: reflection/Beam-1.0-501B-A23B
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.39999999999999997
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 
