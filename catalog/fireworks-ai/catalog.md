@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 12
-- **Last Updated**: 2026-10-22
+- **Total Models**: 19
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -532,6 +532,354 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Standard Output**: $6.0
 
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/models/qwen3-embedding-8b
+
+**Model ID**: `accounts/fireworks/models/qwen3-embedding-8b`  
+**Family**: accounts/fireworks/models/qwen3-embedding-8b
+#### Specifications
+
+- **Context Window**: 40,960 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: embedding
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/deepseek-v4p1-flash-us
+
+**Model ID**: `accounts/fireworks/routers/deepseek-v4p1-flash-us`  
+**Family**: accounts/fireworks/routers/deepseek-v4p1-flash-us
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.44999999999999996
+
+
+- **Standard Output**: $1.7999999999999998
+
+
+
+
+
+- **Cached Output**: $0.009
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/glm-5p3-fast
+
+**Model ID**: `accounts/fireworks/routers/glm-5p3-fast`  
+**Family**: accounts/fireworks/routers/glm-5p3-fast
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0999999999999996
+
+
+- **Standard Output**: $6.6000000000000005
+
+
+
+
+
+- **Cached Output**: $0.39
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/glm-5p3-flash-us
+
+**Model ID**: `accounts/fireworks/routers/glm-5p3-flash-us`  
+**Family**: accounts/fireworks/routers/glm-5p3-flash-us
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22499999999999998
+
+
+- **Standard Output**: $0.75
+
+
+
+
+
+- **Cached Output**: $0.045
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/glm-5p3-us
+
+**Model ID**: `accounts/fireworks/routers/glm-5p3-us`  
+**Family**: accounts/fireworks/routers/glm-5p3-us
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0999999999999996
+
+
+- **Standard Output**: $6.6000000000000005
+
+
+
+
+
+- **Cached Output**: $0.39
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/kimi-k3-fast
+
+**Model ID**: `accounts/fireworks/routers/kimi-k3-fast`  
+**Family**: accounts/fireworks/routers/kimi-k3-fast
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.5
+
+
+- **Standard Output**: $22.5
+
+
+
+
+
+- **Cached Output**: $0.44999999999999996
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/kimi-k3-us
+
+**Model ID**: `accounts/fireworks/routers/kimi-k3-us`  
+**Family**: accounts/fireworks/routers/kimi-k3-us
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $4.5
+
+
+- **Standard Output**: $22.5
+
+
+
+
+
+- **Cached Output**: $0.44999999999999996
 
 
 

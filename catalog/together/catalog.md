@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 393
-- **Last Updated**: 2026-10-22
+- **Total Models**: 394
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -1151,6 +1151,65 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
+### MiniMaxAI/MiniMax-M3.1-Flash
+
+**Model ID**: `MiniMaxAI/MiniMax-M3.1-Flash`  
+**Family**: MiniMaxAI/MiniMax-M3.1-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 524,288 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.015
 
 
 

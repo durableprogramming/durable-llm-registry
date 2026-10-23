@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 271
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -1540,8 +1540,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -1733,11 +1731,11 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - System messages
 
+- Mid conversation system messages
+
 - Tool choice
 
 - Prompt caching
-
-- Assistant prefill
 
 
 
@@ -1905,7 +1903,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -1966,7 +1964,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -2023,7 +2021,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -3202,7 +3200,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -3757,7 +3755,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -3818,7 +3816,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -3883,7 +3881,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -4632,6 +4630,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
+
+- Structured output
 
 
 
@@ -5878,6 +5878,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Cache control
 
 - Mid conversation system messages
+
+- Structured output
 
 
 
@@ -7436,8 +7438,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Cache control
 
-- Assistant prefill
-
 
 
 #### Pricing (per million tokens)
@@ -7509,7 +7509,18 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ##### Text Tokens
 
 
+- **Standard Input**: $3.3000000000000003
 
+
+- **Standard Output**: $16.5
+
+
+
+
+- **Cached Input**: $4.125
+
+
+- **Cached Output**: $0.33
 
 
 
@@ -7700,6 +7711,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 
+
+- **Cached Input**: $0.396
 
 
 - **Cached Output**: $0.099
@@ -8181,7 +8194,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: luma.ray-v2:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 300 tokens
 
 
 
@@ -10819,7 +10832,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -10880,7 +10893,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 128,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -11002,7 +11015,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - **Context Window**: 300,000 tokens
 
 
-- **Max Output Tokens**: 5,000 tokens
+- **Max Output Tokens**: 10,000 tokens
 
 
 #### Modalities
@@ -12193,6 +12206,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Mid conversation system messages
 
 - Prompt caching
+
+- Structured output
 
 
 
@@ -13803,11 +13818,11 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Capabilities
 
 
-- Function calling
+- Tool choice
 
 - Parallel function calling
 
-- Tool choice
+- Function calling
 
 - Prompt caching
 
@@ -14125,7 +14140,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 #### Modalities
 
 
-- **Input**: image
+- **Input**: image, text
 
 
 - **Output**: image

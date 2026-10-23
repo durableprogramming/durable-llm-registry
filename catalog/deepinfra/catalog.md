@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 281
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -836,10 +836,10 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
-- **Output**: text
+- **Output**: image
 
 
 #### Capabilities
@@ -11103,7 +11103,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Modalities
 
 
-- **Input**: image
+- **Input**: text, image, doc, video
 
 
 - **Output**: text
@@ -11111,6 +11111,10 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 #### Capabilities
 
+
+- Function calling
+
+- Json output
 
 - Prompt caching
 
@@ -11122,16 +11126,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19999999999999998
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.5
 
 
 
 
 
-- **Cached Output**: $0.09999999999999999
+- **Cached Output**: $0.02
 
 
 

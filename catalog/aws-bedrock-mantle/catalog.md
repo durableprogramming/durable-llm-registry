@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 61
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -59,18 +59,18 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 ##### Text Tokens
 
 
-- **Standard Input**: $1.1
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $5.5
+- **Standard Output**: $5.0
 
 
 
 
-- **Cached Input**: $1.375
+- **Cached Input**: $1.25
 
 
-- **Cached Output**: $0.11
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -783,6 +783,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - System messages
 
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -832,6 +834,8 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 - Function calling
 
 - System messages
+
+- Prompt caching
 
 
 

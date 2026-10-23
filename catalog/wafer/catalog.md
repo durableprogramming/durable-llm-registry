@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 22
-- **Last Updated**: 2026-10-22
+- **Total Models**: 24
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -232,6 +232,63 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.006
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4.1-Flash-1017
+
+**Model ID**: `DeepSeek-V4.1-Flash-1017`  
+**Family**: DeepSeek-V4.1-Flash-1017
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -720,6 +777,63 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.07
+
+
+
+
+
+
+---
+
+
+### MiniMax-M3.1-Flash
+
+**Model ID**: `MiniMax-M3.1-Flash`  
+**Family**: MiniMax-M3.1-Flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 524,288 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.015
 
 
 

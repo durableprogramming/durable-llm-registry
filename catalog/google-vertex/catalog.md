@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 461
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -20877,7 +20877,16 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ##### Text Tokens
 
 
+- **Standard Input**: $2.0
 
+
+- **Standard Output**: $6.0
+
+
+
+
+
+- **Cached Output**: $0.5
 
 
 

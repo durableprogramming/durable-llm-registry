@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 80
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -33,6 +33,14 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -350,13 +358,21 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image, pdf
 
 
 - **Output**: text
 
 
 #### Capabilities
+
+
+- Function calling
+
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -595,6 +611,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 - **Context Window**: 1,000,000 tokens
 
 
+- **Max Output Tokens**: 128,000 tokens
+
 
 #### Modalities
 
@@ -634,7 +652,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 
-- **Cached Input**: $3.0
+- **Cached Input**: $3.75
 
 
 - **Cached Output**: $0.3
@@ -1110,7 +1128,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.6-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -1124,6 +1142,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -1833,20 +1855,34 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5-nano
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 400,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
@@ -2021,20 +2057,36 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -2363,8 +2415,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.6-terra
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -2463,20 +2517,36 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-6-luna
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
 
 
-- **Input**: text
+- **Input**: text, image
 
 
 - **Output**: text
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -2510,8 +2580,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-6-sol
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,050,000 tokens
 
+
+- **Max Output Tokens**: 128,000 tokens
 
 
 #### Modalities
@@ -2524,6 +2596,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2665,7 +2741,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: perplexity/glm-5.3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2679,6 +2755,14 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Prompt caching
+
+- Structured output
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -2712,7 +2796,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: perplexity/glm-5.3-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2726,6 +2810,14 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- System messages
+
 
 
 #### Pricing (per million tokens)
@@ -2759,7 +2851,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: perplexity/kimi-k3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2773,6 +2865,12 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
 
 
 #### Pricing (per million tokens)
@@ -3785,7 +3883,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 500,000 tokens
 
 
 

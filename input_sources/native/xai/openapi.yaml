@@ -4361,7 +4361,8 @@ components:
             image: the list length must equal `n` (default 1). Each PUT sends a
             `Content-Type` equal to the image's `mime_type` in the response
             (`image/jpeg` unless the requested quality produces PNG), so sign the
-            URL for that type or without a Content-Type constraint.
+            URL for that type or without a Content-Type constraint. Azure Blob SAS
+            URLs also get `x-ms-blob-type: BlockBlob`.
     ImagePricingTier:
       type: object
       description: |-
@@ -6517,7 +6518,7 @@ components:
               Note: This parameter cannot be set with `excluded_x_handles`.
             example:
             - elonmusk
-            maxItems: 10
+            maxItems: 20
           enable_image_understanding:
             type:
             - boolean
@@ -6540,7 +6541,7 @@ components:
               Note: This parameter cannot be set with `allowed_x_handles`.
             example:
             - elonmusk
-            maxItems: 10
+            maxItems: 20
           from_date:
             type:
             - string
@@ -8581,7 +8582,11 @@ components:
       properties:
         upload_url:
           type: string
-          description: Signed URL to upload the generated video via HTTP PUT.
+          description: |-
+            Signed URL to upload the generated video via HTTP PUT, e.g. an S3 / GCS
+            presigned URL or an Azure Blob SAS URL. The PUT sends
+            `Content-Type: video/mp4`, plus `x-ms-blob-type: BlockBlob` for Azure
+            Blob Storage hosts.
     VideoResolution:
       type: string
       description: Resolution for video generation.

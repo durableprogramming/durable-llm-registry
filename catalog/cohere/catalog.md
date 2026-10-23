@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 - **Provider**: cohere
 - **Total Models**: 44
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -1354,6 +1354,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 - **Context Window**: 16,000 tokens
 
 
+- **Max Output Tokens**: 16,000 tokens
+
 
 #### Modalities
 
@@ -1368,6 +1370,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 
 - Structured output
+
+- Function calling
 
 
 

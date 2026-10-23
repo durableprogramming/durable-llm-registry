@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 92
-- **Last Updated**: 2026-10-22
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -3239,6 +3239,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - Code execution
 
+- Json output
+
 
 
 #### Pricing (per million tokens)
@@ -3708,6 +3710,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - System messages
 
+- Function calling
+
 
 
 #### Pricing (per million tokens)
@@ -4060,7 +4064,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image
 
 
 - **Output**: text

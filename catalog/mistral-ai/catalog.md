@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 114
-- **Last Updated**: 2026-10-22
+- **Total Models**: 119
+- **Last Updated**: 2026-10-23
 
 ## Models
 
@@ -758,6 +758,65 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### glm-5-3-flash
+
+**Model ID**: `glm-5-3-flash`  
+**Family**: glm-5-3-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Assistant prefill
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
@@ -2258,7 +2317,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 **Family**: mistral-large-4
 #### Specifications
 
-- **Context Window**: 524,288 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2284,7 +2343,16 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ##### Text Tokens
 
 
+- **Standard Input**: $1.3599999999999999
 
+
+- **Standard Output**: $4.18
+
+
+
+
+
+- **Cached Output**: $0.14
 
 
 
@@ -2300,7 +2368,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 **Family**: mistral-large-4-0
 #### Specifications
 
-- **Context Window**: 524,288 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 262,144 tokens
@@ -2320,6 +2388,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - Function calling
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -2328,7 +2398,16 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ##### Text Tokens
 
 
+- **Standard Input**: $1.3599999999999999
 
+
+- **Standard Output**: $4.18
+
+
+
+
+
+- **Cached Output**: $0.14
 
 
 
@@ -5028,6 +5107,82 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ---
 
 
+### voxtral-mini-transcribe-realtime-3
+
+**Model ID**: `voxtral-mini-transcribe-realtime-3`  
+**Family**: voxtral-mini-transcribe-realtime-3
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### voxtral-mini-transcribe-realtime-3-0
+
+**Model ID**: `voxtral-mini-transcribe-realtime-3-0`  
+**Family**: voxtral-mini-transcribe-realtime-3-0
+#### Specifications
+
+- **Context Window**: 32,768 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
 ### voxtral-mini-tts-260213
 
 **Model ID**: `voxtral-mini-tts-260213`  
@@ -5112,6 +5267,44 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 **Model ID**: `voxtral-mini-tts-3`  
 **Family**: voxtral-mini-tts-3
+#### Specifications
+
+- **Context Window**: 4,096 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### voxtral-mini-tts-3-0
+
+**Model ID**: `voxtral-mini-tts-3-0`  
+**Family**: voxtral-mini-tts-3-0
 #### Specifications
 
 - **Context Window**: 4,096 tokens
@@ -5570,6 +5763,65 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Cached Output**: $0.14
+
+
+
+
+
+
+---
+
+
+### zai-glm-5-3-flash
+
+**Model ID**: `zai-glm-5-3-flash`  
+**Family**: zai-glm-5-3-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Assistant prefill
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
 
 
 
