@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1069
-- **Last Updated**: 2026-10-23
+- **Total Models**: 1070
+- **Last Updated**: 2026-10-24
 
 ## Models
 
@@ -2765,10 +2765,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $1.0
 
 
 
@@ -3208,7 +3208,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.0422
 
 
-- **Standard Output**: $0.1729
+- **Standard Output**: $0.1763
 
 
 
@@ -3293,10 +3293,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.84477
+- **Standard Input**: $0.2088
 
 
-- **Standard Output**: $1.68954
+- **Standard Output**: $0.4176
 
 
 
@@ -3381,10 +3381,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $1.0
 
 
 
@@ -5051,10 +5051,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.0675
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.225
 
 
 
@@ -7054,7 +7054,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -7075,10 +7075,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.95
+- **Standard Output**: $1.2
 
 
 
@@ -8849,6 +8849,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### MoonshotAI: Kimi K3.1 Pro
+
+**Model ID**: `moonshotai/kimi-k3.1-pro`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 943,718 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+
+
+---
+
+
 ### MoonshotAI: Kimi Latest
 
 **Model ID**: `~moonshotai/kimi-latest`  
@@ -8879,10 +8923,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.238
+- **Standard Input**: $0.19
 
 
-- **Standard Output**: $16.0
+- **Standard Output**: $8.94
 
 
 
@@ -20336,7 +20380,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -20357,10 +20401,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0052
+- **Standard Input**: $0.0511
 
 
-- **Standard Output**: $0.1985
+- **Standard Output**: $0.0702
 
 
 
@@ -20380,7 +20424,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -20401,10 +20445,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.079
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $1.4
+- **Standard Output**: $4.295
 
 
 

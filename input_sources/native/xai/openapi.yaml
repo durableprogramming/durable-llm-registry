@@ -4121,10 +4121,8 @@ components:
       description: |-
         One entry in [`ChatRequest::guidelines`] and [`ModelRequest::guidelines`].
 
-        `type` must be `policy`. Each `category` may appear at most once, and
-        `behavior` must be one that category supports: `decline` for `sexual`,
-        `violence`, `illicit`, and `profanity`; `decline` or `offer_support` for
-        `self_harm`.
+        `type` must be `policy`. Each `category` may appear at most once, and every
+        category accepts `decline`.
       required:
       - type
       - category
@@ -4142,15 +4140,12 @@ components:
       description: How the model should handle a [`GuidelineCategory`].
       enum:
       - decline
-      - offer_support
     GuidelineCategory:
       type: string
       description: Content category a guideline applies to.
       enum:
-      - sexual
+      - nsfw
       - violence
-      - self_harm
-      - illicit
       - profanity
     HybridReranker:
       oneOf:
