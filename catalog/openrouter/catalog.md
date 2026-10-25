@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1070
-- **Last Updated**: 2026-10-24
+- **Total Models**: 1071
+- **Last Updated**: 2026-10-25
 
 ## Models
 
@@ -5901,6 +5901,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### LiquidAI: LFM2.5-2.6B
+
+**Model ID**: `liquid/lfm-2.5-2.6b`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
 ### LiquidAI: LFM2.5-2.6B (free)
 
 **Model ID**: `liquid/lfm-2.5-2.6b:free`  
@@ -6262,7 +6306,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 72,000 tokens
+- **Max Output Tokens**: 117,964 tokens
 
 
 #### Modalities
@@ -6283,10 +6327,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0509
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.335
+- **Standard Output**: $0.33
 
 
 
@@ -8923,10 +8967,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.19
+- **Standard Input**: $0.1529
 
 
-- **Standard Output**: $8.94
+- **Standard Output**: $9.3421
 
 
 
@@ -10211,94 +10255,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### OpenAI: GPT-3.5 Turbo
-
-**Model ID**: `openai/gpt-3.5-turbo`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 16,385 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-
-
----
-
-
-### OpenAI: GPT-3.5 Turbo (batch)
-
-**Model ID**: `openai/gpt-3.5-turbo:batch`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 16,385 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.25
-
-
-- **Standard Output**: $0.75
-
-
-
-
-
-
-
----
-
-
 ### OpenAI: GPT-3.5 Turbo (older v0613)
 
 **Model ID**: `openai/gpt-3.5-turbo-0613`  
@@ -10377,50 +10333,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $4.0
-
-
-
-
-
-
-
----
-
-
-### OpenAI: GPT-3.5 Turbo Instruct
-
-**Model ID**: `openai/gpt-3.5-turbo-instruct`  
-**Family**: openai
-#### Specifications
-
-- **Context Window**: 4,095 tokens
-
-
-- **Max Output Tokens**: 3,685 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.5
-
-
-- **Standard Output**: $2.0
 
 
 
@@ -16684,7 +16596,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 81,920 tokens
 
 
 #### Modalities
@@ -16705,10 +16617,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.32
 
 
-- **Standard Output**: $2.0
+- **Standard Output**: $3.2
 
 
 
@@ -20401,10 +20313,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0511
+- **Standard Input**: $0.0513
 
 
-- **Standard Output**: $0.0702
+- **Standard Output**: $0.0701
 
 
 
@@ -20445,10 +20357,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.075
+- **Standard Input**: $0.0703
 
 
-- **Standard Output**: $4.295
+- **Standard Output**: $4.3843
 
 
 
@@ -41257,6 +41169,162 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.275
+
+
+
+
+
+
+---
+
+
+### openai/gpt-3.5-turbo
+
+**Model ID**: `openai/gpt-3.5-turbo`  
+**Family**: openai/gpt-3.5-turbo
+#### Specifications
+
+- **Context Window**: 16,385 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $1.5
+
+
+
+
+
+
+
+---
+
+
+### openai/gpt-3.5-turbo-instruct
+
+**Model ID**: `openai/gpt-3.5-turbo-instruct`  
+**Family**: openai/gpt-3.5-turbo-instruct
+#### Specifications
+
+- **Context Window**: 4,095 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
+### openai/gpt-3.5-turbo:batch
+
+**Model ID**: `openai/gpt-3.5-turbo:batch`  
+**Family**: openai/gpt-3.5-turbo:batch
+#### Specifications
+
+- **Context Window**: 16,385 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.25
+
+
+- **Standard Output**: $0.75
+
 
 
 
