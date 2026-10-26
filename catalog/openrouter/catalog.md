@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1071
-- **Last Updated**: 2026-10-25
+- **Total Models**: 1073
+- **Last Updated**: 2026-10-26
 
 ## Models
 
@@ -1993,50 +1993,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Arcee AI: Trinity Large Thinking
-
-**Model ID**: `arcee-ai/trinity-large-thinking`  
-**Family**: arcee-ai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 80,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.25
-
-
-- **Standard Output**: $0.8
-
-
-
-
-
-
-
----
-
-
 ### Auto Router
 
 **Model ID**: `openrouter/auto`  
@@ -2744,7 +2700,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -2765,10 +2721,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.04
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.5
 
 
 
@@ -3208,7 +3164,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.0422
 
 
-- **Standard Output**: $0.1763
+- **Standard Output**: $0.1694
 
 
 
@@ -3293,10 +3249,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2088
+- **Standard Input**: $0.741936
 
 
-- **Standard Output**: $0.4176
+- **Standard Output**: $1.483872
 
 
 
@@ -3360,7 +3316,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -3381,10 +3337,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.0477
 
 
-- **Standard Output**: $1.0
+- **Standard Output**: $0.1908
 
 
 
@@ -5051,10 +5007,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0675
+- **Standard Input**: $0.09
 
 
-- **Standard Output**: $0.225
+- **Standard Output**: $0.3
 
 
 
@@ -8835,10 +8791,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.239
+- **Standard Input**: $0.159
 
 
-- **Standard Output**: $10.8
+- **Standard Output**: $20.0
 
 
 
@@ -8967,10 +8923,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1529
+- **Standard Input**: $0.151
 
 
-- **Standard Output**: $9.3421
+- **Standard Output**: $10.1583
 
 
 
@@ -10660,7 +10616,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,047,576 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 942,818 tokens
 
 
 #### Modalities
@@ -13863,6 +13819,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### OpenAI: GPT-6.1 Terra
+
+**Model ID**: `openai/gpt-6.1-terra`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+
+
+
+---
+
+
+### OpenAI: GPT-6.1 Terra (batch)
+
+**Model ID**: `openai/gpt-6.1-terra:batch`  
+**Family**: openai
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: file, image, text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
 ### OpenAI: gpt-oss-120b
 
 **Model ID**: `openai/gpt-oss-120b`  
@@ -15737,7 +15781,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $0.3
@@ -16397,10 +16441,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.4
+- **Standard Input**: $0.26
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $2.08
 
 
 
@@ -20005,7 +20049,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.079
+- **Standard Input**: $0.0699
 
 
 - **Standard Output**: $1.4
@@ -20313,10 +20357,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0513
+- **Standard Input**: $0.0413
 
 
-- **Standard Output**: $0.0701
+- **Standard Output**: $0.0758
 
 
 
@@ -20336,7 +20380,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -20357,10 +20401,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0703
+- **Standard Input**: $0.0699
 
 
-- **Standard Output**: $4.3843
+- **Standard Output**: $1.4
 
 
 
@@ -22440,6 +22484,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### arcee-ai/trinity-large-thinking
+
+**Model ID**: `arcee-ai/trinity-large-thinking`  
+**Family**: arcee-ai/trinity-large-thinking
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.22
+
+
+- **Standard Output**: $0.85
+
+
+
+
+
+- **Cached Output**: $0.06
 
 
 

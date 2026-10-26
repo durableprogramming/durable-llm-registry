@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Provider**: microsoft-foundry
 - **Total Models**: 514
-- **Last Updated**: 2026-10-25
+- **Last Updated**: 2026-10-26
 
 ## Models
 

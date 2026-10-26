@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 92
-- **Last Updated**: 2026-10-25
+- **Last Updated**: 2026-10-26
 
 ## Models
 
@@ -2773,10 +2773,6 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Capabilities
 
 
-- Prompt caching
-
-
-
 #### Pricing (per million tokens)
 
 
@@ -2786,11 +2782,8 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Standard Input**: $0.5
 
 
+- **Standard Output**: $6.0
 
-
-
-
-- **Cached Output**: $0.125
 
 
 
@@ -2824,10 +2817,6 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 #### Capabilities
 
 
-- Prompt caching
-
-
-
 #### Pricing (per million tokens)
 
 
@@ -2837,11 +2826,6 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 - **Standard Input**: $0.5
 
 
-
-
-
-
-- **Cached Output**: $0.125
 
 
 

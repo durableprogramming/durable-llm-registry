@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Provider**: together
 - **Total Models**: 394
-- **Last Updated**: 2026-10-25
+- **Last Updated**: 2026-10-26
 
 ## Models
 
@@ -1175,7 +1175,7 @@ This catalog provides a comprehensive overview of all together models available 
 #### Modalities
 
 
-- **Input**: text, image
+- **Input**: text, image, video
 
 
 - **Output**: text

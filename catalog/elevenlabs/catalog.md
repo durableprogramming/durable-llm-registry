@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all elevenlabs models availabl
 
 - **Provider**: elevenlabs
 - **Total Models**: 14
-- **Last Updated**: 2026-10-25
+- **Last Updated**: 2026-10-26
 
 ## Models
 
