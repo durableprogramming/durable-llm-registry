@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 271
-- **Last Updated**: 2026-10-26
+- **Total Models**: 273
+- **Last Updated**: 2026-10-27
 
 ## Models
 
@@ -6931,6 +6931,73 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### global.openai.gpt-6.1-terra
+
+**Model ID**: `global.openai.gpt-6.1-terra`  
+**Family**: global.openai.gpt-6.1-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.049999999999999996
+
+
+
+
+
+
+---
+
+
 ### global.xai.grok-4.6
 
 **Model ID**: `global.xai.grok-4.6`  
@@ -6958,8 +7025,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Function calling
 
 - Tool choice
-
-- Prompt caching
 
 - System messages
 
@@ -13861,6 +13926,73 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ---
 
 
+### us.openai.gpt-6.1-terra
+
+**Model ID**: `us.openai.gpt-6.1-terra`  
+**Family**: us.openai.gpt-6.1-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.1
+
+
+- **Standard Output**: $5.5
+
+
+
+
+- **Cached Input**: $1.375
+
+
+- **Cached Output**: $0.055
+
+
+
+
+
+
+---
+
+
 ### us.stability.stable-conservative-upscale-v1:0
 
 **Model ID**: `us.stability.stable-conservative-upscale-v1:0`  
@@ -14481,8 +14613,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Tool choice
 
-- Prompt caching
-
 - System messages
 
 
@@ -14655,10 +14785,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 #### Capabilities
 
-
-- System messages
-
-- Function calling
 
 - Structured output
 
