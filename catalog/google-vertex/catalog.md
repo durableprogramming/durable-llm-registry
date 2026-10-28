@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 461
-- **Last Updated**: 2026-10-27
+- **Total Models**: 462
+- **Last Updated**: 2026-10-28
 
 ## Models
 
@@ -20887,6 +20887,44 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### xiaomimimo/mimo-v2.6
+
+**Model ID**: `xiaomimimo/mimo-v2.6`  
+**Family**: xiaomimimo/mimo-v2.6
+#### Specifications
+
+- **Context Window**:  tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
 
 
 

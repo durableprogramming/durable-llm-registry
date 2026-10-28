@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 10
-- **Last Updated**: 2026-10-27
+- **Total Models**: 9
+- **Last Updated**: 2026-10-28
 
 ## Models
 
@@ -256,7 +256,7 @@ This catalog provides a comprehensive overview of all opencode models available 
 #### Modalities
 
 
-- **Input**: text, image, video, pdf
+- **Input**: text, image, video
 
 
 - **Output**: text
@@ -314,63 +314,6 @@ This catalog provides a comprehensive overview of all opencode models available 
 
 
 - **Input**: text, audio, image, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Reasoning
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-- **Cached Input**: $0.0
-
-
-- **Cached Output**: $0.0
-
-
-
-
-
-
----
-
-
-### MiniMax M3.1 Flash Free
-
-**Model ID**: `minimax-m3.1-flash-free`  
-**Family**: minimax
-#### Specifications
-
-- **Context Window**: 1,000,000 tokens
-
-
-- **Max Output Tokens**: 512,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, video
 
 
 - **Output**: text

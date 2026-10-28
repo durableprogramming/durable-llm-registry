@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 19
-- **Last Updated**: 2026-10-27
+- **Total Models**: 20
+- **Last Updated**: 2026-10-28
 
 ## Models
 
@@ -531,6 +531,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### Ultramarine 1 Flash (US)
+
+**Model ID**: `accounts/fireworks/models/ultramarine-1-flash-us`  
+**Family**: ultramarine-1
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.225
+
+
+- **Standard Output**: $0.75
 
 
 

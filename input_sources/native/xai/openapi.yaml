@@ -4121,8 +4121,8 @@ components:
       description: |-
         One entry in [`ChatRequest::guidelines`] and [`ModelRequest::guidelines`].
 
-        `type` must be `policy`. Each `category` may appear at most once, and every
-        category accepts `decline`.
+        `type` must be `policy`. Each `category` may appear at most once. `nsfw`,
+        `violence`, and `profanity` accept `decline`; `cyber` accepts `allow`.
       required:
       - type
       - category
@@ -4140,6 +4140,7 @@ components:
       description: How the model should handle a [`GuidelineCategory`].
       enum:
       - decline
+      - allow
     GuidelineCategory:
       type: string
       description: Content category a guideline applies to.
@@ -4147,6 +4148,7 @@ components:
       - nsfw
       - violence
       - profanity
+      - cyber
     HybridReranker:
       oneOf:
       - allOf:
@@ -4212,6 +4214,15 @@ components:
       - '2:1'
       - '21:9'
       - '5:2'
+      - auto
+    ImageBackground:
+      type: string
+      description: |-
+        Background of generated or edited images. Mirrors the OpenAI Images API
+        values; `auto` currently serves an opaque background.
+      enum:
+      - transparent
+      - opaque
       - auto
     ImageError:
       type: object
@@ -4437,6 +4448,14 @@ components:
             type: string
             enum:
             - max_time_limit
+      - type: object
+        required:
+        - reason
+        properties:
+          reason:
+            type: string
+            enum:
+            - content_filter
       description: Details about why a response is incomplete.
     InputItemEntry:
       allOf:
