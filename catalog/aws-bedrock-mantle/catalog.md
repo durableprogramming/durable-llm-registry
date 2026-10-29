@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 62
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -3269,7 +3269,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 **Family**: zai.glm-4.6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

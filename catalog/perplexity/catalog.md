@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 80
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -871,7 +871,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3-flash-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -918,7 +918,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.1-flash-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1034,7 +1034,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.5-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1081,7 +1081,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.5-flash-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1179,7 +1179,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.7-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1226,7 +1226,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-3.8-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1273,7 +1273,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-4-argon
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1761,7 +1761,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1808,7 +1808,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1916,7 +1916,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1963,7 +1963,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2010,7 +2010,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.3-codex
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2368,7 +2368,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-5.6-sol
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2468,7 +2468,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-6-astra
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2633,7 +2633,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: openai/gpt-6.1-sol
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2904,7 +2904,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: perplexity/nemotron-3-ultra-550b-a55b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3559,7 +3559,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: sonar-pro-search
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 8,000 tokens
@@ -3691,7 +3691,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.20-multi-agent
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3738,7 +3738,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.20-non-reasoning
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3785,7 +3785,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.20-reasoning
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3836,7 +3836,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3985,7 +3985,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: xai/grok-4.7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

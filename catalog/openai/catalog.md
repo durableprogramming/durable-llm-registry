@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openai models available th
 
 - **Provider**: openai
 - **Total Models**: 165
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -22,7 +22,7 @@ This catalog provides a comprehensive overview of all openai models available th
 - **Context Window**: 16,384 tokens
 
 
-- **Max Output Tokens**: 4,096 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -180,7 +180,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: chatgpt-image-latest
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -233,8 +233,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: codex-mini-latest
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 100,000 tokens
 
 
 #### Modalities
@@ -411,7 +413,7 @@ This catalog provides a comprehensive overview of all openai models available th
 - **Context Window**: 16,384 tokens
 
 
-- **Max Output Tokens**: 4,096 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -556,7 +558,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-3.5-turbo-0301
 #### Specifications
 
-- **Context Window**: 4,097 tokens
+- **Context Window**: 4,096 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -608,7 +610,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-3.5-turbo-0613
 #### Specifications
 
-- **Context Window**: 4,097 tokens
+- **Context Window**: 4,096 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -868,10 +870,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-3.5-turbo-instruct-0914
 #### Specifications
 
-- **Context Window**: 8,192 tokens
+- **Context Window**: 4,096 tokens
 
 
-- **Max Output Tokens**: 4,097 tokens
+- **Max Output Tokens**: 4,096 tokens
 
 
 #### Modalities
@@ -1972,8 +1974,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-4o-audio-preview-2024-12-17
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -2242,8 +2246,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-4o-mini-audio-preview-2024-12-17
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
+
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -6018,7 +6024,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6067,7 +6073,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-1-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6116,7 +6122,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6169,7 +6175,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-1.5-2025-12-16
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6220,7 +6226,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6271,7 +6277,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2-2026-04-21
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6320,7 +6326,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2.5-flare
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6371,7 +6377,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2.5-flare-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6422,7 +6428,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2.5-sunburst
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6473,7 +6479,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-image-2.5-sunburst-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6524,7 +6530,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-live-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6566,7 +6572,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-live-transcribe
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7217,7 +7223,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-transcribe
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7537,8 +7543,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: o1-pro-2025-03-19
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 100,000 tokens
 
 
 #### Modalities
@@ -7750,8 +7758,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: o3-deep-research-2025-06-26
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 100,000 tokens
 
 
 #### Modalities
@@ -7964,8 +7974,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: o3-pro-2025-06-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 100,000 tokens
 
 
 #### Modalities
@@ -8181,8 +8193,10 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: o4-mini-deep-research-2025-06-26
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
+
+- **Max Output Tokens**: 100,000 tokens
 
 
 #### Modalities
@@ -8219,7 +8233,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: omni-moderation-2024-09-26
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8261,7 +8275,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: omni-moderation-latest
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8303,7 +8317,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: omni-moderation-latest-intents
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8412,7 +8426,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: sora-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8450,7 +8464,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: sora-2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8860,7 +8874,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: tts-1-hd-1106
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8898,7 +8912,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: whisper-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

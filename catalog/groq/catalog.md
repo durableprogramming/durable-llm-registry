@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 
 - **Provider**: groq
 - **Total Models**: 24
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -65,7 +65,7 @@ This catalog provides a comprehensive overview of all groq models available thro
 **Family**: canopylabs/orpheus-arabic-saudi
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 

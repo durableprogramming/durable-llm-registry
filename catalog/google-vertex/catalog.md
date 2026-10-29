@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 462
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -19,7 +19,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: advimman/lama
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -57,7 +57,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: ai21/jamba-large-1.6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2575,7 +2575,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: autogluon-ai/autogluon
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2613,7 +2613,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: baai/bge
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2651,7 +2651,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: black-forest-labs/flux-2-klein-4b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2689,7 +2689,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: black-forest-labs/flux1-schnell
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2727,7 +2727,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: bytedance/stable-diffusion-xl-lightning
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2765,7 +2765,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: cambai/mars7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -2803,7 +2803,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: cambai/mars8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -3081,7 +3081,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: cloudnerf-pytorch-zipnerf
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -3883,7 +3883,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: cross-encoder/cross-encoder
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -3921,7 +3921,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: csm/cube
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -3959,7 +3959,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: dandelin/vilt-b32-finetuned-vqa
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4523,7 +4523,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: deepseek-ai/deepseek-v4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4561,7 +4561,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: deepseek-ai/deepseek-v4.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4656,7 +4656,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: dito
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4694,7 +4694,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-aligner-v1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4732,7 +4732,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-scribe-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4770,7 +4770,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-scribe-v2-turbo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4808,7 +4808,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-stt-v1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4846,7 +4846,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-tts-multilingual-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4884,7 +4884,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-tts-v2-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4922,7 +4922,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: elevenlabs/elevenlabs-turn-v1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7391,7 +7391,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/alpha-genome-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7429,7 +7429,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/alphafold3-request
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7467,7 +7467,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/alphagenome
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7505,7 +7505,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/alphagenome-request
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7543,7 +7543,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/automl-e2e
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7581,7 +7581,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/automl-vision-image-classification
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7619,7 +7619,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/automl-vision-image-object-detection
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7657,7 +7657,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/bart-large-cnn
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7695,7 +7695,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/bert-base
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7771,7 +7771,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/chirp-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7809,7 +7809,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/chirp-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7887,7 +7887,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/content-moderation
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -7925,7 +7925,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/cxr-foundation
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -8045,7 +8045,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/earth-ai-imagery-mammut-eap-10-2025
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -8083,7 +8083,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/earth-ai-imagery-owlvit-eap-10-2025
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -8197,7 +8197,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/f-vlm-jax
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -8235,7 +8235,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/face-detector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -9128,7 +9128,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/gemini-3-pro-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -9739,7 +9739,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/gemini-3.5-transcribe
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -9777,7 +9777,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/gemini-3.5-transcribe-live
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -10946,7 +10946,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageclassification-efficientnet
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -10984,7 +10984,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageclassification-proprietary-efficientnet
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11022,7 +11022,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageclassification-proprietary-maxvit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11060,7 +11060,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageclassification-proprietary-vit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11098,7 +11098,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageclassification-vit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11136,7 +11136,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagegeneration
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11174,7 +11174,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagen-3.0-capability-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11212,7 +11212,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagen-3.0-generate-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11250,7 +11250,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageobjectdetection-proprietary-spinenet
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11288,7 +11288,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageobjectdetection-proprietary-yolo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11326,7 +11326,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imageobjectdetection-yolo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11364,7 +11364,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagesegmentation-deeplabv3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11402,7 +11402,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagetext
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11440,7 +11440,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/imagewatermarkdetector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11478,7 +11478,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/jax-owl-vit-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11516,7 +11516,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/keras-yolov8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11554,7 +11554,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/label-detector-pali-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11592,7 +11592,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/language-v1-analyze-entity-sentiment
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11630,7 +11630,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/language-v1-analyze-syntax
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11668,7 +11668,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/medasr
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11826,7 +11826,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/object-detector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11864,7 +11864,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/occupancy-analytics
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11902,7 +11902,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/owlvit-base-patch32
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -11940,7 +11940,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/paligemma
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12016,7 +12016,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/people-blur
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12054,7 +12054,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/pic2word
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12092,7 +12092,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/ppe-detector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12130,7 +12130,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/pretrained-form-parser
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12168,7 +12168,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/product-recognizer
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12206,7 +12206,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/pt-test
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12244,7 +12244,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/resnet50
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12282,7 +12282,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/shieldgemma2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12324,7 +12324,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/t5-1.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12362,7 +12362,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/t5-flan
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12400,7 +12400,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/t5gemma
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12438,7 +12438,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/tag-recognizer
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12476,7 +12476,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/text-detector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12518,7 +12518,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/text-embedding-large-exp-03-07
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12594,7 +12594,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/text-translation
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12632,7 +12632,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/textembedding-gecko
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12670,7 +12670,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/tfvision-movinet-var
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12708,7 +12708,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/tfvision-movinet-vcn
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12746,7 +12746,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/tfvision-yolov7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12784,7 +12784,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/timesfm
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12822,7 +12822,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/translate-llm
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12898,7 +12898,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/txgemma
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12936,7 +12936,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/veo-3.0-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -12974,7 +12974,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/video-speech-transcription
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13012,7 +13012,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/video-text-detection
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13050,7 +13050,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/vit-jax
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13088,7 +13088,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: google/weathernext
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13164,7 +13164,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: hidream-ai/hidream-i1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13202,7 +13202,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: ifzhang/bytetrack-multi-object-tracking
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13240,7 +13240,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: image-segmentation-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13316,7 +13316,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-3.0-capability-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13354,7 +13354,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-3.0-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13392,7 +13392,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-3.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13430,7 +13430,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-3.0-generate-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13468,7 +13468,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-4.0-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13506,7 +13506,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-4.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13544,7 +13544,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: imagen-4.0-ultra-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13582,7 +13582,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: impira/layoutlm-document-qa
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13620,7 +13620,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: instantx/instant-id
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13914,7 +13914,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: language-v1-classify-text-v1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13952,7 +13952,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: language-v1-moderate-text
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -13990,7 +13990,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: liuhaotian/pytorch-llava
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14028,7 +14028,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: llama-3.1-405b-instruct-maas
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 2,048 tokens
@@ -14074,7 +14074,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: llama-3.1-70b-instruct-maas
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 2,048 tokens
@@ -14168,7 +14168,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: lllyasviel/control-net
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14206,7 +14206,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: lmsys/lmsys-vicuna-7b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14244,7 +14244,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: lyria-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14358,7 +14358,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mammut
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14522,7 +14522,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/faster-r-cnn
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14598,7 +14598,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/llama-2-quantized
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -14968,7 +14968,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/llama2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15052,7 +15052,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/llama3-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15140,7 +15140,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/llama3_1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15242,7 +15242,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/mask-r-cnn
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15280,7 +15280,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/muse-glimmer
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15360,7 +15360,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/nllb
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15436,7 +15436,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/retinanet
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15512,7 +15512,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/sam3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15550,7 +15550,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/segment-anything
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15588,7 +15588,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: meta/xlm-roberta-large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15702,7 +15702,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: microsoft/phi3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15900,7 +15900,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mistral-ai/mistral
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -15938,7 +15938,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mistral-ai/mixtral
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16030,7 +16030,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mistralai/codestral-2501-self-deploy
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16118,7 +16118,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mistralai/ministral-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16362,7 +16362,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: mistralai/mistral-ocr-2505
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16773,7 +16773,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: moonshotai/kimi-k2-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16811,7 +16811,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: moonshotai/kimi-k2-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16910,7 +16910,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: moonshotai/kimi-k3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -16990,7 +16990,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nari-labs/dia-1.6b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17028,7 +17028,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nvidia/cosmos
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17066,7 +17066,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nvidia/cosmos-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17104,7 +17104,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nvidia/cosmos3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17228,7 +17228,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: nvidia/nemotron-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17763,7 +17763,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: openai/openclip
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17801,7 +17801,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: openai/whisper-large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17839,7 +17839,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: openlm-research/openllama
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17877,7 +17877,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: pretrained-ocr
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -17953,7 +17953,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: qwen/qwen-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18147,7 +18147,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: qwen/qwen3-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18185,7 +18185,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: qwen/qwen3-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18389,7 +18389,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: qwen/qwen3-embedding
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18639,7 +18639,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: qwen/qwen3.8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18721,7 +18721,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: reflection/beam
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18771,7 +18771,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: runwayml/stable-diffusion-inpainting
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18809,7 +18809,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: salesforce/blip-image-captioning-base
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18847,7 +18847,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: salesforce/blip-vqa-base
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18885,7 +18885,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: salesforce/blip2-opt-2.7-b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18923,7 +18923,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: sesame/csm
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18961,7 +18961,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: stability-ai/stable-diffusion-2-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -18999,7 +18999,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: stability-ai/stable-diffusion-4x-upscaler
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19037,7 +19037,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: stability-ai/stable-diffusion-xl-base
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19075,7 +19075,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: stability-ai/stable-diffusion-xl-lcm
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19113,7 +19113,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: tab-net
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19877,7 +19877,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: thudm/cogvideox
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19953,7 +19953,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: timbrooks/instruct-pix2pix
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -19991,7 +19991,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: vehicle-detector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20029,7 +20029,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: veo-2.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20067,7 +20067,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: veo-3.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20105,7 +20105,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: veo-3.1-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20143,7 +20143,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: veo-3.1-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20181,7 +20181,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: veo-3.1-lite-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20219,7 +20219,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: virtual-try-on-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20295,7 +20295,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: wan-ai/wan2-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20333,7 +20333,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: wan-ai/wan2-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20371,7 +20371,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: weather-next-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20409,7 +20409,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: weiboai/vibethinker
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20902,7 +20902,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: xiaomimimo/mimo-v2.6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -20940,7 +20940,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: xiaomimimo/xiaomimimo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -21076,7 +21076,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: zai-org/glm-4.7-flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -21462,7 +21462,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 **Family**: zai-org/glm-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 

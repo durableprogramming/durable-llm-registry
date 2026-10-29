@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 
 - **Provider**: xai
 - **Total Models**: 94
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -69,7 +69,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-2-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -109,7 +109,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-2-image-1212
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -149,7 +149,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-2-image-latest
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -989,7 +989,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-3-mini-fast-high-beta
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4575,7 +4575,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4615,7 +4615,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4653,7 +4653,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-2026-03-02
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4691,7 +4691,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4731,7 +4731,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-quality
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4769,7 +4769,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-quality-20260403
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4807,7 +4807,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-image-quality-latest
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4845,7 +4845,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-video
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4883,7 +4883,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-video-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4921,7 +4921,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-video-1.5-2026-05-30
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4959,7 +4959,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-video-1.5-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 
@@ -4997,7 +4997,7 @@ This catalog provides a comprehensive overview of all xai models available throu
 **Family**: grok-imagine-video-1.5-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,000,000 tokens
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 - **Provider**: deepinfra
 - **Total Models**: 281
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -19,7 +19,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Audio8/Audio8-TTS-Preview-0.6b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -97,7 +97,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: BAAI/bge-en-icl
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -297,7 +297,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/Bria-3.2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -335,7 +335,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/Bria-3.2-vector
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -373,7 +373,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/blur_background
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -411,7 +411,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/enhance
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -449,7 +449,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/erase
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -487,7 +487,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/erase_foreground
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -525,7 +525,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/expand
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -563,7 +563,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/fibo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -601,7 +601,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/fibo-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -639,7 +639,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/fibo-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -677,7 +677,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/fibo_edit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -715,7 +715,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/fibo_edit-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -753,7 +753,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/gen_fill
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -791,7 +791,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/remove_background
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -829,7 +829,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/remove_background_guided
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -867,7 +867,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Bria/replace_background
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1127,7 +1127,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ByteDance/Seedance-1.5-Pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1165,7 +1165,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ByteDance/Seedance-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1207,7 +1207,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ByteDance/Seedream-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1245,7 +1245,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ByteDance/Seedream-4.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1283,7 +1283,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ClarityAI/creative
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1321,7 +1321,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ClarityAI/crystal
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1359,7 +1359,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ClarityAI/flux
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1397,7 +1397,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: FastVideo/LTX-2.3-Distilled-Diffusers
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1435,7 +1435,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: FastVideo/LTX2-Distilled-Diffusers
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1942,7 +1942,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Pixverse/Pixverse-6-T2V
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -1980,7 +1980,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Pixverse/Pixverse-T2V
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2018,7 +2018,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Pixverse/Pixverse-T2V-HD
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2056,7 +2056,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: PrunaAI/p-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2094,7 +2094,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: PrunaAI/p-image-Edit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2132,7 +2132,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: PrunaAI/p-video
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2218,7 +2218,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen-Image-Edit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2256,7 +2256,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen-Image-Edit-Max
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2294,7 +2294,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen-Image-Max
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2795,7 +2795,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen3-ASR-0.6B
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -2833,7 +2833,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen3-ASR-1.7B
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -3382,7 +3382,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen3-TTS
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -3420,7 +3420,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Qwen/Qwen3-TTS-VoiceDesign
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4350,7 +4350,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ResembleAI/chatterbox-multilingual
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4388,7 +4388,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: ResembleAI/chatterbox-turbo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4568,7 +4568,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Wan-AI/Wan2.2-T2V-A14B
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4606,7 +4606,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Wan-AI/Wan2.6-Image-Edit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4644,7 +4644,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Wan-AI/Wan2.6-T2I
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4682,7 +4682,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Wan-AI/Wan2.6-T2V
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4720,7 +4720,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: Wan-AI/Wan2.7-Image-Edit
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4868,7 +4868,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: XiaomiMiMo/MiMo-V2.5-tts
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -4906,7 +4906,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: XiaomiMiMo/MiMo-V2.5-tts-voicedesign
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5792,7 +5792,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-1-Redux-dev
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5830,7 +5830,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-1-dev
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5868,7 +5868,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-1-schnell
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5906,7 +5906,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-1.1-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5944,7 +5944,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-2-dev
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -5982,7 +5982,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-2-klein-4b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6020,7 +6020,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-2-klein-9b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6058,7 +6058,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-2-max
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6096,7 +6096,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6134,7 +6134,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6172,7 +6172,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: black-forest-labs/FLUX.1-Kontext-dev
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -6210,7 +6210,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: bosonai/HiggsAudioV2.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -7307,7 +7307,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: deepseek-ai/Janus-Pro-1B
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -7660,7 +7660,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/gemini-3-pro-image
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8301,7 +8301,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/nano-banana-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8339,7 +8339,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/nano-banana-2-lite
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8379,7 +8379,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/nano-banana-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8417,7 +8417,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/veo-3.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8455,7 +8455,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: google/veo-3.1-fast
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8493,7 +8493,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: hexgrad/Kokoro-82M
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -8877,6 +8877,10 @@ This catalog provides a comprehensive overview of all deepinfra models available
 #### Capabilities
 
 
+- Function calling
+
+- Json output
+
 - Prompt caching
 
 
@@ -8887,16 +8891,16 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $0.8999999999999999
+- **Standard Output**: $0.22499999999999998
 
 
 
 
 
-- **Cached Output**: $0.06
+- **Cached Output**: $0.015
 
 
 
@@ -9072,7 +9076,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: inworld-ai/realtime-tts-1.5-max
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -9110,7 +9114,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: inworld-ai/realtime-tts-1.5-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -9148,7 +9152,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: inworld-ai/realtime-tts-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -10161,7 +10165,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: mistralai/Voxtral-Mini-3B-2507
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -10203,7 +10207,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: mistralai/Voxtral-Small-24B-2507
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -10700,7 +10704,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: nvidia/Cosmos3-Nano
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -10738,7 +10742,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: nvidia/Cosmos3-Super
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -11344,7 +11348,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -11662,7 +11666,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: openai/whisper-large-v3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -11700,7 +11704,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: openai/whisper-large-v3-turbo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -12018,7 +12022,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: sesame/csm-1b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 
@@ -12096,7 +12100,7 @@ This catalog provides a comprehensive overview of all deepinfra models available
 **Family**: stabilityai/sdxl-turbo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 92
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -4095,7 +4095,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: imagen-3.0-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4133,7 +4133,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: imagen-3.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4327,7 +4327,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: lyria-3-clip-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4365,7 +4365,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: lyria-3-pro-preview
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4403,7 +4403,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: lyria-3.5
 #### Specifications
 
-- **Context Window**: 131,072 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 65,536 tokens
@@ -4533,7 +4533,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: veo-2.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4571,7 +4571,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: veo-3.0-fast-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 
@@ -4609,7 +4609,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: veo-3.0-generate-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 1,048,576 tokens
 
 
 

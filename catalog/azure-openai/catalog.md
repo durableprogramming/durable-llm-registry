@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 
 - **Provider**: azure-openai
 - **Total Models**: 254
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -61,7 +61,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: aoai-sora
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -99,7 +99,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: aoai-sora-2025-02-28
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -137,7 +137,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: azure-tts
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -175,7 +175,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: azure-tts-hd
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -213,7 +213,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: babbage
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -251,7 +251,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-cushman-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -289,7 +289,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-cushman-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -327,7 +327,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-davinci-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -365,7 +365,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-davinci-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -403,7 +403,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-search-ada-code-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -441,7 +441,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-search-ada-text-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -479,7 +479,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-search-babbage-code-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -517,7 +517,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: code-search-babbage-text-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -722,7 +722,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: container
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -760,7 +760,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: curie
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -798,7 +798,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: dall-e-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -836,7 +836,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: dall-e-2-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -874,7 +874,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: dall-e-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -912,7 +912,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: dall-e-3-3.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -950,7 +950,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: davinci
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1640,7 +1640,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-4-0314
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1828,7 +1828,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-4-32k-0314
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3086,7 +3086,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-4o-canvas
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4821,7 +4821,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-5-mini-lite-2025-08-07
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8532,7 +8532,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8581,7 +8581,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1-2025-04-15
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8626,7 +8626,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8675,7 +8675,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1-mini-2025-10-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8720,7 +8720,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8771,7 +8771,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-1.5-2025-12-16
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8822,7 +8822,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8867,7 +8867,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2-2026-04-21
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8916,7 +8916,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2.5-flare
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8961,7 +8961,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2.5-flare-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9006,7 +9006,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2.5-sunburst
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9051,7 +9051,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-image-2.5-sunburst-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9140,7 +9140,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-live-1-2026-09-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9262,7 +9262,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-offline-whisper-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9300,7 +9300,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-offline-whisper-1-2026-07-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10222,7 +10222,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-realtime-translate-2026-05-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10300,7 +10300,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-realtime-whisper-2026-05-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10338,7 +10338,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-transcribe
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10376,7 +10376,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: gpt-transcribe-2026-07-28
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10414,7 +10414,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: mai-5b-2026-07-01
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10452,7 +10452,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: mai-m365
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10490,7 +10490,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: mai-m365-2026-04-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11080,7 +11080,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: o1-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11118,7 +11118,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: o1-pro-2025-03-19
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11569,7 +11569,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: o3-mini-alpha
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11902,7 +11902,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: sora
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11940,7 +11940,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: sora-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11978,7 +11978,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: sora-2-2025-10-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12016,7 +12016,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: sora-2-2025-12-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12054,7 +12054,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: sora-2025-05-02
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12092,7 +12092,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-ada-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12130,7 +12130,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-babbage-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12168,7 +12168,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-curie-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12206,7 +12206,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-davinci-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12244,7 +12244,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-davinci-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12282,7 +12282,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-davinci-003
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12320,7 +12320,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-davinci-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12526,7 +12526,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-ada-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12564,7 +12564,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-ada-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12602,7 +12602,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-babbage-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12640,7 +12640,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-babbage-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12678,7 +12678,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-curie-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12716,7 +12716,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-curie-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12754,7 +12754,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-davinci-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12792,7 +12792,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-search-davinci-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12830,7 +12830,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-similarity-ada-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12868,7 +12868,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-similarity-babbage-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12906,7 +12906,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-similarity-curie-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12944,7 +12944,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: text-similarity-davinci-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -13020,7 +13020,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: tts-1-hd
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -13058,7 +13058,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: whisper
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -13096,7 +13096,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: whisper-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -13134,7 +13134,7 @@ This catalog provides a comprehensive overview of all azure-openai models availa
 **Family**: whisper-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

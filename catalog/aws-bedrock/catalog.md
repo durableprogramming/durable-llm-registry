@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 273
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -389,7 +389,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.nova-canvas-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -591,7 +591,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.nova-reel-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -629,7 +629,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.nova-reel-v1:1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -715,7 +715,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.rerank-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -753,7 +753,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.titan-embed-g1-text-02
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -913,7 +913,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.titan-image-generator-v1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -951,7 +951,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.titan-image-generator-v2:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -989,7 +989,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.titan-text-express-v1
 #### Specifications
 
-- **Context Window**: 42,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 8,000 tokens
@@ -1033,7 +1033,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: amazon.titan-text-lite-v1
 #### Specifications
 
-- **Context Window**: 42,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 4,000 tokens
@@ -1165,7 +1165,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-5-haiku-20241022-v1:0
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -1205,7 +1205,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-5-sonnet-20240620-v1:0
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -1310,7 +1310,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-7-sonnet-20250219-v1:0
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 8,192 tokens
@@ -1350,7 +1350,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-haiku-20240307-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1388,7 +1388,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-3-sonnet-20240229-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1426,7 +1426,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-instant-v1
 #### Specifications
 
-- **Context Window**: 100,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 8,191 tokens
@@ -1470,7 +1470,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-opus-4-6-v1
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens
@@ -1816,7 +1816,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: anthropic.claude-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7061,7 +7061,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: global.xai.grok-4.7
 #### Specifications
 
-- **Context Window**: 500,000 tokens
+- **Context Window**: 524,288 tokens
 
 
 - **Max Output Tokens**: 524,288 tokens
@@ -10387,7 +10387,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: stability.sd3-5-large-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10501,7 +10501,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: stability.stable-image-core-v1:1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10577,7 +10577,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: stability.stable-image-ultra-v1:1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -13999,7 +13999,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-conservative-upscale-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14037,7 +14037,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-creative-upscale-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14075,7 +14075,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-fast-upscale-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14113,7 +14113,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-control-sketch-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14151,7 +14151,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-control-structure-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14189,7 +14189,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-erase-object-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14227,7 +14227,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-inpaint-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14265,7 +14265,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-remove-background-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14303,7 +14303,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-search-recolor-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14341,7 +14341,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-search-replace-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14379,7 +14379,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-image-style-guide-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14417,7 +14417,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-outpaint-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14455,7 +14455,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.stability.stable-style-transfer-v1:0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14648,7 +14648,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 **Family**: us.xai.grok-4.7
 #### Specifications
 
-- **Context Window**: 500,000 tokens
+- **Context Window**: 524,288 tokens
 
 
 - **Max Output Tokens**: 524,288 tokens
@@ -14665,6 +14665,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 #### Capabilities
 
+
+- Function calling
 
 - Prompt caching
 

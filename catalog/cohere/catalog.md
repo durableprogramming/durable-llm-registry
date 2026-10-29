@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 - **Provider**: cohere
 - **Total Models**: 44
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -115,7 +115,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 **Family**: cohere-transcribe-03-2026
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

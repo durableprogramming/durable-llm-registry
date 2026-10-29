@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 ## Overview
 
 - **Provider**: mistral-ai
-- **Total Models**: 119
-- **Last Updated**: 2026-10-28
+- **Total Models**: 120
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -253,6 +253,65 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 
 - **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
+### deepseek-v4-1-flash-1017
+
+**Model ID**: `deepseek-v4-1-flash-1017`  
+**Family**: deepseek-v4-1-flash-1017
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Assistant prefill
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.007
 
 
 
@@ -5189,7 +5248,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 **Family**: voxtral-mini-tts-260213
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 131,072 tokens
 
 
 

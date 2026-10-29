@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 
 - **Provider**: azure-ai-foundry
 - **Total Models**: 238
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -19,7 +19,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: AI21-Jamba-1.5-Large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -109,7 +109,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: AI21-Jamba-Instruct
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -281,7 +281,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Cohere-command-r
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -319,7 +319,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Cohere-command-r-08-2024
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -357,7 +357,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Cohere-command-r-plus
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -535,7 +535,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Cohere-parse-v5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -611,7 +611,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Cohere-rerank-v4.0-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -649,7 +649,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-R1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -687,7 +687,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-R1-0528
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -725,7 +725,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-V3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -763,7 +763,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-V3-0324
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -801,7 +801,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-V3.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1211,7 +1211,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-V4.1-Flash
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1249,7 +1249,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: DeepSeek-V4.1-Flash-2026-09-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1287,7 +1287,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: FLUX-1.1-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1325,7 +1325,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: FLUX.1-Kontext-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1401,7 +1401,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: FLUX.2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1489,7 +1489,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Kimi-K2-Thinking
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2020,7 +2020,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Llama-3.2-90B-Vision-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2058,7 +2058,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Llama-3.2-90B-Vision-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2530,7 +2530,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: MAI-Image-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2568,7 +2568,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: MAI-Image-2-2026-02-20
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3014,7 +3014,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: MAI-Image-2e
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3052,7 +3052,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: MAI-Image-2e-2026-04-09
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3242,7 +3242,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-70B-Instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3280,7 +3280,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-70B-Instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3318,7 +3318,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-70B-Instruct-8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3356,7 +3356,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-70B-Instruct-9
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3394,7 +3394,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-8B-Instruct
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3432,7 +3432,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-8B-Instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3470,7 +3470,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-8B-Instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3508,7 +3508,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-8B-Instruct-8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3546,7 +3546,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3-8B-Instruct-9
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3680,7 +3680,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-70B-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3718,7 +3718,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-70B-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3756,7 +3756,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-70B-Instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3842,7 +3842,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-8B-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3880,7 +3880,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-8B-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3918,7 +3918,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-8B-Instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3956,7 +3956,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Meta-Llama-3.1-8B-Instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4048,7 +4048,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Mistral-Large-2411
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4298,7 +4298,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Mistral-large-2407
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4336,7 +4336,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Mistral-small
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4374,7 +4374,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Muse-Glimmer-30B
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4558,7 +4558,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-128k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4596,7 +4596,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-128k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4676,7 +4676,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-128k-instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4714,7 +4714,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-128k-instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4800,7 +4800,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-4k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4838,7 +4838,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-4k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4876,7 +4876,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-medium-4k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4962,7 +4962,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-128k-instruct-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5000,7 +5000,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-128k-instruct-11
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5080,7 +5080,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-128k-instruct-13
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5166,7 +5166,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-4k-instruct-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5204,7 +5204,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-4k-instruct-11
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5242,7 +5242,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-4k-instruct-13
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5280,7 +5280,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-4k-instruct-14
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5318,7 +5318,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-mini-4k-instruct-15
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5404,7 +5404,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-small-128k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5442,7 +5442,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-small-128k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5480,7 +5480,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-small-128k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5566,7 +5566,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-small-8k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5604,7 +5604,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3-small-8k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5774,7 +5774,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3.5-MoE-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5858,7 +5858,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3.5-MoE-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5944,7 +5944,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3.5-mini-instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5982,7 +5982,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3.5-mini-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6020,7 +6020,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-3.5-mini-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6242,7 +6242,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-4-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6320,7 +6320,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-4-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6358,7 +6358,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-4-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6396,7 +6396,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6434,7 +6434,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Phi-4-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6666,7 +6666,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Stable-Diffusion-3.5-Large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6704,7 +6704,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Stable-Image-Core
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6742,7 +6742,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: Stable-Image-Ultra
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7286,7 +7286,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: claude-opus-4-1-20250805
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8130,7 +8130,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: claude-sonnet-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8258,7 +8258,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: claude-sonnet-5-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8873,7 +8873,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: flux.2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9735,7 +9735,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: jais-30b-chat-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9917,7 +9917,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: mai-m365
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9955,7 +9955,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: mai-m365-2026-04-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10615,7 +10615,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: model_router
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10657,7 +10657,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: muse-spark-1.2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10695,7 +10695,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: muse-spark-1.3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10821,7 +10821,7 @@ This catalog provides a comprehensive overview of all azure-ai-foundry models av
 **Family**: qwen3-32b-v2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Provider**: microsoft-foundry
 - **Total Models**: 516
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -119,7 +119,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: AI21-Jamba-Instruct
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -371,7 +371,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-command-r
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -409,7 +409,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-command-r-08-2024
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -447,7 +447,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-command-r-plus
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -485,7 +485,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-command-r-plus-08-2024
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -725,7 +725,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-rerank-v5-fast
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -763,7 +763,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Cohere-rerank-v5-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -801,7 +801,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: DeepSeek-R1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -839,7 +839,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: DeepSeek-R1-0528
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -877,7 +877,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: DeepSeek-V3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -915,7 +915,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: DeepSeek-V3-0324
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -953,7 +953,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: DeepSeek-V3.1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1620,7 +1620,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: FLUX.2-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -1696,7 +1696,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Kimi-K2-Thinking
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2172,7 +2172,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Llama-3.2-11B-Vision-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2260,7 +2260,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Llama-3.2-90B-Vision-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2298,7 +2298,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Llama-3.2-90B-Vision-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2869,7 +2869,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -2907,7 +2907,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2-2026-02-20
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3341,7 +3341,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2e
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3379,7 +3379,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Image-2e-2026-04-09
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3529,7 +3529,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Transcribe-2-Streaming
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3567,7 +3567,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: MAI-Transcribe-2-Streaming-2026-08-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3653,7 +3653,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-70B-Instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3691,7 +3691,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-70B-Instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3729,7 +3729,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-70B-Instruct-8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3767,7 +3767,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-70B-Instruct-9
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3805,7 +3805,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-8B-Instruct
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3847,7 +3847,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-8B-Instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3885,7 +3885,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-8B-Instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3923,7 +3923,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-8B-Instruct-8
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -3965,7 +3965,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3-8B-Instruct-9
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4099,7 +4099,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-70B-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4141,7 +4141,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-70B-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4179,7 +4179,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-70B-Instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4265,7 +4265,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-8B-Instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4303,7 +4303,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-8B-Instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4341,7 +4341,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-8B-Instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4379,7 +4379,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Meta-Llama-3.1-8B-Instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4509,7 +4509,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-Large-2411
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4547,7 +4547,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-Large-2411-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4639,7 +4639,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-Nemo
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4729,7 +4729,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-large-2407
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4767,7 +4767,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Mistral-small
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -4997,7 +4997,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-128k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5035,7 +5035,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-128k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5073,7 +5073,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-128k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5111,7 +5111,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-128k-instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5149,7 +5149,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-128k-instruct-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5235,7 +5235,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-4k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5315,7 +5315,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-4k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5353,7 +5353,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-medium-4k-instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5439,7 +5439,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-128k-instruct-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5477,7 +5477,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-128k-instruct-11
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5515,7 +5515,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-128k-instruct-12
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5553,7 +5553,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-128k-instruct-13
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5639,7 +5639,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-4k-instruct-10
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5677,7 +5677,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-4k-instruct-11
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5715,7 +5715,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-4k-instruct-13
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5797,7 +5797,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-mini-4k-instruct-15
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5883,7 +5883,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-128k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5921,7 +5921,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-128k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -5959,7 +5959,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-128k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6045,7 +6045,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-8k-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6083,7 +6083,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-8k-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6121,7 +6121,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3-small-8k-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6209,7 +6209,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-MoE-instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6247,7 +6247,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-MoE-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6327,7 +6327,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-MoE-instruct-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6413,7 +6413,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-mini-instruct-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6451,7 +6451,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-mini-instruct-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6489,7 +6489,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-mini-instruct-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6527,7 +6527,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-3.5-mini-instruct-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6761,7 +6761,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-4-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6799,7 +6799,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-4-4
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6837,7 +6837,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-4-5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6875,7 +6875,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-4-6
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -6913,7 +6913,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Phi-4-7
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7137,7 +7137,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Stable-Diffusion-3.5-Large
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7175,7 +7175,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Stable-Image-Core
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7213,7 +7213,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: Stable-Image-Ultra
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7293,7 +7293,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: aoai-sora
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7331,7 +7331,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: aoai-sora-2025-02-28
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7369,7 +7369,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: azure-tts
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7407,7 +7407,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: azure-tts-hd
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -7545,7 +7545,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: babbage
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8141,7 +8141,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: claude-opus-4-1-20250805
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -8936,7 +8936,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: claude-opus-5-5-fast-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9455,7 +9455,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-cushman-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9493,7 +9493,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-cushman-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9531,7 +9531,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-davinci-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9569,7 +9569,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-davinci-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9607,7 +9607,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-search-ada-code-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9645,7 +9645,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-search-ada-text-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9683,7 +9683,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-search-babbage-code-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9721,7 +9721,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: code-search-babbage-text-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -9759,7 +9759,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: codex-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10242,7 +10242,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: container
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10280,7 +10280,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: curie
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10318,7 +10318,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: dall-e-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10356,7 +10356,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: dall-e-2-2.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10394,7 +10394,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: dall-e-3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10432,7 +10432,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: dall-e-3-3.0
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -10470,7 +10470,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: davinci
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11498,7 +11498,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-4-0314
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -11686,7 +11686,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-4-32k-0314
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -12944,7 +12944,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-4o-canvas
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -14742,7 +14742,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-5-mini-lite-2025-08-07
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -16017,7 +16017,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-5.3-chat
 #### Specifications
 
-- **Context Window**: 111,616 tokens
+- **Context Window**: 128,000 tokens
 
 
 - **Max Output Tokens**: 16,384 tokens
@@ -18843,7 +18843,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -18892,7 +18892,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1-2025-04-15
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -18937,7 +18937,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -18986,7 +18986,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1-mini-2025-10-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19035,7 +19035,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1.5
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19086,7 +19086,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-1.5-2025-12-16
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19137,7 +19137,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19182,7 +19182,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2-2026-04-21
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19233,7 +19233,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2.5-flare
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19282,7 +19282,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2.5-flare-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19327,7 +19327,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2.5-sunburst
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19372,7 +19372,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-image-2.5-sunburst-2026-09-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19589,7 +19589,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-offline-whisper-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -19627,7 +19627,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-offline-whisper-1-2026-07-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -20746,7 +20746,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-realtime-translate-2026-05-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -20824,7 +20824,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-realtime-whisper-2026-05-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -21885,7 +21885,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mai-5b-2026-07-01
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -21923,7 +21923,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mai-m365
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -21961,7 +21961,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: mai-m365-2026-04-27
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -22957,7 +22957,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: muse-spark-1.2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -23282,7 +23282,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: o1-pro
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -23320,7 +23320,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: o1-pro-2025-03-19
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -23478,7 +23478,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: o3-deep-research
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -23760,7 +23760,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: o3-mini-alpha
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24319,7 +24319,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: sora
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24357,7 +24357,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: sora-2
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24395,7 +24395,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: sora-2-2025-10-06
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24433,7 +24433,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: sora-2-2025-12-08
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24471,7 +24471,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: sora-2025-05-02
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24509,7 +24509,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-ada-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24547,7 +24547,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-babbage-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24585,7 +24585,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-curie-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24623,7 +24623,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-davinci-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24661,7 +24661,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-davinci-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24699,7 +24699,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-davinci-003
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24737,7 +24737,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-davinci-fine-tune-002
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24943,7 +24943,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-ada-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -24981,7 +24981,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-ada-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25019,7 +25019,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-babbage-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25057,7 +25057,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-babbage-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25095,7 +25095,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-curie-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25133,7 +25133,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-curie-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25171,7 +25171,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-davinci-doc-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25209,7 +25209,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-search-davinci-query-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25247,7 +25247,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-similarity-ada-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25285,7 +25285,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-similarity-babbage-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25323,7 +25323,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-similarity-curie-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25361,7 +25361,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: text-similarity-davinci-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25437,7 +25437,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: tts-1-hd
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25475,7 +25475,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: whisper
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25513,7 +25513,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: whisper-001
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 
@@ -25551,7 +25551,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: whisper-1
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 128,000 tokens
 
 
 

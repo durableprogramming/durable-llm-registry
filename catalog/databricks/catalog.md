@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 
 - **Provider**: databricks
 - **Total Models**: 70
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -2448,7 +2448,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 **Family**: databricks-openjev-qwen35-4b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
 
 
@@ -4049,7 +4049,7 @@ This catalog provides a comprehensive overview of all databricks models availabl
 **Family**: system.ai.openjev-qwen35-4b
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 200,000 tokens
 
 
 

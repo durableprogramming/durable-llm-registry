@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 
 - **Provider**: sambanova
 - **Total Models**: 31
-- **Last Updated**: 2026-10-28
+- **Last Updated**: 2026-10-29
 
 ## Models
 
@@ -1307,7 +1307,7 @@ This catalog provides a comprehensive overview of all sambanova models available
 **Family**: Whisper-Large-v3
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 32,000 tokens
 
 
 
