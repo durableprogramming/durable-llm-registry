@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 - **Provider**: perplexity
 - **Total Models**: 80
-- **Last Updated**: 2026-10-29
+- **Last Updated**: 2026-10-30
 
 ## Models
 
@@ -1273,8 +1273,10 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 **Family**: google/gemini-4-argon
 #### Specifications
 
-- **Context Window**: 128,000 tokens
+- **Context Window**: 1,048,576 tokens
 
+
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -1305,7 +1307,16 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ##### Text Tokens
 
 
+- **Standard Input**: $2.0
 
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -2954,11 +2965,13 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 - **Context Window**: 1,048,576 tokens
 
 
+- **Max Output Tokens**: 131,072 tokens
+
 
 #### Modalities
 
 
-- **Input**: text, image, video, doc
+- **Input**: text
 
 
 - **Output**: text

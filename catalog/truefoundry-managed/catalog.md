@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 
 - **Provider**: truefoundry-managed
 - **Total Models**: 22
-- **Last Updated**: 2026-10-29
+- **Last Updated**: 2026-10-30
 
 ## Models
 
@@ -112,15 +112,11 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 
 - System messages
 
-- Tool choice
-
 - Prompt caching
 
 - Cache control
 
 - Structured output
-
-- Assistant prefill
 
 - Json output
 
@@ -185,15 +181,11 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 
 - Parallel function calling
 
-- Tool choice
-
 - System messages
 
 - Prompt caching
 
 - Cache control
-
-- Assistant prefill
 
 - Structured output
 
@@ -222,7 +214,7 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 - **Cached Input**: $2.5
 
 
-- **Cached Output**: $0.19999999999999998
+- **Cached Output**: $0.09999999999999999
 
 
 
@@ -778,16 +770,16 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.35
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.75
 
 
 
 
 
-- **Cached Output**: $0.15
+- **Cached Output**: $0.35
 
 
 
@@ -1321,7 +1313,7 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 ##### Text Tokens
 
 
-- **Standard Input**: $0.13
+- **Standard Input**: $0.143
 
 
 - **Standard Output**: $0.0
@@ -1363,7 +1355,7 @@ This catalog provides a comprehensive overview of all truefoundry-managed models
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.022
 
 
 - **Standard Output**: $0.0

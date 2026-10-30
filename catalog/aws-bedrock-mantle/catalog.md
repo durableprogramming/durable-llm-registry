@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 
 - **Provider**: aws-bedrock-mantle
 - **Total Models**: 62
-- **Last Updated**: 2026-10-29
+- **Last Updated**: 2026-10-30
 
 ## Models
 
@@ -822,7 +822,7 @@ This catalog provides a comprehensive overview of all aws-bedrock-mantle models 
 #### Modalities
 
 
-- **Input**: text, image, audio, video
+- **Input**: text, image, video
 
 
 - **Output**: text

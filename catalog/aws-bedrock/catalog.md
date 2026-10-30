@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 ## Overview
 
 - **Provider**: aws-bedrock
-- **Total Models**: 273
-- **Last Updated**: 2026-10-29
+- **Total Models**: 274
+- **Last Updated**: 2026-10-30
 
 ## Models
 
@@ -1737,6 +1737,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Prompt caching
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -3097,6 +3099,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Mid conversation system messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -3234,6 +3238,75 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 
+
+
+
+
+
+
+---
+
+
+### ca.anthropic.claude-haiku-5-5
+
+**Model ID**: `ca.anthropic.claude-haiku-5-5`  
+**Family**: ca.anthropic.claude-haiku-5-5
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Tool choice
+
+- System messages
+
+- Mid conversation system messages
+
+- Prompt caching
+
+- Cache control
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.11
+
+
+- **Standard Output**: $0.55
+
+
+
+
+- **Cached Input**: $0.1375
+
+
+- **Cached Output**: $0.011
 
 
 
@@ -4899,6 +4972,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - Mid conversation system messages
 
+- Structured output
+
 
 
 #### Pricing (per million tokens)
@@ -6144,6 +6219,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Mid conversation system messages
+
+- Structured output
 
 
 
@@ -7502,6 +7579,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
+
+- Structured output
 
 
 
@@ -12537,6 +12616,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Cache control
 
 - Mid conversation system messages
+
+- Structured output
 
 
 
