@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ## Overview
 
 - **Provider**: cohere
-- **Total Models**: 44
-- **Last Updated**: 2026-10-30
+- **Total Models**: 45
+- **Last Updated**: 2026-10-31
 
 ## Models
 
@@ -1299,6 +1299,54 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 **Model ID**: `north-mini-code-1-0`  
 **Family**: north-mini-code-1-0
+#### Specifications
+
+- **Context Window**: 256,000 tokens
+
+
+- **Max Output Tokens**: 64,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### north-mini-code-1.0
+
+**Model ID**: `north-mini-code-1.0`  
+**Family**: north-mini-code-1.0
 #### Specifications
 
 - **Context Window**: 256,000 tokens

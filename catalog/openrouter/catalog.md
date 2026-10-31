@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 1084
-- **Last Updated**: 2026-10-30
+- **Last Updated**: 2026-10-31
 
 ## Models
 
@@ -2723,10 +2723,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.022
+- **Standard Input**: $0.0141
 
 
-- **Standard Output**: $0.192
+- **Standard Output**: $0.144
 
 
 
@@ -2770,7 +2770,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.1035
 
 
-- **Standard Output**: $4.0
+- **Standard Output**: $8.0
 
 
 
@@ -3142,7 +3142,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -3163,10 +3163,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0388
+- **Standard Input**: $0.05764
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.17292
 
 
 
@@ -3230,7 +3230,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 384,000 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -3251,10 +3251,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.9483
+- **Standard Input**: $1.6
 
 
-- **Standard Output**: $1.8966
+- **Standard Output**: $3.2
 
 
 
@@ -5009,10 +5009,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.0675
 
 
-- **Standard Output**: $0.3
+- **Standard Output**: $0.225
 
 
 
@@ -7012,7 +7012,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -7033,10 +7033,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.27
 
 
-- **Standard Output**: $1.2
+- **Standard Output**: $0.95
 
 
 
@@ -8661,10 +8661,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1529
+- **Standard Input**: $0.1495
 
 
-- **Standard Output**: $9.75
+- **Standard Output**: $7.15
 
 
 
@@ -14653,182 +14653,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Poolside: Laguna S 2.1
-
-**Model ID**: `poolside/laguna-s-2.1`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.09
-
-
-- **Standard Output**: $0.18
-
-
-
-
-
-
-
----
-
-
-### Poolside: Laguna S 2.1 (free)
-
-**Model ID**: `poolside/laguna-s-2.1:free`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
-### Poolside: Laguna XS 2.1
-
-**Model ID**: `poolside/laguna-xs-2.1`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.06
-
-
-- **Standard Output**: $0.12
-
-
-
-
-
-
-
----
-
-
-### Poolside: Laguna XS 2.1 (free)
-
-**Model ID**: `poolside/laguna-xs-2.1:free`  
-**Family**: poolside
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### PrismML: Ternary Bonsai 2 27B
 
 **Model ID**: `prism-ml/ternary-bonsai-2-27b`  
@@ -16158,7 +15982,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 81,920 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
@@ -16179,10 +16003,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.32
+- **Standard Input**: $0.45
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $2.7
 
 
 
@@ -16575,10 +16399,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.04
 
 
-- **Standard Output**: $1.875
+- **Standard Output**: $2.3
 
 
 
@@ -19259,10 +19083,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.54
+- **Standard Input**: $0.6
 
 
-- **Standard Output**: $1.98
+- **Standard Output**: $2.2
 
 
 
@@ -19482,7 +19306,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.006
 
 
-- **Standard Output**: $7.0
+- **Standard Output**: $6.8
 
 
 
@@ -19523,10 +19347,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.08
+- **Standard Input**: $0.0699
 
 
-- **Standard Output**: $3.6
+- **Standard Output**: $1.4
 
 
 
@@ -19611,10 +19435,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.018
+- **Standard Input**: $0.0163
 
 
-- **Standard Output**: $0.1402
+- **Standard Output**: $0.1479
 
 
 
@@ -19831,10 +19655,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.018
+- **Standard Input**: $0.0163
 
 
-- **Standard Output**: $0.1402
+- **Standard Output**: $0.1479
 
 
 
@@ -44148,6 +43972,220 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### poolside/laguna-s-2.1
+
+**Model ID**: `poolside/laguna-s-2.1`  
+**Family**: poolside/laguna-s-2.1
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.19999999999999998
+
+
+
+
+
+- **Cached Output**: $0.01
+
+
+
+
+
+
+---
+
+
+### poolside/laguna-s-2.1:free
+
+**Model ID**: `poolside/laguna-s-2.1:free`  
+**Family**: poolside/laguna-s-2.1:free
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### poolside/laguna-xs-2.1
+
+**Model ID**: `poolside/laguna-xs-2.1`  
+**Family**: poolside/laguna-xs-2.1
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.12
+
+
+
+
+
+- **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
+### poolside/laguna-xs-2.1:free
+
+**Model ID**: `poolside/laguna-xs-2.1:free`  
+**Family**: poolside/laguna-xs-2.1:free
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
