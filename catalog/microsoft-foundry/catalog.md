@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ## Overview
 
 - **Provider**: microsoft-foundry
-- **Total Models**: 516
-- **Last Updated**: 2026-10-31
+- **Total Models**: 517
+- **Last Updated**: 2026-11-01
 
 ## Models
 
@@ -20296,7 +20296,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 **Family**: gpt-realtime-2.1-mini
 #### Specifications
 
-- **Context Window**:  tokens
+- **Context Window**: 256,000 tokens
 
 
 - **Max Output Tokens**: 4,096 tokens
@@ -20754,6 +20754,46 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+
+
+
+
+
+
+
+---
+
+
+### gpt-realtime-whisper
+
+**Model ID**: `gpt-realtime-whisper`  
+**Family**: gpt-realtime-whisper
+#### Specifications
+
+- **Context Window**: 32,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: audio
 
 
 - **Output**: text

@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all together models available 
 
 - **Provider**: together
 - **Total Models**: 394
-- **Last Updated**: 2026-10-31
+- **Last Updated**: 2026-11-01
 
 ## Models
 
@@ -14852,6 +14852,12 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 #### Capabilities
+
+
+- Function calling
+
+- Structured output
+
 
 
 #### Pricing (per million tokens)
