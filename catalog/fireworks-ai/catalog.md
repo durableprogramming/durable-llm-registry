@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 20
-- **Last Updated**: 2026-11-01
+- **Total Models**: 24
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -585,6 +585,110 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
+### accounts/fireworks/models/inkling
+
+**Model ID**: `accounts/fireworks/models/inkling`  
+**Family**: accounts/fireworks/models/inkling
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $4.05
+
+
+
+
+
+- **Cached Output**: $0.16999999999999998
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/models/minimax-m3p1-flash
+
+**Model ID**: `accounts/fireworks/models/minimax-m3p1-flash`  
+**Family**: accounts/fireworks/models/minimax-m3p1-flash
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.015
+
+
+
+
+
+
+---
+
+
 ### accounts/fireworks/models/qwen3-embedding-8b
 
 **Model ID**: `accounts/fireworks/models/qwen3-embedding-8b`  
@@ -618,6 +722,108 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot
+
+**Model ID**: `accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot`  
+**Family**: accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.21
+
+
+- **Standard Output**: $0.84
+
+
+
+
+
+- **Cached Output**: $0.004200000000000001
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/deepseek-v4p1-flash-spot
+
+**Model ID**: `accounts/fireworks/routers/deepseek-v4p1-flash-spot`  
+**Family**: accounts/fireworks/routers/deepseek-v4p1-flash-spot
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.21
+
+
+- **Standard Output**: $0.84
+
+
+
+
+
+- **Cached Output**: $0.004200000000000001
 
 
 

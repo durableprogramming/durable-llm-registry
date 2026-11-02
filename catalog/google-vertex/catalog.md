@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 ## Overview
 
 - **Provider**: google-vertex
-- **Total Models**: 462
-- **Last Updated**: 2026-11-01
+- **Total Models**: 464
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -10087,6 +10087,90 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 
 - **Cached Output**: $0.0825
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.8-flash-lite-tts
+
+**Model ID**: `google/gemini-3.8-flash-lite-tts`  
+**Family**: google/gemini-3.8-flash-lite-tts
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
+
+
+
+
+
+
+---
+
+
+### google/gemini-3.8-flash-tts
+
+**Model ID**: `google/gemini-3.8-flash-tts`  
+**Family**: google/gemini-3.8-flash-tts
+#### Specifications
+
+- **Context Window**: 8,192 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: audio
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.5
+
+
 
 
 

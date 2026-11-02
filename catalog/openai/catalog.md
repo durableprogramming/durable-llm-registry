@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openai models available th
 
 - **Provider**: openai
 - **Total Models**: 165
-- **Last Updated**: 2026-11-01
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -3445,7 +3445,7 @@ This catalog provides a comprehensive overview of all openai models available th
 **Family**: gpt-5-search-api
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 272,000 tokens
 
 
 - **Max Output Tokens**: 128,000 tokens

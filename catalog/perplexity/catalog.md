@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 ## Overview
 
 - **Provider**: perplexity
-- **Total Models**: 80
-- **Last Updated**: 2026-11-01
+- **Total Models**: 81
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -2676,6 +2676,69 @@ This catalog provides a comprehensive overview of all perplexity models availabl
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### openai/gpt-6.1-terra
+
+**Model ID**: `openai/gpt-6.1-terra`  
+**Family**: openai/gpt-6.1-terra
+#### Specifications
+
+- **Context Window**: 1,050,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Structured output
+
+- Prompt caching
+
+- System messages
+
+- Tool choice
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+
+- **Cached Output**: $0.049999999999999996
 
 
 

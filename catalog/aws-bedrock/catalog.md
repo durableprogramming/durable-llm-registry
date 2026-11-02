@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 - **Provider**: aws-bedrock
 - **Total Models**: 274
-- **Last Updated**: 2026-11-01
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -2832,6 +2832,8 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 - Prompt caching
 
 - Cache control
+
+- Structured output
 
 - Mid conversation system messages
 
@@ -14642,10 +14644,6 @@ This catalog provides a comprehensive overview of all aws-bedrock models availab
 
 
 #### Capabilities
-
-
-- Function calling
-
 
 
 #### Pricing (per million tokens)

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1084
-- **Last Updated**: 2026-11-01
+- **Total Models**: 1085
+- **Last Updated**: 2026-11-02
 
 ## Models
 
@@ -3163,7 +3163,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.059
+- **Standard Input**: $0.0434
 
 
 - **Standard Output**: $0.3
@@ -5009,10 +5009,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0675
+- **Standard Input**: $0.0765
 
 
-- **Standard Output**: $0.225
+- **Standard Output**: $0.255
 
 
 
@@ -6220,7 +6220,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 117,964 tokens
+- **Max Output Tokens**: 72,000 tokens
 
 
 #### Modalities
@@ -6241,10 +6241,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.0509
 
 
-- **Standard Output**: $0.33
+- **Standard Output**: $0.335
 
 
 
@@ -6704,7 +6704,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -9411,94 +9411,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.25
-
-
-
-
-
-
-
----
-
-
-### Nous: Hermes 3 405B Instruct
-
-**Model ID**: `nousresearch/hermes-3-llama-3.1-405b`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
-### Nous: Hermes 3 70B Instruct
-
-**Model ID**: `nousresearch/hermes-3-llama-3.1-70b`  
-**Family**: nousresearch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 16,384 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.7
-
-
-- **Standard Output**: $0.7
 
 
 
@@ -13675,10 +13587,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.013
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.048
+- **Standard Output**: $0.6
 
 
 
@@ -16375,7 +16287,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: qwen
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,024,000 tokens
 
 
 - **Max Output Tokens**: 235,929 tokens
@@ -19496,6 +19408,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ### Z.ai: GLM 5.3 FlashX
 
 **Model ID**: `z-ai/glm-5.3-flashx`  
+**Family**: z-ai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.37
+
+
+- **Standard Output**: $1.25
+
+
+
+
+
+
+
+---
+
+
+### Z.ai: GLM 5.3 FlashX Legal
+
+**Model ID**: `z-ai/glm-5.3-flashx-legal`  
 **Family**: z-ai
 #### Specifications
 
@@ -39936,6 +39892,56 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### nousresearch/hermes-3-llama-3.1-405b
+
+**Model ID**: `nousresearch/hermes-3-llama-3.1-405b`  
+**Family**: nousresearch/hermes-3-llama-3.1-405b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
 ### nousresearch/hermes-3-llama-3.1-405b:free
 
 **Model ID**: `nousresearch/hermes-3-llama-3.1-405b:free`  
@@ -39968,6 +39974,54 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### nousresearch/hermes-3-llama-3.1-70b
+
+**Model ID**: `nousresearch/hermes-3-llama-3.1-70b`  
+**Family**: nousresearch/hermes-3-llama-3.1-70b
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $0.3
 
 
 
