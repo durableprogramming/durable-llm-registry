@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 24
-- **Last Updated**: 2026-11-02
+- **Total Models**: 26
+- **Last Updated**: 2026-11-03
 
 ## Models
 
@@ -571,10 +571,10 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.225
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.75
+- **Standard Output**: $0.5
 
 
 
@@ -722,6 +722,97 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/models/qwen3-reranker-8b
+
+**Model ID**: `accounts/fireworks/models/qwen3-reranker-8b`  
+**Family**: accounts/fireworks/models/qwen3-reranker-8b
+#### Specifications
+
+- **Context Window**: 40,960 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/models/rune
+
+**Model ID**: `accounts/fireworks/models/rune`  
+**Family**: accounts/fireworks/models/rune
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.041999999999999996
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+- **Cached Output**: $0.008400000000000001
 
 
 
