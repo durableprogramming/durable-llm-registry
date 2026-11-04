@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 26
-- **Last Updated**: 2026-11-03
+- **Total Models**: 28
+- **Last Updated**: 2026-11-04
 
 ## Models
 
@@ -638,6 +638,57 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ---
 
 
+### accounts/fireworks/models/kimi-k3p1-pro
+
+**Model ID**: `accounts/fireworks/models/kimi-k3p1-pro`  
+**Family**: accounts/fireworks/models/kimi-k3p1-pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
 ### accounts/fireworks/models/minimax-m3p1-flash
 
 **Model ID**: `accounts/fireworks/models/minimax-m3p1-flash`  
@@ -864,6 +915,57 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Cached Output**: $0.004200000000000001
+
+
+
+
+
+
+---
+
+
+### accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast
+
+**Model ID**: `accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast`  
+**Family**: accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.4
+
+
+- **Standard Output**: $9.6
+
+
+
+
+
+- **Cached Output**: $0.048
 
 
 

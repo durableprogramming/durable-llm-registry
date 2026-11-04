@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 394
-- **Last Updated**: 2026-11-03
+- **Total Models**: 395
+- **Last Updated**: 2026-11-04
 
 ## Models
 
@@ -13399,6 +13399,53 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 - **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### moonshotai/Kimi-K3.1-Pro
+
+**Model ID**: `moonshotai/Kimi-K3.1-Pro`  
+**Family**: moonshotai/Kimi-K3.1-Pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

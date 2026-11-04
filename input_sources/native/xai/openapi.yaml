@@ -4457,6 +4457,22 @@ components:
             enum:
             - content_filter
       description: Details about why a response is incomplete.
+    InputAudio:
+      type: object
+      description: OpenAI-compatible `input_audio` payload, plus a `url` alternative
+        to `data`.
+      required:
+      - format
+      properties:
+        data:
+          type: string
+          description: Base64-encoded audio bytes. Mutually exclusive with `url`.
+        format:
+          type: string
+          description: Audio container format. Only `wav` is supported.
+        url:
+          type: string
+          description: Public http(s) URL of the audio. Mutually exclusive with `data`.
     InputItemEntry:
       allOf:
       - "$ref": "#/components/schemas/ModelInputPart"

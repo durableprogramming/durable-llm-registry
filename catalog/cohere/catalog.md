@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all cohere models available th
 
 - **Provider**: cohere
 - **Total Models**: 45
-- **Last Updated**: 2026-11-03
+- **Last Updated**: 2026-11-04
 
 ## Models
 
@@ -1791,6 +1791,8 @@ This catalog provides a comprehensive overview of all cohere models available th
 ##### Text Tokens
 
 
+- **Standard Input**: $0.02
+
 
 
 
@@ -1829,6 +1831,10 @@ This catalog provides a comprehensive overview of all cohere models available th
 ##### Text Tokens
 
 
+- **Standard Input**: $0.049999999999999996
+
+
+- **Standard Output**: $0.0
 
 
 

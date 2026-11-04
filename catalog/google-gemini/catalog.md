@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 - **Provider**: google-gemini
 - **Total Models**: 92
-- **Last Updated**: 2026-11-03
+- **Last Updated**: 2026-11-04
 
 ## Models
 
@@ -1804,16 +1804,16 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 **Family**: gemini-3.1-flash-image
 #### Specifications
 
-- **Context Window**: 1,048,576 tokens
+- **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 65,536 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, image, video
+- **Input**: text, image, video, pdf
 
 
 - **Output**: text, image
@@ -1823,10 +1823,6 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 
 
 - System messages
-
-- Function calling
-
-- Structured output
 
 
 
@@ -3233,16 +3229,16 @@ This catalog provides a comprehensive overview of all google-gemini models avail
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $2.5
 
 
 
 
 
-- **Cached Output**: $0.024999999999999998
+- **Cached Output**: $0.03
 
 
 
