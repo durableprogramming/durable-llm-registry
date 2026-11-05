@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all together models available 
 ## Overview
 
 - **Provider**: together
-- **Total Models**: 395
-- **Last Updated**: 2026-11-04
+- **Total Models**: 396
+- **Last Updated**: 2026-11-05
 
 ## Models
 
@@ -14961,6 +14961,53 @@ This catalog provides a comprehensive overview of all together models available 
 
 
 
+
+
+
+
+
+
+---
+
+
+### ricursive-ai/Ripple-65B-Preview
+
+**Model ID**: `ricursive-ai/Ripple-65B-Preview`  
+**Family**: ricursive-ai/Ripple-65B-Preview
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.19999999999999998
+
+
+- **Standard Output**: $0.6
+
+
+
+
+
+- **Cached Output**: $0.02
 
 
 

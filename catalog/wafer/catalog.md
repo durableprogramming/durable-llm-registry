@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ## Overview
 
 - **Provider**: wafer
-- **Total Models**: 24
-- **Last Updated**: 2026-11-04
+- **Total Models**: 30
+- **Last Updated**: 2026-11-05
 
 ## Models
 
@@ -133,6 +133,57 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ---
 
 
+### DeepSeek-V4-Flash-0731-Fast-US
+
+**Model ID**: `DeepSeek-V4-Flash-0731-Fast-US`  
+**Family**: DeepSeek-V4-Flash-0731-Fast-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.03
+
+
+- **Standard Output**: $0.22999999999999998
+
+
+
+
+
+- **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
 ### DeepSeek-V4-Pro
 
 **Model ID**: `DeepSeek-V4-Pro`  
@@ -181,6 +232,57 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.044
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4-Pro-US
+
+**Model ID**: `DeepSeek-V4-Pro-US`  
+**Family**: DeepSeek-V4-Pro-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.32
+
+
+- **Standard Output**: $3.9600000000000004
+
+
+
+
+
+- **Cached Output**: $0.04
 
 
 
@@ -295,6 +397,57 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.006
+
+
+
+
+
+
+---
+
+
+### DeepSeek-V4.1-Flash-US
+
+**Model ID**: `DeepSeek-V4.1-Flash-US`  
+**Family**: DeepSeek-V4.1-Flash-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.2
+
+
+
+
+
+- **Cached Output**: $0.01
 
 
 
@@ -552,6 +705,57 @@ This catalog provides a comprehensive overview of all wafer models available thr
 ---
 
 
+### GLM-5.3-Flash-US
+
+**Model ID**: `GLM-5.3-Flash-US`  
+**Family**: GLM-5.3-Flash-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.03
+
+
+
+
+
+
+---
+
+
 ### Kimi-K2.6
 
 **Model ID**: `Kimi-K2.6`  
@@ -720,6 +924,120 @@ This catalog provides a comprehensive overview of all wafer models available thr
 
 
 - **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### Kimi-K3-US
+
+**Model ID**: `Kimi-K3-US`  
+**Family**: Kimi-K3-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $3.0
+
+
+- **Standard Output**: $15.0
+
+
+
+
+
+- **Cached Output**: $0.3
+
+
+
+
+
+
+---
+
+
+### Kimi-K3.1-Pro-US
+
+**Model ID**: `Kimi-K3.1-Pro-US`  
+**Family**: Kimi-K3.1-Pro-US
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+- Structured output
+
+- Json output
+
+- System messages
+
+- Prompt caching
+
+- Assistant prefill
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

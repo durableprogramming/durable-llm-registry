@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 - **Provider**: fireworks-ai
 - **Total Models**: 28
-- **Last Updated**: 2026-11-04
+- **Last Updated**: 2026-11-05
 
 ## Models
 
@@ -267,6 +267,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $15.0
+
+
+
+
+
+
+
+---
+
+
+### Kimi K3.1 Pro
+
+**Model ID**: `accounts/fireworks/models/kimi-k3p1-pro`  
+**Family**: kimi-k2
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 20,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
 
 
 
@@ -629,57 +673,6 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Cached Output**: $0.16999999999999998
-
-
-
-
-
-
----
-
-
-### accounts/fireworks/models/kimi-k3p1-pro
-
-**Model ID**: `accounts/fireworks/models/kimi-k3p1-pro`  
-**Family**: accounts/fireworks/models/kimi-k3p1-pro
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $2.0
-
-
-- **Standard Output**: $10.0
-
-
-
-
-
-- **Cached Output**: $0.19999999999999998
 
 
 

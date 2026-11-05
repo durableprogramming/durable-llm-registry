@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all deepinfra models available
 ## Overview
 
 - **Provider**: deepinfra
-- **Total Models**: 281
-- **Last Updated**: 2026-11-04
+- **Total Models**: 282
+- **Last Updated**: 2026-11-05
 
 ## Models
 
@@ -10687,6 +10687,61 @@ This catalog provides a comprehensive overview of all deepinfra models available
 
 
 - **Cached Output**: $0.28500000000000003
+
+
+
+
+
+
+---
+
+
+### moonshotai/Kimi-K3.1-Pro
+
+**Model ID**: `moonshotai/Kimi-K3.1-Pro`  
+**Family**: moonshotai/Kimi-K3.1-Pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+- Function calling
+
+- Json output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $2.0
+
+
+- **Standard Output**: $10.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
 
 
 

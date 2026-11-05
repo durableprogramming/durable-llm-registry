@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 
 - **Provider**: microsoft-foundry
 - **Total Models**: 517
-- **Last Updated**: 2026-11-04
+- **Last Updated**: 2026-11-05
 
 ## Models
 
@@ -267,6 +267,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+- **Standard Input**: $0.08
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -305,6 +309,10 @@ This catalog provides a comprehensive overview of all microsoft-foundry models a
 ##### Text Tokens
 
 
+- **Standard Input**: $0.12
+
+
+- **Standard Output**: $0.0
 
 
 
