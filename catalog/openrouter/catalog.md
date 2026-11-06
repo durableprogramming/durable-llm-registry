@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1095
-- **Last Updated**: 2026-11-05
+- **Total Models**: 1096
+- **Last Updated**: 2026-11-06
 
 ## Models
 
@@ -2855,7 +2855,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0927
+- **Standard Input**: $0.0999
 
 
 - **Standard Output**: $8.0
@@ -2878,7 +2878,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 16,000 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -2899,10 +2899,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2574
+- **Standard Input**: $0.32
 
 
-- **Standard Output**: $1.0287
+- **Standard Output**: $0.89
 
 
 
@@ -3221,6 +3221,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### DeepSeek: DeepSeek V4 Flash 0731 (batch)
+
+**Model ID**: `deepseek/deepseek-v4-flash-0731:batch`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 384,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.048
+
+
+- **Standard Output**: $0.144
+
+
+
+
+
+
+
+---
+
+
 ### DeepSeek: DeepSeek V4 Flash Latest
 
 **Model ID**: `~deepseek/deepseek-v4-flash-latest`  
@@ -3274,7 +3318,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 943,717 tokens
 
 
 #### Modalities
@@ -3295,10 +3339,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2156
+- **Standard Input**: $0.44
 
 
-- **Standard Output**: $0.6468
+- **Standard Output**: $1.32
 
 
 
@@ -3318,7 +3362,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 384,000 tokens
 
 
 #### Modalities
@@ -3339,10 +3383,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.6
+- **Standard Input**: $0.780564
 
 
-- **Standard Output**: $3.2
+- **Standard Output**: $1.561128
 
 
 
@@ -3383,10 +3427,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.103
+- **Standard Input**: $0.1165
 
 
-- **Standard Output**: $4.11
+- **Standard Output**: $4.66
 
 
 
@@ -3427,10 +3471,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.045
+- **Standard Input**: $0.051
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.567
 
 
 
@@ -5185,10 +5229,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0765
+- **Standard Input**: $0.0675
 
 
-- **Standard Output**: $0.255
+- **Standard Output**: $0.225
 
 
 
@@ -6651,6 +6695,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Meta: Muse Glimmer 30B (batch)
+
+**Model ID**: `meta/muse-glimmer-30b:batch`  
+**Family**: meta
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 16,384 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.24
+
+
+- **Standard Output**: $0.96
+
+
+
+
+
+
+
+---
+
+
 ### Meta: Muse Spark 1.1
 
 **Model ID**: `meta/muse-spark-1.1`  
@@ -7169,6 +7257,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $1.2
+
+
+
+
+
+
+
+---
+
+
+### MiniMax: MiniMax M3 (batch)
+
+**Model ID**: `minimax/minimax-m3:batch`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+- **Max Output Tokens**: 512,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.224
+
+
+- **Standard Output**: $0.88
 
 
 
@@ -8661,7 +8793,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1529
+- **Standard Input**: $0.1539
 
 
 - **Standard Output**: $9.3388
@@ -8904,7 +9036,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -8925,10 +9057,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.3
+- **Standard Input**: $0.075
 
 
-- **Standard Output**: $2.4
+- **Standard Output**: $0.4
 
 
 
@@ -9061,50 +9193,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.2
-
-
-
-
-
-
-
----
-
-
-### NVIDIA: Nemotron 3.5 Content Safety (free)
-
-**Model ID**: `nvidia/nemotron-3.5-content-safety:free`  
-**Family**: nvidia
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -13587,10 +13675,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.011
+- **Standard Input**: $0.018
 
 
-- **Standard Output**: $0.039
+- **Standard Output**: $0.067
 
 
 
@@ -16325,6 +16413,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Qwen: Qwen3.8 27B (batch)
+
+**Model ID**: `qwen/qwen3.8-27b:batch`  
+**Family**: qwen
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, video
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.16
+
+
+- **Standard Output**: $2.0
+
+
+
+
+
+
+
+---
+
+
 ### Qwen: Qwen3.8 Flash
 
 **Model ID**: `qwen/qwen3.8-flash`  
@@ -16799,6 +16931,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.0
+
+
+
+
+
+
+
+---
+
+
+### Ricursive: Ripple 65B Preview
+
+**Model ID**: `ricursiveai/ripple-65b-preview`  
+**Family**: ricursiveai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.2
+
+
+- **Standard Output**: $0.6
 
 
 
@@ -18305,6 +18481,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Thinking Machines: Inkling Small (batch)
+
+**Model ID**: `thinkingmachines/inkling-small:batch`  
+**Family**: thinkingmachines
+#### Specifications
+
+- **Context Window**: 524,288 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image, audio
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.36
+
+
+- **Standard Output**: $0.96
+
+
+
+
+
+
+
+---
+
+
 ### TypeSafe: Jev Router
 
 **Model ID**: `typesafe/jev-router`  
@@ -19655,7 +19875,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0285
+- **Standard Input**: $0.0284
 
 
 - **Standard Output**: $0.0923
@@ -26032,67 +26252,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.19999999999999998
-
-
-
-
-
-
----
-
-
-### deepseek/deepseek-v4-flash-0731:batch
-
-**Model ID**: `deepseek/deepseek-v4-flash-0731:batch`  
-**Family**: deepseek/deepseek-v4-flash-0731:batch
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 943,718 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.14
-
-
-- **Standard Output**: $0.28
-
-
-
-
-
-- **Cached Output**: $0.03
 
 
 
@@ -35923,67 +36082,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### meta/muse-glimmer-30b:batch
-
-**Model ID**: `meta/muse-glimmer-30b:batch`  
-**Family**: meta/muse-glimmer-30b:batch
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 117,964 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.35
-
-
-- **Standard Output**: $1.5
-
-
-
-
-
-- **Cached Output**: $0.04
-
-
-
-
-
-
----
-
-
 ### microsoft/microsoft-decision-1
 
 **Model ID**: `microsoft/microsoft-decision-1`  
@@ -36813,65 +36911,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $0.0
 
-
-
-
-
-
-
----
-
-
-### minimax/minimax-m3:batch
-
-**Model ID**: `minimax/minimax-m3:batch`  
-**Family**: minimax/minimax-m3:batch
-#### Specifications
-
-- **Context Window**: 524,288 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text, image, video
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Prompt caching
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.15
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-- **Cached Output**: $0.03
 
 
 
@@ -40892,6 +40931,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Cached Output**: $0.09999999999999999
+
+
+
+
+
+
+---
+
+
+### nvidia/nemotron-3.5-content-safety:free
+
+**Model ID**: `nvidia/nemotron-3.5-content-safety:free`  
+**Family**: nvidia/nemotron-3.5-content-safety:free
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
 
 
 
@@ -48688,50 +48771,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### ricursiveAI/Ripple-65B-Preview
-
-**Model ID**: `ricursiveai/ripple-65b-preview`  
-**Family**: ricursiveai
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.2
-
-
-- **Standard Output**: $0.6
-
-
-
-
-
-
-
----
-
-
 ### rocinante-12b
 
 **Model ID**: `rocinante-12b`  
@@ -49747,63 +49786,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $0.43
 
-
-
-
-
-
-
----
-
-
-### thinkingmachines/inkling-small:batch
-
-**Model ID**: `thinkingmachines/inkling-small:batch`  
-**Family**: thinkingmachines/inkling-small:batch
-#### Specifications
-
-- **Context Window**: 524,288 tokens
-
-
-- **Max Output Tokens**: 471,859 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image, audio
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Prompt caching
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5
-
-
-- **Standard Output**: $1.2
-
-
-
-
-
-- **Cached Output**: $0.09999999999999999
 
 
 
