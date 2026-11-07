@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 85
-- **Last Updated**: 2026-11-06
+- **Total Models**: 86
+- **Last Updated**: 2026-11-07
 
 ## Models
 
@@ -3450,6 +3450,102 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Iceman Free
+
+**Model ID**: `iceman-free`  
+**Family**: iceman
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### Inkling 2 Small Free
+
+**Model ID**: `inkling-2-small-free`  
+**Family**: inkling
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Jev 1.13
 
 **Model ID**: `jev-1.13`  
@@ -4369,54 +4465,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Pulse Alpha Free
-
-**Model ID**: `pulse-alpha-free`  
-**Family**: pulse
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
 
 
 

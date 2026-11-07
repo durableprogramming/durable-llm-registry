@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1096
-- **Last Updated**: 2026-11-06
+- **Total Models**: 1098
+- **Last Updated**: 2026-11-07
 
 ## Models
 
@@ -3383,10 +3383,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.780564
+- **Standard Input**: $0.60639
 
 
-- **Standard Output**: $1.561128
+- **Standard Output**: $1.21278
 
 
 
@@ -3427,10 +3427,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1165
+- **Standard Input**: $0.111
 
 
-- **Standard Output**: $4.66
+- **Standard Output**: $4.44
 
 
 
@@ -6167,6 +6167,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### LiquidAI: LFM3-1.7B
+
+**Model ID**: `liquid/lfm-3-1.7b`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.08
+
+
+- **Standard Output**: $0.2
+
+
+
+
+
+
+
+---
+
+
+### LiquidAI: LFM3-1.7B (free)
+
+**Model ID**: `liquid/lfm-3-1.7b:free`  
+**Family**: liquid
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Magnum v4 72B
 
 **Model ID**: `anthracite-org/magnum-v4-72b`  
@@ -7144,7 +7232,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 204,800 tokens
 
 
-- **Max Output Tokens**: 32,768 tokens
+- **Max Output Tokens**: 58,982 tokens
 
 
 #### Modalities
@@ -7165,10 +7253,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.27
+- **Standard Input**: $0.3
 
 
-- **Standard Output**: $0.95
+- **Standard Output**: $1.2
 
 
 
@@ -8793,7 +8881,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1539
+- **Standard Input**: $0.1558
 
 
 - **Standard Output**: $9.3388
@@ -13675,10 +13763,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.018
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.067
+- **Standard Output**: $0.074
 
 
 
@@ -19875,7 +19963,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0284
+- **Standard Input**: $0.0285
 
 
 - **Standard Output**: $0.0923
@@ -31651,10 +31739,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.075
+- **Standard Input**: $0.045
 
 
-- **Standard Output**: $0.225
+- **Standard Output**: $0.135
 
 
 
