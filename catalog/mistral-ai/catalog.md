@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all mistral-ai models availabl
 
 - **Provider**: mistral-ai
 - **Total Models**: 120
-- **Last Updated**: 2026-11-07
+- **Last Updated**: 2026-11-08
 
 ## Models
 

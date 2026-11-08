@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all truefoundry-models models 
 
 - **Provider**: truefoundry-models
 - **Total Models**: 22
-- **Last Updated**: 2026-11-07
+- **Last Updated**: 2026-11-08
 
 ## Models
 
