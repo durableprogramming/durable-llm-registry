@@ -7,15 +7,15 @@ This catalog provides a comprehensive overview of all anthropic models available
 ## Overview
 
 - **Provider**: anthropic
-- **Total Models**: 31
-- **Last Updated**: 2026-11-08
+- **Total Models**: 32
+- **Last Updated**: 2026-11-09
 
 ## Models
 
 
-### Claude Fable 5.1
+### Claude Fable 5.2
 
-**Model ID**: `claude-fable-5-1`  
+**Model ID**: `claude-fable-5-2`  
 **Family**: claude-fable
 #### Specifications
 
@@ -47,18 +47,18 @@ This catalog provides a comprehensive overview of all anthropic models available
 ##### Text Tokens
 
 
-- **Standard Input**: $10.0
+- **Standard Input**: $8.0
 
 
-- **Standard Output**: $10.0
+- **Standard Output**: $8.0
 
 
 
 
-- **Cached Input**: $12.5
+- **Cached Input**: $10.0
 
 
-- **Cached Output**: $10.0
+- **Cached Output**: $8.0
 
 
 
@@ -927,6 +927,71 @@ This catalog provides a comprehensive overview of all anthropic models available
 
 
 - **Cached Output**: $1.0
+
+
+
+
+
+
+---
+
+
+### claude-fable-5-1
+
+**Model ID**: `claude-fable-5-1`  
+**Family**: claude-fable-5-1
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 128,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Parallel function calling
+
+- Cache control
+
+- System messages
+
+- Prompt caching
+
+- Mid conversation system messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $10.0
+
+
+- **Standard Output**: $50.0
+
+
+
+
+- **Cached Input**: $12.5
+
+
+- **Cached Output**: $0.25
 
 
 

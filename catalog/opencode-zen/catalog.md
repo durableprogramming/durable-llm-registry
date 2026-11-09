@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 86
-- **Last Updated**: 2026-11-08
+- **Total Models**: 88
+- **Last Updated**: 2026-11-09
 
 ## Models
 
@@ -3876,6 +3876,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### LongCat 2.5 Free
+
+**Model ID**: `longcat-2.5-free`  
+**Family**: longcat
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### MiMo-V2.6-Flash Free
 
 **Model ID**: `mimo-v2.6-flash-free`  
@@ -4100,6 +4155,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 **Model ID**: `mistral-large-4`  
 **Family**: mistral
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Muse Ember 1.0
+
+**Model ID**: `muse-ember-1.0`  
+**Family**: muse
 #### Specifications
 
 - **Context Window**: 128,000 tokens
