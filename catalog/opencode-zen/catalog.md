@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 88
-- **Last Updated**: 2026-11-09
+- **Total Models**: 90
+- **Last Updated**: 2026-11-10
 
 ## Models
 
@@ -167,6 +167,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Claude Fable 5.1
 
 **Model ID**: `claude-fable-5-1`  
+**Family**: claude-fable-5
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Claude Fable 5.2
+
+**Model ID**: `claude-fable-5-2`  
 **Family**: claude-fable-5
 #### Specifications
 
@@ -870,54 +925,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### Crouton Alpha Free
-
-**Model ID**: `crouton-alpha-free`  
-**Family**: crouton
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
 
 
 
@@ -3230,6 +3237,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### Gemini 4 Carbon
+
+**Model ID**: `gemini-4-carbon`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### Grok 4.5
 
 **Model ID**: `grok-4.5`  
@@ -4142,6 +4204,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.06
+
+
+
+
+
+
+---
+
+
+### MiniMax M3.1 Flash Free
+
+**Model ID**: `minimax-m3.1-flash-free`  
+**Family**: minimax
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
 
 
 
