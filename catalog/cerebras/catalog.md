@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all cerebras models available 
 
 - **Provider**: cerebras
 - **Total Models**: 7
-- **Last Updated**: 2026-11-10
+- **Last Updated**: 2026-11-11
 
 ## Models
 
