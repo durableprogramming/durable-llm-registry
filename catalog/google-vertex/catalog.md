@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all google-vertex models avail
 
 - **Provider**: google-vertex
 - **Total Models**: 464
-- **Last Updated**: 2026-11-11
+- **Last Updated**: 2026-11-12
 
 ## Models
 

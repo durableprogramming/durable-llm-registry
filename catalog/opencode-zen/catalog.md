@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 90
-- **Last Updated**: 2026-11-11
+- **Total Models**: 92
+- **Last Updated**: 2026-11-12
 
 ## Models
 
@@ -2687,6 +2687,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
+### GPT 6 Luna Decision
+
+**Model ID**: `gpt-6-luna-decision`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
 ### GPT 6 Sol
 
 **Model ID**: `gpt-6-sol`  
@@ -3283,6 +3338,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Gemini Decision 1
+
+**Model ID**: `gemini-decision-1`  
+**Family**: gemini
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.1
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.125
+
+
+- **Cached Output**: $0.0
 
 
 
