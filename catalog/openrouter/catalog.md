@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1116
-- **Last Updated**: 2026-11-12
+- **Total Models**: 1119
+- **Last Updated**: 2026-11-13
 
 ## Models
 
@@ -2081,50 +2081,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Apodex: Apodex 1.1 Mini (free)
-
-**Model ID**: `apodex/apodex-1.1-mini:free`  
-**Family**: apodex
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 235,929 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### Auto Code
 
 **Model ID**: `openrouter/auto-code`  
@@ -2855,10 +2811,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.022
+- **Standard Input**: $0.038
 
 
-- **Standard Output**: $0.4
+- **Standard Output**: $0.5
 
 
 
@@ -2922,7 +2878,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 16,000 tokens
 
 
 #### Modalities
@@ -2943,10 +2899,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.32
+- **Standard Input**: $0.2574
 
 
-- **Standard Output**: $0.89
+- **Standard Output**: $1.0287
 
 
 
@@ -3406,7 +3362,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 384,000 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -3427,10 +3383,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.888966
+- **Standard Input**: $0.9
 
 
-- **Standard Output**: $1.777932
+- **Standard Output**: $1.5
 
 
 
@@ -3582,7 +3538,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -3603,10 +3559,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.038
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.5
 
 
 
@@ -5472,7 +5428,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -5493,10 +5449,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.0675
 
 
-- **Standard Output**: $0.28
+- **Standard Output**: $0.225
 
 
 
@@ -6068,7 +6024,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.15
+- **Standard Output**: $0.25
 
 
 
@@ -6201,94 +6157,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.8
-
-
-
-
-
-
-
----
-
-
-### LiquidAI: LFM2.5-2.6B
-
-**Model ID**: `liquid/lfm-2.5-2.6b`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.35
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### LiquidAI: LFM2.5-2.6B (free)
-
-**Model ID**: `liquid/lfm-2.5-2.6b:free`  
-**Family**: liquid
-#### Specifications
-
-- **Context Window**: 65,536 tokens
-
-
-- **Max Output Tokens**: 8,192 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
 
 
 
@@ -7276,7 +7144,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 262,144 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -7405,10 +7273,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: minimax
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 198,000 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -7432,7 +7300,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.27
 
 
-- **Standard Output**: $1.08
+- **Standard Output**: $0.95
 
 
 
@@ -9013,10 +8881,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2375
+- **Standard Input**: $2.0
 
 
-- **Standard Output**: $8.7856
+- **Standard Output**: $10.0
 
 
 
@@ -14873,6 +14741,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Particle AI: Particle-1 (free)
+
+**Model ID**: `particle-ai/particle-1:free`  
+**Family**: particle-ai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
 ### Perceptron: Perceptron Mk1
 
 **Model ID**: `perceptron/perceptron-mk1`  
@@ -16399,10 +16311,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.161
+- **Standard Input**: $0.16
 
 
-- **Standard Output**: $0.237
+- **Standard Output**: $0.236
 
 
 
@@ -17499,10 +17411,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.2
+- **Standard Input**: $0.1
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.3
 
 
 
@@ -18965,6 +18877,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### Thinking Machines: Inkling 2 Small
+
+**Model ID**: `thinkingmachines/inkling-2-small`  
+**Family**: thinkingmachines
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 943,718 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.0
+
+
+
+
+
+
+
+---
+
+
 ### Thinking Machines: Inkling 2 Small (free)
 
 **Model ID**: `thinkingmachines/inkling-2-small:free`  
@@ -19370,7 +19326,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,024,000 tokens
 
 
-- **Max Output Tokens**: 235,929 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
@@ -19391,10 +19347,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.48
+- **Standard Input**: $0.435
 
 
-- **Standard Output**: $1.8
+- **Standard Output**: $0.87
 
 
 
@@ -20095,10 +20051,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0699
+- **Standard Input**: $0.084
 
 
-- **Standard Output**: $1.4
+- **Standard Output**: $3.6
 
 
 
@@ -22287,6 +22243,60 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
+
+
+
+
+
+
+
+---
+
+
+### apodex/apodex-1.1-mini:free
+
+**Model ID**: `apodex/apodex-1.1-mini:free`  
+**Family**: apodex/apodex-1.1-mini:free
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -32398,94 +32408,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### inclusionAI: Ling 3.0 Flash Fin
-
-**Model ID**: `inclusionai/ling-3.0-flash-fin`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.042
-
-
-- **Standard Output**: $0.1232
-
-
-
-
-
-
-
----
-
-
-### inclusionAI: Ling 3.0 Flash Sante
-
-**Model ID**: `inclusionai/ling-3.0-flash-sante`  
-**Family**: inclusionai
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 32,768 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.042
-
-
-- **Standard Output**: $0.1232
-
-
-
-
-
-
-
----
-
-
 ### inclusionAI: Ling 3.0 Flash VL
 
 **Model ID**: `inclusionai/ling-3.0-flash-vl`  
@@ -32608,6 +32530,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $0.135
+
+
+
+
+
+
+
+---
+
+
+### inclusionAI: Ling 3.2 Flash (free)
+
+**Model ID**: `inclusionai/ling-3.2-flash:free`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -32794,6 +32760,67 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### inclusionai/ling-3.0-flash-fin
+
+**Model ID**: `inclusionai/ling-3.0-flash-fin`  
+**Family**: inclusionai/ling-3.0-flash-fin
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 235,929 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+- System messages
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+- **Cached Output**: $0.012
+
+
+
+
+
+
+---
+
+
 ### inclusionai/ling-3.0-flash-fin:free
 
 **Model ID**: `inclusionai/ling-3.0-flash-fin:free`  
@@ -32835,6 +32862,59 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $0.0
 
+
+
+
+
+
+
+---
+
+
+### inclusionai/ling-3.0-flash-sante
+
+**Model ID**: `inclusionai/ling-3.0-flash-sante`  
+**Family**: inclusionai/ling-3.0-flash-sante
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Prompt caching
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.075
+
+
+- **Standard Output**: $0.22
+
+
+
+
+
+- **Cached Output**: $0.015
 
 
 
@@ -34540,6 +34620,121 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 #### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+
+
+
+---
+
+
+### liquid/lfm-2.5-2.6b
+
+**Model ID**: `liquid/lfm-2.5-2.6b`  
+**Family**: liquid/lfm-2.5-2.6b
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 8,192 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.35
+
+
+- **Standard Output**: $0.5
+
+
+
+
+
+- **Cached Output**: $0.04
+
+
+
+
+
+
+---
+
+
+### liquid/lfm-2.5-2.6b:free
+
+**Model ID**: `liquid/lfm-2.5-2.6b:free`  
+**Family**: liquid/lfm-2.5-2.6b:free
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
 
 
 #### Pricing (per million tokens)
