@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 1119
-- **Last Updated**: 2026-11-14
+- **Last Updated**: 2026-11-15
 
 ## Models
 
@@ -2790,7 +2790,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 384,000 tokens
 
 
 #### Modalities
@@ -2811,10 +2811,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.038
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.108
 
 
 
@@ -3538,50 +3538,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.038
-
-
-- **Standard Output**: $0.5
-
-
-
-
-
-
-
----
-
-
-### DeepSeek: DeepSeek V4.1 Flash 1017 (batch)
-
-**Model ID**: `deepseek/deepseek-v4.1-flash-1017:batch`  
-**Family**: deepseek
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
 - **Max Output Tokens**: 384,000 tokens
 
 
@@ -3603,10 +3559,54 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.05
+- **Standard Input**: $0.02
 
 
-- **Standard Output**: $0.15
+- **Standard Output**: $0.108
+
+
+
+
+
+
+
+---
+
+
+### DeepSeek: DeepSeek V4.1 Flash 1017 (batch)
+
+**Model ID**: `deepseek/deepseek-v4.1-flash-1017:batch`  
+**Family**: deepseek
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 943,718 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.029
+
+
+- **Standard Output**: $0.253
 
 
 
@@ -3626,7 +3626,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 163,840 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 32,768 tokens
 
 
 #### Modalities
@@ -3647,10 +3647,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.571
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $2.286
+- **Standard Output**: $2.15
 
 
 
@@ -6024,7 +6024,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.06
 
 
-- **Standard Output**: $0.25
+- **Standard Output**: $0.15
 
 
 
@@ -9608,7 +9608,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -9632,7 +9632,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.47
+- **Standard Output**: $0.5
 
 
 
@@ -12795,10 +12795,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $4.0
+- **Standard Input**: $4.4
 
 
-- **Standard Output**: $20.0
+- **Standard Output**: $22.0
 
 
 
@@ -15929,50 +15929,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### Qwen: Qwen3 VL 30B A3B Thinking
-
-**Model ID**: `qwen/qwen3-vl-30b-a3b-thinking`  
-**Family**: qwen
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 235,929 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.29
-
-
-- **Standard Output**: $1.0
-
-
-
-
-
-
-
----
-
-
 ### Qwen: Qwen3 VL 8B Instruct
 
 **Model ID**: `qwen/qwen3-vl-8b-instruct`  
@@ -16311,10 +16267,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.069
+- **Standard Input**: $0.036
 
 
-- **Standard Output**: $0.101
+- **Standard Output**: $0.053
 
 
 
@@ -18217,50 +18173,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### StepFun: Step 3.5 Flash
-
-**Model ID**: `stepfun/step-3.5-flash`  
-**Family**: stepfun
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 65,536 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.1
-
-
-- **Standard Output**: $0.3
-
-
-
-
-
-
-
----
-
-
 ### StepFun: Step 3.7 Flash
 
 **Model ID**: `stepfun/step-3.7-flash`  
@@ -18339,50 +18251,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.7
-
-
-
-
-
-
-
----
-
-
-### Tencent: Hunyuan A13B Instruct
-
-**Model ID**: `tencent/hunyuan-a13b-instruct`  
-**Family**: tencent
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 117,964 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.14
-
-
-- **Standard Output**: $0.57
 
 
 
@@ -19743,10 +19611,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.6
+- **Standard Input**: $0.4
 
 
-- **Standard Output**: $2.2
+- **Standard Output**: $1.75
 
 
 
@@ -19967,50 +19835,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $6.8
-
-
-
-
-
-
-
----
-
-
-### Z.ai: GLM 5.2 (batch)
-
-**Model ID**: `z-ai/glm-5.2:batch`  
-**Family**: z-ai
-#### Specifications
-
-- **Context Window**: 1,048,576 tokens
-
-
-- **Max Output Tokens**: 943,718 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.347
-
-
-- **Standard Output**: $1.068
 
 
 
@@ -47728,6 +47552,60 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### qwen/qwen3-vl-30b-a3b-thinking
+
+**Model ID**: `qwen/qwen3-vl-30b-a3b-thinking`  
+**Family**: qwen/qwen3-vl-30b-a3b-thinking
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.13
+
+
+- **Standard Output**: $1.56
+
+
+
+
+
+
+
+---
+
+
 ### qwen/qwen3-vl-32b-instruct
 
 **Model ID**: `qwen/qwen3-vl-32b-instruct`  
@@ -50789,6 +50667,56 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### stepfun/step-3.5-flash
+
+**Model ID**: `stepfun/step-3.5-flash`  
+**Family**: stepfun/step-3.5-flash
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 65,536 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.09999999999999999
+
+
+- **Standard Output**: $0.3
+
+
+
+
+
+
+
+---
+
+
 ### stepfun/step-3.5-flash:free
 
 **Model ID**: `stepfun/step-3.5-flash:free`  
@@ -50869,6 +50797,56 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $3.4
+
+
+
+
+
+
+
+---
+
+
+### tencent/hunyuan-a13b-instruct
+
+**Model ID**: `tencent/hunyuan-a13b-instruct`  
+**Family**: tencent/hunyuan-a13b-instruct
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Json output
+
+- Structured output
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.14
+
+
+- **Standard Output**: $0.5700000000000001
 
 
 
@@ -52913,6 +52891,65 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Standard Output**: $1.9
 
+
+
+
+
+
+
+---
+
+
+### z-ai/glm-5.2:batch
+
+**Model ID**: `z-ai/glm-5.2:batch`  
+**Family**: z-ai/glm-5.2:batch
+#### Specifications
+
+- **Context Window**: 512,000 tokens
+
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Structured output
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.7
+
+
+- **Standard Output**: $2.2
+
+
+
+
+
+- **Cached Output**: $0.13
 
 
 
