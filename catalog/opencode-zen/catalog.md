@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 94
-- **Last Updated**: 2026-11-16
+- **Total Models**: 95
+- **Last Updated**: 2026-11-17
 
 ## Models
 
@@ -2852,10 +2852,10 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Gemini 3 Flash
+### GPT 6.2 Astra
 
-**Model ID**: `gemini-3-flash`  
-**Family**: gemini
+**Model ID**: `gpt-6.2-astra`  
+**Family**: gpt
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -2886,18 +2886,18 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.5
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $5.0
 
 
 
 
-- **Cached Input**: $0.625
+- **Cached Input**: $1.25
 
 
-- **Cached Output**: $0.05
+- **Cached Output**: $0.5
 
 
 
@@ -2907,10 +2907,65 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Gemini 3.1 Pro
+### GPT 6.2 Sol
 
-**Model ID**: `gemini-3.1-pro`  
-**Family**: gemini
+**Model ID**: `gpt-6.2-sol`  
+**Family**: gpt
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### GPT Image 2.5 Sunburst
+
+**Model ID**: `gpt-image-2.5-sunburst`  
+**Family**: gpt
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -3625,6 +3680,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Grok Build 0.1
 
 **Model ID**: `grok-build-0.1`  
+**Family**: grok
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Grok Imagine Image 2.0
+
+**Model ID**: `grok-imagine-image-2.0`  
 **Family**: grok
 #### Specifications
 
@@ -4426,61 +4536,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### MiniMax M3.1 Flash Free
-
-**Model ID**: `minimax-m3.1-flash-free`  
-**Family**: minimax
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
 ### Mistral Large 4
 
 **Model ID**: `mistral-large-4`  
@@ -4756,10 +4811,10 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ---
 
 
-### Nemotron 3 Ultra Free
+### Nano Banana 2.1
 
-**Model ID**: `nemotron-3-ultra-free`  
-**Family**: nemotron
+**Model ID**: `gemini-nano-banana-2.1`  
+**Family**: gemini
 #### Specifications
 
 - **Context Window**: 128,000 tokens
@@ -4790,11 +4845,18 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0
+- **Standard Input**: $1.0
 
 
-- **Standard Output**: $0.0
+- **Standard Output**: $5.0
 
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
 
 
 

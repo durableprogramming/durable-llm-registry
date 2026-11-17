@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode models available 
 ## Overview
 
 - **Provider**: opencode
-- **Total Models**: 9
-- **Last Updated**: 2026-11-16
+- **Total Models**: 12
+- **Last Updated**: 2026-11-17
 
 ## Models
 
@@ -298,22 +298,22 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### MiMo-V2.6-Flash Free
+### Hy4 flash Free
 
-**Model ID**: `mimo-v2.6-flash-free`  
-**Family**: mimo
+**Model ID**: `hy4-flash-free`  
+**Family**: Hy
 #### Specifications
 
-- **Context Window**: 200,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 32,000 tokens
+- **Max Output Tokens**: 65,536 tokens
 
 
 #### Modalities
 
 
-- **Input**: text, audio, image, video
+- **Input**: text, image
 
 
 - **Output**: text
@@ -355,22 +355,193 @@ This catalog provides a comprehensive overview of all opencode models available 
 ---
 
 
-### Nemotron 3 Ultra Free
+### Iceman Free
 
-**Model ID**: `nemotron-3-ultra-free`  
-**Family**: nemotron
+**Model ID**: `iceman-free`  
+**Family**: iceman-free
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 128,000 tokens
+- **Max Output Tokens**: 131,072 tokens
 
 
 #### Modalities
 
 
 - **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### Inkling 2 Small Free
+
+**Model ID**: `inkling-2-small-free`  
+**Family**: ling
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### LongCat 2.5 Free
+
+**Model ID**: `longcat-2.5-free`  
+**Family**: longcat
+#### Specifications
+
+- **Context Window**: 1,000,000 tokens
+
+
+- **Max Output Tokens**: 262,144 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Reasoning
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
+
+
+
+
+- **Cached Input**: $0.0
+
+
+- **Cached Output**: $0.0
+
+
+
+
+
+
+---
+
+
+### MiMo-V2.6-Flash Free
+
+**Model ID**: `mimo-v2.6-flash-free`  
+**Family**: mimo
+#### Specifications
+
+- **Context Window**: 200,000 tokens
+
+
+- **Max Output Tokens**: 32,000 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, audio, image, video
 
 
 - **Output**: text
