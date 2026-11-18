@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 95
-- **Last Updated**: 2026-11-17
+- **Total Models**: 94
+- **Last Updated**: 2026-11-18
 
 ## Models
 
@@ -1370,61 +1370,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### GLM 5.3 Flash
 
 **Model ID**: `glm-5.3-flash`  
-**Family**: glm
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
-
-
-
-
-
-
----
-
-
-### GLM-5.3-Flash Free
-
-**Model ID**: `glm-5.3-flash-free`  
 **Family**: glm
 #### Specifications
 
