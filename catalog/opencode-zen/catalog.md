@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 104
-- **Last Updated**: 2026-11-21
+- **Total Models**: 103
+- **Last Updated**: 2026-11-22
 
 ## Models
 
@@ -4369,61 +4369,6 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 
 
 - **Cached Output**: $0.3
-
-
-
-
-
-
----
-
-
-### LongCat 2.5 Free
-
-**Model ID**: `longcat-2.5-free`  
-**Family**: longcat
-#### Specifications
-
-- **Context Window**: 128,000 tokens
-
-
-- **Max Output Tokens**: 4,096 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $1.0
-
-
-- **Standard Output**: $5.0
-
-
-
-
-- **Cached Input**: $1.25
-
-
-- **Cached Output**: $0.5
 
 
 
