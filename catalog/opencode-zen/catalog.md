@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ## Overview
 
 - **Provider**: opencode-zen
-- **Total Models**: 103
-- **Last Updated**: 2026-11-22
+- **Total Models**: 104
+- **Last Updated**: 2026-11-24
 
 ## Models
 
@@ -4106,6 +4106,61 @@ This catalog provides a comprehensive overview of all opencode-zen models availa
 ### Jev 1.13 Free
 
 **Model ID**: `jev-1.13-free`  
+**Family**: jev
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $5.0
+
+
+
+
+- **Cached Input**: $1.25
+
+
+- **Cached Output**: $0.5
+
+
+
+
+
+
+---
+
+
+### Jev 1.14
+
+**Model ID**: `jev-1.14`  
 **Family**: jev
 #### Specifications
 

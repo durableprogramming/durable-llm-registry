@@ -8,7 +8,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 - **Provider**: openrouter
 - **Total Models**: 1133
-- **Last Updated**: 2026-11-22
+- **Last Updated**: 2026-11-24
 
 ## Models
 
@@ -2746,7 +2746,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 393,216 tokens
 
 
 #### Modalities
@@ -2767,10 +2767,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.036
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.5
+- **Standard Output**: $0.2
 
 
 
@@ -2790,7 +2790,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -2811,10 +2811,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1188
+- **Standard Input**: $0.111
 
 
-- **Standard Output**: $8.0
+- **Standard Output**: $4.44
 
 
 
@@ -3163,7 +3163,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0443
+- **Standard Input**: $0.0434
 
 
 - **Standard Output**: $0.3
@@ -3230,7 +3230,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -3251,10 +3251,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.044
+- **Standard Input**: $0.0434
 
 
-- **Standard Output**: $0.132
+- **Standard Output**: $0.3
 
 
 
@@ -3383,10 +3383,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $1.32
+- **Standard Input**: $0.111
 
 
-- **Standard Output**: $3.96
+- **Standard Output**: $4.44
 
 
 
@@ -3515,10 +3515,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.15
+- **Standard Input**: $0.03
 
 
-- **Standard Output**: $0.6
+- **Standard Output**: $0.2
 
 
 
@@ -3607,6 +3607,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.286
+
+
+
+
+
+
+
+---
+
+
+### Dots Studio: Dots3-Note Preview (free)
+
+**Model ID**: `dots-studio/dots-3-note-preview:free`  
+**Family**: dots-studio
+#### Specifications
+
+- **Context Window**: 512,000 tokens
+
+
+- **Max Output Tokens**: 460,800 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.0
+
+
+- **Standard Output**: $0.0
 
 
 
@@ -5340,7 +5384,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 117,964 tokens
+- **Max Output Tokens**: 16,384 tokens
 
 
 #### Modalities
@@ -5364,7 +5408,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.45
+- **Standard Output**: $0.16
 
 
 
@@ -5449,10 +5493,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0675
+- **Standard Input**: $0.0765
 
 
-- **Standard Output**: $0.225
+- **Standard Output**: $0.255
 
 
 
@@ -6440,7 +6484,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 117,964 tokens
 
 
 #### Modalities
@@ -6461,10 +6505,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.02
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.04
+- **Standard Output**: $0.08
 
 
 
@@ -9497,7 +9541,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.07
+- **Standard Input**: $0.05
 
 
 - **Standard Output**: $0.2
@@ -14335,10 +14379,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.09
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.36
+- **Standard Output**: $0.25
 
 
 
@@ -16707,10 +16751,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.1
+- **Standard Input**: $0.05
 
 
-- **Standard Output**: $0.9
+- **Standard Output**: $0.7
 
 
 
@@ -18907,10 +18951,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.7506
+- **Standard Input**: $0.834
 
 
-- **Standard Output**: $2.2509
+- **Standard Output**: $2.501
 
 
 
@@ -19059,7 +19103,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: thinkingmachines
 #### Specifications
 
-- **Context Window**: 524,288 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 471,859 tokens
@@ -19527,50 +19571,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Output**: $2.0
-
-
-
-
-
-
-
----
-
-
-### Xiaomi: MiMo-V2.5-Pro
-
-**Model ID**: `xiaomi/mimo-v2.5-pro`  
-**Family**: xiaomi
-#### Specifications
-
-- **Context Window**: 262,144 tokens
-
-
-- **Max Output Tokens**: 235,929 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.48
-
-
-- **Standard Output**: $1.8
 
 
 
@@ -20359,10 +20359,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0399
+- **Standard Input**: $0.0356
 
 
-- **Standard Output**: $0.0784
+- **Standard Output**: $0.0815
 
 
 
@@ -20623,10 +20623,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0399
+- **Standard Input**: $0.0356
 
 
-- **Standard Output**: $0.0784
+- **Standard Output**: $0.0815
 
 
 
@@ -27877,60 +27877,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
-### dots-studio/dots-3-note-preview:free
-
-**Model ID**: `dots-studio/dots-3-note-preview:free`  
-**Family**: dots-studio/dots-3-note-preview:free
-#### Specifications
-
-- **Context Window**: 512,000 tokens
-
-
-- **Max Output Tokens**: 512,000 tokens
-
-
-#### Modalities
-
-
-- **Input**: text, image
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.0
-
-
-- **Standard Output**: $0.0
-
-
-
-
-
-
-
----
-
-
 ### ernie-4.5-300b-a47b
 
 **Model ID**: `ernie-4.5-300b-a47b`  
@@ -32826,7 +32772,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: inclusionai
 #### Specifications
 
-- **Context Window**: 1,000,000 tokens
+- **Context Window**: 1,048,576 tokens
 
 
 - **Max Output Tokens**: 262,144 tokens
@@ -53356,6 +53302,65 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 **Model ID**: `xiaomi/mimo-v2-pro`  
 **Family**: xiaomi/mimo-v2-pro
+#### Specifications
+
+- **Context Window**: 1,048,576 tokens
+
+
+- **Max Output Tokens**: 131,072 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+- Function calling
+
+- Json output
+
+- Prompt caching
+
+- Tool choice
+
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.0
+
+
+- **Standard Output**: $3.0
+
+
+
+
+
+- **Cached Output**: $0.19999999999999998
+
+
+
+
+
+
+---
+
+
+### xiaomi/mimo-v2.5-pro
+
+**Model ID**: `xiaomi/mimo-v2.5-pro`  
+**Family**: xiaomi/mimo-v2.5-pro
 #### Specifications
 
 - **Context Window**: 1,048,576 tokens
