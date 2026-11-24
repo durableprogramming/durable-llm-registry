@@ -7,7 +7,7 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 28
+- **Total Models**: 31
 - **Last Updated**: 2026-11-24
 
 ## Models
@@ -223,6 +223,94 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.5
+
+
+
+
+
+
+
+---
+
+
+### HY4 Flash
+
+**Model ID**: `accounts/fireworks/models/hy4-flash`  
+**Family**: hy4-flash
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.07
+
+
+- **Standard Output**: $0.281
+
+
+
+
+
+
+
+---
+
+
+### Inkling 2 Small
+
+**Model ID**: `accounts/fireworks/models/inkling-2-small`  
+**Family**: inkling-2
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.3
+
+
+- **Standard Output**: $1.0
 
 
 
@@ -531,6 +619,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $6.0
+
+
+
+
+
+
+
+---
+
+
+### Qwen 4 Max
+
+**Model ID**: `accounts/fireworks/models/qwen4-max`  
+**Family**: qwen4-max
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $1.5
+
+
+- **Standard Output**: $4.5
 
 
 
