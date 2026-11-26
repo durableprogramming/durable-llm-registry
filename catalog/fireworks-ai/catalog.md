@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 ## Overview
 
 - **Provider**: fireworks-ai
-- **Total Models**: 31
-- **Last Updated**: 2026-11-25
+- **Total Models**: 32
+- **Last Updated**: 2026-11-26
 
 ## Models
 
@@ -267,6 +267,50 @@ This catalog provides a comprehensive overview of all fireworks-ai models availa
 
 
 - **Standard Output**: $0.281
+
+
+
+
+
+
+
+---
+
+
+### Inkling 2 Mini
+
+**Model ID**: `accounts/fireworks/models/inkling-2-mini`  
+**Family**: inkling-2
+#### Specifications
+
+- **Context Window**: 128,000 tokens
+
+
+- **Max Output Tokens**: 4,096 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.15
+
+
+- **Standard Output**: $0.5
 
 
 

@@ -7,8 +7,8 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ## Overview
 
 - **Provider**: openrouter
-- **Total Models**: 1136
-- **Last Updated**: 2026-11-25
+- **Total Models**: 1137
+- **Last Updated**: 2026-11-26
 
 ## Models
 
@@ -2790,7 +2790,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 393,216 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -2811,10 +2811,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.0999
+- **Standard Input**: $0.111
 
 
-- **Standard Output**: $5.0
+- **Standard Output**: $4.44
 
 
 
@@ -3339,10 +3339,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.61868
+- **Standard Input**: $0.65248
 
 
-- **Standard Output**: $1.5027
+- **Standard Output**: $1.5663
 
 
 
@@ -5340,7 +5340,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 131,072 tokens
 
 
-- **Max Output Tokens**: 16,384 tokens
+- **Max Output Tokens**: 117,964 tokens
 
 
 #### Modalities
@@ -5364,7 +5364,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Standard Input**: $0.08
 
 
-- **Standard Output**: $0.16
+- **Standard Output**: $0.45
 
 
 
@@ -8530,6 +8530,94 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 - **Standard Input**: $0.3
+
+
+- **Standard Output**: $2.5
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2 0711
+
+**Model ID**: `moonshotai/kimi-k2`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 98,304 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.57
+
+
+- **Standard Output**: $2.3
+
+
+
+
+
+
+
+---
+
+
+### MoonshotAI: Kimi K2 0905
+
+**Model ID**: `moonshotai/kimi-k2-0905`  
+**Family**: moonshotai
+#### Specifications
+
+- **Context Window**: 262,144 tokens
+
+
+- **Max Output Tokens**: 98,304 tokens
+
+
+#### Modalities
+
+
+- **Input**: text
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.6
 
 
 - **Standard Output**: $2.5
@@ -14838,7 +14926,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -14882,7 +14970,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -16114,7 +16202,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 262,144 tokens
 
 
-- **Max Output Tokens**: 81,920 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -16135,10 +16223,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.45
+- **Standard Input**: $0.5
 
 
-- **Standard Output**: $3.0
+- **Standard Output**: $3.6
 
 
 
@@ -16399,7 +16487,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.17
+- **Standard Input**: $0.1
 
 
 - **Standard Output**: $0.25
@@ -16862,7 +16950,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,024,000 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 235,929 tokens
 
 
 #### Modalities
@@ -16883,10 +16971,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.035
+- **Standard Input**: $0.06
 
 
-- **Standard Output**: $1.5
+- **Standard Output**: $1.96
 
 
 
@@ -17346,7 +17434,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 131,072 tokens
+- **Max Output Tokens**: 943,718 tokens
 
 
 #### Modalities
@@ -17367,7 +17455,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.25
+- **Standard Input**: $0.3
 
 
 - **Standard Output**: $1.0
@@ -19763,7 +19851,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 **Family**: z-ai
 #### Specifications
 
-- **Context Window**: 204,800 tokens
+- **Context Window**: 202,752 tokens
 
 
 - **Max Output Tokens**: 131,072 tokens
@@ -20250,7 +20338,7 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 - **Context Window**: 1,048,576 tokens
 
 
-- **Max Output Tokens**: 943,718 tokens
+- **Max Output Tokens**: 943,717 tokens
 
 
 #### Modalities
@@ -20271,10 +20359,10 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ##### Text Tokens
 
 
-- **Standard Input**: $0.12
+- **Standard Input**: $0.15
 
 
-- **Standard Output**: $0.38
+- **Standard Output**: $0.5
 
 
 
@@ -32820,6 +32908,50 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 ---
 
 
+### inclusionAI: LingSante 3.1 Air VL
+
+**Model ID**: `inclusionai/lingsante-3.1-air-vl`  
+**Family**: inclusionai
+#### Specifications
+
+- **Context Window**: 131,072 tokens
+
+
+- **Max Output Tokens**: 32,768 tokens
+
+
+#### Modalities
+
+
+- **Input**: text, image
+
+
+- **Output**: text
+
+
+#### Capabilities
+
+
+#### Pricing (per million tokens)
+
+
+##### Text Tokens
+
+
+- **Standard Input**: $0.06
+
+
+- **Standard Output**: $0.18
+
+
+
+
+
+
+
+---
+
+
 ### inclusionai/ling-2.6-1t
 
 **Model ID**: `inclusionai/ling-2.6-1t`  
@@ -40480,113 +40612,6 @@ This catalog provides a comprehensive overview of all openrouter models availabl
 
 
 
-
-
-
-
-
-
----
-
-
-### moonshotai/kimi-k2
-
-**Model ID**: `moonshotai/kimi-k2`  
-**Family**: moonshotai/kimi-k2
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-- **Max Output Tokens**: 131,072 tokens
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.5700000000000001
-
-
-- **Standard Output**: $2.3
-
-
-
-
-
-
-
----
-
-
-### moonshotai/kimi-k2-0905
-
-**Model ID**: `moonshotai/kimi-k2-0905`  
-**Family**: moonshotai/kimi-k2-0905
-#### Specifications
-
-- **Context Window**: 131,072 tokens
-
-
-
-#### Modalities
-
-
-- **Input**: text
-
-
-- **Output**: text
-
-
-#### Capabilities
-
-
-- Function calling
-
-- Json output
-
-- Structured output
-
-- Tool choice
-
-
-
-#### Pricing (per million tokens)
-
-
-##### Text Tokens
-
-
-- **Standard Input**: $0.39999999999999997
-
-
-- **Standard Output**: $2.0
-
-
-
-
-
-- **Cached Output**: $0.15
 
 
 
